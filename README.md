@@ -61,6 +61,26 @@ qa/                   the QA suite
 docs/                 method, changelog, open questions
 ```
 
+## On a telephone
+
+The book is one page, and on a phone it is about four hundred thousand pixels
+tall. Three things make that work:
+
+- **The plates keep a floor width and scroll sideways.** An 860-unit sheet poured
+  into a 390px screen is a scale of 0.36, and a 9pt label becomes 3pt — present
+  and unreadable. On a narrow screen each plate holds 720px and the reader swipes
+  it, which is what one does with a large map on a small table. The figure number
+  says so: *Figure 18 · swipe the plate →*.
+- **`content-visibility:auto`** on entries and figures, so the browser lays out
+  and paints only what is near the viewport. First load drops from 1.4s to 0.4s.
+  Find-in-page still reaches inside; `contain-intrinsic-size` keeps the scrollbar
+  honest to within about three per cent.
+- **Footnote jumps are instantaneous on mobile.** A note can be three hundred
+  thousand pixels away, and animating that is several seconds of the page flying
+  past.
+
+GitHub Pages serves the file gzipped: **about 360 KB over the wire.**
+
 ## The QA suite
 
 ```bash

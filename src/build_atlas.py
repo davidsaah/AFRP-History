@@ -137,6 +137,7 @@ class Sheet:
 
     def __init__(self, lon0, lon1, lat0, lat1, x, y, w, h, pad=0.0):
         self.bbox = (lon0 - pad, lon1 + pad, lat0 - pad, lat1 + pad)
+        self.pathtol = 1.15
         self.x, self.y, self.w, self.h = x, y, w, h
         self.lam0 = math.radians((lon0 + lon1) / 2)
         span = lat1 - lat0
@@ -183,16 +184,21 @@ class Sheet:
         return dkm / max(1e-9, math.hypot(x2 - x1, y2 - y1))
 
     # ── layers ────────────────────────────────────────────────────
-    def _path(self, seg, close=False, tol=1.15):
-        # decimate to the pixel: a 10m coastline inlined verbatim runs to tens
-        # of megabytes and none of it is visible at this scale.
+    def _path(self, seg, close=False, tol=None):
+        # Decimate to the pixel: a 10m coastline inlined verbatim runs to tens of
+        # megabytes and none of it is visible at this scale. Coordinates go out as
+        # whole units — the plate is 860 units wide and is never displayed larger
+        # than that, so a tenth of a unit is a tenth of a pixel nobody can see, and
+        # it costs two characters on every point of every coastline.
+        if tol is None:
+            tol = self.pathtol
         d, lx, ly = [], None, None
         n = len(seg)
         for i, (lo, la) in enumerate(seg):
             px, py = self.P(la, lo)
             if i and i < n - 1 and lx is not None and abs(px - lx) < tol and abs(py - ly) < tol:
                 continue
-            d.append(('M' if not d else 'L') + '%.1f %.1f' % (px, py))
+            d.append(('M' if not d else 'L') + '%.0f %.0f' % (px, py))
             lx, ly = px, py
         if close:
             d.append('Z')
@@ -401,6 +407,8 @@ class Flat:
     conic would fold. Same interface as Sheet."""
     def __init__(self, lon0, lon1, lat0, lat1, x, y, w, h):
         self.bbox = (lon0, lon1, lat0, lat1)
+        # a continent at 772px: two units of slack on the coast is invisible
+        self.pathtol = 2.4
         self.x, self.y, self.w, self.h = x, y, w, h
         self.k = math.cos(math.radians((lat0 + lat1) / 2))
         self.sx = w / ((lon1 - lon0) * self.k)

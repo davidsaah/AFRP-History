@@ -1926,6 +1926,48 @@ footer.end{border-top:1px solid #DCD6C9;margin-top:70px;padding:26px 0 90px;colo
   .eraband h2{font-size:1.5rem}
   .fixgrid{grid-template-columns:1fr}
 }
+
+/* ═══════════ reading it on a telephone ═══════════
+   Two problems, and they are different problems.
+
+   The plates are drawn on an 860-unit sheet. Poured into a 390px screen that is
+   a scale of 0.36, and a 9pt label becomes 3pt — present, and unreadable. So on
+   a narrow screen the plate keeps a floor width and the reader swipes it
+   sideways, which is what one does with a large map on a small table. The same
+   goes for the wide tables: columns intact, moved under the thumb, rather than
+   reflowed into towers.
+
+   And the book is four hundred thousand pixels tall. content-visibility lets the
+   browser skip layout and paint for everything off-screen, which is nearly all of
+   it. Find-in-page still reaches inside; the reserved heights keep the scrollbar
+   from lurching. */
+@media (max-width:760px){
+  /* A grid or flex item defaults to min-width:auto, so a 720px plate inside one
+     stretches its own track and quietly pushes the prose off the screen instead
+     of scrolling. Every box between the entry and the plate has to be told it
+     may be narrower than its contents. */
+  .entry,.ebody,.more,.entry>*,figure,.figwrap{min-width:0}
+  figure,.figwrap{max-width:100%}
+  .figwrap{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;
+    overscroll-behavior-x:contain;padding:6px 0 12px}
+  .figwrap svg{width:720px;min-width:720px;max-width:none;height:auto}
+  .fignum::after{content:" · swipe the plate →";letter-spacing:.12em;color:#9A958C}
+  .ntwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table.ntable{min-width:580px}
+  .entry{content-visibility:auto;contain-intrinsic-size:auto 620px}
+  figure{content-visibility:auto;contain-intrinsic-size:auto 700px}
+  /* A footnote can be three hundred thousand pixels away. Animating that is
+     several seconds of the page flying past; on a telephone it should just
+     arrive. */
+  html{scroll-behavior:auto}
+  blockquote{padding:14px 16px;font-size:1rem}
+  .fix{padding:14px 16px}
+  figcaption{padding:6px 14px 14px}
+  .figtitle{padding:12px 14px 0;font-size:1rem}
+}
+@media (max-width:760px) and (prefers-reduced-motion:no-preference){
+  .figwrap{scroll-behavior:smooth}
+}
 @media print{
   body{font-size:10.5pt;background:#fff}
   .pbar{display:none}
