@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch and QA artefacts
+qa_*.png
+*.tmp
+/tmp/
+
+# The source library is not redistributable — see docs/SOURCES.md
+/library/
+*.pdf

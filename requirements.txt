@@ -1,0 +1,8 @@
+# The book itself builds with the standard library alone.
+# The atlas figures need cartopy for the Natural Earth shapefiles:
+cartopy>=0.22
+shapely>=2.0
+# The QA suite drives headless Chromium:
+playwright>=1.40
+# Image handling for the register facsimiles:
+pillow>=10.0
