@@ -2,14 +2,17 @@
 
 Ordered by how much they would change the book.
 
-## 1. Ankara — the eighty names of 1596
+## 1. Ankara — already answered, in print
 
-A *mufaṣṣal* register names every household head with his father's name. The
-1596–97 defter of the nāḥiya of al-Quds therefore **names all eighty heads of
-household at Ramallah**. What has been published is Hütteroth and Abdulfattah's
-*tabulation* — counts, not names. Nobody has asked for the folio.
+**Closed on paper, 21 August 2026.** The eighty named household heads of Ramallah
+in the 1596–97 *mufaṣṣal* do not need a trip to Ankara. Volume 6 of
+**محمد عدنان البخيت ونوفان رجا السواريه، لواء القدس الشريف** (London: al-Furqān,
+2005–2011, 6 vols, ISBN 9781788146425) is **T.D. 515**, given in the Ottoman with
+a facing Arabic translation. Volumes 4 and 5 are registers 289 and 516 — the two
+John transliterated — and their editors had to decide حديد against حداد and
+defend it. £94.72 from the publisher.
 
-Where: Tapu ve Kadastro Genel Müdürlüğü, Ankara.
+**What remains:** buying it, and reading it.
 
 ## 2. Istanbul — is it حديد or حداد?
 
@@ -44,6 +47,29 @@ of Jerusalem register 48, 23 Dhū al-Qaʿda 972 / 22 June 1565. **That reading c
 from a machine decode of the IRCICA scan and has not been checked against the page
 images.** It is not the waqf entry (which is p. 88, 29 June 1565) and should not
 be cited until somebody reads the folio.
+
+## 4b. The Ḥaram al-Sharīf corpus — searched, 21 August 2026
+
+**Result: nothing of ours in the published part.** Recorded here so nobody runs it
+twice.
+
+- **The microfilm route is dead for now.** McGill's four rolls are open on
+  archive.org, but the OCR is stroke-noise: in 310,000 characters of recognised
+  Arabic from a Jerusalem religious archive, القدس، الحرم، الشريف and قرية appear
+  **zero** times and محمد appears **once**.
+- **The published catalogue was searched in full.** Aljoumani, Bhalloo & Hirschler
+  (2024). The ridge villages appear **twice**: a queried جفنا الجوز؟ in a cotton
+  debt of 1374, and a 1914 letter about the imam of Silwād in the nāḥiya of
+  ʿAbawīn.
+- **A claim of this book was corrected as a result.** "Men of Jifnā in the Ḥaram
+  registers in 1374" was one man, and the village is a queried reading. Printed
+  as a FIX box in the new Era Nine entry.
+
+**What would change it:** Little's *Catalogue* (Beirut, 1984) has an index of
+places and is print-only — it is the only way to search the unpublished 900
+document by document without going to Jerusalem. The **CALD** database
+(ilm-corpus.irht.cnrs.fr, free registration) may also cover the corpus. Neither
+was reachable from this project's tooling.
 
 ## 5. Things the book should be telling through Ramallah's people and is not
 

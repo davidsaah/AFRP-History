@@ -1,5 +1,111 @@
 # Changelog
 
+## v5.3 — 21 August 2026
+
+### The Ḥaram al-Sharīf corpus, searched — and a claim of ours corrected
+
+The 1390s Jerusalem corpus was the one place that might have put a named person
+from this ridge inside the 931-year void. It was searched. **Result: nothing of
+ours in the published part**, and one of this book's own claims turned out to be
+an over-reading.
+
+**The microfilm route is dead for now.** McGill's four rolls are open on
+archive.org and the OCR is stroke-noise: in **310,000 characters** of recognised
+Arabic from a Jerusalem religious archive, القدس، الحرم، الشريف and قرية occur
+**zero times** and محمد occurs **once**. The commonest strings the software
+produced are ااا and الا.
+
+**So the published catalogue was searched instead** — Aljoumani, Bhalloo &
+Hirschler (2024), which a reader can check. Across the whole of it the villages
+of this ridge appear **twice**: a cotton debt of 1374 whose place-name is a
+queried reading, and a **1914** letter about the imam of Silwād.
+
+### New entry — ONE CHRISTIAN, ONE DEBT
+
+Era Nine. **7 Ṣafar 776 / late July 1374**: *Niʿma ibn Bishāra al-Naṣrānī*, "the
+Christian," buys cotton on credit from the provisioner *Ḥājj ʿUmar ibn Muḥammad
+ibn ʿUmar al-ʿAllāf* — 218 dirhams at six dirhams a week, two witnesses, the whole
+instrument later struck through, which is how a debt is marked paid. Text #922/4.
+
+The entry prints the negative search in full, so nobody runs it twice.
+
+### A correction, in a FIX box
+
+Earlier editions listed **"men of Jifnā in the Ḥaram registers in 1374"** among
+the dated records inside the blank. Two errors: it is **one man, not men**, and
+the village is **a queried reading** — the scribe's <span dir="rtl">جفنا الجوز؟</span>,
+which the catalogue's index keeps separate from Jifnā north of Ramallah. The
+document is kept and demoted: evidence about the century, not about this district.
+The claim is corrected in both places it appeared.
+
+### Also
+
+- `OPEN_QUESTIONS.md` §1 (Ankara) **closed on paper**: the eighty named heads of
+  1596–97 are printed in al-Furqān volume 6. What remains is buying it.
+- New §4b records the Ḥaram search and what would change the result — Little's
+  catalogue index (print only) and the CALD database.
+
+
+## v5.2 — 21 August 2026
+
+### The two strands, made visible
+
+Every era braided two stories — this ridge, and the family's claimed line through
+Arabia and Syria — without telling the reader which was which. The `sect()`
+waymarks already existed but covered only nine of fourteen chapters. They are now
+systematic: **What the ground says** and **And in our own line** in every era, and
+from Era Eleven a single merged waymark, *The ground and the line, together*,
+because after 1562 there is only one story.
+
+### Era Seven reordered, and a contradiction printed
+
+The chapter ran 324 → 473 → 528 → back to 455 → forward to 563 → back to 543.
+Worse, the FIX box inside THE DAM BREAKS ended by pointing at "the next entries,"
+which were sixty lines earlier. The line strand now runs **455 → 473 → 528 → 543
+→ 563**, with the dateless sovereignty essay last, and Amorkesos moved out of the
+land strand where he did not belong.
+
+### New entry — THE DAM CANNOT HAVE SENT THEM NORTH
+
+The book established, from ʿInān 75 and ʿAbadān 1, that Ghassān was a named
+people in north-central Arabia by **c. 250**. The dam's first dated breach is
+**455**. Both were in print and had never been set side by side. The new entry
+does it, tests three ways out, and keeps the third: **the dam is not the cause,
+it is the memory** — the dispersal was a drift of centuries, and what the dam
+supplied was a date and an image. The migration survives; the mechanism does not.
+Printed with a FIX box correcting this book's own previous correction.
+
+### New entry — Riyam 2006-17, twelve lands in the order he crossed them
+
+A third inscription, published 2016 and unknown to earlier editions. A Sabaean
+envoy is sent north, comes home, and has the road carved into a dedication to
+Taʾlab Riyām: **Asd, Nizār, Tanūkh, Liḥyān, Tadmur, Nabaṭ, Rūmān, Lakhm, Ghassān,
+Maʿadd, Ṭayyiʾ, Khaṣaṣat**. New plate. The Azd are stop one; **Ghassān is stop
+nine**. The caution is printed too: the list may be a register of lands reached
+rather than an ordered march, and the dating is palaeographic.
+
+### New entry — Arce on the limes Arabicus
+
+Qaṣr al-Ḥallābāt: a Roman fort of the *limes* rebuilt as a Ghassanid and monastic
+complex and again as an Umayyad palace, three regimes in one set of walls with no
+destruction layer. Carries the historiographical point too — the Ghassanid
+century fell between classical and Islamic archaeology and nobody dug it. **A gap
+in a record is not always an absence in the world.**
+
+### New entry — Walmsley on Pella, Jarash and ʿAmmān
+
+Occupation, markets and church repair running straight through 636. Removes the
+objection that the plateau was empty when the tradition puts our people on it —
+without pretending it finds anybody of ours.
+
+### Also
+
+- Ghadban (2015) and Aljoumani & Hirschler (2023) are now named files, not just
+  citations. The void entry gains **Burhān al-Dīn** — a middling Jerusalem
+  scholar of the 1390s whose library survives item by item, a day's walk from
+  this ridge and in the exact century our line is silent.
+
+
 ## v5.1 — 21 August 2026
 
 ### Ramallah's own people, told through their own scholarship

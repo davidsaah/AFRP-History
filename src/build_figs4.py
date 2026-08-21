@@ -741,3 +741,91 @@ def fig_terraces():
         s.append(txt(sx + off, yb2 + 30, l2, 8.4, BODY, 'start'))
     s.append('</svg>')
     return ''.join(s)
+
+
+# ═════════════════════ 7. Riyam 2006-17 — twelve lands, in the order he crossed them
+def fig_riyam_road():
+    """The itinerary of a Sabaean envoy, c. 260–280, exactly as the stone gives it.
+
+    The point of the plate is position: the land of the Azd is the first stop and
+    the land of Ghassān is the ninth, with Palmyra, the Nabataeans, Rome and
+    Lakhm in between. In the third century they are already two different places.
+    """
+    W, H = 860, 520
+    s = []
+    _head(s, W, H, 'TWELVE LANDS, IN THE ORDER HE CROSSED THEM',
+          'Riyam 2006-17: a Sabaean envoy is sent north, comes home, and has the road carved '
+          'into a dedication to Taʾlab Riyām. Third century AD, probably c. 260–280.',
+          'The twelve lands named in the Sabaic inscription Riyam 2006-17 in the order the envoy crossed them')
+
+    # (sabaic-as-given, what it is, kind)
+    STOPS = [
+        ('Asdan',      'al-Asd — the Azd,<br>the family’s own tribe', 'us'),
+        ('Nizārum',    'Nizār', ''),
+        ('Tanūkh',     'Tanūkh —<br>lower Mesopotamia', ''),
+        ('Liḥyān',     'Liḥyān — Dedan,<br>al-ʿUlā', ''),
+        ('Tadmurum',   '<tspan font-weight="700">Palmyra</tspan>', 'big'),
+        ('Nabaṭum',    'the Nabataeans —<br>Petra, and this country', 'big'),
+        ('Rumān',      '<tspan font-weight="700">Rome</tspan>', 'big'),
+        ('Lakhmum',    'Lakhm — al-Ḥīra,<br>the Persian client', ''),
+        ('Ghassān',    'GHASSĀN —<br>already a land of its own', 'us'),
+        ('Maʿaddum',   'Maʿadd', ''),
+        ('Ṭayyum',     'Ṭayyiʾ', ''),
+        ('Khaṣaṣatan', 'Khaṣaṣat', ''),
+    ]
+
+    x0, x1 = 62, W - 62
+    per = 6
+    rowy = [150, 300]
+    dx = (x1 - x0) / (per - 1)
+
+    def place(i):
+        r, c = divmod(i, per)
+        return (x0 + c * dx) if r == 0 else (x1 - c * dx), rowy[r]
+
+    # the road itself
+    for r in range(2):
+        s.append(f'<line x1="{x0}" y1="{rowy[r]}" x2="{x1}" y2="{rowy[r]}" '
+                 f'stroke="{TAN}" stroke-width="3" stroke-linecap="round"/>')
+    s.append(f'<path d="M{x1} {rowy[0]} q 34 0 34 34 t -34 34" fill="none" '
+             f'stroke="{TAN}" stroke-width="3"/>')
+
+    s.append(txt(x0 - 6, rowy[0] + 44, 'HE SETS OUT FROM SABAʾ', 9.2, GOLD, 'start', '700', 'normal', '1.2'))
+    s.append(txt(x0 - 6, rowy[0] + 56, 'the highlands of Yemen', 8.6, GREY, 'start', '400', 'italic'))
+    s.append(txt(x0 - 6, rowy[1] + 96, 'AND TAʾLAB RIYĀM BROUGHT HIM BACK', 9.2, GOLD, 'start', '700', 'normal', '1.2'))
+    s.append(txt(x0 - 6, rowy[1] + 108, '“from the land of the North”', 8.6, GREY, 'start', '400', 'italic'))
+
+    for i, (name, what, kind) in enumerate(STOPS):
+        cx, cy = place(i)
+        up = (i // per) == 0
+        us = kind == 'us'
+        big = kind == 'big'
+        rad = 15 if us else (12 if big else 9)
+        fill = '#E4F0E8' if us else ('#FFFFFF' if big else SURF)
+        edge = GREEN if us else (GOLD if big else FOLIO)
+        s.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{rad}" fill="{fill}" '
+                 f'stroke="{edge}" stroke-width="{2.0 if us else 1.2}"/>')
+        s.append(txt(cx, cy + 3.4, str(i + 1), 9.4 if us else 8.6,
+                     GREEN if us else (GOLD if big else FOLIO), 'middle', '700'))
+        ny = cy - rad - 12 if up else cy + rad + 16
+        s.append(txt(cx, ny, esc(name), 10.4 if us else 9.6,
+                     DARK if us else INK, 'middle', '700' if us else '600'))
+        for k, line in enumerate(what.split('<br>')):
+            yy = (ny - 11 - (len(what.split('<br>')) - 1 - k) * 10.5) if up else (ny + 12 + k * 10.5)
+            s.append(txt(cx, yy, line, 8.3, GREEN if us else GREY, 'middle',
+                         '700' if us else '400', 'normal' if us else 'italic'))
+
+    # the reading
+    yb = 448
+    s.append(f'<line x1="40" y1="{yb}" x2="{W-40}" y2="{yb}" stroke="{RULE}"/>')
+    s.append(txt(40, yb + 22, 'THE AZD ARE STOP ONE. GHASSĀN IS STOP NINE.',
+                 11, GOLD, 'start', '700', 'normal', '1.2'))
+    s.append(txt(40, yb + 38,
+                 'In the third century AD they are two different lands, and the road between them runs past '
+                 'Palmyra, the Nabataeans, Rome and al-Ḥīra.',
+                 9.4, BODY, 'start'))
+    s.append(txt(40, yb + 52,
+                 'The dam’s first recorded breach is in 455 — a hundred and seventy-five years after this stone was cut.',
+                 9.4, RUST, 'start', '700'))
+    s.append('</svg>')
+    return ''.join(s)

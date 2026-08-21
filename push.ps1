@@ -1,82 +1,99 @@
 # ─────────────────────────────────────────────────────────────────────
 #  AFRP-History — stage everything, commit, push to GitHub
-#  Run:  right-click → Run with PowerShell
-#     or:  powershell -ExecutionPolicy Bypass -File .\push.ps1
+#  Double-click RUN_ME_push_to_github.bat, or:
+#     powershell -ExecutionPolicy Bypass -File .\push.ps1
 # ─────────────────────────────────────────────────────────────────────
 $ErrorActionPreference = 'Stop'
 $repo = 'C:\Users\David\Projects\AFRP-History'
-
 Set-Location $repo
 Write-Host "`n=== repo: $repo ===" -ForegroundColor Cyan
 
-# 0. sanity
 if (-not (Test-Path (Join-Path $repo '.git'))) {
-    Write-Host "No .git here. Initialising and wiring the remote..." -ForegroundColor Yellow
-    git init
-    git branch -M main
+    git init; git branch -M main
     git remote add origin https://github.com/davidsaah/AFRP-History.git
 }
-
-# 1. who is committing
 if (-not (git config user.name))  { git config user.name  'David Saah' }
 if (-not (git config user.email)) { git config user.email 'davidsaah@gmail.com' }
-
-# 2. make sure the remote is right
-$remote = (git remote get-url origin 2>$null)
-if (-not $remote) { git remote add origin https://github.com/davidsaah/AFRP-History.git }
+if (-not (git remote get-url origin 2>$null)) {
+    git remote add origin https://github.com/davidsaah/AFRP-History.git
+}
 Write-Host "remote: $(git remote get-url origin)"
 
-# 3. what is about to go in
-Write-Host "`n=== changes ===" -ForegroundColor Cyan
+Write-Host "`n=== changes about to be committed ===" -ForegroundColor Cyan
 git status --short
 
-# 4. stage and commit
 git add -A
 
 $msg = @"
-v5.1 - Ramallah's own people, and the mobile/Pages build
+v5.3 - the two strands, the dam, and the Haram search
 
-The book
-- New entry: THE TERRACES. The dry-stone staircase hillsides and the corbelled
-  huts standing in them, with al-Houdalieh & Ghadban's 2013 count: 167
-  watchtowers over some 3,000 dunums in al-Tireh quarter and 'Ain Qinia
-  village (IJAH 7:5, 509-535). New plate: the hillside in section, a cutaway
-  of the corbelled roof, and the three watch seasons. The entry carries no
-  date - there is no evidence for when Palestinian dry-stone building begins,
-  and a wall repaired every year has no stratigraphy.
-- Jericho re-attributed. Since 1997 Tell es-Sultan has been dug by the
-  Palestinian Department of Antiquities and Cultural Heritage with Rome
-  La Sapienza, Hamdan Taha and Lorenzo Nigro directing, through the 2019-2023
-  seasons. Their Early Bronze sequence is now the one the book follows and
-  the 2023 UNESCO nomination is named as the Palestinian document it is.
-  Printed as a FIX box: a correction of attribution, not of fact.
-- The Amarna letters rewritten as a labour file. EA 365 (Louvre AO 7098)
-  quoted in full - Biridiya of Megiddo furnishing the corvee for Shunama -
-  with massu, the same mas the Hebrew Bible uses.
-- Philistine arrival described as southern-European-related throughout.
+THE BOOK  (34 figures, 178 notes, 1,702,555 bytes)
 
-Earlier, uncommitted
-- Era Six entry: WERE THE GHASSANIDS SOVEREIGN - and why it is being asked.
-- The 1948 al-Khuri monograph read: it calls the Ghassanid descent zaam in
-  its first sentence and prints where its own chain breaks. Verdict box
-  rewritten around it. The modern claimant is named nowhere in the book.
+Structure
+- Every era now says which strand it is in. The sect() waymarks covered
+  nine chapters of fourteen and are now systematic: "What the ground says"
+  and "And in our own line" throughout, merging from Era Eleven into "The
+  ground and the line, together" - because after 1562 there is one story.
+- Era Seven reordered. It ran 324 -> 473 -> 528 -> back to 455 -> 563 ->
+  back to 543, and the FIX box inside THE DAM BREAKS pointed forward at
+  entries sixty lines earlier. The line strand now runs 455, 473, 528,
+  543, 563, with the dateless sovereignty essay last.
+
+New entries
+- THE DAM CANNOT HAVE SENT THEM NORTH. Ghassan is attested in the north
+  by c. 250 (Inan 75, Abadan 1); the dam first breaches in 455. Both were
+  in print and had never been set side by side. Three ways out are tested;
+  the third is kept: the dam is not the cause, it is the memory. The
+  migration survives, the mechanism does not. Corrects this book's own
+  previous correction.
+- A MAN WALKED THIS ROAD AND HAD IT CARVED. Riyam 2006-17, published 2016:
+  a Sabaean envoy lists the twelve lands he crossed - Asd, Nizar, Tanukh,
+  Lihyan, Tadmur, Nabat, Ruman, Lakhm, Ghassan, Ma'add, Tayyi', Khasasat.
+  New plate. The Azd are stop one; Ghassan is stop nine.
+- WHAT THEY LEFT. Arce on Qasr al-Hallabat: a Roman fort of the limes
+  rebuilt as a Ghassanid hall and again as an Umayyad palace, three
+  regimes in one set of walls. A gap in a record is not always an absence
+  in the world.
+- THE TOWNS DO NOT DIE. Walmsley on Pella, Jarash and Amman, 550-750.
+- ONE CHRISTIAN, ONE DEBT. Text #922/4, 7 Safar 776 / late July 1374:
+  Ni'ma ibn Bishara al-Nasrani buys cotton on credit, 218 dirhams at six
+  a week, two witnesses, later struck through. With the whole negative
+  Haram search printed.
+- THE TERRACES. 167 watchtowers over some 3,000 dunums in al-Tireh and
+  'Ain Qinia (al-Houdalieh & Ghadban 2013). New plate. No date, because
+  a wall repaired every year has no stratigraphy.
+
+Corrections
+- "Men of Jifna in the Haram registers in 1374" was one man, and the
+  village is a queried reading - the scribe's Jifna al-Jawz? Demoted to
+  evidence about the century, not this district. FIX box.
+- Jericho re-attributed to the Palestinian-Italian expedition (MOTA-DACH
+  with Rome La Sapienza, Hamdan Taha and Lorenzo Nigro, from 1997). FIX
+  box. Kenyon keeps the tower.
+- The Amarna letters retold as a labour file through EA 365.
+- Philistine arrival now southern-European-related throughout.
+
+THE SEARCH
+- The Haram al-Sharif corpus was searched. McGill's microfilm OCR is
+  stroke-noise: in 310,000 characters of recognised Arabic from a
+  Jerusalem religious archive, al-Quds, al-Haram, al-Sharif and qarya
+  occur zero times. The published catalogue was searched instead; the
+  ridge villages appear twice in the whole of it.
+
+INFRASTRUCTURE
 - Mobile and GitHub Pages: responsive figure scrolling, content-visibility,
-  scroll-behavior fix under 760px; atlas path precision cut; index.html
-  landing page; .nojekyll. First load 1.42s -> 0.43s.
-- New literature reviewed: 35 files manifested, renamed, and 20 claim-related
-  items separated out. None fills a line.
-- docs/: CHANGELOG, OPEN_QUESTIONS and SOURCES brought up to date.
+  scroll-behavior fix under 760px, atlas path precision cut. First load
+  1.42s -> 0.43s. index.html landing page, .nojekyll.
+- docs/: CHANGELOG, OPEN_QUESTIONS (Ankara closed on paper - the eighty
+  named heads of 1596-97 are printed in al-Furqan vol. 6), SOURCES.
 "@
 
 git commit -m $msg
 
-# 5. push
 Write-Host "`n=== pushing ===" -ForegroundColor Cyan
-$hasUpstream = (git rev-parse --abbrev-ref --symbolic-full-name '@{u}' 2>$null)
-if ($hasUpstream) { git push } else { git push -u origin main }
+if (git rev-parse --abbrev-ref --symbolic-full-name '@{u}' 2>$null) { git push } else { git push -u origin main }
 
 Write-Host "`nDone. https://github.com/davidsaah/AFRP-History" -ForegroundColor Green
-Write-Host "If a browser or device-code prompt appears, that is GitHub asking you to sign in - approve it and the push finishes."
-Write-Host "`nNext: Settings -> Pages -> Deploy from branch -> main -> / (root)."
+Write-Host "Next: Settings -> Pages -> Deploy from branch -> main -> / (root)."
 Write-Host "The site will be https://davidsaah.github.io/AFRP-History/"
 Read-Host "`nPress Enter to close"
