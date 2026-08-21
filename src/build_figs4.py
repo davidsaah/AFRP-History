@@ -567,3 +567,177 @@ def fig_registers():
     s.append(txt(40, H - 16, 'Transliterated by John Mogannam from Registers 289 and 516; query marks and alternative readings are his, and are kept.', 8.8, GREY, 'start', '400', 'italic'))
     s.append('</svg>')
     return ''.join(s)
+
+
+# ═════════════════════ 6. the terraces, and the towers standing in them
+def _rng(seed):
+    """A tiny deterministic generator, so the plate is byte-identical every build."""
+    st = [seed & 0xFFFFFFFF]
+    def nxt(lo, hi):
+        st[0] = (1103515245 * st[0] + 12345) & 0x7FFFFFFF
+        return lo + (st[0] >> 8) % max(1, int((hi - lo) * 100) + 1) / 100.0
+    return nxt
+
+
+def fig_terraces():
+    """A hillside in section: the dry-stone terraces and one watchtower.
+
+    The plate carries one count — 167 towers over some three thousand dunums in
+    al-Tireh quarter and ʿAin Qinia village — and one fact about how they are
+    built, which is that they are not built with anything.
+    """
+    W, H = 860, 548
+    s = []
+    _head(s, W, H, 'THE OLDEST TECHNOLOGY IN THIS DISTRICT, AND IT IS STILL IN USE',
+          'A hillside above Ramallah drawn in section: the dry-stone terraces, and one of the '
+          'one hundred and sixty-seven watchtowers still standing in al-Tireh and ʿAin Qinia.',
+          'A cross-section of a terraced hillside above Ramallah with a dry-stone watchtower, '
+          'a cutaway of its corbelled roof, and the three watch seasons of the year')
+
+    rnd = _rng(1562)
+    STONE, EDGE = '#EDE7DA', '#CFC6B2'
+    xL, xR, yB, yT = 56, 540, 336, 120
+    N = 7
+    sw, sh = (xR - xL) / N, (yB - yT) / N
+
+    # ── the ground itself, drawn as a stepped profile and filled
+    prof = [(xL - 16, yB + 18), (xL - 16, yB)]
+    for i in range(N):
+        x0 = xL + i * sw
+        y = yB - i * sh
+        prof += [(x0, y), (x0 + sw, y), (x0 + sw, y - sh)]
+    prof += [(xR + 24, yT - sh), (xR + 24, yB + 18)]
+    s.append('<polygon points="' + ' '.join(f'{x:.1f},{y:.1f}' for x, y in prof) +
+             f'" fill="{LAND}" stroke="none"/>')
+
+    # ── the risers: every one of them a wall of stones fitted without mortar
+    for i in range(N):
+        xw = xL + (i + 1) * sw
+        ytop, ybot = yB - (i + 1) * sh, yB - i * sh
+        cy = ybot
+        while cy > ytop + 1.0:
+            ch = min(rnd(4.6, 6.6), cy - ytop)
+            cx = xw - 13 - rnd(0.0, 3.0)
+            while cx < xw + 13:
+                bw = rnd(5.5, 11.0)
+                s.append(f'<rect x="{max(cx, xw-13):.1f}" y="{cy-ch:.1f}" '
+                         f'width="{min(bw, xw+13-max(cx, xw-13)):.1f}" '
+                         f'height="{ch:.1f}" fill="{STONE}" stroke="{EDGE}" stroke-width=".55"/>')
+                cx += bw
+            cy -= ch
+        s.append(f'<line x1="{xw:.1f}" y1="{ytop:.1f}" x2="{min(xw+sw, xR+24):.1f}" '
+                 f'y2="{ytop:.1f}" stroke="{TAN}" stroke-width="1.1"/>')
+
+    # ── olives on the treads
+    def olive(x, y, r=9.0):
+        s.append(f'<line x1="{x:.1f}" y1="{y:.1f}" x2="{x:.1f}" y2="{y-r*0.9:.1f}" '
+                 f'stroke="{BODY}" stroke-width="1.4"/>')
+        for a in (-0.9, 0.0, 0.9):
+            s.append(f'<circle cx="{x + a*r*0.60:.1f}" cy="{y - r*1.22 - (0 if a else 3):.1f}" '
+                     f'r="{(0.78 if a else 1.0)*r*0.60:.1f}" fill="#DDE6D8" '
+                     f'stroke="#8FA98C" stroke-width=".7"/>')
+    for i, k in ((0, 0.40), (1, 0.32), (1, 0.70), (3, 0.28), (3, 0.66),
+                 (4, 0.42), (5, 0.34), (5, 0.72), (6, 0.48)):
+        olive(xL + (i + k) * sw, yB - i * sh)
+
+    # ── the tower, standing on the third terrace
+    tx, ty = xL + 2.46 * sw, yB - 2 * sh
+    tw, th = 33.0, 40.0
+    s.append(f'<path d="M{tx-tw/2:.1f} {ty:.1f} L{tx-tw/2:.1f} {ty-th:.1f} '
+             f'Q{tx:.1f} {ty-th-18:.1f} {tx+tw/2:.1f} {ty-th:.1f} L{tx+tw/2:.1f} {ty:.1f} Z" '
+             f'fill="{STONE}" stroke="{GREY}" stroke-width="1.1"/>')
+    cy = ty
+    while cy > ty - th:
+        cx = tx - tw / 2 - rnd(0.0, 3.0)
+        while cx < tx + tw / 2:
+            bw = rnd(4.5, 8.5)
+            xa = max(cx, tx - tw / 2)
+            s.append(f'<rect x="{xa:.1f}" y="{cy-5.0:.1f}" '
+                     f'width="{min(bw, tx+tw/2-xa):.1f}" height="5.0" fill="none" '
+                     f'stroke="{EDGE}" stroke-width=".55"/>')
+            cx += bw
+        cy -= 5.0
+    s.append(f'<path d="M{tx-5.5:.1f} {ty:.1f} L{tx-5.5:.1f} {ty-14:.1f} Q{tx:.1f} {ty-20:.1f} '
+             f'{tx+5.5:.1f} {ty-14:.1f} L{tx+5.5:.1f} {ty:.1f} Z" fill="{DARK}" opacity=".82"/>')
+    s.append(txt(tx, ty - th - 30, 'a watchtower', 9.2, PLUM, 'middle', '700'))
+    s.append(txt(tx, ty - th - 19, '<tspan class="ar">قصر · منطرة</tspan>', 9.6, PLUM, 'middle'))
+    s.append(f'<line x1="{tx:.1f}" y1="{ty-th-15:.1f}" x2="{tx:.1f}" y2="{ty-th-24:.1f}" '
+             f'stroke="{PLUM}" stroke-width=".8"/>')
+
+    s.append(txt(xR + 22, yT - sh + 16, 'the ridge, and the village on it', 9.0, GREY, 'end', '400', 'italic'))
+    s.append(txt(xL, yB + 38, 'Every riser is a wall; every tread is a field.', 9.4, GOLD, 'start', '700'))
+    s.append(txt(xL, yB + 52,
+                 'The walls are called <tspan class="ar">سناسل</tspan>, and nothing holds them up but their own weight.',
+                 8.8, GREY, 'start', '400', 'italic'))
+
+    # ── the cutaway, right-hand panel
+    px, py, pw, ph = 588, 94, 232, 268
+    s.append(f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" fill="#FFFFFF" '
+             f'stroke="{RULE}" rx="4"/>')
+    s.append(txt(px + 12, py + 20, 'HOW THE ROOF CLOSES', 9.4, GOLD, 'start', '700', 'normal', '1.2'))
+    s.append(txt(px + 12, py + 33, 'a section through the hut — no mortar anywhere in it',
+                 8.4, GREY, 'start', '400', 'italic'))
+    cx0, base = px + pw / 2, py + 168
+    OUT, CHAM = 47.0, 27.0
+    courses, chh = 12, 11.0
+    for i in range(courses):
+        t = i / (courses - 1.0)
+        inner = CHAM * (1.0 - t ** 2.3)
+        yy = base - i * chh
+        for sgn in (-1, 1):
+            xa = cx0 + sgn * inner
+            xb = cx0 + sgn * OUT
+            lo, hi = min(xa, xb), max(xa, xb)
+            cx = lo
+            while cx < hi - 0.5:
+                bw = min(rnd(7.0, 16.0), hi - cx)
+                s.append(f'<rect x="{cx:.1f}" y="{yy-chh:.1f}" width="{bw:.1f}" '
+                         f'height="{chh-1:.1f}" fill="{STONE}" stroke="{GREY}" '
+                         f'stroke-width=".7"/>')
+                cx += bw
+    s.append(f'<rect x="{cx0-7:.1f}" y="{base-26:.1f}" width="14" height="26" fill="{DARK}" opacity=".82"/>')
+    s.append(f'<line x1="{px+16}" y1="{base:.1f}" x2="{px+pw-16}" y2="{base:.1f}" '
+             f'stroke="{BODY}" stroke-width="1.2"/>')
+    for j, line in enumerate([
+            'Each course oversails the one below until the last',
+            'two stones meet. The stones are rubble — irregular,',
+            'polygonal, fitted to their own shape, not cut to a course.']):
+        s.append(txt(px + 12, base + 20 + j * 12, line, 8.3, BODY, 'start'))
+    for j, line in enumerate([
+            'A farmer could build one. Several usually did,',
+            'together, and the owner of the ground fed them.']):
+        s.append(txt(px + 12, base + 62 + j * 12, line, 8.3, BODY, 'start', '400', 'italic'))
+
+    # ── the watch seasons
+    yc = 420
+    s.append(txt(40, yc - 12, 'WHEN THE TOWER IS OCCUPIED', 9.4, GOLD, 'start', '700', 'normal', '1.2'))
+    s.append(txt(W - 40, yc - 12, 'seven months of the year, somebody sleeps in the field',
+                 8.8, GREY, 'end', '400', 'italic'))
+    m0, mw = 40, (W - 80) / 12.0
+    for i, m in enumerate(['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D']):
+        s.append(f'<rect x="{m0+i*mw:.1f}" y="{yc:.1f}" width="{mw-2:.1f}" height="16" '
+                 f'fill="#F4F1E8" stroke="{RULE}" stroke-width=".6"/>')
+        s.append(txt(m0 + i * mw + mw / 2 - 1, yc + 12, m, 8.6, FOLIO, 'middle'))
+    for j, (a, b, lab, col) in enumerate([(4, 6, 'grain, and the early fruit', GREEN),
+                                          (6, 9, 'figs and grapes', RUST),
+                                          (9, 11, 'the olives', PLUM)]):
+        yy = yc + 21 + j * 17
+        s.append(f'<rect x="{m0+a*mw:.1f}" y="{yy:.1f}" width="{(b-a)*mw-2:.1f}" height="13" '
+                 f'fill="{col}" opacity=".16" stroke="{col}" stroke-width=".8" rx="2"/>')
+        s.append(txt(m0 + a * mw + 6, yy + 10, lab, 8.4, col, 'start', '700'))
+
+    # ── the count
+    yb2 = 500
+    s.append(f'<line x1="40" y1="{yb2}" x2="{W-40}" y2="{yb2}" stroke="{RULE}"/>')
+    stats = [('167', 'watchtowers standing,', 'and counted, one by one', GREEN),
+             ('3,000', 'dunums of terrace', 'they stand in', GOLD),
+             ('2', 'places: al-Tireh quarter', 'and ʿAin Qinia village', PLUM),
+             ('0', 'grams of mortar', 'in any of them', RUST)]
+    for k, (v, l1, l2, col) in enumerate(stats):
+        sx = 40 + k * 205
+        s.append(txt(sx, yb2 + 26, v, 19, col, 'start', '700'))
+        off = 14 + 10.5 * len(v)
+        s.append(txt(sx + off, yb2 + 19, l1, 8.4, BODY, 'start'))
+        s.append(txt(sx + off, yb2 + 30, l2, 8.4, BODY, 'start'))
+    s.append('</svg>')
+    return ''.join(s)

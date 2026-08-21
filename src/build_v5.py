@@ -371,10 +371,32 @@ this book prints the disagreement rather than picking a side.</b></p>
 <p><i>One caution on dates, because it is a trap.</i> The figure “8000 BC,” still common in books, is
 an <b>uncalibrated</b> radiocarbon date from Kenyon’s samples. Calibrated, the Pre-Pottery Neolithic A
 at Tell es-Sultan runs roughly 9700/9600 to 8600/8500 BC, and the tower is about eleven thousand
-years old — around 9000 BC. This book uses the calibrated figures throughout.</p>""".format(
+years old — around 9000 BC. This book uses the calibrated figures throughout.</p>
+<p><b>And something has to be said about who has been doing the digging.</b> Every excavator named so
+far in this entry is European or Israeli, and that is how this entry stood in earlier editions of
+this book — <i>which is not how the mound has actually been dug for the last thirty years.</i> Since
+<b>1997</b> Tell es-Sultan has been excavated by a joint expedition of the <b>Palestinian Department
+of Antiquities and Cultural Heritage</b>, under the Ministry of Tourism and Antiquities, and Rome
+«La Sapienza» — directed by <b>Hamdan Taha</b> and <b>Lorenzo Nigro</b>, with Nicolò Marchetti in the
+early seasons — and it is still running, with an interim report on the Bronze and Iron Age towns
+covering the seasons of 2019–2023{e}. It is their work, and not Kenyon’s, that now describes the
+<i>town</i> that stood around the tower: an urban plan and a massive fortification system in place by
+<b>Early Bronze II, about 3000–2700 BC</b>; a double city wall traced at the southern and
+south-western edges of the mound; a palace-centred society in <b>Early Bronze III</b>; and occupation
+spreading outside the Middle Bronze wall. <b>The nomination file on which UNESCO inscribed the site in
+2023 was prepared by a Palestinian team under that same ministry</b>{f}.</p>
+<p><i>The tower is still Kenyon’s find, and what it was for is still unresolved.</i> But the town
+around it has been re-excavated, re-dated and published by the people whose town it is, and from this
+edition onward this book cites them for it.</p>
+{g}""".format(
   a=c('On the occupation gaps and the making of the “oldest city” claim, see Rachael Sparks, Bill Finlayson, Bart Wagemakers &amp; Josef Briffa (eds), <i>Digging Up Jericho: Past, Present and Future</i> (Oxford: Archaeopress, 2020) — the best single volume on the evidence and its historiography. For the older towers: R. F. Mazurowski &amp; Y. Kanjou (eds), <i>Tell Qaramel 1999–2007</i> (Warsaw: PCMA, 2012), with radiocarbon in Mazurowski et al., <i>Radiocarbon</i> 51:2 (2009), 771–81: the earliest tower c. 10,900–9,670 cal BC.'),
   b=c('UNESCO World Heritage List no. 1687, “Ancient Jericho/Tell es-Sultan,” inscribed 2023 at the extended 45th session of the World Heritage Committee, Riyadh, under the State of Palestine, on criteria (iii) and (iv). The statement of Outstanding Universal Value describes deposits “dating back to about 10,500 BC” and a “sizeable permanent settlement.” <a href="https://whc.unesco.org/en/list/1687/">whc.unesco.org/en/list/1687</a>.'),
-  d=c('Kenyon &amp; Holland (1981) for the defensive reading; Ofer Bar-Yosef, “The Walls of Jericho: An Alternative Interpretation,” <i>Current Anthropology</i> 27:2 (1986), 157–62, for flood defence and the absence-of-warfare argument; Danny Naveh, “PPNA Jericho: A Socio-Political Perspective,” <i>Cambridge Archaeological Journal</i> 13:1 (2003), 83–96; Ran Barkai &amp; Roy Liran, “Midsummer Sunset at Neolithic Jericho,” <i>Time and Mind</i> 1:3 (2008), 273–83.'))),
+  d=c('Kenyon &amp; Holland (1981) for the defensive reading; Ofer Bar-Yosef, “The Walls of Jericho: An Alternative Interpretation,” <i>Current Anthropology</i> 27:2 (1986), 157–62, for flood defence and the absence-of-warfare argument; Danny Naveh, “PPNA Jericho: A Socio-Political Perspective,” <i>Cambridge Archaeological Journal</i> 13:1 (2003), 83–96; Ran Barkai &amp; Roy Liran, “Midsummer Sunset at Neolithic Jericho,” <i>Time and Mind</i> 1:3 (2008), 273–83.'),
+  e=c('The Italian–Palestinian Expedition to Tell es-Sultan, from 1997: Rome «La Sapienza» with the Palestinian Ministry of Tourism and Antiquities, Department of Antiquities and Cultural Heritage (MOTA-DACH). Season reports are published jointly under Lorenzo Nigro and Hamdan Taha, with Nicolò Marchetti in the first seasons — e.g. Marchetti, Nigro &amp; Taha, “Preliminary Report on the Third and Fourth Seasons… 1999–2000,” in I. Thuesen (ed.), <i>Proceedings of the Second ICAANE</i> (Bologna, 2016), 581–97; Nigro &amp; Taha, “The Early Bronze Age Palace and Fortifications at Tell es-Sultan/Jericho: the 6th–7th seasons (2010–2011)”; and the interim report on the Bronze and Iron Age cities covering 2019–2023. See also Nigro, <i>Aside the Spring: Tell es-Sultan / Ancient Jericho — the Tale of an Early City and Water Control in Ancient Palestine</i>.'),
+  f=c('Hamdan Taha, “Tell es-Sultan, Ancient Jericho,” <i>This Week in Palestine</i>: “Following the transfer of authority to the Palestinian Authority in 1994, the Palestinian Department of Antiquities, working jointly with La Sapienza University of Rome, resumed the work at Tell es-Sultan,” and the nomination file was “being prepared by a team of experts under the auspices of the Ministry of Tourism and Antiquities.” Inscribed 2023 as World Heritage no. 1687, under the State of Palestine.'),
+  g=FIX('Jericho told entirely through Sellin and Watzinger, Garstang, Kenyon and Bar-Yosef — every excavator named in the entry European or Israeli.',
+        'The current excavation is <b>Palestinian–Italian and has run since 1997</b>: MOTA-DACH with Rome «La Sapienza», <b>Hamdan Taha</b> and <b>Lorenzo Nigro</b> directing. Their sequence for the Bronze Age town is the one this book now follows, and the 2023 UNESCO nomination is a Palestinian document.',
+        'Not a factual correction but a correction of attribution, and the book’s own standard requires it: <i>Palestinian and Arab scholarship is cited as the source, and the foreign partner as the route.</i> The Neolithic tower remains Kenyon’s discovery and is still credited to her; what changes is that the Bronze Age town, the fortifications and the site’s present interpretation are credited to the expedition that produced them.'))),
 
 ent('the whole of it', 'attested', False, 'What this land is made of',
  'Before the story starts moving, one picture of the whole thing: <b>fifteen thousand years of habitation on this ridge and around it, drawn as a section through a tell</b> — and the layer, four from the top, where our own family walks in.',
@@ -437,8 +459,9 @@ ent('c. 1500 BCE', 'attested', False, 'The Canaanite population of these highlan
  'Ten arrivals and one people. Each bar begins when that group enters the record and fades into the common green as it is absorbed. Only the Samaritans keep their own colour to the present; only the Franks stop. The family’s own stream — Arabs, and Ghassān — is the ninth bar. It was absorbed like the rest, and that is the argument of this whole book in one picture.',
  'Haber et al. (2017); Feldman et al. (2019); Agranat-Tamir et al. (2020); Haber et al. (2019) on the Crusader pulse; Killebrew (2005); Ehrlich (2022) on conversion.')}
 <p><b>There is no point in the last four thousand years at which the people of this country were
-replaced.</b> The Philistines are the case that can be measured: they arrived about 1175 BCE, from
-the Aegean, visible in the genome at Ashkelon — and then, <b>“within no more than two centuries,
+replaced.</b> The Philistines are the case that can be measured: they arrived about 1175 BCE
+carrying a southern-European-related ancestry whose source population is still not pinned
+down, visible in the genome at Ashkelon — and then, <b>“within no more than two centuries,
 this genetic footprint … is no longer detectable.”</b>{c('Feldman et al., “Ancient DNA sheds light on the genetic origins of early Iron Age Philistines,” <i>Science Advances</i> 5:7 (2019), eaax0061.')} They were not driven out. They married
 the neighbours. The Idumaeans were absorbed by 70 CE; the Nabataeans’ kingdom became a Roman
 province in 106 while its people stayed put; the country turned Christian, then largely Muslim, by
@@ -450,10 +473,74 @@ next village claiming the Ḥijāz, and the Samaritans of Nablus claiming to hav
 making rival claims. They are describing different arrivals into the same people.</b> Hold that
 thought; the family’s own arrival is four bars down.</p>"""),
 
-ent('c. 1350 BCE', 'documents', False, 'The Amarna letters',
- 'Jerusalem, Shechem, Gezer and Lachish write to Egypt in Akkadian{}. These are the city-states of this landscape, and they are Canaanite. Even the town’s own name keeps the era’s sound: <span class="ar">رام</span> is a Semitic root meaning <i>height</i> — Canaanite-era vocabulary still doing its job{}.'.format(
-  c('The Amarna correspondence, 14th c. BCE.'),
-  c('al-Dabbāgh, <span class="ar">بلادنا فلسطين</span>, viii/2, on <span class="ar">رام</span>; the same root as Hebrew <i>rām</i> and Aramaic <i>rāmā</i>.'))),
+ent('nobody can date it, and it is still in use', 'attested', False,
+    'THE TERRACES — and the hundred and sixty-seven towers standing in them',
+ f'''The hills around Ramallah are not hills. <b>They are staircases.</b> Every workable slope within
+sight of the town has been cut into level treads held up by dry-stone risers — <span class="ar">سناسل</span>,
+the local word — and nothing holds a riser up but the weight of the stones in it: no mortar, no
+foundation, no bonding material of any kind{c('Shadi Ghadban, “Palestinian Dry Stone Structures — An Endogenous Expression of Cultural Landscape,” <i>Journal “Sustainable Development, Culture, Traditions”</i> 1b (2015), 34–46, at 44: the structures are “generally constructed from rubble natural stones with irregular and polygonal forms without using any bonding material,” the stones “simply fitted in harmony with their natural form and not in regular layers.”')}. Standing in those fields are small round huts with
+corbelled stone roofs, built by the farmers themselves so that somebody could sleep beside the crop
+while it ripened. <b>In 2013 two Palestinian scholars went out and counted them.</b> In al-Tireh
+quarter and the village of ʿAin Qinia alone — the ground on Ramallah’s own western and northern
+edge — they recorded <b>one hundred and sixty-seven watchtowers over some three thousand
+dunums</b>{c('Salah Hussein Al-Houdalieh &amp; Shadi Sami Ghadban, “Agricultural Watchtowers in Al-Tireh Quarter and ʿAin Qinia Village, Ramallah, Palestine,” <i>International Journal of Architectural Heritage</i> 7:5 (2013), 509–535, DOI 10.1080/15583058.2011.654049. The survey documented <b>167 watchtowers distributed over an area of approximately 3,000 dunums</b>, by site documentation, fieldwork and interviews with residents. Al-Houdalieh is the same al-Quds University archaeologist who excavated Khirbet et-Tireh; Ghadban is professor of architectural engineering at Birzeit.')}.''',
+ f"""
+{fig(F4.fig_terraces(), 'The terraces, and one of the towers standing in them',
+ 'A hillside above Ramallah drawn in section. Every riser is a dry-stone wall; every tread is a field; the small domed hut on the third terrace is one of the hundred and sixty-seven. The cutaway shows how the roof closes — each course of stone oversailing the one below until the last two meet, with nothing binding them. <b>The strip along the bottom is the year:</b> the tower is occupied for grain in May and June, for figs and grapes from July to September, and for the olives in October and November.',
+ 'Al-Houdalieh &amp; Ghadban, <i>International Journal of Architectural Heritage</i> 7:5 (2013), 509–35, for the count and the survey; Ghadban (2012, 2015) for the construction and the seasons.')}
+<p><b>Nobody can date them, and that is the honest finding rather than a gap in the research.</b>
+Corbelled dry-stone building is old in this region — probably Early Bronze Age in origin — but a
+terrace wall is not a monument, it is a machine, and a machine in use gets repaired. The stone that
+fell out last winter went back in this spring, and the stone beside it may have been set by a
+Canaanite. <i>There is no stratigraphy in a wall that has never been allowed to fall down.</i>
+The survey says so plainly: there is no concrete evidence for when the dry-stone structures of
+Palestine first appeared{c('Ghadban (2015), 37 and 39: corbelled structures “originated mainly in the Near East of the Mediterranean Basin probably at the beginning of the Early Bronze Age,” but there is “no concrete evidence regarding when exactly the dry-stone structures first appeared” in Palestine. <b>This book therefore gives the terraces no date at all rather than an invented one.</b>')}.</p>
+<p><b>What can be dated is the work, because the work is seasonal and has not changed.</b> The tower
+is used when there is something in the field worth losing: the grain and the early fruit in May and
+June, the figs and the grapes from July through September, the olives in October and November.
+<i>That is seven months of the year in which somebody from the household is sleeping out on the
+land.</i> The huts were built cooperatively — several men to a tower — and the owner of the ground
+fed them while they built it{c('Ghadban (2015), 40 and 43, on the three harvest seasons — “early fruit and grain harvest… May and June,” “figs and grape-vines… July through September,” “olive harvesting… October and November” — and on cooperative building: “peasants would mostly collaborate in building the structures,” with the owner providing food. Also Ghadban, “The Architecture of the Palestinian Dry-Stone Hut — Al-mantarah,” <i>Journal of Comparative Cultural Studies in Architecture</i> 6 (2012), 16–25.')}.</p>
+<p><b>This is the district’s own technology, and it is the only thing in this chapter that the
+family’s own ancestors certainly made with their hands.</b> The churches were built by patrons; the
+registers were written by clerks; the armies belonged to somebody else. The terraces were built by
+whoever was going to eat off them, and they are still there, and people are still eating off
+them.</p>
+<p><i>They are also going.</i> Ghadban’s parallel survey of the walls themselves found roughly
+<b>eighty-seven per cent of them partially collapsed</b> — from land confiscation and settlement
+expansion, from the separation wall cutting farmers off from their own plots, from the sprawl of the
+town up its own hillsides, and from the plain fact that fewer people now farm{c('Ghadban (2015), 36 and 42: “approximately 87% of the individual walls are partially destroyed,” under pressure from land confiscation, settlement expansion, the separation wall, the declining economic weight of agriculture and “rapid and largely sprawl urban expansion.” <b>The 87 per cent is measured on the walls, not on the towers; the 167 towers are those still standing.</b>')}. <b>A wall that is
+repaired every year survives four thousand years. A wall that nobody walks to falls down in
+twenty.</b></p>"""),
+
+ent('c. 1350 BCE', 'documents', False, 'THE AMARNA LETTERS — a file about who works the fields',
+ f'''Jerusalem, Shechem, Gezer and Lachish write to Egypt in Akkadian{c('The Tell el-Amarna correspondence, fourteenth century BCE: some 350 letters and administrative texts from the Egyptian capital at Akhetaten, found in 1887. The standard edition is William L. Moran, <i>The Amarna Letters</i> (Baltimore: Johns Hopkins, 1992); see also Anson F. Rainey, <i>The El-Amarna Correspondence</i>, 2 vols (Leiden: Brill, 2015).')}. These are the city-states of this landscape, and they are Canaanite. Even the town’s own name keeps the era’s sound: <span class="ar">رام</span> is a Semitic root meaning <i>height</i> — Canaanite-era vocabulary still doing its job{c('al-Dabbāgh, <span class="ar">بلادنا فلسطين</span>, viii/2, on <span class="ar">رام</span>; the same root as Hebrew <i>rām</i> and Aramaic <i>rāmā</i>.')}. <b>But the letters are usually read for the wrong thing.</b> They are read as diplomacy — kings, tribute, the <i>ʿapiru</i>, who is loyal and who is not. <i>Read them as an employer reads a file, and they are about labour: who goes up the hill, and who ploughs.</i>''',
+ f"""
+<p>The clearest sentence in the whole archive on that question is a small tablet in the Louvre,
+six and a half centimetres by six, catalogued <b>EA 365</b>. Moran gives it the heading
+<i>Furnishing corvée workers</i>. It is from <b>Biridiya, the mayor of Megiddo</b>, and after the
+formula of prostration it says this{c('EA 365, Louvre, Antiquités orientales AO 7098; 6.5 × 6.0 cm. Translations: Moran (1992); Anson F. Rainey (1970); earlier Mercer (1939) and Albright in <i>ANET</i> (1969). The rendering quoted here follows the standard English of the passage.')}:</p>
+<blockquote>Let the king, my lord, be aware regarding his servant and his city.
+<b>Behold, I alone am cultivating in the city of Shunama; and, as for me, I provide forced
+labourers.</b> Now, behold, the mayors who are near me do not do as I do. They do not cultivate
+in the city of Shunama, and they do not provide forced labourers. <b>I alone provide forced
+labourers.</b>
+<span class="cite">Amarna letter EA 365, Biridiya of Megiddo to the king of Egypt · Louvre AO 7098</span></blockquote>
+<p><b>The word he uses is <i>massu</i></b> — the same Semitic word that stands in the Hebrew Bible as
+<i>mas</i>, the levy of forced labour a king raises out of his own people{c('Akkadian <i>massu</i> / <i>mas</i>, corvée labour imposed on subject populations for building, quarrying and agricultural work; the same term appears in Biblical Hebrew as <span class="ar">מס</span> <i>mas</i>, e.g. 1 Kings 5:13–14 and 9:15. See Moran (1992), glossary s.v.; Rainey, <i>El-Amarna Correspondence</i>, ii, on the labour vocabulary of the Megiddo letters.')}. Biridiya is not
+complaining about an invasion. He is complaining that his neighbours are not sending men, and that
+the whole gang on that field is his. <i>He is filing a labour return.</i></p>
+<p><b>This letter is not about this ridge, and it should not be made to be.</b> Shunama is Shunem,
+in the Jezreel valley, some sixty kilometres north; the ridge above Ramallah lay in the territory
+the king of Jerusalem wrote about. It is quoted here for a different reason. Every document in this
+book from here to the Ottoman registers is written by somebody counting other people — a mayor, a
+scribe, a bishop, a tax clerk — and in every one of them the people being counted are the same
+people: the ones in the field. <b>The archive names the mayors. The corvée is everybody else, and
+everybody else is the ancestors.</b></p>
+<p><i>Three thousand years later a qāḍī in Jerusalem will write down six men from the village of
+Ramallah who have promised to plough a hill, and he will name all six.</i> That is the whole
+difference between the two ends of this book: not who was working, but whether anyone wrote down
+their names.</p>"""),
 
 CH(3)
 
@@ -644,6 +731,52 @@ exiled after him; the phylarchate is broken up among many smaller
 phylarchs and, so far as the record shows, never reconstituted under one house{c('Shahîd I.1, 530–563, on the exiles, the dissolution of 582–585 and the restoration of 585–587.')}. <b>In 593–594 the individual names stop appearing in Greek
 altogether.</b> The silence that the chart prints as generation 35 has a start date, and this is
 it{c('Irfan Shahîd, <i>Byzantium and the Arabs in the Sixth Century</i> I.1 (Dumbarton Oaks, 1995), 554–60, for the disappearance of the Jafnid names from Greek after 593/594. <b>Earlier editions of this book credited this to Serikoff (2017), which is a philological note on Greek loanwords and not about the Ghassanids at all.</b>')}.</p>"""),
+
+ent('the question behind the question', 'attested', False, 'WERE THE GHASSANIDS SOVEREIGN? — and why it is being asked',
+ f"""Procopius says Justinian gave al-Ḥārith <b>“the dignity of king”</b> — and that is where a
+modern argument begins, because if the Ghassanids were sovereigns then somebody today might inherit
+something. <b>The family should know how that question actually works before anybody answers it on
+their behalf.</b>""",
+ f"""
+<p><b>Start with what the word is doing.</b> Procopius writes <span class="gk">βασιλέως
+ἀξίωμα</span> — the <i>dignity</i>, the rank, of a king — and adds that it had never been done
+before. He is describing <b>a promotion inside an empire</b>, in the voice of a Constantinopolitan
+who disliked the man. <i>That is an imperial writer telling us what Rome conferred. It is not a
+statement about what al-Ḥārith already was.</i></p>
+<p><b>Now hear it in Arabic.</b> At Jabal Usays in 528 an ordinary officer named Ibrāhīm records
+that <b>al-Ḥārith the king</b> — <span class="ar">الحارث الملك</span> — sent him. He does not ask
+Constantinople's permission for the word, and he is not writing for Constantinople. <i>One man calls
+him king because an emperor said so; the other calls him king because that is what he was called on
+the ground.</i> <b>Those are two different kinds of evidence and the second is ours.</b></p>
+<div class="fix"><div class="fixhead">The category is younger than the men in it</div>
+<div style="font-size:.95rem;line-height:1.65;color:#46423B">
+<p style="max-width:none">“Sovereign” in the sense the modern argument needs — a state, a
+territory, a crown that descends and can be inherited or lost — is a <b>European vocabulary of the
+seventeenth century onward</b>, and it fits the sixth-century Levant badly. The comparanda are
+instructive and none of them resolves cleanly:</p>
+<p style="max-width:none"><b>Persian Yehud.</b> Sheshbazzar and Zerubbabel were Davidic
+descendants appointed governors of a Persian province. The empire used the prestige of the dynasty
+precisely <i>because</i> it was a dynasty — and that is not the same thing as the dynasty ruling{c('Nadav Naʾaman, “Royal Vassals or Governors? On the Status of Sheshbazzar and Zerubbabel in the Persian Empire,” <i>Henoch</i> XXII (2000). <b>The pattern matters more than the case:</b> an imperial power appointing members of local dynasties as its officers, and both sides finding the arrangement useful.')}.</p>
+<p style="max-width:none"><b>The Keneges of Shahrisabz.</b> Their own royal chronicle has them
+inheriting their domain from Timur and never being defeated. The surrounding record has them as
+one more emirate inside somebody else's order. <i>A dynasty writing its own sovereignty into its own
+chronicle is a normal thing for a dynasty to do</i>{c('James Pickett, “Written into Submission: Reassessing Sovereignty through a Forgotten Eurasian Dynasty,” <i>American Historical Review</i> Forum. The essay is about exactly this: how the paperwork of sovereignty is produced, and by whom.')}.</p>
+<p style="max-width:none"><b>And Byzantium itself is a contested category.</b> The people we call
+Byzantines called themselves Romans; “Byzantine” is a later coinage, and the field now argues about
+how much of the identity was constructed by the people who later wrote about it{c('Anthony Kaldellis, “Provincial Identities in Byzantium” (Routledge, 2022); Yannis Stouraitis, “Is Byzantinism an Orientalism? Reflections on Byzantium’s Constructed Identities and Debated Ideologies”; Koray Durak and Ivana Jevtić (eds.), <i>Identity and the Other in Byzantium</i>, Fourth Sevgi Gönül Byzantine Studies Symposium, Istanbul 2016. <b>These are cited here as what they are — a frame for the question, not evidence about this family.</b>')}. <b>If the empire's own name for itself is
+an argument, the status of its Arab allies will not be settled by a phrase in Procopius.</b></p>
+</div></div>
+<p><b>So the honest answer is three sentences.</b> Al-Ḥārith held real authority over real people and
+was called a king in two languages. Rome treated him as its instrument and said so. <b>Whether that
+adds up to “sovereignty” depends entirely on a definition supplied from outside the sixth
+century</b> — and the field has stopped using “the Ghassanid kingdom” in favour of “the Jafnid
+dynasty” for that very reason{c('Greg Fisher, <i>Between Empires: Arabs, Romans and Sasanians in Late Antiquity</i> (2011) and <i>Arabs and Empires before Islam</i> (2015); Denis Genequand and Christian Robin (eds.), <i>Les Jafnides: des rois arabes au service de Byzance</i> (Paris: De Boccard, 2015) — <i>“Arab kings in the service of Byzantium,”</i> and the tension in that subtitle is the whole argument.')}.</p>
+{FIX('The interesting question is whether the Ghassanids were sovereign.',
+ 'The interesting question is <b>why anyone needs them to have been</b>.',
+ 'Nothing in this family’s history turns on the answer. Rāshid al-Ḥaddādīn was a farmer with five sons who moved up a ridge and paid a tithe to Hebron; <b>he is not more or less real depending on whether a man in Ruṣāfa nine hundred years earlier met a seventeenth-century European definition of a crown.</b> The question is being asked hard, in our own century, by people for whom the answer has consequences. <b>That is a fact about our century, not about Ghassān</b> — and it is the reason this entry exists at all.')}
+<p><i>This book’s grade for this link does not move. It was</i> <b>ATTESTED</b> <i>because a
+contemporary Greek historian and a dated Arabic inscription both name the man. It stays</i>
+<b>ATTESTED</b>. <i>Sovereignty was never what held it up.</i></p>"""),
 
 ent('455 → c. 575', 'documents', 'shared', 'THE DAM BREAKS',
  'The tradition dates the family’s departure from Yemen to the bursting of the dam “about 300 AD.” <b>The dam’s failures are dated, and they are later:</b> a breach repaired under Sharaḥbiʾīl Yaʿfur in <b>455</b>, a further breach in <b>542/543</b>, the great breach of <b>547</b> repaired in <b>548</b>, and a last recorded restoration in <b>557/558</b>{}.'.format(c('Norbert Nebes, “A New ʾAbraha Inscription from the Great Dam of Mārib,” <i>Proceedings of the Seminar for Arabian Studies</i> 34 (2004), 221–30, esp. 223–24. CIH 540, Sharaḥbiʾīl Yaʿfur’s rupture-and-repair text, is dated Himyarite year 565 = <b>AD 455</b> on the 110 BC epoch Nebes uses; the figure of 449–450 printed in earlier editions of this book reflects the older 115 BC epoch and <b>contradicts the very study cited beside it</b>. CIH 541 records the breach of 657 HE (547) repaired in 658 HE (548). '+D('2004_Nebes_New_Abraha_Inscription_Marib_Dam.pdf')+'.')),
@@ -1566,13 +1699,36 @@ families made structurally identical claims in the same period.</p>
 somebody with no stake in it.</b> When Frederick Peake recorded the Karak Ḥaddādīn’s Ghassanid
 descent in 1934, he wrote down the claim <i>and his own doubt about it in the same breath</i>. A
 tradition preserved by a sceptic is better provenanced than one asserted by a descendant.</p>
-<p style="max-width:none"><b>The Ḥaddādīn claim is of the same evidentiary class as its peers</b>:
-first fixed in writing in twentieth-century family history, describing a real and well-attested kind
-of population, without a documentary chain back to the sixth century. What makes it <i>more
-restrained than any of them</i> is precisely what looks like its weakness. <b>It does not fill the
-gap.</b> John Mogannam’s chart prints generation 35 as a void where Maalouf printed a forgery.
-<i>That single choice is the difference between the two documents, and it is entirely to this
-family’s credit.</i></p></div></div>"""),
+<p style="max-width:none"><b>And there is a third case, from Lebanon, which is the most useful of
+all — because it is honest.</b> In <b>1948</b> a priest, Ighnāṭiyūs Ṭannūs al-Khūrī, published a
+monograph on the Sheikhs Āl al-Shammar, notables of Akoura and the Zāwiya district of Zgharta. Its
+fourth chapter is headed <span class="ar">بنو غسان وفرعهم بنو شمر</span> — <i>“Banū Ghassān and their
+branch the Banū Shammar.”</i> And this is how he opens it:</p>
+<p style="max-width:none" class="pull"><span class="ar">هو زعم وجيه وتقليد عريق أن المشايخ آل الشمر
+متأصلون … من آل جفنة</span><br>
+<b>“It is a respectable <i>claim</i> and an ancient <i>tradition</i> that the Sheikhs Āl al-Shammar
+are descended … from the house of Jafna.”</b></p>
+<p style="max-width:none"><b><span class="ar">زعم</span> — <i>zaʿm</i>, an assertion.</b> The man
+writing the family’s own book calls its Ghassanid descent a claim and a tradition in his first
+sentence on the subject. Then he sets out the Jafnid kings from Jabala down through al-Ḥārith
+al-Akbar, al-Mundhir, al-Nuʿmān and Ḥujr — and stops to say
+<span class="ar">وبعد حجر هذا تنقطع السلسلة حتى جبلة بن الأيهم</span>: <b>“and after this Ḥujr the
+chain is broken, until Jabala ibn al-Ayham.”</b> <i>His chain breaks inside the sixth century, and he
+prints the break.</i> His authorities for the Ghassanid part are Ibn Khaldūn, Ibn Qutayba,
+al-Balādhurī, Jurjī Zaydān and <b>Nöldeke in Arabic translation</b> — <i>the same published tables
+this family’s own chart was compiled from, in another country, at the same
+period</i>{c('Ighnāṭiyūs Ṭannūs al-Khūrī, <span class="ar">المشايخ آل الشمر حكام العاقورة والزاوية</span> (1948), read for this book in the scanned copy on the Internet Archive; the passages quoted are from the chapter <span class="ar">اسم الأسرة الشمرية وأصلها</span> and the chapter on Banū Ghassān. He cites Ibn Khaldūn for thirty-two Ghassanid kings over six hundred years and Nöldeke, <i>Die ghassânischen Fürsten</i>, in the Arabic version of Bandaliyya and Nadīq, for thirty-seven. <b>That monograph has since been pressed into service, in our own century, to support a claim of surviving royal descent and title. This book takes no view on that beyond one observation: its author took no such view either.</b> He wrote <i>zaʿm</i>, and he printed where his chain broke.')}.</p>
+<p style="max-width:none"><b>So the pattern is the pattern, and it is not a scandal.</b> Christian
+families across the Levant fixed a Ghassanid descent in writing in the first half of the twentieth
+century, compiling the deep end from the same nineteenth-century European and Arabic tables. Some
+printed it as a claim. One invented a chain of names. <b>What distinguishes them is not whether they
+had a gap — they all had the same gap — but what each of them did with it.</b></p>
+<p style="max-width:none"><b>This family has that gap and does not fill it.</b> Ours runs from
+<b>569 to about 1500</b>: thirty generations with no name of any kind, and this book prints them as a
+void, thirty blank slots on every ladder in it. <i>The difference between a history and a pedigree is
+what you do with the blank.</i> John Mogannam’s chart prints generation 35 as a void where Maalouf
+printed a forgery, and al-Khūrī printed <i>zaʿm</i>. <b>Two of those three are honest documents, and
+ours is one of them.</b></p></div></div>"""),
 
 ent('II', 'attested', True, 'Our contribution to the Palestinian people',
  '<b>The family is one arrival among ten that became one people.</b> The genetics say the population of this land absorbed every newcomer for four thousand years; the family’s stream — Christian Arabs out of the Ghassanid south — was absorbed like the rest, and then did its own absorbing: eight outsider families folded into the clans from 1750, a Muslim neighbour taken into the clan structure in 1923 — in a town that had had Muslim households since 1538 — some nine thousand refugees taken in by a town the government had counted at 5,080 in 1945. <i>The tradition says we came from somewhere. The ground says we have been here the whole time. Both are true at once, and in this country they always have been.</i>'),
@@ -1879,6 +2035,8 @@ blockquote .cite{display:block;margin-top:10px;color:#77726A;font-size:.88rem;fo
 .fix{background:#FFFFFF;border:1px solid #E8D9BE;border-left:4px solid #A85210;border-radius:4px;
   padding:16px 20px;margin:22px 0}
 .fix .fixhead{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:#A85210;font-weight:700;margin-bottom:10px}
+.fix .pull{margin:14px 0;padding:12px 16px;background:#FCFBF8;border-left:3px solid #B98A4E;border-radius:3px;font-size:1.02rem}
+.fix .pull .ar{font-size:1.12rem;line-height:1.9}
 .fixgrid{display:grid;grid-template-columns:1fr 1fr 1.2fr;gap:16px}
 .fixgrid > div{font-size:.92rem;line-height:1.5;color:#46423B}
 .fixgrid .fl{display:block;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:#9A958C;margin-bottom:4px}

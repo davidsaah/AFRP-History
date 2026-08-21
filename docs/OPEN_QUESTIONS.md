@@ -47,18 +47,19 @@ be cited until somebody reads the folio.
 
 ## 5. Things the book should be telling through Ramallah's people and is not
 
-- **Tell es-Sultan.** The excavation running since 1997 is Palestinian — Hamdan
-  Taha of the Department of Antiquities with Lorenzo Nigro of Rome «La Sapienza» —
-  and it wrote the file on which UNESCO inscribed the site in 2023. The book still
-  tells Jericho through Kenyon and Bar-Yosef.
-- **The terraces.** Al-Houdalieh and Ghadban counted **167 agricultural
-  watchtowers over some three thousand dunums** in al-Tireh quarter and ʿAin Qinia
-  village (*International Journal of Architectural Heritage* 7:5, 2013). That is
-  the district's own oldest surviving technology, still in use, and it is not in
-  the book.
-- **Amarna.** EA 365: Biridiya of Megiddo complaining that he alone provides the
-  corvée gangs. The letters are a file about who works the fields of this country,
-  and the people in the fields are the ancestors of the people in these villages.
+**Three of these were closed on 21 August 2026** — Tell es-Sultan is now told
+through the Palestinian–Italian expedition (Taha and Nigro) with a FIX box on the
+attribution; the terraces and the 167 watchtowers of al-Tireh and ʿAin Qinia are a
+full entry with their own plate; and Amarna is retold through EA 365 as a document
+about who works the fields. What is left under this heading:
+
+- **The oil press at Khirbat al-Tira.** Al-Houdalieh published the complex in
+  *Jerusalem Quarterly* 62 (2015), 84–97. The book cites the churches from that
+  excavation but not the press, which is the industry the village lived on.
+- **Riwaq's registry.** The Riwaq Centre's register of historic buildings covers
+  every Palestinian village including this one, town by town and house by house.
+  It is a Palestinian survey of Palestinian fabric and the book does not use it.
+- **The Ramallah municipality's own records** before 1948 — never consulted.
 
 ## 6. Smaller
 

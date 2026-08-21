@@ -1,5 +1,41 @@
 # Changelog
 
+## v5.1 — 21 August 2026
+
+### Ramallah's own people, told through their own scholarship
+
+Three additions, all answering the standing instruction to tell the story through
+the people of this place rather than through the people who studied them.
+
+- **A new entry: THE TERRACES.** The staircase hillsides and the corbelled huts
+  standing in them, with the count al-Houdalieh and Ghadban made in 2013 — **167
+  watchtowers over some 3,000 dunums** in al-Tireh quarter and ʿAin Qinia village
+  (*IJAH* 7:5, 509–35). New **Figure: the terraces in section**, with the cutaway
+  of a corbelled roof and the three watch seasons of the year. The entry carries
+  **no date**, because Ghadban says plainly there is no evidence for when
+  Palestinian dry-stone building begins, and a wall that is repaired every year
+  has no stratigraphy. It also carries the loss: about **87 per cent** of the
+  walls partially collapsed.
+- **Jericho re-attributed.** The entry named only Sellin and Watzinger, Garstang,
+  Kenyon and Bar-Yosef. Since **1997** the mound has been dug by a joint expedition
+  of the **Palestinian Department of Antiquities and Cultural Heritage** and Rome
+  «La Sapienza», **Hamdan Taha** and **Lorenzo Nigro** directing, still running
+  through the 2019–2023 seasons; their Early Bronze sequence is now the one the
+  book follows, and the 2023 UNESCO nomination is named as the Palestinian
+  document it is. Printed as a **FIX box**: a correction of attribution, not of
+  fact. Kenyon keeps the tower.
+- **The Amarna letters rewritten as a labour file.** **EA 365** (Louvre AO 7098)
+  quoted in full — Biridiya of Megiddo complaining that he alone furnishes the
+  corvée for the fields of Shunama — with the word *massu*, the same *mas* the
+  Hebrew Bible uses. The entry says outright that the letter is not about this
+  ridge, and quotes it anyway for what it proves about every document in the book:
+  *the archive names the mayors; the corvée is everybody else.*
+
+Also: the Philistine arrival is now described as **southern-European-related**
+ancestry of unpinned source in the Canaanite entry too, matching the correction
+already made in the Iron Age entry.
+
+
 ## v5 — 19 August 2026
 
 ### The line recounted at sixty-six

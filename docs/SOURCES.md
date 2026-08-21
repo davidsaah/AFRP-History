@@ -34,6 +34,32 @@ the file, and is never opened by the build.
   Southern Syria in the Late 16th Century* (1977).
 - **Elihu Grant**, *The Peasantry of Palestine* (Boston: Pilgrim Press, 1907).
 
+## Palestinian scholarship the book cites as the source
+
+Not a complete list — these are the works the book leans on where a foreign
+account of the same ground exists and was passed over for them.
+
+- **Salah Hussein al-Houdalieh** (al-Quds University) — the excavation of Khirbet
+  et-Tireh, two kilometres from the town centre: *Archaeological Discovery* 4:1
+  (2016), 48–67; *JEMAHS* 2:3 (2014), 188–208; the oil press in *Jerusalem
+  Quarterly* 62 (2015), 84–97.
+- **Al-Houdalieh & Shadi S. Ghadban** (Birzeit), "Agricultural Watchtowers in
+  Al-Tireh Quarter and ʿAin Qinia Village, Ramallah, Palestine," *International
+  Journal of Architectural Heritage* **7:5 (2013), 509–535**, DOI
+  10.1080/15583058.2011.654049 — the survey that counted **167 towers over some
+  3,000 dunums**.
+- **Shadi Ghadban**, "Palestinian Dry Stone Structures — An Endogenous Expression
+  of Cultural Landscape," *Journal "Sustainable Development, Culture, Traditions"*
+  1b (2015), 34–46; and "The Architecture of the Palestinian Dry-Stone Hut —
+  Al-mantarah," *JCCS-A* 6 (2012), 16–25.
+- **Hamdan Taha** (Department of Antiquities and Cultural Heritage, Ministry of
+  Tourism and Antiquities) with **Lorenzo Nigro** (Rome «La Sapienza») and, in the
+  first seasons, **Nicolò Marchetti** — the Italian–Palestinian Expedition to Tell
+  es-Sultan, from 1997 to the 2019–2023 seasons. Also Taha's own account of the
+  site in *This Week in Palestine*.
+- **Nur Masalha**, **Hamdan Taha at ʿAbūd**, and the Ottoman register
+  transliterations of **John Mogannam**, are cited throughout.
+
 ## Rights
 
 The text of the book is the authors'. The register facsimiles, the published
