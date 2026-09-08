@@ -1,0 +1,40 @@
+v5.5-v5.7 - the Gospels on this ridge, al-Bira, 1834, the camps, an audit, and fourteen open questions closed
+
+v5.5 - the Bible as a map of this district: a new plate grading the identification
+of every biblical place within a day's walk (not the scripture), the Robinson entry
+on Palestinian villagers as the reason the names can be read, scripture on the Iron
+Age map, and the thread run through Jericho, Moab and Gerizim.
+
+v5.6 - THE ROADS HE USED: a three-panel plate putting every Gospel place at its real
+coordinates against the site of Ramallah, with three entries - the two roads from
+Galilee and Ephraim/et-Taybeh; what this ridge was doing in AD 30; and 69-70, when
+Vespasian garrisoned Bethel and Ephraim and Titus held Jerusalem's surrendered
+priests at Jifna. THE TWIN TOWN: the Rafeedie of al-Bira, and the fact that Rafidiya
+tells the same origin story this family tells. THE PEASANTS' REVOLT of 1834. AND
+WHERE THEY LIVED: the refugee camps the book had never named.
+
+Framing audit: the Staff Officer of Archaeology volumes correctly labelled; "Judea
+proper" removed from the book's own voice; the Amnon Cohen refugee sentence
+rewritten; custody language corrected on the Mandate archives and the Ain Samiya
+goblet; affiliations named for Avni, the IAA repositories, Ariel University and the
+Gerizim excavation.
+
+v5.7 - fourteen open questions closed, and a correction to v5.6 within a day of
+printing it. Robinson and Smith 1841 III.78-79 read directly: twenty-six men of
+Jifna were taken to Egypt and PUT INTO THE PUBLIC WORKS, not exiled; Robinson gives
+no motive; and ONE of the village's two priests followed them later and died there.
+The received version is a misparse of "one of their two priests".
+
+Also: the Haddadin are no longer said to be "named 1596"; Ghassan is in western
+Arabia, not north-central; every plate distance is now computed from coordinates
+rather than typed; the founding is 64 Christian households and 7 unmarried men
+against 10 Muslim; the Samhan nahiya question dissolved; the eighth bachelor found;
+the Federation has three founding dates because it has three foundings; Ramallah's
+Muslim majority dated to between 1967 and 1997; Khirbet et-Tireh's 749 abandonment
+withdrawn.
+
+38 figures, 223 notes. QA clean: no brace leaks, overlap detector empty, zero
+overflow at 1280/900/420, no page errors, no broken anchors.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01U4zPY9Xk72xkKmL4D3F4Rm

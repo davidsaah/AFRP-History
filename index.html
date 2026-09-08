@@ -72,9 +72,32 @@ code{font:.86em ui-monospace,SFMono-Regular,Menlo,monospace;background:#F2EEE4;
   .stat:nth-child(2){border-right:0}
   .grid{grid-template-columns:1fr}
 }
+
+/* AFRP marks — from the platform prototype. currentColor throughout, so each
+   one takes the colour of the box it sits in; no palette change anywhere. */
+.ic{fill:none;flex:none}
+.stat .ic{display:block;width:19px;height:19px;color:var(--gold);margin:0 0 9px}
+.cta .t .ic{width:25px;height:25px;color:var(--green);margin-right:11px;vertical-align:-.16em;
+  transition:color .15s}
+.cta:hover .t .ic{color:var(--gold)}
+.card .t .ic{width:18px;height:18px;color:var(--gold);margin-right:9px;vertical-align:-.14em;
+  transition:color .15s}
+.card:hover .t .ic{color:var(--dark)}
 </style>
 </head>
 <body>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden"><defs>
+<symbol id="i-people" viewBox="0 0 20 20"><circle cx="7.2" cy="6.6" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 16.4c.5-3.2 2-5 4.2-5s3.7 1.8 4.2 5M13.2 5.2a2.2 2.2 0 1 1 .1 4.3M13.4 11.6c1.9.3 3.1 1.9 3.6 4.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+<symbol id="i-quill" viewBox="0 0 20 20"><path d="M16.7 3.3C11 3.9 6.8 7.9 5.3 13.5l-.9 3.1 3.1-.9C13.1 14.2 16.1 9.3 16.7 3.3ZM4.4 16.6C8 10.4 11.6 6.9 15 4.9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-grid" viewBox="0 0 20 20"><path d="M2.6 2.6h6v6h-6zM11.4 2.6h6v6h-6zM2.6 11.4h6v6h-6zM11.4 11.4h6v6h-6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+<symbol id="i-scroll" viewBox="0 0 20 20"><path d="M6 3.2h8.4A1.9 1.9 0 0 1 16.3 5v10a1.8 1.8 0 0 1-1.8 1.8H6.9A1.9 1.9 0 0 1 5 14.9V5A1.9 1.9 0 0 0 3.2 3.2H6a1.9 1.9 0 0 0 0 3.8h1.4M8.4 9.4h4.8M8.4 12.4h4.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-book" viewBox="0 0 20 20"><path d="M10 5.1C8 3.8 5.4 3.6 3.1 4.2v11.2c2.3-.6 4.9-.4 6.9.9 2-1.3 4.6-1.5 6.9-.9V4.2C14.6 3.6 12 3.8 10 5.1Zm0 0v11.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-scales" viewBox="0 0 20 20"><path d="M10 3.4v13.2M6.6 16.6h6.8M4.4 5.8h11.2M4.4 5.8l-1.9 4.4h3.8ZM15.6 5.8l-1.9 4.4h3.8Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-seal" viewBox="0 0 20 20"><circle cx="10" cy="8.2" r="4.7" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m7.5 12.3-1.2 4.6 3.7-1.9 3.7 1.9-1.2-4.6M8.2 8.1l1.4 1.4 2.5-2.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-compass" viewBox="0 0 20 20"><circle cx="10" cy="10" r="6.8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m12.9 7.1-1.5 4.3-4.3 1.5 1.5-4.3ZM10 2v1.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-search" viewBox="0 0 20 20"><circle cx="8.8" cy="8.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m12.6 12.6 4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+</defs></svg>
 <div class="bar"></div>
 <div class="wrap">
 
@@ -88,14 +111,14 @@ code{font:.86em ui-monospace,SFMono-Regular,Menlo,monospace;background:#F2EEE4;
 </header>
 
 <div class="stats">
-  <div class="stat"><b>66</b><span>generations, Adam to Rāshid</span></div>
-  <div class="stat"><b>36</b><span>of them named</span></div>
-  <div class="stat"><b>34</b><span>figures, all generated</span></div>
-  <div class="stat"><b>178</b><span>cited notes</span></div>
+  <div class="stat"><svg class="ic"><use href="#i-people"/></svg><b>66</b><span>generations, Adam to Rāshid</span></div>
+  <div class="stat"><svg class="ic"><use href="#i-quill"/></svg><b>36</b><span>of them named</span></div>
+  <div class="stat"><svg class="ic"><use href="#i-grid"/></svg><b>38</b><span>figures, all generated</span></div>
+  <div class="stat"><svg class="ic"><use href="#i-scroll"/></svg><b>223</b><span>cited notes</span></div>
 </div>
 
 <a class="cta" href="out/AFRP_The_One_Line_v5.html">
-  <div class="t">Read the book</div>
+  <div class="t"><svg class="ic"><use href="#i-book"/></svg>Read the book</div>
   <div class="d">Fourteen eras of Palestinian history, with the family's own chain of nine
   links threaded through them — and at each point, what evidence there is. Often the honest
   answer is <i>none</i>, and the book says so.</div>
@@ -105,22 +128,22 @@ code{font:.86em ui-monospace,SFMono-Regular,Menlo,monospace;background:#F2EEE4;
 <h2>Also here</h2>
 <div class="grid">
   <a class="card" href="out/AFRP_Timeline_Test_v1.html">
-    <div class="t">The test harness</div>
+    <div class="t"><svg class="ic"><use href="#i-scales"/></svg>The test harness</div>
     <div class="d">Thirty-six checkable claims from the family's own presentation, each with a
     verdict, so the audit can be re-run by anyone.</div>
   </a>
   <a class="card" href="data/AFRP_Register_Names_1553_1562.csv">
-    <div class="t">The register names, 1553 &amp; 1562</div>
+    <div class="t"><svg class="ic"><use href="#i-seal"/></svg>The register names, 1553 &amp; 1562</div>
     <div class="d">109 households and 8 bachelors from the Ottoman defters, with the nineteen
     that appear in both flagged.</div>
   </a>
   <a class="card" href="docs/METHOD.md">
-    <div class="t">Method</div>
+    <div class="t"><svg class="ic"><use href="#i-compass"/></svg>Method</div>
     <div class="d">Why the chart is a guide and not a source; why Palestinian and Arab
     scholarship comes first; how the generations are numbered.</div>
   </a>
   <a class="card" href="docs/OPEN_QUESTIONS.md">
-    <div class="t">Open questions</div>
+    <div class="t"><svg class="ic"><use href="#i-search"/></svg>Open questions</div>
     <div class="d">What is still unresolved, in order of how much it would change the book.
     The top two both need somebody in a Turkish archive.</div>
   </a>

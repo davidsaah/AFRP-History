@@ -1,5 +1,264 @@
 # Changelog
 
+## v5.7 — 7 September 2026
+
+### The open questions, worked through
+
+Fourteen closed. The full state is in `docs/OPEN_QUESTIONS.md`.
+
+**A correction to v5.6, made within a day of printing it.** Robinson & Smith
+(1841, III.78–79) was read directly, and the received account of the Jifnā
+deportation is wrong — including in this book's own v5.6 entry, and in the general
+reference works. Robinson: *"After the rebellion of 1834, twenty-six men were
+taken to Egypt and put into the public works, whence they have never returned.
+Not long since, one of their two priests went to Egypt to look after them, and
+died there."* They were taken for **forced labour**, not exiled; Robinson gives
+**no motive and no accusation**; and **one** of the village's two priests followed
+them **later**, and died there. The error is a misparse of "one of their two
+priests." Printed as a FIX box.
+
+**Why Jifnā was punished** — not a local rising. It lay in the **northern Banī
+Ḥārith**, whose shaykh **Ismāʿīl Simḥān was executed by Ibrāhīm Pasha in 1834**.
+
+**Bayt Jālā, 31 May 1834** — soldiers killed **33 Christian men and women** on
+suspicion of looting, the day after Ibrāhīm re-entered Jerusalem. Rood, *JQ* 27,
+whose own source is the Greek Orthodox monk Spyridon.
+
+**The Bethlehem Muslim-quarter destruction is withdrawn** pending a page.
+
+**The Samḥān nāḥiya question dissolved.** Banī Ḥārith was bipartite — northern
+(Simḥān, Rās Karkar) and southern (Kaʿraja, Dayr Ibzīʿ) — and Banī Zayd is a
+separate nāḥiya. The circulating table collapses the halves and cites Doumani
+p. 35, where no such table exists. **Ramallah sat in Jabal al-Quds**, not as a
+seat — so the book's "not a throne village" is now positively sourced.
+
+**The eighth bachelor, found.** Ḥammūdeh reads the 1562 register as 63 households
++ 8 bachelors; the family's transcription reads 64 + 7. **Both total 71 Christian
+entries.** The disagreement is one line, read once as a household and once as a
+bachelor.
+
+**The Federation has three founding dates because it has three foundings** — the
+magazine in 1952, the constituting convention on 7 September 1959, IRS recognition
+in August 1963 (EINs 38-6096448 and 38-6096449). The convention count closes on
+1959, not 1958.
+
+**Ramallah's Muslim majority, dated properly.** The 1967 census counted **6,966
+Christians of 12,134 — 57 per cent.** By 1997, 32 per cent. The crossing falls in
+those thirty years and cannot be dated closer: there was no census at all between
+them. The 1967 count is an **Israeli state source** and the book now says so on
+the page instead of routing it through a tertiary work.
+
+**Khirbet et-Tireh's 749 abandonment is withdrawn** — al-Houdalieh's own
+publication says the press "was maintained in continuous use from the Byzantine
+through the late Ottoman periods." The press itself is now described: **direct
+screw, four press-beds**, a crushing basin 2.1 m across, rooms above for the
+owner's share.
+
+**Al-Bīra and Ramallah counted, building by building** — Riwaq's free registry:
+**381 historic buildings at Ramallah, 168 at al-Bīra**, and al-Bīra's list is
+dominated by the same families Ḥammūdeh names.
+
+**Al-Jalazūn's "inconsistent" population is a category error** — UNRWA's own page
+gives 9,450 beside a density computed from 13,000. Registered refugees against
+residents.
+
+**The Rafeedie claim is downgraded to an assertion.** Ḥammūdeh's endnote on that
+sentence turns out to be an aside about the 1948 refugees, not a citation.
+
+**PCBS 2021 = 42,122** confirmed to the table and locality code; no 2024 figure is
+printed, and none was extrapolated.
+
+**Little's *Catalogue* is no longer the blocker** — McGill has put the entire 1978
+photographic survey of the Ḥaram corpus on the Internet Archive, open access.
+
+**38 figures · 223 notes.** QA clean.
+
+
+## v5.6 — 7 September 2026
+
+### A Jesus section, an al-Bīra section, and a full audit
+
+**New: THE ROADS HE USED — and the ridge they run along.** A three-panel plate
+(Figure 38) putting every Gospel place at its real coordinates against the hill
+Ramallah would be founded on. The two roads from Galilee; the district inside a
+day's walk; a numbered key so no label crowds the map. **Markers are graded on
+the identification of the place, never on the verse.** With it, three entries:
+the roads and Ephraim/eṭ-Ṭaybeh; what this ridge was actually doing in AD 30
+(the Gophna toparchy, the terraces, the pilgrim traffic); and what happened to
+it in 69–70, when Vespasian garrisoned **Bethel and Ephraim** — the same two
+towns — and Titus held Jerusalem's surrendered priests at **Jifnā**.
+The al-Bīra and al-Qubeiba pilgrim traditions are printed and graded as
+traditions, in violet, dashed.
+
+**New: THE TWIN TOWN — the Rafeedie of al-Bīra.** The Christian family that came
+to al-Bīra from Rafīdiyā in the nineteenth century, on Sāmiḥ Ḥammūdeh's
+authority — and the fact that **Rafīdiyā tells the same origin story this family
+tells**: Ghassanid Christians, flight from al-Karak, a refused marriage. The
+book prints the parallel and the objection together: Rafīdiyā already had 85
+Christian households in 1596, so the tradition cannot be a literal foundation
+account. **The argument offered is that it is a form** — how Palestinian
+Christians of these hills remember themselves — and that a form is not a lie.
+With Pringle on eight centuries of continuous habitation at al-Bīra, the 1541
+court record putting Ramallah and al-Bīra men in business together twenty-one
+years before the founding, and two claims the book was offered and refused.
+
+**New: THE PEASANTS' REVOLT of 1834.** Previously a single clause. Now the
+event that destroyed the throne-village shaykhs of these hills — including
+ʿAbd al-Jābir Barghūthī of Dayr Ghassāna and Ismāʿīl ibn Simḥān of Rās Karkar —
+and the one village of this district recorded as taking part: **Jifnā, whose
+twenty-six exiles to Egypt were joined voluntarily by two of its priests.**
+
+**New: AND WHERE THEY LIVED — the camps.** The book said Ramallah tripled in
+1948 and then never said where the people went. Now: Qaddūra inside the city,
+al-Amʿarī, al-Jalazūn, Qalandiyā and Dayr ʿAmmār, with origins, land tenure and
+counts — and the demographic question answered in the right order, without the
+sectarian frame.
+
+### The framing audit
+
+A full pass over the manuscript for imported framing. Findings acted on:
+
+- The **"Christians and Christianity" volumes** were labelled a Hebrew University
+  finding aid. They are the publication series of the **Staff Officer of
+  Archaeology for "Judea and Samaria"** — the archaeological arm of the Israeli
+  Civil Administration. The caveat now says so.
+- **"Judea proper"** removed from the book's own annotation voice.
+- The **Amnon Cohen** annotation described Ramallah's Christian majority as
+  "demographically displaced by refugee settlement." That contradicted the book's
+  own 1948 entry and split this town's Christians from the refugees. Rewritten.
+- Custody language corrected: the Mandate files were **taken over in 1948**, not
+  "inherited"; the ʿAin Samiya goblet is **held** in the Israel Museum, three
+  years into the occupation, **rather than in the governorate it came out of**;
+  the Ottoman nüfus registers were transferred to the *Mandate* government.
+- Affiliations named where the book had left them as metadata: **Avni** (IAA
+  Archaeology Division), the **IAA repositories**, **Judea and Samaria Research
+  Studies** (Ariel University, inside a settlement), and the **Mount Gerizim**
+  excavation.
+- **"the Christian settlers"** — a word this book cannot use loosely — replaced.
+- FamilySearch's "Ramallah, Israel" is now named as the cataloguer's geography.
+
+### The fact-check
+
+- **The Ḥaddādīn are no longer said to be "named 1596."** The book proves in a
+  full chapter that no occurrence of the name is known before the nineteenth
+  century, and the Verdict and Key Dates contradicted it. Fixed.
+- **Ghassān in ʿInān 75 and ʿAbadān 1 is in western Arabia, not north-central.**
+  Robin, who edited both texts, puts the tribe's centre in that period at
+  Yathrib. The dam-collision argument survives in corrected form: the
+  inscriptions do not put Ghassān in Syria by 250, they put it **out of Yemen**
+  by 250, which is enough.
+- **Every distance on every plate is now computed** from the book's stated origin
+  and the site's own plotted coordinates, so a label cannot drift from its dot.
+  Tell en-Naṣbeh falls from 3 km to **1.8**; eṭ-Ṭaybeh from twelve to **eleven**.
+- **The founding arithmetic, from the project's own register transcription:**
+  the 1562 register lists **64 Christian households and 7 unmarried men against
+  10 Muslim** — not "27 families up from Bayt Jālā."
+- Jabal Usays: the writer is **Ruqaym son of Maʿarrif the Awsite**, not Ibrāhīm.
+- Jericho 2019–23 is **Nigro and Yasine**; Guy de Lusignan was not yet king in
+  March 1186; Mirʾāt al-Sharq has **1,132** issues; the Friends Girls School was
+  renamed **1925**; Callaway dug et-Tell **1964–70**; Raddana was dug **1969–74**.
+- Mount Gerizim's mid-fifth-century date is **Magen's, and disputed**.
+- Beeroth: al-Bīra "most likely comes from Aramaic *bīrāh*, fortress, not the
+  Hebrew for wells." Six candidates, none secure.
+- Transliterations unified (eṭ-Ṭaybeh; Ḥassan Nawwār; Hassenauer).
+
+### New to the shelf
+
+Doumani, *Rediscovering Palestine* · Taraki, *Enclave Micropolis* · the ARIJ
+camp profiles for Qaddūra, al-Amʿarī, al-Jalazūn, Qalandiyā and Dayr ʿAmmār ·
+PCBS 2017 · Taha on the Palestinian Department of Antiquities.
+
+**38 figures · 219 notes · 1,844,165 bytes.** QA clean.
+
+
+## v5.5 — 7 September 2026
+
+### The Bible as a map of this district
+
+At the author's direction: more links between scripture and hard evidence, and
+all of them local.
+
+- **New entry, Era Three: THE BIBLE IS A MAP OF THIS DISTRICT — and Palestinian
+  villagers are why it can be read.** Nobody found the biblical places by reading
+  the Bible. Robinson and Eli Smith found them in 1838 by walking into Palestinian
+  villages and asking what people called home, and the answers were the ancient
+  names carried in Arabic for three thousand years. *ʿAin Shams is Beth Shemesh.
+  ʿĀqir is Ekron. Beitin is Bethel. Seilūn is Shiloh. Mukhmās is Michmash.*
+  Closing argument: **a replaced people forgets the names.**
+- **New plate: every biblical place within a day's walk**, with the Arabic village
+  it survived as, the scripture, the excavation, and a grade for **the
+  identification** — not for the scripture. Nine places, the furthest nineteen
+  kilometres out.
+- **al-Jib / Gibeon.** Pritchard, 1956–59, found **more than sixty jar handles
+  inscribed גבען — Gibeon**, in 8th–7th-century Hebrew script. The site says its
+  own name, six kilometres from Ramallah. Graded **NAMED ON SITE**.
+- **et-Tell / Ai**, printed as gladly as the rest: Hebrew *ha-ʿAi* means **"the
+  ruin,"** and the ground agrees — Early Bronze town destroyed c. 2400 BC, empty
+  a thousand years, then an Iron I village on the abandoned mound. Dug by
+  Marquet-Krause, Callaway and **Hani Nur el-Din of al-Quds University**.
+- **al-Bīra / Beeroth** included and openly graded **CONTESTED** — Joshua 9:17,
+  Ezra 2:25, Nehemiah 7:29, with the rival candidates acknowledged.
+
+### The scripture thread, run through the other eras
+
+- **Scripture on the Iron Age map** — each site now carries its biblical name and
+  one verse: Beitin (Gen 28:10–19), al-Jib (Josh 9–10), Khirbet Seilūn (1 Sam 1–4),
+  Tell en-Naṣbeh (1 Sam 10:17–24), et-Tell (Josh 7–8).
+- **Jericho** — noted that the same mound carries the Jericho of Joshua 6, near the
+  *top* of it, some eight thousand years above the tower this entry is about. The
+  book takes no position on the conquest debate and says so.
+- **Moab** — the **Mesha Stele and 2 Kings 3 are the same war from opposite
+  sides**, naming the same king. Two accounts of one campaign, each the enemy's
+  version of the other. The stele also carries the earliest occurrence of the
+  divine name outside the Bible.
+- **Mount Gerizim** — **John 4:20** added: *"our fathers worshipped in this
+  mountain."* The dispute the verse records is the one the archaeology dates.
+
+**37 figures · 187 notes · 1,765,492 bytes.** QA clean.
+
+
+## v5.4 — 7 September 2026
+
+### Who was on this ridge in 1000 BC — a new entry and two new plates
+
+Answering a reader's question: *were the Israelites here, and were they in
+Ramallah?* The second half is easy — **Ramallah did not exist**, and would not
+for another two and a half thousand years. The first half is the more
+interesting one, and it is now answered from survey data rather than assertion.
+
+- **New entry, Era Three: WHO WAS ON THIS RIDGE — the highlands fill up, and
+  nobody arrives.** The central hill country goes from about **25 settlements to
+  about 250** between 1200 and 1000 BC, and from a scatter to roughly **45,000
+  people** — with no matching emptying-out anywhere a migration could have come
+  from.
+- **New plate: the highlands fill up.** One dot per settlement, Late Bronze
+  against Iron I, with the three things the surveys do *not* find: no destruction
+  horizon, no new pottery tradition, no arrival visible anywhere else.
+- **New plate: the ridge in the Iron Age.** Every excavated site within a
+  morning's walk, at real coordinates, with **Ramallah drawn as an empty ring**.
+  **Khirbet Raddana lies inside al-Bīra** — a village of the 12th–11th centuries
+  BC on the town's doorstep, dug in the 1960s and since built over.
+- **Merneptah, 1208 BC:** the first appearance of the name *Israel* is written
+  with the Egyptian determinative for **a people**, not a land — a group living
+  in this country, among the people of this country.
+
+The framing is the book's existing thesis extended: Canaanite, Israelite,
+Judaean, Christian, Muslim, Palestinian are **names taken by a largely continuous
+population**, not peoples replacing one another.
+
+### Withdrawn before publication — the passion entry
+
+An entry on the crucifixion was drafted for Era Six and **removed at the author's
+direction before it was ever pushed**. It was proposed and framed by the
+assistant, not asked for, and it placed an interpretive correction inside a
+passion narrative in a Palestinian Christian family history. That was an
+overreach on a matter of reading rather than of fact. The book's existing Gospels
+entry is untouched; nothing about the passion has been added, altered or removed
+from what the fourth edition carried.
+
+**36 figures · 181 notes · 1,738,007 bytes.**
+
+
 ## v5.3 — 21 August 2026
 
 ### The Ḥaram al-Sharīf corpus, searched — and a claim of ours corrected

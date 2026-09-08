@@ -13,6 +13,25 @@ GOLD, GREY, RULE, FOLIO = '#B98A4E', '#77726A', '#DCD6C9', '#9A958C'
 INK, BODY, DARK = '#1A1A1A', '#46423B', '#004A26'
 SURF, SEA, LAND, TAN = '#FCFBF8', '#E7EFF2', '#F3EFE4', '#D4B483'
 
+# The centre of present-day Ramallah. Every distance printed on a plate in this
+# library is COMPUTED from this point and the site's own plotted coordinates, so
+# a label can never drift away from the dot it belongs to.
+RAM_LAT, RAM_LON = 31.8996, 35.2042
+
+
+def _km(lat, lon, lat0=RAM_LAT, lon0=RAM_LON):
+    """Great-circle kilometres, rounded the way the book prints them."""
+    R = 6371.0
+    p1, p2 = math.radians(lat0), math.radians(lat)
+    dp, dl = p2 - p1, math.radians(lon - lon0)
+    a = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+    return 2 * R * math.asin(math.sqrt(a))
+
+
+def _kmlab(lat, lon):
+    d = _km(lat, lon)
+    return ('%.1f km' % d) if d < 10 else ('%d km' % round(d))
+
 
 def _head(s, W, H, kicker, sub, aria):
     s.append(f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="{aria}">')
@@ -32,7 +51,7 @@ def fig_peopling():
     SITES = [
       (31.9819, 35.0436, 'SHUQBA CAVE', 'Wādī an-Naṭūf — the cave the Natufian is named after.<br>A Neanderthal child’s tooth below; Natufian burials above.', 17.7, 'pal', 10, -16, 'start'),
       (31.8711, 35.4442, 'TELL es-SULTAN', 'Jericho — permanent settlement from c. 9600 BC;<br>the stone tower c. 9000 BC. UNESCO, 2023.', 25.4, 'neo', -14, -46, 'end'),
-      (31.8869, 35.2164, 'TELL en-NASBEH', 'A village on the edge of al-Bīra, 3 km from<br>Ramallah’s centre — Late Chalcolithic / EB I.', 3.0, 'chal', 14, 40, 'start'),
+      (31.8869, 35.2164, 'TELL en-NASBEH', 'A village on the edge of al-Bīra, under two<br>kilometres from Ramallah — Late Chalcolithic / EB I.', 0, 'chal', 14, 40, 'start'),
       (31.9169, 35.2569, 'et-TELL (Ai)', 'Early Bronze town, 3200–2400 BC.<br>No Chalcolithic phase beneath it.', 5.3, 'eb', 13, -26, 'start'),
       (31.9700, 35.3200, 'ʿAIN SAMIYA', 'Intermediate Bronze shaft-tomb cemetery —<br>the ʿAin Samiya goblet. 2300–2000 BC.', 13.2, 'eb', 12, 0, 'start'),
       (31.7933, 35.1533, 'MOTZA', 'A Pre-Pottery Neolithic “megasite”,<br>c. 7000–6400 BC.', 12.5, 'neo', 12, 6, 'start'),
@@ -76,7 +95,7 @@ def fig_peopling():
                  f'stroke="{col}" stroke-width=".9" stroke-dasharray="3 3" opacity=".45"/>')
         s.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="6" fill="{col}" stroke="#FFFFFF" stroke-width="1.6"/>')
         s.append(txt(x + dx, y + dy, nm, 9.8, col, anc, '700', 'normal', '.6'))
-        s.append(txt(x + dx, y + dy + 12, f'{km} km', 8.6, GREY, anc, '400', 'italic'))
+        s.append(txt(x + dx, y + dy + 12, _kmlab(la, lo), 8.6, GREY, anc, '400', 'italic'))
         for i, ln in enumerate(what.split('<br>')):
             s.append(txt(x + dx, y + dy + 24 + i * 10.5, ln, 8.4, BODY, anc))
     ly = H - 96
@@ -827,5 +846,460 @@ def fig_riyam_road():
     s.append(txt(40, yb + 52,
                  'The dam’s first recorded breach is in 455 — a hundred and seventy-five years after this stone was cut.',
                  9.4, RUST, 'start', '700'))
+    s.append('</svg>')
+    return ''.join(s)
+
+
+# ═════════════════════ 8. who was on this ridge in the Iron Age
+# ═════════════════════ 8. who was on this ridge in the Iron Age
+def fig_iron_ridge():
+    """The excavated Iron Age sites within a morning's walk of Ramallah — and the
+    hole in the middle of them where Ramallah is not.
+
+    The sites cluster inside four kilometres, so every label lives in a gutter
+    with a leader line to its dot; nothing is placed free-hand near the map.
+    """
+    W, H = 860, 600
+    MX0, MX1, MY0, MY1 = 296, 566, 122, 470
+    lon0, lon1, lat0, lat1 = 35.13, 35.33, 31.79, 32.08
+    def P(lat, lon):
+        return (MX0 + (lon - lon0) / (lon1 - lon0) * (MX1 - MX0),
+                MY0 + (lat1 - lat) / (lat1 - lat0) * (MY1 - MY0))
+
+    # (lat, lon, name, dist, note, side, label-y, approximate?)
+    SITES = [
+      (32.0556, 35.2894, 'KHIRBET SEILŪN', '19 km',
+       'SHILOH — 1 Samuel 1–4.<br>The highland sanctuary of the Iron I period.', 'R', 150, False),
+      (31.9275, 35.2367, 'BEITIN', '4.4 km',
+       'BETHEL — Genesis 28:10–19.<br>Jacob’s ladder, on the ridge road.', 'L', 168, False),
+      (31.9169, 35.2569, 'et-TELL (Ai)', '5.3 km',
+       'AI — Joshua 7–8. The name means “the ruin.”<br>An Iron I village on the ruined Early Bronze town.', 'R', 268, False),
+      (31.9083, 35.2050, 'KHIRBET RADDANA', 'inside al-Bīra',
+       'A farming village of the 12th–11th<br>centuries BC — pillared houses, silos,<br>'
+       'a spring. Dug 1969–74; now almost<br>entirely under the streets of al-Bīra.', 'R', 366, True),
+      (31.8869, 35.2164, 'TELL en-NAṢBEH', '3 km',
+       'MIZPAH — 1 Samuel 10:17–24.<br>Where Saul was chosen king. Badè, 1926–35.', 'L', 282, False),
+      (31.8464, 35.1847, 'al-JIB', '6.2 km',
+       'GIBEON — Joshua 9–10. Sixty jar handles<br>found here are inscribed with the name.', 'L', 400, False),
+    ]
+    s = []
+    _head(s, W, H, 'THE RIDGE IN THE IRON AGE — every excavated site, and the gap in the middle',
+          'About 1000 BC. Each dot is a site with a published excavation. Distances are measured '
+          'from the centre of present-day Ramallah.',
+          'Map of excavated Iron Age sites around Ramallah with the site of Ramallah itself unoccupied')
+
+    s.append(f'<rect x="{MX0-26}" y="{MY0-30}" width="{MX1-MX0+52}" height="{MY1-MY0+38}" '
+             f'fill="{LAND}" opacity=".5" rx="4"/>')
+    ridge = [(31.79, 35.198), (31.87, 35.208), (31.93, 35.220), (32.01, 35.240), (32.08, 35.252)]
+    s.append('<polyline points="' + ' '.join('%.1f,%.1f' % P(a, b) for a, b in ridge) +
+             f'" fill="none" stroke="{TAN}" stroke-width="6.5" opacity=".9"/>')
+    s.append(txt(MX0 - 20, MY0 - 12, 'the watershed ridge road', 8.8, '#9A7A45', 'start', '400', 'italic'))
+
+    for la, lo, nm, dist, note, side, ly, approx in SITES:
+        x, y = P(la, lo)
+        gx = 258 if side == 'L' else 604
+        anc = 'end' if side == 'L' else 'start'
+        s.append(f'<path d="M{x:.1f} {y:.1f} L{(gx+14) if side=="L" else (gx-14):.1f} {ly-4:.1f}" '
+                 f'fill="none" stroke="{FOLIO}" stroke-width=".8" opacity=".7"/>')
+        s.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="6.2" fill="{GREEN}" stroke="#FFFFFF" '
+                 f'stroke-width="1.8"' + (' stroke-dasharray="2.5 2"' if approx else '') + '/>')
+        s.append(txt(gx, ly, nm, 9.8, DARK, anc, '700', 'normal', '.6'))
+        s.append(txt(gx, ly + 12, _kmlab(la, lo) + ('  · position approximate' if approx else ''),
+                     8.6, GREY, anc, '400', 'italic'))
+        for i, ln in enumerate(note.split('<br>')):
+            s.append(txt(gx, ly + 25 + i * 10.5, ln, 8.4, BODY, anc))
+
+    # Ramallah — the hole in the middle
+    x, y = P(31.8996, 35.2042)
+    s.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="16" fill="#FFFAF0" stroke="{RUST}" '
+             f'stroke-width="2.1" stroke-dasharray="4 3.5"/>')
+    s.append(txt(x, y + 34, 'RAMALLAH', 11, RUST, 'middle', '700', 'normal', '1.2'))
+    s.append(txt(x, y + 46, 'no Iron Age settlement', 8.6, RUST, 'middle', '400', 'italic'))
+    s.append(txt(x, y + 56, 'founded AD 1562', 8.6, RUST, 'middle', '400', 'italic'))
+
+    fx, fy = P(31.80, 35.202)
+    s.append(f'<path d="M{fx:.1f} {fy-14:.1f} L{fx:.1f} {fy:.1f} M{fx-4:.1f} {fy-5:.1f} '
+             f'L{fx:.1f} {fy:.1f} L{fx+4:.1f} {fy-5:.1f}" fill="none" stroke="{GREY}" stroke-width="1.2"/>')
+    s.append(txt(fx, fy + 13, 'the road continues to Jerusalem — 13.8 km', 8.6, GREY, 'middle', '400', 'italic'))
+
+    yb = H - 118
+    s.append(f'<line x1="40" y1="{yb}" x2="{W-40}" y2="{yb}" stroke="{RULE}"/>')
+    s.append(txt(40, yb + 22, 'THE RIDGE WAS FULL. THE TOWN WAS NOT ON IT.',
+                 11, GOLD, 'start', '700', 'normal', '1.2'))
+    for i, ln in enumerate([
+      'Every village here is within an hour or two of the future town, and every one was inhabited while Ramallah’s own hilltop was empty ground.',
+      '<tspan font-weight="700">Khirbet Raddana lies inside al-Bīra</tspan> — a farming village of the twelfth and eleventh centuries BC, on the doorstep, excavated in the 1960s and',
+      'since built over by the town’s own growth. The people in those houses are the population this book has followed since the Chalcolithic.',
+      'What changes across the Iron Age is not who lives on this ridge. It is what they are called.']):
+        s.append(txt(40, yb + 42 + i * 15, ln, 9.4, BODY, 'start'))
+    s.append('</svg>')
+    return ''.join(s)
+
+
+# ═════════════════════ 9. the highland fill-up, counted
+def fig_highland_fill():
+    """Late Bronze to Iron I in the central highlands, drawn as one dot per site."""
+    W, H = 860, 596
+    s = []
+    _head(s, W, H, 'THE HIGHLANDS FILL UP — one dot for every settlement found',
+          'Archaeological survey of the central hill country: the Late Bronze Age against the Iron I '
+          'period that follows it. The coast and the valleys show no comparable jump.',
+          'Dot chart comparing about 25 Late Bronze Age highland sites with about 250 in Iron Age I')
+
+    def block(x0, y0, n, cols, col, r=4.6, gap=13.5):
+        out = []
+        for i in range(n):
+            c, rr = i % cols, i // cols
+            out.append(f'<circle cx="{x0+c*gap:.1f}" cy="{y0+rr*gap:.1f}" r="{r}" fill="{col}"/>')
+        return ''.join(out), (n + cols - 1) // cols
+
+    # left — Late Bronze
+    s.append(txt(56, 108, 'LATE BRONZE AGE', 10.2, GREY, 'start', '700', 'normal', '1.2'))
+    s.append(txt(56, 124, 'c. 1400–1200 BC', 9, FOLIO, 'start', '400', 'italic'))
+    b, rows = block(62, 148, 25, 5, '#B9B3A6')
+    s.append(b)
+    s.append(txt(56, 148 + rows * 13.5 + 16, 'about 25 settlements', 11, INK, 'start', '700'))
+
+    # right — Iron I
+    s.append(txt(300, 108, 'IRON AGE I', 10.2, DARK, 'start', '700', 'normal', '1.2'))
+    s.append(txt(300, 124, 'c. 1200–1000 BC', 9, FOLIO, 'start', '400', 'italic'))
+    b2, rows2 = block(306, 148, 250, 22, GREEN)
+    s.append(b2)
+    s.append(txt(300, 148 + rows2 * 13.5 + 16, 'about 250 settlements — roughly 45,000 people',
+                 11, DARK, 'start', '700'))
+
+    yb = 392
+    s.append(f'<line x1="40" y1="{yb}" x2="{W-40}" y2="{yb}" stroke="{RULE}"/>')
+    s.append(txt(40, yb + 24, 'AND HERE IS WHAT THE JUMP IS NOT', 11, GOLD, 'start', '700', 'normal', '1.2'))
+    NOTS = [
+      ('No destruction layer', 'The highland villages are new foundations on empty hilltops, not '
+       'burnt towns rebuilt by somebody else.'),
+      ('No new pottery tradition', 'The cooking pots continue the local Late Bronze repertoire. '
+       'A population arriving from outside brings its own kitchen; this one did not.'),
+      ('No arrival visible anywhere else', 'The coast and the Jordan valley show no matching '
+       'emptying-out. Nobody moved from there to here in numbers.'),
+    ]
+    for i, (h, d) in enumerate(NOTS):
+        y = yb + 46 + i * 34
+        s.append(f'<circle cx="47" cy="{y-4}" r="3.2" fill="{RUST}"/>')
+        s.append(txt(60, y, h, 9.8, INK, 'start', '700'))
+        s.append(txt(60, y + 13, d, 9.2, BODY, 'start'))
+    s.append(f'<line x1="40" y1="{H-52}" x2="{W-40}" y2="{H-52}" stroke="{RULE}"/>')
+    s.append(txt(40, H - 30,
+                 'The people filling these hills were already in the country. What the Iron Age adds to this ridge is a name, not a population.',
+                 10.4, DARK, 'start', '700'))
+    s.append('</svg>')
+    return ''.join(s)
+
+
+# ═════════════════════ 10. the Bible as a map of this district
+def fig_bible_ridge():
+    """Biblical places within a day's walk, and the Arabic village each survived as.
+
+    The right-hand grade is for the identification itself, not for the scripture:
+    whether the ground has confirmed the name, merely agrees with it, or is argued.
+    """
+    W = 860
+    ROWS = [
+      # (biblical, village today, arabic, km, scripture, dug, grade)
+      ('BEEROTH', 'al-Bīra', 'البيرة', 'next door',
+       'Joshua 9:17 · Ezra 2:25 · Nehemiah 7:29',
+       'Ramallah’s own twin town. Robinson’s identification, and philologists doubt it: al-Bīra most '
+       'likely comes from Aramaic bīrāh, “fortress,” not the Hebrew for “wells.” Six candidates have been '
+       'proposed and none is secure. The town is built over; nothing can be dug to settle it.', 'c'),
+      ('MIZPAH', 'Tell en-Naṣbeh', '—', '1.8 km',
+       '1 Samuel 7:5–6 · 1 Samuel 10:17–24 · Jeremiah 40–41',
+       'Where Samuel is said to have judged Israel and Saul to have been chosen king; and where '
+       'Gedaliah governed after 586. Badè, five seasons, 1926–35.', 's'),
+      ('BETHEL', 'Beitin', 'بيتين', '4.4 km',
+       'Genesis 12:8 · Genesis 28:10–19',
+       'Abram pitches his tent between Bethel and Ai; Jacob dreams of the ladder and names the '
+       'place. Excavated by Albright and Kelso.', 's'),
+      ('AI', 'et-Tell', 'التل', '5.3 km',
+       'Joshua 7–8',
+       'Hebrew <tspan font-style="italic">ha-ʿAi</tspan> means “the ruin” — and the ground agrees. An Early Bronze '
+       'town destroyed c. 2400 BC, then empty a thousand years, then an Iron I village built on the '
+       'mound without resistance. Marquet-Krause, Callaway, Nur el-Din.', 's'),
+      ('GIBEON', 'al-Jib', 'الجيب', '6.2 km',
+       'Joshua 9–10 · 2 Samuel 2:12–17',
+       'Pritchard, 1956–59, found <tspan font-weight="700">more than sixty jar handles inscribed גבען — Gibeon</tspan>, in '
+       'eighth- and seventh-century Hebrew script. The site says its own name.', 'n'),
+      ('MICHMASH', 'Mukhmās', 'مخماس', '7.5 km',
+       '1 Samuel 13–14',
+       'The pass where Jonathan crossed between the two crags. The name came through unbroken; '
+       'the site is surveyed rather than excavated.', 's'),
+      ('BAAL-HAZOR', 'Tell ʿAṣūr', 'تل عاصور', '11 km',
+       '2 Samuel 13:23',
+       'Absalom’s sheep-shearing. The highest summit of the central highlands, and the horizon '
+       'from Ramallah’s own rooftops.', 's'),
+      ('EPHRAIM', 'eṭ-Ṭaybeh', 'الطيبة', '11 km',
+       'John 11:54',
+       'Where the Gospel says Jesus withdrew with his disciples. Still today an entirely Christian '
+       'town, with a Byzantine church in it. Already an entry in this book.', 's'),
+      ('SHILOH', 'Khirbet Seilūn', 'خربة سيلون', '19 km',
+       '1 Samuel 1–4 · Jeremiah 7:12',
+       'Hannah’s prayer, Eli, and the Ark before Jerusalem. Excavated by Danish and later '
+       'expeditions.', 's'),
+    ]
+    RH = 72
+    top = 132
+    H = top + len(ROWS) * RH + 104
+    s = []
+    _head(s, W, H, 'THE BIBLE IS A MAP OF THIS DISTRICT',
+          'Every one of these places is within a day’s walk of Ramallah, and every one of them is '
+          'still called, in Arabic, what it was called three thousand years ago.',
+          'Table of biblical places near Ramallah with their modern Arabic village names, scripture references and excavations')
+
+    GR = {'n': (GREEN, '#E4F0E8', 'NAMED ON SITE'),
+          's': (GOLD,  '#F6EEDF', 'SECURE'),
+          'c': (RUST,  '#F7E7DC', 'CONTESTED')}
+
+    s.append(txt(40, top - 14, 'IN SCRIPTURE', 8.6, FOLIO, 'start', '700', 'normal', '1.4'))
+    s.append(txt(252, top - 14, 'ON THE GROUND TODAY', 8.6, FOLIO, 'start', '700', 'normal', '1.4'))
+    s.append(txt(W - 40, top - 14, 'THE IDENTIFICATION', 8.6, FOLIO, 'end', '700', 'normal', '1.4'))
+    s.append(f'<line x1="40" y1="{top-6}" x2="{W-40}" y2="{top-6}" stroke="{RULE}"/>')
+
+    for i, (bib, vil, ar, km, scr, dug, g) in enumerate(ROWS):
+        y = top + i * RH
+        col, bg, lab = GR[g]
+        if i % 2 == 0:
+            s.append(f'<rect x="40" y="{y-2}" width="{W-80}" height="{RH-6}" fill="{SURF}" rx="3"/>')
+        s.append(txt(52, y + 18, bib, 11.4, DARK, 'start', '700', 'normal', '.8'))
+        s.append(txt(52, y + 32, scr, 8.4, GOLD, 'start', '400', 'italic'))
+        s.append(txt(252, y + 18, vil, 10.6, INK, 'start', '700'))
+        if ar != '—':
+            s.append(txt(252, y + 33, f'<tspan class="ar">{ar}</tspan>', 10.2, GREY, 'start'))
+        s.append(txt(376, y + 18, km, 8.8, GREY, 'start', '400', 'italic'))
+        # the note, wrapped
+        words, line, lines = dug.split(' '), '', []
+        for w in words:
+            t = (line + ' ' + w).strip()
+            if len(t) > 76 and line:
+                lines.append(line); line = w
+            else:
+                line = t
+        lines.append(line)
+        for k, ln in enumerate(lines[:4]):
+            s.append(txt(444, y + 12 + k * 11, ln, 8.3, BODY, 'start'))
+        bw = 96
+        s.append(f'<rect x="{W-40-bw}" y="{y+6}" width="{bw}" height="15" rx="7.5" fill="{bg}" '
+                 f'stroke="{col}" stroke-width=".8"/>')
+        s.append(txt(W - 40 - bw / 2, y + 16.6, lab, 7.4, col, 'middle', '700', 'normal', '.9'))
+
+    yb = top + len(ROWS) * RH + 8
+    s.append(f'<line x1="40" y1="{yb}" x2="{W-40}" y2="{yb}" stroke="{RULE}"/>')
+    s.append(txt(40, yb + 24, 'THE NAMES ARE THE EVIDENCE.', 11, GOLD, 'start', '700', 'normal', '1.2'))
+    for i, ln in enumerate([
+      'Not one of these places was located by reading the Bible. They were located by asking the people who lived on them what they called home —',
+      'and the answers had been carried, in Arabic, by farming families on these hills for three thousand years. <tspan font-weight="700">The Palestinian village names are why',
+      'the biblical map can be read at all.</tspan> Where the ground has been dug it has agreed with them, and at al-Jib it agreed in writing.']):
+        s.append(txt(40, yb + 44 + i * 15, ln, 9.4, BODY, 'start'))
+    s.append('</svg>')
+    return ''.join(s)
+
+
+# ═════════════════════ 11. the roads he used, and this ridge under them
+def fig_jesus_road():
+    """Where the Gospels put him, drawn against the ridge Ramallah would be built on.
+
+    Left: the country, and the two roads between Galilee and Jerusalem — the
+    watershed ridge through Samaria, and the Jordan valley through Jericho.
+    Centre: the district, with everything the Gospels name inside a day's walk.
+    Right: the numbered key, so no label has to be crowded onto the map.
+    Markers are graded on the identification of the place, never on the verse.
+    """
+    W, H = 880, 790
+    s = []
+    _head(s, W, H, 'THE ROADS HE USED — and the ridge they run along',
+          'The Gospel places, at their real coordinates, against the hill Ramallah would be founded on '
+          'fifteen centuries later. Distances are measured from the centre of the present town.',
+          'Map of the places named in the Gospels in relation to the site of Ramallah')
+
+    # ─────────── left panel: the country, and the two roads
+    AX0, AX1, AY0, AY1 = 62, 232, 126, 520
+    def PA(lat, lon):
+        return (AX0 + (lon - 35.00) / 0.68 * (AX1 - AX0),
+                AY0 + (32.95 - lat) / 1.33 * (AY1 - AY0))
+    s.append(f'<clipPath id="clipJA"><rect x="{AX0-16}" y="{AY0-16}" '
+             f'width="{AX1-AX0+34}" height="{AY1-AY0+32}"/></clipPath>')
+    s.append(f'<rect x="{AX0-16}" y="{AY0-16}" width="{AX1-AX0+34}" height="{AY1-AY0+32}" '
+             f'fill="{LAND}" opacity=".45" rx="4"/>')
+    s.append(txt(AX0 - 16, AY0 - 24, 'GALILEE TO JERUSALEM', 9.4, GOLD, 'start', '700', 'normal', '.7'))
+
+    s.append('<g clip-path="url(#clipJA)">')
+    gx, gy = PA(32.83, 35.58)
+    s.append(f'<ellipse cx="{gx:.1f}" cy="{gy:.1f}" rx="8" ry="13" fill="{SEA}" stroke="#BBCBD2" stroke-width=".8"/>')
+    jordan = [(32.70, 35.575), (32.45, 35.535), (32.10, 35.545), (31.86, 35.545), (31.70, 35.510)]
+    s.append('<polyline points="' + ' '.join('%.1f,%.1f' % PA(a, b) for a, b in jordan) +
+             '" fill="none" stroke="#BBCBD2" stroke-width="2.4"/>')
+    ridge_rd = [(32.702, 35.298), (32.560, 35.300), (32.460, 35.300), (32.330, 35.290),
+                (32.210, 35.284), (32.085, 35.226), (31.960, 35.235), (31.900, 35.213),
+                (31.840, 35.220), (31.778, 35.230)]
+    valley_rd = [(32.702, 35.298), (32.600, 35.430), (32.497, 35.501), (32.300, 35.538),
+                 (32.050, 35.543), (31.900, 35.518), (31.871, 35.444), (31.820, 35.330),
+                 (31.778, 35.230)]
+    s.append('<polyline points="' + ' '.join('%.1f,%.1f' % PA(a, b) for a, b in ridge_rd) +
+             f'" fill="none" stroke="{TAN}" stroke-width="4.6" opacity=".95" stroke-linejoin="round"/>')
+    s.append('<polyline points="' + ' '.join('%.1f,%.1f' % PA(a, b) for a, b in valley_rd) +
+             f'" fill="none" stroke="{FOLIO}" stroke-width="2" stroke-dasharray="5 3.5" '
+             f'opacity=".9" stroke-linejoin="round"/>')
+    s.append('</g>')
+
+    for la, lo, nm, side, dy, kind in [
+      (32.702, 35.298, 'NAZARETH',  'L',  0, 'g'),
+      (32.830, 35.580, 'GALILEE',   'R',  4, 'g'),
+      (32.460, 35.300, 'GINAE',     'R',  3, 's'),
+      (32.210, 35.284, 'SYCHAR',    'L',  0, 'g'),
+      (31.871, 35.444, 'JERICHO',   'R',  0, 'g'),
+      (31.778, 35.230, 'JERUSALEM', 'L',  9, 'g'),
+      (31.705, 35.202, 'BETHLEHEM', 'L', 10, 'g')]:
+        x, y = PA(la, lo)
+        col = GREEN if kind == 'g' else FOLIO
+        s.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{4.4 if kind=="g" else 3.0}" fill="{col}" '
+                 f'stroke="#FFFFFF" stroke-width="1.4"/>')
+        s.append(txt(x - 9 if side == 'L' else x + 9, y + 3 + dy, nm, 8.4,
+                     DARK if kind == 'g' else GREY, 'end' if side == 'L' else 'start',
+                     '700' if kind == 'g' else '400', 'normal', '.5'))
+
+    x, y = PA(31.8996, 35.2042)
+    s.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="8" fill="#FFFAF0" stroke="{GOLD}" '
+             f'stroke-width="2" stroke-dasharray="3.5 3"/>')
+    s.append(txt(x - 13, y - 5, 'the ridge', 8.2, GOLD, 'end', '700', 'normal', '.4'))
+    s.append(txt(x - 13, y + 5, 'Ramallah', 8.2, GOLD, 'end', '400', 'italic'))
+    s.append(txt(x - 13, y + 14, 'will stand on', 8.2, GOLD, 'end', '400', 'italic'))
+
+    ky = AY1 + 36
+    s.append(f'<line x1="{AX0-16}" y1="{ky-18}" x2="{AX1+18}" y2="{ky-18}" stroke="{RULE}"/>')
+    s.append(f'<line x1="{AX0-14}" y1="{ky-2}" x2="{AX0+6}" y2="{ky-2}" stroke="{TAN}" stroke-width="4.6"/>')
+    s.append(txt(AX0 + 12, ky + 1, 'the ridge road, past this hill', 8.2, BODY))
+    s.append(f'<line x1="{AX0-14}" y1="{ky+15}" x2="{AX0+6}" y2="{ky+15}" stroke="{FOLIO}" '
+             f'stroke-width="2" stroke-dasharray="5 3.5"/>')
+    s.append(txt(AX0 + 12, ky + 18, 'the valley road, up from Jericho', 8.2, BODY))
+    for i, ln in enumerate([
+        '“It was the custom of the Galileans, when they',
+        'came to the holy city at the festivals, to take',
+        'their journeys through the country of the',
+        'Samaritans.”   — Josephus, Antiquities XX.118']):
+        s.append(txt(AX0 - 14, ky + 40 + i * 11, ln, 8.2, BODY, 'start', '400', 'italic'))
+
+    # ─────────── centre panel: the district
+    BX0, BX1, BY0, BY1 = 352, 640, 150, 442
+    def PB(lat, lon):
+        return (BX0 + (lon - 35.10) / 0.36 * (BX1 - BX0),
+                BY0 + (32.00 - lat) / 0.31 * (BY1 - BY0))
+    s.append(f'<clipPath id="clipJB"><rect x="{BX0-16}" y="{BY0-16}" '
+             f'width="{BX1-BX0+32}" height="{BY1-BY0+32}"/></clipPath>')
+    s.append(f'<rect x="{BX0-16}" y="{BY0-16}" width="{BX1-BX0+32}" height="{BY1-BY0+32}" '
+             f'fill="{LAND}" opacity=".45" rx="4"/>')
+    s.append(txt(BX0 - 16, BY0 - 24, 'WITHIN A DAY’S WALK OF THE RIDGE', 9.4, GOLD, 'start', '700', 'normal', '.7'))
+
+    s.append('<g clip-path="url(#clipJB)">')
+    rnd = _rng(1154)
+    for _ in range(130):
+        wx, wy = PB(rnd(31.69, 32.00), rnd(35.335, 35.470))
+        s.append(f'<circle cx="{wx:.1f}" cy="{wy:.1f}" r="{rnd(1.0, 2.1):.1f}" fill="{TAN}" opacity=".8"/>')
+    rx, ry = PB(31.8996, 35.2042)
+    RR = (15.0 / 111.0) * (BY1 - BY0) / 0.31
+    s.append(f'<circle cx="{rx:.1f}" cy="{ry:.1f}" r="{RR:.1f}" fill="none" stroke="{GOLD}" '
+             f'stroke-width="1" stroke-dasharray="3 4" opacity=".85"/>')
+    rd = [(32.00, 35.246), (31.958, 35.232), (31.928, 35.229), (31.907, 35.218),
+          (31.880, 35.213), (31.840, 35.219), (31.800, 35.226), (31.778, 35.230), (31.690, 35.198)]
+    s.append('<polyline points="' + ' '.join('%.1f,%.1f' % PB(a, b) for a, b in rd) +
+             f'" fill="none" stroke="{TAN}" stroke-width="4.6" opacity=".95" stroke-linejoin="round"/>')
+    jr = [(31.778, 35.230), (31.795, 35.300), (31.822, 35.372), (31.871, 35.444)]
+    s.append('<polyline points="' + ' '.join('%.1f,%.1f' % PB(a, b) for a, b in jr) +
+             f'" fill="none" stroke="{FOLIO}" stroke-width="2" stroke-dasharray="5 3.5" opacity=".9"/>')
+    s.append('</g>')
+    wtx, wty = PB(31.735, 35.400)
+    s.append(txt(wtx, wty, 'THE WILDERNESS', 8.8, '#9A7A45', 'middle', '700', 'normal', '1'))
+    s.append(txt(wtx, wty + 12, '“near to the wilderness”', 8.0, '#9A7A45', 'middle', '400', 'italic'))
+    s.append(txt(wtx, wty + 22, 'John 11:54', 8.0, '#9A7A45', 'middle', '400', 'italic'))
+
+    # (lat, lon, n, name, side, dy, kind)
+    BPTS = [
+      (31.9497, 35.3006, '1', 'eṭ-ṬAYBEH',  'R',  0, 'g'),
+      (31.9583, 35.2211, '2', 'JIFNĀ',      'L',  0, 's'),
+      (31.9275, 35.2367, '3', 'BEITIN',     'R',  0, 's'),
+      (31.9075, 35.2200, '4', 'al-BĪRA',    'R', 13, 't'),
+      (31.8400, 35.1369, '5', 'al-QUBEIBA', 'L',  0, 't'),
+      (31.7784, 35.2297, '6', 'JERUSALEM',  'L',  0, 'g'),
+      (31.7714, 35.2617, '7', 'BETHANY',    'R',  8, 'g'),
+      (31.8709, 35.4441, '8', 'JERICHO',    'L',  0, 'g'),
+      (31.7054, 35.2024, '9', 'BETHLEHEM',  'L',  8, 'g'),
+    ]
+    KIND = {'g': (GREEN, '700'), 's': (GREY, '700'), 't': (PLUM, '400')}
+    for la, lo, n, nm, side, dy, kind in BPTS:
+        x, y = PB(la, lo)
+        col, wt = KIND[kind]
+        dash = ' stroke-dasharray="2.5 2"' if kind == 't' else ''
+        s.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="5.2" fill="{"#FFFAF0" if kind=="t" else col}" '
+                 f'stroke="{col if kind=="t" else "#FFFFFF"}" stroke-width="{2 if kind=="t" else 1.6}"{dash}/>')
+        s.append(txt(x - 9 if side == 'L' else x + 9, y + 3 + dy, n + ' · ' + nm, 8.8,
+                     col if kind != 'g' else DARK, 'end' if side == 'L' else 'start', wt, 'normal', '.5'))
+
+    x, y = PB(31.8996, 35.2042)
+    s.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="12" fill="#FFFAF0" stroke="{RUST}" '
+             f'stroke-width="2.1" stroke-dasharray="4 3.5"/>')
+    s.append(txt(x - 16, y - 1, 'RAMALLAH', 9.8, RUST, 'end', '700', 'normal', '.9'))
+    s.append(txt(x - 16, y + 10, 'empty ground, AD 30', 8.0, RUST, 'end', '400', 'italic'))
+
+    # ─────────── right panel: the numbered key
+    KX = 662
+    s.append(txt(KX, BY0 - 24, 'WHAT THE GOSPELS SAY IS HERE', 9.4, GOLD, 'start', '700', 'normal', '.7'))
+    ENTRIES = [
+      ('1', 'eṭ-ṬAYBEH', _kmlab(31.9497, 35.3006), 'g',
+       'EPHRAIM. “He withdrew to a city called Ephraim, and there continued with his disciples.” '
+       'John 11:54. Still the last entirely Christian town in Palestine.'),
+      ('2', 'JIFNĀ', _kmlab(31.9583, 35.2211), 's',
+       'GOPHNA. The Roman capital of this district. Titus held Jerusalem’s surrendered priests here in AD 70.'),
+      ('3', 'BEITIN', _kmlab(31.9275, 35.2367), 's',
+       'BETHEL. Taken and garrisoned by Vespasian in AD 69, with Ephraim, on his way to Jerusalem.'),
+      ('4', 'al-BĪRA', _kmlab(31.9075, 35.2200), 't',
+       'Luke 2:44 — the day’s journey. A Crusader church of 1128; by the 1300s the Latins held this was '
+       'where they missed him. Tradition, not evidence.'),
+      ('5', 'al-QUBEIBA', _kmlab(31.8400, 35.1369), 't',
+       'EMMAUS? Luke 24:13. One of four candidates, adopted by pilgrims only in the 1200s.'),
+      ('6', 'JERUSALEM', _kmlab(31.7784, 35.2297), 'g', 'The festivals — Luke 2:41. And the last week — Mark 11–15.'),
+      ('7', 'BETHANY', _kmlab(31.7714, 35.2617), 'g', 'al-ʿAyzariyya. John 11 — Lazarus, Martha and Mary.'),
+      ('8', 'JERICHO', _kmlab(31.8709, 35.4441), 'g', 'Luke 19:1, Zacchaeus. Luke 10:30, the road down from Jerusalem.'),
+      ('9', 'BETHLEHEM', _kmlab(31.7054, 35.2024), 'g', 'Luke 2, Matthew 2.'),
+    ]
+    yy = BY0 - 2
+    for n, nm, dist, kind, gloss in ENTRIES:
+        col, wt = KIND[kind]
+        s.append(f'<circle cx="{KX+5}" cy="{yy-3}" r="5.2" fill="{"#FFFAF0" if kind=="t" else col}" '
+                 f'stroke="{col if kind=="t" else "#FFFFFF"}" stroke-width="{2 if kind=="t" else 1.6}"'
+                 + (' stroke-dasharray="2.5 2"' if kind == 't' else '') + '/>')
+        s.append(txt(KX + 17, yy, n + ' · ' + nm, 9, col if kind != 'g' else DARK, 'start', wt, 'normal', '.5'))
+        s.append(txt(W - 40, yy, dist, 8.2, GREY, 'end', '400', 'italic'))
+        for ln in _wrap(gloss, 48):
+            yy += 10.6
+            s.append(txt(KX + 17, yy, ln, 8.2, BODY))
+        yy += 20
+
+    # ─────────── the key to the grades, and the closing band
+    gy2 = BY1 + 34
+    for i, (col, dash, lab) in enumerate([
+        (GREEN, '', 'named in the Gospels · the site securely identified'),
+        (GREY, '', 'named in Josephus or the Roman record, not in the Gospels'),
+        (PLUM, ' stroke-dasharray="2.5 2"', 'medieval pilgrim tradition only — printed, and graded as such')]):
+        s.append(f'<circle cx="{BX0-10}" cy="{gy2+i*15-3}" r="5" fill="{"#FFFAF0" if col==PLUM else col}" '
+                 f'stroke="{col if col==PLUM else "#FFFFFF"}" stroke-width="{2 if col==PLUM else 1.6}"{dash}/>')
+        s.append(txt(BX0 + 3, gy2 + i * 15, lab, 8.4, BODY))
+    s.append(f'<circle cx="{BX0-10}" cy="{gy2+42}" r="6" fill="none" stroke="{GOLD}" '
+             f'stroke-width="1" stroke-dasharray="3 4"/>')
+    s.append(txt(BX0 + 3, gy2 + 45, 'the dashed circle: fifteen kilometres — half a day’s walk from the ridge',
+                 8.4, BODY))
+
+    yb = H - 118
+    s.append(f'<line x1="40" y1="{yb}" x2="{W-40}" y2="{yb}" stroke="{RULE}"/>')
+    s.append(txt(40, yb + 22, 'THE GOSPELS ARE SET IN THIS DISTRICT, NOT NEAR IT.',
+                 11, GOLD, 'start', '700', 'normal', '1.2'))
+    for i, ln in enumerate([
+      'The one town the Gospels name on this ridge is <tspan font-weight="700">Ephraim</tspan> — eṭ-Ṭaybeh, eleven kilometres out. John calls it a city “near to the wilderness,” and the map shows',
+      'why that is exactly right: Ṭaybeh sits on the last inhabited edge of the ridge, with the desert falling away east of it. <tspan font-weight="700">Everything else here is road.</tspan> The Galilee',
+      'pilgrims came down the watershed past this hill three times a year, and Josephus says so plainly. Whoever was working these terraces in AD 30 watched that traffic pass —',
+      'and within forty years the Romans had taken this district, garrisoned Bethel and Ephraim, and were holding Jerusalem’s surrendered priests at Jifnā, six kilometres away.']):
+        s.append(txt(40, yb + 42 + i * 15, ln, 9.4, BODY, 'start'))
     s.append('</svg>')
     return ''.join(s)
