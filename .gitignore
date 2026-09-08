@@ -14,3 +14,5 @@ qa_*.png
 # The source library is not redistributable — see docs/SOURCES.md
 /library/
 *.pdf
+
+push_log.txt
