@@ -1259,7 +1259,7 @@ ent('569 → c. 1500', 'none', False, 'GENERATION 35 IS THIRTY-ONE GENERATIONS �
  f"""
 <p>This is the weakest link in the family’s chain and the strongest evidence of its honesty, and the
 right response to it is arithmetic rather than embarrassment. <b>Nine hundred and thirty-one years,
-divided by the observed male-line generational interval of twenty-five to thirty-five years, is
+divided by <b>an assumed</b> male-line generational interval of twenty-five to thirty-five years, is
 twenty-seven to thirty-seven generations</b> — most probably about thirty-one. The chart draws two.
 So the correct thing to print at generation 35 is not a blank and not a fabrication, but
 <b>a number: “about 31 generations.”</b></p>
@@ -1284,21 +1284,271 @@ is only how many of the last three slots carry a name.</p>
 <p><b>Thirty-six of the sixty-six have names. Thirty do not.</b> <i>That is the whole state of this
 family’s knowledge of itself, in two numbers, and neither of them is embarrassing.</i></p>
 {fig(R.fig_arith(),'Forty-five is the wrong number',
- 'Before looking for the missing generations it is worth checking the count that is usually quoted. Forty-five generations across a thousand years implies a male-line generation of twenty-two years, shorter than any observed population sustains. Thirty-one generations at thirty years each fits. <b>Correcting the arithmetic does not close the void — it measures it.</b>',
+ 'Before looking for the missing generations it is worth checking the count that is usually quoted. Forty-five generations across a thousand years implies a male-line generation of twenty-two years, shorter than any population on record sustains. Thirty-one generations at thirty years each fits. <b>Correcting the arithmetic does not close the void — it measures it.</b> <i>The thirty-year figure is an assumption and not a measurement; the entry on the clock says so at length.</i>',
  'Generational-interval range after the standard genealogical-demography literature; the span from Jafna (fl. c. 520) to Rāshid (fl. c. 1500).')}
 {FIX('A fixed count of generations between Jafna and Rāshid.',
  '<b>A range: about 27 to 37 generations</b>, most probably around 31 — and the line recounted at sixty-six, not thirty-six.',
- 'Arithmetic, not a source: Jafna (fl. c. 520) to Rāshid (fl. c. 1500) is roughly 980 years; divided by the observed male-line interval of 25–35 years, that is 28–39 links, of which the chart draws two. No source is needed for a division, and none is claimed.')}
+ 'Arithmetic, not a source: Jafna (fl. c. 520) to Rāshid (fl. c. 1500) is roughly 980 years; divided by <b>an assumed</b> male-line interval of 25–35 years, that is 28–39 links, of which the chart draws two. No source is needed for a division, and none is claimed — <b>but the interval is not a fact, and the entry that follows says where it comes from and why no better one exists.</b>')}
 {fig(F.fig_void_solved(),'The void, measured — and shortened',
- 'The genealogical void runs 931 years, from al-Ḥārith (d. 569) to Rāshid (fl. c. 1500), and needs about thirty-one generations to cross. The documentary void is three hundred years shorter — a named Ghassān population is attested to about 890 — and five dated records fall inside the blank: ʿAbūd’s rebuilt church in 1058, a man of Jifnā signing a Frankish charter in 1182 and a Christian buying cotton on credit at Jerusalem in 1374, the pilgrim Thietmar hosted in Shawbak’s suburb on the journey of 1217–18, a Christian majority at Shawbak in 1321. What no source supplies is a chain of fathers. So the chart should print the number, not a blank.',
+ 'The genealogical void runs 931 years, from al-Ḥārith (d. 569) to Rāshid (fl. c. 1500), and needs about thirty-one generations to cross. The documentary void is far shorter than the genealogical one — Ghassān is entered as a living people, at al-Balqāʾ, the Yarmūk and Ḥimṣ, on the authority of a Mamluk officer who died about 1300 — and dated records fall inside the blank: ʿAbūd’s rebuilt church in 1058, a man of Jifnā signing a Frankish charter in 1182 and a Christian buying cotton on credit at Jerusalem in 1374, the pilgrim Thietmar hosted in Shawbak’s suburb on the journey of 1217–18, a Christian majority at Shawbak in 1321. What no source supplies is a chain of fathers. So the chart should print the number, not a blank.',
  'Procopius; Shahîd, BASIC I.1 (1995), 554–60; Kennedy (2010), p. 198, citing al-Yaʿqūbī; the ʿAbūd, Jifnā, Thietmar and Shawbak records.')}
 <p><b>The silence in the family’s line is not a silence in the family’s world.</b> Chapters seven and
 eight have just walked through it dated record by dated record: a people still named in 684, still
-located in 890, a church rebuilt in 1058, a man of Jifnā signing a Frankish charter in 1182, a pilgrim fed at Shawbak in 1217–18,
+located in 890, <b>still entered as existing about 1300</b>, a church rebuilt in 1058, a man of Jifnā signing a Frankish charter in 1182, a pilgrim fed at Shawbak in 1217–18,
 a Christian majority there in 1321, a named Christian buying cotton on credit at Jerusalem in 1374, and the town’s own
 name on a sultan’s deed in 1279. <i>Everything survives across those nine hundred years except the
 one thing a genealogy needs — and the chart is the document that admits it.</i></p>"""),
 
+
+ent('c. 1300 → c. 1418', 'documents', False,
+    'GHASSĀN IS STILL THERE IN 1400 — and the void is four hundred years shorter than this book has been saying',
+ f'''<b>The blank is not six hundred years long. It is closer to two.</b> Al-Qalqashandī finished
+<i>Qalāʾid al-jumān</i> — “Necklaces of Pearls, on the tribes of the Arabs <span class="ar">الزمان</span>, of the present age” —
+in the first years of the fifteenth century, and Ghassān is in it, not as a memory but as a people
+with addresses: <b>al-Balqāʾ, the Yarmūk, and Ḥimṣ</b>{c('Al-Qalqashandī, <span class="ar">قلائد الجمان في التعريف بقبائل عرب الزمان</span>, ed. Ibrāhīm al-Ibyārī, 2nd ed. (Cairo/Beirut, 1402/1982), <b>p. 97</b>, closing the entry <span class="ar">البطن الثاني من الأزد: غسان</span> at pp. 94–97: <span class="ar">قال في مسالك الأبصار: وبالبلقاء طائفة من غسان. وباليرموك منهم الجمّ الغفير، وبحمص منهم جماعة</span>. The same notice stands in his <span class="ar">نهاية الأرب في معرفة أنساب العرب</span>, ed. Ibyārī, no. 1421, p. 388, where it is credited not to al-ʿUmarī but to <span class="ar">الحمداني</span> — <b>the two attributions together are the transmission chain, visible in one author’s two books.</b>')}.
+<i>Somebody in Mamluk service knew where to find them.</i>''',
+ f"""
+<p><b>And that somebody can be named.</b> The chain runs backwards from al-Qalqashandī to a man whose
+job was knowing exactly this. Al-ʿUmarī, writing his <i>Masālik al-abṣār</i> in the 1340s, opens his
+chapter on <i>the Arabs existing in our own time and their places</i> by saying where he got it:
+<b>“I have relied for most of this on what the trustworthy amīr Badr al-Dīn Abū al-Maḥāsin Yūsuf ibn
+Zammākh, known as Ibn Sayf al-Dawla al-Ḥamdānī, <span class="ar">المهمندار</span>, has
+recorded”</b>{c('Ibn Faḍl Allāh al-ʿUmarī, <span class="ar">مسالك الأبصار في ممالك الأمصار</span>, ed. al-Majmaʿ al-Thaqāfī (Abu Dhabi), <b>iv.243</b>, opening <span class="ar">في ذكر العرب الموجودين في زماننا وأماكنهم</span>: <span class="ar">واعتمدت في أكثر من ذلك على ما ذكره الأمير الثقة بدر الدين أبو المحاسن يوسف بن أبي المعالي بن زمّاخ المعروف بابن سيف الدولة الحمدانيّ المهمندار</span>. The editor’s note adds that he was <i>the</i> genealogist of his age and that most who came after him on the Arab tribes were in his debt — <span class="ar">عالة عليه</span> — <b>al-ʿUmarī included</b>. Al-Qalqashandī in turn writes <span class="ar">قال الحمداني</span> fifty-eight times in <i>Qalāʾid al-jumān</i> alone.')}.</p>
+<p><b>A <span class="ar">مهمندار</span> is not an antiquarian.</b> He is the officer who receives,
+lodges and provisions arriving tribal delegations at the sultan’s court — the man who has to know
+which tribes exist, how many they are and where they camp, because he is answerable for feeding them.
+Al-ʿUmarī prints his first-person account of hosting one such delegation for the sultan Aybak, with
+thirty-six thousand dinars of gifts passing <b>“all of it through my own
+hands”</b>{c('<i>Masālik</i> iv.340. On the man: Ibn Ḥajar, <span class="ar">الدرر الكامنة</span> vi.227 no. 2605; Ibn Shākir al-Kutubī, <span class="ar">فوات الوفيات</span> iv.349 no. 589, calling him <span class="ar">مهمندار العرب</span>; Bakr Abū Zayd, <span class="ar">طبقات النسابين</span> no. 321, which names his <span class="ar">كتاب الأنساب</span>. <b>Born 602/1205–6; the death date is disputed and this book prints the dispute</b> — Ibn Ḥajar and Abū Zayd give 700/1300, al-Ziriklī (<span class="ar">الأعلام</span> viii.233) and Kaḥḥāla give about 670/1272, balking at an age of ninety-eight.')}.
+<i>This is an administrative source that happens to have survived inside a literary one.</i></p>
+{NUMTABLE('THE CHAIN, END TO END',
+ ['when', 'who', 'what it gives'],
+ [['c. 945', 'al-Hamdānī of Yemen, <span class="ar">صفة جزيرة العرب</span>', '<span class="ar">ديار غسان</span> — Ghassān as a named territory'],
+  ['538 / 1144', 'Ibn ʿAsākir, at Damascus', 'a family still nicknamed <b>Half the Road</b> for an ancestor who set out after Jabala b. al-Ayham and turned back'],
+  ['<b>d. c. 1272–1300</b>', '<b>Ibn Zammākh al-Ḥamdānī, <i>mihmandār al-ʿarab</i></b>', '<b>Ghassān among the tribes of the present day — from the officer paid to know</b>'],
+  ['c. 1340s', 'al-ʿUmarī, <i>Masālik al-abṣār</i>', 'transmits him, and places the Ghassān of the Yarmūk, al-Balqāʾ and Ḥimṣ'],
+  ['c. 1400', 'al-Qalqashandī, <i>Qalāʾid al-jumān</i>', 'copies it into a handbook whose stated subject is tribes now existing'],
+  ['<b>c. 1500</b>', '<b>Rāshid al-Ḥaddādīn</b>', '<b>generation 66</b>']],
+ 'Read down the column of dates. <b>Between the last administrative notice of Ghassān as a living people and the first man in our own line there is about a century</b> — and the notice itself is a century older than the book that carries it. <i>Six hundred years of silence was never the right number.</i>')}
+{FIX('“The documentary void is three hundred years shorter — a named Ghassān population is attested to about 890.”',
+ '<b>To about 1300, and quite possibly to about 1400.</b> Ghassān is entered as a currently existing people, with three locations, in a Mamluk chancery handbook, on the authority of the officer whose duty was receiving Arab delegations.',
+ 'Al-Qalqashandī, <i>Qalāʾid al-jumān</i> (ed. Ibyārī), p. 97, and <i>Nihāyat al-arab</i>, no. 1421, p. 388; al-ʿUmarī, <i>Masālik al-abṣār</i>, iv.243 and iv.358–59. <b>The 890 date stands as the last notice in Transjordan specifically; what changes is the last notice anywhere.</b>')}
+<p><b>Three cautions, because this is the best news the tradition has had and that is exactly when a
+book should slow down.</b></p>
+<p><b>One: the locations are east and north, not here.</b> Al-Balqāʾ, the Yarmūk and Ḥimṣ are all
+across the Jordan or beyond. <i>This entry shortens the void. It does not move Ghassān to this
+ridge</i> — and chapter nine has already shown that every Arab authority who specifies a place puts
+them east.</p>
+<p><b>Two: al-Qalqashandī is copying, not observing.</b> The datum is al-Ḥamdānī’s, from about 1300;
+al-ʿUmarī relays it about 1340; al-Qalqashandī writes it out about 1400. To say that al-Qalqashandī
+saw Ghassān at the Yarmūk in his own lifetime would be to claim four generations more than the page
+supports.</p>
+<p><b>Three: he also changed a word, and the word he changed is the interesting one.</b> Al-ʿUmarī
+wrote that at the Yarmūk there were <span class="ar">صليبة من غسان</span>; al-Qalqashandī replaced
+that with <span class="ar">الجمّ الغفير</span>, “a great multitude.” <i>The multitude is
+al-Qalqashandī’s. The word underneath it is al-ʿUmarī’s, and it explains the whole
+silence.</i></p>"""),
+
+ent('c. 1340', 'documents', False,
+    'THE WORD UNDERNEATH — why a people can be present and unrecorded at the same time',
+ f'''Al-ʿUmarī does not file these Ghassānids under tribes. He files them under
+<b><span class="ar">صليبة العرب</span></b> — <i>Arabs of pure and direct descent</i> — and then says
+what has become of them: <b>“in Syria there are, of the pure-stock Arabs, various peoples in the
+settled country <span class="ar">قد خرجوا بها عن حكم العرب</span> — they have passed out of the
+reckoning of Arabs — and have become townspeople, settled, dwellers who populate
+houses”</b>{c('<i>Masālik al-abṣār</i>, ed. al-Majmaʿ al-Thaqāfī, <b>iv.358</b>: <span class="ar">وبالشام من صليبة العرب أقوام شتى في البلاد قد خرجوا بها عن حكم العرب وصاروا بها أهل حاضرة ساكنة، وعمّار ديار قاطنة</span>. <b>An earlier draft of this book read <i>ṣalība</i> as meaning “those who passed out of Arab status.” It does not.</b> It is the standard genealogical term for unmixed, direct descent — the opposite of <i>mawlā</i> — glossed in the ḥadīth manuals as <span class="ar">خالصة النسَب</span>. The passing-out is not the definition; it is what al-ʿUmarī says has happened <i>to</i> them. <i>Correcting the gloss makes the sentence stronger, not weaker.</i> A caution for anyone checking the page: the Abu Dhabi editor’s own footnote confuses <i>ṣalība</i> with the Ṣulubba of the Syrian desert, an unrelated and genealogically déclassé group, and contradicts al-ʿUmarī’s usage two pages later.')}.
+<i>They are still of the purest blood. They have simply stopped being the kind of thing a tribal
+register records — because they stopped moving.</i>''',
+ f"""
+<p><b>This is the mechanism of the void, and it is stated in the fourteenth century by the man
+compiling the list.</b> A register of tribes records tribes. A village of farmers is not a tribe. When
+a lineage settles, it does not vanish; it changes category, and the category it moves into is one
+that nobody was keeping. <i>The silence in the record is not the silence of a people dying out. It is
+the silence of a people who stopped being written down by the people whose job was writing down those
+who move.</i></p>
+<p><b>And then there is the list itself, which this book did not expect.</b> Al-ʿUmarī names where
+these settled pure-descent Arabs are, and the places are not in Transjordan. They are
+<b>here</b>{c('<i>Masālik al-abṣār</i>, iv.358–59: <span class="ar">فبمدينة غزة وبلد الخليل … معمور بني تميم الداريّ. وبوادي بني زيد فرقة من بني جعفر بن أبي طالب، وفرقة من بني عمر بن الخطاب، وبالقدس منهما، وبنابلس كثير من قحطان وطائفة من مضر بن نزار، وبجينين وبلادها أقوام من حارثة ومن بكر بن وائل</span>; then, further on, <span class="ar">وبالبلقاء منهم ومن بني أمية ومن غسّان … وباليرموك صليبة من غسان … وبحمص قوم من غسّان</span>. The Ghassān notice that al-Qalqashandī later abridged sits <b>inside this same section</b>.')}:</p>
+{NUMTABLE('AL-ʿUMARĪ’S SETTLED ARABS OF SYRIA, c. 1340 — the Palestinian entries',
+ ['where', 'who he says is there'],
+ [['<b>Gaza and the country of Hebron</b>', 'the settlement of Banū Tamīm al-Dārī'],
+  ['<b><span class="ar">وادي بني زيد</span> — the Banū Zayd valley</b>', '<b>a section of Banū Jaʿfar b. Abī Ṭālib, and a section of the line of ʿUmar b. al-Khaṭṭāb</b>'],
+  ['<b>Jerusalem</b>', 'members of both of those'],
+  ['<b>Nablus</b>', 'many of Qaḥṭān, and a group of Muḍar b. Nizār'],
+  ['<b>Jenin and its country</b>', 'peoples of Ḥāritha and of Bakr b. Wāʾil'],
+  ['al-Balqāʾ · the Yarmūk · Ḥimṣ', '<b>Ghassān</b> — al-Balqāʾ with Banū Umayya, the Yarmūk group named <i>ṣalība of Ghassān</i>']],
+ '<b>Wādī Banī Zayd is this district.</b> It is the nāḥiya that contains Dayr Ghassāna, and it lies an hour’s walk from the hill this book is about. <i>Al-ʿUmarī is not naming our family — he names two lineages, and neither is ours.</i> But he is doing something this book had assumed no fourteenth-century source did: <b>naming settled Arab lineages of claimed pure descent, by name, in the Ramallah hills, a hundred and sixty years before Rāshid.</b> The category the family belongs to is in the record. Only the family is not.')}
+<p><i>That is the shape of the thing, and it is worth saying plainly.</i> <b>The void is not a void in
+the world. It is a void in one column of one kind of document</b> — and al-ʿUmarī, who kept that
+column, wrote down in so many words why the people he is describing had begun to fall out of
+it.</p>"""),
+
+ent('900 / 1495', 'documents', False,
+    'AND THE MAN WHO SHOULD HAVE KNOWN — Mujīr al-Dīn, writing in Rāshid’s own generation',
+ f'''<b>Now the evidence on the other side, at full strength.</b> Mujīr al-Dīn al-ʿUlaymī finished
+<i>al-Uns al-jalīl</i> at Jerusalem in 900 AH — <b>1495</b>, within a few years of Rāshid’s floruit,
+in the city this ridge belongs to, in a book about the country of Jerusalem and Hebron and the people
+in it. <b>He mentions the Ghassānids exactly once, in the stock list of the Prophet’s letters to
+foreign kings — al-Ḥārith the Ghassānid at Damascus — and nowhere else</b>{c('Mujīr al-Dīn al-ʿUlaymī, <span class="ar">الأنس الجليل بتاريخ القدس والخليل</span>, searched complete in <b>two independent printed editions</b> (the Dandīs and the Najaf texts). <span class="ar">غسان</span> and every inflected form return nothing; <span class="ar">الغساني</span> returns one hit in each, the same sentence: <span class="ar">وأرسل إلى الحارث الغساني بدمشق</span>. <span class="ar">الغساسنة</span>, <span class="ar">الأيهم</span>, <span class="ar">تنوخ</span> and <span class="ar">لخم</span> return nothing at all. <b>Controls prove the search reaches the text</b>: <span class="ar">القدس</span> 363 and 307, <span class="ar">غزة</span> 62 and 55. <i>An earlier draft of this entry said “zero times.” It is once, formulaically, and the difference is printed because anybody can check it in five seconds.</i>')}.''',
+ f"""
+<p><b>Weigh it honestly.</b> Mujīr al-Dīn is a qāḍī of Jerusalem writing local history and topography
+for a local readership. If there were a population in his hills that called itself Ghassān, or was
+called so by its neighbours, he is the man in the best position in the world to have said so, and he
+had every reason to. <i>He does not.</i> Nor does he name Jafna, or al-Ayham, or Tanūkh, or Lakhm.</p>
+<p><b>Weigh it honestly in the other direction too.</b> <i>Al-Uns al-jalīl</i> is a history of two
+sanctuaries with an incidental village list, not a census and not a tribal register; it is the same
+book that has no Ramallah in it either, at a moment when the registers prove there were households on
+the hill. <b>An argument from its silence proves less than it seems to.</b></p>
+<p><i>So this book prints both pages and lets them stand against each other.</i> <b>The Mamluk
+chancery says Ghassān is a living people, at al-Balqāʾ and the Yarmūk and Ḥimṣ, in about 1300. The
+qāḍī of Jerusalem, two centuries later and thirteen kilometres away, has never heard of them.</b>
+Both are true. Neither cancels the other, and a family history that printed only the first would be a
+worse book than one that prints the second underneath it.</p>"""),
+
+ent('828 / 1424', 'attested', False,
+    'THE TRADITION HAS ITS OWN WORD FOR THIS — <span class="ar">نسب القطع</span>',
+ f'''<b>Arab genealogical science did not pretend chains were unbroken when they were not.</b> It had a
+technical term, and Ibn ʿInaba defines it in his chapter on the vocabulary of the trade: <b>“when
+there is a group in some region of whom no report has come, and of whom the genealogists know no
+trace, they say — <span class="ar">هم في نسب القطع</span> — their lineage is cut off from connection,
+<i>even if they were formerly well known</i>”</b>{c('Ibn ʿInaba (Jamāl al-Dīn Aḥmad b. ʿAlī al-Ḥusaynī, d. 828/1424), <span class="ar">عمدة الطالب في أنساب آل أبي طالب</span>, ed. Muḥammad Ḥasan Āl al-Ṭāliqānī, 2nd ed. (Najaf, 1380/1961), <b>p. 372</b>, in the section <span class="ar">فصل في كلمات تداولتها النسابون في كتبهم</span>: <span class="ar">ومن ذلك إذا كان جماعة في صقع من الأصقاع لم يرد لهم خبر ولا عرف لهم عند النسابين أثر قالوا: (هم في نسب القطع) أي مقطوع نسبهم عن الاتصال وإن كانوا من قبل مشهورين</span>. He ascribes the phrase to <span class="ar">النسابون</span> generally — it is the guild’s word, not his coinage. <b>Not to be confused with</b> <span class="ar">منقطع</span>, the ḥadīth critics’ term for a broken chain of transmission. Pagination from the digital text of the Najaf edition; it should be checked against a printed copy.')}.
+<i>That is this family’s situation, described four centuries before anybody in it went looking.</i>''',
+ f"""
+<p><b>And the tradition attaches a rule to the term.</b> Writing of the Idrīsids of the Maghrib, whose
+line had run out of the record in exactly this way, Ibn ʿInaba says: <b>“they are in <i>nasab
+al-qaṭʿ</i>; <span class="ar">يحتاج من يعتزى إليهم إلى زيادة وضوح في حجته</span> — whoever traces his
+descent to them needs additional clarity in his proof — because of their remoteness from us and our
+not being informed of their circumstances”</b>{c('<span class="ar">عمدة الطالب</span>, p. 161: <span class="ar">وبنو إدريس كثيرون وهم في نسب القطع يحتاج من يعتزى إليهم إلى زيادة وضوح في حجته لبعدهم عنا وعدم وقوفنا على أحوالهم</span>. <b>Said of the Idrīsids specifically, not as a general maxim</b> — but the reasoning is general, and it is the reasoning this book has been applying without knowing there was a name for it.')}.</p>
+<p><i>Read that sentence again and notice what it is not.</i> <b>It is not a modern sceptic applying
+a foreign standard to a pre-modern claim.</b> It is the pre-modern standard, in the pre-modern
+vocabulary, set out by a working genealogist of Rāshid’s own century: <i>where the record is cut, the
+burden on the claimant goes up.</i> This book has spent nine chapters raising that burden and meeting
+what can be met. <b>It turns out to have been following a rule that already existed.</b></p>
+<p><b>And the greatest of the Arab historians names our people in the paragraph next door.</b> Ibn
+Khaldūn, arguing that pure lineage survives only among Arabs who stayed in the desert, lists those
+who did not: <b>“the Lakhm, the Judhām, <span class="ar">وغسّان</span>, the Ṭayy, the Quḍāʿa and the
+Iyād — <span class="ar">فاختلطت أنسابهم وتداخلت شعوبهم</span>, their lineages became mixed and their
+groups intermingled, and it is known that the genealogists differ about every one of these
+houses”</b>{c('Ibn Khaldūn, <span class="ar">المقدمة</span>, Book Two, chapter 9 — <span class="ar">الفصل التاسع في أن الصريح من النسب إنما يوجد للمتوحشين في القفر من العرب</span>; Rosenthal (Bollingen) translates the chapter heading “Purity of lineage is found only among the savage Arabs of the desert and other such people.” <b>The cause he gives is the same one al-ʿUmarī gives:</b> settlement, and contact with non-Arabs. <i>Cited by book and chapter rather than by page, because this project has not verified a page in the Bollingen printing.</i>')}.</p>
+<p><b>So the two greatest authorities of the century before Rāshid both say, in their own words, that
+a claim of this shape is hard to prove and that Ghassān in particular is one of the lines where it is
+hardest.</b> <i>The family’s tradition does not fail a modern test. It fails — and is honest about
+failing — a fourteenth-century one.</i></p>"""),
+
+ent('the neighbours’ word for us', 'attested', False,
+    'WHAT THE OTHER ARCHIVE CALLS THEM — and why “Ghassanid” may be nobody’s word but ours',
+ f'''<b>There is a second body of writing that ought to have our people in it, and it is in Syriac.</b>
+Six chronicles were searched for this book. <b>Ghassān appears in none of them.</b> <i>But this is
+not a silence about Arab Christians</i> — the same chronicles name living Arab Christian peoples
+after the Islamic conquest, by name, in the same country: the <b>Tanūkhāyē</b>, five thousand of whom
+were forced to apostatise at Aleppo in 778–9 with the martyr <b>Layth</b> named individually; the
+<b>Tuʿāyē</b>; the <b>ʿĀqōlāyē</b> — at Aleppo and Boṣrā, the exact terrain the Jafnids held.''',
+ f"""
+<p><b>The Syriac writers had a vocabulary for these people and it was not ours.</b> They say
+<b><span class="ar">ܛܝܝܐ</span> <i>Ṭayyāyē</i></b>, and when they want a dynasty they build it on the
+ruler’s name — <b><i>Bēth Ḥārith</i></b>, the house of al-Ḥārith; <b><i>Bēth Mundhir</i></b>, the
+house of al-Mundhir{c('Robert G. Hoyland, “Insider and Outsider Sources: Historiographical Reflections on Late Antique Arabia,” in J. H. F. Dijkstra &amp; G. Fisher (eds), <i>Inside and Out: Interactions between Rome and the Peoples on the Arabian and Egyptian Frontiers in Late Antiquity</i> (Leuven: Peeters, 2014), p. 269; and Greg Fisher &amp; Philip Wood, “Writing the History of the ‘Persian Arabs’,” <i>Iranian Studies</i> 49:2 (2016), 247–90, at 250. <b>Neither states that a form</b> Bēth Ghassān <b>never occurs</b>, and this book will not claim a universal negative it has not proved; what is established is that the form is unattested in the corpus these scholars survey.')}.
+<i>A house named for a man, not for a tribe.</i></p>
+<p><b>And the Greek and Latin are no better for us.</b> Fergus Millar, after going through the whole
+contemporary record from inside the Roman empire, states it flatly: <b>“the entire contemporary
+evidence discussed here, literary and documentary, in Latin, Greek, Syriac, and Arabic, from within
+the empire does not contain a single expression which equates to, or could properly be translated as,
+either ‘Ghassanid’ or ‘Jafnid’”</b>{c('Fergus Millar, “Rome’s ‘Arab’ Allies in Late Antiquity: Conceptions and Representations from within the Frontiers of the Empire,” in H. Börm &amp; J. Wiesehöfer (eds), <i>Commutatio et Contentio: Studies in the Late Roman, Sasanian, and Early Islamic Near East</i> (Düsseldorf: Wellem, 2010), p. 200; quoted by Hoyland (2014), p. 268 n. 3. <b>Note the clause “discussed here”</b> — Millar is scoping to the corpus he has surveyed, and this book quotes him with the clause intact. <i>Seen through Hoyland’s quotation; the Börm and Wiesehöfer volume has not been obtained.</i> What the Roman sources do use is personal: <i>Arethas son of Gabalas</i>, <i>phylarch</i>, <i>patricius</i>, <span class="ar">Σαρακηνοί</span>.')}.</p>
+<p><i>Take the measure of that.</i> <b>The state these people served, in all four of its written
+languages, never once called them by the name their descendants now carry.</b> “Ghassanid” is a
+category out of the Arabic genealogical tradition, applied backwards onto a Roman-period frontier
+polity by later writers and then by modern ones. <b>That does not make the Jafnids imaginary — they
+are in Procopius, in the inscriptions, in the ruins at Ruṣāfa. It makes the <i>name</i> a
+reconstruction.</b></p>
+{FIX('“Chabot supplies ‘Ghassanide’ in a nineteenth-century footnote to a text that says <i>Ṭayyāyē</i>” — offered as a worked example of an editor becoming a source.',
+ '<b>Withdrawn. The footnote is not there.</b> Chabot’s French translation of Michael the Syrian was searched in full: <b>“Ghassan” and its derivatives occur zero times across all three translated volumes, against 593 occurrences of <i>Taiyayé</i>.</b>',
+ 'Text and footnotes sit in the same searchable stream, and the vocabulary is plainly being read, so a repeated editorial gloss would have surfaced. <b>The general point survives on Millar, Hoyland and Fisher–Wood; the specific anecdote does not, and is removed rather than softened.</b> <i>The Chronicle of 1234, also edited by Chabot, has not been checked and is where anyone wanting the instance should look.</i>')}
+<p><b>One further restraint, and it is an uncomfortable one.</b> The standard modern case for Ghassanid
+survival after the conquest is Irfan Shahîd’s. <i>This project has been unable to obtain his volumes
+and therefore cannot tell the reader what evidence they rest on.</i> <b>Earlier drafts of this entry
+asserted that his case rests entirely on eleventh- to fourteenth-century Arabic literature. That
+assertion is withdrawn as unverified</b>, and stays out until somebody reads the books{c('Irfan Shahîd, <i>Byzantium and the Arabs in the Sixth Century</i> (Dumbarton Oaks, 1995–2009), 2 vols in 4 parts — not open access, and not obtained by this project. <b>Named here as an outstanding item so that the gap is visible rather than papered over.</b> The critical reviews by Lawrence Conrad and Mark Whittow are the place to begin an audit of his source base.')}.</p>"""),
+
+ent('the name, tested', 'none', False,
+    'FIVE SEARCHES AND WHAT THEY ACTUALLY PROVE',
+ 'The family’s name, the town’s name, and the neighbours’ names were run against the standing digital corpus of pre-modern Arabic literature. <b>The results are printed with their controls, because a search without a control is not a result.</b>',
+ f"""
+{NUMTABLE('AGAINST AL-MAKTABA AL-SHĀMILA',
+ ['term', 'hits', 'what it means'],
+ [['<span class="ar">الحدادين</span>', '<b>553</b>', 'and <b>effectively every one is the trade</b> — “the blacksmiths.” Only three entries use it as a family name, and all three are twentieth-century compilations. <i>In the pre-modern corpus this word is an occupation.</i>'],
+  ['<span class="ar">الكسابرة</span> · <span class="ar">كسبر</span>', '<b>0</b>', 'the name the register of 1553–54 actually gives the group'],
+  ['<span class="ar">حلحول</span> <i>(control)</i>', '31', 'a Hebron-hills village — the search reaches Palestinian village names'],
+  ['<span class="ar">نوبا</span> <i>(control)</i>', '452', 'another — it reaches them easily'],
+  ['<span class="ar">دير غسانة</span>', '<b>0</b>', 'confirmed twice, independently'],
+  ['<span class="ar">رام الله</span>', '<b>none pre-modern</b>', 'no attestation of the town in the corpus at all']],
+ '<b>Read the controls first.</b> Ḥalḥūl and Nūbā return freely, so the corpus does contain Palestinian villages and the search finds them. <i>Then read Dayr Ghassāna: zero — for a large, real, continuously inhabited throne-village.</i> <b>That single line is the proof that these zeroes are a property of the library, not of the country.</b> Shāmila is a corpus of law, ḥadīth, literature and chronicle. It is not a gazetteer and not a tax register, and a Christian hamlet in the Jerusalem hills is exactly what it would never contain.')}
+<p><b>So four of the five zeroes prove nothing, and this book says so.</b> Absence from Shāmila is
+absence from a particular kind of writing — the kind that was never going to record us. <i>To read
+these blanks as evidence against the family would be to mistake the shape of a library for the shape
+of the past.</i></p>
+<p><b>The first line is different, and it does cut.</b> Five hundred and fifty-three occurrences of
+<span class="ar">الحدادين</span>, and the word is doing the same job in almost all of them: it means
+the men who work iron. <b>Any argument that finds “Ḥaddādīn” in an early Arabic text and reads it as
+this family is reading a guild.</b> <i>Taken with the register of 1553–54, which calls the group the
+Kasābra, the conclusion of chapter ten stands and is reinforced: the family name is late, and the
+book will not claim it earlier than it can show it.</i></p>"""),
+
+ent('the clock', 'none', False,
+    'THE INTERVAL NOBODY MEASURED FOR US — and a marker that fails on inspection',
+ f'''<b>Every number in this book that turns years into generations rests on one assumption, and it is
+time to name it.</b> The line is counted at sixty-six because nine hundred and thirty-one years
+divided by thirty is thirty-one. <b>Thirty is not a measurement. There is no published male-line
+generation interval for any Middle Eastern population</b> — the standard compendium of such studies
+runs to French Canadians, Icelanders, north Greenland Inuit, the English, and the Confucius
+pedigree{c('The ISOGG wiki’s “Generation length” survey, which is the field’s working list: Tremblay &amp; Vézina (2000) on French Canadians, 34.5 years in the male line; Helgason et al. (2003), Iceland, 31.9; Matsumura &amp; Forster (2008), north Greenland Inuit, 32; King &amp; Jobling (2009), England, 35; the Confucius pedigree, China, 32; and a set of British surname projects. <b>No Arab, Levantine or Middle Eastern population appears anywhere on it.</b> <i>The honest claim is that the standard compendium contains no Middle Eastern population — not that no such study exists anywhere on earth.</i>')}.''',
+ f"""
+<p><b>What the genetics literature on this region actually does is assume a figure, and say so.</b>
+And the figures it assumes are at or below the bottom of the range this book has been printing.</p>
+{NUMTABLE('WHAT THE LITERATURE ASSUMES, AND WHAT IT IS ASSUMING IT FOR',
+ ['study', 'interval', 'but note'],
+ [['Haber et al., <i>PLoS Genetics</i> 9:2 (2013) — the Levant, Palestinians included', '<b>25 years</b>', '<b>autosomal.</b> The 25 calibrates admixture-decay dating, not a male line'],
+  ['Fernandes et al., <i>PLoS ONE</i> 10:3 (2015) — Arabia', '<b>25 years</b>', '<b>mitochondrial — the maternal line.</b> It has no bearing on a father-to-son count and this book will not cite it as if it had'],
+  ['Haber et al., <i>AJHG</i> 101:2 (2017), with Zalloua — Canaanite and present-day Lebanese', '<b>28 years</b>', 'the closest thing to a regional working figure'],
+  ['Zhivotovsky et al., <i>AJHG</i> 74 (2004) — the Y-STR clock itself', '<b>—</b>', '<b>the rate is defined per twenty-five <i>years</i>, not per generation</b>, and the paper offers a per-year conversion. <i>Any date taken from this clock and reported as a number of generations has had an interval smuggled into it.</i>']],
+ 'Calibrated, in Zhivotovsky’s case, on Maori, Cook Islanders and Bulgarian Roma. <b>Not one of these four studies measured a Middle Eastern father-to-son interval, because none of them set out to.</b>')}
+<p><b>So here is the honest output, and it is a range.</b> Nine hundred and thirty-one years across
+the void gives twenty-seven generations at thirty-five years, thirty-one at thirty, thirty-three at
+twenty-eight, and thirty-seven at twenty-five. <b>The whole line from Adam to Rāshid is therefore
+between sixty-two and seventy-two generations, and this book prints sixty-six because sixty-six is
+what thirty years yields.</b> <i>Sixty-six is a choice inside a range, not a fact, and every ladder in
+this book should be read that way.</i></p>
+<div class="fix"><div class="fixhead">And the evidence this family has been told to go and buy</div>
+<div style="font-size:.95rem;line-height:1.65;color:#46423B">
+<p style="max-width:none"><b>A Y-chromosome subclade called <span style="white-space:nowrap">J-Z640</span> circulates as
+“the Ghassanid marker.” It will not survive being looked at.</b> The one paper is a 2019 article in a
+journal of the former OMICS International stable, now issued by Hilaris; its evidence base is <b>one
+hundred and forty-five samples of which eight are academic</b>, the rest being customers of two
+commercial testing firms whose tribal affiliation is <b>self-reported</b>{c('M. Waas, D. Yacobi, L. Kull, V. Urasin, G. Magoon, W. Penninx, A. Brown &amp; I. Nogueiro, “Haplogroup J-Z640 — Genetic Insight into the Levantine Bronze Age,” <i>Journal of Phylogenetics &amp; Evolutionary Biology</i> 7:1 (2019), 1000209. First author at the Department of Jewish History, University of Haifa; a co-author is of YFull.com, <b>whose tree then supplies the date the paper is checked against</b> — not misconduct, but not independence either. <b>On the publisher, a precise statement rather than a loose one:</b> OMICS International is on Beall’s list of predatory publishers and was fined by the US Federal Trade Commission; this title is a former OMICS journal now under Hilaris Publishing SRL. <i>This book does not assert that the present publisher is itself listed.</i>')}.</p>
+<p style="max-width:none"><b>And the dating destroys the claim outright.</b> YFull’s own tree puts the
+formation of J-Z640 and its most recent common ancestor at <b>4,600 years before the present</b>, with
+a confidence interval of 5,000 to 4,100{c('YFull YTree v14.05.00, J-Z640: formed 4600 ybp, TMRCA 4600 ybp, 95% CI 5000–4100. The paper’s own independent estimate is a TMRCA of 4,100 ybp with a range of 4,900–3,300. <b>An earlier draft of this book gave ~3,600 ybp. That figure was wrong and is corrected here.</b>')}. <b>That is the Bronze Age.</b> It is
+two thousand years before any Arab tribal genealogy existed to belong to, two and a half thousand
+before the Jafnids, and the paper’s own title says as much — it is a paper about <i>Levantine Bronze
+Age</i> ancestry. <i>A marker that coalesces twenty centuries before a people exists cannot be that
+people’s marker.</i></p>
+<p style="max-width:none"><b>And one point of simple fairness to the authors: the paper never says
+“Ghassān.”</b> The word does not appear in it, and its own tribal claim — about al-Azd — is expressly
+hedged as neither confirmable nor disprovable. <b>The Ghassanid framing comes from the project pages
+of a commercial testing service, not from the study.</b> <i>The claim and the paper it is attributed
+to are two different objects, and this book separates them.</i></p></div></div>
+<p><b>There is a deeper problem underneath all of it, and it is not about this family.</b> <i>No
+published study of ancestry has ever sampled Palestinian Christians as a distinct
+group.</i>{c('The landmark Y-chromosome study of the population, Nebel et al., “High-resolution Y chromosome haplotypes of Israeli and Palestinian Arabs…,” <i>Human Genetics</i> 107:6 (2000), 630–41 — Hebrew University and Hadassah — is explicit in its own abstract that its 143 subjects are <b>Muslim</b> Arabs. Haber et al. (2013) resolves Lebanese Christians, Muslims and Druze into separate clusters and runs its admixture analysis on each — and then treats Palestinians as a single undifferentiated bloc, lumped with “other Muslim populations as distant as Morocco and Yemen.” <b>Christian Arabs do appear in the Israeli medical-genetics literature as a founder population for disease-allele studies</b> — a recurrent BRCA2 duplication, consanguinity surveys — but that is disease genetics, not ancestry. <i>The only Christian-Palestinian Y-DNA datasets in existence are unpublished citizen-science projects.</i>')} <b>The
+question this family would be asking is one the field has never been built to answer.</b></p>
+<p><b>And the field has a history that explains some of the reticence.</b> In 2001 <i>Human
+Immunology</i> deleted an already-published paper on the origins of the Palestinians from its own
+archive and asked libraries to tear the pages out{c('A. Arnaiz-Villena et al., “The origin of Palestinians and their genetic relatedness with other Mediterranean populations,” <i>Human Immunology</i> 62:9 (2001), 889–900 — withdrawn after publication. Reported in <i>Nature</i> 414 (22 November 2001), “Genetics paper erased from journal over political content”; the editor cited political comment in the text. <b>A rebuttal in <i>Nature</i> 415 (2002), 115, argued the paper was also scientifically weak, and this book prints that alongside rather than presenting the episode as purely political.</b>')}. <i>Whatever one
+makes of that episode, it is the reason a Palestinian family should approach this literature with its
+eyes open</i> — <b>and it is why this book has built its case out of registers, deeds and parish books
+instead.</b></p>
+<p><b>The recommendation stands, narrowed.</b> Y-DNA testing of this family would still be the only
+genuinely new evidence this history can acquire — <i>but it would be worth doing to build a dataset
+that does not exist, not to confirm a marker that does not mean what it is said to mean.</i></p>"""),
 
 ent('the shape of the hole', 'documents', False, 'THE VOID IS NOT THIS FAMILY’S FAILURE',
  'One more thing has to be said about the nine hundred years, and it changes what they mean. <b>The family is documented right down to the floor of the archive.</b> The registers that name Rāshid’s children — 1553–54, 1561, 1562, 1565, 1596 — are the <i>first generation of records in which a family of this class could appear at all</i>, anywhere in Palestine.',
@@ -1324,7 +1574,7 @@ that could have carried our line does not begin until 1525, and we are in it fro
 al-Ḥaddādīn.</b> The register of 1553–54 that finds the group at Bayt Jālā calls them the
 <b>Kasābra</b>, and lists thirty-six heads of household by first name and father’s name only. <b>No
 occurrence of <span class="ar">الحدادين</span> as a family or clan name anywhere in Bilād al-Shām
-has been found before the nineteenth century</b>{c('The 1553–54 register of Bayt Jālā names the group <span class="ar">الكسابرة</span> and lists 36 Christian heads of household by given name and patronymic — Ḥammūdeh (2014), 44–45. On the wider search: no pre-1800 occurrence of <span class="ar">الحدادين</span> as a Levantine Christian family name has been established. The earliest documented naming of a Ḥaddādīn clan at Karak reachable in this project is Latin Patriarchate material of the 1870s–80s; the earliest scholarly record is Peake (1934). <b>Corpora still unsearched, and named here so the negative can be tested:</b> the Jerusalem sharīʿa <i>sijillāt</i> from 1529 onward beyond register 48; the Karak and Shawbak <i>tahrir defterleri</i>, which are <i>not</i> in Hütteroth and Abdulfattah; the Ḥaram al-Sharīf corpus; Franciscan and Greek Orthodox parish registers; and Christian Arabic manuscript colophons at Sinai, Jerusalem, Balamand and Dayr al-Mukhalliṣ. <i>A caution: <span class="ar">الحدادين</span> is not a unique name — there is an unrelated group among the Banū Asad in Iraq — so any hit must be shown to be Levantine and Christian before it counts.</i>')}.</p>
+has been found before the nineteenth century</b>{c('The 1553–54 register of Bayt Jālā names the group <span class="ar">الكسابرة</span> and lists 36 Christian heads of household by given name and patronymic — Ḥammūdeh (2014), 44–45. On the wider search: no pre-1800 occurrence of <span class="ar">الحدادين</span> as a Levantine Christian family name has been established. The earliest documented naming of a Ḥaddādīn clan at Karak reachable in this project is Latin Patriarchate material of the 1870s–80s; the earliest scholarly record is Peake (1934). <b>Corpora still unsearched, and named here so the negative can be tested:</b> the Jerusalem sharīʿa <i>sijillāt</i> from 1529 onward beyond register 48; the Jerusalem sharīʿa <i>sijillāt</i> from 1529 onward beyond register 48; <b>the unpublished folios of the ʿAjlūn <i>mufaṣṣal</i> behind Hütteroth and Abdulfattah’s summary lines</b>; the Ḥaram al-Sharīf corpus; Franciscan and Greek Orthodox parish registers; and Christian Arabic manuscript colophons at Sinai, Jerusalem, Balamand and Dayr al-Mukhalliṣ. <i>A caution: <span class="ar">الحدادين</span> is not a unique name — there is an unrelated group among the Banū Asad in Iraq — so any hit must be shown to be Levantine and Christian before it counts.</i>')}.</p>
 <p style="max-width:none"><i>That is not fatal, and it should not be read as such.</i> Occupational
 family names of this kind — <span class="ar">الحدّاد</span>, the smith — generally stabilise as
 inherited surnames late, and a register that lists men by father’s name is not a register that would
@@ -1337,8 +1587,11 @@ that this project does not hold — <span class="ar">عشائر الحدادين
 blacksmith etymology</b> and offers two alternatives: <span class="ar">تحديد</span>, the demarcation
 of the clan’s land in the Shawbak–Karak country, and the Yemeni port of
 <b>al-Ḥudayda</b>{c('<span class="ar">خلف خليل حدادين ومنير جريس حدادين وعواد جريس حدادين، عشائر الحدادين حتى عام ١٩٩١م</span>, as reported in <span class="ar">الرأي</span>, 27 November 2007. The book is said to reject the blacksmith derivation and to offer <span class="ar">تحديد</span> — the demarcation of the clan’s land at Shawbak and Karak — and descent from the Yemeni port of al-Ḥudayda. The same article records a Karak tradition of <b>two brothers, Ṣabra and Rāshid</b>, which does not appear in the Ramallah tradition and is worth chasing. <i>This project has not obtained either book; both should be acquired.</i>')}. <i>The first is linguistically strained but at least puts the name on the
-plateau; the second cannot carry a sixth-century origin, because al-Ḥudayda is not a place of any
-consequence before the Ottoman centuries.</i> <b>The family’s own historians disagree with each other
+plateau; the second cannot carry a sixth-century origin — though not for the reason this book gave
+last time.</i><div class="fix"><div class="fixhead">A correction, and a narrow one</div>
+<div class="fixgrid"><div><span class="fl">As it stood</span>“al-Ḥudayda is not a place of any consequence before the Ottoman centuries.”</div>
+<div><span class="fl">Corrected to</span><b>al-Ḥudayda existed, and was a constituted place, eighty years before the Ottomans reached Yemen.</b> The Yemeni chronicler <b>Ibn al-Dayba’</b> (d. 944/1537) has a <i>ṣāḥib</i> — a lord — of al-Ḥudayda in <b>Shawwāl 859 / September 1455</b>, and in <b>868/1464</b> has <b>its lord, its qāḍī and its resident ascetic</b> ride out together to meet the Ṭāhirid sultan. Three offices, one town.</div>
+<div><span class="fl">How it is justified</span>Ibn al-Dayba’, <span class="ar">قرة العيون بأخبار اليمن الميمون</span>, ed. Muḥammad b. ʿAlī al-Akwaʿ, pp. <b>407</b> and <b>413</b>; the second notice reads <span class="ar">فتوجه إليه صاحب الحديدة وقاضيها وزاهدها الشيخ إدريس الجبرتي</span>, with a plural verb for three separate men. <i>EI</i>² III, 539 gives the same 859/1454–5 notice as the town’s first appearance as an inhabited place, citing al-Dayba’ <b>and</b> Abū Makhrama. <b>But the sentence is only half wrong, and this book will not overcorrect.</b> <i>EI</i>² also says al-Ḥudayda “had not yet any strategic importance” when the Mamluks raided it in 1516, stayed secondary to Mocha through the seventeenth and eighteenth centuries, and rose only in the nineteenth; and al-Akwaʿ’s own note on the 1455 passage calls the place a cluster of huts of reed, straw and brushwood. <b>So: wrong about whether al-Ḥudayda existed, right about whether it mattered.</b> <i>And the etymology fails on other grounds anyway — a man from al-Ḥudayda is a</i> Ḥudaydī, <i>not a</i> Ḥaddād.</div></div></div> <b>The family’s own historians disagree with each other
 about where its name comes from, and that disagreement belongs in this book.</b></p>"""),
 
 CH(11)
@@ -1359,6 +1612,105 @@ brother</b>, who returned to Karak, where the Karak Ḥaddādīn still count the
 {fig(ATLAS.fig_karak(),'The road the family actually walked',
  'Karak to the ridge in three documented moves. The southern anchors are the plateau’s Christian record — Shawbak, Karak, and Gharandal, where Ghassān is named in 890; the northern legs are carried by the Ottoman registers. The tradition’s Ḥalḥūl matches the registers’ Kusbār-by-Ḥalḥūl; the tradition’s Bayt Jālā stage is where the 1553–54 defter finds the group; the tradition’s purchase matches endowment land acquiring an owner. Two memories and a tax ledger, telling one story in three voices.',
  'Hammoudeh, Jerusalem Quarterly 59 (2014); Hütteroth and Abdulfattah (1977); Piccirillo (2001); al-Yaʿqūbī.')}"""),
+
+ent('1005 / 1596', 'documents', False,
+    'KARAK WAS A CHRISTIAN TOWN — the register says so, and it inverts the picture',
+ f'''<b>The Ottoman survey of 1596 counts al-Karak, and the count runs the other way from everything
+this family has assumed about the place it came from.</b> Not a remnant under pressure. <b>One hundred
+and three Christian households against seventy-eight Muslim</b> — with eight Christian bachelors and
+two Muslim — <b>a hundred and eighty-one households, of which fifty-seven in every hundred are
+Christian</b>{c('Hütteroth &amp; Abdulfattah, <i>Historical Geography of Palestine, Transjordan and Southern Syria in the Late 16th Century</i> (Erlangen, 1977), <b>p. 171</b>, from the <i>mufaṣṣal</i> of liwāʾ ʿAjlūn, 1005/1596. <b>Karak in this survey is not its own liwāʾ</b> — it is the <i>nāḥiya</i> of al-Karak inside liwāʾ ʿAjlūn, alongside the nāḥiyas of Jibāl al-Karak and al-Shawbak; <i>the register was published by Muḥammad ʿAdnān al-Bakhīt and Nūfān Rajā al-Ḥamūd at Amman.</i> <b>This project has not yet seen p. 171 with its own eyes, and says so.</b> The figures are confirmed to the unit by an independent route: Khalīf Muṣṭafā Gharāybeh, working from the same volume, totals al-Karak at <b>191</b> — which is 78 + 2 + 103 + 8 — and his method checks out against three other entries (al-Shawbak 70, al-Ṭafīla 33, al-Salṭ 70). ' + D('1977_Hutteroth_Abdulfattah_Historical_Geography_Palestine_Transjordan.pdf') + '.')}.''',
+ f"""
+{FIX('“The Karak and Shawbak <i>tahrir defterleri</i> are not in Hütteroth and Abdulfattah” — printed in this book as a list of corpora still unsearched.',
+ '<b>They are, and this book should have known it.</b> Karak and Shawbak are <i>nāḥiyas</i> of liwāʾ ʿAjlūn in the survey of 1596, and their settlements are in the gazetteer at pp. 169–173 like everybody else’s.',
+ 'The error came of assuming a liwāʾ of Karak-Shawbak because a <i>sanjaqbey</i> of Karak-Shawbak existed as a military office. <b>The political command and the fiscal survey unit were not the same thing.</b> <i>The correction costs this book a line of alibi and gains it a page of evidence.</i>')}
+<p><b>Take the caution first, because it is the kind that gets skipped.</b> A <i>tahrir</i> counts
+taxable households, not souls. The garrison of the castle, the administrative and military personnel,
+and everyone exempt are outside it. And “Christian” here is a <i>fiscal</i> category — the
+<span class="ar">نصارى</span> liable to the poll tax — not the finding of a census of belief.
+<b>The honest sentence is “a Christian majority of the taxable households in the register of
+1596,” and this book will not shorten it to “a Christian town” anywhere it matters.</b></p>
+<p><b>Now the awkward part, and it deserves a table.</b> <i>The 1596 figure is an outlier against
+every later count.</i></p>
+{NUMTABLE('THE CHRISTIAN SHARE AT KARAK, 1596 TO 1961',
+ ['when', 'who counted', 'what they found', 'share'],
+ [['<b>1596</b>', 'the Ottoman <i>mufaṣṣal</i>', '<b>103 Christian households · 78 Muslim</b>', '<b>~57%</b>'],
+  ['1806', 'Seetzen, on the spot', '70–80 Christian houses · 120 Muslim; four mills held jointly', '~37–40%'],
+  ['1812', 'Burckhardt, on the spot', '150 Christian families · 400 “Turkish”', '~27%'],
+  ['1818', 'Irby &amp; Mangles, on the spot', '“about as many Christian inhabitants as Turks”; 400 armed men', '~50%'],
+  ['1872', 'Tristram, reporting hearsay', '8,000 of whom 1,600 Christian — and he says the town was empty when he came', '20%'],
+  ['1895–96', 'Hill, for the Palestine Exploration Fund', '8,000 Muslim · 2,000 Greek Orthodox, town and district', '20%'],
+  ['1896–1902', 'Musil, clan by clan', 'about 1,140 families; <i>en-Naṣāra</i> 200 within one faction', '~18%, <i>and probably an undercount</i>'],
+  ['1961', 'the Jordanian census', '7,422 persons · 1,622 Orthodox', '22%']],
+ '<b>Nothing after 1596 corroborates a Christian majority.</b> The nearest is Irby and Mangles at parity. <i>What the series does show is a large, stable and strikingly secure Christian community</i> — a fifth to two-fifths of the town for two hundred years, armed on the same terms as its Muslim neighbours, which both Burckhardt and Irby stress independently and with some surprise. <b>So print the 1596 majority, and do not let it imply continuity with the community the travellers met.</b>')}
+<p><b>And one sentence of Burckhardt’s has been sitting in plain sight the whole time, running the
+family’s road backwards.</b> Of the Karak Christians he writes that they are <b>“for the greater
+part, descendants of refugees from Jerusalem, Bethlehem, and Beit Djade”</b> — <b>Bayt
+Jālā</b>{c('J. L. Burckhardt, <i>Travels in Syria and the Holy Land</i> (London: John Murray, 1822), <b>p. 381</b>, from his stay at Karak in July–August 1812. The same sentence continues on the Muslims: “settlers from all parts of southern Syria, but principally from the mountains about Hebron and Nablous.” <b>Bayt Jālā is the stage the family’s own tradition puts between Karak and this ridge.</b>')}.
+<i>The tradition has the family leaving Karak for Bayt Jālā. Burckhardt has the Christians of Karak
+arriving from Bayt Jālā.</i> <b>Two roads, the same two ends, opposite directions — and nothing in
+either record says they cannot both have been travelled.</b> Christian families on this plateau moved
+in both directions for centuries, and a tradition of flight <i>out</i> and a report of refuge
+<i>in</i> are not a contradiction. <b>But this book has been printing one of them and not the other,
+and that was a choice it never declared.</b></p>"""),
+
+ent('1908', 'oral', False,
+    'MUSIL ASKED THEM HIMSELF — and the Karak Ḥaddādīn name a ruin, not a country',
+ f'''<b>Alois Musil did the one thing nobody else did: he went round the lineages of Karak and asked
+each of them where it came from.</b> He opens the section flatly — <i>“most of the lineages,
+</i><span class="ar">حمايل</span><i>, of the fellāḥīn of el-Kerak are, according to their own family
+tradition, immigrants from elsewhere”</i> — and then prints the answers in a
+table{c('Alois Musil, <i>Arabia Petraea, III. Band: Ethnologischer Reisebericht</i> (Vienna: Kaiserliche Akademie der Wissenschaften, 1908), section <b>El-Kerak</b>, <b>pp. 84–85</b>; the Christian clan list at <b>p. 99</b>. Fieldwork of 1896–1902. Opening sentence: „Die meisten Geschlechter, ḥamâjel, der Fellâḥîn von el-Kerak sind ihrer Familientradition nach von andersher eingewandert.“')}.
+<b>The Ḥaddādīn line reads: <i>El-Ḥaddâdîn, stammen aus <span style="white-space:nowrap">ḫ.
+el-Ḥaddâd</span></i> — they come from Khirbet al-Ḥaddād.</b> <i>A ruin. Not a country, and not
+Palestine.</i>''',
+ f"""
+{FIX('This project’s own first reading of the page: “the Karak Ḥaddādīn said they came from <i>b. el-Ḥaddād</i> — a lineage name, Banū al-Ḥaddād.”',
+ '<b><span class="ar">ḫ.</span> not <span class="ar">b.</span></b> — Musil’s abbreviation for <i>ḫirbe</i>, a ruin-site. <b>The answer is a place-name: Khirbet al-Ḥaddād.</b>',
+ 'The page was rendered at 500 dots per inch to settle it; two separate machine transcriptions of the volume had both misread the character. The same glyph stands in <i>el-Ḫalîl</i> — الخليل, Hebron — two lines below, against the visibly different <i>Ḥ</i> in <i>el-Ḥaddâd</i> itself. <b>The correction strengthens the finding rather than weakening it:</b> a lineage name is a claim about ancestry, and a ruin is a claim about ground.')}
+<p><b>And the ruin can be found.</b> Musil’s own first volume walks past it: a stage of his itinerary
+runs <i>“from Ǧaʿfar to ḫ. el-Ḥaddâde”</i> and the next <i>“from ḫ. el-Ḥaddâde to Mâdaba,”</i> with
+the site lying south of Khirbet Abū Ḥammūr, on the wadi that drains the el-Feǧǧ depression — <b>from
+which, he notes, the fortress of el-Kerak is in sight</b>{c('Musil, <i>Arabia Petraea</i> I (<i>Moab</i>), itinerary stages at pp. 366 and 369, with the topography in the body of the volume. <b>One caution, and it is real:</b> volume III writes <i>el-Ḥaddâd</i> and volume I writes <i>el-Ḥaddâde</i>. The identification is highly probable and one vowel short of certain, and this project could not corroborate it in any modern gazetteer.')}.
+<i>The Karak Ḥaddādīn told Musil they came from a ruin on their own plateau, within sight of their own
+castle.</i></p>
+<p><b>Then look at the whole table, because the pattern is the finding.</b></p>
+{NUMTABLE('WHAT EACH KARAK LINEAGE TOLD MUSIL, 1896–1902',
+ ['lineage', 'where they said they came from'],
+ [['<b>el-Ḥaddâdîn</b>', '<b>ḫ. el-Ḥaddâd — a ruin on the Karak plateau</b>'],
+  ['el-Maʿâjṭa', '<b>ǧ. el-Ḫalîl — the Hebron highlands</b>'],
+  ['eḍ-Ḍmûr', '<b>el-Ḫalîl and Beni Nâjem — Hebron and Bani Naʿim</b>'],
+  ['el-Ḥalasa', 'Egypt; the ancestor settled at Kerak, <i>married a girl of the Ḥaddādīn</i>, and founded a new lineage'],
+  ['el-Heǧâzîn', 'the Ḥijāz'],
+  ['ez-Zrêḳat · el-ʿAkaše · eṭ-Ṭarâwne', 'ḫ. el-Mḫêlle, east of Wādī Mūsā'],
+  ['el-ʿAzêzât', 'Mōte — Muʾta, on the plateau'],
+  ['el-Mdânât', 'Middīn'],
+  ['el-Bḳâʿîn', 'el-Beqʿe'],
+  ['eṣ-Ṣunnâʿ', 'merchants of Damascus — “originally Greek Catholic, later gone over to the schism”'],
+  ['as-Serâjre · el-Ḥabâšne', 'ḫ. ez-Zuṭṭ · ḫ. Ḥbêš'],
+  ['el-Aṛawât · aṭ-Ṭanâšât · el-Mḫâmîd', 'old lineages, come centuries ago, <i>“who built the town”</i>'],
+  ['el-Ḳdaʾ · el-Bašâbše', '<b>the original inhabitants of el-Kerak</b>']],
+ '<b>Read the third column of Musil’s Christians.</b> He names eight Christian clans at p. 99 — Ḥalasāʾ, Ḥegāzīn, ʿAkāse, <b>Ḥaddādīn</b>, Mdānāt, Zrejkāt, Ṣunnāʿ, Beqāʿīn — and gives every one of them a non-Palestinian origin: Egypt, the Ḥijāz, Muʾta, Khirbet Mkhēlle, Middīn, el-Beqʿe, Damascus, Khirbet al-Ḥaddād. <i>Jerusalem, Bethlehem and Bayt Jālā appear nowhere in the list.</i>')}
+<p><b>Which puts Musil and Burckhardt on opposite sides of the same question — and this is where the
+discipline matters.</b> Musil’s traditions <i>corroborate</i> Burckhardt on the Muslim clans: the
+Maʿāyṭa from the Hebron highlands, the Ḍmūr from Hebron and Bani Naʿim, exactly the “mountains about
+Hebron and Nablous” Burckhardt names. <b>They fail to corroborate him on the Christians at every
+single entry.</b> <i>But Musil never cites Burckhardt, never mentions him, and is not arguing with
+him</i>{c('The whole of <i>Arabia Petraea</i> III was searched for <i>Burckhardt</i>, <i>Seetzen</i>, <i>Doughty</i> and <i>Travels in Syria</i>: not one occurrence. Volume III is a report of oral tradition collected in the field, with no engagement with earlier travellers at all. <b>So this is divergence between two independently gathered bodies of evidence, not a correction of one man by another</b>, and it must be written that way.')}.
+<b>Two men asked, ninety-six years apart, and got different answers. That is a fact about the
+evidence, not a verdict on either of them.</b></p>
+{NUMTABLE('FOUR ACCOUNTS OF WHERE THE ḤADDĀDĪN CAME FROM',
+ ['account', 'the road it describes', 'when and how it was collected'],
+ [['<b>Ramallah’s own tradition</b>', 'Ghassanid Christians, flight from Karak north to this ridge', 'written down 1953 and 1954 from family memory; printed by Shāhīn 1982'],
+  ['<b>Burckhardt, 1812</b>', '<b>the opposite direction</b> — the Karak Christians are refugees <i>from</i> Jerusalem, Bethlehem and Bayt Jālā', 'a traveller’s report of local information, on the spot'],
+  ['<b>Musil, 1896–1902</b>', '<b>no road at all</b> — the Ḥaddādīn come from a ruin on the Karak plateau itself', 'asked of each lineage in the field and tabulated, published 1908'],
+  ['<b>The Karak diwan, 2022</b>', 'Rāshid and his brother Ṣabra go <i>from</i> Karak; Ṣabra returns', 'the Karak family’s own printed statement, at a reception for the Ramallah delegation']],
+ '<b>These do not reconcile, and this book will not make them.</b> Two say the family left Karak; one says the Karak Christians arrived from the Bayt Jālā country; one says the Ḥaddādīn never came from anywhere but the next valley. <i>Printed as four, with the date and the method of collection attached to each, they are more use to a reader than any one of them smoothed into a story.</i>')}
+<p><i>And notice what survives all four.</i> <b>Every account agrees that the Ḥaddādīn were at Karak,
+were Christian, and were numerous enough to be worth an explanation.</b> What none of them can settle
+is the direction of travel. <b>The family’s memory of a road is older and more detailed than
+anything that contradicts it, and it remains the reading this book prints — now with three other
+readings standing beside it, which is what an honest page looks like.</b></p>"""),
 
 ent('three names above Rāshid', 'oral', False, 'WHO WAS RĀSHID’S FATHER? — the two traditions disagree',
  'The chart this project worked from for years ends at generation 36 — and it has been carrying <b>three more names all along, inside that generation’s own title</b>, which this book has never unpacked. John Mogannam writes it in full: <b>Rāshid bin Essaye bin Eyad bin Dhahdouheh al-Ghassani</b> — <span class="ar">راشد بن عيسى بن عياد بن ضهدوحة الغساني</span>{}.'.format(c('John Aziz Mogannam, chart of thirty-six named generations, generation 36, given in full as “Rashed bin Essaye bin Eyad bin Dhahdouheh al-Ghassani.” <b>Earlier editions of this book reproduced the chart as a data table and shortened this to “Rāshid,” silently discarding three named ancestors.</b>')),
@@ -2268,7 +2620,9 @@ ent('III', 'documents', True, 'The founding of Ramallah',
  [['8th–7th c. BCE', 'The Maʾrib dam is built, in the country scripture assigns the line', 'inscription + both family texts'],
   ['528–569', 'Al-Ḥārith ibn Jabala, phylarch — generation 34', 'Procopius, contemporary'],
   ['543–548', 'The dam breaks (Abraha’s repair, CIH 541); final collapse follows', 'inscription'],
-  ['c. 890', 'Last named Ghassān population — Gharandal, Transjordan', 'al-Yaʿqūbī'],
+  ['c. 890', 'Last named Ghassān population in Transjordan — Gharandal', 'al-Yaʿqūbī'],
+  ['<b>c. 1300</b>', '<b>Ghassān still entered as a living people — al-Balqāʾ, the Yarmūk, Ḥimṣ</b>', 'al-Ḥamdānī the <i>mihmandār</i>, via al-ʿUmarī and al-Qalqashandī'],
+  ['1495', 'Mujīr al-Dīn, at Jerusalem, mentions the Ghassānids once and formulaically', '<i>al-Uns al-jalīl</i>, searched complete in two editions'],
   ['1186', 'Rām Allāh first named — pledged by a Crusader king against a debt', 'Ḥammūdeh (2014), p. 39'],
   ['1279', 'The hill endowed to the Ibrāhīmī sanctuary at Hebron', 'sijill 48, p. 88 (1565)'],
   ['c. 1500', 'Rāshid al-Ḥaddādīn — generation 66', 'both family texts'],
@@ -2815,7 +3169,7 @@ CHART_SECTION = (
      'Genesis gives <b>fourteen</b> in the Masoretic text and <b>fifteen</b> in the Septuagint, which inserts Kainan; Luke 3:36 follows the Septuagint',
      'Follows Genesis, and prints the difference. It changes nothing in the argument.'],
     ['Generation 35 stands for <b>“45 generations”</b>',
-     'The span is 931 years, from al-Ḥārith’s death in 569 to Rāshid about 1500. At the observed male-line interval of 25–35 years that is <b>27 to 37 generations</b>, most probably about 31 — which makes the whole line 66 generations, not 36. Forty-five would require a generation of 21 years, shorter than any observed population sustains',
+     'The span is 931 years, from al-Ḥārith’s death in 569 to Rāshid about 1500. At <b>an assumed</b> male-line interval of 25–35 years that is <b>27 to 37 generations</b>, most probably about 31 — which makes the whole line 66 generations, not 36. Forty-five would require a generation of 21 years, shorter than any observed population sustains',
      'Prints about 31, in a range, shows the arithmetic, and recounts the line at 66 generations. Corrected by division, not by a source.'],
     ['<b>Two links</b> are drawn across the void',
      'No source of any kind names a father inside it',

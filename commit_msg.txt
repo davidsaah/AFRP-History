@@ -1,20 +1,66 @@
-Fix push.ps1, and stop committing the push log
+v57 — the missing years, rewritten
 
-The one-click push script had been silently failing since it was written. It set
-$ErrorActionPreference = 'Stop', and git writes its CRLF warnings to stderr, which
-PowerShell then treats as a terminating error - so the script died during `git add`
-and never reached `git commit`. It opened a console, printed a few lines and closed,
-which looked exactly like success. Nothing had gone up since 21 August because of it.
+Nine new entries, six corrections to standing text, five claims withdrawn
+before print after an adversarial verification pass.
 
-  * ErrorActionPreference is now 'Continue', with a comment saying why.
-  * The commit message moved to commit_msg.txt, so nothing depends on surviving
-    PowerShell here-string quoting.
-  * GIT_TERMINAL_PROMPT=0 so a credential prompt fails fast instead of hanging.
-  * The script prints both refs and says not to trust the GitHub web page, which
-    has served stale data on this repo.
+Chapter 10 — the void:
+- GHASSAN IS STILL THERE IN 1400. The documentary void is not six hundred
+  years. Ghassan is entered as a living people at al-Balqa', the Yarmuk and
+  Hims in al-Qalqashandi's Qala'id al-juman (ed. Ibyari, p. 97), sourced
+  through al-'Umari's Masalik al-absar to Badr al-Din Yusuf b. Zammakh
+  al-Hamdani, mihmandar al-'arab — the Mamluk officer paid to know which
+  tribes existed and where they camped.
+- THE WORD UNDERNEATH. Al-'Umari's salība section (Masalik iv.358) and the
+  mechanism of the silence. Names Wadi Bani Zayd — this district — with two
+  settled lineages, 160 years before Rashid.
+- AND THE MAN WHO SHOULD HAVE KNOWN. Mujir al-Din, Jerusalem 1495, printed
+  at full strength against the above with its own weakness declared.
+- THE TRADITION HAS ITS OWN WORD FOR THIS. Nasab al-qat', Ibn 'Inaba
+  (ʿUmdat al-talib pp. 372, 161); Ibn Khaldun naming Ghassan at Muqaddima II.9.
+- WHAT THE OTHER ARCHIVE CALLS THEM. Syriac Tayyaye / Beth Harith; Millar
+  on the absence of "Ghassanid" or "Jafnid" inside the empire.
+- FIVE SEARCHES AND WHAT THEY ACTUALLY PROVE. The Shamila name-test with
+  its controls visible.
+- THE INTERVAL NOBODY MEASURED FOR US. Generation interval as a stated
+  assumption; J-Z640 as a claim that fails on inspection; the Palestinian
+  genetics gap.
 
-Also: push_log.txt is now gitignored and untracked - it was swept into c433ec8
-while it was still being written.
+Chapter 11 — Karak:
+- KARAK WAS A CHRISTIAN TOWN. 1596: 103 Christian households against 78
+  Muslim. Plus Burckhardt's sentence running the family's road backwards.
+- MUSIL ASKED THEM HIMSELF. Arabia Petraea III 84-85. The Karak Haddadin
+  named Khirbet al-Haddad, a ruin on their own plateau. Four accounts now,
+  printed as four.
+
+Corrections to standing text:
+- "Karak and Shawbak defterleri are NOT in Hutteroth and Abdulfattah" —
+  they are; both are nahiyas of liwa' 'Ajlun, pp. 169-173.
+- al-Hudayda: narrowed, not reversed. Wrong about existence, right about
+  consequence.
+- "the observed male-line generational interval" -> "an assumed" (4 places).
+- documentary void extended from c. 890 to c. 1300; master timeline gains
+  two rows.
+
+Withdrawn before print:
+- The Chabot footnote. Michel le Syrien searched in full: zero hits for
+  "Ghassan" across all three translated volumes against 593 for Taiyaye.
+- Shahid's foundations — unverified, BASIC not obtainable.
+- "Mujir al-Din mentions Ghassan zero times" -> once, formulaically.
+- Musil: kh. not b. — Khirbet al-Haddad, a place not a lineage.
+- salība glossed backwards; corrected reading is the stronger one.
+- J-Z640 is 4,600 ybp not 3,600; Nebel 2000 is Human Genetics not AJHG;
+  Zalloua 2024 states no interval; Fernandes 2015 is mtDNA and is dropped
+  from the male-line argument.
+
+Also in this commit:
+- docs/LITERATURE.md — a complete index of the ~190-item working library
+  (filenames, what each is, provenance flags, and the named gaps). The files
+  themselves stay out of the repo per docs/SOURCES.md: most are not ours to
+  redistribute, four exceed GitHub's 100 MB limit, and five came from z-library
+  mirrors and are cited from their published editions instead.
+
+QA: 245 notes, 38 figures, 1,914,948 bytes. No overflow at 1280/900/420,
+no broken anchors, no page errors.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01U4zPY9Xk72xkKmL4D3F4Rm
