@@ -6,6 +6,45 @@ opened, and the purchase list is down to four things.**
 
 ---
 
+# Worked on 10 October 2026
+
+**Closed.**
+- **The 1198 "Ramalei" document** is a forgery (Mayer 1972). It has been withdrawn
+  from the book.
+- **The 1186 charter** does not pledge Ramallah itself. It pledges an unnamed hamlet
+  near the road to Ramallah (Strehlke p. 18, no. 20). The book is corrected.
+- **The date of the 1953 notebook** is 8 August 1953. Shāhīn's English section says
+  so; his Arabic writes 4/8/1953.
+- **Karak's Christian majority before 1596** is now sourced to al-Nuwayrī and
+  al-Maqrīzī for 1301.
+
+**A warning, so nobody cites it.** The claim that Ibn al-Furāt records fiscal relief
+for the Christians of Karak and Shawbak is **refuted**. Ibn al-Furāt, ed. Zurayq,
+IX/1, has nothing of the kind, and his "600 Shawbak Christians" in Barqūq's army is a
+report he himself calls false. The error appears to come from Milwright.
+
+**Newly opened.**
+- **Dissard, *Revue Biblique* 1905, pp. 410–425.** Cited by Farhan as the earliest
+  printed account of the migration. Not yet read.
+- **The town's own account of 1938.** The new entry rests on one outside witness.
+  Needed: the names of the dead and the houses burned.
+- **Oral traditions not yet weighed for the book:**
+  - Ṣabra's brothers at Bayt Jālā and es-Salt, and the Halasa line;
+  - Rāshid buying the land from the Ghazāwneh (Cadoura);
+  - Abu Rayya's 1953 visit to Maʿīn (Farhan, pp. 14–15).
+  Each needs a decision on how it is labelled before it goes in.
+- **Robinson on Bayt Jālā in 1838** (*Biblical Researches* II, 321–24): Tekiyeh
+  waqf, 500 taxable males. Also **the 1922 census marital table** for Ramallah and
+  Bayt Jālā (Barron, Table XX), which bears on emigration and on women. Both are
+  read; neither is in the book yet.
+- **The *deyr* reading in TTd. 406.** It needs the Ottoman folio, which TKGM may
+  supply.
+
+The full sweep of the Literature folder is in the project's
+`history/Literature_Sweep_2026-10-10.md`.
+
+---
+
 # CLOSED on 7 September 2026
 
 **C1. Jifnā 1834 — closed, and it was a correction.** Robinson & Smith, *Biblical

@@ -33,7 +33,7 @@ the honest answer is *none*, and the book says so.
 
 - **38 figures**, all generated: Lambert conformal conic maps drawn from Natural
   Earth, the generational ladder, the register comparison, the evidence chain.
-- **223 numbered notes**, renumbered into document order at build time.
+- **254 numbered notes**, renumbered into document order at build time.
 - **A test harness**: thirty-six checkable claims from the family's own
   presentation, each with a verdict, so the audit can be re-run by anyone.
 - **Corrections printed in the open**, at the same size as the claims they
