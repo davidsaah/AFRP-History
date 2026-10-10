@@ -1,6 +1,8 @@
 # AFRP-History
 
-## The One Line — The Ramallah Family
+## The Roots of Ramallah: A History of Its People
+
+*(Formerly titled "The One Line — The Ramallah Family".)*
 
 **David Saah, PhD · John Mogannam**
 

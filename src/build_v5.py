@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""THE ONE LINE, fifth edition — the whole book as a single unbroken chronicle.
+"""THE ROOTS OF RAMALLAH: A HISTORY OF ITS PEOPLE (formerly "The One Line"), fifth edition — the whole book as a single unbroken chronicle.
 Every narrative folded into one chronological line, Adam to today, each entry
 carrying its own evidence, figures and tables at its own date. Ends with the
 Verdict: origins, the merging into the Palestinian people, and the founding.
@@ -3215,9 +3215,10 @@ TEST_SECTION = (
 html_parts = ['<div class="pbar"><i></i></div>',
 f"""<header class="masthead"><div class="wrap">
 <div class="mastrow"><span class="l">The Ramallah Family Tree Book</span>
-<span class="r">The One Line &middot; fifth edition</span></div>
+<span class="r">The Roots of Ramallah &middot; fifth edition</span></div>
 <hr class="mastrule">
-<h1>The One Line</h1>
+<h1>The Roots of Ramallah</h1>
+<p class="sub"><b>A History of Its People</b></p>
 <p class="byline">David Saah, PhD &nbsp;&middot;&nbsp; John Mogannam</p>
 <p class="sub">The whole history of the Ramallah family as a single unbroken timeline — from Adam
 and Eve to today, with the evidence attached at every date.</p>
@@ -3247,7 +3248,7 @@ TEST_SECTION,
     for i, t in enumerate(CITES, 1)) + '</ol></div>',
 f"""</div></main>
 <footer class="end"><div class="wrap">
-<p><b>The One Line</b> &middot; {FIGN[0]} figures &middot; {len(CITES)} notes &middot; one timeline,
+<p><b>The Roots of Ramallah: A History of Its People</b> &middot; {FIGN[0]} figures &middot; {len(CITES)} notes &middot; one timeline,
 Adam to today &middot; built from the family library of 88 titles, the Ottoman registers, and the
 family’s own two key texts.</p>
 </div></footer>
@@ -3289,7 +3290,7 @@ html_parts = [html_parts[0], _body,
 
 html = ('<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width,initial-scale=1">'
-        '<title>The One Line — The Ramallah Family</title>'
+        '<title>The Roots of Ramallah: A History of Its People</title>'
         '<style>' + CSS + '</style></head><body>' + ''.join(html_parts) + '</body></html>')
 
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
