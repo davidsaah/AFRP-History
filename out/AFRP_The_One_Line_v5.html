@@ -164,7 +164,10 @@ footer.end{border-top:1px solid #DCD6C9;margin-top:70px;padding:26px 0 90px;colo
   .chron::before{left:8px}
   .entry{grid-template-columns:1fr;gap:8px}
   .entry::before{left:2px}
-  .ewhen{text-align:left;padding-left:26px}
+  /* the rail sits at 8px, so the whole entry, not just its date, steps clear of it */
+  .entry{padding-left:26px}
+  .ewhen{text-align:left;padding-left:0}
+  .mastrow{flex-direction:column;gap:4px}
   .eraband h2{font-size:1.5rem}
   .fixgrid{grid-template-columns:1fr}
 }
