@@ -1,5 +1,53 @@
 # Changelog
 
+## v58 — 10 October 2026
+
+### Retitled, and the October research folded in
+
+**The book is now *The Roots of Ramallah: A History of Its People*.** It was
+formerly *The One Line*. The output file name and its web address are unchanged.
+
+**A correction to the 1186 entry, made from the charter itself.** Strehlke,
+*Tabulae Ordinis Theutonici*, p. 18, no. 20: Guy de Lusignan pledges *unum casellum
+nostrum … prope viam regalem, qua vaditur Ramelie*, "one hamlet of ours near the
+royal road by which one goes to Ramallah." The pledged village is not named, so
+earlier editions were wrong to say "the village of Ramallah becomes the hospital's
+property." Ramallah is still first named here. Printed as a FIX box.
+
+**The 1198 "Ramalei" document is withdrawn.** Rey's source is a grant to Marseilles
+forged at Acre about 1220 (H. E. Mayer, *Marseilles Levantehandel und ein
+akkonensisches Fälscheratelier*, 1972, pp. 1–3), as Shaheen (1992), pp. 19–20,
+already reported. In the same FIX box.
+
+**The founding count has a second witness.** The endowment register of the
+district, TKGM TTd. 406 (ed. Işık, 2015), delivered in 970/1562–63, lists Ramallah
+under the Hebron waqf with "71 persons at 80 akçe": the same 71 Christian entries
+as the census. Bayt Jālā's 218 matches too. The edition has no facsimile, so the
+word read as *deyr* is flagged as unchecked.
+
+**Karak was already Christian in 1301.** Al-Nuwayrī, *Nihāya* XXXI, 418–419, and
+al-Maqrīzī, *Sulūk*, ed. Ziyāda, I/3, 912: Karak's Christians were exempted from
+the coloured turbans of 700 AH because "the people of Karak are Christians, and the
+Muslims there are few." Added to the Karak 1596 entry, three centuries ahead of the
+register.
+
+**The 1850 church is built from the Byzantine church at Khirbet et-Tireh.** Guérin
+(*Samarie* II, 1875) and al-Houdalieh (2016). The et-Tireh burials were reinterred
+there on 4 August 2015.
+
+**New entry, 1904 · 1908.** The Patriarchate's own 1904 count (Bertram & Luke,
+1921, p. 9 n. 1): Ramallah 4,500 Orthodox, Bayt Jālā 4,340, Karak 1,600. The same
+report records the Arab laity's struggle with the Greek Brotherhood after 1908.
+
+**New entry, 1938.** The revolt reaches the town: the battle of 1 October 1938,
+the British bombing, about eighty killed, from the diary of a Friends school
+teacher (McDowell, *Notes from Ramallah, 1939*). The book had nothing on 1936–39.
+
+**Adhruḥ is a Ghassanid place in the sixth century.** Shahîd (2002), II.1,
+pp. 61–62, added to the al-Dabbāgh paragraph, as evidence about the region only.
+
+254 notes (was 245). 38 figures, unchanged.
+
 ## v5.7 — 7 September 2026
 
 ### The open questions, worked through
