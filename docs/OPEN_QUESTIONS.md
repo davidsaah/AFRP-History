@@ -6,6 +6,23 @@ opened, and the purchase list is down to four things.**
 
 ---
 
+# Worked on 26 October 2026
+
+- **Rapoport, *Becoming Arab* (2025), p. 105 and note 52.** Get a copy and check
+  whether the twelve men and 950 dirhams belong to Ramallah or to ʿAyn ʿArīk (p. 104).
+  Then find the Arabic deed: Little's catalogue entries for Ḥaram nos. 19, 48, 110, 194,
+  202, 280, 348, 459 (Müller 2008, p. 188 n. 96).
+- **Ricks, *Turbulent Times in Palestine*.** Page numbers for Totah's entries of 9, 16
+  and 25 September and October 1938. Also check the date of the battle (25 Sept vs
+  1 Oct) and the 24 August 1939 attack on the radio station, police and hotel.
+- **Kelly, *The Crime of Nationalism* (2017), p. 130.** Check the rebel court and news
+  sheets near Ramallah. The schoolteacher is probably Hilda M. Wilson of the Birzeit
+  school (Middle East Centre Archive, Oxford, GB165-0302).
+- **Emigration by 1946 or 1956.** Check "1,500 of Ramallah's 6,000 natives had
+  emigrated" against Shāhīn (1982).
+- **Radio Ramallah after 1948.** When did Jordan's station move from Ramallah to Amman?
+  Check Boyd, *Broadcasting in the Arab World* (1999).
+
 # Worked on 10 October 2026
 
 **Closed.**
