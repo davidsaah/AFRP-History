@@ -1,5 +1,33 @@
 # Changelog
 
+## v59 — 26 October 2026
+
+### What the Wikipedia article on Ramallah pointed to, checked at the source
+
+**1938: the town's own witness.** Khalil Totah, born in Ramallah in 1886 and head of
+the Friends Boys School, kept a diary through the revolt (ed. Thomas M. Ricks,
+*Turbulent Times in Palestine*, IPS and PASSIA, 2009). The 1938 entry now carries his
+dates: the police station attacked on 5 September, the court and post office closed
+on 9 September, the district offices' typewriters taken on 16 September, the battle
+with six aircraft on 25 September, and a rebel court sitting in Ramallah in October.
+Totah's 25 September and the Quaker letters' 1 October are printed side by side.
+Anderson, *JPS* 47:1 (2017), pp. 45–47, is cited for the rebel courts generally.
+
+**Electricity and the radio transmitter.** In the 1922–1944 entry: electricity in
+1935 per the Ramallah Municipality (Shāhīn 1982 gives 1936, noted). The Palestine
+Broadcasting Service's main transmitter was in Ramallah from March 1936 to 1948
+(Stanton, *Jerusalem Quarterly* 86, pp. 101, 109–10).
+
+**The 950 dirhams stay withdrawn, with a lead.** Wikipedia credits the twelve men and
+950 dirhams to Rapoport, *Becoming Arab* (2025), p. 105. That page was not seen, and
+the same sum is given for ʿAyn ʿArīk on p. 104. The note now records Rapoport's
+"twenty-seven documents, all dating from the 1300s" and Müller's list of Ḥaram
+documents of 706–708 AH as the place to look.
+
+**Not taken from Wikipedia:** Kelly (2017), p. 130, which could not be seen; the PBS
+"1939" date, which is wrong; and "a fourth of 6,000 natives had left by 1956", which
+has no source and may be a misreading of "1946".
+
 ## v58 — 10 October 2026
 
 ### Retitled, and the October research folded in
