@@ -6,6 +6,32 @@ opened, and the purchase list is down to four things.**
 
 ---
 
+# Worked on 7 November 2026
+
+- **Books David is ordering:** al-Furqān vols. 5–6 (registers 516 and 515) and
+  Rapoport, *Becoming Arab*. When they arrive, check:
+  - the 1596 names;
+  - the 64 + 7 against 63 + 8 reading of 1562;
+  - Rapoport p. 105.
+- **Robinson's Ramallah entry** (1841, ii. 133–134; 1856 vol. I, pp. 453–454) has
+  not been read. The Drive copy returns only its first pages.
+- **Front matter** is a draft. David and John should add names (family, teachers,
+  helpers) to the dedication and acknowledgements.
+- **Photographs still wanted:**
+  - the Orthodox church of 1850–52;
+  - the Friends Girls School before 1937;
+  - al-Manāra;
+  - Ramallah in 1938;
+  - Kh. et-Tireh;
+  - an Ottoman register page.
+
+  Shaheen's pictorial histories and the Palestinian Museum's Friends School collection
+  have them, but need permission. Grant, *Peasantry of Palestine* (1907), is public
+  domain and taught at the Friends school; check its plates.
+- **The two Ḥusayn-clan founders** of al-Bīra: al-Banawiyya's Ḥusayn (ʿAdnān) or
+  Sheikh Ṭanāsh (Kaddoura).
+- **The ALECSO volume** *Qiṣṣat madīnat Rām Allāh wa-l-Bīra*: author and year.
+
 # Worked on 26 October 2026
 
 - **Rapoport, *Becoming Arab* (2025), p. 105 and note 52.** Get a copy and check
