@@ -1,5 +1,86 @@
 # Changelog
 
+## v61 — 7 November 2026
+
+### Every figure in the family tree book's look ("Classic")
+
+David chose the Classic option, so all 38 figures and the photographs now
+match the Ramallah Family Tree book.
+- **Plates.** Each figure sits on white paper between a green double rule
+  above and a thin green rule below. The figure number is set in ochre beside
+  a green diamond, and the source line is ochre with a thin ochre rule. The
+  type is Times throughout.
+- **Colours.** `src/restyle.py` runs after the build and after the atlas
+  maps are restored. It maps every colour inside the SVGs onto the tree
+  book's palette:
+  - creams become white;
+  - golds and rusts become two ochres, light for shapes and strong for text,
+    so they stay distinct;
+  - plum and violet become ink greys, because the tree book has no third hue;
+  - water blues become a cool stone grey;
+  - greens become the tree book's greens.
+- **Captions.** The captions that named a colour now name the new one
+  ("the ochre ring", "the thin dark band", "dashed dark rings").
+- **Photographs.** Each photograph has a thin green frame, a white mat, an
+  ochre "Photograph" label, an italic caption and a light warm tone.
+- **Seventeen pictures from Shaheen's *Pictorial History of Ramallah, Part II*
+  (2005).** David says AFRP holds the rights. Each is credited to the book
+  and its page, "reproduced courtesy of the American Federation of Ramallah,
+  Palestine". The web copies are in `img/shaheen/`.
+  - Chapter 9: the 1186 charter in Latin, with the road *qua vaditur Ramelie*.
+  - Chapter 11: the 1553–54 Bayt Jālā register with the thirty-six families.
+  - Chapter 12: Shaheen's settlement map, the 1639 "Rammula" map, a Hishmeh
+    portrait from the 1870s, a Harb loan agreement of 1896, and a wedding of 1900.
+  - Chapter 13:
+    - Mayor Elias ʿAudi's family, about 1905;
+    - an Ottoman conscript, 1916;
+    - a 1930 Shaheen wedding;
+    - Manara Square, about 1953;
+    - the Arab Women's Union in the 1960s;
+    - the Union's meals for refugee children after 1967.
+
+  David confirmed that AFRP holds the rights to every photograph in the book.
+  On that basis four more were added: a weaver at his loom, about 1890–1900
+  (chapter 12); Ramallah from the south, about 1910; the Friends Meeting House,
+  about 1912; and a refugee school in a Ramallah church, 1949 (all chapter 13).
+- **Three new figures, drawn in the new look** (`src/build_figs5.py`), for
+  eras that had few or none:
+  - "Six sovereigns, one people" (539–63 BC);
+  - "Who ruled, and who stayed, 636–1517": the dynasties over eleven dated
+    Christian traces, with 1186 picked out;
+  - "Where the road stopped": a map of the march from Lydda and Ramle and the
+    five camps, joined to the towns their people came from.
+- **Rāshid's family.** The pencil drawing of the memorial to the first family
+  of Ramallah, from the tree book's cover, now opens the book. A photograph of
+  the bronze memorial opens chapter 12.
+- **One fix.** The atlas plate "The district when Rome wrote it down" and its
+  caption still said Ramallah was named nowhere "until 1279". v60 moved the
+  first naming to 1186, so both now say 1186.
+- **Pages from the sources themselves.** Eight pages and plates now sit inside
+  the entries that cite them, under a "From the source" label, each with a
+  translation of the lines that matter:
+  - ʿAzīz Shāhīn's Arabic account of the founding, *Kashf al-niqāb* (1982),
+    p. 10 → "What the family remembers";
+  - the 1562 endowment register, Işık's 2015 edition p. 73, with the two
+    Ramallah entries boxed (the village, and the 71 Christians) → the 1561–62
+    settlement;
+  - Robinson at Jifnā, 13 June 1838 → the 1834 revolt;
+  - Guérin at Ramallah, 25 May 1870, in French with the Arabic name → the 1850
+    church;
+  - Seetzen's German of 1806 ("a considerable village, inhabited mostly by
+    Greek Christians") → "How the town actually lived";
+  - two plates from Grant's *Peasantry of Palestine* (1907): the walled lane
+    into the town, and the Friends schools → the Grant entry;
+  - the first issue of Boulos Shehadeh's *Mirʾāt al-Sharq*, 17 September 1919
+    → "The people this town produced".
+- **Period pictures** (downloaded on David's approval, all public domain):
+  Strehlke's 1869 printing of the 1186 charter, with *qua vaditur Ramelie*
+  boxed, and Vesconte's map of about 1320, both in "The name appears". Also
+  the 1881 engraving of the Crusader church at al-Bīra (Magna Mahumeria), the
+  1880 survey sheet showing Ramallah and al-Bīra together, and the 1881
+  engraving of the al-Bīra khan (the twin-town entry). A 1919 photograph of a
+  Ramallah man spinning wool opens chapter 13.
+
 ## v60 — 7 November 2026
 
 ### Front matter, the family's memory, and the actual data on 1562

@@ -298,3 +298,41 @@ Ranked by size. Each has a named source, several already on the shelf and uncite
   times in the bibliography and never in the narrative.
 - **The Mamluk and early Ottoman centuries** — Zeʾevi, *An Ottoman Century*, on
   the shelf, cited once in a note, never used.
+
+## Worked on 7 November 2026 (v61)
+
+- **Shaheen 2005 rights: settled.** David confirmed on 7 Nov 2026 that AFRP
+  holds the rights to *A Pictorial History of Ramallah, Part II* and to all the
+  photographs in it. The printed notice still reads "Copyright © 2005 by Naseeb
+  Shaheen", so keep the assignment on file with the book.
+- **Shaheen p. 226** dates electricity in Ramallah to 1934. The book follows
+  the municipality's 1935. This is not yet reconciled.
+- **The memorial to the first family.** Where does the bronze group stand,
+  who made it and when, and who made the pencil drawing used on both covers?
+  The captions say only what the pictures show until this is known.
+- **Guérin's population for Ramallah.** His *Samarie* II (1875), p. 40, for
+  his visit of 25 May 1870, says "environ deux mille habitants", about 2,000.
+  The book credits Guérin with about 1,100 in three places: the population
+  chart's note, the census table (1870 row) and the reconstruction chart. If
+  the 1,100 comes from another Guérin volume (his 1863 visit, *Judée* III),
+  cite it; if not, correct it in a FIX box. Not changed yet.
+- **Permission for two modern pages.** The page from Shāhīn's *Kashf
+  al-niqāb* (1982; Birzeit scan) and the page from Işık's 2015 edition of the
+  1562 register (Tapu ve Kadastro, Ankara) are reproduced as short quotations
+  for commentary. Ask the Shāhīn family and TKGM, or replace with the
+  Ottoman folio itself, before print.
+- **Strehlke doubts the 1186 charter.** His note on p. 18, no. 20, says Guy
+  was crowned only in August 1186 and "totum hoc diploma spurium videtur"
+  (the whole charter seems spurious), citing its unusual opening and ending.
+  The book's text presents the charter as genuine. The new caption quotes the
+  note, but the entry itself is unchanged. Decide whether to add a FIX box, and
+  check later scholarship (Mayer; Hiestand's *Die Urkunden der lateinischen
+  Könige von Jerusalem*, 2010) for a verdict. The 1279 endowment stands
+  either way.
+- **Pictures held back.** These were downloaded but not used:
+  - the Underwood bride card ("Copyright 1900"), whose caption says only
+    "Palestine" and which may be the same scene as Shaheen p. 202;
+  - the "Peasant family of Ramallah" print, likely the same photograph as the
+    LoC copy in chapter 1;
+  - the Madaba Jerusalem detail, since chapter 7 already has the whole map;
+  - the Beitīn engravings and the LoC Bethel view.
