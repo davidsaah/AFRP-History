@@ -3031,6 +3031,7 @@ figure.photo figcaption{max-width:820px;padding:10px 4px 14px;font-style:italic}
 figure.photo figcaption .src{font-style:normal}
 figure.photo.srcpage::before{content:"From the source"}
 figure.photo.srcpage img{filter:none;max-height:780px}
+figure.photo.period::before{content:"From the period"}
 .front h3{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#8A6A2E;margin:22px 0 6px}
 .front .ded{font-style:italic;font-size:1.05rem;line-height:1.6;margin:0}
 .front p{line-height:1.6;margin:0 0 10px}
@@ -3223,6 +3224,8 @@ SHAHEEN = {
 LOCAL_PHOTOS = {
  12: [('memorial_bronze.jpg', 'The bronze memorial to the first family of Ramallah: Rāshid with his staff, his wife holding their daughter, and their five sons around them.',
        'Photograph from the AFRP family-tree archive. The same group, drawn in pencil, opens this book and the <i>Ramallah Family Tree</i>.')],
+ 13: [('period/spinning_1919.jpg', 'An old man of Ramallah in a sheepskin coat, spinning wool with a hand spindle, 1919.',
+       'American Colony Photo Department, 1919. Public domain.')],
 }
 SHAHEEN_SRC = ('Naseeb Shaheen, <i>A Pictorial History of Ramallah, Part II</i> (Birzeit University Press, 2005), p. {p}. '
                'Reproduced courtesy of the American Federation of Ramallah, Palestine.')
@@ -3246,39 +3249,56 @@ def photos_for(num):
 # v61: pages from the sources themselves, and period plates, set inside the
 # entries that use them. Files are web copies in img/sources/.
 SOURCE_PAGES = [
- ('WHAT THE FAMILY REMEMBERS', 'srcpage', 'shahin_1982_p10.jpg',
+ ('THE NAME APPEARS', 'srcpage', 'sources/strehlke_1869_p18_no20.jpg',
+  'The charter of 7 March 1186 as its editor printed it in 1869, with <i>qua vaditur Ramelie</i>, “by which one goes to Ramallah”, boxed. '
+  'The editor’s note at the foot raises a doubt this book has not yet discussed. Guy, he writes, was crowned only in August 1186, and “the whole charter seems spurious, also because of its unusual opening and ending”. '
+  'Even so, as Shaheen says of the forged document of 1198, a forger could only use a name that people already knew.',
+  'Ernst Strehlke, ed., <i>Tabulae Ordinis Theutonici</i> (Berlin, 1869), p. 18, no. 20, with the editor’s note: <i>Guido rex coronatus est demum 1186 augusto mense … Caeterum totum hoc diploma spurium videtur etiam ob inusitatos initium et exitum</i>. Public domain.'),
+ ('THE NAME APPEARS', 'period', 'period/vesconte_c1320.jpg',
+  'The Holy Land on the grid map Pietro Vesconte drew for Marino Sanudo’s crusade plan about 1320. This is the world in which the Mamluk endowment of 1279 already named Rām Allāh.',
+  'After Pietro Vesconte, for Marino Sanudo, <i>Liber secretorum fidelium crucis</i> (c. 1320), in the engraved copy printed by Jacques Bongars, <i>Gesta Dei per Francos</i> II (Hanau, 1611). Public domain.'),
+ ('Magna Mahumeria', 'period', 'period/bireh_church_1881.jpg',
+  '“Ruins of Crusaders’ church at el Bîreh”: the three apses and north wall of the Frankish church at al-Bīra, Magna Mahumeria, with a cornfield growing inside it.',
+  '<i>Picturesque Palestine, Sinai and Egypt</i>, ed. Charles W. Wilson (London, 1880–84), engraving. Public domain.'),
+ ('THE TWIN TOWN', 'period', 'period/pef_1880_sheet17.jpg',
+  'Râm Allah and el Bîreh, as the British surveyors wrote them, side by side on the road north from Jerusalem. The sheet was surveyed in 1878 and published in 1880.',
+  'Palestine Exploration Fund, <i>Survey of Western Palestine</i>, 1 inch to the mile, sheet XVII (London, 1880), detail. Public domain.'),
+ ('THE TWIN TOWN', 'period', 'period/bireh_khan_1881.jpg',
+  '“A halt for the night in the khan of el Bîreh”: travellers and their camels round a fire under the vaults of al-Bīra’s caravan inn, which stood by the town’s main spring.',
+  '<i>Picturesque Palestine, Sinai and Egypt</i>, ed. Charles W. Wilson (London, 1880–84), engraving. Public domain.'),
+ ('WHAT THE FAMILY REMEMBERS', 'srcpage', 'sources/shahin_1982_p10.jpg',
   'The founding as ʿAzīz Shāhīn tells it, in his Arabic. The page opens: '
   '<span class="ar" dir="rtl">ويعرف اهالي رام الله ان راشدا الحداد واخاه صبره هما اول من سكن هذه المدينة</span>, '
   '“The people of Ramallah know that Rāshid al-Ḥaddād and his brother Ṣabra were the first to live in this town.” '
   'They do not agree on when, he goes on: some say the seventeenth century, others a century earlier. He then names the two texts the town has: '
   'ʿAdnān al-Ḥaddādīn’s account, written in a notebook kept at the Ramallah municipality and dated 8 August 1953, and the one Yūsuf Qaddūra gives in his <i>History of the City of Ramallah</i> (1954).',
   'ʿAzīz Shāhīn, <i>Kashf al-niqāb</i> (1982), p. 10. Digitised by Birzeit University Library.'),
- ('THE CHRISTIAN SETTLEMENT', 'srcpage', 'defter_1562_p73.jpg',
+ ('THE CHRISTIAN SETTLEMENT', 'srcpage', 'sources/defter_1562_p73.jpg',
   'Ramallah in the endowment register of 1562, as the modern Turkish edition prints it (the two entries are boxed). '
   'On the right, <i>Karye-i Ramallah … tamāmen, hāsıl maʿa rüsūm 2905</i>: the whole village, endowed to the shrine of Abraham at Hebron, yielding 2,905 akçe with its dues. '
   'Below left, <i>Nasārā der-karye-i Ramallah … 71 neferen, fī 80, 5680</i>: the Christians of Ramallah, seventy-one persons at 80 akçe each, 5,680 akçe. '
   'This is the line that counts the families who came up from Bayt Jālā.',
   '<i>Defter-i Evkaf-ı Liva-i Kuds-i Şerif</i>, ed. Sevgi Işık (Ankara: Tapu ve Kadastro Genel Müdürlüğü, 2015), p. 73, an edition of TKG.KK.TTd. 406, folio 1. Transcription only; the Ottoman folio itself is not reproduced in the edition.'),
- ('THE PEASANTS’ REVOLT', 'srcpage', 'robinson_1841_p263.jpg',
+ ('THE PEASANTS’ REVOLT', 'srcpage', 'sources/robinson_1841_p263.jpg',
   'Edward Robinson at Jifnā on 13 June 1838, four years after the revolt. He eats lunch under a walnut tree inside the ruined church that the village’s Christian shaykh tells him was St George’s, where mass is still said now and then, and he ends: '
   '“The present inhabitants of Jufna are all Christians; they number only forty-two taxable men.”',
   'Edward Robinson and Eli Smith, <i>Biblical Researches in Palestine</i>, p. 263 of a later edition; the margin gives the pages of the first edition (Boston, 1841), vol. III, pp. 77–78. Public domain.'),
- ('The present Greek Orthodox church is built', 'srcpage', 'guerin_1875_p40.jpg',
+ ('The present Greek Orthodox church is built', 'srcpage', 'sources/guerin_1875_p40.jpg',
   'Victor Guérin pitches his tents at Ramallah on 25 May 1870 and writes the name in Arabic beside the French. '
   '“This town has about two thousand inhabitants, almost all belonging to the Greek Orthodox religion. Eighteen years ago they built a church there, constructed partly with the remains of an ancient church at Kharbet et-Thireh.” '
   'A Latin parish and school had been founded too, and the missionary told him he had barely a hundred and fifty parishioners.',
   'Victor Guérin, <i>Description géographique, historique et archéologique de la Palestine: Samarie</i>, vol. II (Paris, 1875), ch. 35, p. 40. Public domain. Guérin writes “grecque schismatique”, the French Catholic term of his day for Orthodox.'),
- ('How the town actually lived', 'srcpage', 'seetzen_1854_p197.jpg',
+ ('How the town actually lived', 'srcpage', 'sources/seetzen_1854_p197.jpg',
   'Ulrich Jasper Seetzen on the road north of Jerusalem in 1806: “On our right we left the village of Taréndy, and further right of it Râm-Allah, a considerable village, inhabited mostly by Greek Christians, which cannot be seen from the road.” '
   'A little further on he passes al-Rām, the “small village of Râm”, with the ruins of a church.',
   'Ulrich Jasper Seetzen, <i>Reisen durch Syrien, Palästina, Phönicien, die Transjordan-Länder, Arabia Petraea und Unter-Aegypten</i>, ed. Fr. Kruse, vol. II (Berlin, 1854), p. 197. Public domain; scan from Heidelberg University Library.'),
- ('AN OUTSIDER WRITES THE TOWN DOWN', 'photo', 'grant_1907_lane.jpg',
+ ('AN OUTSIDER WRITES THE TOWN DOWN', 'photo', 'sources/grant_1907_lane.jpg',
   '“Râm Allâh, as Entered by the Sinuous, Walled Lane, from the East”: the town as Elihu Grant knew it, stone field walls along the lane and the houses of the old town on the rise beyond.',
   'Elihu Grant, <i>The Peasantry of Palestine</i> (Boston: Pilgrim Press, 1907), plate. Public domain.'),
- ('AN OUTSIDER WRITES THE TOWN DOWN', 'photo', 'grant_1907_schools.jpg',
+ ('AN OUTSIDER WRITES THE TOWN DOWN', 'photo', 'sources/grant_1907_schools.jpg',
   '“Mission Schools (sustained by the American Friends)”: pupils and teachers of the Friends schools at Ramallah, which Grant ran from 1901 to 1904.',
   'Elihu Grant, <i>The Peasantry of Palestine</i> (Boston: Pilgrim Press, 1907), plate. Public domain.'),
- ('The people this town produced', 'srcpage', 'mirat_al_sharq_1919.jpg',
+ ('The people this town produced', 'srcpage', 'sources/mirat_al_sharq_1919.jpg',
   'The first issue of <i>Mirʾāt al-Sharq</i>, “Mirror of the East”, Jerusalem, Wednesday 17 September 1919. '
   'The masthead, top right, names its licence-holder and editor, <span class="ar" dir="rtl">بولس شحادة</span>, Boulos Shehadeh of Ramallah, and calls it “a free Arabic political newspaper, appearing once a week for the present”. '
   'His opening article begins: “Today we publish among our people a newspaper called <i>Mirʾāt al-Sharq</i>, and we issue it from the city of Jerusalem.”',
@@ -3287,8 +3307,8 @@ SOURCE_PAGES = [
 
 def _srcfig(kind, fn, cap, src):
     alt = re.sub(r'<[^>]+>', '', cap)
-    cls = 'photo srcpage' if kind == 'srcpage' else 'photo'
-    return (f'<figure class="{cls}"><img src="../img/sources/{fn}" alt="{alt}" loading="lazy" decoding="async">'
+    cls = {'srcpage': 'photo srcpage', 'period': 'photo period'}.get(kind, 'photo')
+    return (f'<figure class="{cls}"><img src="../img/{fn}" alt="{alt}" loading="lazy" decoding="async">'
             f'<figcaption>{cap}<span class="src">{src}</span></figcaption></figure>')
 
 for key, kind, fn, cap, src in SOURCE_PAGES:

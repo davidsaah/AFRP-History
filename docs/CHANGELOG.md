@@ -73,6 +73,13 @@ match the Ramallah Family Tree book.
     into the town, and the Friends schools → the Grant entry;
   - the first issue of Boulos Shehadeh's *Mirʾāt al-Sharq*, 17 September 1919
     → "The people this town produced".
+- **Period pictures** (downloaded on David's approval, all public domain):
+  Strehlke's 1869 printing of the 1186 charter, with *qua vaditur Ramelie*
+  boxed, and Vesconte's map of about 1320, both in "The name appears". Also
+  the 1881 engraving of the Crusader church at al-Bīra (Magna Mahumeria), the
+  1880 survey sheet showing Ramallah and al-Bīra together, and the 1881
+  engraving of the al-Bīra khan (the twin-town entry). A 1919 photograph of a
+  Ramallah man spinning wool opens chapter 13.
 
 ## v60 — 7 November 2026
 
