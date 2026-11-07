@@ -31,7 +31,7 @@ family's own chain of nine links is threaded through it, era by era, saying at
 each point which link we have reached and what evidence there is for it. Often
 the honest answer is *none*, and the book says so.
 
-- **38 figures**, all generated: Lambert conformal conic maps drawn from Natural
+- **41 figures**, all generated: Lambert conformal conic maps drawn from Natural
   Earth, the generational ladder, the register comparison, the evidence chain.
 - **267 numbered notes**, renumbered into document order at build time.
 - **A test harness**: thirty-six checkable claims from the family's own
@@ -91,7 +91,7 @@ python qa/qa_ov.py       # text-overlap detection inside every figure
 python qa/qa_cover.py    # text painted over by a later opaque shape
 ```
 
-`qa_ov.py` walks every `<text>` node in all 38 figures, takes its `getBBox()`, and
+`qa_ov.py` walks every `<text>` node in all 41 figures, takes its `getBBox()`, and
 reports any two that overlap. It should print `[]`.
 
 ---

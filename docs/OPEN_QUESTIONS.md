@@ -307,3 +307,6 @@ Ranked by size. Each has a named source, several already on the shelf and uncite
   Shaheen", so keep the assignment on file with the book.
 - **Shaheen p. 226** dates electricity in Ramallah to 1934. The book follows
   the municipality's 1935. This is not yet reconciled.
+- **The memorial to the first family.** Where does the bronze group stand,
+  who made it and when, and who made the pencil drawing used on both covers?
+  The captions say only what the pictures show until this is known.

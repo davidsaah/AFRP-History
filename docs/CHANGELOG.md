@@ -43,6 +43,16 @@ match the Ramallah Family Tree book.
   On that basis four more were added: a weaver at his loom, about 1890–1900
   (chapter 12); Ramallah from the south, about 1910; the Friends Meeting House,
   about 1912; and a refugee school in a Ramallah church, 1949 (all chapter 13).
+- **Three new figures, drawn in the new look** (`src/build_figs5.py`), for
+  eras that had few or none:
+  - "Six sovereigns, one people" (539–63 BC);
+  - "Who ruled, and who stayed, 636–1517": the dynasties over eleven dated
+    Christian traces, with 1186 picked out;
+  - "Where the road stopped": a map of the march from Lydda and Ramle and the
+    five camps, joined to the towns their people came from.
+- **Rāshid's family.** The pencil drawing of the memorial to the first family
+  of Ramallah, from the tree book's cover, now opens the book. A photograph of
+  the bronze memorial opens chapter 12.
 - **One fix.** The atlas plate "The district when Rome wrote it down" and its
   caption still said Ramallah was named nowhere "until 1279". v60 moved the
   first naming to 1186, so both now say 1186.

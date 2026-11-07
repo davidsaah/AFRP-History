@@ -13,6 +13,7 @@ import build_figs3 as F3
 import build_figs4 as F4
 import build_atlas as ATLAS
 import build_timeline_test as T
+import build_figs5 as F5
 
 from paths import out as _out, asset as _asset
 OUT = _out('AFRP_The_One_Line_v5.html')
@@ -668,6 +669,9 @@ moving through Palestinian towns, in Greek, as routine commercial business{}. <i
 letters like that about an empty country.</i></p>""".format(
   c('The Zenon archive (P. Cair. Zen.), 261–229 BCE; Zenon’s Palestinian journey of 259 BCE on behalf of Apollonios, dioiketes of Ptolemy II Philadelphus.'))),
 
+E[-1] = E[-1][:7] + (E[-1][7] + fig(F5.fig_sovereigns(), 'Six sovereigns, one people',
+ 'Five changes of sovereign in five centuries, and every one of them happened above the villages rather than to them. The bands are the rulers; the green line underneath is everyone else.',
+ 'Reign dates as conventionally given; the Zenon archive (P. Cair. Zen.) for 259 BC.'),)
 ent('5th–2nd c. BCE', 'attested', False, 'The Samaritans, and Mount Gerizim',
  'Magen dates the sanctuary on Gerizim archaeologically to the <b>mid-fifth century BCE</b>, and the dating is disputed; when the separation from Judaism became final is disputed, and the decisive rupture is usually placed at the Hasmonean destruction of the temple there, about <b>110 BCE</b>{}. What is not disputed is the sequel: the Samaritans are <b>still on that mountain</b> — reduced from a Byzantine-era population in the hundreds of thousands to about 150 souls by 1900, and recovering to some 900 today{}. <b>Continuity in this landscape is observable, not rhetorical.</b> <i>And the Gospel sets a conversation on that same mountain — “our fathers worshipped in this mountain, and ye say that in Jerusalem is the place where men ought to worship”</i>{}.'.format(
   c('Y. Magen, <i>Mount Gerizim Excavations</i> I–II (Israel Antiquities Authority, 2004, 2008), for the mid-fifth-century sanctuary — excavated and published by the Staff Officer of Archaeology under the Civil Administration, on a mountain in occupied territory, and cited here for its stratigraphy and not for its frame (see the bibliography, §XXX). The Persian-period date is disputed; Gary Knoppers, <i>Jews and Samaritans: The Origins and History of Their Early Relations</i> (Oxford, 2013), ch. 1, for the range of dates proposed — from Ezra to 70 CE; Josephus, <i>Antiquitates</i> XIII.255–56, for John Hyrcanus and the destruction of the Gerizim temple. <b>Earlier editions of this book printed a flat “c. 400 BCE,” which no source supports.</b>'),
@@ -1126,6 +1130,9 @@ were on it.</b></p>"""),
 ent('1058', 'documents', False, 'A village church is rebuilt at ʿAbūd — dated, inside the silence',
  'About eighteen kilometres north-west of the future Ramallah, the church at <b>ʿAbūd</b> is rebuilt, and the work is dated{}. <i>Nothing in the family record covers this year. The hills do.</i>'.format(c('The rebuilding of the church at ʿAbūd, dated 1058, among the dated Christian records of these hills between the seventh and sixteenth centuries; Hamdan Taha\u2019s work at \u02bfAb\u016bd. See the bibliography, \u00a7XXIX.'))),
 
+E[-1] = E[-1][:7] + (E[-1][7] + fig(F5.fig_rulers_traces(), 'Who ruled, and who stayed, 636–1517',
+ 'Seven dynasties pass over these hills in nine centuries. Underneath them runs one line that never breaks: the Christian villages of the ridge, leaving a dated trace in every one of those dynasties. In 1186, under the Franks, the name Ramallah is written down for the first time.',
+ 'The traces as cited in this chapter and the next: Taha at ʿAbūd; the cartulary of the Holy Sepulchre; Strehlke no. 20; Thietmar; sijill 48 p. 88; the Ḥaram documents.'),)
 CH(9)
 
 sect('What the ground says', 'Four centuries in which the land is thoroughly documented and our own line is not')
@@ -2489,6 +2496,9 @@ against exactly the frame this book refuses: the Christian villagers of Bīr Zay
 writes, have more in common with their Muslim neighbours than with the Christian well-off of
 Masyūn.</i></p></div></div>"""),
 
+E[-1] = E[-1][:7] + (fig(F5.fig_camps(), 'Where the road stopped',
+ 'The people driven east out of Lydda and Ramle on 13 July 1948 stopped where the road stopped. The five camps of this district are joined here to the towns and villages their people came from, as the camp table below records them.',
+ 'UNRWA camp profiles; ARIJ, Ramallah governorate camp profiles (2012); Shāhīn (1982). The line of the march is drawn only approximately.') + E[-1][7],)
 ent('1944–1963', 'documents', True, 'The diaspora builds the town a hospital',
  'The Ramallah Foundation, Inc. of New York is formed in 1944; a three-man delegation — Peter George Shihadeh, Yousef Abdallah Bateh, <b>and ʿAzīz Shāhīn himself</b> — tours every US Ramallah community in 1944–45 and collects over <b>$90,000</b>{}. The Summer Resorts Company (1945, capitalised at £P50,000 — there was no dinar in Palestine until 1950 — mostly diaspora stockholders) brings the water from ʿAin Fara in 1951; and on <b>20 May 1963 the Ramallah New Hospital opens</b> — fifty beds, on 26 dunams, its assets vested in the New York Foundation. <i>The money came back along the road the people left on.</i>'.format(c('Shāhīn (1982), “Societies”: the Foundation of 1944, the delegation and the $90,000; the Hospital Society of c. 1945 and the 26 dunams; the hospital’s completion in 1961–63, third floor 1966–68, out-patient clinic 1977.'))),
 
@@ -3007,6 +3017,10 @@ span.w2{background:#004A26;color:#F3ECDD;padding:2px 7px;border-radius:3px;
 
 .byline{margin:8px 0 0;font-size:1.06rem;letter-spacing:.05em;color:#1A1A1A}
 .front{margin:22px 0 4px;max-width:44em}
+figure.frontis{margin:18px 0 10px;border:0;background:none;text-align:center;max-width:44em}
+figure.frontis img{display:inline-block;width:100%;max-width:520px;height:auto;mix-blend-mode:multiply}
+figure.frontis figcaption{padding:4px 0 0;font-style:italic;color:#6B6760;font-size:.9rem;text-align:center}
+figure.frontis::after{content:"";display:block;width:180px;height:1px;margin:14px auto 0;background:#9A6324}
 figure.photo{margin:24px 0 30px;padding:14px 14px 0;position:relative;z-index:1}
 figure.photo::before{content:"Photograph";display:flex;align-items:center;gap:10px;color:#9A6324;
   font:700 10px/1 "Times New Roman",Times,serif;letter-spacing:.26em;text-transform:uppercase;margin:0 4px 10px}
@@ -3204,6 +3218,10 @@ SHAHEEN = {
       ('p161_3.jpg', 160, 'Members of the Arab Women’s Union of Ramallah in the 1960s. Matiel Mogannam, who founded the Ramallah branch in 1939, sits third from the right in the black dress.'),
       ('p162_2.jpg', 161, 'After the war of 1967 the Women’s Union fed as many as two hundred refugee children a hot noon meal. Standing are Ellen ʿAkel, Labeebeh Hishmeh Sayegh and Juliette Mogannam, about 1968–69.')],
 }
+LOCAL_PHOTOS = {
+ 12: [('memorial_bronze.jpg', 'The bronze memorial to the first family of Ramallah: Rāshid with his staff, his wife holding their daughter, and their five sons around them.',
+       'Photograph from the AFRP family-tree archive. The same group, drawn in pencil, opens this book and the <i>Ramallah Family Tree</i>.')],
+}
 SHAHEEN_SRC = ('Naseeb Shaheen, <i>A Pictorial History of Ramallah, Part II</i> (Birzeit University Press, 2005), p. {p}. '
                'Reproduced courtesy of the American Federation of Ramallah, Palestine.')
 
@@ -3213,6 +3231,10 @@ def photos_for(num):
         out.append(f'<figure class="photo"><img src="{PHOTO_BASE}{path}" alt="{cap}" loading="lazy" decoding="async">'
                    f'<figcaption>{cap}<span class="src">{who} Library of Congress, Prints &amp; Photographs Division, Matson Collection, '
                    f'<a href="https://www.loc.gov/item/{item}/">loc.gov/item/{item}</a> — no known restrictions on publication.</span></figcaption></figure>')
+    for fn, cap, src in LOCAL_PHOTOS.get(num, []):
+        alt = re.sub(r'<[^>]+>', '', cap)
+        out.append(f'<figure class="photo"><img src="../img/{fn}" alt="{alt}" loading="lazy" decoding="async">'
+                   f'<figcaption>{cap}<span class="src">{src}</span></figcaption></figure>')
     for fn, pg, cap in SHAHEEN.get(num, []):
         alt = re.sub(r'<[^>]+>', '', cap)
         out.append(f'<figure class="photo"><img src="../img/shaheen/{fn}" alt="{alt}" loading="lazy" decoding="async">'
@@ -3276,6 +3298,7 @@ CHAINFIG = fig(F3.fig_chain_new(),
  'books and the censuses. John Mogannam’s chart is printed separately, in the appendix.')
 
 FRONT = """<div class="front">
+<figure class="frontis"><img src="../img/memorial_drawing.jpg" alt="Drawing of the memorial to the first family of Ramallah: Rāshid, his wife holding their daughter, and their five sons" decoding="async"><figcaption>From the memorial to the first family of Ramallah</figcaption></figure>
 <h3>Dedication</h3>
 <p class="ded">To the people of Ramallah: to those who stayed on the hill, to those who carried it
 with them to every city they went to, and to those, in every generation, who kept the names.</p>
