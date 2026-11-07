@@ -1,5 +1,32 @@
 # Changelog
 
+## v61 — 7 November 2026
+
+### Every figure in the family tree book's look ("Classic")
+
+David chose the Classic option, so all 38 figures and the photographs now
+match the Ramallah Family Tree book.
+- **Plates.** Each figure sits on white paper between a green double rule
+  above and a thin green rule below. The figure number is set in ochre beside
+  a green diamond, and the source line is ochre with a thin ochre rule. The
+  type is Times throughout.
+- **Colours.** `src/restyle.py` runs after the build and after the atlas
+  maps are restored. It maps every colour inside the SVGs onto the tree
+  book's palette:
+  - creams become white;
+  - golds and rusts become two ochres, light for shapes and strong for text,
+    so they stay distinct;
+  - plum and violet become ink greys, because the tree book has no third hue;
+  - water blues become a cool stone grey;
+  - greens become the tree book's greens.
+- **Captions.** The captions that named a colour now name the new one
+  ("the ochre ring", "the thin dark band", "dashed dark rings").
+- **Photographs.** Each photograph has a thin green frame, a white mat, an
+  ochre "Photograph" label, an italic caption and a light warm tone.
+- **One fix.** The atlas plate "The district when Rome wrote it down" and its
+  caption still said Ramallah was named nowhere "until 1279". v60 moved the
+  first naming to 1186, so both now say 1186.
+
 ## v60 — 7 November 2026
 
 ### Front matter, the family's memory, and the actual data on 1562

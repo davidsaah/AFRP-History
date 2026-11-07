@@ -98,7 +98,7 @@ def fig_map_roman():
     s.append(f'<circle cx="{rx:.1f}" cy="{ry:.1f}" r="3.6" fill="{GOLD}"/>')
     s.append(txt(rx - 22, ry - 30, 'the site of Ramallah', 10.6, GOLD, 'end', '700'))
     s.append(txt(rx - 22, ry - 18, 'named in no Roman or Byzantine text —', 9.2, GOLD, 'end', '400', 'italic'))
-    s.append(txt(rx - 22, ry - 7, 'and in none at all until 1279', 9.2, GOLD, 'end', '400', 'italic'))
+    s.append(txt(rx - 22, ry - 7, 'and in none at all until 1186', 9.2, GOLD, 'end', '400', 'italic'))
 
     ly = 566
     s.append(f'<circle cx="46" cy="{ly}" r="5.6" fill="{GREEN}"/>')

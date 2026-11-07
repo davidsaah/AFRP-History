@@ -680,7 +680,7 @@ ent('63 BCE → 77 CE', 'documents', False, 'Rome writes the district down — a
  'Pompey takes Judaea from the Hasmoneans in 63 BCE, and a century and a half later the empire has the place on paper. Pliny lists <b>Gophna</b> — Jifnā, about seven kilometres due north of the ridge — among the ten toparchies of Judaea; Josephus calls it <b>“the second of those cities”</b> after Jerusalem itself{}.'.format(c('Pliny, <i>Naturalis Historia</i> V.70; Josephus, <i>Bellum Judaicum</i> III.54–55; also IV.551 (Vespasian takes the toparchy, 68 CE), V.50 and VI.115.')),
  f"""
 {fig(ATLAS.fig_roman(),'The district when Rome wrote it down',
- 'Ramallah’s neighbours in the Roman and Byzantine record, with the imperial road that runs the length of this ridge. Every green dot is named in a surviving text. The gold circle is the site of Ramallah — named in none of them, and in none at all until 1279.',
+ 'Ramallah’s neighbours in the Roman and Byzantine record, with the imperial road that runs the length of this ridge. Every green dot is named in a surviving text. The gold circle is the site of Ramallah — named in none of them, and in none at all until 1186.',
  'Pliny, NH V.70; Josephus, BJ III.54–55; Eusebius, Onomasticon; the Madaba mosaic; Tappy, NEA 75 (2012); al-Houdalieh on Khirbet et-Tireh.')}
 <p>The hills the family would one day reach were not a wilderness. They were an imperial district
 with a paved highway down the middle — the road from Aelia Capitolina to Neapolis, milestoned and
@@ -3007,9 +3007,14 @@ span.w2{background:#004A26;color:#F3ECDD;padding:2px 7px;border-radius:3px;
 
 .byline{margin:8px 0 0;font-size:1.06rem;letter-spacing:.05em;color:#1A1A1A}
 .front{margin:22px 0 4px;max-width:44em}
-figure.photo{margin:18px 0 26px}
-figure.photo img{display:block;width:100%;max-width:820px;height:auto;border-radius:4px;background:#EEE9DF}
-figure.photo figcaption{max-width:820px}
+figure.photo{margin:24px 0 30px;padding:14px 14px 0}
+figure.photo::before{content:"Photograph";display:flex;align-items:center;gap:10px;color:#9A6324;
+  font:700 10px/1 "Times New Roman",Times,serif;letter-spacing:.26em;text-transform:uppercase;margin:0 4px 10px}
+figure.photo img{display:block;width:100%;max-width:820px;height:auto;border-radius:0;
+  border:1px solid #007A3D;padding:5px;background:#FFFFFF;box-sizing:border-box;
+  filter:grayscale(.2) sepia(.12) contrast(1.03)}
+figure.photo figcaption{max-width:820px;padding:10px 4px 14px;font-style:italic}
+figure.photo figcaption .src{font-style:normal}
 .front h3{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#8A6A2E;margin:22px 0 6px}
 .front .ded{font-style:italic;font-size:1.05rem;line-height:1.6;margin:0}
 .front p{line-height:1.6;margin:0 0 10px}
@@ -3031,14 +3036,22 @@ figure.photo figcaption{max-width:820px}
 .contents .cend a{display:inline;border:0;color:#004A26}
 @media(max-width:760px){.contents ol{grid-template-columns:1fr}.contents .cnum{flex-basis:5em}}
 
-figure{margin:26px 0;padding:0;border:1px solid #DCD6C9;border-radius:6px;background:#FCFBF8;overflow:hidden}
-.fignum{background:#F6F3EC;color:#B98A4E;font:10px/1 "Times New Roman",Times,serif;
-  font-weight:700;letter-spacing:.24em;text-transform:uppercase;padding:10px 18px 8px;border-bottom:1px solid #EFEBE2}
-.figtitle{font-size:1.06rem;font-weight:700;padding:12px 18px 0}
-.figwrap{padding:6px 12px 4px}
+/* v61: every figure and photograph takes the family tree book's plate:
+   white paper, a green double rule above, a thin green rule below, an ochre
+   figure number on a green diamond rule, Times throughout. */
+figure{margin:30px 0;padding:0;border:0;border-top:3px double #007A3D;border-bottom:1px solid #007A3D;
+  border-radius:0;background:#FFFFFF;overflow:hidden;font-family:"Times New Roman",Times,serif}
+.fignum{display:flex;align-items:center;gap:10px;background:none;color:#9A6324;
+  font:700 10px/1 "Times New Roman",Times,serif;letter-spacing:.26em;text-transform:uppercase;
+  padding:12px 18px 6px;border:0}
+.fignum::before{content:"";flex:0 0 7px;height:7px;background:#007A3D;transform:rotate(45deg)}
+.fignum::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,#9A6324,rgba(154,99,36,0))}
+.figtitle{font-size:1.1rem;font-weight:700;padding:6px 18px 0;color:#1A1915}
+.figwrap{padding:8px 12px 4px}
 .figwrap svg{display:block;width:100%;height:auto}
-figcaption{padding:6px 18px 16px;color:#46423B;font-size:.92rem;line-height:1.55;max-width:none}
-figcaption .src{display:block;margin-top:7px;color:#9A958C;font-size:.82rem;font-style:italic}
+figcaption{padding:6px 18px 16px;color:#3D3A35;font-size:.92rem;line-height:1.55;max-width:none}
+figcaption .src{display:block;margin-top:8px;padding-top:7px;border-top:1px solid #E9D7BD;
+  color:#9A6324;font-size:.8rem;font-style:italic}
 
 blockquote{margin:22px 0;padding:18px 22px;background:#fff;border:1px solid #DCD6C9;
   border-left:3px solid #007A3D;border-radius:4px;font-size:1.05rem;max-width:40em}
@@ -3124,7 +3137,7 @@ footer.end{border-top:1px solid #DCD6C9;margin-top:70px;padding:26px 0 90px;colo
   .figwrap{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;
     overscroll-behavior-x:contain;padding:6px 0 12px}
   .figwrap svg{width:720px;min-width:720px;max-width:none;height:auto}
-  .fignum::after{content:" · swipe the plate →";letter-spacing:.12em;color:#9A958C}
+  .fignum::after{content:"swipe the plate →";flex:1;height:auto;background:none;text-align:right;letter-spacing:.12em;color:#8F8A80}
   .ntwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
   table.ntable{min-width:580px}
   .entry{content-visibility:auto;contain-intrinsic-size:auto 620px}
@@ -3495,6 +3508,8 @@ html = ('<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
         '<title>The Roots of Ramallah: A History of Its People</title>'
         '<style>' + CSS + '</style></head><body>' + ''.join(html_parts) + '</body></html>')
 
+from restyle import restyle
+html = restyle(html)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 open(OUT, 'w', encoding='utf-8', newline='\n').write(html)
 print('WROTE', OUT, f'{len(html):,} bytes ·', FIGN[0], 'figures ·', len(CITES), 'notes')

@@ -437,7 +437,7 @@ class Flat:
 def fig_roman():
     W, H = 860, 540
     s = _plate(W, H, 'THE DISTRICT WHEN ROME WROTE IT DOWN',
-               'Every green dot is a place named in a surviving classical text. The gold ring is the site of Ramallah — named in none of them, and in nothing at all until 1279.',
+               'Every green dot is a place named in a surviving classical text. The gold ring is the site of Ramallah — named in none of them, and in nothing at all until 1186.',
                'Atlas map of the Roman and Byzantine district around Ramallah')
     M = Sheet(*fit_box(34.88, 35.62, 31.62, 32.18, 772, 372), 44, 78, 772, 372)
     M.base(s, '10m'); M.graticule(s, 0.25, 0.25); M.close(s)
