@@ -3250,10 +3250,8 @@ def photos_for(num):
 # entries that use them. Files are web copies in img/sources/.
 SOURCE_PAGES = [
  ('THE NAME APPEARS', 'srcpage', 'sources/strehlke_1869_p18_no20.jpg',
-  'The charter of 7 March 1186 as its editor printed it in 1869, with <i>qua vaditur Ramelie</i>, “by which one goes to Ramallah”, boxed. '
-  'The editor’s note at the foot raises a doubt this book has not yet discussed. Guy, he writes, was crowned only in August 1186, and “the whole charter seems spurious, also because of its unusual opening and ending”. '
-  'Even so, as Shaheen says of the forged document of 1198, a forger could only use a name that people already knew.',
-  'Ernst Strehlke, ed., <i>Tabulae Ordinis Theutonici</i> (Berlin, 1869), p. 18, no. 20, with the editor’s note: <i>Guido rex coronatus est demum 1186 augusto mense … Caeterum totum hoc diploma spurium videtur etiam ob inusitatos initium et exitum</i>. Public domain.'),
+  'The charter of 7 March 1186 as Strehlke printed it in 1869, with <i>qua vaditur Ramelie</i>, “by which one goes to Ramallah”, boxed. This is the first time the name is written down.',
+  'Ernst Strehlke, ed., <i>Tabulae Ordinis Theutonici</i> (Berlin, 1869), p. 18, no. 20. Public domain.'),
  ('THE NAME APPEARS', 'period', 'period/vesconte_c1320.jpg',
   'The Holy Land on the grid map Pietro Vesconte drew for Marino Sanudo’s crusade plan about 1320. This is the world in which the Mamluk endowment of 1279 already named Rām Allāh.',
   'After Pietro Vesconte, for Marino Sanudo, <i>Liber secretorum fidelium crucis</i> (c. 1320), in the engraved copy printed by Jacques Bongars, <i>Gesta Dei per Francos</i> II (Hanau, 1611). Public domain.'),

@@ -310,25 +310,18 @@ Ranked by size. Each has a named source, several already on the shelf and uncite
 - **The memorial to the first family.** Where does the bronze group stand,
   who made it and when, and who made the pencil drawing used on both covers?
   The captions say only what the pictures show until this is known.
-- **Guérin's population for Ramallah.** His *Samarie* II (1875), p. 40, for
-  his visit of 25 May 1870, says "environ deux mille habitants", about 2,000.
-  The book credits Guérin with about 1,100 in three places: the population
-  chart's note, the census table (1870 row) and the reconstruction chart. If
-  the 1,100 comes from another Guérin volume (his 1863 visit, *Judée* III),
-  cite it; if not, correct it in a FIX box. Not changed yet.
+- **Guérin's population for Ramallah: decided, no change.** His *Samarie* II
+  p. 40 says about 2,000; the book keeps its figures. David, 7 Nov 2026: "those
+  sources also have issues."
 - **Permission for two modern pages.** The page from Shāhīn's *Kashf
   al-niqāb* (1982; Birzeit scan) and the page from Işık's 2015 edition of the
   1562 register (Tapu ve Kadastro, Ankara) are reproduced as short quotations
   for commentary. Ask the Shāhīn family and TKGM, or replace with the
   Ottoman folio itself, before print.
-- **Strehlke doubts the 1186 charter.** His note on p. 18, no. 20, says Guy
-  was crowned only in August 1186 and "totum hoc diploma spurium videtur"
-  (the whole charter seems spurious), citing its unusual opening and ending.
-  The book's text presents the charter as genuine. The new caption quotes the
-  note, but the entry itself is unchanged. Decide whether to add a FIX box, and
-  check later scholarship (Mayer; Hiestand's *Die Urkunden der lateinischen
-  Könige von Jerusalem*, 2010) for a verdict. The 1279 endowment stands
-  either way.
+- **Strehlke's note on the 1186 charter: decided, no change.** His footnote
+  (p. 18, no. 20) calls the charter possibly spurious. David declined a FIX box
+  on 7 Nov 2026 ("those sources also have issues"), so the caption no longer
+  quotes the note and the entry stands as written.
 - **Pictures held back.** These were downloaded but not used:
   - the Underwood bride card ("Copyright 1900"), whose caption says only
     "Palestine" and which may be the same scene as Shaheen p. 202;
