@@ -310,3 +310,14 @@ Ranked by size. Each has a named source, several already on the shelf and uncite
 - **The memorial to the first family.** Where does the bronze group stand,
   who made it and when, and who made the pencil drawing used on both covers?
   The captions say only what the pictures show until this is known.
+- **Guérin's population for Ramallah.** His *Samarie* II (1875), p. 40, for
+  his visit of 25 May 1870, says "environ deux mille habitants", about 2,000.
+  The book credits Guérin with about 1,100 in three places: the population
+  chart's note, the census table (1870 row) and the reconstruction chart. If
+  the 1,100 comes from another Guérin volume (his 1863 visit, *Judée* III),
+  cite it; if not, correct it in a FIX box. Not changed yet.
+- **Permission for two modern pages.** The page from Shāhīn's *Kashf
+  al-niqāb* (1982; Birzeit scan) and the page from Işık's 2015 edition of the
+  1562 register (Tapu ve Kadastro, Ankara) are reproduced as short quotations
+  for commentary. Ask the Shāhīn family and TKGM, or replace with the
+  Ottoman folio itself, before print.

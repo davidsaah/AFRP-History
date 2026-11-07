@@ -56,6 +56,23 @@ match the Ramallah Family Tree book.
 - **One fix.** The atlas plate "The district when Rome wrote it down" and its
   caption still said Ramallah was named nowhere "until 1279". v60 moved the
   first naming to 1186, so both now say 1186.
+- **Pages from the sources themselves.** Eight pages and plates now sit inside
+  the entries that cite them, under a "From the source" label, each with a
+  translation of the lines that matter:
+  - ʿAzīz Shāhīn's Arabic account of the founding, *Kashf al-niqāb* (1982),
+    p. 10 → "What the family remembers";
+  - the 1562 endowment register, Işık's 2015 edition p. 73, with the two
+    Ramallah entries boxed (the village, and the 71 Christians) → the 1561–62
+    settlement;
+  - Robinson at Jifnā, 13 June 1838 → the 1834 revolt;
+  - Guérin at Ramallah, 25 May 1870, in French with the Arabic name → the 1850
+    church;
+  - Seetzen's German of 1806 ("a considerable village, inhabited mostly by
+    Greek Christians") → "How the town actually lived";
+  - two plates from Grant's *Peasantry of Palestine* (1907): the walled lane
+    into the town, and the Friends schools → the Grant entry;
+  - the first issue of Boulos Shehadeh's *Mirʾāt al-Sharq*, 17 September 1919
+    → "The people this town produced".
 
 ## v60 — 7 November 2026
 
