@@ -3038,6 +3038,11 @@ span.w2{background:#004A26;color:#F3ECDD;padding:2px 7px;border-radius:3px;
 .ewhen .w2.sh{background:#F6EEDF;color:#7A5A28;border:1px solid #E0CFAE}
 
 .erahead{position:relative;z-index:2;margin:84px 0 48px}
+.partband{position:relative;z-index:2;margin:110px 0 0;padding:44px 0 18px;text-align:center;border-top:4px double #007a3d}
+.partband .pk{font-size:.7rem;letter-spacing:.32em;color:#9a6324;font-weight:700;text-transform:uppercase}
+.partband h2{margin:8px 0 0;font-size:2.4rem;color:#004A26;letter-spacing:-.01em}
+.partband+.erahead{margin-top:28px}
+@media print{.partband{break-before:page}}
 .erahead .eraband{margin:0}
 .erahead:first-child{margin-top:0}
 .linkat{margin:0;padding:16px 34px 18px;background:#FCFBF8;
@@ -3371,6 +3376,102 @@ for key, kind, fn, cap, src in SOURCE_PAGES:
     i = hits[0]
     E[i] = E[i][:7] + (E[i][7] + _srcfig(kind, fn, cap, src),) + E[i][8:]
 
+# ---------------------------------------------------------------------------
+# v63: David chose "story first, evidence second" (7 Nov 2026).
+# Part One tells the story in date order; Part Two, "How we know", holds the
+# tests and the arguments over the sources. Entries are moved, not reworded:
+# each is matched by the start of its title and filed under its new chapter
+# in the order given here. The old era signposts are dropped.
+# ---------------------------------------------------------------------------
+_OLD_CHAPTERS = CHAPTERS
+CHAPTERS = [
+ (1,'CHAPTER ONE','The land before us &middot; to 1200 BC',
+  'How the world began, as scripture tells it, and what the ground of these hills shows: the first people, the first villages and the terraces still farmed today.'),
+ (2,'CHAPTER TWO','Kingdoms and empires on the ridge &middot; 1200 BC – AD 324',
+  'Neighbours, kingdoms and empires come and go. The people of the hills stay, and Rome builds the road that runs past the future town.'),
+ (3,'CHAPTER THREE','Ghassān and a Christian countryside &middot; AD 250–1099',
+  'The tribe our family remembers comes north, and the hills become Christian and stay so through the Arab conquest.'),
+ (4,'CHAPTER FOUR','Crusaders and Mamluks, and the name appears &middot; 1099–1517',
+  'Rulers change around villages that stay put, and in 1186 the name Rām Allāh is written down for the first time.'),
+ (5,'CHAPTER FIVE','From Karak to Ramallah &middot; about 1500–1562',
+  'Rāshid al-Ḥaddādīn and his family, the road from Karak by way of Bayt Jālā, and the agreement of 1561 that settled them on this hill.'),
+ (6,'CHAPTER SIX','The founding families &middot; 1562–1834',
+  'The five sons become the clans, the parish proves itself in writing, newcomers arrive, and the town survives feuds and a revolt.'),
+ (7,'CHAPTER SEVEN','Churches, schools and village life &middot; 1834–1900',
+  'A new church, new schools, the first doctor, and how the town lived, worked and kept its feasts.'),
+ (8,'CHAPTER EIGHT','Emigration and the Mandate &middot; 1901–1947',
+  'The first families sail for America, Ramallah becomes a town with a council, and war, typhus, revolt and elections follow.'),
+ (9,'CHAPTER NINE','1948 and after &middot; 1948–1967',
+  'The refugees of Lydda and Ramle arrive, the town takes them in, and the camps are built around it.'),
+ (10,'CHAPTER TEN','The diaspora and the city today &middot; 1954 to now',
+  'Ramallah’s people write their history, found the Federation, and build a city from both sides of an ocean.'),
+ (11,'HOW WE KNOW · I','The Ghassān story, tested',
+  'The evidence behind chapter three: what the dam can and cannot explain, and what kind of rulers the Ghassanids were.'),
+ (12,'HOW WE KNOW · II','The missing centuries',
+  'The evidence behind chapters three to five: the long stretch in which the land is documented and our own line is not.'),
+ (13,'HOW WE KNOW · III','Karak, the charts and the registers',
+  'The evidence behind chapter five: the Karak traditions, the family charts, the names in the registers, and two false leads.'),
+ (14,'HOW WE KNOW · IV','What is proven',
+  'Three claims, weighed on everything above, and the key dates on one page.'),
+]
+PARTS = {1: ('Part One', 'The Story of Ramallah'), 11: ('Part Two', 'How We Know')}
+_ORDER = {
+ 1: ['Adam and Eve', 'The three Bibles', 'Joktan', 'What this land is made of', 'The Natufians', 'Jericho',
+     'The first villages', 'The Canaanite population', 'THE TERRACES', 'THE AMARNA LETTERS'],
+ 2: ['WHO WAS ON THIS RIDGE', 'THE BIBLE IS A MAP', 'The neighbours', 'Assyria writes', 'The great dam',
+     'Six sovereigns', 'The Samaritans', 'Rome writes', '“A city called Ephraim', 'THE ROADS HE USED',
+     'AND WHAT THIS RIDGE', 'AND AFTER'],
+ 3: ['THE NAME, IN STONE', 'A MAN WALKED', 'The name in the water', 'The hills become Christian', 'THE DAM BREAKS',
+     'Amorkesos', 'Al-Ḥārith ibn Jabala', 'The scattering', 'The silence starts later', 'WHAT THEY LEFT',
+     'THE TOWNS DO NOT DIE', 'Yarmūk', 'Marj Rāhiṭ', 'al-Yaʿqūbī', 'A village church'],
+ 4: ['Magna Mahumeria', 'THE NAME APPEARS', 'The ridge and the plateau', 'ONE CHRISTIAN'],
+ 5: ['Rāshid al-Ḥaddādīn', 'WHAT THE FAMILY REMEMBERS', 'KARAK WAS A CHRISTIAN TOWN', 'The registers begin',
+     'THE PEOPLE OF RAMALLAH SPEAK', 'THE CHRISTIAN SETTLEMENT'],
+ 6: ['The five sons', 'The parish proves itself', 'The influx begins', 'Feuds, a Pasha', 'THE PEASANTS’ REVOLT'],
+ 7: ['The present Greek Orthodox church', 'The town acquires', 'How the town actually lived', 'The festivals',
+     'The first doctor', 'What a day was worth', 'THE TWIN TOWN'],
+ 8: ['The first four sail', 'AN OUTSIDER WRITES', 'The state arrives', 'THE PATRIARCHATE', 'The last big fight',
+     'The war, the locusts', 'The counting years', 'THE REVOLT REACHES', 'THE TOWN VOTES'],
+ 9: ['The catastrophe', 'AND WHERE THEY LIVED', 'The diaspora builds'],
+ 10: ['The town’s first history', 'The Federation', 'The city, counted', 'Shāhīn closes', 'The people this town produced'],
+ 11: ['THE DAM CANNOT', 'WERE THE GHASSANIDS'],
+ 12: ['GENERATION 35', 'GHASSĀN IS STILL THERE', 'THE WORD UNDERNEATH', 'AND THE MAN WHO SHOULD', 'THE TRADITION HAS',
+      'WHAT THE OTHER ARCHIVE', 'FIVE SEARCHES', 'THE INTERVAL', 'THE VOID IS NOT'],
+ 13: ['THE REGISTERS DO GIVE NAMES', 'MUSIL ASKED', 'WHO WAS RĀSHID', 'THE KARAK CHART', 'When the Ḥaddādīn name',
+      'Two false leads'],
+ 14: ['Our origins', 'Our contribution', 'The founding of Ramallah'],
+}
+def _restructure():
+    ents = [e for e in E if e[0] == 'e']
+    title = lambda e: re.sub(r'<[^>]+>', '', e[5])
+    used, new = set(), []
+    for ch, keys in _ORDER.items():
+        for k in keys:
+            hits = [i for i, e in enumerate(ents) if title(e).startswith(k) and i not in used]
+            assert len(hits) == 1, (ch, k, len(hits))
+            used.add(hits[0]); e = ents[hits[0]]
+            new.append(('e', ch) + tuple(e[2:]))
+    missing = [title(e) for i, e in enumerate(ents) if i not in used]
+    assert not missing, missing
+    E[:] = new
+_restructure()
+LINKAT = {n: LINKAT[o] for n, o in ((1, 1), (2, 6), (3, 7), (4, 9), (5, 11), (6, 12), (8, 13), (12, 10))}
+def _regroup(d, plan):
+    assert set(d) <= set(plan), set(d) - set(plan)
+    out = {}
+    for old, targets in plan.items():
+        items = d.get(old, [])
+        if isinstance(targets, int):
+            targets = [targets] * len(items)
+        assert len(targets) == len(items), (old, len(items))
+        for it, n in zip(items, targets):
+            out.setdefault(n, []).append(it)
+    return out
+PHOTOS = _regroup(PHOTOS, {1: 1, 2: 1, 3: 2, 4: 2, 5: 2, 6: 2, 7: 3, 8: 3, 9: 4, 10: 5, 11: 5, 12: 7, 13: 8})
+LOCAL_PHOTOS = _regroup(LOCAL_PHOTOS, {12: 5, 13: 8})
+SHAHEEN = _regroup(SHAHEEN, {9: 4, 11: 5, 12: [5, 6, 7, 7, 7, 7], 13: [8, 8, 8, 8, 8, 9, 9, 10, 10]})
+
+
 def render():
     out = []
     for num, kicker, title_c, sub_c in CHAPTERS:
@@ -3379,6 +3480,9 @@ def render():
             continue
         band = (f'<div class="eraband"><div class="ek">{kicker}</div>'
                 f'<h2>{title_c}</h2><div class="es">{sub_c}</div></div>')
+        if num in PARTS:
+            pk, pt = PARTS[num]
+            out.append(f'<div class="partband" id="part{num}"><div class="pk">{pk}</div><h2>{pt}</h2></div>')
         out.append(f'<div class="erahead" id="ch{num}">{band}{linkat(num)}</div>')
         out.append(photos_for(num))
         for e in grp:
@@ -3403,7 +3507,7 @@ def render():
                 f'<div class="ebody"><h3>{title}</h3><div class="note">{note}</div>{more}</div></div>')
     return ''.join(out)
 
-CONTENTS = ('<div class="contents"><h4>The eras &mdash; one chapter each</h4><ol>' + ''.join(
+CONTENTS = ('<div class="contents"><h4>Contents</h4><ol>' + ''.join(
     f'<li><a href="#ch{n}"><span class="cnum">{k.replace("ERA ","").strip().title()}</span>'
     f'<span class="ctit">{t.split("&middot;")[0].strip()}'
     + (f'<span class="cgen">{t.split("&middot;")[1].strip()}</span>' if "&middot;" in t else '')
