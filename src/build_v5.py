@@ -3078,6 +3078,10 @@ figure.photo.period::before{content:"From the period"}
 .front p{line-height:1.6;margin:0 0 10px}
 .credit{margin:6px 0 0;font-size:.86rem;line-height:1.5;color:#77726A;max-width:44em}
 .credit b{color:#46423B}
+.partband{margin:56px 0 8px;padding:30px 0 22px;text-align:center;border-top:3px double #007A3D;border-bottom:1px solid #007A3D}
+.partband h1{margin:0;font:700 30px/1.15 "Times New Roman",Times,serif;color:#004A26;letter-spacing:.02em}
+.partband .pk{margin-top:8px;font:700 11px/1 "Times New Roman",Times,serif;letter-spacing:.24em;text-transform:uppercase;color:#A85210}
+@media print{.partband{break-before:page}}
 .contents{margin:26px 0 0;padding:20px 24px 16px;background:#FCFBF8;border:1px solid #DCD6C9;border-radius:6px}
 .contents h4{margin:0 0 12px;font:700 10.5px/1 "Times New Roman",Times,serif;letter-spacing:.22em;
   text-transform:uppercase;color:#B98A4E}
@@ -3358,17 +3362,125 @@ def _srcfig(kind, fn, cap, src):
             f'<figcaption>{cap}<span class="src">{src}</span></figcaption></figure>')
 
 for key, kind, fn, cap, src in SOURCE_PAGES:
-    hits = [i for i, e in enumerate(E) if e[0] == 'e' and e[5].startswith(key)]
+    hits = [i for i, e in enumerate(E) if e[0] == 'e' and re.sub(r'<[^>]+>', '', e[5]).casefold().startswith(key.casefold())]
     assert len(hits) == 1, (key, hits)
     i = hits[0]
     E[i] = E[i][:7] + (E[i][7] + _srcfig(kind, fn, cap, src),) + E[i][8:]
 
+
+# ─────────────────────────── v62: the story first, the evidence second
+# The entries above are written in the order they were researched. From v62 the
+# book is read in two parts: Part One tells the story of Ramallah from the
+# beginning to today, in date order; Part Two, "How we know", gathers the
+# entries that weigh the evidence. Each new chapter below lists its entries, in
+# reading order, by the start of their titles. Every entry must be placed once.
+PART_ONE, PART_TWO = 'PART ONE · THE STORY OF RAMALLAH', 'PART TWO · HOW WE KNOW'
+NEW_CHAPTERS = [
+ (1, PART_ONE, 'CHAPTER 1', 'The land before us &middot; to 800 BC',
+  'Where our story begins: the two accounts of the beginning that the family was taught, and what the ground of this governorate shows, from the first villages to the hill towns of the Bible.',
+  ['Adam and Eve', 'The three Bibles disagree', 'Joktan’s thirteen sons', 'The Natufians', 'Jericho: a town',
+   'What this land is made of', 'The first villages of this district', 'The Canaanite population',
+   'THE TERRACES', 'THE AMARNA LETTERS', 'WHO WAS ON THIS RIDGE', 'THE BIBLE IS A MAP', 'The neighbours: Philistines']),
+ (2, PART_ONE, 'CHAPTER 2', 'Empires on the ridge &middot; 800 BC – AD 324',
+  'Assyria, Persia, the Greeks and Rome rule these hills in turn, and the villages stay where they are. Far to the south the great dam of Maʾrib is built, and the name Ghassān is first carved in stone.',
+  ['Assyria writes this landscape down', 'The great dam of Maʾrib', 'Six sovereigns over one ridge',
+   'The Samaritans', 'Rome writes the district down', 'THE ROADS HE USED', '“A city called Ephraim',
+   'AND WHAT THIS RIDGE WAS DOING', 'AND AFTER', 'THE NAME, IN STONE', 'A MAN WALKED THIS ROAD',
+   'The name in the water']),
+ (3, PART_ONE, 'CHAPTER 3', 'A Christian countryside, and the Ghassān story &middot; 324–1099',
+  'The hills become Christian and stay that way. On the desert frontier the Ghassanid princes rise and scatter; the Islamic conquest changes the rulers but not the villages.',
+  ['The hills become Christian', 'THE DAM BREAKS', 'Amorkesos signs', 'Al-Ḥārith ibn Jabala',
+   'The scattering', 'The silence starts later', 'WHAT THEY LEFT', 'Yarmūk', 'Marj Rāhiṭ',
+   'THE TOWNS DO NOT DIE', 'al-Yaʿqūbī finds Ghassān', 'A village church is rebuilt']),
+ (4, PART_ONE, 'CHAPTER 4', 'Crusaders and Mamluks: the name appears &middot; 1099–1517',
+  'Franks, Ayyubids and Mamluks hold the land in turn. In 1186 the name Rām Allāh is written down for the first time, nearly four centuries before our families came to live on the hill.',
+  ['Magna Mahumeria', 'THE NAME APPEARS', 'The ridge and the plateau stay Christian', 'ONE CHRISTIAN, ONE DEBT']),
+ (5, PART_ONE, 'CHAPTER 5', 'Karak, Bayt Jālā and the road to Ramallah &middot; 1517–1562',
+  'The Ottoman state begins to count every household, and for the first time our own ancestors are inside a document. The family remembers how they came; the registers show when.',
+  ['Rāshid al-Ḥaddādīn', 'The registers begin', 'WHAT THE FAMILY REMEMBERS', 'THE PEOPLE OF RAMALLAH SPEAK',
+   'THE CHRISTIAN SETTLEMENT', 'THE REGISTERS DO GIVE NAMES']),
+ (6, PART_ONE, 'CHAPTER 6', 'The founding families &middot; 1562–1834',
+  'Five sons, eight clans and a parish: three centuries in which a farming village on the ridge becomes a town of its own.',
+  ['The five sons, the eight clans', 'The parish proves itself', 'The influx begins', 'Feuds, a Pasha',
+   'THE PEASANTS’ REVOLT']),
+ (7, PART_ONE, 'CHAPTER 7', 'Churches, schools and the wider world &middot; 1834–1900',
+  'New churches and schools, the first doctor, and the everyday life of the town before the first emigrants sailed.',
+  ['The present Greek Orthodox church', 'The town acquires its churches', 'How the town actually lived',
+   'The festivals', 'The first doctor', 'THE TWIN TOWN', 'What a day was worth']),
+ (8, PART_ONE, 'CHAPTER 8', 'Emigration and the Mandate &middot; 1901–1947',
+  'The first emigrants sail, the town becomes a municipality, war and epidemic strike, the British count everything, and in 1946 the town votes by clan.',
+  ['The first four sail', 'AN OUTSIDER WRITES THE TOWN DOWN', 'The state arrives', 'THE PATRIARCHATE COUNTS',
+   'The last big fight', 'The war, the locusts', 'The counting years', 'THE REVOLT REACHES THE TOWN',
+   'THE TOWN VOTES']),
+ (9, PART_ONE, 'CHAPTER 9', '1948 and after &middot; 1948–1967',
+  'The catastrophe of 1948 triples the town. The refugees settle in four camps, the emigrants build a hospital, and the Federation is founded in America.',
+  ['The catastrophe', 'AND WHERE THEY LIVED', 'The diaspora builds the town a hospital',
+   'The town’s first history is written', 'The Federation']),
+ (10, PART_ONE, 'CHAPTER 10', 'Ramallah today &middot; 1967 to now',
+  'The people the town produced, the city counted to the present, and the last of the old historians.',
+  ['The people this town produced', 'The city, counted to the present', 'Shāhīn closes the record']),
+ (11, PART_TWO, 'HOW WE KNOW · 1', 'The Ghassān tradition, tested',
+  'The family tradition says we descend from Ghassān. These entries test the two hardest questions about it.',
+  ['THE DAM CANNOT HAVE SENT THEM NORTH', 'WERE THE GHASSANIDS SOVEREIGN?']),
+ (12, PART_TWO, 'HOW WE KNOW · 2', 'The missing centuries',
+  'Between the Ghassanid princes and Rāshid there are about thirty generations and only one name. These entries measure that gap honestly rather than filling it.',
+  ['GENERATION 35 IS THIRTY-ONE GENERATIONS', 'GHASSĀN IS STILL THERE IN 1400', 'THE WORD UNDERNEATH',
+   'AND THE MAN WHO SHOULD HAVE KNOWN', 'THE TRADITION HAS ITS OWN WORD', 'WHAT THE OTHER ARCHIVE CALLS THEM',
+   'FIVE SEARCHES AND WHAT THEY ACTUALLY PROVE', 'THE INTERVAL NOBODY MEASURED', 'THE VOID IS NOT THIS FAMILY’S FAILURE']),
+ (13, PART_TWO, 'HOW WE KNOW · 3', 'Karak and the Ḥaddādīn',
+  'What the registers and the travellers say about the Ḥaddādīn of al-Karak, and how the two family traditions compare.',
+  ['KARAK WAS A CHRISTIAN TOWN', 'MUSIL ASKED THEM HIMSELF', 'WHO WAS RĀSHID’S FATHER?',
+   'THE KARAK CHART, READ PROPERLY', 'When the Ḥaddādīn name actually enters', 'Two false leads']),
+ (14, PART_TWO, 'HOW WE KNOW · 4', 'What is proven',
+  'Three claims, weighed on everything in this book, and the key dates on one page.',
+  ['Our origins', 'Our contribution to the Palestinian people', 'The founding of Ramallah']),
+]
+_plain = lambda t: re.sub(r'<[^>]+>', '', t).strip()
+_old = [e for e in E if e[0] == 'e']
+_placed, _newE = set(), []
+for _n, _part, _k, _t, _s, _keys in NEW_CHAPTERS:
+    for _key in _keys:
+        _hits = [i for i, e in enumerate(_old) if _plain(e[5]).casefold().startswith(_key.casefold())]
+        assert len(_hits) == 1, ('v62 placement', _key, _hits)
+        assert _hits[0] not in _placed, ('placed twice', _key)
+        _placed.add(_hits[0])
+        _newE.append(('e', _n) + _old[_hits[0]][2:])
+_left = [_plain(e[5])[:60] for i, e in enumerate(_old) if i not in _placed]
+assert not _left, ('v62: entries not placed', _left)
+E[:] = _newE
+CHAPTERS = [(n, k, t, s) for n, _p, k, t, s, _keys in NEW_CHAPTERS]
+PART_OF = {n: p for n, p, *_ in NEW_CHAPTERS}
+
+# where our own line stands as each chapter opens (keys are the old era numbers)
+LINKAT = {new: LINKAT[old] for new, old in
+          {1: 1, 2: 4, 3: 7, 4: 9, 5: 11, 6: 12, 7: 12, 8: 13, 9: 13, 10: 13, 12: 10}.items()}
+
+# the photographs follow their period into the new chapters
+def _regroup(d, where):
+    out = {}
+    for old, items in d.items():
+        for it in items:
+            new = where(old, it)
+            out.setdefault(new, []).append(it)
+    return out
+_ERA = {1: 1, 2: 1, 3: 1, 4: 2, 5: 2, 6: 2, 7: 3, 8: 3, 9: 4, 10: 12, 11: 5, 12: 7, 13: 8}
+_BYFILE = {'p012_1.jpg': 5, 'p038_1.jpg': 6, 'p185_1.jpg': 9, 'p228_1.jpg': 9, 'p161_3.jpg': 10, 'p162_2.jpg': 10,
+           'memorial_bronze.jpg': 5}
+PHOTOS = _regroup(PHOTOS, lambda old, it: _ERA[old])
+LOCAL_PHOTOS = _regroup(LOCAL_PHOTOS, lambda old, it: _BYFILE.get(it[0], _ERA[old]))
+SHAHEEN = _regroup(SHAHEEN, lambda old, it: _BYFILE.get(it[0], _ERA[old]))
+
 def render():
     out = []
+    _cur_part = [None]
     for num, kicker, title_c, sub_c in CHAPTERS:
         grp = [e for e in E if e[1] == num]
         if not grp:
             continue
+        if PART_OF.get(num) != _cur_part[0]:
+            _cur_part[0] = PART_OF.get(num)
+            out.append(f'<div class="partband" id="part{1 if _cur_part[0] == PART_ONE else 2}"><h1>{_cur_part[0].split(" · ")[1].title()}</h1>'
+                       f'<div class="pk">{_cur_part[0].split(" · ")[0].title()}</div></div>')
         band = (f'<div class="eraband"><div class="ek">{kicker}</div>'
                 f'<h2>{title_c}</h2><div class="es">{sub_c}</div></div>')
         out.append(f'<div class="erahead" id="ch{num}">{band}{linkat(num)}</div>')
@@ -3395,12 +3507,15 @@ def render():
                 f'<div class="ebody"><h3>{title}</h3><div class="note">{note}</div>{more}</div></div>')
     return ''.join(out)
 
-CONTENTS = ('<div class="contents"><h4>The eras &mdash; one chapter each</h4><ol>' + ''.join(
-    f'<li><a href="#ch{n}"><span class="cnum">{k.replace("ERA ","").strip().title()}</span>'
+def _toc(part):
+    return ''.join(
+    f'<li><a href="#ch{n}"><span class="cnum">{k.split("·")[-1].strip().title()}</span>'
     f'<span class="ctit">{t.split("&middot;")[0].strip()}'
     + (f'<span class="cgen">{t.split("&middot;")[1].strip()}</span>' if "&middot;" in t else '')
     + '</span></a></li>'
-    for n, k, t, _sub in CHAPTERS) +
+    for n, k, t, _sub in CHAPTERS if PART_OF[n] == part)
+CONTENTS = ('<div class="contents"><h4>Part One &mdash; The Story of Ramallah</h4><ol>' + _toc(PART_ONE) +
+    '</ol><h4 style="margin-top:16px">Part Two &mdash; How We Know</h4><ol>' + _toc(PART_TWO) +
     '</ol><p class="cend"><a href="#appA">Appendix &middot; The Annotated Bibliography</a> &nbsp;&middot;&nbsp; '
     '<a href="#appC">John Mogannam&rsquo;s Chart</a> &nbsp;&middot;&nbsp; '
     '<a href="#appB">The Test Harness &mdash; thirty-six claims</a></p></div>')
