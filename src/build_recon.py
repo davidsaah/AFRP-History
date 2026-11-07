@@ -487,14 +487,14 @@ def fig_households():
     data = [(1525, 0, 0, 'uninhabited — waqf land of the Ibrāhīmī endowment'),
             (1538, 0, 4, 'four Muslim households'),
             (1553, 0, 6, 'six Muslim households; the Kasābra counted at Bayt Jālā'),
-            (1562, 37, 10, 'the Christians arrive from Bayt Jālā'),
+            (1562, 64, 10, 'the Christians arrive from Bayt Jālā'),
             (1596, 71, 9, 'eighty households, seventy-one Christian')]
     x0, y0, plotw, ploth = 100, 76, 480, 150
     mx = 84
     s = [f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Households at Ramallah in the Ottoman registers, 1525 to 1596">']
     s.append(f'<rect width="{W}" height="{H}" fill="{SURF}"/>')
     s.append(txt(40, 34, 'WHAT THE REGISTERS ACTUALLY SAY — HOUSEHOLDS AT RAMALLAH, 1525–1596', 11, GOLD, 'start', '700', 'normal', '1.3'))
-    s.append(txt(40, 52, 'The founding is not a moment of arrival on empty ground. It is a Christian settlement onto a site the state already taxed.', 10.5, GREY, 'start', '400', 'italic'))
+    s.append(txt(40, 52, 'There is no founding on empty ground. It is a Christian settlement onto a site the state already taxed.', 10.5, GREY, 'start', '400', 'italic'))
     bw = 52
     for i, (yr, ch, mu, note) in enumerate(data):
         x = x0 + i * (plotw / len(data))
@@ -520,11 +520,11 @@ def fig_households():
     s.append(f'<rect x="620" y="102" width="13" height="13" fill="{RUST}" rx="2"/>')
     s.append(txt(640, 113, 'Muslim households', 10.5, BODY))
     notes = ['1525 · waqf land of Hebron, 3,000 aqja,', 'no households at all',
-             '1562 · 27 families and 8 unmarried men', 'come up from Bayt Jālā — the founding',
+             '1562 · 64 Christian households and 7 single', 'men, from Bayt Jālā — the Christian settlement',
              '1596 · taxed at a quarter, 9,400 aqja']
     for j, n in enumerate(notes):
         s.append(txt(620, 146 + j * 15, esc(n), 9.6, GREY if j % 2 else BODY))
-    s.append(txt(40, H - 18, 'Two corrections follow: the founding is 1562, not “about 1550” — and the movers were a generation or two below Rāshid.', 10.5, BODY, 'start', '700'))
+    s.append(txt(40, H - 18, 'Two corrections follow: the Christian settlement is 1561–62, not “about 1550” — and the movers were a generation or two below Rāshid.', 10.5, BODY, 'start', '700'))
     s.append('</svg>')
     return ''.join(s)
 

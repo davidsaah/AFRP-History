@@ -1,5 +1,45 @@
 # Changelog
 
+## v60 — 7 November 2026
+
+### Front matter, the family's memory, and the actual data on 1562
+
+**Front matter (draft for the authors).** A dedication, preface and
+acknowledgements now open the book, after the title block.
+
+**The oral traditions go in, marked as oral tradition.** There is a new entry,
+"What the family remembers". It covers:
+- Ṣabra's three brothers (Rāshid to Ramallah, one to Bayt Jālā, one to al-Salṭ);
+- the daughter given to Haleesa, from whom the Ḥalasa descend;
+- the move to Maʿīn in 1892 and "over 800 souls" by 1953;
+- Kaddoura's Ṭanāsh, the purchase from the Ghazāwneh and Karm ʿAlī;
+- Khalīl Abū Rayya's account of the 1953 journey to Maʿīn, in Arabic and English.
+
+Sources: N. Shaheen, *Pictorial History II* (2005), chs. 1–3; *Qiṣṣat madīnat Rām
+Allāh wa-l-Bīra*, p. 24. Dissard, *Revue Biblique* 1905, pp. 419–421, is added as the
+oldest printed telling. His "about 1815" is noted as impossible for Ramallah.
+
+**"Founded 1562" reworded to the actual data.** A FIX box sets out the order of
+the records: named 1186, endowed 1279, empty farmland 1525–28, Muslim households from
+1538–39, terms agreed in court 1561, counted 1562. The book now calls 1561–62 the
+Christian settlement. The key-dates page and the chapter summaries follow. The
+households chart showed 37 Christian households for 1562; it is corrected to the
+register's 64. The stale 1186 row on the key-dates page, "pledged by a Crusader
+king", is corrected to match v58.
+
+**New documents.**
+- Robinson 1838 on Bayt Jālā: Christians only, the two-year tradition, 500 taxable
+  men, 60 who could read, five shaykhs.
+- The 1922 census civil-condition table: Ramallah 170 widowed or divorced women
+  against 92 men; 736 married women against 576 married men.
+
+**Photographs.** One or two per chapter, fifteen in all, from the Library of
+Congress Matson Collection ("no known restrictions on publication"). They are
+linked from loc.gov, not copied into the repository.
+
+**Checked and left out.** "1,500 of 6,000 natives had emigrated" is not in the
+English text of Shāhīn (1982).
+
 ## v59 — 26 October 2026
 
 ### What the Wikipedia article on Ramallah pointed to, checked at the source
