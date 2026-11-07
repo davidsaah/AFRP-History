@@ -3184,7 +3184,7 @@ PHOTO_BASE = 'https://tile.loc.gov/storage-services/service/pnp/'
 
 # v61: photographs and documents from Naseeb Shaheen, A Pictorial History of
 # Ramallah, Part II (Birzeit University Press, 2005). David Saah: AFRP holds
-# the copyright. Files are web copies in img/shaheen/, named by PDF page.
+# the rights to the book and to all the photographs in it. Files are web copies in img/shaheen/, named by PDF page.
 SHAHEEN = {
  9: [('p030_1.jpg', 29, 'The charter of 7 March 1186, in the printed Latin that Shaheen reproduces. King Guy pledges a <i>casellum</i>, a small farm estate, to the Hospital of St Mary of the Germans. It lies near the royal road <i>qua vaditur Ramelie</i>, “by which one goes to Ramallah”. This is the first time the name is written down.')],
  11: [('p024_1.jpg', 23, 'The census of Bayt Jālā of 1553–54 (register 289), with the thirty-six families living there for the time being. Nine years later, in the census of 1562, they were no longer at Bayt Jālā. They had moved to Ramallah.')],
@@ -3192,10 +3192,14 @@ SHAHEEN = {
       ('p038_1.jpg', 37, 'A map of Palestine of 1639, with Ramallah on it as “Rammula”.'),
       ('p231_1.jpg', 230, 'Jacob Hishmeh of Ramallah with his son Shukri, a studio portrait from the 1870s on a card of the Bonfils studio and one of the oldest photographs of Ramallah people.'),
       ('p371_1.jpg', 370, 'An agreement of 15 June 1896: Ibrahim Daoud Harb lends Daoud Yaʿcoub Harb seven French gold liras, without interest, for a year and a half. The witnesses sign at the foot.'),
+      ('p238_1.jpg', 237, 'A weaver at his loom in Ramallah, about 1890–1900. Elihu Grant counted about twelve weavers in the town at the turn of the century.'),
       ('p202_1.jpg', 201, 'A bride arrives at the house of the groom, Ramallah, 1900. Shaheen reads her dark coat as the red <i>aṭlas</i> of the groom’s Qaysī side; she carries a sword before her.')],
  13: [('p244_1.jpg', 243, 'The family of Elias ʿAudi, about 1905. He stands at the centre rear and was the first mayor of Ramallah, 1908–21. The family home was bulldozed by night in the spring of 2001.'),
+      ('p172_1.jpg', 171, 'Ramallah from the south, about 1910: the town on its hill above terraced fields and vineyards.'),
+      ('p245_2.jpg', 244, 'The Friends Meeting House on Main Street, about 1912, with the congregation outside. Vines still grew where office buildings stand today.'),
       ('p250_1.jpg', 249, 'Ibrahim Rasheed Hishmeh as a soldier in the Ottoman army, about 1916.'),
       ('p206_1.jpg', 205, 'The wedding of ʿAwad Shaheen and Maria Hanna Muhawi, 13 July 1930. Both were of the Sharaka clan. The photograph is by the Armenian photographer A. G. Krikorian of Jerusalem.'),
+      ('p185_1.jpg', 184, 'A school for refugee children held in a Ramallah church, August 1949, a year after the expulsions from Lydda and Ramle filled the town.'),
       ('p228_1.jpg', 227, 'Manara Square, about 1953, with the column whose five lions stand for the five sons of Rāshid.'),
       ('p161_3.jpg', 160, 'Members of the Arab Women’s Union of Ramallah in the 1960s. Matiel Mogannam, who founded the Ramallah branch in 1939, sits third from the right in the black dress.'),
       ('p162_2.jpg', 161, 'After the war of 1967 the Women’s Union fed as many as two hundred refugee children a hot noon meal. Standing are Ellen ʿAkel, Labeebeh Hishmeh Sayegh and Juliette Mogannam, about 1968–69.')],
