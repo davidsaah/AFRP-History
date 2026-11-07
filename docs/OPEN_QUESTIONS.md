@@ -298,3 +298,15 @@ Ranked by size. Each has a named source, several already on the shelf and uncite
   times in the bibliography and never in the narrative.
 - **The Mamluk and early Ottoman centuries** — Zeʾevi, *An Ottoman Century*, on
   the shelf, cited once in a note, never used.
+
+## Worked on 7 November 2026 (v61)
+
+- **Shaheen 2005 rights.** David says AFRP holds the copyright to *A Pictorial
+  History of Ramallah, Part II*. The printed notice reads "Copyright © 2005 by
+  Naseeb Shaheen", and the book does not mention an assignment to AFRP, so keep
+  the assignment on file. Page 182 notes copyright problems with some pictures,
+  and many came from families or the Friends' archives. The thirteen used in
+  v61 avoid the borrowed ones. The 1900 wedding photograph may also be an
+  American Colony picture, which would make it public domain either way.
+- **Shaheen p. 226** dates electricity in Ramallah to 1934. The book follows
+  the municipality's 1935. This is not yet reconciled.

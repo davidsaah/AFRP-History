@@ -23,6 +23,24 @@ match the Ramallah Family Tree book.
   ("the ochre ring", "the thin dark band", "dashed dark rings").
 - **Photographs.** Each photograph has a thin green frame, a white mat, an
   ochre "Photograph" label, an italic caption and a light warm tone.
+- **Thirteen pictures from Shaheen's *Pictorial History of Ramallah, Part II*
+  (2005).** David says AFRP holds the copyright. Each is credited to the book
+  and its page, "reproduced courtesy of the American Federation of Ramallah,
+  Palestine". The web copies are in `img/shaheen/`.
+  - Chapter 9: the 1186 charter in Latin, with the road *qua vaditur Ramelie*.
+  - Chapter 11: the 1553–54 Bayt Jālā register with the thirty-six families.
+  - Chapter 12: Shaheen's settlement map, the 1639 "Rammula" map, a Hishmeh
+    portrait from the 1870s, a Harb loan agreement of 1896, and a wedding of 1900.
+  - Chapter 13:
+    - Mayor Elias ʿAudi's family, about 1905;
+    - an Ottoman conscript, 1916;
+    - a 1930 Shaheen wedding;
+    - Manara Square, about 1953;
+    - the Arab Women's Union in the 1960s;
+    - the Union's meals for refugee children after 1967.
+
+  Pictures that Shaheen took from other books, or from the Friends' archives,
+  were left out.
 - **One fix.** The atlas plate "The district when Rome wrote it down" and its
   caption still said Ramallah was named nowhere "until 1279". v60 moved the
   first naming to 1186, so both now say 1186.

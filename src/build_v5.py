@@ -3007,10 +3007,10 @@ span.w2{background:#004A26;color:#F3ECDD;padding:2px 7px;border-radius:3px;
 
 .byline{margin:8px 0 0;font-size:1.06rem;letter-spacing:.05em;color:#1A1A1A}
 .front{margin:22px 0 4px;max-width:44em}
-figure.photo{margin:24px 0 30px;padding:14px 14px 0}
+figure.photo{margin:24px 0 30px;padding:14px 14px 0;position:relative;z-index:1}
 figure.photo::before{content:"Photograph";display:flex;align-items:center;gap:10px;color:#9A6324;
   font:700 10px/1 "Times New Roman",Times,serif;letter-spacing:.26em;text-transform:uppercase;margin:0 4px 10px}
-figure.photo img{display:block;width:100%;max-width:820px;height:auto;border-radius:0;
+figure.photo img{display:block;width:auto;max-width:min(100%,820px);max-height:640px;height:auto;border-radius:0;
   border:1px solid #007A3D;padding:5px;background:#FFFFFF;box-sizing:border-box;
   filter:grayscale(.2) sepia(.12) contrast(1.03)}
 figure.photo figcaption{max-width:820px;padding:10px 4px 14px;font-style:italic}
@@ -3182,12 +3182,37 @@ PHOTOS = {
 }
 PHOTO_BASE = 'https://tile.loc.gov/storage-services/service/pnp/'
 
+# v61: photographs and documents from Naseeb Shaheen, A Pictorial History of
+# Ramallah, Part II (Birzeit University Press, 2005). David Saah: AFRP holds
+# the copyright. Files are web copies in img/shaheen/, named by PDF page.
+SHAHEEN = {
+ 9: [('p030_1.jpg', 29, 'The charter of 7 March 1186, in the printed Latin that Shaheen reproduces. King Guy pledges a <i>casellum</i>, a small farm estate, to the Hospital of St Mary of the Germans. It lies near the royal road <i>qua vaditur Ramelie</i>, “by which one goes to Ramallah”. This is the first time the name is written down.')],
+ 11: [('p024_1.jpg', 23, 'The census of Bayt Jālā of 1553–54 (register 289), with the thirty-six families living there for the time being. Nine years later, in the census of 1562, they were no longer at Bayt Jālā. They had moved to Ramallah.')],
+ 12: [('p012_1.jpg', 11, 'Shaheen’s map of the places tied to the settlement of Ramallah, from al-Karak and al-Shawbak up to Bayt Jālā and Ramallah.'),
+      ('p038_1.jpg', 37, 'A map of Palestine of 1639, with Ramallah on it as “Rammula”.'),
+      ('p231_1.jpg', 230, 'Jacob Hishmeh of Ramallah with his son Shukri, a studio portrait from the 1870s on a card of the Bonfils studio and one of the oldest photographs of Ramallah people.'),
+      ('p371_1.jpg', 370, 'An agreement of 15 June 1896: Ibrahim Daoud Harb lends Daoud Yaʿcoub Harb seven French gold liras, without interest, for a year and a half. The witnesses sign at the foot.'),
+      ('p202_1.jpg', 201, 'A bride arrives at the house of the groom, Ramallah, 1900. Shaheen reads her dark coat as the red <i>aṭlas</i> of the groom’s Qaysī side; she carries a sword before her.')],
+ 13: [('p244_1.jpg', 243, 'The family of Elias ʿAudi, about 1905. He stands at the centre rear and was the first mayor of Ramallah, 1908–21. The family home was bulldozed by night in the spring of 2001.'),
+      ('p250_1.jpg', 249, 'Ibrahim Rasheed Hishmeh as a soldier in the Ottoman army, about 1916.'),
+      ('p206_1.jpg', 205, 'The wedding of ʿAwad Shaheen and Maria Hanna Muhawi, 13 July 1930. Both were of the Sharaka clan. The photograph is by the Armenian photographer A. G. Krikorian of Jerusalem.'),
+      ('p228_1.jpg', 227, 'Manara Square, about 1953, with the column whose five lions stand for the five sons of Rāshid.'),
+      ('p161_3.jpg', 160, 'Members of the Arab Women’s Union of Ramallah in the 1960s. Matiel Mogannam, who founded the Ramallah branch in 1939, sits third from the right in the black dress.'),
+      ('p162_2.jpg', 161, 'After the war of 1967 the Women’s Union fed as many as two hundred refugee children a hot noon meal. Standing are Ellen ʿAkel, Labeebeh Hishmeh Sayegh and Juliette Mogannam, about 1968–69.')],
+}
+SHAHEEN_SRC = ('Naseeb Shaheen, <i>A Pictorial History of Ramallah, Part II</i> (Birzeit University Press, 2005), p. {p}. '
+               'Reproduced courtesy of the American Federation of Ramallah, Palestine.')
+
 def photos_for(num):
     out = []
     for path, item, cap, who in PHOTOS.get(num, []):
         out.append(f'<figure class="photo"><img src="{PHOTO_BASE}{path}" alt="{cap}" loading="lazy" decoding="async">'
                    f'<figcaption>{cap}<span class="src">{who} Library of Congress, Prints &amp; Photographs Division, Matson Collection, '
                    f'<a href="https://www.loc.gov/item/{item}/">loc.gov/item/{item}</a> — no known restrictions on publication.</span></figcaption></figure>')
+    for fn, pg, cap in SHAHEEN.get(num, []):
+        alt = re.sub(r'<[^>]+>', '', cap)
+        out.append(f'<figure class="photo"><img src="../img/shaheen/{fn}" alt="{alt}" loading="lazy" decoding="async">'
+                   f'<figcaption>{cap}<span class="src">{SHAHEEN_SRC.format(p=pg)}</span></figcaption></figure>')
     return ''.join(out)
 
 def render():
