@@ -18,8 +18,13 @@ the shelf as `1946_Ramallah_Municipal_Election_File_Atalla_ISA_P-213-40.pdf`.
 - **A results table** with the vote for each candidate.
 - **Two pages from the source**, under "From the source": the English notice
   of 6 April 1946, and the committee's Arabic account with the result.
-- **Not yet done.** The voters' lists (about 580 names) are only partly read
-  and are not transcribed. The ruling, the petitioner and exhibit P.5 are not
+- **Voter lists and the family tree.** A paragraph gives the 407 names that
+  can be read on the lists by house, and how many of them match the family
+  tree; 117 are not in the tree yet. The review list is in the project files
+  under `history/sources/1946_election/`.
+- **The district 2 ballot paper** (PDF p. 142) is added as a third source page.
+- **Not yet done.** The register numbers about 580 voters, but only 407 names
+  can be read on the lists. The ruling, the petitioner and exhibit P.5 are not
   in the file.
 
 ## v61 — 7 November 2026

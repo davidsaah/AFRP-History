@@ -2458,6 +2458,11 @@ is hard to read). The lists of names break the Ḥaddāda into the four houses t
 gives: Dār Abū Jaghab, Dār Yūsuf, al-Sharāka and Dār ʿAwwād. Two further columns stand apart. One is the
 Ḥasāmna. The other is <i>al-aghrāb</i>, “the strangers”: men living in the town but outside its families,
 among them Muslim and Armenian names{c('Israel State Archives, P-213/40: the committee’s minutes of 26 January 1946 (PDF p. 131); the list of voters by house, “exhibit P.4” in the case (PDF pp. 117–124). The minutes do not say which district the Ḥasāmna and the strangers voted in. These are first readings of poor scans: the full list is still to be transcribed and checked.')}.</p>
+<p><b>The names on the lists are the families of the tree.</b> On the lists by house, <b>407 names</b> can be read:
+Jaghab 75, Yūsuf 78, Sharāka 89, ʿAwwād 57, Dār Ibrāhīm 32, Dār Jiryis 13, Shaqara 12, Ḥasāmna 5 and
+46 strangers. Each house is a clan of the Ramallah Family Tree. Matched against the tree, 106 of the 361
+clan names are one man in the same clan, 111 could be one of several, and <b>117 are not in the tree at
+all</b>. They are men of Ramallah, alive and of age in 1946, whom the tree has still to take in{c('The lists by house (PDF pp. 117–124), transcribed for this book in November 2026, and matched to the Ramallah Family Tree export of 3 November 2026: men not born after 1926 and not dead before 1946, with the father’s name checked where the list gives it. The lists hold fewer names than the register numbers above, because some pages are faint and the lists may not be complete. The review list is with John Mogannam, and nothing in the tree has been changed from it.')}.</p>
 {NUMTABLE('RAMALLAH MUNICIPAL ELECTION, 1946 — the result',
  ['District', 'Candidate', 'Votes'],
  [['1 · Dār Jiryis', 'Boulos Jiryis Sābā', 'unopposed'],
@@ -3344,6 +3349,9 @@ SOURCE_PAGES = [
   'The committee’s own account, in Arabic, ending with item 13, the result: '
   '<span class="ar" dir="rtl">كانت نتيجة التصويت كما يلي</span>, “the result of the vote was as follows”: Jamīl Ṭūṭaḥ 255, Yūsuf Qaddūra 236, Khalīl Ṣalāḥ 222, Jalīl Ḥarb 215, Ḥannā Jābir 154.',
   'Ramallah municipality, “Intikhābāt baladiyyat Rām Allāh”, p. 2. Israel State Archives, P-213/40, PDF p. 72.'),
+ ('THE TOWN VOTES', 'srcpage', 'sources/ballot_1946_p142.jpg',
+  'The ballot paper for district 2, the Ḥaddāda: five nominees for four seats, Monday 15 April 1946.',
+  'Israel State Archives, P-213/40, PDF p. 142.'),
  ('The people this town produced', 'srcpage', 'sources/mirat_al_sharq_1919.jpg',
   'The first issue of <i>Mirʾāt al-Sharq</i>, “Mirror of the East”, Jerusalem, Wednesday 17 September 1919. '
   'The masthead, top right, names its licence-holder and editor, <span class="ar" dir="rtl">بولس شحادة</span>, Boulos Shehadeh of Ramallah, and calls it “a free Arabic political newspaper, appearing once a week for the present”. '
