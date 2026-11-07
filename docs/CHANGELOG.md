@@ -1,5 +1,27 @@
 # Changelog
 
+## v61.2 — 7 November 2026
+
+### The municipal election of 1946
+
+David added a new source: the election file of the Jerusalem advocates Anton
+and Hanna Atalla, Israel State Archives P-213/40 (208 scanned pages). It is on
+the shelf as `1946_Ramallah_Municipal_Election_File_Atalla_ISA_P-213-40.pdf`.
+
+- **New entry, 1946, "The town votes".** It covers:
+  - the four districts by clan: Dār Jiryis, the Ḥaddāda, Dār Ibrāhīm and
+    al-Shaqara;
+  - the electoral committee and its timetable;
+  - a register drawn from the municipal tax rolls, open to men aged 21 and over;
+  - three members returned unopposed, and the Ḥaddāda poll of 15 April 1946;
+  - the hearings of November and December 1946.
+- **A results table** with the vote for each candidate.
+- **Two pages from the source**, under "From the source": the English notice
+  of 6 April 1946, and the committee's Arabic account with the result.
+- **Not yet done.** The voters' lists (about 580 names) are only partly read
+  and are not transcribed. The ruling, the petitioner and exhibit P.5 are not
+  in the file.
+
 ## v61 — 7 November 2026
 
 ### Every figure in the family tree book's look ("Classic")

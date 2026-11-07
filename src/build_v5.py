@@ -2441,6 +2441,47 @@ thieves{c('Thomas M. Ricks, ed., <i>Turbulent Times in Palestine: The Diaries of
 <i>Still to be collected</i>: the names of the dead, the houses burned, and what the revolt cost
 the families that stayed.</p>"""),
 
+ent('1946', 'documents', False, 'THE TOWN VOTES — the municipal election of 1946, district by clan',
+ 'On <b>Monday 15 April 1946</b>, from nine in the morning, the men of the <b>Ḥaddāda</b> went up to the municipal building to choose four councillors out of five candidates. The other three seats were already filled: nobody had stood against the one man nominated in each of the other three districts. The districts were the clans. <b>Dār Jiryis</b> was district 1, <b>the Ḥaddāda</b> district 2, <b>Dār Ibrāhīm</b> district 3 and <b>al-Shaqara</b> district 4. Nearly four centuries after the settlement, the town’s first families were still the units in which it voted{}.'.format(c('Israel State Archives, file P-213/40: the election file of the Jerusalem advocates Anton and Hanna Atalla, 1945–46, 208 scanned pages without a text layer. The electoral committee’s own Arabic summary, items 1–13 (PDF pp. 70–72); the English notice of 6 April 1946 signed by Mousa Khalil, chairman of the electoral committee (PDF p. 91); the committee’s minutes from 16 November 1945 (PDF p. 131). ' + D('1946_Ramallah_Municipal_Election_File_Atalla_ISA_P-213-40.pdf') + '. Read for this book from the scans on 7 November 2026; the typed pages are read in full, the lawyers’ handwritten notes only in part.')),
+ f"""
+<p><b>How the vote was made.</b> An electoral committee was named in the autumn of 1945. It sat first on
+16 November 1945 under <b>Khalīl Ṣalāḥ</b>, and when he fell ill <b>Mūsā Khalīl</b> took the chair, by notice
+in the Official Gazette no. 1465. The other members were Sālim al-Zaʿrūr, Ḥannā Jiryis, Khalīl Mubārak,
+Ḥannā Khalaf and Khalīl al-Qassīs. Registration ran from 15 November to 15 December 1945. The register was
+posted on <b>1 February 1946</b> for fourteen days, objections were heard on 21 February, and the
+chairman signed it on 17 March. Its names were taken from the municipal tax registers: in Mūsā Khalīl’s
+words, every person paying taxes was put on the register, whether he had applied or not. Nobody under
+twenty-one could vote{c('Israel State Archives, P-213/40: the committee’s summary, items 1–7 (PDF p. 70); the evidence of Mūsā Khalīl, 23 November 1946, points 1–5 (PDF p. 55); the lawyers’ notes on qualification (PDF p. 5). Every name read for this entry on the voters’ lists is a man’s.')}.</p>
+<p><b>The register counted the clans.</b> The committee numbered the voters district by district: the Ḥaddāda
+from 1 to <b>401</b>, Dār Ibrāhīm to <b>55</b>, al-Shaqara to <b>84</b> and Dār Jiryis to <b>43</b> (this last figure
+is hard to read). The lists of names break the Ḥaddāda into the four houses the 1944 ration count also
+gives: Dār Abū Jaghab, Dār Yūsuf, al-Sharāka and Dār ʿAwwād. Two further columns stand apart. One is the
+Ḥasāmna. The other is <i>al-aghrāb</i>, “the strangers”: men living in the town but outside its families,
+among them Muslim and Armenian names{c('Israel State Archives, P-213/40: the committee’s minutes of 26 January 1946 (PDF p. 131); the list of voters by house, “exhibit P.4” in the case (PDF pp. 117–124). The minutes do not say which district the Ḥasāmna and the strangers voted in. These are first readings of poor scans: the full list is still to be transcribed and checked.')}.</p>
+{NUMTABLE('RAMALLAH MUNICIPAL ELECTION, 1946 — the result',
+ ['District', 'Candidate', 'Votes'],
+ [['1 · Dār Jiryis', 'Boulos Jiryis Sābā', 'unopposed'],
+  ['3 · Dār Ibrāhīm', 'Khalīl Sālim Ḥanāniyā', 'unopposed'],
+  ['4 · al-Shaqara', 'Ḥannā Samʿān Khalaf', 'unopposed'],
+  ['2 · the Ḥaddāda', 'Jamīl Ṭūṭaḥ', '255'],
+  ['2 · the Ḥaddāda', 'Yūsuf Qaddūra', '236'],
+  ['2 · the Ḥaddāda', 'Khalīl Ṣalāḥ', '222'],
+  ['2 · the Ḥaddāda', 'Jalīl Ḥarb', '215'],
+  ['2 · the Ḥaddāda', 'Ḥannā Jābir', '154 — not elected']],
+ 'Nominations were taken at the municipality on Saturday 6 April 1946, and the poll for district 2 was announced in <i>Filasṭīn</i> on 7 April. The English notice gives the district 4 member as “Sama’an Khalaf”; the committee’s Arabic gives <span class="ar" dir="rtl">حنا سمعان خلف</span>. — Israel State Archives, P-213/40, PDF pp. 72 and 91.')}
+<p><b>One of the four is a name this book already knows.</b> <b>Yūsuf Jiryis Qaddūra</b>, second in the poll,
+carries the name of the author of the town’s first history, published in New York in 1954. That they are
+the same man is likely, not yet shown.</p>
+<p><b>The result was taken to law.</b> The Atalla file holds the lawyers’ notes of hearings on
+<b>23 November</b> and <b>7 December 1946</b>. Mūsā Khalīl gave evidence for the committee. The presiding officer of the
+poll, Shafīq Musallam of the Ramallah district office, said polling ran from nine to half past twelve and again
+from half past one to about five. The notes argue over how the register was published, and over men with a
+right to vote in more than one district: the lists mark, against each such man, whether he owned or rented in the
+other district. Mūsā Khalīl said that none of the men from other districts who could have voted in the Ḥaddāda chose to,
+and the notes put them at about ten{c('Israel State Archives, P-213/40: evidence of Mūsā Khalīl, 23 November 1946 (PDF p. 55); of the presiding officer and of a police corporal, 7 December 1946 (PDF p. 42); the lawyers’ points on publication and on the districts (PDF pp. 3–9); the lists of men entitled to register in a second district, with “owner” or “tenant” against each (PDF pp. 135–141).')}.
+<i>Still to be found</i>: who brought the case, and how it was decided; exhibit P.5, the register itself, which
+Mūsā Khalīl said gave each voter’s age; and the <i>Filasṭīn</i> notice of 7 April 1946.</p>"""),
+
 ent('1948', 'documents', False, 'The catastrophe — and the town transformed',
  'On <b>11 July 1948</b> Israeli forces took Lydda; Ramle surrendered the next day. At half past one on <b>12 July Yitzhak Rabin signed the order to expel the inhabitants</b>, and on the morning of the 13th the people of Lydda were marched east on foot in the July heat — somewhere between fifty and seventy thousand people driven out of the two towns, and an unknown number dead on the road. The Arab Legion picked up the survivors and brought them to Ramallah. <b>Ramallah was not destroyed. Ramallah opened its doors and was tripled</b> — every madāfa, every schoolroom, every qaṣr in the fig groves. By a local count of 1953: some 13,500 souls, of whom about nine thousand are refugees and four and a half thousand are Ramallah natives — the figure that, with 2,580 in America, gives Shāhīn’s total of 7,080 Ramallah people in the world{} — <i>Jordan held no census that year; its censuses are 1952 and 1961</i>. And its own money went at the same time: the deposits in <b>Bank al-Umma</b> were frozen, not lost — part of the wholesale freezing of Palestinian bank accounts that year — the swine-raising venture collapsed with over <b>$400,000</b> in it, and some 200 Mandate salaries simply stopped{}. <i>“The future looked grim and the morale of the people was at its lowest ebb”</i> — Shāhīn saw it himself in 1951–52.'.format(
   c('Shāhīn (1982), “The Great Influx of 1948,” with the 1953 census figures.'),
@@ -3296,6 +3337,13 @@ SOURCE_PAGES = [
  ('AN OUTSIDER WRITES THE TOWN DOWN', 'photo', 'sources/grant_1907_schools.jpg',
   '“Mission Schools (sustained by the American Friends)”: pupils and teachers of the Friends schools at Ramallah, which Grant ran from 1901 to 1904.',
   'Elihu Grant, <i>The Peasantry of Palestine</i> (Boston: Pilgrim Press, 1907), plate. Public domain.'),
+ ('THE TOWN VOTES', 'srcpage', 'sources/ramallah_1946_notice.jpg',
+  'The committee’s notice of 6 April 1946: three districts filled without a contest, and five men nominated for the four seats of district 2, the Ḥaddāda, with the poll set for Monday 15 April.',
+  'Notice signed by Mousa Khalil, chairman of the electoral committee for the Municipal Commission of Ramallah, 6 April 1946. Israel State Archives, P-213/40, PDF p. 91.'),
+ ('THE TOWN VOTES', 'srcpage', 'sources/ramallah_1946_results_ar.jpg',
+  'The committee’s own account, in Arabic, ending with item 13, the result: '
+  '<span class="ar" dir="rtl">كانت نتيجة التصويت كما يلي</span>, “the result of the vote was as follows”: Jamīl Ṭūṭaḥ 255, Yūsuf Qaddūra 236, Khalīl Ṣalāḥ 222, Jalīl Ḥarb 215, Ḥannā Jābir 154.',
+  'Ramallah municipality, “Intikhābāt baladiyyat Rām Allāh”, p. 2. Israel State Archives, P-213/40, PDF p. 72.'),
  ('The people this town produced', 'srcpage', 'sources/mirat_al_sharq_1919.jpg',
   'The first issue of <i>Mirʾāt al-Sharq</i>, “Mirror of the East”, Jerusalem, Wednesday 17 September 1919. '
   'The masthead, top right, names its licence-holder and editor, <span class="ar" dir="rtl">بولس شحادة</span>, Boulos Shehadeh of Ramallah, and calls it “a free Arabic political newspaper, appearing once a week for the present”. '
