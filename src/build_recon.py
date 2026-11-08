@@ -574,7 +574,7 @@ def fig_pop():
     pts = [(1596, 400, 'e'), (1838, 850, 'e'), (1870, 1100, 'e'), (1896, 2061, 'e'),
            (1922, 3104, 'c'), (1931, 4286, 'c'), (1945, 5080, 'c'), (1961, 14759, 'c'),
            (1967, 12134, 'c'), (1997, 17851, 'c'), (2007, 27460, 'c'), (2017, 38998, 'c'),
-           (2024, 43880, 'p')]
+           (2021, 42122, 'c')]
     x0, x1, yb, yt = 92, 800, 316, 84
     t0, t1 = 1580, 2035
     v0, v1 = 300, 60000
@@ -615,7 +615,7 @@ def fig_pop():
     s.append(txt(212, ly + 4, 'an estimate, or a count of houses or taxable men', 10, BODY))
     s.append(f'<circle cx="560" cy="{ly}" r="4.5" fill="{FOLIO}"/>')
     s.append(txt(572, ly + 4, 'projection', 10, BODY))
-    s.append(txt(40, H - 20, 'The 1596 figure assumes five people to a household. The 1967 fall is emigration after the occupation, not a counting error.', 10.5, BODY, 'start', '700'))
+    s.append(txt(40, H - 20, 'The 1596 figure assumes five people to a household. The 1967 fall is not simply emigration: the count was taken under curfew after the occupation.', 10.5, BODY, 'start', '700'))
     s.append('</svg>')
     return ''.join(s)
 

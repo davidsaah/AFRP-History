@@ -118,7 +118,7 @@ def fig_peopling():
 def fig_layers():
     # (label, dates, who/what, colour, height weight, note)
     L = [
-      ('TODAY', '1994 →', 'A Palestinian city and the seat of an authority. 43,880 people.', '#0E5C33', 1.0, ''),
+      ('TODAY', '1994 →', 'A Palestinian city and the seat of an authority. 42,122 people in 2021.', '#0E5C33', 1.0, ''),
       ('MANDATE, JORDAN, OCCUPATION', '1917–1994', 'The town is tripled by nine thousand refugees in 1948.', '#12703E', 1.0, ''),
       ('OTTOMAN', '1517–1917', 'The Ḥaddādīn arrive c. 1562 and are named in the register of 1596. <b>This is the layer our own family enters.</b>', GREEN, 1.5, 'us'),
       ('MAMLUK', '1250–1517', 'The name Rām Allāh is written down in a sultan’s endowment deed, 1279.', '#2E8B57', 1.0, ''),
@@ -1299,7 +1299,7 @@ def fig_jesus_road():
       'The one town the Gospels name on this ridge is <tspan font-weight="700">Ephraim</tspan> — eṭ-Ṭaybeh, eleven kilometres out. John calls it a city “near to the wilderness,” and the map shows',
       'why that is exactly right: Ṭaybeh sits on the last inhabited edge of the ridge, with the desert falling away east of it. <tspan font-weight="700">Everything else here is road.</tspan> The Galilee',
       'pilgrims came down the watershed past this hill three times a year, and Josephus says so plainly. Whoever was working these terraces in AD 30 watched that traffic pass —',
-      'and within forty years the Romans had taken this district, garrisoned Bethel and Ephraim, and were holding Jerusalem’s surrendered priests at Jifnā, six kilometres away.']):
+      'and within forty years the Romans had taken this district, garrisoned Bethel and Ephraim, and were holding Jerusalem’s surrendered priests at Jifnā, about seven kilometres away.']):
         s.append(txt(40, yb + 42 + i * 15, ln, 9.4, BODY, 'start'))
     s.append('</svg>')
     return ''.join(s)

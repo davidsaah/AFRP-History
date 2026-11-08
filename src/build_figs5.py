@@ -118,7 +118,7 @@ def fig_rulers_traces():
               (1218, '1217–18', 'Thietmar finds Christians at Shawbak'),
               (1279, '1279–80', 'Qalāwūn’s waqf: Ramallah is endowment land'),
               (1321, '1321', 'a Christian majority still at Shawbak'),
-              (1391, '1391–92', 'men of Jifnā in the Ḥaram documents')]
+              (1374, '1374', 'one man, of Jifnā (?), in a Ḥaram contract')]
     for n, (ad, d, note) in enumerate(traces, 1):
         x = px(ad); key = ad == 1186
         col = OCHRE if key else GREEN
