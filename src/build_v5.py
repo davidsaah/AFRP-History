@@ -176,7 +176,7 @@ def fig_pop_corrected():
     pts = [(1596,400,'e'),(1838,850,'e'),(1839,1000,'e'),(1870,2000,'c'),(1896,2061,'e'),
            (1905,3214,'c'),(1922,3104,'c'),(1931,4286,'c'),(1944,6300,'c'),(1945,5080,'c'),
            (1953,13500,'c'),(1961,14759,'c'),
-           (1967,12134,'c'),(1997,17851,'c'),(2007,27460,'c'),(2017,38998,'c'),(2024,43880,'p')]
+           (1967,12134,'c'),(1997,17851,'c'),(2007,27460,'c'),(2017,38998,'c'),(2021,42122,'c')]
     x0,x1,yb,yt = 92,800,320,88
     t0,t1,v0,v1 = 1580,2035,300,60000
     px = lambda y: x0+(x1-x0)*(y-t0)/(t1-t0)
@@ -975,7 +975,7 @@ up a migration. Writing several centuries later, they gave the one dramatic caus
 whose real cause was slow and had no story in it{c('Brian Ulrich, <i>Arabs in the Early Islamic Empire: Exploring Al-Azd Tribal Identity</i> (Edinburgh, 2019), 13, 29–31, on the “Scattering of Azd” as an eighth-to-tenth-century literary construction; and Mounir Arbach, Jérémie Schiettecatte &amp; Muḥammad al-Ḥājj, “The Kingdom of Sabaʾ in the Second Century CE — A Reassessment,” in Darles, Khalidi &amp; Arbach (eds), <i>Contacts between South Arabia and the Horn of Africa</i> (Toulouse: Presses Universitaires du Midi, 2021), 69–84, for the political fragmentation already under way three centuries before the dam’s recorded failures. '+D('2021_Arbach_Schiettecatte_Kingdom_of_Saba_2nd_c_CE.pdf')+'.')}.</p>
 {FIX('Moved forward, the departure “lands in exactly the century when the family’s claimed dynasty was at its height on the Roman frontier.”',
  'It cannot. <b>The dynasty is on the Roman frontier because Ghassān had left the south long before the water failed.</b> ʿInān 75 puts the name in western Arabia in the mid-third century — some two hundred years before the dam’s first recorded breach — and its editor places the tribe’s centre in that period at Yathrib, not on the frontier. <i>The inscriptions do not put Ghassān in Syria by 250; they put it out of Yemen by 250, which is enough.</i> Correcting the dam’s date forward does not rescue the causal chain — it breaks it from the other end.',
- 'The correction in the entry above is right about the dam and wrong about what the dam explains, and this book does not get to keep both. <b>The Sabaic inscriptions are the strongest thing this project has found about the name</b>, and a find that strong has to be allowed to constrain the story it sits inside rather than decorate it. <i>What survives is the migration. What goes is its trigger.</i> The tradition is not thereby weakened; it is relocated — from history of events to history of memory, which is where most family traditions of this age actually live.')}
+ 'The correction in “The dam breaks” (chapter three) is right about the dam and wrong about what the dam explains, and this book does not get to keep both. <b>The Sabaic inscriptions are the strongest thing this project has found about the name</b>, and a find that strong has to be allowed to constrain the story it sits inside rather than decorate it. <i>What survives is the migration. What goes is its trigger.</i> The tradition is not thereby weakened; it is relocated — from history of events to history of memory, which is where most family traditions of this age actually live.')}
 <p>One thing follows from this. In chapter three, Ghassān and a Christian countryside, the story of
 the scattering quotes Brian Ulrich’s caution that the “Scattering of Azd” is itself a literary
 creation of the eighth to tenth centuries. In earlier editions that caution sat in a footnote, as a
@@ -2869,7 +2869,7 @@ fourteen years partly paralysed by a stroke. Then he took charge of the Ramallah
 founded. Dr Saʿadallah Kassees was both doctor and mayor. His niece, Laila Kassees, became <b>the first
 woman of Ramallah to qualify as a doctor</b>, and practises in Memphis. And Joseph Jiryes Cadora,
 pharmacist and mayor from 1943 to 1952, wrote the town’s first history and printed it in New
-York{c('Shāhīn (1982), the education and notable-individuals chapters; Cadora’s mayoralty and his 1954 book, on which see the entry above.')}.</p>
+York{c('Shāhīn (1982), the education and notable-individuals chapters; Cadora’s mayoralty and his 1954 book, on which see “Our first history, written in New York”.')}.</p>
 <p>Most of these people were born into, or married into, the eight clans of our town. That is what a
 ḥamūla, a clan, was for. But not all of them were: Katie Gabriel was Lebanese, Dr Maʿlouf came from
 Beirut, and Matiel Mogannam was born in Lebanon and only settled here in 1938. Our town was served by

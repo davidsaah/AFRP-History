@@ -17,6 +17,10 @@
 11. Riyam inscription: seven lands, not eight, lie between the Azd and Ghassān.
 12. The Federation: the convention count now notes that the roster has no 2020 convention, so the sixty-third falls in 2022.
 
+- **Figure labels:** the "Today" band now reads 42,122 people in 2021, the Jifnā distance in the Roman-road figure is "about seven kilometres", and the Christian-traces timeline shows one man of Jifnā(?) in 1374. The two labels that the SVG restore step brings back are swapped by `src/post_restore_fixes.py`, which runs after the restore and before `restyle.py`.
+- **Cross-references:** two leftover "the entry above" now name the entry they mean.
+- **Not changed:** the population chart still marks a 2024 projection point, because the restore step brings back the v60 drawing. Its 1967 label already says "counted under curfew".
+
 ## v64 — 8 November 2026
 
 ### One voice
