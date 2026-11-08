@@ -314,7 +314,7 @@ Isaac, Jacob, Levi, Kohath, Amram, Moses. He stands on the far branch, not on ou
 <p>That short chain is a known puzzle inside the text. Three generations cannot span the four
 hundred and thirty years the same book gives to the stay in Egypt. The usual explanation is that the
 list is a clan genealogy, telescoped (squeezed down) into personal names{c('Exodus 12:40–41 gives the sojourn in Egypt as 430 years, which three generations cannot span; Numbers 3:27–28 already counts 8,600 Kohathite males in the wilderness, impossible if Amram were Moses’s biological father. The standard reading is that “Amram” names the Amramite clan (Numbers 3:27) rather than a father — the list is telescoped. Genesis 15:16, “the fourth generation,” reflects the same short schema.')}. We meet the same
-kind of puzzle at generation 35 of our own line, in Part Two, and the Bible does not solve it
+kind of puzzle at generation 35 of our own line, in the chapter on early Islamic Palestine, and the Bible does not solve it
 either.</p>
 <p>There is also a difference worth showing. The family chart counts <b>thirteen</b> names from Adam
 to ʿĀbir. Genesis in the Masoretic text gives fourteen. The Septuagint gives fifteen, adding Kainan
@@ -797,7 +797,7 @@ and a half kilometres from a hilltop that had no name yet. <b>After the life of 
 the last stage of the road to Jerusalem, and then the place Jerusalem’s survivors were put.</b></p>
 <p>And then nothing happened to the population. The villages of the Gophna toparchy were not destroyed
 and not emptied. The terraces were not abandoned, and the same names went on being used. Within three
-centuries these hills were Christian, and in chapter three we show it happened <b>by conversion, not by
+centuries these hills were Christian, and in the next chapter we show it happened <b>by conversion, not by
 replacement</b>. The people who watched the pilgrims pass in AD 30, and the legions pass in AD 69, are
 the people who were still on this ridge when sixty-four Christian households walked up it in 1562.</p>
 <p><b>What we still don’t know.</b> We cannot yet name anyone who lived on Ramallah’s own hill in
@@ -943,7 +943,7 @@ scattered them utterly.”{c('Qurʾān 34:19: <span class="ar">فَجَعَلْ�
 ent('c. 250 against 455', 'documents', False,
     'The dam cannot have sent them north',
  f'''Our family’s tradition tells the move north as a chain of three links: the dam failed, the Azd
-scattered, and Ghassān went north. In chapter three, Ghassān and a Christian countryside, we dated the
+scattered, and Ghassān went north. In the story half of this chapter we dated the
 first link and the last. Here we set those dates side by side, and <b>they do not fit</b>. Ghassān is
 named as a people with kings of its own in ʿInān 75, in the middle of the third century AD, and again
 about a century later in ʿAbadān 1. Both times it is in western Arabia, out of Yemen and on the road
@@ -976,7 +976,7 @@ whose real cause was slow and had no story in it{c('Brian Ulrich, <i>Arabs in th
 {FIX('Moved forward, the departure “lands in exactly the century when the family’s claimed dynasty was at its height on the Roman frontier.”',
  'It cannot. <b>The dynasty is on the Roman frontier because Ghassān had left the south long before the water failed.</b> ʿInān 75 puts the name in western Arabia in the mid-third century — some two hundred years before the dam’s first recorded breach — and its editor places the tribe’s centre in that period at Yathrib, not on the frontier. <i>The inscriptions do not put Ghassān in Syria by 250; they put it out of Yemen by 250, which is enough.</i> Correcting the dam’s date forward does not rescue the causal chain — it breaks it from the other end.',
  'The correction in “The dam breaks” (chapter three) is right about the dam and wrong about what the dam explains, and this book does not get to keep both. <b>The Sabaic inscriptions are the strongest thing this project has found about the name</b>, and a find that strong has to be allowed to constrain the story it sits inside rather than decorate it. <i>What survives is the migration. What goes is its trigger.</i> The tradition is not thereby weakened; it is relocated — from history of events to history of memory, which is where most family traditions of this age actually live.')}
-<p>One thing follows from this. In chapter three, Ghassān and a Christian countryside, the story of
+<p>One thing follows from this. In the story half of this chapter, the entry on
 the scattering quotes Brian Ulrich’s caution that the “Scattering of Azd” is itself a literary
 creation of the eighth to tenth centuries. In earlier editions that caution sat in a footnote, as a
 scholar’s hedge. On the dates set out here, <b>it becomes the main finding</b>.</p>"""),
@@ -1064,14 +1064,14 @@ the tired last decades before the conquest. It fell between two fields of study,
 it.</p>
 <p>A gap in a record is not always an absence in the world. <b>Sometimes it is an absence of people
 looking</b>{c('Arce, in Vannini &amp; Nucciotti (2012), on the “academic frontier” between classical and Islamic archaeology in Transjordan, and on the excavation and restoration of Qaṣr al-Ḥallābāt directed by the author from 2002. On the same ground: Michele Piccirillo, <i>The Mosaics of Jordan</i> (Amman: ACOR, 1993), for the Nitl church and its Ghassanid dedications.')}. We make the same point about our own
-nine hundred missing years in Part Two, in the chapter on the missing centuries.</p>"""),
+nine hundred missing years in the evidence for the next two chapters.</p>"""),
 ent('the question behind the question', 'attested', False, 'Were the Ghassanids sovereign?',
  f"""Procopius says the emperor Justinian gave al-Ḥārith “the dignity of king”. A modern argument
 starts from that phrase. If the Ghassanids were sovereigns, the argument goes, then somebody today
 might inherit something. <b>Our family should understand how that question works</b> before anyone
 answers it for us.""",
  f"""
-<p>In chapter three, Ghassān and a Christian countryside, al-Ḥārith ibn Jabala leads the Arab allies
+<p>In the story half of this chapter, al-Ḥārith ibn Jabala leads the Arab allies
 of Rome in the sixth century. Here we look at one word used about him, and at what it can and cannot
 tell us.</p>
 <p><b>Start with what the word is doing.</b> Procopius writes <span class="gk">βασιλέως
@@ -1321,9 +1321,9 @@ sect('And in our own line', 'The missing centuries, measured rather than filled'
 ent('569 → about 1500', 'none', False, 'Thirty-one generations, and one name',
  'Al-Ḥārith dies in 569 and is named in Greek writing of his own time. Rāshid lived about 1500, by our family’s own texts, and the Ottoman registers reach his grandchildren in 1562. Between the two men, <b>the family chart draws two links across 931 years</b>. That cannot be done. <i>The chart says so itself: it prints the gap, in the same type as everything else.</i>',
  f"""
-<p>Chapters three to five tell the story of the land across many centuries: the Ghassanids, the
-Crusaders and Mamluks, and the road from Karak. Through that long stretch the land is well recorded,
-but our own line of fathers is not. This chapter looks at that gap.</p>
+<p>The chapters on Ghassān, on early Islamic Palestine, on the Crusaders and Mamluks and on Karak tell
+the story of the land across many centuries. Through that long stretch the land is well recorded,
+but our own line of fathers is not. Here we look at that gap.</p>
 <p>This is the weakest link in our family’s chain. It is also the strongest sign of the chart’s
 honesty, and the right response is arithmetic, not embarrassment. Nine hundred and thirty-one years,
 divided by <b>an assumed</b> father-to-son generation of twenty-five to thirty-five years, gives
@@ -1339,8 +1339,8 @@ our chapters now uses that count.</i></p>
 sixty-five, <b>Ṣaqr</b>, Rāshid’s father, from the Karak wheel. <i>Only one witness names him, so the
 ladder prints him in a broken outline.</i></p>
 <p>The other reading comes from our own chart: Rāshid bin ʿĪsā bin ʿIyād bin Ḍahdūḥa. It would fill
-generations sixty-three to sixty-five instead, and we set it out in the next chapter, Karak, the
-charts and the registers. Either way the count is sixty-six. What changes is only how many of the
+generations sixty-three to sixty-five instead, and we set it out in the evidence for the chapter
+From Karak to Ramallah. Either way the count is sixty-six. What changes is only how many of the
 last three places carry a name.</p>
 <div class="ntwrap"><div class="nthead">The line, recounted</div>
 <table class="ntable"><tr><th>generations</th><th>who</th><th>what carries them</th></tr>
@@ -1360,8 +1360,8 @@ our family knows of its own line, and neither of them is anything to be ashamed 
 {fig(F.fig_void_solved(),'The void, measured — and shortened',
  'The genealogical void runs 931 years, from al-Ḥārith (d. 569) to Rāshid (fl. c. 1500), and needs about thirty-one generations to cross. The documentary void is far shorter than the genealogical one — Ghassān is entered as a living people, at al-Balqāʾ, the Yarmūk and Ḥimṣ, on the authority of a Mamluk officer who died about 1300 — and dated records fall inside the blank: ʿAbūd’s rebuilt church in 1058, a man of Jifnā signing a Frankish charter in 1182 and a Christian buying cotton on credit at Jerusalem in 1374, the pilgrim Thietmar hosted in Shawbak’s suburb on the journey of 1217–18, a Christian majority at Shawbak in 1321. What no source supplies is a chain of fathers. So the chart should print the number, not a blank.',
  'Procopius; Shahîd, BASIC I.1 (1995), 554–60; Kennedy (2010), p. 198, citing al-Yaʿqūbī; the ʿAbūd, Jifnā, Thietmar and Shawbak records.')}
-<p>The silence in our family’s line is not a silence in our family’s world. Chapters three and four
-walk through it, one dated record at a time. A people is still named in 684 and still located in 890.
+<p>The silence in our family’s line is not a silence in our family’s world. The chapters on Ghassān,
+on early Islamic Palestine and on the Crusaders and Mamluks walk through it, one dated record at a time. A people is still named in 684 and still located in 890.
 It is <b>still entered as existing about 1300</b>.</p>
 <p>A church is rebuilt in 1058. A man of Jifnā signs a Frankish charter in 1182. A pilgrim is fed at
 Shawbak in 1217–18, and there is a Christian majority there in 1321. A named Christian buys cotton on
@@ -1564,7 +1564,7 @@ shape of a library for the shape of the past.</i></p>
 means the men who work iron, the smiths.</p>
 <p>So any argument that finds “Ḥaddādīn” in an early Arabic text and reads it as our family is
 reading the name of a trade. The register of 1553–54 calls the group the Kasābra. Together these
-support what we found in chapter five, From Karak to Ramallah: <b>the family name is late</b>, and we
+support what we found in the story half of this chapter: <b>the family name is late</b>, and we
 will not claim it any earlier than we can show it.</p>"""),
 
 ent('the clock', 'none', False,
@@ -2064,7 +2064,7 @@ Christian households once given for Karak in 1562 still has no register referenc
 help with either would add a page to our story.</p>"""),
 
 ent('1553 and 1562, name by name', 'documents', True, 'The registers do give names',
- f"""In chapter five, From Karak to Ramallah, our families come up the ridge from Bayt Jālā and are
+ f"""In the story half of this chapter, our families come up the ridge from Bayt Jālā and are
 counted at Ramallah in 1562. <b>Every household head in both registers has been in our own family’s
 book for thirty years.</b> Chapter four of the co-authors’ <i>Ramallah Family Tree Book</i> prints
 copies of the original pages of Register 289 and Register 516. Beside each it gives a full English
@@ -2347,7 +2347,7 @@ of itself goes like this. A Christian family of Ghassanid descent fled al-Karak 
 marriage between one of their women, Rafīd, and a Muslim prince. They settled beside Nablus and
 divided the land and the water with the Muslim family already
 there{c('The Rafīdiyā foundation account, in the form it circulates locally and in the reference literature: a Ghassanid Christian family in flight from al-Karak over a forced marriage, settling beside Nablus alongside the Ḥassūna family, with land and water divided equally. It is a tradition, and it is printed here as one.')}.</p>
-<p>Set that beside our own story of Ghassān and of Karak, told in chapters three and five. Ghassanid
+<p>Set that beside our own story of Ghassān and of Karak, told in chapters four and seven. Ghassanid
 Christians. Al-Karak. A forced marriage refused. A flight north. A new village on a hill.
 <b>It is the Ramallah story, with the names changed.</b></p>
 <p>The parallel has a limit. The Rafīdiyā tradition dates the flight to the seventeenth century. Yet
@@ -2371,7 +2371,7 @@ without a break for so long that the shape of the medieval town can still be rea
 street plan. Denys Pringle, the Crusader archaeologist who excavated it, writes that the general
 layout of medieval al-Bīra <i>remains fairly clear in the twentieth-century street pattern, despite
 over eight centuries of continuous habitation</i>{c('Denys Pringle, “Magna Mahumeria (al-Bīra): the Archaeology of a Frankish New Town in Palestine,” in <i>Fortification and Settlement in Crusader Palestine</i> (Routledge, 2023), ch. VI, 147–168, DOI 10.4324/9781003418405-6; and <i>The Churches of the Crusader Kingdom of Jerusalem</i> I (Cambridge, 1993), 161–165. Al-Bīra sits at 860 m on the Nablus road, 16 km north of Jerusalem. Medieval Islamic reoccupation is attested by the thirteenth century, evidenced by a hoard of 116 copper coins, Ayyubid and Mamluk, found in a cistern in 1951.')}.</p>
-<p>The Frankish, or Crusader, new town there was Magna Mahumeria, which we met in chapter four. Its
+<p>The Frankish, or Crusader, new town there was Magna Mahumeria, which we met in chapter six. Its
 charter of 1156 lists ninety-two burgesses, its townsmen, by name. Its parish church of St Mary is in
 the record by <b>1128</b>, and the German pilgrim Theodoric described it in
 1172{c('Palestinian Ministry of Tourism and Antiquities, site record for the church at al-Bīra: documented September 1128 under the jurisdiction of the Holy Sepulchre; described by Theodoric, 1172; a Romanesque basilica of roughly 22 × 35 m with three semi-circular apses; known as St Mary’s Parish Church, the Church of the Holy Family and the Church of the Visitation; probably converted to a mosque after Ṣalāḥ al-Dīn retook the town in 1195, and largely demolished by Turkish forces in the First World War for bridge stone.')}.</p>
@@ -2593,7 +2593,7 @@ alive and of age in 1946, whom the tree has still to take in{c('The lists by hou
  'Nominations were taken at the municipality on Saturday 6 April 1946, and the poll for district 2 was announced in <i>Filasṭīn</i> on 7 April. The English notice gives the district 4 member as “Sama’an Khalaf”; the committee’s Arabic gives <span class="ar" dir="rtl">حنا سمعان خلف</span>. — Israel State Archives, P-213/40, PDF pp. 72 and 91.')}
 <p>One of the four winners in district 2 carries a name we know. <b>Yūsuf Jiryis Kaddoura</b> (Yūsuf Qaddūra in the
 table), second in the poll, has the name of the author of our town’s first history, published in New York in 1954, which
-we meet again in chapter ten. That they are the same man is likely, but not yet shown.</p>
+we meet again in chapter eleven. That they are the same man is likely, but not yet shown.</p>
 <p>The result was taken to law. The Atalla file holds the lawyers’ notes of hearings on <b>23 November
 and 7 December 1946</b>. Mūsā Khalīl gave evidence for the committee. The presiding officer of the poll,
 Shafīq Musallam of the Ramallah district office, said polling ran from nine to half past twelve and
@@ -2697,7 +2697,12 @@ ent('1961–2024', 'documents', False, 'The city, counted to the present',
  'The 1596 defter; Robinson and Smith; Anthemos; the censuses of 1870–2017; PCBS projections; the epidemic from Shāhīn (1982).')}"""),
 
 ent('1982', 'documents', False, 'Shāhīn closes the record',
- 'ʿAzīz Shāhīn was born in 1894. He survived typhoid in 1906, boarded at the Friends Boys School in 1907–10 and was a fund-raiser in 1944–45. In 1982 he published <span class="ar">كشف النقاب</span>, <i>Kashf al-niqāb</i>: 894 pages, the book we measure everything else here against{}. His history ends: <i>“The foregoing history of Ramallah brings us down to the end of 1978. Every effort has been made to make it as complete and as accurate as possible.”</i> Checked line by line against the outside record, his claim holds.'.format(c('Shāhīn (1982); the autobiographical details from his own chapters. The full test of his chronology against the external record: 36 checkable claims — 13 confirmed, 15 new, 3 refined, 3 corrected, 1 in conflict, 1 untestable.'))),
+ 'ʿAzīz Shāhīn was born in 1894. He survived typhoid in 1906, boarded at the Friends Boys School in 1907–10 and was a fund-raiser in 1944–45. In 1982 he published <span class="ar">كشف النقاب</span>, <i>Kashf al-niqāb</i>: 894 pages, the book we measure everything else here against{}. His history ends: <i>“The foregoing history of Ramallah brings us down to the end of 1978. Every effort has been made to make it as complete and as accurate as possible.”</i> Checked line by line against the outside record, his claim holds.'.format(c('Shāhīn (1982); the autobiographical details from his own chapters. The full test of his chronology against the external record: 36 checkable claims — 13 confirmed, 15 new, 3 refined, 3 corrected, 1 in conflict, 1 untestable.')),
+ f"""
+<p><b>What we still don’t know.</b> We have not yet found the Michigan record of the Federation’s
+incorporation, which would give the date it was filed. We also cannot yet date the town’s change from
+a Christian to a Muslim majority more closely than the thirty years between the censuses of 1967 and
+1997. If your family’s papers can answer either question, please tell us.</p>"""),
 
 sect('Three things said plainly', 'The Karak evidence, two false leads, and the people this town produced')
 ent('1812 → 1934', 'documents', False, 'When the Ḥaddādīn name enters the record',
@@ -2829,8 +2834,8 @@ document giving both names together would settle it. We do not know what the dat
 the Karak wheel refers to. And the reading Hadeed in the registers is a lead still to be followed. If
 you hold family papers from Karak or Ramallah, they may answer one of these.</p>"""),
 
-ent('1869 → 1963', 'attested', True, 'The people our town produced',
- 'Our town was a village of three thousand souls, on one ridge, and in one century it gave all of the people below. This is only a partial list.',
+ent('1867 → 1916', 'attested', True, 'A teacher and a doctor from outside',
+ 'Two people from outside our town gave it a school for girls and a doctor: Miriam Karam, who asked for the school and taught in it, and Dr Philip Maʿlouf, for years the only doctor in the district.',
  f"""
 <p><b>Miriam Karam</b> stopped Eli Jones in a narrow street and asked him to open a school for girls.
 The Quaker account dates the meeting to 1867. He asked who would teach it. <i>“I will,”</i> she
@@ -2845,11 +2850,15 @@ he was <i>the only doctor in the entire Ramallah district</i>. The town called h
 <p>In 1906 Dr Maʿlouf pulled a twelve-year-old boy through forty days of typhoid fever. The boy was
 ʿAzīz Shāhīn, who lived to write our town’s history. <b>Maʿlouf himself died in the typhus of
 1916.</b> He used to say that a doctor got no credit in Ramallah: people waited until a man was nearly
-dead to call him, and then blamed him if the man died{c('Shāhīn (1982), “Medical Treatment.” His predecessor, Dr George Hassenauer of the Friends clinic (1883–89), was called <b>Dr Ḥassan Nawwār</b> because the town could not pronounce his name.')}.</p>
+dead to call him, and then blamed him if the man died{c('Shāhīn (1982), “Medical Treatment.” His predecessor, Dr George Hassenauer of the Friends clinic (1883–89), was called <b>Dr Ḥassan Nawwār</b> because the town could not pronounce his name.')}.</p>"""),
+
+ent('1901 → 1963', 'attested', True, 'The people our town produced',
+ 'Our town was a village of three thousand souls, on one ridge, and in one century it gave all of the people below. This is only a partial list.',
+ f"""
 <p><b>Boulos Shehadeh</b>, born in Ramallah in 1882, founded the newspaper <i>Mirʾāt al-Sharq</i>,
 “Mirror of the East”, in Jerusalem on 17 September 1919. Its 1,132 surviving issues are digitised, and
 they mention his home town 1,535 times. Khalil Totah, born here in 1886, ran the Friends Boys School.
-His diary of the 1938 revolt appears in chapter eight. For thirty years he argued Palestine’s case
+His diary of the 1938 revolt appears earlier in this chapter. For thirty years he argued Palestine’s case
 across the United States, and his diaries are now a source for the Mandate years. The school’s
 auditorium, which he raised the money for, carries his name. Dr Fuad Shatara (1892–1942) was a
 physician on the staff of Cumberland Hospital in Brooklyn. He was an early leader of the Ramallah Young
@@ -2873,11 +2882,7 @@ York{c('Shāhīn (1982), the education and notable-individuals chapters; Cadora�
 <p>Most of these people were born into, or married into, the eight clans of our town. That is what a
 ḥamūla, a clan, was for. But not all of them were: Katie Gabriel was Lebanese, Dr Maʿlouf came from
 Beirut, and Matiel Mogannam was born in Lebanon and only settled here in 1938. Our town was served by
-people it never absorbed. In a history of how our town took people in, that is worth saying.</p>
-<p><b>What we still don’t know.</b> We have not yet found the Michigan record of the Federation’s
-incorporation, which would give the date it was filed. We also cannot yet date the town’s change from
-a Christian to a Muslim majority more closely than the thirty years between the censuses of 1967 and
-1997. If your family’s papers can answer either question, please tell us.</p>"""),
+people it never absorbed. In a history of how our town took people in, that is worth saying.</p>"""),
 
 CH(14)
 
@@ -3217,6 +3222,11 @@ span.w2{background:#004A26;color:#F3ECDD;padding:2px 7px;border-radius:3px;
 .sect .ss{display:block;font-style:italic;color:#77726A;font-size:1.02rem;line-height:1.4;
   padding-bottom:9px;border-bottom:1px solid #E8E2D5}
 @media(max-width:760px){.sect{padding-left:26px}.sect::before{left:-3px}}
+.wwsdk{position:relative;z-index:1;margin:30px 0 40px 122px;padding:16px 22px;border:1px solid #E4DCCB;border-left:4px solid #9a6324;background:#FCFAF5}
+.wwsdk h4{margin:0 0 8px;font:700 .8rem/1.2 "Times New Roman",Times,serif;letter-spacing:.14em;text-transform:uppercase;color:#9a6324}
+.wwsdk p{margin:.5em 0;max-width:none}
+@media(max-width:760px){.wwsdk{margin-left:0}}
+figcaption .made{font-variant:small-caps;letter-spacing:.04em;color:#9a6324;font-weight:700}
 
 .byline{margin:8px 0 0;font-size:1.06rem;letter-spacing:.05em;color:#1A1A1A}
 .front{margin:22px 0 4px;max-width:44em}
@@ -3437,16 +3447,16 @@ def photos_for(num):
     out = []
     for path, item, cap, who in PHOTOS.get(num, []):
         out.append(f'<figure class="photo"><img src="{PHOTO_BASE}{path}" alt="{cap}" loading="lazy" decoding="async">'
-                   f'<figcaption>{cap}<span class="src">{who} Library of Congress, Prints &amp; Photographs Division, Matson Collection, '
+                   f'<figcaption>{_made(path)}{cap}<span class="src">{who} Library of Congress, Prints &amp; Photographs Division, Matson Collection, '
                    f'<a href="https://www.loc.gov/item/{item}/">loc.gov/item/{item}</a> — no known restrictions on publication.</span></figcaption></figure>')
     for fn, cap, src in LOCAL_PHOTOS.get(num, []):
         alt = re.sub(r'<[^>]+>', '', cap)
         out.append(f'<figure class="photo"><img src="../img/{fn}" alt="{alt}" loading="lazy" decoding="async">'
-                   f'<figcaption>{cap}<span class="src">{src}</span></figcaption></figure>')
+                   f'<figcaption>{_made(fn)}{cap}<span class="src">{src}</span></figcaption></figure>')
     for fn, pg, cap in SHAHEEN.get(num, []):
         alt = re.sub(r'<[^>]+>', '', cap)
         out.append(f'<figure class="photo"><img src="../img/shaheen/{fn}" alt="{alt}" loading="lazy" decoding="async">'
-                   f'<figcaption>{cap}<span class="src">{SHAHEEN_SRC.format(p=pg)}</span></figcaption></figure>')
+                   f'<figcaption>{_made(fn)}{cap}<span class="src">{SHAHEEN_SRC.format(p=pg)}</span></figcaption></figure>')
     return ''.join(out)
 
 # v61: pages from the sources themselves, and period plates, set inside the
@@ -3489,7 +3499,7 @@ SOURCE_PAGES = [
   '“This town has about two thousand inhabitants, almost all belonging to the Greek Orthodox religion. Eighteen years ago they built a church there, constructed partly with the remains of an ancient church at Kharbet et-Thireh.” '
   'A Latin parish and school had been founded too, and the missionary told him he had barely a hundred and fifty parishioners.',
   'Victor Guérin, <i>Description géographique, historique et archéologique de la Palestine: Samarie</i>, vol. II (Paris, 1875), ch. 35, p. 40. Public domain. Guérin writes “grecque schismatique”, the French Catholic term of his day for Orthodox.'),
- ('How the town lived', 'srcpage', 'sources/seetzen_1854_p197.jpg',
+ ('The parish proves itself', 'srcpage', 'sources/seetzen_1854_p197.jpg',
   'Ulrich Jasper Seetzen on the road north of Jerusalem in 1806: “On our right we left the village of Taréndy, and further right of it Râm-Allah, a considerable village, inhabited mostly by Greek Christians, which cannot be seen from the road.” '
   'A little further on he passes al-Rām, the “small village of Râm”, with the ruins of a church.',
   'Ulrich Jasper Seetzen, <i>Reisen durch Syrien, Palästina, Phönicien, die Transjordan-Länder, Arabia Petraea und Unter-Aegypten</i>, ed. Fr. Kruse, vol. II (Berlin, 1854), p. 197. Public domain; scan from Heidelberg University Library.'),
@@ -3529,85 +3539,166 @@ for key, kind, fn, cap, src in SOURCE_PAGES:
     E[i] = E[i][:7] + (E[i][7] + _srcfig(kind, fn, cap, src),) + E[i][8:]
 
 # ---------------------------------------------------------------------------
-# v63: David chose "story first, evidence second" (7 Nov 2026).
-# Part One tells the story in date order; Part Two, "How we know", holds the
-# tests and the arguments over the sources. Entries are moved, not reworded:
-# each is matched by the start of its title and filed under its new chapter
-# in the order given here. The old era signposts are dropped.
+# v65: one timeline (David, 8 Nov 2026). Twelve eras in date order, and each
+# era tells its story first and then shows the evidence for it. The separate
+# "How we know" part is gone: its entries sit in the era they prove. Entries
+# are moved, not reworded: each is matched by the start of its title.
+# The build checks itself: every story entry must overlap its era's dates
+# and run in date order, and every picture must show something from its era.
 # ---------------------------------------------------------------------------
 _OLD_CHAPTERS = CHAPTERS
 CHAPTERS = [
- (1,'CHAPTER ONE','The land before us &middot; to 1200 BC',
+ (1,'CHAPTER ONE','The land and its first peoples &middot; to 1200 BC',
   'How the world began, as scripture tells it, and what the ground of these hills shows: the first people, the first villages and the terraces still farmed today.'),
- (2,'CHAPTER TWO','Kingdoms and empires on the ridge &middot; 1200 BC – AD 324',
-  'Neighbours, kingdoms and empires come and go. The people of the hills stay, and Rome builds the road that runs past the future town.'),
- (3,'CHAPTER THREE','Ghassān and a Christian countryside &middot; AD 250–1099',
-  'The tribe our family remembers comes north, and the hills become Christian and stay so through the Arab conquest.'),
- (4,'CHAPTER FOUR','Crusaders and Mamluks, and the name appears &middot; 1099–1517',
+ (2,'CHAPTER TWO','Kingdoms on the ridge &middot; 1200–539 BC',
+  'The highlands fill with villages, neighbours rise across the Jordan, and Assyria writes the land down. Far to the south, the great dam of Maʾrib is built.'),
+ (3,'CHAPTER THREE','Persians, Greeks and Romans &middot; 539 BC – AD 324',
+  'Six sovereigns rule the ridge in turn. The villages stay, and Rome builds the road that runs past the future town.'),
+ (4,'CHAPTER FOUR','Ghassān and a Christian countryside &middot; AD 250–638',
+  'The tribe our family remembers comes north, and the hills become Christian.'),
+ (5,'CHAPTER FIVE','Early Islamic Palestine &middot; 638–1099',
+  'The conquest changes the rulers, not the people. The Christian villages of this ridge stay Christian, and Ghassān is still found across the Jordan.'),
+ (6,'CHAPTER SIX','Crusaders and Mamluks, and the name appears &middot; 1099–1517',
   'Rulers change around villages that stay put, and in 1186 the name Rām Allāh is written down for the first time.'),
- (5,'CHAPTER FIVE','From Karak to Ramallah &middot; about 1500–1562',
+ (7,'CHAPTER SEVEN','From Karak to Ramallah &middot; about 1500–1562',
   'Rāshid al-Ḥaddādīn and his family, the road from Karak by way of Bayt Jālā, and the agreement of 1561 that settled them on this hill.'),
- (6,'CHAPTER SIX','The founding families &middot; 1562–1834',
-  'The five sons become the clans, the parish proves itself in writing, newcomers arrive, and the town survives feuds and a revolt.'),
- (7,'CHAPTER SEVEN','Churches, schools and village life &middot; 1834–1900',
-  'A new church, new schools, the first doctor, and how the town lived, worked and kept its feasts.'),
- (8,'CHAPTER EIGHT','Emigration and the Mandate &middot; 1901–1947',
+ (8,'CHAPTER EIGHT','The founding families &middot; 1562–1834',
+  'The five sons become the clans, the parish proves itself in writing, newcomers arrive, and the town lives through its feuds.'),
+ (9,'CHAPTER NINE','Churches, schools and village life &middot; 1834–1900',
+  'The peasants’ revolt of 1834, then a new church, new schools, the first doctors, and how the town lived, worked and kept its feasts.'),
+ (10,'CHAPTER TEN','Emigration and the Mandate &middot; 1901–1947',
   'The first families sail for America, Ramallah becomes a town with a council, and war, typhus, revolt and elections follow.'),
- (9,'CHAPTER NINE','1948 and after &middot; 1948–1967',
-  'The refugees of Lydda and Ramle arrive, the town takes them in, and the camps are built around it.'),
- (10,'CHAPTER TEN','The diaspora and the city today &middot; 1954 to now',
-  'Ramallah’s people write their history, found the Federation, and build a city from both sides of an ocean.'),
- (11,'HOW WE KNOW · I','The Ghassān story, tested',
-  'The evidence behind chapter three: what the dam can and cannot explain, and what kind of rulers the Ghassanids were.'),
- (12,'HOW WE KNOW · II','The missing centuries',
-  'The evidence behind chapters three to five: the long stretch in which the land is documented and our own line is not.'),
- (13,'HOW WE KNOW · III','Karak, the charts and the registers',
-  'The evidence behind chapter five: the Karak traditions, the family charts, the names in the registers, and two false leads.'),
- (14,'HOW WE KNOW · IV','What is proven',
-  'Three claims, weighed on everything above, and the key dates on one page.'),
+ (11,'CHAPTER ELEVEN','1948 and after &middot; 1948–1967',
+  'The refugees of Lydda and Ramle arrive and the town takes them in. The diaspora builds a hospital, writes our first history and founds the Federation.'),
+ (12,'CHAPTER TWELVE','The city today &middot; 1967 to now',
+  'The town is counted under occupation, Shāhīn closes the record, and our people build a city from both sides of an ocean.'),
+ (13,'CLOSING','What is proven',
+  'Three claims, weighed on all the evidence in the chapters before, and the key dates on one page.'),
 ]
-PARTS = {1: ('Part One', 'The Story of Ramallah'), 11: ('Part Two', 'How We Know')}
+PARTS = {}
+# chapter: (story titles in date order, evidence titles)
 _ORDER = {
- 1: ['Adam and Eve', 'The three Bibles', 'Joktan', 'What this land is made of', 'The Natufians', 'Jericho',
-     'The first villages', 'The Canaanite population', 'The terraces and their', 'The Amarna letters'],
- 2: ['The highlands fill up', 'The Bible as a map', 'The neighbours', 'Assyria writes', 'The great dam',
-     'Six sovereigns', 'The Samaritans', 'Rome writes', '“A city called Ephraim', 'The roads Jesus used',
-     'Life on the ridge in AD 30', 'Rome returns'],
- 3: ['Ghassān named in stone', 'A traveller lists', 'The name in the water', 'The hills become Christian', 'The dam breaks',
-     'Amorkesos', 'Al-Ḥārith ibn Jabala', 'The scattering', 'The silence starts later', 'What they left',
-     'The towns do not die', 'Yarmūk', 'Marj Rāhiṭ', 'al-Yaʿqūbī', 'A village church'],
- 4: ['Magna Mahumeria', 'The name appears in 1186', 'The ridge and the plateau', 'One Christian, one debt'],
- 5: ['Rāshid al-Ḥaddādīn', 'What the family remembers', 'Karak was a Christian town', 'The registers begin',
-     'The people of Ramallah speak', 'The Christian settlement'],
- 6: ['The five sons', 'The parish proves itself', 'New families arrive', 'Feuds, a pasha', 'The peasants’ revolt'],
- 7: ['The present Greek Orthodox church', 'The town gains', 'How the town lived', 'The festivals',
-     'The first doctors', 'What a day was worth', 'The twin town'],
- 8: ['The first four sail', 'Elihu Grant writes', 'Ramallah becomes a city', 'The Patriarchate counts', 'The last big fight',
-     'The war, the locusts', 'The counting years', 'The revolt reaches', 'The town votes'],
- 9: ['The catastrophe', 'Where the refugees lived', 'The diaspora builds'],
- 10: ['Our first history', 'The Federation', 'The city, counted', 'Shāhīn closes', 'The people our town produced'],
- 11: ['The dam cannot', 'Were the Ghassanids'],
- 12: ['Thirty-one generations', 'Ghassān is still there', 'The word underneath', 'The man who should', 'The tradition’s own word',
-      'What the other archive', 'Five searches', 'The generation length', 'The gap is not'],
- 13: ['The registers do give names', 'Musil asked', 'Who was Rāshid’s father', 'The Karak chart', 'When the Ḥaddādīn name',
-      'Two false leads'],
- 14: ['Our origins', 'Our contribution', 'The founding of Ramallah'],
+ 1: (['Adam and Eve', 'The three Bibles', 'Joktan', 'What this land is made of', 'The Natufians', 'Jericho',
+      'The first villages', 'The Canaanite population', 'The terraces and their'],
+     ['The Amarna letters']),
+ 2: (['The highlands fill up', 'The neighbours', 'The great dam'],
+     ['The Bible as a map', 'Assyria writes']),
+ 3: (['Six sovereigns', 'The Samaritans', 'The roads Jesus used', 'Life on the ridge in AD 30', 'Rome returns'],
+     ['Rome writes', '“A city called Ephraim']),
+ 4: (['The hills become Christian', 'The dam breaks', 'Amorkesos', 'Al-Ḥārith ibn Jabala', 'The scattering', 'Yarmūk'],
+     ['Ghassān named in stone', 'A traveller lists', 'The name in the water', 'The dam cannot', 'Were the Ghassanids',
+      'The silence starts later', 'What they left']),
+ 5: (['The towns do not die', 'Marj Rāhiṭ', 'al-Yaʿqūbī', 'A village church'],
+     ['Thirty-one generations', 'The generation length']),
+ 6: (['Magna Mahumeria', 'The name appears in 1186', 'The ridge and the plateau', 'One Christian, one debt'],
+     ['Ghassān is still there', 'The word underneath', 'The man who should', 'The tradition’s own word',
+      'What the other archive', 'Five searches', 'The gap is not']),
+ 7: (['Rāshid al-Ḥaddādīn', 'What the family remembers', 'The people of Ramallah speak', 'The Christian settlement'],
+     ['The registers begin', 'The registers do give names', 'Karak was a Christian town', 'Musil asked',
+      'Who was Rāshid’s father', 'The Karak chart', 'When the Ḥaddādīn name', 'Two false leads']),
+ 8: (['The five sons', 'New families arrive', 'Feuds, a pasha'],
+     ['The parish proves itself']),
+ 9: (['The peasants’ revolt', 'The present Greek Orthodox church', 'The town gains', 'How the town lived', 'The festivals',
+      'A teacher and a doctor', 'The first doctors', 'What a day was worth', 'The twin town'],
+     []),
+ 10: (['The first four sail', 'Ramallah becomes a city', 'The last big fight', 'The war, the locusts',
+       'The revolt reaches', 'The town votes', 'The people our town produced'],
+      ['Elihu Grant writes', 'The Patriarchate counts', 'The counting years']),
+ 11: (['The catastrophe', 'Where the refugees lived', 'The diaspora builds', 'Our first history', 'The Federation'],
+      []),
+ 12: (['The city, counted', 'Shāhīn closes'],
+      []),
+ 13: (['Our origins', 'Our contribution', 'The founding of Ramallah'], []),
 }
+EVIDENCE_SUB = 'The sources for this chapter, and how we read them'
 def _restructure():
     ents = [e for e in E if e[0] == 'e']
     title = lambda e: re.sub(r'<[^>]+>', '', e[5])
     used, new = set(), []
-    for ch, keys in _ORDER.items():
-        for k in keys:
-            hits = [i for i, e in enumerate(ents) if title(e).startswith(k) and i not in used]
-            assert len(hits) == 1, (ch, k, len(hits))
-            used.add(hits[0]); e = ents[hits[0]]
-            new.append(('e', ch) + tuple(e[2:]))
+    for ch, (story, evid) in _ORDER.items():
+        for label, keys in (('The story', story), ('The evidence', evid)):
+            if not keys:
+                continue
+            if ch != 13:
+                new.append(('s', ch, label, EVIDENCE_SUB if label == 'The evidence' else ''))
+            for k in keys:
+                hits = [i for i, e in enumerate(ents) if title(e).startswith(k) and i not in used]
+                assert len(hits) == 1, (ch, k, len(hits))
+                used.add(hits[0]); e = ents[hits[0]]
+                new.append(('e', ch) + tuple(e[2:]))
     missing = [title(e) for i, e in enumerate(ents) if i not in used]
     assert not missing, missing
     E[:] = new
 _restructure()
-LINKAT = {n: LINKAT[o] for n, o in ((1, 1), (2, 6), (3, 7), (4, 9), (5, 11), (6, 12), (8, 13), (12, 10))}
+
+# --- the era check -----------------------------------------------------------
+ERA_YEARS = {1: (-99999, -1200), 2: (-1200, -539), 3: (-539, 324), 4: (250, 638), 5: (638, 1099),
+             6: (1099, 1517), 7: (1500, 1562), 8: (1562, 1834), 9: (1834, 1900), 10: (1901, 1947),
+             11: (1948, 1967), 12: (1967, 2100)}
+_MONTHS = 'January|February|March|April|May|June|July|August|September|October|November|December'
+def date_years(d):
+    """The years a date string covers, as signed integers (BC negative); [] when undated."""
+    d = re.sub(r'<[^>]+>', '', d)
+    d = re.sub(r'(\d),(\d{3})', r'\1\2', d)
+    d = re.sub(r'\b\d{1,2} (%s)' % _MONTHS, '', d)
+    d = re.sub(r'(\d{3,4})/\d{1,2}\b', r'\1', d)
+    parts = re.split(r'→|·| against ', d)
+    out, bc = [], [('BC' in p) for p in parts]
+    for i, p in enumerate(parts):
+        isbc = bc[i] or (not re.search(r'\bCE\b|AD', p) and any(bc[i+1:]) and 'BC' in parts[-1])
+        cent = re.findall(r'(\d{1,2})(?:st|nd|rd|th)', p)
+        if cent and ('c.' in p or 'century' in p):
+            nums = []
+            for x in cent:
+                n = int(x)
+                nums += [n * 100, (n - 1) * 100] if isbc else [(n - 1) * 100, n * 100 - 1]
+        elif re.search(r'\d{4}s\b', p):
+            nums = []
+            for x in re.findall(r'(\d{4})s\b', p):
+                n = int(x)
+                nums += [n, n + (99 if n % 100 == 0 else 9)]
+        else:
+            nums = [int(x) for x in re.findall(r'\d+', p)]
+            if '–' in p and len(nums) == 2 and not isbc and nums[1] < 100 and nums[0] > 100:
+                nums[1] = nums[0] // 100 * 100 + nums[1]
+        out += [-n if isbc else n for n in nums]
+    return out
+
+# An entry that spans more than fifty years is a survey, not an event, and is
+# not held to date order. These few are placed by hand, with the reason.
+DATE_ORDER_EXCEPTIONS = {
+ 'The diaspora builds a hospital',  # fund-raising began in 1944; the hospital belongs to the years after 1948
+}
+ERA_EXCEPTIONS = {
+ 'What the family remembers',  # dated 1953, when the account was written down; it tells of the founding
+}
+def _check_eras():
+    title = lambda e: re.sub(r'<[^>]+>', '', e[5])
+    cur, label, last = None, None, None
+    for e in E:
+        if e[0] == 's':
+            label, last = e[2], None
+            continue
+        ch = e[1]
+        if ch != cur:
+            cur, last = ch, None
+        if ch not in ERA_YEARS or label != 'The story':
+            continue
+        ys = date_years(e[2])
+        if not ys:
+            continue
+        if title(e).startswith(tuple(ERA_EXCEPTIONS)):
+            continue
+        lo, hi = ERA_YEARS[ch]
+        assert min(ys) <= hi and max(ys) >= lo, ('story entry outside its era', ch, title(e), e[2], ys)
+        if title(e).startswith(tuple(DATE_ORDER_EXCEPTIONS)) or max(ys) - min(ys) > 50:
+            continue
+        if last is not None:
+            assert min(ys) >= last, ('story entries out of date order', ch, title(e), e[2])
+        last = min(ys)
+_check_eras()
+
+LINKAT = {n: LINKAT[o] for n, o in ((1, 1), (2, 4), (3, 5), (4, 7), (5, 8), (6, 9), (7, 11), (8, 12), (10, 13))}
 def _regroup(d, plan):
     assert set(d) <= set(plan), set(d) - set(plan)
     out = {}
@@ -3619,9 +3710,50 @@ def _regroup(d, plan):
         for it, n in zip(items, targets):
             out.setdefault(n, []).append(it)
     return out
-PHOTOS = _regroup(PHOTOS, {1: 1, 2: 1, 3: 2, 4: 2, 5: 2, 6: 2, 7: 3, 8: 3, 9: 4, 10: 5, 11: 5, 12: 7, 13: 8})
-LOCAL_PHOTOS = _regroup(LOCAL_PHOTOS, {12: 5, 13: 8})
-SHAHEEN = _regroup(SHAHEEN, {9: 4, 11: 5, 12: [5, 6, 7, 7, 7, 7], 13: [8, 8, 8, 8, 8, 9, 9, 10, 10]})
+PHOTOS = _regroup(PHOTOS, {1: 10, 2: 1, 3: 1, 4: 2, 5: 3, 6: 3, 7: 4, 8: 5, 9: 7, 10: 7, 11: 7, 12: 10, 13: 10})
+LOCAL_PHOTOS = _regroup(LOCAL_PHOTOS, {12: 7, 13: 10})
+SHAHEEN = _regroup(SHAHEEN, {9: 6, 11: 7, 12: [7, 8, 9, 9, 9, 9], 13: [10, 10, 10, 10, 10, 11, 11, 11, 12]})
+
+# Every picture: the year of what it shows, and, when it was made long after
+# that, a short label saying so. The build refuses a picture outside its era.
+PIC_DATES = {
+ 'ppmsca/13100/13196v.jpg': (1905, None),
+ 'matpc/04100/04114v.jpg': (-2000, 'Photographed 1934–39'),
+ 'matpc/05500/05506v.jpg': (-3000, 'Photographed 1926'),
+ 'matpc/22900/22915v.jpg': (-900, 'A modern photograph'),
+ 'matpc/01700/01719v.jpg': (-180, 'Photographed about 1900–1920'),
+ 'matpc/22100/22165v.jpg': (100, 'Photographed 1931'),
+ 'matpc/05300/05329v.jpg': (560, 'Photographed about 1900–1920'),
+ 'matpc/03700/03718v.jpg': (740, 'Photographed 1934–39'),
+ 'matpc/06900/06951v.jpg': (1500, 'Photographed 1898–1914'),
+ 'matpc/17000/17063v.jpg': (1500, 'Photographed 1937'),
+ 'matpc/22100/22174v.jpg': (1550, 'Photographed 1931'),
+ 'matpc/01000/01047v.jpg': (1910, None),
+ 'matpc/00600/00662v.jpg': (1905, None),
+ 'matpc/17700/17778v.jpg': (1938, None),
+ 'matpc/03300/03332v.jpg': (1936, None),
+ 'memorial_bronze.jpg': (1561, 'A modern memorial'),
+ 'period/spinning_1919.jpg': (1919, None),
+ 'p030_1.jpg': (1186, None), 'p024_1.jpg': (1553, None), 'p012_1.jpg': (1550, 'A modern map'),
+ 'p038_1.jpg': (1639, None), 'p231_1.jpg': (1875, None), 'p371_1.jpg': (1896, None),
+ 'p238_1.jpg': (1895, None), 'p202_1.jpg': (1900, None), 'p244_1.jpg': (1905, None),
+ 'p172_1.jpg': (1910, None), 'p245_2.jpg': (1912, None), 'p250_1.jpg': (1916, None),
+ 'p206_1.jpg': (1930, None), 'p185_1.jpg': (1949, None), 'p228_1.jpg': (1953, None),
+ 'p161_3.jpg': (1965, None), 'p162_2.jpg': (1968, None),
+}
+def _check_pictures():
+    for n, groups in ((n, (PHOTOS.get(n, []), LOCAL_PHOTOS.get(n, []), SHAHEEN.get(n, []))) for n in ERA_YEARS):
+        for g in groups:
+            for it in g:
+                shows, _lab = PIC_DATES[it[0]]
+                lo, hi = ERA_YEARS[n]
+                assert lo <= shows <= hi, ('picture outside its era', n, it[0], shows)
+    every = [it[0] for d in (PHOTOS, LOCAL_PHOTOS, SHAHEEN) for g in d.values() for it in g]
+    assert set(every) == set(PIC_DATES), set(every) ^ set(PIC_DATES)
+_check_pictures()
+def _made(key):
+    lab = PIC_DATES.get(key, (0, None))[1]
+    return f'<span class="made">{lab}.</span> ' if lab else ''
 
 
 def render():
@@ -3637,6 +3769,7 @@ def render():
             out.append(f'<div class="partband" id="part{num}"><div class="pk">{pk}</div><h2>{pt}</h2></div>')
         out.append(f'<div class="erahead" id="ch{num}">{band}{linkat(num)}</div>')
         out.append(photos_for(num))
+        open_q = []
         for e in grp:
             if e[0] == 's':
                 _, _c, lab, sub = e
@@ -3644,6 +3777,9 @@ def render():
                 out.append(f'<div class="sect"><span class="sl">{lab}</span>{sb}</div>')
                 continue
             _, _ch, date, grade, w2, title, note, bodyc = e
+            # "What we still don't know" paragraphs are gathered at the end of the chapter
+            open_q += WWSDK_RE.findall(bodyc)
+            bodyc = WWSDK_RE.sub('', bodyc).strip()
             gf, gc, gl = GRADE[grade]
             if w2 == 'shared':
                 w2h = '<span class="w2 sh">ONE TRADITION</span>'
@@ -3657,7 +3793,11 @@ def render():
                 f'<div class="entry{major}"><div class="ewhen"><span class="d">{date}</span>'
                 f'<span class="g" style="background:{gf};color:{gc}">{gl}</span>{w2h}</div>'
                 f'<div class="ebody"><h3>{title}</h3><div class="note">{note}</div>{more}</div></div>')
+        if open_q:
+            out.append('<div class="wwsdk"><h4>What we still don’t know</h4>'
+                       + ''.join(f'<p>{q}</p>' for q in open_q) + '</div>')
     return ''.join(out)
+WWSDK_RE = re.compile(r'<p><b>What we still don’t know\.</b>\s*(.*?)</p>', re.S)
 
 CONTENTS = ('<div class="contents"><h4>Contents</h4><ol>' + ''.join(
     f'<li><a href="#ch{n}"><span class="cnum">{k.replace("ERA ","").strip().title()}</span>'
@@ -3693,8 +3833,8 @@ with them to every city they went to, and to those, in every generation, who kep
 always known where they came from. They have told it at weddings and funerals, written it in notebooks,
 and carried it to San Francisco, Detroit and Jacksonville. What they have not had is the story set
 out, date by date, beside the records that can be checked.</p>
-<p>That is what we have tried to do. Part One tells the story in date order, and Part Two shows how we
-know it. Throughout, we follow two threads at once. One is the family’s own account,
+<p>That is what we have tried to do. The book is one timeline in twelve chapters. Each chapter tells
+the story of its years first, then shows how we know it. Throughout, we follow two threads at once. One is the family’s own account,
 reaching back through Rāshid al-Ḥaddādīn to Karak and to Ghassān. The other is what the land and the
 documents say: the archaeology of these hills, the Crusader charter, the Mamluk endowment, the Ottoman
 registers, the Jerusalem court, and the Mandate and Jordanian censuses. Where the two agree, we say so.
@@ -3727,12 +3867,16 @@ ours, and we will correct them in the open.</p>
 
 HOWTO = f"""
 <div class="howto"><h4>How to read this book</h4>
-<p><b>The book has two parts.</b> <b>Part One, “The Story of Ramallah”</b>, tells our history from the
-beginning to today in ten chapters, in date order. Each event sits at its own date, and the maps,
-charts, tables and photographs that go with it sit right beside it. <b>Part Two, “How We Know”</b>,
-gathers the harder questions: the Ghassān tradition, the missing centuries between the Ghassanid
-princes and Rāshid, the Ḥaddādīn of Karak, and what the evidence finally shows. Read Part One for the
-story. Turn to Part Two when you want to see how we reached it.</p>
+<p><b>The book is one timeline.</b> Twelve chapters run from the first people on these hills to
+today, in date order. <b>Every chapter has two halves, always in the same order.</b> <b>The story</b>
+tells what happened in those years, with the photographs, maps and charts that go with it.
+<b>The evidence</b> then sets out the sources for the same years and how we read them: the
+registers, the inscriptions, the family charts and the harder questions. Each chapter ends with
+<b>what we still don’t know</b>. Read the story halves for the history. Read on into the evidence
+when you want to see how we reached it.</p>
+<p><b>Every photograph sits in the chapter of what it shows.</b> When a picture was taken long after
+the time it shows, as with a photograph of a Roman road taken from the air in 1931, its caption opens
+by saying so.</p>
 <p><b>Two texts are the keys:</b> ʿAzīz Shāhīn’s history of 1982 and John Aziz Mogannam’s chart of
 thirty-six generations. Where both carry an entry <i>and testify independently</i> it wears
 <span class="w2">TWO WITNESSES</span> — and from 1500 onward they do testify independently, because
@@ -3752,12 +3896,12 @@ Every entry also carries a grade, saying what kind of thing holds it up:
 A document outranks a memory, and the memory is kept anyway; an inference is drawn as an inference;
 a conflict is printed as a conflict; and where the record corrects the family, the correction
 appears in a marked box at the date where it happens.</p>
-<p><b>The chapters of Part One follow the land through time</b>, from the first people who lived on it
+<p><b>The chapters follow the land through time</b>, from the first people who lived on it
 to the city it holds today: Natufian, Canaanite, Iron Age, Persian and Hellenistic, Roman, Byzantine,
 early Islamic, Crusader and Mamluk, Ottoman, Mandate, Jordanian and our own day. <i>The land is the
 thread that holds the story together, and our families are part of what happened on it.</i></p>
-<p><b>Our own family line runs through the story as a chain of nine links.</b> Each chapter of Part
-One opens with a strip showing where that chain stands: which link we have reached, and what evidence
+<p><b>Our own family line runs through the story as a chain of nine links.</b> Most chapters
+open with a strip showing where that chain stands: which link we have reached, and what evidence
 there is for it at that point. Often the honest answer is <i>none</i>, and the strip says so. Figure 1 sets out all nine
 links at once, each with the source that carries it and, printed for the first time in this edition,
 <b>what would break it</b>.</p>
@@ -3779,7 +3923,7 @@ drawn as a single line. <b>This book's number</b> counts generations: <b>sixty-s
 Eve to Rāshid, and about eighteen more to this morning, <b>eighty-four in all</b>. So <i>“the
 Mogannam chart, generation 36”</i> means Rāshid's row on the chart, and <i>“generation 66”</i> means
 Rāshid. Generations 1 to 34 carry the same number in both.</p>
-<p><b>Part Two ends with what the evidence shows</b> about three things: where we come from, how we
+<p><b>The book closes with what the evidence shows</b> about three things: where we come from, how we
 became part of the Palestinian people, and when and how Ramallah was founded, with the key dates on one
 page. <b>After the bibliography comes the test of the family’s own presentation</b>: all thirty-six of
 its claims that can be checked, each with what we found, so that anyone can check them again.</p>
