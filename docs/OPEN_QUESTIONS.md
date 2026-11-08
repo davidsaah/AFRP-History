@@ -345,3 +345,18 @@ Ranked by size. Each has a named source, several already on the shelf and uncite
 - **The Dār Jiryis count.** Is it 43 or 13? The minutes are hard to read.
 - **Rights.** Reproducing two pages from Israel State Archives P-213/40 is
   not yet cleared with the Archives.
+
+## Worked on 8 November 2026 (v65): the review fixes
+
+Fixed in the text (v65): the seven lands of the itinerary, ʿAin Samiya's
+distance, the 1967 caption and chart note, "continuously Christian" against
+Schick, and one cross-reference left from the old order. Still open:
+- **The Federation's convention count.** The fiftieth (Detroit 2008) counts
+  back to 1959, but the sixty-third (Dearborn 2022) is a year off. Was a
+  convention skipped, perhaps in 2020? Ask the Federation for its list.
+- **ʿAin Samiya's position.** The note still asks for the site's exact
+  position to be checked before the distance is quoted.
+- **Glosses added in the rewrite.** Check with John Mogannam: *diwan* ("the
+  clan's own family association"), *madāfa* ("a clan's guest house") and
+  *qaṣr* ("a stone field-house").
+

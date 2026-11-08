@@ -615,7 +615,7 @@ def fig_pop():
     s.append(txt(212, ly + 4, 'an estimate, or a count of houses or taxable men', 10, BODY))
     s.append(f'<circle cx="560" cy="{ly}" r="4.5" fill="{FOLIO}"/>')
     s.append(txt(572, ly + 4, 'projection', 10, BODY))
-    s.append(txt(40, H - 20, 'The 1596 figure assumes five people to a household. The 1967 fall is emigration after the occupation, not a counting error.', 10.5, BODY, 'start', '700'))
+    s.append(txt(40, H - 20, 'The 1596 figure assumes five people to a household. The 1967 fall is real: partly emigration after the occupation, partly a count taken under curfew.', 10.5, BODY, 'start', '700'))
     s.append('</svg>')
     return ''.join(s)
 

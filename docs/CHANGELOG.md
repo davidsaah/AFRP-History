@@ -1,5 +1,26 @@
 # Changelog
 
+## v65 — 8 November 2026
+
+### The review fixes
+
+Each fix follows the book's own source, or shows both readings where two
+parts of the book disagreed:
+- **The itinerary.** "A man walked this road" now has seven lands between
+  stop one and stop nine, not eight. The next sentence already said seven.
+- **ʿAin Samiya.** The distance is about thirteen kilometres, as its note
+  says, not fifteen.
+- **1967.** The population chart's caption and the note under the chart now
+  agree with the entry: the fall is partly emigration and partly a count
+  taken under curfew.
+- **"Continuously Christian."** The sentence after the Schick box now says
+  the ridge's Christian presence ran on, while the plateau's was much reduced
+  and may have been broken.
+- **The Federation.** The text now says what the convention numbers show
+  and what they do not. The gap is in `docs/OPEN_QUESTIONS.md`.
+- **One cross-reference** from the old order ("the entry above") now names
+  the entry and its chapter.
+
 ## v64 — 8 November 2026
 
 ### One voice
