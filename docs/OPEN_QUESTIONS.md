@@ -329,3 +329,19 @@ Ranked by size. Each has a named source, several already on the shelf and uncite
     LoC copy in chapter 1;
   - the Madaba Jerusalem detail, since chapter 7 already has the whole map;
   - the Beitīn engravings and the LoC Bethel view.
+
+## Worked on 7 November 2026 (v61.2): the 1946 election file
+
+- **Transcribe the voters' lists.** The lists are PDF pp. 117–124 (by house)
+  and pp. 135–141 (men entitled in a second district). They hold about 580
+  names. Transcribe them with Arabic, Latin, house, district and page, then
+  match them against the family tree for John to review. Every voter was
+  alive and 21 or over in early 1946.
+- **The case.** Find who petitioned, the court and the decision, and
+  exhibit P.5 (the register with ages). These are not in the Atalla file.
+- **Yūsuf Jiryis Qaddūra.** Is the councillor elected in 1946 the author of
+  the 1954 history?
+- **Filasṭīn, 7 April 1946.** Find the notice of the district 2 poll.
+- **The Dār Jiryis count.** Is it 43 or 13? The minutes are hard to read.
+- **Rights.** Reproducing two pages from Israel State Archives P-213/40 is
+  not yet cleared with the Archives.

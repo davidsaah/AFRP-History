@@ -143,7 +143,8 @@ print or has a published edition; the book cites the edition.
 `2009_Hughes_The_Banality_of_Brutality_EHR.pdf` · `2010_Hughes_From_Law_and_Order_to_Pacification_JPS39.pdf` ·
 `2015_Hughes_Palestinian_Collaboration_Peace_Bands_JCH.pdf` · `2019_Hughes_Women_Violence_and_the_Arab_Revolt.pdf` ·
 `2018_Dalachanis_Lemire_Ordinary_Jerusalem_1840-1940_OA.pdf` ·
-`2021_SanchezSummerer_Zananiri_European_Cultural_Diplomacy_Arab_Christians_OA.pdf`
+`2021_SanchezSummerer_Zananiri_European_Cultural_Diplomacy_Arab_Christians_OA.pdf` ·
+`1946_Ramallah_Municipal_Election_File_Atalla_ISA_P-213-40.pdf` (Israel State Archives P-213/40; scans, no text layer)
 
 ### Ramallah and al-Bīra
 
