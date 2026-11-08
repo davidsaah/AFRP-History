@@ -269,141 +269,156 @@ CH(1)
 
 sect('And in our own line', 'Where the family says it begins — and the only kind of evidence there is for it')
 ent('—', 'scripture', 'shared', 'Adam and Eve',
- 'The line this book follows begins where Genesis begins. <b>Adam to ʿĀbir (Eber) is Genesis 5 and 11</b>{}, and nothing else — no document, no inscription, no excavation reaches it, and none is claimed.'.format(c('Genesis 5:3–32 and 11:10–14. Fourteen names from Adam to Eber in the Masoretic text; fifteen in the Septuagint, which inserts Kainan. The family chart counts thirteen. See the branch figure below, and the appendix.')),
+ 'Our family line begins where Genesis begins. <b>From Adam to ʿĀbir (Eber), the line is Genesis 5 and 11</b>{}, and nothing else. No document, inscription or excavation reaches back that far, and we do not claim that one does.'.format(c('Genesis 5:3–32 and 11:10–14. Fourteen names from Adam to Eber in the Masoretic text; fifteen in the Septuagint, which inserts Kainan. The family chart counts thirteen. See the branch figure below, and the appendix.')),
  f"""
-<p>Before anything else is said, the <i>form</i> of a claim like this should be recognised. Medieval
-peoples across three continents wrote their descent to a universal ancestor: the House of Wessex to
-Woden and thence to Noah, the Irish kings to Míl, the Georgian kings to a grandson of Noah{c('<i>The Anglo-Saxon Chronicle</i>, s.a. 855, the genealogy of Æthelwulf; the Irish Milesian genealogies; the Georgian royal genealogies from Kartlos.')}.
-<b>What such a line asserts is membership in the human story, not a chain of verified fathers</b> —
-and reading it as the latter, then finding it wanting, is a category error.</p>
-<p><b>A note on method, because it changed for this edition.</b> The family has its own guide to this
-line: <b>John Aziz Mogannam’s chart of thirty-six named generations</b> — this book’s co-author’s
-own prior work — Adam to Rāshid, in Arabic
-and English. <i>This book no longer treats that chart as a source.</i> The line here is built from
-the texts and the documents directly — Genesis, the Arabic genealogists, Procopius, the Ottoman
-registers — and the chart is printed in the appendix as what it is: <b>the family’s own working
-guide, and a very good one, which the sources are allowed to correct</b>{c('John Aziz Mogannam, chart of thirty-six named generations, Adam and Eve to Rāshid, in Arabic and English; the deep lineage compiled after al-Suwaydī, <i>Sabāʾik al-dhahab</i>, and Wüstenfeld’s tables, both in the family library. Printed in full in the appendix to this book, with the points at which it diverges from the sources. <b>Its compiler is a co-author of this book. Every correction to it printed here is therefore a self-correction, made in the open and in our own voice — which is the only kind this book is entitled to make.</b>')}. Where the two differ, the
-difference is printed rather than reconciled.</p>
-<p><b>The one text that is still a key is ʿAzīz Shāhīn’s history of 1982</b>{c('ʿAzīz Shāhīn, <span class="ar">كشف النقاب عن تاريخ رام الله والأنساب</span> (1982), 894 pp., OCR’d in full for this project; the English edition read complete. '+D('1982_Shahin_Kashf_al-Niqab_OCR_TEXT.txt')+'.')} — a documentary
-history of the town, written from local memory and local records, and testable line by line. Where
-Shāhīn and the chart independently carry an entry, it wears the badge
-<span class="w2">TWO WITNESSES</span>; where they are drinking from the same well, it wears
+<p>First, it helps to see what <i>kind</i> of claim this is. Many medieval peoples, on three
+continents, traced their descent back to an ancestor of all people. The House of Wessex went back to
+Woden, and from him to Noah. The Irish kings went back to Míl. The Georgian kings went back to a
+grandson of Noah{c('<i>The Anglo-Saxon Chronicle</i>, s.a. 855, the genealogy of Æthelwulf; the Irish Milesian genealogies; the Georgian royal genealogies from Kartlos.')}.</p>
+<p><b>A line like this says that a family belongs to the human story. It does not claim a chain of
+checked fathers.</b> If we read it as such a chain, and then find it wanting, we have mistaken one
+kind of thing for another.</p>
+<p><b>How we use the family chart has changed in this edition.</b> The family has its own guide to
+this line: <b>John Aziz Mogannam’s chart of thirty-six named generations</b>, from Adam to Rāshid,
+in Arabic and English. It is the earlier work of one of this book’s own authors. <i>We no longer
+treat that chart as a source.</i> We build the line from the texts and the documents directly:
+Genesis, the Arabic genealogists, Procopius, the Ottoman registers. The chart is printed in the
+appendix as what it is: <b>the family’s own working guide, and a very good one, which the sources
+are allowed to correct</b>{c('John Aziz Mogannam, chart of thirty-six named generations, Adam and Eve to Rāshid, in Arabic and English; the deep lineage compiled after al-Suwaydī, <i>Sabāʾik al-dhahab</i>, and Wüstenfeld’s tables, both in the family library. Printed in full in the appendix to this book, with the points at which it diverges from the sources. <b>Its compiler is a co-author of this book. Every correction to it printed here is therefore a self-correction, made in the open and in our own voice — which is the only kind this book is entitled to make.</b>')}. Where the two differ,
+we print the difference rather than smooth it over.</p>
+<p><b>One text is still a key for us: ʿAzīz Shāhīn’s history of the town, published in 1982</b>{c('ʿAzīz Shāhīn, <span class="ar">كشف النقاب عن تاريخ رام الله والأنساب</span> (1982), 894 pp., OCR’d in full for this project; the English edition read complete. '+D('1982_Shahin_Kashf_al-Niqab_OCR_TEXT.txt')+'.')}. It is a documentary
+history, written from local memory and local records, and we can check it line by line. When Shāhīn
+and the chart each carry an entry on their own, the entry wears the badge
+<span class="w2">TWO WITNESSES</span>. When the two are drinking from the same well, it wears
 <span class="w2 sh">ONE TRADITION</span> instead.</p>"""),
 
 ent('—', 'scripture', False, 'The three Bibles disagree about the date of creation',
- 'By as much as <b>1,366 years</b>: the span from creation to Abraham is 1,948 years in the Masoretic text, 3,314 in the Septuagint, 2,249 in the Samaritan.',
+ 'They differ by as much as <b>1,366 years</b>. From creation to Abraham is 1,948 years in the Masoretic text (the standard Hebrew Bible), 3,314 in the Septuagint (the ancient Greek translation) and 2,249 in the Samaritan text.',
  f"""
-{fig(R.fig_chron(),'A line to Adam implies a date for Adam',
- 'The three surviving forms of the Old Testament give systematically different ages for the patriarchs. The choice of text is itself confessional — and the family’s, as a Rūm Orthodox house, is the Septuagint.',
+{fig(R.fig_chron(),'A line back to Adam also gives a date for Adam',
+ 'The three surviving forms of the Old Testament give the patriarchs different ages, and they differ in a steady pattern. Which text a family uses depends on its church. Ours is a Rūm Orthodox family, so our text is the Septuagint.',
  'Genesis 5 and 11 in the Masoretic, Septuagint and Samaritan recensions.')}
-<p>These are scripture, not chronology, and were never meant as chronology{c('The Byzantine <i>anno mundi</i> era, built on the Septuagint chronology, was the reckoning of the Orthodox churches; the Masoretic figures underlie the Western <i>anno mundi</i>.')}. The
-first thirteen generations of the chart make no claim a laboratory could test — <i>and assert
-something no laboratory could touch: that this family belongs to the whole human story.</i></p>"""),
+<p>These numbers are scripture, not a timeline, and they were never meant as one{c('The Byzantine <i>anno mundi</i> era, built on the Septuagint chronology, was the reckoning of the Orthodox churches; the Masoretic figures underlie the Western <i>anno mundi</i>.')}.</p>
+<p>The first thirteen generations of the chart make no claim a laboratory could test. <i>Instead
+they say something no laboratory could touch: that our family belongs to the whole human
+story.</i></p>"""),
 
 CH(1)
 ent('—', 'scripture', False, 'Joktan’s thirteen sons — and a homeland',
- 'Genesis 10:26–29 names thirteen sons of Joktan. <b>Several of them can be put on a map, and they are all in South Arabia — Hazarmaveth is Ḥaḍramawt and Sheba is Sabaʾ beyond serious doubt, with Ophir, Havilah and Uzal also generally placed there</b>{}. <i>Scripture itself places this branch in the exact country every later chapter of the family tradition walks out of.</i>'.format(c('Genesis 10:26–29, and the closing formula at 10:29b, “all these were the descendants of Joktan.” <b>Ḥaṣarmāweṯ = Ḥaḍramawt</b> is the securest identification in the list: the consonantal skeleton ḥ-ḍ-r-m-w-t matches the South Arabian kingdom <i>ḥḍrmt</i> attested in Sabaic inscriptions and in Pliny (<i>NH</i> VI.32, <i>Atramitae</i>) and Ptolemy (<i>Chatramotitai</i>). The Hebrew form invites a folk-etymology “court of death”, which is secondary. <b>Šəḇā = Sabaʾ</b> is secure as a place; note that Genesis gives a Sheba three times over (10:7 via Cush, 10:28 via Joktan, 25:3 via Abraham and Jokshan), and which line the Sabaeans belong to is an old crux. <b>Ophir and Havilah are disputed</b> — Ophir has been placed in south-west Arabia, on the African Red Sea coast and in India, and no location commands agreement. The remaining nine are names that fit South Arabian onomastics and nothing more.')),
+ 'Genesis 10:26–29 names thirteen sons of Joktan. <b>Several of them can be found on a map, and all of those are in South Arabia. Hazarmaveth is Ḥaḍramawt and Sheba is Sabaʾ, beyond serious doubt. Ophir, Havilah and Uzal are also usually placed there</b>{}. <i>So scripture itself puts this branch in the very country that every later chapter of our family tradition walks out of.</i>'.format(c('Genesis 10:26–29, and the closing formula at 10:29b, “all these were the descendants of Joktan.” <b>Ḥaṣarmāweṯ = Ḥaḍramawt</b> is the securest identification in the list: the consonantal skeleton ḥ-ḍ-r-m-w-t matches the South Arabian kingdom <i>ḥḍrmt</i> attested in Sabaic inscriptions and in Pliny (<i>NH</i> VI.32, <i>Atramitae</i>) and Ptolemy (<i>Chatramotitai</i>). The Hebrew form invites a folk-etymology “court of death”, which is secondary. <b>Šəḇā = Sabaʾ</b> is secure as a place; note that Genesis gives a Sheba three times over (10:7 via Cush, 10:28 via Joktan, 25:3 via Abraham and Jokshan), and which line the Sabaeans belong to is an old crux. <b>Ophir and Havilah are disputed</b> — Ophir has been placed in south-west Arabia, on the African Red Sea coast and in India, and no location commands agreement. The remaining nine are names that fit South Arabian onomastics and nothing more.')),
  f"""
-{fig(F4.fig_branch(),'The branch at ʿĀbir — where this line leaves Abraham’s',
- 'Genesis 10:25 gives ʿĀbir (Eber) two sons and says so in a pun: <i>Peleg</i>, “because in his days the earth was divided” — <i>niplegāh</i>, from the same root as the name. Peleg’s line runs on through Reu, Serug, Nahor and Terah to <b>Abraham</b>, and from Abraham through Isaac, Jacob, Levi, Kohath and Amram to <b>Moses</b>. Joktan’s line is ours. <b>The two branches part three generations after the Flood — four in the Septuagint, which inserts Kainan — and six generations before Abraham</b> — so the honest answer to “where do we split from Abraham?” is that we never joined him. We share Noah, Shem and ʿĀbir with that line, and part company at ʿĀbir’s two sons.',
+{fig(F4.fig_branch(),'The branch at ʿĀbir — where our line parts from Abraham’s',
+ 'Genesis 10:25 gives ʿĀbir (Eber) two sons, and names one of them with a pun. He is <i>Peleg</i>, “because in his days the earth was divided” — <i>niplegāh</i>, from the same root as the name. Peleg’s line runs on through Reu, Serug, Nahor and Terah to <b>Abraham</b>. From Abraham it runs through Isaac, Jacob, Levi, Kohath and Amram to <b>Moses</b>. Joktan’s line is ours. <b>The two branches part three generations after the Flood (four in the Septuagint, which inserts Kainan), and six generations before Abraham.</b> So the honest answer to “where do we split from Abraham?” is that we never joined him. We share Noah, Shem and ʿĀbir with his line, and part company at ʿĀbir’s two sons.',
  'Genesis 5; 10:21–29; 11:10–26; Exodus 6:16–20. The Septuagint reading of Genesis 11:12–13 and Luke 3:36 for Kainan.')}
-<p><b>Where Moses sits, and how far away he is.</b> Counting inclusively, Moses is the seventh name
-from Abraham — Abraham, Isaac, Jacob, Levi, Kohath, Amram, Moses — and he stands on the far branch,
-not on ours{c('Genesis 11:26 for Abraham; Exodus 6:16–20 for Levi, Kohath, Amram and Moses; the same line at Numbers 26:57–59 and 1 Chronicles 6:1–3.')}. That short chain is itself a known problem inside the text: three generations cannot
-span the four hundred and thirty years the same book assigns to the sojourn in Egypt, and the usual
-resolution is that the list is a clan genealogy telescoped into personal names{c('Exodus 12:40–41 gives the sojourn in Egypt as 430 years, which three generations cannot span; Numbers 3:27–28 already counts 8,600 Kohathite males in the wilderness, impossible if Amram were Moses’s biological father. The standard reading is that “Amram” names the Amramite clan (Numbers 3:27) rather than a father — the list is telescoped. Genesis 15:16, “the fourth generation,” reflects the same short schema.')}. <i>It is worth
-saying plainly, because it is the same kind of problem this book has at generation 35 — and the
-Bible does not solve it either.</i></p>
-<p><b>And a divergence worth printing.</b> The family chart counts <b>thirteen</b> names from Adam to
-ʿĀbir. Genesis in the Masoretic text gives <b>fourteen</b>; the Septuagint gives <b>fifteen</b>,
-inserting <b>Kainan</b> between Arpachshad and Shelah — and Luke follows the Septuagint{c('Masoretic Genesis 5:3–32 and 11:10–14 give fourteen names from Adam to Eber. The Septuagint inserts Kainan at Genesis 11:12–13, and again at LXX Genesis 10:24 and LXX 1 Chronicles 1:18; Jubilees 8:1–5 has him too. Luke 3:36 follows the Septuagint, though the name is absent from Codex Bezae. Fourteen names in the Masoretic text against fifteen in the Septuagint.')}. The
-difference is one or two names in a list nobody can check, and it changes nothing about the argument.
-<i>It is printed because a chart the family uses as a guide should be measured against the text it
+<p><b>Where Moses sits, and how far away he is.</b> Counting both ends, Moses is the seventh name
+from Abraham: Abraham, Isaac, Jacob, Levi, Kohath, Amram, Moses. He stands on the far branch, not
+on ours{c('Genesis 11:26 for Abraham; Exodus 6:16–20 for Levi, Kohath, Amram and Moses; the same line at Numbers 26:57–59 and 1 Chronicles 6:1–3.')}.</p>
+<p>That short chain is a known problem inside the text itself. Three generations cannot cover the
+four hundred and thirty years that the same book gives for the stay in Egypt. The usual answer is
+that the list is a clan genealogy, squeezed down (scholars say “telescoped”) into the names of single
+people{c('Exodus 12:40–41 gives the sojourn in Egypt as 430 years, which three generations cannot span; Numbers 3:27–28 already counts 8,600 Kohathite males in the wilderness, impossible if Amram were Moses’s biological father. The standard reading is that “Amram” names the Amramite clan (Numbers 3:27) rather than a father — the list is telescoped. Genesis 15:16, “the fourth generation,” reflects the same short schema.')}. <i>We say this plainly
+because we meet the same kind of problem at generation 35, and the Bible does not solve it
+either.</i></p>
+<p><b>And one difference we want to show.</b> The family chart counts <b>thirteen</b> names from Adam
+to ʿĀbir. The Masoretic text of Genesis gives <b>fourteen</b>. The Septuagint gives <b>fifteen</b>,
+because it adds <b>Kainan</b> between Arpachshad and Shelah, and Luke follows the Septuagint{c('Masoretic Genesis 5:3–32 and 11:10–14 give fourteen names from Adam to Eber. The Septuagint inserts Kainan at Genesis 11:12–13, and again at LXX Genesis 10:24 and LXX 1 Chronicles 1:18; Jubilees 8:1–5 has him too. Luke 3:36 follows the Septuagint, though the name is absent from Codex Bezae. Fourteen names in the Masoretic text against fifteen in the Septuagint.')}. The
+difference is one or two names in a list nobody can check, and it changes nothing in our argument.
+<i>We print it because a chart the family uses as a guide should be measured against the text it
 comes from, not the other way round.</i></p>"""),
 
 
 sect('What the ground says', 'The other account of how this started — and it begins in this governorate')
 
 ent('c. 13,000 – 9,600 BC', 'attested', False, 'The Natufians — and the cave the whole culture is named after',
- 'Scripture’s account of the beginning has just been given. <b>Here is the ground’s.</b> The first people in this land to build regularly in stone and hold a camp through the year are called <b>Natufians</b> — and they are called that because the culture was first identified, in 1928, in a cave on the north bank of <b>Wādī an-Naṭūf, in the Ramallah and al-Bīra governorate, some eighteen kilometres west-north-west of Ramallah</b>{}. <i>The oldest named thing in this entire book is local.</i>'.format(c('Shuqba Cave, north bank of Wādī an-Naṭūf, Ramallah and al-Bīra Governorate; 31.9819° N, 35.0436° E — some 17.7 km west-north-west of Ramallah. The figure of 28 km often attached to the cave is its distance from Jerusalem, not from Ramallah.')),
+ 'We have just told scripture’s account of the beginning. <b>Now here is what the ground tells.</b> The first people in this land to build regularly in stone, and to keep a camp all through the year, are called <b>Natufians</b>. They have that name because their culture was first identified in 1928, in a cave on the north bank of <b>Wādī an-Naṭūf, in the Ramallah and al-Bīra governorate, some eighteen kilometres west-north-west of Ramallah</b>{}. <i>The oldest named thing in our whole story is local.</i>'.format(c('Shuqba Cave, north bank of Wādī an-Naṭūf, Ramallah and al-Bīra Governorate; 31.9819° N, 35.0436° E — some 17.7 km west-north-west of Ramallah. The figure of 28 km often attached to the cave is its distance from Jerusalem, not from Ramallah.')),
  f"""
 {fig(ATLAS.fig_oldest(),'The oldest ground within a morning’s walk of Ramallah',
- 'Every dot is a site with a published excavation and a calibrated date, and every distance is measured from the centre of Ramallah. The nearest of them, Tell en-Naṣba, is under two kilometres away. <b>What the map cannot show is how little of these highlands has been dug</b>: the blank spaces are gaps in the survey record, not gaps in the past, and this book says so rather than implying the district was empty.',
+ 'Each dot is a site with a published excavation and a calibrated date (a radiocarbon date corrected to calendar years). Each distance is measured from the centre of Ramallah. The nearest site, Tell en-Naṣba, is under two kilometres away. <b>What the map cannot show is how little of these highlands has been dug.</b> The blank spaces are gaps in the survey record, not gaps in the past. We say so plainly, so that no one reads the map as showing an empty district.',
  'Garrod (1928, 1932); Boyd &amp; Crossland, Antiquity 74 (2000); Badè at Tell en-Naṣba (1926–35); Marquet-Krause and Callaway at et-Tell; Yeivin at ʿAin Samiya; Khalaily and Vardi at Motza; Perrot and Khalaily at Abu Ghosh; Kenyon at Tell es-Sultan.')}
 <p><b>Dorothy Garrod dug the cave at Shuqba for the British School of Archaeology in Jerusalem in
-1928</b>, and named the industry she found there after the wadi{c('D. A. E. Garrod, “Excavation of a Palaeolithic cave in western Judaea,” <i>Quarterly Statement of the Palestine Exploration Fund</i> 60 (1928), 182–85; and “A new Mesolithic industry: the Natufian of Palestine,” <i>Journal of the Royal Anthropological Institute</i> 62 (1932), 257–69 — the formal naming paper. The full excavation report is Garrod &amp; D. M. A. Bate, “Excavations at the cave of Shukbah, Palestine, 1928,” <i>Proceedings of the Prehistoric Society</i> 8 (1942), 1–20.')}. She did not find it first —
-Fr Alexis Mallon had noted the cave in 1924 and urged the School to take it on — but hers is the
-excavation that gave the culture its name, and the name is a Palestinian place-name{c('Alexis Mallon, “Quelques stations préhistoriques de Palestine,” <i>Mélanges de l’Université Saint-Joseph</i> 19 (1925), 191–92. Fieldwork was resumed at the cave and in the wadi by Brian Boyd and Zoë Crossland, “New fieldwork at Shuqba Cave and in Wadi en-Natuf, Western Judea,” <i>Antiquity</i> 74:286 (2000), 755–56.')}.</p>
-<p><b>What is claimed here, and what is not.</b> The Natufians are often called the first sedentary
-people in the world. <i>That is more than the evidence carries.</i> Brush huts with prepared floors
-and bedding at Ohalo II, on the Sea of Galilee, are some eight thousand years older, and how complete
-Natufian sedentism was is actively argued{c('Chronology after L. Grosman, “The Natufian Chronological Scheme — New Insights and their Implications,” in Bar-Yosef &amp; Valla (eds), <i>Natufian Foragers in the Levant</i> (2013), 622–37: roughly 13,050–9,550 cal BC, conventionally split into an Early and a Late phase — though T. Richter et al., <i>Scientific Reports</i> 7 (2017), 17025, show the two overlap. For the earlier huts: D. Nadel et al., “Stone Age hut in Israel yields world’s oldest evidence of bedding,” <i>PNAS</i> 101:17 (2004), 6821–26. For the sceptical case on sedentism: Brian Boyd, “On ‘sedentism’ in the Later Epipalaeolithic (Natufian) Levant,” <i>World Archaeology</i> 38:2 (2006), 164–78.')}. <b>What is defensible is narrower and still remarkable:
-they were the first here to build routinely in stone, and the first with base camps occupied through
-much or all of the year — before farming.</b> The best single piece of evidence is not architectural
-at all: the <b>house mouse</b> displaces its wild cousin only where people stay put long enough to
-sustain it, and the house mouse appears at Natufian sites{c('L. Weissbrod, F. B. Marshall, F. R. Valla, H. Khalaily, G. Bar-Oz, J.-C. Auffray, J.-D. Vigne &amp; T. Cucchi, “Origins of house mice in ecological niches created by settled hunter-gatherers in the Levant 15,000 y ago,” <i>PNAS</i> 114:16 (2017), 4099–4104. Cited here as strong but not unchallenged; it drew a published comment and reply in the same journal.')}.</p>
-<p><b>And below the Natufian floor of that same cave, something older still.</b> Garrod recovered a
-single tooth from the Mousterian layer beneath — a child’s <b>permanent</b> lower first molar, from an
-individual of about seven to twelve years. In 2021 a re-examination by
-micro-CT identified it as <b>Neanderthal — the southernmost Neanderthal yet securely identified</b>,
-and — <i>on the excavators’ reading, which is disputed</i> — found with Nubian Levallois
-stone-working, a technique previously treated as a signature of <i>Homo sapiens</i>{c('J. Blinkhorn, C. Zanolli, T. Compton, H. S. Groucutt, E. M. L. Scerri, L. Crété, C. Stringer, M. D. Petraglia &amp; S. Blockley, “Nubian Levallois technology associated with southernmost Neanderthals,” <i>Scientific Reports</i> 11 (2021), 2869, DOI 10.1038/s41598-021-82257-6. The specimen is NHMUK PA EM 3869, a lower right first molar of a child from Layer D; it should not be confused with the Natufian burials Garrod found in Layer B above it, and there is still no direct chronometric date on Layer D. <b>The Nubian association was rebutted the following year in the same journal</b> — Hallinan, Barzilai, Bicho, Cascalheira, Demidenko, Goder-Goldberger, Hovers, Marks, Oron &amp; Rose, “No direct evidence for the presence of Nubian Levallois technology and its association with Neanderthals at Shukbah Cave,” <i>Scientific Reports</i> 12 (2022), DOI 10.1038/s41598-022-05072-7 — on the grounds that Layer D is a brecciated palimpsest that cannot be treated as one undisturbed deposit. <b>The tooth is Neanderthal. What it was found with is still argued.</b>')}. <i>Eighteen kilometres from Ramallah, in
-a cave in this governorate, and there is still no direct date on the layer.</i></p>"""),
+1928.</b> She named the “industry” she found there (archaeologists’ word for a recognisable way of
+making stone tools) after the valley, Wādī an-Naṭūf{c('D. A. E. Garrod, “Excavation of a Palaeolithic cave in western Judaea,” <i>Quarterly Statement of the Palestine Exploration Fund</i> 60 (1928), 182–85; and “A new Mesolithic industry: the Natufian of Palestine,” <i>Journal of the Royal Anthropological Institute</i> 62 (1932), 257–69 — the formal naming paper. The full excavation report is Garrod &amp; D. M. A. Bate, “Excavations at the cave of Shukbah, Palestine, 1928,” <i>Proceedings of the Prehistoric Society</i> 8 (1942), 1–20.')}. She did not find the cave first.
+Fr Alexis Mallon had noted it in 1924 and urged the School to take it on. But hers is the excavation
+that gave the culture its name, and the name is a Palestinian place-name{c('Alexis Mallon, “Quelques stations préhistoriques de Palestine,” <i>Mélanges de l’Université Saint-Joseph</i> 19 (1925), 191–92. Fieldwork was resumed at the cave and in the wadi by Brian Boyd and Zoë Crossland, “New fieldwork at Shuqba Cave and in Wadi en-Natuf, Western Judea,” <i>Antiquity</i> 74:286 (2000), 755–56.')}.</p>
+<p><b>What we can say, and what we cannot.</b> The Natufians are often called the first sedentary
+people in the world — people who stay in one place. <i>That is more than the evidence carries.</i>
+At Ohalo II, on the Sea of Galilee, there are brush huts with prepared floors and bedding some eight
+thousand years older. And scholars still argue about how fully settled the Natufians were{c('Chronology after L. Grosman, “The Natufian Chronological Scheme — New Insights and their Implications,” in Bar-Yosef &amp; Valla (eds), <i>Natufian Foragers in the Levant</i> (2013), 622–37: roughly 13,050–9,550 cal BC, conventionally split into an Early and a Late phase — though T. Richter et al., <i>Scientific Reports</i> 7 (2017), 17025, show the two overlap. For the earlier huts: D. Nadel et al., “Stone Age hut in Israel yields world’s oldest evidence of bedding,” <i>PNAS</i> 101:17 (2004), 6821–26. For the sceptical case on sedentism: Brian Boyd, “On ‘sedentism’ in the Later Epipalaeolithic (Natufian) Levant,” <i>World Archaeology</i> 38:2 (2006), 164–78.')}.</p>
+<p><b>What we can defend is narrower, and still remarkable. They were the first here to build in
+stone as a matter of course, and the first with base camps lived in through much or all of the
+year — before farming.</b> The best single piece of evidence is not a building at all. It is the
+<b>house mouse</b>. The house mouse pushes out its wild cousin only where people stay put long
+enough to keep it fed, and the house mouse appears at Natufian sites{c('L. Weissbrod, F. B. Marshall, F. R. Valla, H. Khalaily, G. Bar-Oz, J.-C. Auffray, J.-D. Vigne &amp; T. Cucchi, “Origins of house mice in ecological niches created by settled hunter-gatherers in the Levant 15,000 y ago,” <i>PNAS</i> 114:16 (2017), 4099–4104. Cited here as strong but not unchallenged; it drew a published comment and reply in the same journal.')}.</p>
+<p><b>Below the Natufian floor of that same cave lies something older still.</b> In the Mousterian
+layer beneath it (an older layer, named for a style of stone tools), Garrod found a single tooth. It
+is a child’s <b>permanent</b> lower first molar, from someone about seven to twelve years old. In
+2021 it was examined again with micro-CT, a fine three-dimensional X-ray scan. The scan identified
+it as <b>Neanderthal — the southernmost Neanderthal yet securely identified</b>. The same study said
+it was found with Nubian Levallois stone-working, a way of shaping stone that had been treated as a
+sign of <i>Homo sapiens</i>. <i>That second point is the excavators’ reading, and it is
+disputed</i>{c('J. Blinkhorn, C. Zanolli, T. Compton, H. S. Groucutt, E. M. L. Scerri, L. Crété, C. Stringer, M. D. Petraglia &amp; S. Blockley, “Nubian Levallois technology associated with southernmost Neanderthals,” <i>Scientific Reports</i> 11 (2021), 2869, DOI 10.1038/s41598-021-82257-6. The specimen is NHMUK PA EM 3869, a lower right first molar of a child from Layer D; it should not be confused with the Natufian burials Garrod found in Layer B above it, and there is still no direct chronometric date on Layer D. <b>The Nubian association was rebutted the following year in the same journal</b> — Hallinan, Barzilai, Bicho, Cascalheira, Demidenko, Goder-Goldberger, Hovers, Marks, Oron &amp; Rose, “No direct evidence for the presence of Nubian Levallois technology and its association with Neanderthals at Shukbah Cave,” <i>Scientific Reports</i> 12 (2022), DOI 10.1038/s41598-022-05072-7 — on the grounds that Layer D is a brecciated palimpsest that cannot be treated as one undisturbed deposit. <b>The tooth is Neanderthal. What it was found with is still argued.</b>')}. <i>All this lies eighteen kilometres from
+Ramallah, in a cave in our own governorate — and there is still no direct date on the layer.</i></p>"""),
 
 ent('c. 9600 BC', 'attested', False, 'Jericho: a town, a tower and a wall — twenty-three kilometres away',
- 'Twenty-three kilometres down the eastern slope from this ridge, at <b>Tell es-Sultan</b>, people stopped moving and stayed. Permanent settlement from about <b>9600 BC</b>; a round stone tower <b>8.5 metres high with twenty-two steps inside it</b>, built about <b>9000 BC</b>; a wall 3.6 metres high and 1.8 metres thick at the base{}. <i>It is twenty-three kilometres from Ramallah as the crow flies, and it is one of the earliest permanent settlements known anywhere on earth.</i> <b>And it is the same mound as the Jericho of Joshua 6</b> — but that town, if it is anywhere in this tell, lies near the <i>top</i> of it, some eight thousand years higher in the stratigraphy than the tower this entry is about{}. <i>One hill, forty layers, and this book is standing on the bottom one.</i>'.format(c('Kathleen M. Kenyon &amp; T. A. Holland (eds), <i>Excavations at Jericho, Vol. 3: The Architecture and Stratigraphy of the Tell</i> (London: British School of Archaeology in Jerusalem, 1981). The tower is c. 8.5 m high and c. 9 m across at the base, tapering to c. 7 m, with an internal staircase of twenty-two stone steps; the wall over 3.6 m high and 1.8 m thick at the base. Earlier work: Sellin and Watzinger 1907–11; Garstang 1930–36, whose Bronze Age dating Kenyon overturned.'), c('The Jericho of Joshua 6 would belong to the Late Bronze Age, at the top of a mound whose base is Pre-Pottery Neolithic A. Whether there was a walled Late Bronze town there at all is one of the longest-running arguments in the archaeology of this country — Garstang read the destruction as Joshua’s, Kenyon re-dated it, and the debate has not closed. <b>This book takes no position on it</b>, because its subject here is the bottom of the mound and not the top. See Sparks, Finlayson, Wagemakers &amp; Briffa (eds), <i>Digging Up Jericho</i> (2020).')),
+ 'Twenty-three kilometres down the eastern slope from our ridge, at <b>Tell es-Sultan</b>, people stopped moving and stayed. (A <i>tell</i> is a mound built up from layer upon layer of settlement.) There is permanent settlement here from about <b>9600 BC</b>. There is a round stone tower <b>8.5 metres high with twenty-two steps inside it</b>, built about <b>9000 BC</b>. And there is a wall 3.6 metres high and 1.8 metres thick at the base{}. <i>It is twenty-three kilometres from Ramallah as the crow flies, and it is one of the earliest permanent settlements known anywhere on earth.</i> <b>It is also the same mound as the Jericho of Joshua 6.</b> But that town, if it is anywhere in this tell, lies near the <i>top</i>. It is some eight thousand years higher in the layers than the tower we are looking at here{}. <i>One hill, forty layers, and here we are standing on the bottom one.</i>'.format(c('Kathleen M. Kenyon &amp; T. A. Holland (eds), <i>Excavations at Jericho, Vol. 3: The Architecture and Stratigraphy of the Tell</i> (London: British School of Archaeology in Jerusalem, 1981). The tower is c. 8.5 m high and c. 9 m across at the base, tapering to c. 7 m, with an internal staircase of twenty-two stone steps; the wall over 3.6 m high and 1.8 m thick at the base. Earlier work: Sellin and Watzinger 1907–11; Garstang 1930–36, whose Bronze Age dating Kenyon overturned.'), c('The Jericho of Joshua 6 would belong to the Late Bronze Age, at the top of a mound whose base is Pre-Pottery Neolithic A. Whether there was a walled Late Bronze town there at all is one of the longest-running arguments in the archaeology of this country — Garstang read the destruction as Joshua’s, Kenyon re-dated it, and the debate has not closed. <b>This book takes no position on it</b>, because its subject here is the bottom of the mound and not the top. See Sparks, Finlayson, Wagemakers &amp; Briffa (eds), <i>Digging Up Jericho</i> (2020).')),
  """
-<p><b>Two things usually said about Jericho should not be said.</b> It is <i>not</i> “the oldest
-continuously inhabited town in the world”: the tell has documented gaps — several centuries between
-the Pre-Pottery Neolithic A and B, more in the Pottery Neolithic, abandonment around 1950 BC, and
-effective abandonment after the Iron Age — and the modern town sits <i>beside</i> the mound, not on
-it. Nor is it safely the oldest walled town: the round towers at <b>Tell Qaramel</b> in northern
-Syria are some two thousand years older, and Jericho’s wall has never been traced around the whole
-settlement{a}. <b>UNESCO, inscribing the site in 2023 under the State of Palestine, calls it a sizeable
-permanent settlement and ties it to the shift to a sedentary way of life — and this book follows that
-wording rather than the tourist one</b>{b}.</p>
-<p><b>And what the tower was for is genuinely unresolved.</b> Kathleen Kenyon, who found it in 1952,
-read tower and wall as fortification. Ofer Bar-Yosef argued they were flood and mudflow defences, and
-made the strongest single point in the debate: <i>there is no evidence of burnt settlements, mass
-casualties or comparable fortifications anywhere in the Levant before the sixth millennium BC — some
-three thousand years later</i>. A
-defensive reading has to explain that absence. Others have read the tower as a monument of political
-authority over a prime spring, or as a solstice marker{d}. <b>No explanation commands agreement, and
-this book prints the disagreement rather than picking a side.</b></p>
-<p><i>One caution on dates, because it is a trap.</i> The figure “8000 BC,” still common in books, is
-an <b>uncalibrated</b> radiocarbon date from Kenyon’s samples. Calibrated, the Pre-Pottery Neolithic A
-at Tell es-Sultan runs roughly 9700/9600 to 8600/8500 BC, and the tower is about eleven thousand
-years old — around 9000 BC. This book uses the calibrated figures throughout.</p>
-<p><b>And something has to be said about who has been doing the digging.</b> Every excavator named so
-far in this entry is European or Israeli, and that is how this entry stood in earlier editions of
-this book — <i>which is not how the mound has actually been dug for the last thirty years.</i> Since
-<b>1997</b> Tell es-Sultan has been excavated by a joint expedition of the <b>Palestinian Department
-of Antiquities and Cultural Heritage</b>, under the Ministry of Tourism and Antiquities, and Rome
-«La Sapienza» — directed by <b>Hamdan Taha</b> and <b>Lorenzo Nigro</b>, with Nicolò Marchetti in the
-early seasons — and it is still running, with an interim report on the Bronze and Iron Age towns
-covering the seasons of 2019–2023, published by <b>Lorenzo Nigro and Jehad Yasine</b>{e}. It is their work, and not Kenyon’s, that now describes the
-<i>town</i> that stood around the tower: an urban plan and a massive fortification system in place by
-<b>Early Bronze II, about 3000–2700 BC</b>; a double city wall traced at the southern and
-south-western edges of the mound; a palace-centred society in <b>Early Bronze III</b>; and occupation
-spreading outside the Middle Bronze wall. <b>The nomination file on which UNESCO inscribed the site in
-2023 was prepared by a Palestinian team under that same ministry</b>{f}.</p>
+<p><b>Two things often said about Jericho are not true.</b> First, it is <i>not</i> “the oldest
+continuously inhabited town in the world”. The tell has known gaps. There are several centuries
+between the Pre-Pottery Neolithic A and B (two early farming phases, before people made pottery).
+There are more gaps in the Pottery Neolithic. The site was abandoned around 1950 BC, and all but
+abandoned after the Iron Age. And the modern town sits <i>beside</i> the mound, not on it.</p>
+<p>Second, we cannot safely call it the oldest walled town. The round towers at <b>Tell Qaramel</b>
+in northern Syria are some two thousand years older. And no one has ever traced Jericho’s wall around
+the whole settlement{a}.</p>
+<p><b>UNESCO inscribed the site in 2023 under the State of Palestine. It calls Jericho a sizeable
+permanent settlement, and links it to the shift to a settled way of life. We follow that wording,
+not the tourist one</b>{b}.</p>
+<p><b>What the tower was for is still not settled.</b> Kathleen Kenyon found it in 1952. She read the
+tower and the wall as defences against attack. Ofer Bar-Yosef argued they were defences against
+floods and mudflows. He made the strongest single point in the debate. <i>Nowhere in the Levant (the
+lands along the eastern Mediterranean) is there evidence of burnt settlements, mass deaths or
+similar fortifications before the sixth millennium BC — some three thousand years later.</i> Anyone
+who reads the tower as a defence against attack has to explain that absence. Others have read the
+tower as a monument to political power over a prime spring, or as a marker of the solstice{d}.</p>
+<p><b>Scholars disagree, and no explanation has won general agreement. We show the disagreement
+rather than pick a side.</b></p>
+<p><i>A word of caution about dates, because there is a trap here.</i> The figure “8000 BC” is still
+common in books. It is an <b>uncalibrated</b> radiocarbon date from Kenyon’s samples: a raw
+laboratory figure, not yet corrected to calendar years. Calibrated, the Pre-Pottery Neolithic A at
+Tell es-Sultan runs from roughly 9700/9600 to 8600/8500 BC. The tower is about eleven thousand years
+old, from around 9000 BC. We use the calibrated figures throughout.</p>
+<p><b>We also need to say who has been doing the digging.</b> Every excavator named so far is
+European or Israeli. That is how this entry stood in earlier editions. <i>But it is not how the
+mound has actually been dug for the last thirty years.</i></p>
+<p>Since <b>1997</b> Tell es-Sultan has been dug by a joint expedition. One partner is the
+<b>Palestinian Department of Antiquities and Cultural Heritage</b>, under the Ministry of Tourism and
+Antiquities. The other is Rome «La Sapienza». <b>Hamdan Taha</b> and <b>Lorenzo Nigro</b> direct it,
+with Nicolò Marchetti in the early seasons. The work is still running. An interim report on the
+Bronze and Iron Age towns, covering the seasons of 2019–2023, has been published by <b>Lorenzo Nigro
+and Jehad Yasine</b>{e}.</p>
+<p>Their work, not Kenyon’s, now describes the <i>town</i> that stood around the tower. By <b>Early
+Bronze II, about 3000–2700 BC</b>, it had a town plan and a massive system of fortifications. A
+double city wall has been traced at the southern and south-western edges of the mound. In <b>Early
+Bronze III</b> its society was centred on a palace. Later, settlement spread outside the Middle
+Bronze wall. <b>The nomination file on which UNESCO inscribed the site in 2023 was prepared by a
+Palestinian team under that same ministry</b>{f}.</p>
 <p><i>The tower is still Kenyon’s find, and what it was for is still unresolved.</i> But the town
-around it has been re-excavated, re-dated and published by the people whose town it is, and from this
-edition onward this book cites them for it.</p>
+around it has been dug again, dated again and published by the people whose town it is. From this
+edition on, we cite them for it.</p>
 {g}""".format(
   a=c('On the occupation gaps and the making of the “oldest city” claim, see Rachael Sparks, Bill Finlayson, Bart Wagemakers &amp; Josef Briffa (eds), <i>Digging Up Jericho: Past, Present and Future</i> (Oxford: Archaeopress, 2020) — the best single volume on the evidence and its historiography. For the older towers: R. F. Mazurowski &amp; Y. Kanjou (eds), <i>Tell Qaramel 1999–2007</i> (Warsaw: PCMA, 2012), with radiocarbon in Mazurowski et al., <i>Radiocarbon</i> 51:2 (2009), 771–81: the earliest tower c. 10,900–9,670 cal BC.'),
   b=c('UNESCO World Heritage List no. 1687, “Ancient Jericho/Tell es-Sultan,” inscribed 2023 at the extended 45th session of the World Heritage Committee, Riyadh, under the State of Palestine, on criteria (iii) and (iv). The statement of Outstanding Universal Value describes deposits “dating back to about 10,500 BC” and a “sizeable permanent settlement.” <a href="https://whc.unesco.org/en/list/1687/">whc.unesco.org/en/list/1687</a>.'),
   d=c('Kenyon &amp; Holland (1981) for the defensive reading; Ofer Bar-Yosef, “The Walls of Jericho: An Alternative Interpretation,” <i>Current Anthropology</i> 27:2 (1986), 157–62, for flood defence and the absence-of-warfare argument; Danny Naveh, “PPNA Jericho: A Socio-Political Perspective,” <i>Cambridge Archaeological Journal</i> 13:1 (2003), 83–96; Ran Barkai &amp; Roy Liran, “Midsummer Sunset at Neolithic Jericho,” <i>Time and Mind</i> 1:3 (2008), 273–83.'),
   e=c('The Italian–Palestinian Expedition to Tell es-Sultan, from 1997: Rome «La Sapienza» with the Palestinian Ministry of Tourism and Antiquities, Department of Antiquities and Cultural Heritage (MOTA-DACH). Season reports are published jointly under Lorenzo Nigro and Hamdan Taha, with Nicolò Marchetti in the first seasons — e.g. Marchetti, Nigro &amp; Taha, “Preliminary Report on the Third and Fourth Seasons… 1999–2000,” in I. Thuesen (ed.), <i>Proceedings of the Second ICAANE</i> (Bologna, 2016), 581–97; Nigro &amp; Taha, “The Early Bronze Age Palace and Fortifications at Tell es-Sultan/Jericho: the 6th–7th seasons (2010–2011)”; and the interim report on the Bronze and Iron Age cities covering 2019–2023. See also Nigro, <i>Aside the Spring: Tell es-Sultan / Ancient Jericho — the Tale of an Early City and Water Control in Ancient Palestine</i>.'),
   f=c('Hamdan Taha, “Tell es-Sultan, Ancient Jericho,” <i>This Week in Palestine</i>: “Following the transfer of authority to the Palestinian Authority in 1994, the Palestinian Department of Antiquities, working jointly with La Sapienza University of Rome, resumed the work at Tell es-Sultan,” and the nomination file was “being prepared by a team of experts under the auspices of the Ministry of Tourism and Antiquities.” Inscribed 2023 as World Heritage no. 1687, under the State of Palestine.'),
-  g=FIX('Jericho told entirely through Sellin and Watzinger, Garstang, Kenyon and Bar-Yosef — every excavator named in the entry European or Israeli.',
-        'The current excavation is <b>Palestinian–Italian and has run since 1997</b>: MOTA-DACH with Rome «La Sapienza», <b>Hamdan Taha</b> and <b>Lorenzo Nigro</b> directing. Their sequence for the Bronze Age town is the one this book now follows, and the 2023 UNESCO nomination is a Palestinian document.',
-        'Not a factual correction but a correction of attribution, and the book’s own standard requires it: <i>Palestinian and Arab scholarship is cited as the source, and the foreign partner as the route.</i> The Neolithic tower remains Kenyon’s discovery and is still credited to her; what changes is that the Bronze Age town, the fortifications and the site’s present interpretation are credited to the expedition that produced them.'))),
+  g=FIX('Jericho was told entirely through Sellin and Watzinger, Garstang, Kenyon and Bar-Yosef. Every excavator named in the entry was European or Israeli.',
+        'The current excavation is <b>Palestinian–Italian and has run since 1997</b>: MOTA-DACH with Rome «La Sapienza», with <b>Hamdan Taha</b> and <b>Lorenzo Nigro</b> directing. We now follow their sequence for the Bronze Age town. The 2023 UNESCO nomination is a Palestinian document.',
+        'This corrects who gets the credit, not a fact, and our own standard requires it: <i>Palestinian and Arab scholarship is cited as the source, and the foreign partner as the route.</i> The Neolithic tower is still Kenyon’s discovery and is still credited to her. What changes is that the Bronze Age town, the fortifications and the site’s present interpretation are credited to the expedition that produced them.'))),
 
 ent('the whole of it', 'attested', False, 'What this land is made of',
- 'Before the story starts moving, one picture of the whole thing: <b>fifteen thousand years of habitation on this ridge and around it, drawn as a section through a tell</b> — and the layer, four from the top, where our own family walks in.',
+ 'Before our story starts moving, here is one picture of the whole of it. <b>It shows fifteen thousand years of people living on this ridge and around it, drawn as a cut through a tell.</b> Four layers from the top is the one where our own family walks in.',
  fig(F4.fig_layers(),'The land, drawn as a tell — fifteen thousand years of layering',
-  'Read it from the bottom, the way a section is dug. <b>Nothing in this column replaces the layer beneath it.</b> Arrivals are absorbed; only the Franks, in the thin purple band, come and go again. The family arrives in the Ottoman layer, four from the top, into ground that had already been lived on continuously for more than eleven thousand years. <i>Layer thicknesses are drawn for legibility, not to scale in time; every date in the column is calibrated and sourced in the entries around this figure.</i>',
+  'Read it from the bottom up, the way an archaeologist digs. <b>Nothing in this column replaces the layer beneath it.</b> People who arrive are absorbed. Only the Franks, in the thin purple band, come and go again. Our family arrives in the Ottoman layer, four from the top. It comes into ground that people had already lived on without a break for more than eleven thousand years. <i>The layers are drawn thick enough to read, not to scale in time. Every date in the column is calibrated, and its source is given in the entries around this figure.</i>',
   'This book, throughout; the deep layers from the entries above, the later ones from the eras that follow.')),
 
 CH(4)
@@ -446,198 +461,208 @@ CH(2)
 
 sect('What the ground says', 'The first people of this land, and the layers they left')
 ent('c. 3500 – 2400 BC', 'attested', False, 'The first villages of this district',
- 'Not a general claim about “the region” — <b>named, excavated, dated sites within a few kilometres of the town</b>. <b>Tell en-Naṣba</b>, on the edge of al-Bīra and <b>under two kilometres</b> from Ramallah’s centre, is a Late Chalcolithic and Early Bronze I village of about 3500–3300 BC{}. <b>et-Tell</b>, five kilometres east, is an Early Bronze town occupied 3200–2400 BC{}. <b>ʿAin Samiya</b>, fifteen kilometres north-east, holds an Intermediate Bronze shaft-tomb cemetery of 2300–2000 BC — the source of the famous ʿAin Samiya goblet{}.'.format(
+ 'This is not a general claim about “the region”. <b>These are named sites, dug and dated, within a few kilometres of our town.</b> <b>Tell en-Naṣba</b> lies on the edge of al-Bīra, <b>under two kilometres</b> from the centre of Ramallah. It was a village of the Late Chalcolithic (the copper-and-stone age before the Bronze Age) and Early Bronze I, about 3500–3300 BC{}. <b>et-Tell</b>, five kilometres east, was an Early Bronze town, lived in from 3200 to 2400 BC{}. <b>ʿAin Samiya</b>, fifteen kilometres north-east, holds a cemetery of shaft tombs from the Intermediate Bronze Age, 2300–2000 BC. The famous ʿAin Samiya goblet comes from there{}.'.format(
   c('Tell en-Naṣba, identified with biblical Mizpah, on the edge of al-Bīra. Excavated in five seasons, 1926–1935, by William Frederic Badè for the Pacific School of Religion. The Late Chalcolithic / Early Bronze I village is Stratum 5, c. 3500–3300 BC, after which the site was long abandoned.'),
   c('et-Tell, generally identified with biblical Ai, 5.3 km east of Ramallah. Excavated by John Garstang (1928), Judith Marquet-Krause (1933–35), Joseph Callaway (1964–70) and Hani Nur el-Din (2005–07). Occupation runs from Early Bronze I through Early Bronze III, c. 3200–2400 BC.'),
   c('ʿAin Samiya and the neighbouring Dhahr Mirzbaneh, about 13 km north-east of Ramallah on the coordinates this book plots — <b>the site’s exact position is not independently verified here and should be checked before the figure is quoted</b>: Intermediate Bronze Age (Early Bronze IV) shaft-tomb cemeteries, c. 2300–2000 BC. Paul Lapp excavated Dhahr Mirzbaneh in 1963; Zvi Yeivin excavated ʿAin Samiya in 1970–71. The ʿAin Samiya goblet is an Intermediate Bronze piece, not a Chalcolithic one.')),
  """
-<p><i>Two corrections worth making, because both errors are common in local writing.</i>
-<b>ʿAin Samiya is routinely called Chalcolithic. It is not</b> — it is Intermediate Bronze Age, some
-fifteen hundred years later. And <b>et-Tell has no Chalcolithic phase at all</b>: its earliest
-occupation is Early Bronze I, about 3200 BC.</p>
-<p>The point of naming them is simple. When this book says the population of these hills was never
-replaced, it is not arguing from a general theory about the Levant. <b>It is arguing from ground you
-can walk to from Ramallah in an afternoon, which has been dug, dated and published.</b></p>"""),
+<p><i>Two mistakes are common in local writing, and we want to correct both.</i>
+<b>ʿAin Samiya is often called Chalcolithic. It is not.</b> It is Intermediate Bronze Age, some
+fifteen hundred years later. And <b>et-Tell has no Chalcolithic phase at all</b>. People first lived
+there in Early Bronze I, about 3200 BC.</p>
+<p>Why name these places? When we say the people of these hills were never replaced, we are not
+arguing from a general theory about the Levant. <b>We are arguing from ground you can walk to from
+Ramallah in an afternoon — ground that has been dug, dated and published.</b></p>"""),
 
 ent('c. 1500 BCE', 'attested', False, 'The Canaanite population of these highlands',
- 'Everything that follows is added to this. <b>Present-day Lebanese draw more than ninety per cent of their ancestry from the Bronze Age Canaanite population</b>, and present-day southern Levantine populations — this town among them — carry a large Bronze Age component of the same kind alongside later admixture{}.'.format(c('Haber et al., “Continuity and Admixture in the Last Five Millennia of Levantine History,” <i>AJHG</i> 101:2 (2017), 274–82 — the >90% figure is measured for <b>present-day Lebanese</b> against Bronze Age Sidon, and earlier editions of this book wrongly generalised it to “Levantine ancestry.” For the southern Levant: Agranat-Tamir et al., <i>Cell</i> 181:5 (2020), 1146–57.')),
+ 'Everything that comes later is added to this. <b>Lebanese people today draw more than ninety per cent of their ancestry from the Bronze Age Canaanite population.</b> People of the southern Levant today, our town among them, carry a large Bronze Age share of the same kind, mixed with ancestry that arrived later{}.'.format(c('Haber et al., “Continuity and Admixture in the Last Five Millennia of Levantine History,” <i>AJHG</i> 101:2 (2017), 274–82 — the >90% figure is measured for <b>present-day Lebanese</b> against Bronze Age Sidon, and earlier editions of this book wrongly generalised it to “Levantine ancestry.” For the southern Levant: Agranat-Tamir et al., <i>Cell</i> 181:5 (2020), 1146–57.')),
  f"""
 {fig(F.fig_confluence(),'How a people is made',
- 'Ten arrivals and one people. Each bar begins when that group enters the record and fades into the common green as it is absorbed. Only the Samaritans keep their own colour to the present; only the Franks stop. The family’s own stream — Arabs, and Ghassān — is the ninth bar. It was absorbed like the rest, and that is the argument of this whole book in one picture.',
+ 'Ten arrivals and one people. Each bar begins when that group enters the record. It fades into the shared green as the group is absorbed. Only the Samaritans keep their own colour to the present. Only the Franks stop. Our family’s own stream — Arabs, and Ghassān — is the ninth bar. It was absorbed like the rest. <i>That is our whole argument in one picture.</i>',
  'Haber et al. (2017); Feldman et al. (2019); Agranat-Tamir et al. (2020); Haber et al. (2019) on the Crusader pulse; Killebrew (2005); Ehrlich (2022) on conversion.')}
-<p><b>There is no point in the last four thousand years at which the people of this country were
-replaced.</b> The Philistines are the case that can be measured: they arrived about 1175 BCE
-carrying a southern-European-related ancestry whose source population is still not pinned
-down, visible in the genome at Ashkelon — and then, <b>“within no more than two centuries,
+<p><b>At no point in the last four thousand years were the people of this country
+replaced.</b></p>
+<p>The Philistines are the case we can measure. They arrived about 1175 BCE. They carried an
+ancestry related to southern Europe, though no one has yet pinned down its exact source. It is
+visible in the ancient DNA at Ashkelon. And then, <b>“within no more than two centuries,
 this genetic footprint … is no longer detectable.”</b>{c('Feldman et al., “Ancient DNA sheds light on the genetic origins of early Iron Age Philistines,” <i>Science Advances</i> 5:7 (2019), eaax0061.')} They were not driven out. They married
-the neighbours. The Idumaeans were absorbed by 70 CE; the Nabataeans’ kingdom became a Roman
-province in 106 while its people stayed put; the country turned Christian, then largely Muslim, by
-conversion and not by replacement{c('Michael Ehrlich, <i>The Islamization of the Holy Land, 634–1800</i> (Arc Humanities, 2022); Milka Levy-Rubin on Arabization versus Islamization.')}. The Samaritans, who never merged, are still on Mount
-Gerizim — the living control. And the Franks, who genuinely left, prove the rule by breaking it:
-replacement leaves a signature, and only they left one{c('Haber et al., “A Transient Pulse of Genetic Admixture from the Crusaders in the Near East,” <i>AJHG</i> 104:5 (2019): “present-day populations derive most of their ancestry from local people who preceded the Crusades.”')}.</p>
-<p><b>So a Christian family claiming descent through Ghassān from Yemen, and a Muslim family of the
-next village claiming the Ḥijāz, and the Samaritans of Nablus claiming to have gone nowhere, are not
-making rival claims. They are describing different arrivals into the same people.</b> Hold that
-thought; the family’s own arrival is four bars down.</p>"""),
+the neighbours.</p>
+<p>Others went the same way. The Idumaeans were absorbed by 70 CE. The Nabataeans’ kingdom became a
+Roman province in 106, while its people stayed put. The country turned Christian, then largely
+Muslim, by conversion and not by replacement{c('Michael Ehrlich, <i>The Islamization of the Holy Land, 634–1800</i> (Arc Humanities, 2022); Milka Levy-Rubin on Arabization versus Islamization.')}.</p>
+<p>The Samaritans, who never merged, are still on Mount Gerizim. They are the living control: the
+group that shows what never mixing looks like. And the Franks, who really did leave, prove the rule by
+breaking it. Replacement leaves a mark in the DNA, and only they left one{c('Haber et al., “A Transient Pulse of Genetic Admixture from the Crusaders in the Near East,” <i>AJHG</i> 104:5 (2019): “present-day populations derive most of their ancestry from local people who preceded the Crusades.”')}.</p>
+<p>So think of a Christian family that traces its descent through Ghassān from Yemen. Think of a
+Muslim family in the next village that traces itself to the Ḥijāz, and of the Samaritans of Nablus,
+who say they have gone nowhere. <b>They are not making rival claims. Each is describing a different
+arrival into the same people.</b> Hold that thought. Our family’s own arrival is four bars down.</p>"""),
 
 ent('nobody can date it, and it is still in use', 'attested', False,
-    'THE TERRACES — and the hundred and sixty-seven towers standing in them',
- f'''The hills around Ramallah are not hills. <b>They are staircases.</b> Every workable slope within
-sight of the town has been cut into level treads held up by dry-stone risers — <span class="ar">سناسل</span>,
-the local word — and nothing holds a riser up but the weight of the stones in it: no mortar, no
-foundation, no bonding material of any kind{c('Shadi Ghadban, “Palestinian Dry Stone Structures — An Endogenous Expression of Cultural Landscape,” <i>Journal “Sustainable Development, Culture, Traditions”</i> 1b (2015), 34–46, at 44: the structures are “generally constructed from rubble natural stones with irregular and polygonal forms without using any bonding material,” the stones “simply fitted in harmony with their natural form and not in regular layers.” ' + D('2015_Ghadban_Palestinian_Dry_Stone_Structures_SDCT_1b.pdf') + '.')}. Standing in those fields are small round huts with
-corbelled stone roofs, built by the farmers themselves so that somebody could sleep beside the crop
-while it ripened. <b>In 2013 two Palestinian scholars went out and counted them.</b> In al-Tireh
-quarter and the village of ʿAin Qinia alone — the ground on Ramallah’s own western and northern
-edge — they recorded <b>one hundred and sixty-seven watchtowers over some three thousand
-dunums</b>{c('Salah Hussein Al-Houdalieh &amp; Shadi Sami Ghadban, “Agricultural Watchtowers in Al-Tireh Quarter and ʿAin Qinia Village, Ramallah, Palestine,” <i>International Journal of Architectural Heritage</i> 7:5 (2013), 509–535, DOI 10.1080/15583058.2011.654049. The survey documented <b>167 watchtowers distributed over an area of approximately 3,000 dunums</b>, by site documentation, fieldwork and interviews with residents. Al-Houdalieh is the same al-Quds University archaeologist who excavated Khirbet et-Tireh; Ghadban is professor of architectural engineering at Birzeit.')}.''',
+    'The terraces — and the hundred and sixty-seven towers standing in them',
+ f'''The hills around Ramallah are not really hills. <b>They are staircases.</b> Every workable slope
+within sight of the town has been cut into level steps, called treads. Each tread is held up by a
+dry-stone wall, called a riser — <span class="ar">سناسل</span> in the local word. Nothing holds a
+riser up but the weight of its own stones. There is no mortar, no foundation, no binding material of
+any kind{c('Shadi Ghadban, “Palestinian Dry Stone Structures — An Endogenous Expression of Cultural Landscape,” <i>Journal “Sustainable Development, Culture, Traditions”</i> 1b (2015), 34–46, at 44: the structures are “generally constructed from rubble natural stones with irregular and polygonal forms without using any bonding material,” the stones “simply fitted in harmony with their natural form and not in regular layers.” ' + D('2015_Ghadban_Palestinian_Dry_Stone_Structures_SDCT_1b.pdf') + '.')}. In those fields stand
+small round huts with corbelled stone roofs, in which each course of stone juts a little past the one
+below until the roof closes. The farmers built them themselves, so that someone could sleep beside
+the crop while it ripened. <b>In 2013 two Palestinian scholars went out and counted them.</b> In
+al-Tireh quarter and the village of ʿAin Qinia alone, on Ramallah’s own western and northern edge,
+they recorded <b>one hundred and sixty-seven watchtowers over some three thousand dunums</b> (a dunum
+is a local measure of land){c('Salah Hussein Al-Houdalieh &amp; Shadi Sami Ghadban, “Agricultural Watchtowers in Al-Tireh Quarter and ʿAin Qinia Village, Ramallah, Palestine,” <i>International Journal of Architectural Heritage</i> 7:5 (2013), 509–535, DOI 10.1080/15583058.2011.654049. The survey documented <b>167 watchtowers distributed over an area of approximately 3,000 dunums</b>, by site documentation, fieldwork and interviews with residents. Al-Houdalieh is the same al-Quds University archaeologist who excavated Khirbet et-Tireh; Ghadban is professor of architectural engineering at Birzeit.')}.''',
  f"""
 {fig(F4.fig_terraces(), 'The terraces, and one of the towers standing in them',
- 'A hillside above Ramallah drawn in section. Every riser is a dry-stone wall; every tread is a field; the small domed hut on the third terrace is one of the hundred and sixty-seven. The cutaway shows how the roof closes — each course of stone oversailing the one below until the last two meet, with nothing binding them. <b>The strip along the bottom is the year:</b> the tower is occupied for grain in May and June, for figs and grapes from July to September, and for the olives in October and November.',
+ 'A hillside above Ramallah, drawn as if sliced through. Each riser is a dry-stone wall. Each tread is a field. The small domed hut on the third terrace is one of the hundred and sixty-seven. The cutaway shows how the roof closes: each course of stone juts out past the one below, until the last two meet, with nothing binding them. <b>The strip along the bottom is the year.</b> Someone stays in the tower for the grain in May and June, for the figs and grapes from July to September, and for the olives in October and November.',
  'Al-Houdalieh &amp; Ghadban, <i>International Journal of Architectural Heritage</i> 7:5 (2013), 509–35, for the count and the survey; Ghadban (2012, 2015) for the construction and the seasons.')}
-<p><b>Nobody can date them, and that is the honest finding rather than a gap in the research.</b>
-Corbelled dry-stone building is old in this region — probably Early Bronze Age in origin — but a
-terrace wall is not a monument, it is a machine, and a machine in use gets repaired. The stone that
+<p><b>Nobody can date the terraces. That is an honest finding, not a gap in the research.</b>
+Corbelled dry-stone building is old in this region, probably beginning in the Early Bronze Age. But a
+terrace wall is not a monument. It is a machine, and a machine in use gets repaired. The stone that
 fell out last winter went back in this spring, and the stone beside it may have been set by a
-Canaanite. <i>There is no stratigraphy in a wall that has never been allowed to fall down.</i>
+Canaanite. <i>A wall that has never been allowed to fall down has no layers to date.</i>
 The survey says so plainly: there is no concrete evidence for when the dry-stone structures of
 Palestine first appeared{c('Ghadban (2015), 37 and 39: corbelled structures “originated mainly in the Near East of the Mediterranean Basin probably at the beginning of the Early Bronze Age,” but there is “no concrete evidence regarding when exactly the dry-stone structures first appeared” in Palestine. <b>This book therefore gives the terraces no date at all rather than an invented one.</b>')}.</p>
-<p><b>What can be dated is the work, because the work is seasonal and has not changed.</b> The tower
-is used when there is something in the field worth losing: the grain and the early fruit in May and
-June, the figs and the grapes from July through September, the olives in October and November.
-<i>That is seven months of the year in which somebody from the household is sleeping out on the
-land.</i> The huts were built cooperatively — several men to a tower — and the owner of the ground
-fed them while they built it{c('Ghadban (2015), 40 and 43, on the three harvest seasons — “early fruit and grain harvest… May and June,” “figs and grape-vines… July through September,” “olive harvesting… October and November” — and on cooperative building: “peasants would mostly collaborate in building the structures,” with the owner providing food. Also Ghadban, “The Architecture of the Palestinian Dry-Stone Hut — Al-mantarah,” <i>Journal of Comparative Cultural Studies in Architecture</i> 6 (2012), 16–25.')}.</p>
-<p><b>This is the district’s own technology, and it is the only thing in this chapter that the
-family’s own ancestors certainly made with their hands.</b> The churches were built by patrons; the
-registers were written by clerks; the armies belonged to somebody else. The terraces were built by
-whoever was going to eat off them, and they are still there, and people are still eating off
-them.</p>
-<p><i>They are also going.</i> Ghadban’s parallel survey of the walls themselves found roughly
-<b>eighty-seven per cent of them partially collapsed</b> — from land confiscation and settlement
-expansion, from the separation wall cutting farmers off from their own plots, from the sprawl of the
-town up its own hillsides, and from the plain fact that fewer people now farm{c('Ghadban (2015), 36 and 42: “approximately 87% of the individual walls are partially destroyed,” under pressure from land confiscation, settlement expansion, the separation wall, the declining economic weight of agriculture and “rapid and largely sprawl urban expansion.” <b>The 87 per cent is measured on the walls, not on the towers; the 167 towers are those still standing.</b>')}. <b>A wall that is
+<p><b>What we can date is the work, because the work follows the seasons and has not changed.</b>
+The tower is used when there is something in the field worth losing. That means the grain and the
+early fruit in May and June, the figs and the grapes from July through September, and the olives in
+October and November. <i>For seven months of the year, somebody from the household is sleeping out
+on the land.</i> Men built the huts together, several to a tower, and the owner of the ground fed
+them while they built it{c('Ghadban (2015), 40 and 43, on the three harvest seasons — “early fruit and grain harvest… May and June,” “figs and grape-vines… July through September,” “olive harvesting… October and November” — and on cooperative building: “peasants would mostly collaborate in building the structures,” with the owner providing food. Also Ghadban, “The Architecture of the Palestinian Dry-Stone Hut — Al-mantarah,” <i>Journal of Comparative Cultural Studies in Architecture</i> 6 (2012), 16–25.')}.</p>
+<p><b>This is the district’s own technology. It is the only thing in this chapter that our own
+ancestors certainly made with their hands.</b> Patrons built the churches. Clerks wrote the
+registers. The armies belonged to somebody else. The terraces were built by whoever was going to eat
+from them. They are still there, and people are still eating from them.</p>
+<p><i>They are also disappearing.</i> Ghadban’s parallel survey of the walls themselves found
+roughly <b>eighty-seven per cent of them partly collapsed</b>. The causes are many: land
+confiscation and the growth of settlements; the separation wall, which cuts farmers off from their
+own plots; the town’s sprawl up its own hillsides; and the plain fact that fewer people farm
+now{c('Ghadban (2015), 36 and 42: “approximately 87% of the individual walls are partially destroyed,” under pressure from land confiscation, settlement expansion, the separation wall, the declining economic weight of agriculture and “rapid and largely sprawl urban expansion.” <b>The 87 per cent is measured on the walls, not on the towers; the 167 towers are those still standing.</b>')}. <b>A wall that is
 repaired every year survives four thousand years. A wall that nobody walks to falls down in
 twenty.</b></p>"""),
 
-ent('c. 1350 BCE', 'documents', False, 'THE AMARNA LETTERS — a file about who works the fields',
- f'''Jerusalem, Shechem, Gezer and Lachish write to Egypt in Akkadian{c('The Tell el-Amarna correspondence, fourteenth century BCE: some 350 letters and administrative texts from the Egyptian capital at Akhetaten, found in 1887. The standard edition is William L. Moran, <i>The Amarna Letters</i> (Baltimore: Johns Hopkins, 1992); see also Anson F. Rainey, <i>The El-Amarna Correspondence</i>, 2 vols (Leiden: Brill, 2015).')}. These are the city-states of this landscape, and they are Canaanite. Even the town’s own name keeps the era’s sound: <span class="ar">رام</span> is a Semitic root meaning <i>height</i> — Canaanite-era vocabulary still doing its job{c('al-Dabbāgh, <span class="ar">بلادنا فلسطين</span>, viii/2, on <span class="ar">رام</span>; the same root as Hebrew <i>rām</i> and Aramaic <i>rāmā</i>.')}. <b>But the letters are usually read for the wrong thing.</b> They are read as diplomacy — kings, tribute, the <i>ʿapiru</i>, who is loyal and who is not. <i>Read them as an employer reads a file, and they are about labour: who goes up the hill, and who ploughs.</i>''',
+ent('c. 1350 BCE', 'documents', False, 'The Amarna letters — a file about who works the fields',
+ f'''Jerusalem, Shechem, Gezer and Lachish write to Egypt in Akkadian, an ancient language of Mesopotamia{c('The Tell el-Amarna correspondence, fourteenth century BCE: some 350 letters and administrative texts from the Egyptian capital at Akhetaten, found in 1887. The standard edition is William L. Moran, <i>The Amarna Letters</i> (Baltimore: Johns Hopkins, 1992); see also Anson F. Rainey, <i>The El-Amarna Correspondence</i>, 2 vols (Leiden: Brill, 2015).')}. These are the city-states of this landscape, and they are Canaanite. Even our town’s own name keeps the sound of that age. <span class="ar">رام</span> is a Semitic root meaning <i>height</i>: a word from the Canaanite era, still doing its job{c('al-Dabbāgh, <span class="ar">بلادنا فلسطين</span>, viii/2, on <span class="ar">رام</span>; the same root as Hebrew <i>rām</i> and Aramaic <i>rāmā</i>.')}. <b>But the letters are usually read for the wrong thing.</b> People read them as diplomacy: kings, tribute, the <i>ʿapiru</i> (groups on the margins of society), who is loyal and who is not. <i>Read them the way an employer reads a file, and they turn out to be about labour: who goes up the hill, and who ploughs.</i>''',
  f"""
-<p>The clearest sentence in the whole archive on that question is a small tablet in the Louvre,
-six and a half centimetres by six, catalogued <b>EA 365</b>. Moran gives it the heading
-<i>Furnishing corvée workers</i>. It is from <b>Biridiya, the mayor of Megiddo</b>, and after the
-formula of prostration it says this{c('EA 365, Louvre, Antiquités orientales AO 7098; 6.5 × 6.0 cm. Translations: Moran (1992); Anson F. Rainey (1970); earlier Mercer (1939) and Albright in <i>ANET</i> (1969). The rendering quoted here follows the standard English of the passage.')}:</p>
+<p>The clearest sentence on that question in the whole archive is on a small tablet in the
+Louvre, six and a half centimetres by six. It is catalogued <b>EA 365</b>. Moran gives it the
+heading <i>Furnishing corvée workers</i>. (<i>Corvée</i> is unpaid work that a ruler demands from
+his subjects.) It is from <b>Biridiya, the mayor of Megiddo</b>. After the usual opening words of
+bowing down before the king, it says this{c('EA 365, Louvre, Antiquités orientales AO 7098; 6.5 × 6.0 cm. Translations: Moran (1992); Anson F. Rainey (1970); earlier Mercer (1939) and Albright in <i>ANET</i> (1969). The rendering quoted here follows the standard English of the passage.')}:</p>
 <blockquote>Let the king, my lord, be aware regarding his servant and his city.
 <b>Behold, I alone am cultivating in the city of Shunama; and, as for me, I provide forced
 labourers.</b> Now, behold, the mayors who are near me do not do as I do. They do not cultivate
 in the city of Shunama, and they do not provide forced labourers. <b>I alone provide forced
 labourers.</b>
 <span class="cite">Amarna letter EA 365, Biridiya of Megiddo to the king of Egypt · Louvre AO 7098</span></blockquote>
-<p><b>The word he uses is <i>massu</i></b> — the same Semitic word that stands in the Hebrew Bible as
-<i>mas</i>, the levy of forced labour a king raises out of his own people{c('Akkadian <i>massu</i> / <i>mas</i>, corvée labour imposed on subject populations for building, quarrying and agricultural work; the same term appears in Biblical Hebrew as <span class="ar">מס</span> <i>mas</i>, e.g. 1 Kings 5:13–14 and 9:15. See Moran (1992), glossary s.v.; Rainey, <i>El-Amarna Correspondence</i>, ii, on the labour vocabulary of the Megiddo letters.')}. Biridiya is not
+<p><b>The word he uses is <i>massu</i>.</b> It is the same Semitic word that appears in the Hebrew
+Bible as <i>mas</i>: the forced labour a king raises from his own people{c('Akkadian <i>massu</i> / <i>mas</i>, corvée labour imposed on subject populations for building, quarrying and agricultural work; the same term appears in Biblical Hebrew as <span class="ar">מס</span> <i>mas</i>, e.g. 1 Kings 5:13–14 and 9:15. See Moran (1992), glossary s.v.; Rainey, <i>El-Amarna Correspondence</i>, ii, on the labour vocabulary of the Megiddo letters.')}. Biridiya is not
 complaining about an invasion. He is complaining that his neighbours are not sending men, and that
-the whole gang on that field is his. <i>He is filing a labour return.</i></p>
-<p><b>This letter is not about this ridge, and it should not be made to be.</b> Shunama is Shunem,
-in the Jezreel valley, some sixty kilometres north; the ridge above Ramallah lay in the territory
-the king of Jerusalem wrote about. It is quoted here for a different reason. Every document in this
-book from here to the Ottoman registers is written by somebody counting other people — a mayor, a
-scribe, a bishop, a tax clerk — and in every one of them the people being counted are the same
-people: the ones in the field. <b>The archive names the mayors. The corvée is everybody else, and
-everybody else is the ancestors.</b></p>
-<p><i>Three thousand years later a qāḍī in Jerusalem will write down six men from the village of
-Ramallah who have promised to plough a hill, and he will name all six.</i> That is the whole
-difference between the two ends of this book: not who was working, but whether anyone wrote down
-their names.</p>"""),
+the whole work gang in that field is his. <i>He is filing a labour report.</i></p>
+<p><b>This letter is not about our ridge, and we should not pretend it is.</b> Shunama is Shunem,
+in the Jezreel valley, some sixty kilometres north. The ridge above Ramallah lay in the territory
+the king of Jerusalem wrote about. We quote the letter for a different reason.</p>
+<p>Every document we use from here to the Ottoman registers was written by somebody counting other
+people: a mayor, a scribe, a bishop, a tax clerk. In every one of them, the people being counted are
+the same people — the ones in the field. <b>The archive names the mayors. The corvée is everybody
+else, and everybody else is our ancestors.</b></p>
+<p><i>Three thousand years later a qāḍī (a judge) in Jerusalem will write down six men from the
+village of Ramallah who have promised to plough a hill, and he will name all six.</i> That is the
+whole difference between the two ends of our story. It is not who was working. It is whether anyone
+wrote down their names.</p>"""),
 
 CH(3)
 
 sect('What the ground says', 'Who else was on this coast and this plateau — and what became of every one of them')
 ent('c. 1200 → 1000 BCE', 'attested', False,
-    'WHO WAS ON THIS RIDGE — the highlands fill up, and nobody arrives',
- f'''Across the two centuries after the Late Bronze collapse the central hill country goes from
-roughly <b>twenty-five settlements to roughly two hundred and fifty</b>, and from a scatter of people
-to something near <b>forty-five thousand</b>. The new villages are small, unwalled, agricultural, and
-founded on hilltops nobody had bothered with before{c('The figures are from the archaeological surveys of the central hill country, summarised in Israel Finkelstein, <i>The Archaeology of the Israelite Settlement</i> (Jerusalem: Israel Exploration Society, 1988), and revisited in Finkelstein &amp; Neil Asher Silberman, <i>The Bible Unearthed</i> (New York: Free Press, 2001). For the population estimate and the ethnogenesis models, Ann E. Killebrew, <i>Biblical Peoples and Ethnicity</i> (Atlanta: SBL, 2005). <b>These are survey counts, not excavation counts</b> — the great majority of the 250 sites have been walked and sherded, not dug.')}. <i>Nothing comparable happens on the coast, or in the
+    'Who was on this ridge — the highlands fill up, and nobody arrives',
+ f'''Around 1200 BCE the old order of the Late Bronze Age came apart. In the two centuries after that collapse, the central hill country grows from roughly
+<b>twenty-five settlements to roughly two hundred and fifty</b>. Its people grow from a scatter to
+something near <b>forty-five thousand</b>. The new villages are small, unwalled and given to
+farming. They are built on hilltops nobody had bothered with before{c('The figures are from the archaeological surveys of the central hill country, summarised in Israel Finkelstein, <i>The Archaeology of the Israelite Settlement</i> (Jerusalem: Israel Exploration Society, 1988), and revisited in Finkelstein &amp; Neil Asher Silberman, <i>The Bible Unearthed</i> (New York: Free Press, 2001). For the population estimate and the ethnogenesis models, Ann E. Killebrew, <i>Biblical Peoples and Ethnicity</i> (Atlanta: SBL, 2005). <b>These are survey counts, not excavation counts</b> — the great majority of the 250 sites have been walked and sherded, not dug.')}. <i>Nothing like this happens on the coast, or in the
 Jordan valley, or anywhere a migration would have had to come from.</i>''',
  f"""
 {fig(F4.fig_highland_fill(), 'The highlands fill up, and nowhere else empties out',
- 'One dot for every settlement the surveys found. <b>The jump is real and it is local.</b> A tenfold increase in two centuries is a great deal of people — but they appear in the hills without appearing to leave anywhere else, and they arrive carrying the same cooking pots as the country they are already in.',
+ 'Each dot is one settlement the surveys found. <b>The jump is real, and it is local.</b> A tenfold rise in two centuries is a great many people. But they appear in the hills without seeming to leave anywhere else. And they arrive carrying the same cooking pots as the country they are already in.',
  'Finkelstein (1988); Finkelstein &amp; Silberman (2001); Killebrew (2005).')}
-<p><b>Three things the surveys do not find, and each of them is an argument.</b> <b>No destruction
-horizon</b> — the highland villages are new foundations on empty ground, not burnt towns taken over.
-<b>No new pottery tradition</b> — the cooking wares continue the local Late Bronze repertoire, and a
-population arriving from outside brings its own kitchen. <b>No matching emptying-out</b> — if these
-tens of thousands had walked in from the coast or the valley, the coast and the valley would show
-it, and they do not{c('On the absence of a destruction horizon and the continuity of the ceramic repertoire, William G. Dever, <i>Who Were the Early Israelites and Where Did They Come From?</i> (Grand Rapids: Eerdmans, 2003); Avraham Faust, <i>Israel’s Ethnogenesis</i> (London: Equinox, 2006), which argues for a distinct highland identity forming <i>in situ</i> rather than arriving; and Killebrew (2005) for the multi-origin model — local Canaanites, sedentarising pastoralists, and marginal groups the Egyptian records call <i>ʿapiru</i> and <i>Shasu</i>.')}.</p>
-<p><i>So where did they come from?</i> <b>From the country.</b> The reading the evidence supports is
-formation in place: highland farmers already there, pastoralists settling down, and people moving up
-off the failing lowland city-states when the Late Bronze order came apart. It is not one origin. It
-is the ordinary churn of a region reorganising itself after a collapse — <b>and every strand of it is
-already local</b>.</p>
+<p><b>There are three things the surveys do not find, and each absence tells us something.</b>
+<b>No destruction horizon</b>, the layer of burning and ruin left when a town is taken. The highland
+villages are new foundations on empty ground, not burnt towns taken over. <b>No new pottery
+tradition.</b> The cooking pots carry on the local Late Bronze styles, and a people arriving from
+outside brings its own kitchen. <b>No matching emptying-out.</b> If these tens of thousands had
+walked in from the coast or the valley, the coast and the valley would show it, and they do
+not{c('On the absence of a destruction horizon and the continuity of the ceramic repertoire, William G. Dever, <i>Who Were the Early Israelites and Where Did They Come From?</i> (Grand Rapids: Eerdmans, 2003); Avraham Faust, <i>Israel’s Ethnogenesis</i> (London: Equinox, 2006), which argues for a distinct highland identity forming <i>in situ</i> rather than arriving; and Killebrew (2005) for the multi-origin model — local Canaanites, sedentarising pastoralists, and marginal groups the Egyptian records call <i>ʿapiru</i> and <i>Shasu</i>.')}.</p>
+<p><i>So where did they come from?</i> <b>From the country itself.</b> The evidence supports a people
+formed in place. Some were highland farmers who were already there. Some were herders settling down.
+Some moved up from the failing city-states of the lowlands when the Late Bronze order came apart. It
+is not one origin. It is the ordinary churn of a region reorganising itself after a collapse — <b>and
+every strand of it is already local</b>.</p>
 {fig(F4.fig_iron_ridge(), 'The ridge in the Iron Age, and the gap in the middle',
- 'Every excavated Iron Age site within a morning’s walk. <b>Khirbet Raddana lies inside al-Bīra</b> — a village of the twelfth and eleventh centuries BC, on Ramallah’s doorstep, excavated over four salvage seasons between 1969 and 1974 and since built over by the town’s own growth. The dashed ring is Ramallah, which is not there yet and will not be for two and a half thousand years.',
+ 'Every Iron Age site that has been dug within a morning’s walk. <b>Khirbet Raddana lies inside al-Bīra.</b> It was a village of the twelfth and eleventh centuries BC, on Ramallah’s doorstep. It was dug in four salvage seasons (hurried digs to record a site before it is lost) between 1969 and 1974. The town’s own growth has since built over it. The dashed ring is Ramallah. It is not there yet, and will not be for two and a half thousand years.',
  'Callaway and Cooley at Khirbet Raddana and et-Tell; Badè at Tell en-Naṣbeh; al-Houdalieh &amp; Sauders (2009) on what urban growth has since done to these sites.')}
-<p><b>Now the name.</b> The word <i>Israel</i> first appears in 1208 BC, on a victory stele of the
-pharaoh <b>Merneptah</b> — and it is written with the Egyptian determinative for <b>a people</b>, not
-for a city or a land{c('The Merneptah stele, Cairo Museum JE 31408, from Thebes, year 5 of Merneptah, c. 1208 BC. In the closing lines Israel is the only entity of the group written with the determinative for a people rather than a foreign land — <i>a group of people, located somewhere in Canaan, without a territory of its own attached to the name.</i> Every other place in the passage — Ashkelon, Gezer, Yanoam — takes the city or land determinative.')}. A people in
-Canaan, with no territory attached to the name. <i>That is what the earliest external witness says
+<p><b>Now the name.</b> The word <i>Israel</i> first appears in 1208 BC, on a victory stele (a
+carved standing stone) of the pharaoh <b>Merneptah</b>. Egyptian writing adds a silent sign, called a
+determinative, to show what kind of thing a word names. <i>Israel</i> is written with the sign for
+<b>a people</b>, not for a city or a land{c('The Merneptah stele, Cairo Museum JE 31408, from Thebes, year 5 of Merneptah, c. 1208 BC. In the closing lines Israel is the only entity of the group written with the determinative for a people rather than a foreign land — <i>a group of people, located somewhere in Canaan, without a territory of its own attached to the name.</i> Every other place in the passage — Ashkelon, Gezer, Yanoam — takes the city or land determinative.')}. So it is a people
+in Canaan, with no territory attached to the name. <i>That is what the earliest outside witness says
 Israel is: a group of people living in this country, among the people of this country.</i></p>
-<p><b>And that is the shape of this whole book in one paragraph.</b> The population on this ridge is
-continuous — Canaanite, then Israelite and Judaean, then Hellenised, then Christian by conversion,
-then in large part Muslim by conversion, then Palestinian. <b>Those are names taken by a people, not
-peoples replacing one another.</b> The family this book follows is inside that continuity, and so is
-everyone else who ever farmed these terraces. <i>Nobody on this ridge is a newcomer, and nobody on it
-is the only one who was here.</i></p>"""),
+<p><b>That is the shape of our whole story in one paragraph.</b> The people on this ridge are
+continuous. They were Canaanite, then Israelite and Judaean, then Hellenised (Greek in culture), then
+Christian by conversion, then in large part Muslim by conversion, then Palestinian. <b>Those are names
+taken by a people, not peoples replacing one another.</b> Our family is inside that continuity, and
+so is everyone else who ever farmed these terraces. <i>Nobody on this ridge is a newcomer, and nobody
+on it is the only one who was here.</i></p>"""),
 
 ent('the names on the ground', 'documents', True,
-    'THE BIBLE IS A MAP OF THIS DISTRICT — and Palestinian villagers are why it can be read',
- f'''Here is something that ought to be said louder than it usually is. <b>Nobody found the biblical
-places by reading the Bible.</b> They were found by walking into Palestinian villages and asking the
-people who lived there what they called home — and the answers turned out to be the ancient names,
-carried in Arabic, on the tongues of farming families, for three thousand years{c('Edward Robinson and Eli Smith travelled Palestine in 1838 and published <i>Biblical Researches in Palestine, Mount Sinai and Arabia Petraea</i> in 1841. Robinson’s method was to record the Arabic name in local speech and test it against the Hebrew or Greek form. Rana Issa describes it as “phonology as a kind of anthropological archaeology,” drawing its information “from the lips of the natives.” '+D('1841_Robinson_Biblical_Researches_v2.pdf')+'.')}. <i>ʿAin Shams is Beth Shemesh.
+    'The Bible is a map of this district — and Palestinian villagers are why it can be read',
+ f'''Here is something that deserves to be said more loudly than it usually is. <b>Nobody found the
+places of the Bible by reading the Bible.</b> They were found by walking into Palestinian villages and
+asking the people who lived there what they called home. The answers turned out to be the ancient
+names. Farming families had carried them in Arabic, on their tongues, for three thousand years{c('Edward Robinson and Eli Smith travelled Palestine in 1838 and published <i>Biblical Researches in Palestine, Mount Sinai and Arabia Petraea</i> in 1841. Robinson’s method was to record the Arabic name in local speech and test it against the Hebrew or Greek form. Rana Issa describes it as “phonology as a kind of anthropological archaeology,” drawing its information “from the lips of the natives.” '+D('1841_Robinson_Biblical_Researches_v2.pdf')+'.')}. <i>ʿAin Shams is Beth Shemesh.
 ʿĀqir is Ekron. Beitin is Bethel. Seilūn is Shiloh. Mukhmās is Michmash.</i>''',
  f"""
 {fig(F4.fig_bible_ridge(), 'Every biblical place within a day’s walk, and the village it survived as',
- 'The right-hand grade is for <b>the identification</b>, not for the scripture — whether the ground has confirmed the name, merely agrees with it, or is still argued. <b>Nine places, and the furthest is nineteen kilometres from Ramallah.</b> Ramallah is not among them, because Ramallah is not there yet; but al-Bīra next door may be Beeroth, and the ground the town would be built on lay in the middle of all of it.',
+ 'The grade on the right is for <b>the identification</b>, not for the scripture. It says whether the ground has confirmed the name, only agrees with it, or is still argued over. <b>There are nine places, and the furthest is nineteen kilometres from Ramallah.</b> Ramallah is not among them, because Ramallah is not there yet. But al-Bīra next door may be Beeroth, and the ground our town would be built on lay in the middle of all of it.',
  'Robinson &amp; Smith (1841); Pritchard at al-Jib (1956–59); Badè at Tell en-Naṣbeh; Albright and Kelso at Beitin; Marquet-Krause, Callaway and Hani Nur el-Din at et-Tell.')}
-<p><b>And at one of these places the ground answered in writing.</b> At <b>al-Jib</b>, six kilometres
-from Ramallah, James Pritchard dug between 1956 and 1959 and found <b>more than sixty jar handles
-inscribed <span class="he">גבען</span> — Gibeon</b>, in eighth- and seventh-century Hebrew
-script{c('James B. Pritchard, <i>Hebrew Inscriptions and Stamps from Gibeon</i> (Philadelphia: University Museum, 1959), and <i>Gibeon: Where the Sun Stood Still</i> (Princeton, 1962). The handles carry the formula <i>gbʿn gdr</i> followed by a personal name. It has been called as strong a site identification as anyone is ever likely to find in biblical archaeology — at the time, only the fourth ancient Palestinian place-name confirmed at its own site by excavated inscriptions.')}. <i>The village had been called al-Jib for as long as anyone could
+<p><b>At one of these places, the ground answered in writing.</b> At <b>al-Jib</b>, six kilometres
+from Ramallah, James Pritchard dug between 1956 and 1959. He found <b>more than sixty jar handles
+inscribed <span class="he">גבען</span> — Gibeon</b>, in Hebrew script of the eighth and seventh
+centuries{c('James B. Pritchard, <i>Hebrew Inscriptions and Stamps from Gibeon</i> (Philadelphia: University Museum, 1959), and <i>Gibeon: Where the Sun Stood Still</i> (Princeton, 1962). The handles carry the formula <i>gbʿn gdr</i> followed by a personal name. It has been called as strong a site identification as anyone is ever likely to find in biblical archaeology — at the time, only the fourth ancient Palestinian place-name confirmed at its own site by excavated inscriptions.')}. <i>The village had been called al-Jib for as long as anyone could
 remember, and the jars in the ground agreed with the villagers.</i></p>
-<p><b>One of the nine cuts the other way, and this book prints it as gladly as the rest.</b>
-<b>et-Tell</b>, five kilometres east, is biblical <b>Ai</b>, and the Hebrew <i>ha-ʿAi</i> means
-<b>“the ruin.”</b> The excavation found exactly that: an Early Bronze town destroyed about 2400 BC,
-then empty for more than a thousand years, then an Iron I village built quietly on the abandoned
-mound{c('Judith Marquet-Krause (1933–35); Joseph A. Callaway for the American Schools of Oriental Research (1964–70); Hani Nur el-Din, al-Quds University (2005–07). John Garstang trenched the site in 1928. The absence of a Late Bronze town at et-Tell is long-established and much discussed; what is not in doubt is the sequence — Early Bronze town, long abandonment, Iron I village.')}. <i>The name and the ground say the same thing.
+<p><b>One of the nine cuts the other way, and we show it as gladly as the rest.</b>
+<b>et-Tell</b>, five kilometres east, is biblical <b>Ai</b>. The Hebrew <i>ha-ʿAi</i> means
+<b>“the ruin.”</b> The excavation found exactly that. First came an Early Bronze town, destroyed
+about 2400 BC. Then the site was empty for more than a thousand years. Then an Iron I village was
+built quietly on the abandoned mound{c('Judith Marquet-Krause (1933–35); Joseph A. Callaway for the American Schools of Oriental Research (1964–70); Hani Nur el-Din, al-Quds University (2005–07). John Garstang trenched the site in 1928. The absence of a Late Bronze town at et-Tell is long-established and much discussed; what is not in doubt is the sequence — Early Bronze town, long abandonment, Iron I village.')}. <i>The name and the ground say the same thing.
 Whoever named that hill knew what was on it.</i></p>
-<p><b>What this is worth to a family from Ramallah.</b> The landscape of scripture is not somewhere
-else. It is the ground between al-Bīra and Ṭaybeh, and the names on it were kept — not in a library,
-not by a church, not by a state, but <b>by the people who farmed those hills and went on saying the
-words</b>. <i>When this book says the population of this ridge was never replaced, the map of the Bible
-is one of the proofs. A replaced people forgets the names.</i></p>"""),
+<p><b>What this means for a family from Ramallah.</b> The landscape of scripture is not somewhere
+else. It is the ground between al-Bīra and Ṭaybeh. The names on it were kept — not in a library, not
+by a church, not by a state, but <b>by the people who farmed those hills and went on saying the
+words</b>. <i>When we say the people of this ridge were never replaced, the map of the Bible is one
+of the proofs. A replaced people forgets the names.</i></p>"""),
 
 ent('c. 1175–840 BCE', 'attested', False, 'The neighbours: Philistines, Phoenicians, Arameans — and the kingdoms across the Jordan',
- 'While the highland villages went on terracing the same slopes, the coast and the plateau filled up with peoples whose names are still in the language: the <b>Philistines</b> at Gaza, Ashkelon and Ashdod; the <b>Phoenicians</b> at Tyre and Sidon; the <b>Arameans</b> inland at Damascus; and across the river <b>Moab, Ammon and Edom</b>. <i>Every one of them was eventually absorbed into the population of this region. Not one of them replaced it.</i>',
+ 'The highland villages went on terracing the same slopes. Meanwhile the coast and the plateau filled up with peoples whose names are still in the language. The <b>Philistines</b> were at Gaza, Ashkelon and Ashdod. The <b>Phoenicians</b> were at Tyre and Sidon. The <b>Arameans</b> were inland, at Damascus. And across the river were <b>Moab, Ammon and Edom</b>. <i>Every one of them was in time absorbed into the people of this region. Not one of them replaced it.</i>',
  f"""
-<p><b>One of these neighbours matters directly to this family.</b> The plateau the tradition names as
-its road out — Karak and Shawbak — is ancient <b>Moab</b> and ancient <b>Edom</b>; Karak itself is
-generally identified with the Kir of Moab of the Hebrew Bible. And Moab left a document. The
-<b>Mesha Stele</b>, cut about 840 BCE and found at Dhībān in 1868, is the longest Iron Age
-inscription anyone has recovered from this landscape, written in Moabite — a language so close to
-Hebrew that it can be read straight off the stone. <b>And it can be checked against scripture, because
-both sides wrote it down.</b> The stele is King Mesha’s account of throwing off Israelite overlordship;
-<b>2 Kings 3 is the same war from the other side</b>, and names the same king — <i>“Mesha king of Moab
-was a sheep-master”</i>{c('2 Kings 3:4–27, and the Mesha Stele (the Moabite Stone), Louvre AO 5066, found at Dhībān in 1868. The stele names <span class="he">מלך ישראל</span> — the king of Israel — and the god <span class="he">יהוה</span>, the earliest occurrence of the divine name in an inscription outside the Bible. The two accounts agree on the participants and the shape of the conflict and disagree, as one would expect, about who won.')}. <i>Two accounts of one campaign, one on stone and one in scripture, and
-each of them the enemy’s version of the other.</i> <i>The plateau the family remembers as a place of
-exile has been literate, settled and self-describing for nearly three thousand years.</i></p>
-<p><b>And one of them is the control experiment for this whole book.</b> The Philistines arrived
-about 1175 BCE carrying a southern-European-related ancestry whose source population is not yet pinned down, and the arrival is visible in the genome at Ashkelon — and then,
-within no more than two centuries, the signal is gone. They did not leave. They married the
-neighbours. That is what happens in this country to everybody who comes, and it is what happened to
-this family too, three thousand years later.</p>""" + fig(R.fig_peoples(),
+<p><b>One of these neighbours matters directly to our family.</b> Our tradition names a plateau as
+its road out: Karak and Shawbak. That plateau is ancient <b>Moab</b> and ancient <b>Edom</b>. Karak
+itself is usually identified with the Kir of Moab in the Hebrew Bible.</p>
+<p>And Moab left a document. The <b>Mesha Stele</b> was carved about 840 BCE and found at Dhībān in
+1868. It is the longest Iron Age inscription anyone has recovered from this landscape. It is written
+in Moabite, a language so close to Hebrew that it can be read straight off the stone.</p>
+<p><b>We can check it against scripture, because both sides wrote it down.</b> The stele is King
+Mesha’s account of throwing off Israel’s rule over Moab. <b>2 Kings 3 tells the same war from the
+other side</b>, and names the same king: <i>“Mesha king of Moab was a sheep-master”</i>{c('2 Kings 3:4–27, and the Mesha Stele (the Moabite Stone), Louvre AO 5066, found at Dhībān in 1868. The stele names <span class="he">מלך ישראל</span> — the king of Israel — and the god <span class="he">יהוה</span>, the earliest occurrence of the divine name in an inscription outside the Bible. The two accounts agree on the participants and the shape of the conflict and disagree, as one would expect, about who won.')}. <i>So there are two accounts of one campaign, one on stone and one in
+scripture, and each is the enemy’s version of the other.</i> <i>The plateau our family remembers as
+a place of exile has been literate, settled and telling its own story for nearly three thousand
+years.</i></p>
+<p><b>And one of these neighbours is the control case for our whole argument — the one that tests
+the rule.</b> The Philistines arrived about 1175 BCE. They carried an ancestry related to southern
+Europe, though its exact source is not yet pinned down. Their arrival is visible in the ancient DNA
+at Ashkelon. Then, within no more than two centuries, the signal is gone. They did not leave. They
+married the neighbours. That is what happens in this country to everybody who comes. It is what
+happened to our family too, three thousand years later.</p>""" + fig(R.fig_peoples(),
  'The peoples of this land do not replace one another — they overlap',
- 'Each band is a language and an identity, not a population. They run into and over one another for four thousand years, and the genetics now say the population underneath them is largely continuous. <b>Only the Samaritans kept a separate identity to the present; only the Franks genuinely left.</b> The gold line is 1562, the year the family arrives on the ridge — into a landscape that has been continuously inhabited since long before the first band on this chart.',
+ 'Each band is a language and an identity, not a population. The bands run into and over one another for four thousand years. The genetic evidence now says the population underneath them is largely continuous. <b>Only the Samaritans kept a separate identity to the present. Only the Franks really left.</b> The gold line is 1562, the year our family arrives on the ridge. It arrives in a landscape that people had lived in without a break since long before the first band on this chart.',
  'Haber et al. (2017, 2019); Feldman et al. (2019); Agranat-Tamir et al. (2020); Killebrew (2005); the Amarna correspondence; Samaritan census figures.')),
 
 CH(4)
