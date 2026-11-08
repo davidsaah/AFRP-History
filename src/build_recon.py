@@ -211,7 +211,7 @@ def fig_arith():
     s = [f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Years per generation implied by 45 generations, against the observed range">']
     s.append(f'<rect width="{W}" height="{H}" fill="{SURF}"/>')
     s.append(txt(40, 32, 'FORTY-FIVE IS THE WRONG NUMBER', 11, GOLD, 'start', '700', 'normal', '1.4'))
-    s.append(txt(40, 50, 'The gap from Jafna (fl. c. 520) to Rāshid (fl. c. 1500) is about 1,000 years. Dividing it 45 ways gives a', 10.5, GREY, 'start', '400', 'italic'))
+    s.append(txt(40, 50, 'The gap from al-Ḥārith (d. 569) to Rāshid (fl. c. 1500) is 931 years. Dividing it 45 ways gives a', 10.5, GREY, 'start', '400', 'italic'))
     s.append(txt(40, 64, 'male-line generation shorter than any observed population sustains.', 10.5, GREY, 'start', '400', 'italic'))
     x0, plotw = 250, 480
     lo, hi = 0, 40
@@ -219,8 +219,8 @@ def fig_arith():
     # observed band 30-35
     s.append(f'<rect x="{px(30):.1f}" y="96" width="{px(35)-px(30):.1f}" height="64" fill="{GREEN}" opacity=".16" rx="3"/>')
     s.append(txt((px(30)+px(35))/2, 90, 'OBSERVED RANGE FOR MALE LINES', 8.4, GREEN, 'middle', '700', 'normal', '.9'))
-    rows = [('45 generations', 1000/45, RUST, 'what the chart says'),
-            ('31 generations', 1000/31, GREEN, 'what 32 years a generation gives')]
+    rows = [('45 generations', 931/45, RUST, 'what the chart says'),
+            ('31 generations', 931/31, GREEN, 'what 30 years a generation gives')]
     for i, (lab, v, col, note) in enumerate(rows):
         y = 106 + i * 34
         s.append(f'<rect x="{x0}" y="{y}" width="{px(v)-x0:.1f}" height="22" fill="{col}" rx="3"/>')
@@ -520,7 +520,7 @@ def fig_households():
     s.append(f'<rect x="620" y="102" width="13" height="13" fill="{RUST}" rx="2"/>')
     s.append(txt(640, 113, 'Muslim households', 10.5, BODY))
     notes = ['1525 · waqf land of Hebron, 3,000 aqja,', 'no households at all',
-             '1562 · 64 Christian households and 7 single', 'men, from Bayt Jālā — the Christian settlement',
+             '1562 · 63 Christian households and 8 single', 'men, from Bayt Jālā — the Christian settlement',
              '1596 · taxed at a quarter, 9,400 aqja']
     for j, n in enumerate(notes):
         s.append(txt(620, 146 + j * 15, esc(n), 9.6, GREY if j % 2 else BODY))

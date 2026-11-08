@@ -430,7 +430,7 @@ def fig_void_solved():
     for yr in range(600, 1500, 30):
         s.append(f'<line x1="{px(yr):.1f}" y1="{band_y+6}" x2="{px(yr):.1f}" y2="{band_y+band_h-6}" stroke="{TAN}" stroke-width="1" opacity=".5"/>')
     s.append(f'<path d="M{px(569):.1f} {band_y-16:.0f} L{px(1500):.1f} {band_y-16:.0f}" stroke="#8A5A1E" stroke-width="1"/>')
-    s.append(txt((px(569)+px(1500))/2, band_y - 24, 'THE GENEALOGICAL VOID — 931 years, about thirty-one generations, and only three of them named', 9.8, '#8A5A1E', 'middle', '700'))
+    s.append(txt((px(569)+px(1500))/2, band_y - 24, 'THE GAP IN OUR LINE — 931 years, about thirty-one generations, and only three of them named', 9.8, '#8A5A1E', 'middle', '700'))
     s.append(txt((px(569)+px(1500))/2, band_y + band_h/2 + 4, 'the chart draws one line across all of this', 9.6, '#8A5A1E', 'middle', '400', 'italic'))
 
     for yr, lab, lines, anc in [
@@ -445,10 +445,10 @@ def fig_void_solved():
             s.append(txt(x + dx, band_y + 20 + i * 11, ln, 8.9, BODY, anc, '400', 'italic'))
 
     dy = band_y + band_h + 26
-    s.append(f'<rect x="{px(890):.1f}" y="{dy}" width="{px(1500)-px(890):.1f}" height="24" fill="{GREEN}" opacity=".13" stroke="{GREEN}"/>')
-    s.append(txt((px(890)+px(1500))/2, dy + 16, 'THE DOCUMENTARY VOID — 610 years', 9.8, DARK, 'middle', '700'))
-    s.append(f'<path d="M{px(569):.1f} {dy+12:.0f} L{px(886):.1f} {dy+12:.0f}" stroke="{GREEN}" stroke-width="2.4"/>')
-    s.append(txt((px(569)+px(890))/2, dy + 6, 'a Ghassān population is still named here', 8.6, DARK, 'middle', '700'))
+    s.append(f'<rect x="{px(1300):.1f}" y="{dy}" width="{px(1500)-px(1300):.1f}" height="24" fill="{GREEN}" opacity=".13" stroke="{GREEN}"/>')
+    s.append(txt(px(1500), dy + 38, 'THE GAP IN THE RECORD OF OUR PEOPLE — about two centuries, after c. 1300', 9.8, DARK, 'end', '700'))
+    s.append(f'<path d="M{px(569):.1f} {dy+12:.0f} L{px(1296):.1f} {dy+12:.0f}" stroke="{GREEN}" stroke-width="2.4"/>')
+    s.append(txt((px(569)+px(1300))/2, dy + 6, 'a Ghassān population is still named here', 8.6, DARK, 'middle', '700'))
 
     ax = dy + 58
     for yr in range(600, 1501, 100):
@@ -456,7 +456,7 @@ def fig_void_solved():
         s.append(txt(px(yr), ax + 16, str(yr), 8.8, FOLIO, 'middle'))
     s.append(f'<line x1="{px(569):.1f}" y1="{ax}" x2="{px(1500):.1f}" y2="{ax}" stroke="{FOLIO}"/>')
 
-    MARKS = [(594, 'Greek sources stop naming the Ghassanids. <tspan font-style="italic">The void has a start date.</tspan>', 'edge'),
+    MARKS = [(594, 'Our line stops in 569. In 593/4 the Greek writers stop naming the family.', 'edge'),
              (684, 'Marj Rāhiṭ — a Ghassanid faction still makes a caliph, from the old capital at Jābiya', 'yes'),
              (890, '<tspan font-weight="700">al-Yaʿqūbī finds Ghassān in the Ghūṭa of Damascus — and at Gharandal, in Transjordan</tspan>', 'key'),
              (1058, 'ʿAbūd — a Syriac inscription names a patriarch, an archbishop and a priest', 'yes'),
@@ -478,6 +478,6 @@ def fig_void_solved():
     s.append(txt(40, H - 68, 'The void is not empty of evidence. It is empty of names.', 11.5, INK, 'start', '700'))
     s.append(txt(40, H - 50, 'Eight dated records fall inside the stretch the chart leaves blank — and one of them, al-Yaʿqūbī writing in the ninth century, puts a Ghassān population in Transjordan by', 10, BODY))
     s.append(txt(40, H - 36, 'name, on the very plateau the family remembers. What no source supplies is a chain of fathers. The honest correction is therefore not to invent thirty names, but to print the number.', 10, BODY))
-    s.append(txt(40, H - 12, 'Procopius, <tspan font-style="italic">Wars</tspan> I.17; Serikoff (2017) for the silence after 594; Kennedy (2010) and al-Yaʿqūbī (d. 890); the ʿAbūd, Jifnā, Karak and Shawbak records as cited in Part II.', 8.8, FOLIO, 'start', '400', 'italic'))
+    s.append(txt(40, H - 12, 'Procopius, <tspan font-style="italic">Wars</tspan> I.17; Shahîd, <tspan font-style="italic">BASIC</tspan> I.1 (1995) for the silence after 593/4; Kennedy (2010) and al-Yaʿqūbī (d. 890); the ʿAbūd, Jifnā, Karak and Shawbak records as cited in Part II.', 8.8, FOLIO, 'start', '400', 'italic'))
     s.append('</svg>')
     return ''.join(s)

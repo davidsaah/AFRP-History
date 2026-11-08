@@ -121,7 +121,7 @@ def fig_layers():
       ('TODAY', '1994 →', 'A Palestinian city and the seat of an authority. 42,122 people in 2021.', '#0E5C33', 1.0, ''),
       ('MANDATE, JORDAN, OCCUPATION', '1917–1994', 'The town is tripled by nine thousand refugees in 1948.', '#12703E', 1.0, ''),
       ('OTTOMAN', '1517–1917', 'The Ḥaddādīn arrive c. 1562 and are named in the register of 1596. <b>This is the layer our own family enters.</b>', GREEN, 1.5, 'us'),
-      ('MAMLUK', '1250–1517', 'The name Rām Allāh is written down in a sultan’s endowment deed, 1279.', '#2E8B57', 1.0, ''),
+      ('MAMLUK', '1250–1517', 'A sultan’s endowment of 1279 includes Rām Allāh (the deed is lost; a court record of 1565 cites it).', '#2E8B57', 1.0, ''),
       ('CRUSADER &amp; AYYUBID', '1099–1250', 'Franks settle al-Bīra as Magna Mahumeria and leave again — the one arrival that did not stay.', PLUM, 0.85, ''),
       ('EARLY ISLAMIC', '638–1099', 'The rulers change; the villages do not. A church is rebuilt at ʿAbūd in 1058.', '#3E9464', 1.0, ''),
       ('BYZANTINE', '324–638', 'The whole country turns Christian without anybody arriving. Churches at Khirbet et-Tireh, ʿAbūd, Ṭaybeh.', '#5FA97F', 1.1, ''),
@@ -346,7 +346,7 @@ def _ladder_rows():
 
 
 _LGLOSS = {13: 'the branch', 14: 'the join', 29: 'the name enters',
-           34: '528–569, in Greek', 35: '931 years', 65: 'one witness', 66: 'fl. c. 1500'}
+           34: '528–569, in Greek', 35: '931 years', 65: 'one tradition', 66: 'fl. c. 1500'}
 
 
 def fig_ladder(upto, W=780):
@@ -404,7 +404,7 @@ def fig_ladder(upto, W=780):
                  f'xml:lang="ar" opacity="{op if on else ".14"}">{ar_s}</text>')
     yb = top + rows * rh + 6
     s.append(f'<line x1="8" y1="{yb}" x2="{W-8}" y2="{yb}" stroke="{RULE}"/>')
-    for i, ln in enumerate(_wrap('Read down each column. Sixty-six generations from Adam to Rāshid, thirty-six of them named; the dashed cell has one witness only. Below Rāshid the line stops being one man to a row — it is five sons, eight clans and a town — and every step of it is in documents.', 150)):
+    for i, ln in enumerate(_wrap('Read down each column. Sixty-six generations from Adam to Rāshid, thirty-six of them named; the dashed cell is named by one tradition, with no document. Below Rāshid the line stops being one man to a row — it is five sons, eight clans and a town — and every step of it is in documents.', 150)):
         s.append(txt(8, yb + 16 + i * 12, ln, 8.6, GREY, 'start', '400', 'italic'))
     s.append('<defs><pattern id="lhatch" width="5" height="5" patternTransform="rotate(45)" '
              'patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="5" '
@@ -488,7 +488,7 @@ def fig_karak_wheel():
     s.append(f'<text x="{tx+BW+34}" y="{ly+24}" font-size="10.4" fill="#FFFAF0" text-anchor="middle" '
              f'font-family="Times New Roman, Times, serif" xml:lang="ar">رام الله</text>')
     SONS = [('Ḥaddād', 'حداد'), ('Ibrāhīm', 'ابراهيم'), ('Jiryis', 'جريس'),
-            ('Shuqayr', 'شقير'), ('Ḥasan', 'حسن')]
+            ('Shuqayr', 'شقير'), ('Ḥassān', 'حسن')]
     sx = tx + BW + 76
     link(tx + BW + 62, ly + BH / 2, sx, ly + BH / 2, col=GOLD, w=2.2)
     for i, (en, ar) in enumerate(SONS):
