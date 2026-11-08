@@ -313,11 +313,10 @@ Ranked by size. Each has a named source, several already on the shelf and uncite
 - **Guérin's population for Ramallah: decided, no change.** His *Samarie* II
   p. 40 says about 2,000; the book keeps its figures. David, 7 Nov 2026: "those
   sources also have issues."
-- **Permission for two modern pages.** The page from Shāhīn's *Kashf
+- **Permission for two modern pages: settled.** The page from Shāhīn's *Kashf
   al-niqāb* (1982; Birzeit scan) and the page from Işık's 2015 edition of the
-  1562 register (Tapu ve Kadastro, Ankara) are reproduced as short quotations
-  for commentary. Ask the Shāhīn family and TKGM, or replace with the
-  Ottoman folio itself, before print.
+  1562 register (Tapu ve Kadastro, Ankara) stay in the book. David, 8 Nov 2026:
+  "All the permissions to use the images are granted."
 - **Strehlke's note on the 1186 charter: decided, no change.** His footnote
   (p. 18, no. 20) calls the charter possibly spurious. David declined a FIX box
   on 7 Nov 2026 ("those sources also have issues"), so the caption no longer
@@ -343,5 +342,6 @@ Ranked by size. Each has a named source, several already on the shelf and uncite
   the 1954 history?
 - **Filasṭīn, 7 April 1946.** Find the notice of the district 2 poll.
 - **The Dār Jiryis count.** Is it 43 or 13? The minutes are hard to read.
-- **Rights.** Reproducing two pages from Israel State Archives P-213/40 is
-  not yet cleared with the Archives.
+- **Rights: settled.** The two pages from Israel State Archives P-213/40 stay
+  in the book. David, 8 Nov 2026: "All the permissions to use the images are
+  granted."
