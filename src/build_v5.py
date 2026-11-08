@@ -1137,129 +1137,135 @@ CH(9)
 
 sect('What the ground says', 'Four centuries in which the land is thoroughly documented and our own line is not')
 ent('1099 → 1187', 'documents', False, 'Magna Mahumeria: the Franks arrive, and name nobody local',
- 'Crusader al-Bīra — the next hill over — becomes <b>Magna Mahumeria</b>, one of the largest Frankish rural settlements in the kingdom of Jerusalem. Its charter of <b>1156</b> rolls ninety-two Frankish burgesses by name — some fifty more are added over the next thirty years{}. <b>Not one local Christian is listed</b> — and the local Christians were plainly there, because the Franks had to farm around them. Saladin takes the place back in 1187, and Yāqūt, writing a generation later, reports having seen the ruin himself{}'.format(
+ 'Under the Crusaders, al-Bīra, the next hill over from ours, becomes <b>Magna Mahumeria</b>. It was one of the largest Frankish country settlements in the Crusader kingdom of Jerusalem. (The Franks were the European Crusaders.) Its charter of <b>1156</b> lists ninety-two Frankish burgesses, the settlers with rights in the town, by name. Some fifty more are added over the next thirty years{}. <b>Not one local Christian is listed.</b> Yet the local Christians were plainly there, because the Franks had to farm around them. Saladin takes the place back in 1187. Yāqūt, writing a generation later, reports having seen the ruin himself{}'.format(
   c('The 1156 charter in the cartulary of the Holy Sepulchre, often cited as of 11 February, a day this project has not verified against the cartulary itself; Ellenblum, <i>Frankish Rural Settlement in the Latin Kingdom of Jerusalem</i> (1998); Pringle, <i>The Churches of the Crusader Kingdom of Jerusalem</i>, I. '+D('1993_Pringle_Churches_of_the_Crusader_Kingdom_v1.pdf')+'.'),
   c('Yāqūt al-Ḥamawī, <i>Muʿjam al-buldān</i>, s.v. <span class="ar">البيرة</span>. <b>Earlier editions of this book quoted a first-person <span class="ar">رأيتها</span> here; this project has not been able to verify that word in the text and no longer prints it.</b> The secondary literature says only that Yāqūt mentions having seen the ruins.')),
  f"""
 {fig(ATLAS.fig_district(),'The hills around Ramallah — what has been dug, what was written, who ruled',
- 'Everything within a few kilometres of the future town: the excavated Byzantine sites, the Frankish settlement at al-Bīra, the inscription at Jifnā, the throne villages that ran this district for the Ottomans, and the watershed ridge road that all of it hangs off. Ramallah itself is the one dot with nothing under it before 1562 — which is exactly what a hill of endowment land should look like.',
+ 'This map shows everything within a few kilometres of the future town. You can see the excavated Byzantine sites, the Frankish settlement at al-Bīra, the inscription at Jifnā, the “throne villages” that ran this district for the Ottomans, and the road along the watershed ridge that ties it all together. Ramallah itself is the one dot with nothing under it before 1562. That is exactly what a hill of endowment land should look like.',
  'al-Houdalieh on Khirbet et-Tireh; Taha at ʿAbūd; Pringle on the Frankish churches; the Ottoman defters; Conder and Kitchener, <i>Survey of Western Palestine</i>.')}
-<p><b>The Franks are the exception that proves this book\u2019s rule.</b> They are the one arrival in
-four thousand years that genuinely left: a transient pulse of European ancestry, found in the
-nine men of the Crusaders’ pit at Sidon — of whom only two were part-European and part-local — and
-gone within a few generations{c('Haber et al., “A Transient Pulse of Genetic Admixture from the Crusaders in the Near East,” <i>AJHG</i> 104:5 (2019), DOI 10.1016/j.ajhg.2019.03.015. The study sequenced thirteen individuals from Lebanon across a thousand years, of whom <b>nine</b> are from the Sidon pit. <b>The negative result is Lebanese</b> — the same test has not been run on this ridge.')}. Everybody else whose arrival has been
-tested for stayed and married into it, and in Lebanon, where the test has been run, the Frankish
-ancestry is simply gone. <i>The family’s own arrival, four centuries later, is of the
-second kind.</i></p>"""),
+<p><b>The Franks are the exception that proves our rule.</b> Of all the arrivals in four thousand
+years, they are the one that truly left. Their European ancestry was a short-lived pulse. It was
+found in the nine men of the Crusaders’ pit at Sidon, and only two of them were part-European and
+part-local. Within a few generations it was gone{c('Haber et al., “A Transient Pulse of Genetic Admixture from the Crusaders in the Near East,” <i>AJHG</i> 104:5 (2019), DOI 10.1016/j.ajhg.2019.03.015. The study sequenced thirteen individuals from Lebanon across a thousand years, of whom <b>nine</b> are from the Sidon pit. <b>The negative result is Lebanese</b> — the same test has not been run on this ridge.')}.</p>
+<p>Everybody else whose arrival has been tested for stayed and married into the people already
+here. In Lebanon, where the test has been run, the Frankish ancestry is simply gone. <i>Our own
+families’ arrival, four centuries later, is of the second kind.</i></p>"""),
 
 ent('1182 · 1217/18 · 1321 · 14th c.', 'documents', False, 'The ridge and the plateau stay Christian — in other people’s documents',
- 'Four dated traces, none of them written by anyone in this family, all of them inside the blank the chart prints: <b>a Frankish charter of 1182 signed by one <i>Raymundus de Jafenia</i></b>; the pilgrim <b>Thietmar at Shawbak on his journey of 1217–18</b>, hosted and fed by a Frankish widow living in the suburb, where Christians and Muslims lived side by side; <b>a Christian majority still at Shawbak in 1321</b>; and <b>men of Jifnā named in the Jerusalem Ḥaram al-Sharīf documents</b>, a corpus overwhelmingly of 793–794 AH / 1391–92{}.'.format(c('The Jifnā charter of 1182, signed by Raymundus de Jafenia, and the Jerusalem Ḥaram documents of 1374. <b>Earlier editions of this book also printed “the Jifnā inscription of 1179”; the project has not been able to verify that a separate inscription of that year exists, and has retired the date rather than print an object it cannot find.</b> (Little, <i>A Catalogue of the Islamic Documents from al-Ḥaram aš-Šarīf</i>); Thietmar, <i>Peregrinatio</i>, the journey of 1217–18; the stop at Shawbak (Mons Regalis) is dated 1217 in the Transjordanian survey literature and 1218 elsewhere, so this book gives the journey rather than the year; the Christian majority at Shawbak in 1321 from the Mamluk-period record.')),
+ 'We have four dated traces. None of them was written by anyone in our families, and all of them fall inside the blank that the family chart prints. <b>A Frankish charter of 1182 is signed by one <i>Raymundus de Jafenia</i></b>. <b>The pilgrim Thietmar stops at Shawbak on his journey of 1217–18.</b> A Frankish widow living in the suburb hosts and feeds him, in a place where Christians and Muslims lived side by side. <b>Shawbak still has a Christian majority in 1321.</b> And <b>men of Jifnā are named in the documents of the Ḥaram al-Sharīf</b>, the great sanctuary of Jerusalem. That collection comes overwhelmingly from 1391–92 (793–794 AH){}.'.format(c('The Jifnā charter of 1182, signed by Raymundus de Jafenia, and the Jerusalem Ḥaram documents of 1374. <b>Earlier editions of this book also printed “the Jifnā inscription of 1179”; the project has not been able to verify that a separate inscription of that year exists, and has retired the date rather than print an object it cannot find.</b> (Little, <i>A Catalogue of the Islamic Documents from al-Ḥaram aš-Šarīf</i>); Thietmar, <i>Peregrinatio</i>, the journey of 1217–18; the stop at Shawbak (Mons Regalis) is dated 1217 in the Transjordanian survey literature and 1218 elsewhere, so this book gives the journey rather than the year; the Christian majority at Shawbak in 1321 from the Mamluk-period record.')),
  f"""
-<div class="fix"><div class="fixhead">An expert verdict that cuts against the tradition</div>
+<div class="fix"><div class="fixhead">An expert view that cuts against our tradition</div>
 <div style="font-size:.95rem;line-height:1.65;color:#46423B">
-<p style="max-width:none"><b>The family’s tradition asserts continuous Christian residence on the
-Shawbak–Karak–Maʿīn plateau from late antiquity to about 1500. The leading archaeologist of Christian
-southern Jordan says that is not what the ground shows.</b> Robert Schick’s position is that the
-plateau was solidly Christian in the sixth century — some fifty churches, hundreds of Christian
-tombstones — that its churches <i>cease Christian use by the ninth or tenth century and often
-earlier</i>, that Christians are “scarcely attested in historical sources” from the eighth, and that
-in the tenth to twelfth centuries <b>the absence of evidence genuinely reflects population decline
-rather than poor survival</b>. Christians reappear briefly with the Crusader presence and then
-largely vanish again{c('Robert Schick, <i>The Christian Communities of Palestine from Byzantine to Islamic Rule</i> (Princeton: Darwin Press, 1995), whose survey stops at 813; and his later and harder position in “The Decline of Christianity in Southern Jordan after the Muslim Conquest,” given at the Khalili Research Centre, Oxford. <b>Cited here against the family’s tradition, not for it.</b>')}.</p>
-<p style="max-width:none"><i>This book prints that, because its method requires it.</i> <b>What
-stands against it is not nothing:</b> a bishop of Karak about 800, a Latin cathedral there in 1167,
-a bishop at Shawbak in 1217, a church of St George at Karak in 1329, and a Christian community
-paying <i>jizya</i> at Shawbak in the register of 1596. <b>The honest reading is a much-reduced and
-possibly interrupted Christian presence, not an unbroken one — and a family tradition of continuous
-residence there is asserting more than the archaeology will carry.</b></p></div></div>
-<p>These are not the family’s records and they do not name the family. <b>What they establish is the
-thing the family’s tradition actually needs</b>: that between the last Ghassanid named in Greek and
-the first Ḥaddādīn named in any register at all, there were continuously Christian populations at
-both ends of the road the tradition describes — the Karak–Shawbak plateau in the south, and this
-ridge in the north. <i>A migration story requires a population at each end. Both ends are documented.
-The journey between them is not.</i></p>""" + FIX(
+<p style="max-width:none"><b>The family’s tradition says Christians lived on the Shawbak–Karak–Maʿīn
+plateau without a break from late antiquity to about 1500. The leading archaeologist of Christian
+southern Jordan says that is not what the ground shows.</b> Robert Schick holds that the plateau was
+solidly Christian in the sixth century, with some fifty churches and hundreds of Christian
+tombstones. He finds that its churches <i>cease Christian use by the ninth or tenth century and often
+earlier</i>. He finds that Christians are “scarcely attested in historical sources” from the eighth
+century. And he holds that in the tenth to twelfth centuries <b>the lack of evidence really does
+reflect a falling population, not records that failed to survive</b>. Christians reappear briefly
+with the Crusaders and then largely vanish again{c('Robert Schick, <i>The Christian Communities of Palestine from Byzantine to Islamic Rule</i> (Princeton: Darwin Press, 1995), whose survey stops at 813; and his later and harder position in “The Decline of Christianity in Southern Jordan after the Muslim Conquest,” given at the Khalili Research Centre, Oxford. <b>Cited here against the family’s tradition, not for it.</b>')}.</p>
+<p style="max-width:none"><i>We print this because our method requires it.</i> <b>What stands
+against it is not nothing.</b> There was a bishop of Karak about 800, a Latin cathedral there in
+1167, a bishop at Shawbak in 1217, and a church of St George at Karak in 1329. In the register of
+1596 a Christian community at Shawbak pays <i>jizya</i>, the tax on non-Muslims. <b>The fair reading
+is a much-reduced and perhaps interrupted Christian presence, not an unbroken one. A family tradition
+of continuous residence there claims more than the archaeology will carry.</b></p></div></div>
+<p>These are not our families’ records, and they do not name our families. <b>But they show the one
+thing the family’s tradition actually needs.</b> Think of the time between the last Ghassanid named
+in Greek and the first Ḥaddādīn named in any register at all. Through all of it, there were
+continuously Christian populations at both ends of the road the tradition describes: the
+Karak–Shawbak plateau in the south, and this ridge in the north. <i>A migration story needs people at
+each end. Both ends are documented. The journey between them is not.</i></p>""" + FIX(
  'A grey-haired Greek bishop brings the pilgrim Thietmar bread and cheese at Karak in 1217.',
- 'The pilgrim <b>Thietmar</b> was hosted at <b>Shawbak</b>, on his journey of <b>1217–18</b>, by <b>a Frankish widow</b> living in the suburb — <b>not by a bishop, and not at Karak</b>.',
- 'Thietmar’s own <i>Peregrinatio</i> is explicit about the place and the person; earlier editions of this book conflated two separate episodes. <b>The year is the one part still loose</b> — the Transjordanian survey literature dates the Shawbak stop to 1217, other accounts to 1218 — so this book prints the journey, 1217–18, rather than choosing. <b>The corrected reading is weaker as an anecdote and stronger as evidence</b>: a resident Frankish widow, in a suburb where Christians and Muslims lived side by side, shows an ordinary settled population, where a visiting bishop would have shown only a visit.')),
+ 'The pilgrim <b>Thietmar</b> was hosted at <b>Shawbak</b>, on his journey of <b>1217–18</b>, by <b>a Frankish widow</b> living in the suburb. <b>It was not a bishop, and it was not at Karak.</b>',
+ 'Thietmar’s own <i>Peregrinatio</i> is clear about the place and the person. Our earlier editions mixed up two separate episodes. <b>Only the year is still loose.</b> The survey literature for Transjordan dates the Shawbak stop to 1217, and other accounts to 1218, so we give the journey, 1217–18, rather than choose. <b>The corrected story is a weaker anecdote but stronger evidence.</b> A Frankish widow living in a suburb where Christians and Muslims lived side by side shows an ordinary settled population. A visiting bishop would have shown only a visit.')),
 
 ent('26 July 1374', 'documents', False,
-    'ONE CHRISTIAN, ONE DEBT — and a place-name with a question mark over it',
- f'''Inside the void, a single sheet of paper. On <b>7 Ṣafar 776</b> — late July 1374 — a man called
-<b>Niʿma ibn Bishāra al-Naṣrānī</b>, “the Christian,” bought a weight of cotton on credit from the
-provisioner <b>Ḥājj ʿUmar ibn Muḥammad ibn ʿUmar al-ʿAllāf</b>. The price was <b>218 dirhams</b>,
-repayable at <b>six dirhams at the close of every week</b>. Two witnesses signed it, and somebody
-later struck the whole thing through — which is how a debt is marked paid. The paper survived in the
-Ḥaram al-Sharīf deposit at Jerusalem{c('Text #922/4 (recto), contract 4, in Said Aljoumani, Zahir Bhalloo &amp; Konrad Hirschler, <i>The Ḥaram al-Sharīf Documents: A Catalogue</i> (Berlin: De Gruyter, 2024), 48 and 175, open access, DOI 10.1515/9783111330242. Six lines, two witness clauses, in very good condition with no lacunae. The witnesses are ʿAlī b. Ismāʿīl b. Shākir and ʿAbd al-Raḥmān b. Muḥammad. The Gregorian date is the tabular conversion of 7 Ṣafar 776 and may be a day or two out. '+D('2024_Aljoumani_Bhalloo_Hirschler_Haram_Documents.pdf')+'.')}. <b>And it says where he came from — except that
-nobody can read it.</b>''',
+    'One Christian, one debt — and a place-name with a question mark over it',
+ f'''In the middle of the void, the centuries with no family record, we have a single sheet of paper.
+In late July 1374 (<b>7 Ṣafar 776</b>) a man called <b>Niʿma ibn Bishāra al-Naṣrānī</b>, “the
+Christian,” bought a weight of cotton on credit. The seller was the provisioner <b>Ḥājj ʿUmar ibn
+Muḥammad ibn ʿUmar al-ʿAllāf</b>. The price was <b>218 dirhams</b> (silver coins), to be repaid at
+<b>six dirhams at the close of every week</b>. Two witnesses signed it. Later somebody struck the
+whole thing through, which is how a debt is marked paid. The paper survived in the Ḥaram al-Sharīf
+collection at Jerusalem{c('Text #922/4 (recto), contract 4, in Said Aljoumani, Zahir Bhalloo &amp; Konrad Hirschler, <i>The Ḥaram al-Sharīf Documents: A Catalogue</i> (Berlin: De Gruyter, 2024), 48 and 175, open access, DOI 10.1515/9783111330242. Six lines, two witness clauses, in very good condition with no lacunae. The witnesses are ʿAlī b. Ismāʿīl b. Shākir and ʿAbd al-Raḥmān b. Muḥammad. The Gregorian date is the tabular conversion of 7 Ṣafar 776 and may be a day or two out. '+D('2024_Aljoumani_Bhalloo_Hirschler_Haram_Documents.pdf')+'.')}. <b>It even says where he came from.
+The trouble is that nobody can read it.</b>''',
  f"""
-<p>The scribe wrote <span class="ar">جفنا الجوز؟</span>, and the editors print it exactly like that,
-with the question mark, and index it under that queried form. <b>It is not simply “Jifnā.”</b> It is a
-compound name, uncertainly read, and the catalogue’s own index of places keeps it separate from
-anything else.</p>
+<p>The scribe wrote <span class="ar">جفنا الجوز؟</span>. The editors print it exactly like that, with
+the question mark, and index it under that doubtful form. <b>It is not simply “Jifnā.”</b> It is a
+compound name, read with doubt, and the catalogue’s own index of places keeps it apart from anything
+else.</p>
 {FIX('“Men of Jifnā in the Ḥaram registers in 1374,” listed among the dated records that fall inside the blank.',
- '<b>One man, not men</b> — a single named individual in a single contract. And <b>the village is a queried reading</b> of a compound place-name that the editors do not identify with Jifnā north of Ramallah.',
- 'Autopsy of the published catalogue, which this project did not do when it first made the claim. The document is real, the man is real, the date is firm and the fact that he is a Christian is written on the page. <i>What is not firm is the one thing the claim rested on.</i> The entry is kept, and demoted from evidence about this district to evidence about the century.')}
-<p><b>It is still worth printing, and here is why.</b> A Christian of the Jerusalem countryside, in
-1374, is named with his father’s name, buys goods on credit from a Muslim dealer, and has the terms
-written into an instrument good enough to survive six hundred and fifty years. <i>Whatever village he
-walked in from, that is what an ordinary Christian life looked like in the middle of the four hundred
-years this book cannot cross</i> — and it is exactly the kind of paper our own ancestors would have
-generated, if anybody had kept theirs.</p>
-<p><b>And now the search, reported whether or not it found anything.</b> McGill University has put the
-1978 microfilm of the entire corpus online — four rolls, some nine hundred documents, free to
-anyone{c('McGill University Library, <i>Islamic documents from al-Ḥaram al-Sharīf in Jerusalem</i>, four microfilm rolls digitised and open on archive.org, items <code>McGillLibrary-isl_al-haram-as-sarif_CD2019J47L571984_roll1-20453</code> through <code>roll4-20456</code>. The catalogue that makes them usable is Donald P. Little, <i>A Catalogue of the Islamic Documents from al-Ḥaram aš-Šarīf in Jerusalem</i>, Beiruter Texte und Studien 29 (Beirut, 1984), ISBN 3-515-03699-7 — print only.')}. <b>The machine-read text of it is worthless.</b> In three hundred and ten thousand
-characters of optically recognised Arabic, drawn from a religious archive in Jerusalem, the words
-<span class="ar">القدس</span>, <span class="ar">الحرم</span>, <span class="ar">الشريف</span> and
-<span class="ar">قرية</span> occur <b>not once</b>, and <span class="ar">محمد</span> occurs
-<b>once</b>. The commonest strings the software produced are <span class="ar">ااا</span> and
-<span class="ar">الا</span>. <i>It is reading the strokes and not the words.</i> Fourteenth-century
-chancery and court hands, photographed on microfilm in 1978, defeat it completely.</p>
-<p>So the search was run instead on <b>the published catalogue</b>, which is a thing a reader can
-check. Across the whole of it, the villages of this ridge — <b>Jifnā, ʿAbūd, Ṭaybeh, al-Bīra, Bayt
-Jālā, and Ramallah itself</b> — appear exactly twice: the queried
-<span class="ar">جفنا الجوز؟</span> above, and a letter of <b>1914</b> about appointing an imam at
-Silwād in the nāḥiya of ʿAbawīn, five and a half centuries too late to help{c('#887, a letter of Jumādā I 1332 / 1914 from Muḥammad Kāmil al-Ḥusaynī, deputy judge of the sharīʿa court at Jerusalem, requesting a <i>berat</i> for Shaykh Muḥammad b. Shaykh ʿAbd al-Fattāḥ as imam of the mosque at Silwād. Aljoumani, Bhalloo &amp; Hirschler (2024), 103.')}.</p>
-<p><b>That is the result, and it is a real one.</b> It does not say the corpus holds nothing of ours.
-It says the <i>published</i> part of it holds nothing of ours, and the unpublished part cannot at
-present be read by anybody who is not sitting in a reading room with the originals or working through
-Little’s catalogue page by page. <i>The void survives this search, and the search is on the record so
-that nobody has to run it twice.</i></p>"""),
-ent('1186 → 1330', 'documents', False, 'THE NAME APPEARS — a hundred years earlier than this book has been saying',
- f"""<b>A Crusader charter names this place a century before the Mamluks.</b> On <b>7 March 1186</b>
-Guy de Lusignan, owing the German hospital in Jerusalem a hundred and eleven marks of silver, pledges
-it a village of his <b>“near the royal road by which one goes to Ramallah”</b> — <i>prope viam regalem,
-qua vaditur Ramelie</i> — to become the hospital’s if he cannot pay within a year and a
-day{c('Ernst Strehlke, ed., <i>Tabulae Ordinis Theutonici</i> (Berlin, 1869), p. 18, no. 20; the Latin and an English translation are printed in Azeez Shaheen, <i>A Pictorial History of Ramallah</i> (1992), pp. 17–19. Sāmiḥ Ḥammūdeh, “New Light on Ramallah’s Origins in the Ottoman Period,” <i>Jerusalem Quarterly</i> 59 (2014), p. 39, gives the same date. <b>Earlier editions of this book said the name first appears in 1279. It appears in 1186 — in an article this project already held.</b> ' + D('2014_Hammoudeh_New_Light_Ramallah_Ottoman_JQ59.pdf') + ' · ' + D('1992_Shaheen_A_Pictorial_History_of_Ramallah.pdf') + '.')}.
-<i>The road already went to Ramallah while the Crusader kingdom still stood — a place well enough known
-to give a king’s road its direction.</i>""",
+ '<b>One man, not men</b>: a single named person in a single contract. And <b>the village is a doubtful reading</b> of a compound place-name. The editors do not identify it with Jifnā north of Ramallah.',
+ 'We checked the published catalogue with our own eyes, which we had not done when the claim was first made. The document is real, the man is real and the date is firm. That he was a Christian is written on the page. <i>What is not firm is the one thing the claim rested on.</i> We keep the entry, but it is now evidence about the century, not about this district.')}
+<p><b>It is still worth printing, and here is why.</b> In 1374 a Christian of the Jerusalem
+countryside is named with his father’s name. He buys goods on credit from a Muslim dealer. The terms
+are written into a contract good enough to survive six hundred and fifty years. <i>Whatever village
+he walked in from, that is what an ordinary Christian life looked like in the middle of the four
+hundred years we cannot cross.</i> It is exactly the kind of paper our own ancestors would have left,
+if anybody had kept theirs.</p>
+<p><b>Then we searched, and we report the search whether or not it found anything.</b> McGill
+University has put the 1978 microfilm of the whole collection online: four rolls, some nine hundred
+documents, free to anyone{c('McGill University Library, <i>Islamic documents from al-Ḥaram al-Sharīf in Jerusalem</i>, four microfilm rolls digitised and open on archive.org, items <code>McGillLibrary-isl_al-haram-as-sarif_CD2019J47L571984_roll1-20453</code> through <code>roll4-20456</code>. The catalogue that makes them usable is Donald P. Little, <i>A Catalogue of the Islamic Documents from al-Ḥaram aš-Šarīf in Jerusalem</i>, Beiruter Texte und Studien 29 (Beirut, 1984), ISBN 3-515-03699-7 — print only.')}. <b>The machine-read text of it is worthless.</b> The software
+turned the film into three hundred and ten thousand characters of Arabic. This is a religious archive
+from Jerusalem, yet the words <span class="ar">القدس</span> (Jerusalem), <span class="ar">الحرم</span>
+(the sanctuary), <span class="ar">الشريف</span> (noble) and <span class="ar">قرية</span> (village)
+occur <b>not once</b>, and <span class="ar">محمد</span> (Muḥammad) occurs <b>once</b>. The commonest
+strings it produced are <span class="ar">ااا</span> and <span class="ar">الا</span>. <i>It is reading
+the strokes, not the words.</i> Fourteenth-century court and chancery handwriting, photographed on
+microfilm in 1978, defeats it completely.</p>
+<p>So we ran the search on <b>the published catalogue</b> instead, which any reader can check. In the
+whole catalogue, the villages of this ridge — <b>Jifnā, ʿAbūd, Ṭaybeh, al-Bīra, Bayt Jālā, and
+Ramallah itself</b> — appear exactly twice. One is the doubtful <span class="ar">جفنا الجوز؟</span>
+above. The other is a letter of <b>1914</b> about appointing an imam at Silwād, in the nāḥiya
+(district) of ʿAbawīn. That is five and a half centuries too late to help{c('#887, a letter of Jumādā I 1332 / 1914 from Muḥammad Kāmil al-Ḥusaynī, deputy judge of the sharīʿa court at Jerusalem, requesting a <i>berat</i> for Shaykh Muḥammad b. Shaykh ʿAbd al-Fattāḥ as imam of the mosque at Silwād. Aljoumani, Bhalloo &amp; Hirschler (2024), 103.')}.</p>
+<p><b>That is the result, and it is a real one.</b> It does not say the collection holds nothing of
+ours. It says the <i>published</i> part holds nothing of ours. For now, the unpublished part can only
+be read by someone sitting in a reading room with the originals, or working through Little’s
+catalogue page by page. <i>The void survives this search. We put the search on record so that nobody
+has to run it twice.</i></p>"""),
+ent('1186 → 1330', 'documents', False, 'The name appears — a hundred years earlier than we used to say',
+ f"""<b>A Crusader charter names our town a century before the Mamluks, the sultans who later ruled
+from Cairo.</b> On <b>7 March 1186</b> Guy de Lusignan owed the German hospital in Jerusalem a hundred
+and eleven marks of silver. He pledged it a village of his <b>“near the royal road by which one goes
+to Ramallah”</b> — <i>prope viam regalem, qua vaditur Ramelie</i>. If he could not pay within a year
+and a day, the village would become the hospital’s{c('Ernst Strehlke, ed., <i>Tabulae Ordinis Theutonici</i> (Berlin, 1869), p. 18, no. 20; the Latin and an English translation are printed in Azeez Shaheen, <i>A Pictorial History of Ramallah</i> (1992), pp. 17–19. Sāmiḥ Ḥammūdeh, “New Light on Ramallah’s Origins in the Ottoman Period,” <i>Jerusalem Quarterly</i> 59 (2014), p. 39, gives the same date. <b>Earlier editions of this book said the name first appears in 1279. It appears in 1186 — in an article this project already held.</b> ' + D('2014_Hammoudeh_New_Light_Ramallah_Ottoman_JQ59.pdf') + ' · ' + D('1992_Shaheen_A_Pictorial_History_of_Ramallah.pdf') + '.')}.
+<i>So the road already went to Ramallah while the Crusader kingdom still stood. The place was well
+enough known to give a king’s road its direction.</i>""",
  f"""
 {FIX('Guy de Lusignan pledges that if he cannot pay, <b>“the village of Ramallah becomes the hospital’s property”</b>; and “Rey found <i>Ramalei</i> in a manuscript of <b>1198</b>” — as printed in earlier editions.',
- '<b>The village pledged in 1186 is not named.</b> Ramallah is named as the place the royal road beside it leads to — which is still the first time the name is written down. <b>The 1198 document is a forgery</b>, and is withdrawn as evidence.',
- 'The charter’s own words are <i>unum casellum nostrum … prope viam regalem, qua vaditur Ramelie</i> — “one hamlet of ours … near the royal road by which one goes to Ramelie.” The “1198” grant to Marseilles, Rey’s source and the one that names an <i>Andreas de Ramella</i>, is one of a set of documents forged at Acre about 1220, identified by Hans Eberhard Mayer from their wrong formulas.' + c('H. E. Mayer, <i>Marseilles Levantehandel und ein akkonensisches Fälscheratelier des 13. Jahrhunderts</i> (Tübingen: Niemeyer, 1972), pp. 1–3; E. G. Rey, <i>Les colonies franques de Syrie</i> (Paris, 1883), p. 389; Mas Latrie, <i>Histoire de l’île de Chypre</i> II (Paris, 1852), pp. 24–25. Summarised in Shaheen (1992), pp. 19–20. <b>Shaheen’s own conclusion is worth keeping: the forger could only use a name everybody already knew.</b>'))}
-<p><b>Then the endowment.</b> A Jerusalem court record of 1565 cites a waqf of Sultan Qalāwūn dated
-678 AH — 1279–80 — in which <i>Rām Allāh</i> is already a named place, <b>about 283 years before the
-traditional founding</b>. <i>The deed itself does not survive.</i>{c('Ḥammūdeh (2014), p. 40 and n. 17: “We do not have the text of Sultan Qalawun’s waqf, but court records (sijill 48, page 88) from the end of Dhu al-Qiʿda 972 AH (29 June 1565 CE) mention the waqf and date it back to 678 AH.” 678 AH runs 14 May 1279 – 3 May 1280. <b>Earlier editions of this book cited “sijill 48, p. 54, 22 June 1565” and described the deed as produced in court with its boundaries. All three were wrong: the page is 88, the date is 29 June, and the deed is lost.</b> The bibliography appendix to this edition still reports a separate entry at <i>p. 54</i>, 23 Dhū al-Qaʿda 972 / 22 June 1565, recording a boundary dispute over <span class="ar">قرية رام الله</span>. <b>That reading comes from a machine decode of the IRCICA scan and has not been checked against the page images; it is not the waqf entry, and until somebody reads the folio it should not be cited.</b>')}</p>
-<p>Two things follow, and both matter. <b>First, the family did not name the hill.</b> The name is
-older than the settlement, and it is a place-name of the ordinary Semitic kind:
-<span class="ar">رام</span>, a height, joined to the divine name. <b>Second, the legal status explains
-the archaeology.</b> Land held in <i>waqf</i> — inalienable endowment — is exactly the sort of ground
-that turns up in a sixteenth-century Ottoman register as cultivated but uninhabited, which is
-precisely what the register of 1525–28 records for this hill.</p>
-<p><i>And a waqf is not a category. It is a working arrangement.</i> A sultan does not endow Hebron’s
-kitchen with bare rock; he endows it with a tithe, and a tithe means a crop, and a crop means hands.
-<b>For two and a half centuries the men of ʿEin Qīniya, Jifnā and al-Bīra came up this ridge, worked
+ '<b>The village pledged in 1186 is not named.</b> Ramallah is named as the place the royal road beside it leads to. That is still the first time the name is written down. <b>The 1198 document is a forgery</b>, and we withdraw it as evidence.',
+ 'The charter’s own words are <i>unum casellum nostrum … prope viam regalem, qua vaditur Ramelie</i> — “one hamlet of ours … near the royal road by which one goes to Ramelie.” The “1198” grant to Marseilles was Rey’s source, and it is the one that names an <i>Andreas de Ramella</i>. It belongs to a set of documents forged at Acre about 1220. Hans Eberhard Mayer identified them from their wrong formulas.' + c('H. E. Mayer, <i>Marseilles Levantehandel und ein akkonensisches Fälscheratelier des 13. Jahrhunderts</i> (Tübingen: Niemeyer, 1972), pp. 1–3; E. G. Rey, <i>Les colonies franques de Syrie</i> (Paris, 1883), p. 389; Mas Latrie, <i>Histoire de l’île de Chypre</i> II (Paris, 1852), pp. 24–25. Summarised in Shaheen (1992), pp. 19–20. <b>Shaheen’s own conclusion is worth keeping: the forger could only use a name everybody already knew.</b>'))}
+<p><b>Then the endowment.</b> A Jerusalem court record of 1565 cites a <i>waqf</i> (a charitable
+endowment) of Sultan Qalāwūn, dated 1279–80 (678 AH). In it <i>Rām Allāh</i> is already a named
+place, <b>about 283 years before the traditional founding</b>. <i>The deed itself does not
+survive.</i>{c('Ḥammūdeh (2014), p. 40 and n. 17: “We do not have the text of Sultan Qalawun’s waqf, but court records (sijill 48, page 88) from the end of Dhu al-Qiʿda 972 AH (29 June 1565 CE) mention the waqf and date it back to 678 AH.” 678 AH runs 14 May 1279 – 3 May 1280. <b>Earlier editions of this book cited “sijill 48, p. 54, 22 June 1565” and described the deed as produced in court with its boundaries. All three were wrong: the page is 88, the date is 29 June, and the deed is lost.</b> The bibliography appendix to this edition still reports a separate entry at <i>p. 54</i>, 23 Dhū al-Qaʿda 972 / 22 June 1565, recording a boundary dispute over <span class="ar">قرية رام الله</span>. <b>That reading comes from a machine decode of the IRCICA scan and has not been checked against the page images; it is not the waqf entry, and until somebody reads the folio it should not be cited.</b>')}</p>
+<p>Two things follow, and both matter. <b>First, our families did not name the hill.</b> The name
+is older than the settlement. It is an ordinary Semitic place-name: <span class="ar">رام</span>, a
+height, joined to the name of God.</p>
+<p><b>Second, the legal status explains the archaeology.</b> Land held in <i>waqf</i> can never be
+sold or given away. That is exactly the sort of ground that turns up in a sixteenth-century Ottoman
+register as farmed but uninhabited. And that is just what the register of 1525–28 records for this
+hill.</p>
+<p><i>And a waqf is not just a legal label. It is a working arrangement.</i> A sultan does not endow
+Hebron’s kitchen with bare rock. He endows it with a tithe, a share of the harvest. A tithe means a
+crop, and a crop means hands. <b>For two and a half centuries the men of ʿEin Qīniya, Jifnā and al-Bīra came up this ridge, worked
 it, and went home at dusk. The Ḥaddādīn were the first to stay the night.</b></p>
 <p><b>The better Mamluk evidence is not the lost deed at all.</b> Ramallah is named in documents that
-<i>do</i> survive: in the <b>Ḥaram al-Sharīf corpus of the 1390s</b>, where Ramallah cultivators
-guarantee a yearly sum to the Hebron endowment; and in <b>Tankiz’s endowment of 1330</b>, where the
-village is named as the eastern boundary of ʿEin Qīniya{c('The Ḥaram al-Sharīf documents of 793–796 AH / 1390–95, catalogued by Donald P. Little, <i>A Catalogue of the Islamic Documents from al-Ḥaram aš-Šarīf in Jerusalem</i> (Beirut, 1984); Tankiz’s endowment of 12 Jumādā I 730 / 3 March 1330. These documents exist; Qalāwūn’s deed does not. <b>The figure of “twelve fellāḥīn and 950 dirhams a year” printed in earlier editions of this book cannot be traced to Ḥammūdeh or to Little and is withdrawn until a folio is produced.</b> <b>A lead, not yet a folio:</b> Yossef Rapoport’s study of the same archive describes “a subset of twenty-seven documents, all dating from the 1300s, concerned with villages endowed for the benefit of the Haram al-Sharif in Jerusalem or the Tomb of the Patriarchs in Hebron,” and indexes Ramallah at pp. 93, 97, 99, 103–6 and 109 — Yossef Rapoport, <i>Becoming Arab: The Formation of Arab Identity in the Medieval Middle East</i> (Princeton University Press, 2025), Introduction p. 16 and index, seen in the publisher’s preview; the chapter pages themselves have not been seen. Christian Müller, “A Legal Instrument in the Service of People and Institutions,” <i>Mamlūk Studies Review</i> 12.1 (2008), p. 188 n. 96, lists the village headmen’s guarantees of crops to the Ḥaram endowment as Ḥaram documents nos. 19, 48, 110, 194, 202, 280, 348 and 459, all of 706–708 AH / 1306–08, without naming the villages. The English Wikipedia article on Ramallah (October 2026) puts the twelve men and the 950 dirhams, from “apples, olives and cotton,” on Rapoport’s p. 105; the same sum is given for ʿAyn ʿArīk on p. 104, so the Ramallah figure is held back until p. 105 and the Arabic deed it rests on are read. The surveyed boundaries once attached here to the 1279 deed come from Bakhīt and Sawāriyya and cannot at present be assigned to either instrument with confidence.')}.</p>
-<p>And the negative check has been run. <b>Mujīr al-Dīn’s topography of Jerusalem and Hebron,
-completed in 900 AH / 1495 and searched in full for this book, has no Ramallah in
+<i>do</i> survive. In the <b>Ḥaram al-Sharīf documents of the 1390s</b>, Ramallah farmers guarantee
+a yearly sum to the Hebron endowment. In <b>Tankiz’s endowment of 1330</b>, the village is named as
+the eastern boundary of ʿEin Qīniya{c('The Ḥaram al-Sharīf documents of 793–796 AH / 1390–95, catalogued by Donald P. Little, <i>A Catalogue of the Islamic Documents from al-Ḥaram aš-Šarīf in Jerusalem</i> (Beirut, 1984); Tankiz’s endowment of 12 Jumādā I 730 / 3 March 1330. These documents exist; Qalāwūn’s deed does not. <b>The figure of “twelve fellāḥīn and 950 dirhams a year” printed in earlier editions of this book cannot be traced to Ḥammūdeh or to Little and is withdrawn until a folio is produced.</b> <b>A lead, not yet a folio:</b> Yossef Rapoport’s study of the same archive describes “a subset of twenty-seven documents, all dating from the 1300s, concerned with villages endowed for the benefit of the Haram al-Sharif in Jerusalem or the Tomb of the Patriarchs in Hebron,” and indexes Ramallah at pp. 93, 97, 99, 103–6 and 109 — Yossef Rapoport, <i>Becoming Arab: The Formation of Arab Identity in the Medieval Middle East</i> (Princeton University Press, 2025), Introduction p. 16 and index, seen in the publisher’s preview; the chapter pages themselves have not been seen. Christian Müller, “A Legal Instrument in the Service of People and Institutions,” <i>Mamlūk Studies Review</i> 12.1 (2008), p. 188 n. 96, lists the village headmen’s guarantees of crops to the Ḥaram endowment as Ḥaram documents nos. 19, 48, 110, 194, 202, 280, 348 and 459, all of 706–708 AH / 1306–08, without naming the villages. The English Wikipedia article on Ramallah (October 2026) puts the twelve men and the 950 dirhams, from “apples, olives and cotton,” on Rapoport’s p. 105; the same sum is given for ʿAyn ʿArīk on p. 104, so the Ramallah figure is held back until p. 105 and the Arabic deed it rests on are read. The surveyed boundaries once attached here to the 1279 deed come from Bakhīt and Sawāriyya and cannot at present be assigned to either instrument with confidence.')}.</p>
+<p>We also looked where the name might be missing. <b>Mujīr al-Dīn finished his topography of
+Jerusalem and Hebron in 1495 (900 AH). We searched it in full, and it has no Ramallah in
 it</b>{c('Mujīr al-Dīn al-ʿUlaymī, <i>al-Uns al-jalīl bi-taʾrīkh al-Quds wa-l-Khalīl</i> (1495), searched complete for this project in the copy held in the family library. <b>The silence is weak evidence and is printed as such:</b> <i>al-Uns al-jalīl</i> is a history of Jerusalem and Hebron with an incidental and selective village list, not a gazetteer, and a hamlet of a few households would not be expected in it. ' + D('1495_Mujir_al-Din_al-Uns_al-jalil.pdf') + '.')}.
-Between 1186 and 1562 the name is on paper and the hill is barely a hamlet: endowment land with no
-residents in 1525–28, <b>four Muslim households by 1538–39</b> — <b>Ḥasan bin Labūd, Khaṭṭāb bin
-Ḥasan, Rajab bin Yaʿqūb and Ibrāhīm bin Labūd</b>, the first people of this place whose names we
-have — and six by 1553–54. <i>The deed and the registers say the same thing from opposite ends.</i></p>"""),
+That silence counts for little, because his book is not a full list of villages.</p>
+<p>Between 1186 and 1562 the name is on paper, but the hill is barely a hamlet. It is endowment land
+with no residents in 1525–28. By 1538–39 it has <b>four Muslim households</b>: <b>Ḥasan bin Labūd,
+Khaṭṭāb bin Ḥasan, Rajab bin Yaʿqūb and Ibrāhīm bin Labūd</b>, the first people of this place whose
+names we have. By 1553–54 there are six. <i>The deed and the registers say the same thing from
+opposite ends.</i></p>"""),
 
 CH(10)
 
@@ -1608,43 +1614,46 @@ CH(11)
 
 sect('And in our own line', 'One name, carried by tradition alone, at the far edge of the void')
 ent('c. 1500', 'oral', True, 'Rāshid al-Ḥaddādīn — generation 66',
- '<b>The last ancestor the family’s own texts name, and the first whose children a document reaches.</b> He himself is in no register: the earliest Ottoman survey of this district is 1525–28, a generation after his floruit. The chart ends at his name, and Shāhīn prints the family’s two accounts of his road — then adjudicates between them{}.'.format(c('Shāhīn (1982), ch. 1, printing ʿAdnān al-Ḥaddādīn’s 1953 manuscript account and Joseph Kaddoura’s 1954 account, with his own adjudication.')),
+ '<b>He is the last ancestor our families’ own texts name, and the first whose children a document reaches.</b> He himself is in no register. The earliest Ottoman survey of this district dates from 1525–28, a generation after the time he is remembered for. The family chart ends at his name. Shāhīn prints the family’s two accounts of his road, and then judges between them{}.'.format(c('Shāhīn (1982), ch. 1, printing ʿAdnān al-Ḥaddādīn’s 1953 manuscript account and Joseph Kaddoura’s 1954 account, with his own adjudication.')),
  f"""
-<p><b>The Ḥaddādīn account</b>: the family live at Shobak and Karak among the Kaysoom tribes; the
-tyrant demands a Christian daughter for his Muslim son; <b>Sabra Haddad</b> answers with the
-unsalted feast — <i>“Treachery, O Haddad!”</i> — and the clan flees by night across <b>al-Lisān, the
-ford of the Dead Sea</b>, to Ḥalḥūl, then to the Bayt Jālā country. <b>The Kaddoura account</b>:
-Rāshid is a blacksmith — a <i>ḥaddād</i> — who plants forged blades in the ford so the pursuers’
-horses turn the water red; he settles first at Bīra beside Sheik Tanash, then <b>buys the wooded
-hill next door from the Ghazāwneh</b> for the sake of kindling for his forge. Shāhīn weighs both and
-rules: the eldest son was named Haddad — hence the <i>Hadadeh</i> — and <b>Sabra was Rāshid’s
-brother</b>, who returned to Karak, where the Karak Ḥaddādīn still count themselves his line.</p>
+<p><b>The Ḥaddādīn account</b>, as the family remembers it: the family live at Shobak and Karak
+among the Kaysoom tribes. The tyrant demands a Christian daughter for his Muslim son. <b>Sabra
+Haddad</b> answers with the unsalted feast — <i>“Treachery, O Haddad!”</i> — and the clan flees by
+night across <b>al-Lisān, the ford of the Dead Sea</b>, to Ḥalḥūl, and then to the Bayt Jālā
+country.</p>
+<p><b>The Kaddoura account</b>: Rāshid is a blacksmith — a <i>ḥaddād</i>. He plants forged blades in
+the ford so the pursuers’ horses turn the water red. He settles first at Bīra beside Sheik Tanash.
+Then he <b>buys the wooded hill next door from the Ghazāwneh</b>, for the sake of kindling for his
+forge.</p>
+<p>Shāhīn weighs both and decides. The eldest son was named Haddad, which is where the name
+<i>Hadadeh</i> comes from. And <b>Sabra was Rāshid’s brother</b>, who went back to Karak, where the
+Karak Ḥaddādīn still count themselves his line.</p>
 {fig(ATLAS.fig_karak(),'The road the family actually walked',
- 'Karak to the ridge in three documented moves. The southern anchors are the plateau’s Christian record — Shawbak, Karak, and Gharandal, where Ghassān is named in 890; the northern legs are carried by the Ottoman registers. The tradition’s Ḥalḥūl matches the registers’ Kusbār-by-Ḥalḥūl; the tradition’s Bayt Jālā stage is where the 1553–54 defter finds the group; the tradition’s purchase matches endowment land acquiring an owner. Two memories and a tax ledger, telling one story in three voices.',
+ 'This map follows the family from Karak to the ridge in three documented moves. In the south, the anchors are the plateau’s Christian record: Shawbak, Karak, and Gharandal, where Ghassān is named in 890. In the north, the Ottoman registers carry the route. The tradition’s Ḥalḥūl matches the registers’ Kusbār-by-Ḥalḥūl. The tradition’s Bayt Jālā stage is where the 1553–54 <i>defter</i> (an Ottoman tax register) finds the group. The tradition’s purchase matches endowment land acquiring an owner. <i>Two memories and a tax ledger tell one story in three voices.</i>',
  'Hammoudeh, Jerusalem Quarterly 59 (2014); Hütteroth and Abdulfattah (1977); Piccirillo (2001); al-Yaʿqūbī.')}"""),
 
-ent('1953 · as remembered', 'oral', False, 'WHAT THE FAMILY REMEMBERS — the brothers, the daughter, and the journey to Maʿīn',
- '<b>In 1953 the town sent two teachers across the Jordan to ask the Ḥaddādīn where Ramallah came from.</b> Mayor <b>Dr Jalīl Badrān</b> sent <b>Khalīl Abū Rayya</b> and <b>ʿAbdallah Mogannam</b>; they came back with ʿAdnān al-Ḥaddādīn’s written account, which is still on file at Ramallah city hall{}. <i>Everything in this entry is the family’s own memory, printed as memory.</i>'.format(c('Naseeb Shaheen, <i>A Pictorial History of Ramallah, Part II</i> (Birzeit University Press, 2005), ch. 1, p. 10. Shaheen says the ʿAdnān and Kaddoura accounts in his chapters 2–3 are taken from ʿAzeez Shāhīn’s book of the family trees (1982).')),
+ent('1953 · as remembered', 'oral', False, 'What the family remembers — the brothers, the daughter, and the journey to Maʿīn',
+ '<b>In 1953 the town sent two teachers across the Jordan to ask the Ḥaddādīn where Ramallah came from.</b> Mayor <b>Dr Jalīl Badrān</b> sent <b>Khalīl Abū Rayya</b> and <b>ʿAbdallah Mogannam</b>. They came back with ʿAdnān al-Ḥaddādīn’s written account, which is still on file at Ramallah city hall{}. <i>Everything in this entry is what the family remembers, and we print it as memory.</i>'.format(c('Naseeb Shaheen, <i>A Pictorial History of Ramallah, Part II</i> (Birzeit University Press, 2005), ch. 1, p. 10. Shaheen says the ʿAdnān and Kaddoura accounts in his chapters 2–3 are taken from ʿAzeez Shāhīn’s book of the family trees (1982).')),
  f"""
-<p><b>Ṣabra had three brothers.</b> In ʿAdnān’s account the brothers come down from Karak together,
-stop six months at Ḥalḥūl, then settle in the Bayt Jālā and Bethlehem country. <b>Rāshid stays in
-Ramallah. A second brother stays in Bayt Jālā. The third goes to al-Salṭ, “where his offspring, the
+<p><b>The family remembers that Ṣabra had three brothers.</b> In ʿAdnān’s account the brothers come
+down from Karak together. They stop six months at Ḥalḥūl, then settle in the country around Bayt
+Jālā and Bethlehem. <b>Rāshid stays in Ramallah. A second brother stays in Bayt Jālā. The third goes to al-Salṭ, “where his offspring, the
 Haddadeen, remain until this day.”</b> Their Muslim neighbours from the south, the seven brothers of
 <b>al-Banawiyya</b> under one Ḥusayn, settle beside them at al-Bīra. After six years Ṣabra goes home to
 Karak{c('N. Shaheen (2005), ch. 2, pp. 13–16, printing ʿAdnān al-Ḥaddādīn’s account dated 8 August 1953. The Bayt Jālā and al-Salṭ brothers are not named.')}.</p>
 <p><b>The daughter the whole flight was about stays in the story.</b> “An Egyptian Christian named
 Haleesa came as a refugee to Sabra. Sabra gave him his daughter as a bride (the daughter that was the
 center of the dispute), along with one-third of his property. From them descended the <b>Halasa</b>
-clan, which still lives in Karak”{c('N. Shaheen (2005), ch. 2, p. 16. A separate Karak list gives the same origin for el-Ḥalasa — an Egyptian who married a girl of the Ḥaddādīn — see the Karak clan table in this chapter.')}.
-In 1892 the Ḥaddādīn and Ḥalasa moved from Karak to the village of <b>Maʿīn</b>; after four years the
-Ḥalasa and some Ḥaddādīn went back, and the rest settled at el-ʿAzeeyyeh, where they numbered “over
-800 souls by 1953”{c('N. Shaheen (2005), ch. 2, p. 16. The move to Mādabā in 1882 that the same page records was by other Karak Christian families — al-ʿAzāzāt, al-Karādsha and al-Maʿāyʿa — not the Ḥaddādīn.')}.</p>
-<p><b>Kaddoura remembers the land.</b> In his version it is <b>Sheikh Ṭanāsh</b> of Karak who flees with
-Rāshid and becomes the father of the Ḥusayn clan at al-Bīra; Rāshid <b>buys the hill of Ramallah from
-the Ghazāwneh</b>, “the original Bireh natives,” goes back to Karak, and leaves his five sons, who
-divide the land in fifths — and when Jiryis is not satisfied with his fifth, his brothers give him
-an extra piece called <b>Karm ʿAlī</b>{c('Joseph Kaddoura, <i>History of the City of Ramallah</i> (New York, 1954), as printed in N. Shaheen (2005), ch. 3, pp. 17–18. Shaheen notes where Kaddoura differs from ʿAdnān: the girl is Rāshid’s daughter, Rāshid returns to Karak, and Ṣabra is Rāshid’s son. The two accounts name different founders for the Ḥusayn clan of al-Bīra — al-Banawiyya’s Ḥusayn or Sheikh Ṭanāsh.')}.</p>
-<p><b>And Abū Rayya says what he was told at Maʿīn.</b></p>
+clan, which still lives in Karak”{c('N. Shaheen (2005), ch. 2, p. 16. A separate Karak list gives the same origin for el-Ḥalasa — an Egyptian who married a girl of the Ḥaddādīn — see the Karak clan table in this chapter.')}.</p>
+<p>In 1892 the Ḥaddādīn and Ḥalasa moved from Karak to the village of <b>Maʿīn</b>. After four years
+the Ḥalasa and some of the Ḥaddādīn went back. The rest settled at el-ʿAzeeyyeh, where they numbered
+“over 800 souls by 1953”{c('N. Shaheen (2005), ch. 2, p. 16. The move to Mādabā in 1882 that the same page records was by other Karak Christian families — al-ʿAzāzāt, al-Karādsha and al-Maʿāyʿa — not the Ḥaddādīn.')}.</p>
+<p><b>Kaddoura’s telling remembers the land.</b> In his version it is <b>Sheikh Ṭanāsh</b> of Karak
+who flees with Rāshid and becomes the father of the Ḥusayn clan at al-Bīra. Rāshid <b>buys the hill
+of Ramallah from the Ghazāwneh</b>, “the original Bireh natives.” He goes back to Karak and leaves his
+five sons, who divide the land in fifths. When Jiryis is not satisfied with his fifth, his brothers
+give him an extra piece called <b>Karm ʿAlī</b>{c('Joseph Kaddoura, <i>History of the City of Ramallah</i> (New York, 1954), as printed in N. Shaheen (2005), ch. 3, pp. 17–18. Shaheen notes where Kaddoura differs from ʿAdnān: the girl is Rāshid’s daughter, Rāshid returns to Karak, and Ṣabra is Rāshid’s son. The two accounts name different founders for the Ḥusayn clan of al-Bīra — al-Banawiyya’s Ḥusayn or Sheikh Ṭanāsh.')}.</p>
+<p><b>And Abū Rayya tells us what he heard at Maʿīn.</b></p>
 <blockquote><span class="ar">لما ذهبت إلى قرية ماعين في شرقي الأردن عام ١٩٥٣ م للبحث عن أصل سكان رام الله، اجتمعنا
 مع وجوه الحدادين ومعمريهم، فأطلعونا على شجرة عائلة الحدادين المنحدرين من شيخ صبرة، فلم أر لأي من أبناء
 صبرة اسماً ينطبق على اسم أي من جدود حمائل رام الله الخمس، وقالوا لنا أن حدادي شرقي الأردن هم أبناء صبرة،
@@ -1655,25 +1664,26 @@ people, we met the notables and elders of the Ḥaddādīn. They showed us the f
 of Ramallah’s five clans. They told us that the Ḥaddādīn of Transjordan are <b>the sons of Ṣabra</b>,
 and we in Ramallah are <b>the sons of Rāshid, brother of Ṣabra</b>.”
 <span class="cite">Khalīl Abū Rayya, <i>Rām Allāh qadīman wa-ḥadīthan</i>, pp. 14–15, quoted in <i>Qiṣṣat madīnat Rām Allāh wa-l-Bīra</i> (ALECSO and the PLO, “Palestinian Cities” series), p. 24{c('<i>Qiṣṣat madīnat Rām Allāh wa-l-Bīra</i>, p. 24, citing Abū Rayya pp. 14–15; the same page cites Dissard, <i>Revue Biblique</i> 1905. The author and year of the ALECSO volume are not on the copy this project holds.')}</span></blockquote>
-<p><b>The oldest printed telling is French, and it is from Karak.</b> In January 1905 a priest of the
-Latin Patriarchate, J. Dissard, read a lecture at the École biblique in Jerusalem on the Bedouin of
-Moab, and into it he put the story the Christians of Karak told him. “The little tribe of Ḥaddādīn is
-made up of a number of families, exclusively Christian.” A man of the tribe named <b>Rcheid</b> —
-Rāshid — promised his newborn daughter in jest to the Muslim chief Diāb; years later Diāb came to
-claim her for his son; Rāshid asked for “a few days to make my daughter a complete trousseau,” and,
-<b>“a blacksmith by trade,”</b> forged a great quantity of blades. The Ḥaddādīn fled west down the valley
-to the Ghōr al-Ṣāfī, crossed at the little ford at the tip of <b>al-Lisān</b>, and Rāshid planted the
-blades in the ford, where Diāb’s horsemen were cut to pieces. “Rcheid and his people lived near Hebron
+<p><b>The oldest printed telling is in French, and it comes from Karak.</b> In January 1905 J.
+Dissard, a priest of the Latin Patriarchate, read a lecture at the École biblique in Jerusalem on the
+Bedouin of Moab. Into it he put the story the Christians of Karak told him. “The little tribe of
+Ḥaddādīn is made up of a number of families, exclusively Christian.” A man of the tribe named
+<b>Rcheid</b> — Rāshid — promised his newborn daughter, as a joke, to the Muslim chief Diāb. Years
+later Diāb came to claim her for his son. Rāshid asked for “a few days to make my daughter a complete
+trousseau.” Being <b>“a blacksmith by trade,”</b> he forged a great quantity of blades. The Ḥaddādīn
+fled west down the valley to the Ghōr al-Ṣāfī and crossed at the little ford at the tip of
+<b>al-Lisān</b>. Rāshid planted the blades in the ford, and Diāb’s horsemen were cut to pieces.
+“Rcheid and his people lived near Hebron
 for some years. He afterwards had <b>five sons who founded lines, and who are the ancestors of part of the
 present Christians of Ramallah</b>. As for the father, he went back to Karak with part of his tribe after
 Diāb’s death”{c('J. Dissard, “Les migrations et les vicissitudes de la tribu des ʿAmer,” <i>Revue Biblique</i> n.s. 2 (14) (1905), pp. 410–425, at pp. 419–421; lecture read at the École biblique de Saint-Étienne, 18 January 1905; the author is styled “du Clergé de Jérusalem.” Read in the archive.org scan of vol. 14 (item revuebiblique1419unse); the printed page numbers are inferred from the scan leaves.')}.
 <b>Dissard puts the episode “about 1815,” and that cannot be right for Ramallah</b>: the Ottoman
-registers count the Christian families on this hill in 1562. <i>What Dissard preserves is the shape of
-the story, told at Karak seventy years before Kaddoura wrote it down in New York — the forge, the
+registers count the Christian families on this hill in 1562. <i>What Dissard keeps is the shape of
+the story, told at Karak seventy years before Kaddoura wrote it down in New York: the forge, the
 blades in the ford, the five sons, and the father going home.</i></p>
-<p><i>Four tellings, written down on both sides of the river, and they keep the same shape: brothers
-who left Karak together, one who went back, and a hill bought from the people of al-Bīra.</i> <b>None
-of it is in a register, and none of it is contradicted by one.</b></p>"""),
+<p><i>Four tellings, written down on both sides of the river, keep the same shape: brothers who left
+Karak together, one who went back, and a hill bought from the people of al-Bīra.</i> <b>None of it is
+in a register, and no register contradicts it.</b></p>"""),
 
 ent('1005 / 1596', 'documents', False,
     'KARAK WAS A CHRISTIAN TOWN — the register says so, and it inverts the picture',
@@ -1905,15 +1915,15 @@ of two documents. <b>No Ottoman register names Rāshid, Ṣabra or Ṣaqr.</b> T
 
 sect('What the ground says', 'The state begins writing down every household in every village on this ridge')
 ent('1517–1554', 'documents', False, 'The registers begin — and close in on the founding',
- 'Ottoman conquest, 1517. In <b>1525–28 the site of Ramallah is uninhabited</b> — agricultural land of the Ibrāhīmī waqf, exactly the legal status the 1279 deed describes. Four Muslim households appear by 1538–39. And in <b>1553–54 the group called the Kasābra — 36 Christian households — is registered at Bayt Jālā</b>, twenty kilometres south. <i>They are not yet at Ramallah.</i>{}'.format(c('The pre-1596 registers come from Ḥammūdeh (2014), pp. 40–47, working from the Istanbul <i>tapu tahrir</i> series; <b>Hütteroth and Abdulfattah (1977) published only the 1005 AH / 1596–97 <i>mufaṣṣal</i> registers</b> (TK 72, 100, 112, 181, 185, 192, Tapu ve Kadastro archive, Ankara), and earlier editions of this book wrongly credited the whole series to them. '+D('1977_Hutteroth_Abdulfattah_Historical_Geography_of_Palestine.pdf')+'.'))),
+ 'The Ottomans conquer this country in 1517. In <b>1525–28 the site of Ramallah is uninhabited</b>. It is farmland of the Ibrāhīmī waqf, the endowment of the sanctuary of Abraham at Hebron. That is exactly the legal status the 1279 deed describes. Four Muslim households appear by 1538–39. And in <b>1553–54 the group called the Kasābra, 36 Christian households, is registered at Bayt Jālā</b>, twenty kilometres south. <i>They are not yet at Ramallah.</i>{}'.format(c('The pre-1596 registers come from Ḥammūdeh (2014), pp. 40–47, working from the Istanbul <i>tapu tahrir</i> series; <b>Hütteroth and Abdulfattah (1977) published only the 1005 AH / 1596–97 <i>mufaṣṣal</i> registers</b> (TK 72, 100, 112, 181, 185, 192, Tapu ve Kadastro archive, Ankara), and earlier editions of this book wrongly credited the whole series to them. '+D('1977_Hutteroth_Abdulfattah_Historical_Geography_of_Palestine.pdf')+'.'))),
 
 CH(12)
 sect('The ground and the line, together', 'From this page on there is only one story: the family is in the land, and the land is in the documents')
-ent('1 April 1561', 'documents', False, 'THE PEOPLE OF RAMALLAH SPEAK — six men, a qāḍī, and a promise to plough',
- f"""<b>A year before the census, and this is the first document in which the people of this place
-speak for themselves.</b> On <b>16 Rajab 968 — 1 April 1561</b> the judge Abū Wafā al-Ḥanafī, sitting
-in Jerusalem with Ḥusām al-Dīn bin Yaʿqūb, deputy overseer of the Ḥaram al-Sharīf, is approached by
-six men <b>“all of them from the village of Ramallah”</b>{c('Sāmiḥ Ḥammūdeh, “New Light on Ramallah’s Origins in the Ottoman Period,” <i>Jerusalem Quarterly</i> 59 (2014), pp. 47–48, translating the Jerusalem sharīʿa court record of 16 Rajab 968 AH. ' + D('2014_Hammoudeh_New_Light_Ramallah_Ottoman_JQ59.pdf') + '. <b>This entry did not exist in earlier editions of this book, which had the article on the shelf and read it for its register tables only.</b>')}.""",
+ent('1 April 1561', 'documents', False, 'The people of Ramallah speak — six men, a qāḍī, and a promise to plough',
+ f"""<b>A year before the census comes the first document in which the people of this place speak
+for themselves.</b> On <b>1 April 1561 (16 Rajab 968)</b> the <i>qāḍī</i>, or judge, Abū Wafā
+al-Ḥanafī was sitting in Jerusalem with Ḥusām al-Dīn bin Yaʿqūb, deputy overseer of the Ḥaram
+al-Sharīf. Six men came before him, <b>“all of them from the village of Ramallah”</b>{c('Sāmiḥ Ḥammūdeh, “New Light on Ramallah’s Origins in the Ottoman Period,” <i>Jerusalem Quarterly</i> 59 (2014), pp. 47–48, translating the Jerusalem sharīʿa court record of 16 Rajab 968 AH. ' + D('2014_Hammoudeh_New_Light_Ramallah_Ottoman_JQ59.pdf') + '. <b>This entry did not exist in earlier editions of this book, which had the article on the shelf and read it for its register tables only.</b>')}.""",
  f"""
 <div class="ntwrap"><div class="nthead">Named in court, Jerusalem, 1 April 1561</div>
 <table class="ntable"><tr><th>who</th><th>which community</th><th>and elsewhere</th></tr>
@@ -1923,121 +1933,123 @@ six men <b>“all of them from the village of Ramallah”</b>{c('Sāmiḥ Ḥamm
 <tr><td><b>Mūsā bin Baraka</b></td><td>Christian</td><td><b>in the Bayt Jālā list of 1553</b></td></tr>
 <tr><td><b>Isḥāq bin Yaʿqūb</b></td><td>Christian</td><td><b>in both registers — one of the nineteen</b></td></tr>
 </table></div>
-<p><b>Read the third column again.</b> All three Christians are men this book has already tracked
-through the registers, and one of them carries the road in his own name: <b><i>al-Kasbūrī</i></b> — of
-Kusbār, the stage by Ḥalḥūl that the family’s tradition names. <i>The oral tradition and the court
-record are using the same word for the same people.</i></p>
+<p><b>Read the third column again.</b> All three Christians are men we have already followed
+through the registers. One of them carries the road in his own name: <b><i>al-Kasbūrī</i></b>, “of
+Kusbār,” the stage by Ḥalḥūl that the family’s tradition names. <i>The oral tradition and the court
+record use the same word for the same people.</i></p>
 <blockquote>They swore an oath that from that day on they will develop the lands of the same village,
 and that none of them will farm any other land until all of its lands were cultivated. Should any of
 them violate this, he pledges to pay one hundred gold <i>sulṭānī</i> to the charitable kitchen of our
 prophet Khalīl al-Raḥmān.
 <span class="cite">Jerusalem sharīʿa court, 16 Rajab 968 / 1 April 1561, in Ḥammūdeh (2014), p. 48</span></blockquote>
-<p><b>And then the court divides the hill in three.</b> One third to ʿAlī bin Ḥasan, his brother
-ʿUmar, Aḥmad bin Muḥammad and their people — the Muslims who were already there. One third to
-<b>Ghunaym and his people</b>. One third to <b>Mūsā and Isḥāq and their people</b>. <i>Two thirds of
-Ramallah to the newcomers, one third to the men who had held it, agreed in front of a judge and
-guaranteed against a fine.</i></p>
-<p><b>This is the entry this book was missing.</b> Not a sultan, not a king, not a genealogy: six
-farmers standing in a Jerusalem court, promising to plough one hill and no other until it was all
-under crop, and dividing it between two religions by agreement. <b>The Ramallah tradition remembers a
-division of the land into fifths among Rāshid’s five sons. The court record of 1561 shows a division
-into thirds, a year earlier, between Muslims and Christians.</b> <i>Both can be true — one is the
-arrangement with the neighbours, the other the arrangement inside the family — and only one of them
-is on paper.</i></p>
+<p><b>And then the court divides the hill in three.</b> One third goes to ʿAlī bin Ḥasan, his
+brother ʿUmar, Aḥmad bin Muḥammad and their people: the Muslims who were already there. One third
+goes to <b>Ghunaym and his people</b>. One third goes to <b>Mūsā and Isḥāq and their people</b>.
+<i>Two thirds of Ramallah went to the newcomers and one third to the men who had held it. They agreed
+it in front of a judge and guaranteed it against a fine.</i></p>
+<p><b>This is the entry we were missing.</b> It is not about a sultan, a king or a genealogy. It is
+about six farmers standing in a Jerusalem court. They promise to plough one hill and no other until
+it is all under crop, and they divide it between two religions by agreement.</p>
+<p><b>The Ramallah tradition remembers a division of the land into fifths among Rāshid’s five sons.
+The court record of 1561 shows a division into thirds, a year earlier, between Muslims and
+Christians.</b> <i>Both can be true. One is the arrangement with the neighbours, the other the
+arrangement inside the family. Only one of them is on paper.</i></p>
 {FIX('The founding of Ramallah begins in 1562, with the census.',
- 'It begins in <b>1561</b>, with an oath — and the people who swore it are named.',
- 'The census of 970/1562 records a population; the court record of 968/1561 records a decision. <b>Fourteen months before the clerk counted them, these families had already agreed with the Muslim householders how the hill would be worked and had bound themselves to it in a Jerusalem court.</b> That is what founding a town actually looks like, and it is the reason this book now dates the settlement from 1561 and the count from 1562.' + c('Ḥammūdeh (2014), pp. 47–48. The register of 970/1562 is the count; sijill 48, p. 88 (1565) recites the endowment; the court record of 968/1561 is the agreement. Three instruments, three different things, and earlier editions of this book used only the first.'))}"""),
+ 'It begins in <b>1561</b>, with an oath, and the people who swore it are named.',
+ 'The census of 970/1562 records a population. The court record of 968/1561 records a decision. <b>Fourteen months before the clerk counted them, these families had already agreed with the Muslim householders how the hill would be worked, and had bound themselves to it in a Jerusalem court.</b> That is what founding a town really looks like. It is why we now date the settlement from 1561 and the count from 1562.' + c('Ḥammūdeh (2014), pp. 47–48. The register of 970/1562 is the count; sijill 48, p. 88 (1565) recites the endowment; the court record of 968/1561 is the agreement. Three instruments, three different things, and earlier editions of this book used only the first.'))}"""),
 
-ent('1561 · 1562', 'documents', True, 'THE CHRISTIAN SETTLEMENT — agreed in court in 1561, counted in 1562',
- '<b>The thirty-six Christian families the register calls the Kasābra, recorded at Bayt Jālā in 1553–54, come up the ridge road</b> — and they are not alone when they arrive. <b>The register of 1562 lists seventy-one Christian entries at Ramallah — sixty-four households and seven unmarried men — against the ten Muslim households already living on the hill</b>{}.'.format(c('The detailed Ottoman census (<i>tapu tahrir mufaṣṣal</i>) of 970/1562, in Ḥammūdeh (2014), pp. 45–47. Ramallah’s revenue was assigned to endowment, but the document is a fiscal cadastre, not a waqf register, and earlier editions of this book called it one.')),
+ent('1561 · 1562', 'documents', True, 'The Christian settlement — agreed in court in 1561, counted in 1562',
+ 'The register of 1553–54 recorded thirty-six Christian families at Bayt Jālā, and called them the Kasābra. <b>Now they come up the ridge road</b>, and they are not alone when they arrive. <b>The register of 1562 lists seventy-one Christian entries at Ramallah: sixty-four households and seven unmarried men. Beside them are the ten Muslim households already living on the hill</b>{}.'.format(c('The detailed Ottoman census (<i>tapu tahrir mufaṣṣal</i>) of 970/1562, in Ḥammūdeh (2014), pp. 45–47. Ramallah’s revenue was assigned to endowment, but the document is a fiscal cadastre, not a waqf register, and earlier editions of this book called it one.')),
  f"""
 {FIX('Ramallah was <b>founded in 1562</b> — the year this entry, the key-dates page and the households chart all called “the founding.”',
- 'There is no single founding on paper. The record shows a <b>named place by 1186</b>, <b>endowment land by 1279</b>, <b>uninhabited farmland in 1525–28</b>, <b>Muslim households living on the hill from 1538–39</b>, and then <b>the Christian families binding themselves to terms in a Jerusalem court in 1561 and counted by the state in 1562</b>. This book now calls 1561–62 <b>the Christian settlement</b>, not the founding.',
- 'This is the actual data, set out in order: the charter of 1186 (Strehlke no. 20), sijill 48 p. 88 for 1279, the registers of 1525–28, 1538–39 and 1553–54 and the court record of 968/1561 (Ḥammūdeh 2014, pp. 41–48), and the register of 970/1562. <b>The households chart in earlier editions also showed thirty-seven Christian households for 1562; the register lists sixty-four households and seven unmarried men</b>, and the chart is corrected.' + c('Ḥammūdeh (2014), p. 45: the Kasābra families “left Bayt Jala and inhabited Ramallah, accompanied by an additional 27 Christian families also from Bayt Jala and eight unmarried Christian men,” followed by the list of names (pp. 45–46), which marks seven men as single. The endowment register TTd. 406 counts the same Christians as seventy-one taxpayers.'))}
+ 'There is no single founding on paper. The record shows a <b>named place by 1186</b>, <b>endowment land by 1279</b>, <b>uninhabited farmland in 1525–28</b>, and <b>Muslim households living on the hill from 1538–39</b>. Then come <b>the Christian families, binding themselves to terms in a Jerusalem court in 1561 and counted by the state in 1562</b>. We now call 1561–62 <b>the Christian settlement</b>, not the founding.',
+ 'Here are the actual sources, in order: the charter of 1186 (Strehlke no. 20); <i>sijill</i> 48 p. 88, a page of the Jerusalem court register, for 1279; the registers of 1525–28, 1538–39 and 1553–54 and the court record of 968/1561 (Ḥammūdeh 2014, pp. 41–48); and the register of 970/1562. <b>The households chart in earlier editions also showed thirty-seven Christian households for 1562. The register lists sixty-four households and seven unmarried men</b>, and the chart is corrected.' + c('Ḥammūdeh (2014), p. 45: the Kasābra families “left Bayt Jala and inhabited Ramallah, accompanied by an additional 27 Christian families also from Bayt Jala and eight unmarried Christian men,” followed by the list of names (pp. 45–46), which marks seven men as single. The endowment register TTd. 406 counts the same Christians as seventy-one taxpayers.'))}
 {fig(R.fig_datings(),'Five datings for one town — and they are not rivals',
- 'The founding of Ramallah has five different dates attached to it, resting on five different kinds of evidence. Read in order rather than argued over, they describe one coherent sequence: a site that was named endowment land in 1279, uninhabited in 1525, held by a few Muslim households by 1538, bought from the Ghazāwneh by tradition, and settled by the Christian families in 1562. <b>The family did not name the hill. The family settled a hill that already had a name.</b>',
+ 'Five different dates are attached to the founding of Ramallah, and each rests on a different kind of evidence. Read in order rather than argued over, they tell one story. The site was named endowment land in 1279, uninhabited in 1525, and held by a few Muslim households by 1538. By tradition it was bought from the Ghazāwneh. The Christian families settled it in 1562. <b>Our families did not name the hill. They settled a hill that already had a name.</b>',
  'Sijill 48, p. 88 (1565, citing a waqf of 1279); Mujīr al-Dīn (1495); the defters of 1525–28 to 1596; al-Dabbāgh; Shāhīn (1982).')}
 {fig(R.fig_neighbourhood(),'Ramallah among its neighbours, 1596',
- 'The town in its own district in the register of 1596–97. <b>Ramallah at eighty households is one of the larger villages of the nāḥiya</b> — bigger than al-Bīra’s forty-five, nearly four times Jifnā’s twenty-one — and one of only a handful with a Christian majority. <i>This is the company the family kept for the next three hundred years.</i>',
+ 'Our town in its own district, in the register of 1596–97. <b>At eighty households Ramallah is one of the larger villages of the <i>nāḥiya</i>, the sub-district</b>. It is bigger than al-Bīra’s forty-five, and nearly four times Jifnā’s twenty-one. It is also one of only a handful with a Christian majority. <i>This is the company our families kept for the next three hundred years.</i>',
  'Hütteroth and Abdulfattah (1977), pp. 114–21, the nāḥiya of Quds, 1596–97 defter. Note that they record Jifnā as Muslim; Toledano (1984), p. 312, corrects this — the village was wholly Christian in every sixteenth-century defter.')}
 {fig(R.fig_households(),'The households, counted',
- 'Ramallah in the Ottoman registers of the sixteenth century: from uninhabited endowment land, to a handful of Muslim households, to a village of eighty households — seventy-one Christian and nine Muslim — paying 9,400 akçe, all of it to the endowment. The arrival of 1562 is a visible step. <b>Hütteroth and Abdulfattah publish the 1596 register as counts; the register itself is a <i>mufaṣṣal</i> and names all eighty heads of household, and nobody has yet gone to Ankara for them.</b> The family names we do have come earlier and separately, and that is the hardest fact in this book: <b>al-Kasābra in the Bayt Jālā register of 1553–54, Rāshid’s descendants in a Jerusalem court deed of 1561 and the census of 1562, al-Naqqāsh in a court record of 1604</b>.',
+ 'This chart follows Ramallah through the Ottoman registers of the sixteenth century. It goes from uninhabited endowment land, to a handful of Muslim households, to a village of eighty households — seventy-one Christian and nine Muslim — paying 9,400 <i>akçe</i> (Ottoman silver coins), all of it to the endowment. The arrival of 1562 is a visible step. <b>Hütteroth and Abdulfattah publish the 1596 register as counts. The register itself is a <i>mufaṣṣal</i>, a detailed register, and it names all eighty heads of household. Nobody has yet gone to Ankara for them.</b> The family names we do have come earlier and separately, and that is the hardest fact in our whole story: <b>al-Kasābra in the Bayt Jālā register of 1553–54, Rāshid’s descendants in a Jerusalem court deed of 1561 and the census of 1562, al-Naqqāsh in a court record of 1604</b>.',
  'Ḥammūdeh, Jerusalem Quarterly 59 (2014), pp. 45–48, for the registers of 1525–28 to 1562 and the court documents; Hütteroth and Abdulfattah (1977), p. 121, for 1596–97.')}
 {FIX('The family settled Ramallah “about 1550” (Shāhīn), under Rāshid and his five sons (Kaddoura).',
  '<b>1562</b>, and the movers were <b>Rāshid’s grandchildren</b>.',
- 'The detailed census of 970/1562 records the arrival; the 1553–54 register still shows the group at Bayt Jālā; and Hammoudeh’s archival work shows the last leg made by the grandsons, the popular version compressing three generations into one. <b>A remembered date replaced by a documented one twelve years later costs the tradition nothing — and that the memory was only twelve years out is itself evidence of its quality.</b>' + c('Hammoudeh, “New Light on Ramallah’s Origins in the Ottoman Period,” <i>Jerusalem Quarterly</i> 59 (2014). '+D('2014_Hammoudeh_New_Light_Ramallah_Ottoman_JQ59.pdf')+'.'))}
+ 'The detailed census of 970/1562 records the arrival. The 1553–54 register still shows the group at Bayt Jālā. Hammoudeh’s work in the archives shows that the grandsons made the last leg; the popular telling squeezes three generations into one. <b>A remembered date replaced by a documented one twelve years later costs the tradition nothing. That the memory was only twelve years out is itself evidence of how good it is.</b>' + c('Hammoudeh, “New Light on Ramallah’s Origins in the Ottoman Period,” <i>Jerusalem Quarterly</i> 59 (2014). '+D('2014_Hammoudeh_New_Light_Ramallah_Ottoman_JQ59.pdf')+'.'))}
 {FIX('Karak “still holds 143 Christian households” in 1562 (as printed in earlier editions of this book).',
- 'The documented figure is <b>103 Christian households and 8 Christian bachelors — beside 78 Muslim households and 2 bachelors — at al-Karak in 1596</b>, in the nāḥiya of Karak, Sanjak of ʿAjlūn: register TK 185, Ankara, published in Hütteroth and Abdulfattah (1977), p. 171.',
- 'The 1596 count can be pointed to in a named register; the 1562/143 figure was carried second-hand from “the same survey series” and no folio has been produced for it. <b>It is not discarded — it is demoted to unverified</b>, so that a future researcher chases it rather than assuming it was dropped without cause.' + c('Ottoman Defter 185, the Karak register of 1596: 103 Christian households and 8 Christian bachelors. The 143 figure previously printed here awaits a register reference and should not be repeated until one is produced.'))}
+ 'The documented figure is <b>103 Christian households and 8 Christian bachelors, beside 78 Muslim households and 2 bachelors, at al-Karak in 1596</b>. It is in the nāḥiya of Karak, Sanjak of ʿAjlūn: register TK 185, Ankara, published in Hütteroth and Abdulfattah (1977), p. 171.',
+ 'The 1596 count can be found in a named register. The 1562 figure of 143 was carried second-hand from “the same survey series,” and nobody has produced a folio for it. <b>We have not thrown it away. We have marked it unverified</b>, so that a future researcher chases it rather than assuming it was dropped without cause.' + c('Ottoman Defter 185, the Karak register of 1596: 103 Christian households and 8 Christian bachelors. The 143 figure previously printed here awaits a register reference and should not be repeated until one is produced.'))}
 <p>Three years later the hill’s legal position is stated in open court. On <b>29 June 1565</b> the
-qāḍī of Jerusalem enters into <b>sijill 48, p. 88</b> the fact of an endowment of 678 AH: this ground
-belongs to the Ibrāhīmī sanctuary at Hebron. <i>That is not a title for the family.</i> <b>It is the
-reason there was room on the hill at all</b> — endowment land, worked by tenants, with the tithe going
-south to Hebron and not to a landlord. <i>The family did not name the hill. The family settled a hill
-that already had a name, and paid Hebron for the privilege.</i></p>
+qāḍī of Jerusalem enters into <b>sijill 48, p. 88</b>, his court register, the fact of an endowment of
+678 AH: this ground belongs to the Ibrāhīmī sanctuary at Hebron. <i>That is not a title deed for our
+families.</i> <b>It is the reason there was room on the hill at all.</b> It was endowment land,
+worked by tenants, with the tithe going south to Hebron and not to a landlord. <i>Our families did not
+name the hill. They settled a hill that already had a name, and paid Hebron for the privilege.</i></p>
 <p><b>And a second register, kept by a different office for a different purpose, counts the same
-seventy-one.</b> The endowment survey of the district of Jerusalem, delivered to the treasury in 970 —
-1562–63, the same year as the census — lists Ramallah on its first folio, under the endowment of
-Hebron: <b>the whole village, and “71 persons at 80 akçe, 5,680”</b> from its Christians. Bayt Jālā
-on the same folio has 218 at the same rate, matching the census there too{c('<i>Defter-i Evkaf-ı Liva-i Kuds-i Şerif</i>, ed. Sevgi Işık (Ankara: Tapu ve Kadastro Genel Müdürlüğü, 2015), an edition of TKG.KK.TTd. 406 (old no. 514/539), folio 1, under <i>Vakf-ı Hazret-i Halīlü’r-Rahman</i>, publication p. 73: <i>Karye-i Ramallah … tamāmen</i>, <i>hāsıl maʿa rüsūm</i> 2,905; <i>Deyr-i Nasārā der-karye-i Ramallah, 71 neferen fī 80 = 5,680</i>. The editor reads the word before <i>Nasārā</i> as <i>deyr</i>; the per-head charge at 80 akçe is the pattern of the Christian poll tax. <b>The edition prints a transcription only, without the Ottoman page, so the word has not been checked against the folio.</b> ' + D('1562_Defter_Evkaf_Kuds_TKGM.pdf') + '.')}.
+seventy-one.</b> This is the endowment survey of the district of Jerusalem. It was delivered to the
+treasury in 970 AH (1562–63), the same year as the census. It lists Ramallah on its first folio,
+under the endowment of Hebron: <b>the whole village, and “71 persons at 80 akçe, 5,680”</b> from its
+Christians. (Each “person” here is a <i>nefer</i>, a taxable man.) Bayt Jālā, on the same folio, has
+218 at the same rate, which matches the census there too{c('<i>Defter-i Evkaf-ı Liva-i Kuds-i Şerif</i>, ed. Sevgi Işık (Ankara: Tapu ve Kadastro Genel Müdürlüğü, 2015), an edition of TKG.KK.TTd. 406 (old no. 514/539), folio 1, under <i>Vakf-ı Hazret-i Halīlü’r-Rahman</i>, publication p. 73: <i>Karye-i Ramallah … tamāmen</i>, <i>hāsıl maʿa rüsūm</i> 2,905; <i>Deyr-i Nasārā der-karye-i Ramallah, 71 neferen fī 80 = 5,680</i>. The editor reads the word before <i>Nasārā</i> as <i>deyr</i>; the per-head charge at 80 akçe is the pattern of the Christian poll tax. <b>The edition prints a transcription only, without the Ottoman page, so the word has not been checked against the folio.</b> ' + D('1562_Defter_Evkaf_Kuds_TKGM.pdf') + '.')}.
 <i>Two registers, two offices, one number.</i></p>"""),
 
-ent('1553 and 1562, name by name', 'documents', True, 'THE REGISTERS DO GIVE NAMES — all one hundred and nine of them',
- f"""<b>Every household head in both registers has been sitting in this project’s own book for thirty
-years.</b> Chapter four of the co-authors’ <i>Ramallah Family Tree Book</i> prints the facsimiles of
-Register 289 and Register 516 and, beside each, a full English transliteration: <b>the 36 Christian
-households at Bayt Jālā in 1553–54, and the 10 Muslim households, 63 Christian households and 8
-bachelors at Ramallah in 1562–63</b>. <i>One hundred and nine households and eight unmarried men, by name
-and by father’s name.</i>{c('John Mogannam, <i>The Ramallah Family Tree Book</i>, ch. 4, charts 1–4: facsimiles of Register 289, cols. 79–80 (Bayt Jālā, 961 AH / 1553–54) and Register 516 (Ramallah, 970 AH / 1562–63), each with his own English transliteration. <b>Earlier editions of this book worked from Ḥammūdeh’s counts and never opened the charts beside them.</b> The transliterations carry his query marks and alternative readings, which are kept here exactly as he set them down.')}""",
+ent('1553 and 1562, name by name', 'documents', True, 'The registers do give names — all one hundred and nine of them',
+ f"""<b>Every household head in both registers has been sitting in our own family book for thirty
+years.</b> Chapter four of the co-authors’ <i>Ramallah Family Tree Book</i> prints facsimiles of
+Register 289 and Register 516. Beside each it gives a full English transliteration. <b>There are the
+36 Christian households at Bayt Jālā in 1553–54, and the 10 Muslim households, 63 Christian
+households and 8 bachelors at Ramallah in 1562–63</b>. <i>One hundred and nine households and eight
+unmarried men, by name and by father’s name.</i>{c('John Mogannam, <i>The Ramallah Family Tree Book</i>, ch. 4, charts 1–4: facsimiles of Register 289, cols. 79–80 (Bayt Jālā, 961 AH / 1553–54) and Register 516 (Ramallah, 970 AH / 1562–63), each with his own English transliteration. <b>Earlier editions of this book worked from Ḥammūdeh’s counts and never opened the charts beside them.</b> The transliterations carry his query marks and alternative readings, which are kept here exactly as he set them down.')}""",
  f"""
 {fig(F4.fig_registers(),'The same people, nine years apart',
- 'Both lists in full. <b>Nineteen of the thirty-six households the clerk recorded at Bayt Jālā in 1553 appear again at Ramallah in 1562 under the same name and the same father</b> — Ishaq bin Yaʿcoub, ʿAmeera bin Hassaan, Jareer bin Hadeed, Farah bin Suweid, Musa bin Braik, Khaleel bin Sadaqa, Kaʿoosh bin Zayed, Suweidan bin Khaleel and eleven more. <i>That is not an argument. It is the same men, on two pieces of paper, nine years apart.</i>',
+ 'Here are both lists in full. <b>Nineteen of the thirty-six households the clerk recorded at Bayt Jālā in 1553 appear again at Ramallah in 1562, with the same name and the same father</b>: Ishaq bin Yaʿcoub, ʿAmeera bin Hassaan, Jareer bin Hadeed, Farah bin Suweid, Musa bin Braik, Khaleel bin Sadaqa, Kaʿoosh bin Zayed, Suweidan bin Khaleel and eleven more. <i>That is not an argument. It is the same men, on two pieces of paper, nine years apart.</i>',
  'Registers 289 and 516, transliterated by John Mogannam; matching and counts by this edition.')}
 {FIX('“The registers give counts, not names.”',
- '<b>Not true of any of them.</b> All three are <i>mufaṣṣal</i> — detailed — registers, and a <i>mufaṣṣal</i> names every household head with his father’s name. <b>The eighty names of Ramallah in 1596 are still in Ankara, unread.</b>',
- 'The claim confused the register with the book about it. What gives counts and not names is <b>Hütteroth and Abdulfattah’s published tabulation</b> of the 1596 defter, not the defter itself: an <i>icmāl</i> register gives a settlement and a revenue, a <i>mufaṣṣal</i> gives every household head and his patronym, and all three of these are <i>mufaṣṣal</i>. <b>The correction is not a new source. It is a shelf this book had not read to the end — and a folio in Ankara nobody has asked for.</b>')}
-<p><b>What the nineteen prove.</b> The identification of the <span class="ar">الكسابرة</span> of Bayt
-Jālā with the Christians who founded Ramallah has until now rested on Ḥammūdeh’s reading of the two
-registers together — a good argument, and an argument. <b>It can now be shown name by name.</b> More
-than half the households move as a body; the rest are the ordinary attrition and accretion of nine
-years, and the Ramallah list is larger because forty-five further Christian households and seven
-unmarried men are on it who are not on the Bayt Jālā list at all.</p>
-<p><b>And here is a small thing that turns out to answer an open question.</b> Ḥammūdeh, reading
-the same register, counts <b>twenty-seven further Christian families and eight unmarried men</b>;
-the family’s own transcription of the folio counts <b>forty-five further households and seven</b>.
-<i>The two readings differ about the households because Ḥammūdeh takes the twenty-seven as coming
-from Bayt Jālā with the rest, and the transcription simply counts the names on the page. But they
-agree exactly on the total: <b>seventy-one Christian entries</b>.</i> <b>The disagreement is one
-line.</b> Ḥammūdeh reads it as a bachelor; the transcription reads it as a household{c('Sāmiḥ Ḥammūdeh, <i>Jerusalem Quarterly</i> 59 (2014), on register I.S. 516: the 36 Kasābra households of Bayt Jālā, “accompanied by an additional 27 Christian families also from Bayt Jala and eight unmarried Christian men,” joining “the ten Muslim families residing in Ramallah.” <b>He nowhere prints a total.</b> 36 + 27 = 63 households and 8 bachelors, against the 64 and 7 in the family’s own transcription of the same folio — and 63 + 8 = 64 + 7 = 71 either way. <b>This retires the “eighth bachelor” from this book’s open questions: he exists, and he is the entry the two readings disagree about.</b>')}. <i>This is the strongest documentary moment in the whole book, and it
-was in the house.</i></p>
+ '<b>That is not true of any of them.</b> All three are <i>mufaṣṣal</i>, or detailed, registers, and a <i>mufaṣṣal</i> names every household head with his father’s name. <b>The eighty names of Ramallah in 1596 are still in Ankara, unread.</b>',
+ 'The claim mixed up the register with the book about it. What gives counts and not names is <b>Hütteroth and Abdulfattah’s published table</b> of the 1596 defter, not the defter itself. An <i>icmāl</i>, or summary, register gives a settlement and a revenue. A <i>mufaṣṣal</i> gives every household head and his father’s name, and all three of these are <i>mufaṣṣal</i>. <b>The correction is not a new source. It is a shelf we had not read to the end — and a folio in Ankara nobody has asked for.</b>')}
+<p><b>What the nineteen prove.</b> Until now, the link between the <span class="ar">الكسابرة</span>
+(al-Kasābra) of Bayt Jālā and the Christians who founded Ramallah rested on Ḥammūdeh’s reading of
+the two registers together. It was a good argument, but it was an argument. <b>Now it can be shown
+name by name.</b> More than half the households move as a body. The rest is the ordinary coming and
+going of nine years. The Ramallah list is larger because forty-five further Christian households and
+seven unmarried men are on it who are not on the Bayt Jālā list at all.</p>
+<p><b>And a small detail turns out to answer an open question.</b> Ḥammūdeh, reading the same
+register, counts <b>twenty-seven further Christian families and eight unmarried men</b>. The family’s
+own transcription of the folio counts <b>forty-five further households and seven</b>. <i>The two
+readings differ about the households because Ḥammūdeh takes the twenty-seven as coming from Bayt
+Jālā with the rest, while the transcription simply counts the names on the page. But they agree
+exactly on the total: <b>seventy-one Christian entries</b>.</i> <b>The disagreement is one
+line.</b> Ḥammūdeh reads it as a bachelor; the transcription reads it as a household{c('Sāmiḥ Ḥammūdeh, <i>Jerusalem Quarterly</i> 59 (2014), on register I.S. 516: the 36 Kasābra households of Bayt Jālā, “accompanied by an additional 27 Christian families also from Bayt Jala and eight unmarried Christian men,” joining “the ten Muslim families residing in Ramallah.” <b>He nowhere prints a total.</b> 36 + 27 = 63 households and 8 bachelors, against the 64 and 7 in the family’s own transcription of the same folio — and 63 + 8 = 64 + 7 = 71 either way. <b>This retires the “eighth bachelor” from this book’s open questions: he exists, and he is the entry the two readings disagree about.</b>')}. <i>This is the strongest documentary moment in our whole story, and
+it was in the house all along.</i></p>
 <div class="fix"><div class="fixhead">And now the hard part</div>
 <div class="fixgrid">
 <div><span class="fl">Nobody is called Rāshid</span><b>Not one of the sixty-four Christian household
-heads at Ramallah in 1562 bears the name Rāshid</b>, and not one of them is recorded as the son of a
+heads at Ramallah in 1562 is named Rāshid</b>, and not one of them is recorded as the son of a
 Rāshid.</div>
-<div><span class="fl">Which the book expected</span>This is what it should look like if the movers
-were Rāshid’s <b>grandchildren</b>, as Ḥammūdeh argues and this book follows. Their fathers would be
-Rāshid’s sons, and it is the sons’ names we should be looking for in the patronymics — <i>not
+<div><span class="fl">Which is what we expected</span>This is what we should see if the movers were
+Rāshid’s <b>grandchildren</b>, as Ḥammūdeh argues and as we follow him. Their fathers would be
+Rāshid’s sons. So it is the sons’ names we should look for among the fathers’ names — <i>not
 Rāshid’s.</i></div>
 <div><span class="fl">And there they are — carefully</span>As fathers in the 1562 list:
 <b>Ḥassān 5, Hadeed 3, Ibrāhīm 3, Jiryis 1, Shuqayr 0</b> — twelve households out of sixty-three.
 <b>Ḥassān and Ibrāhīm are two of the commonest names in the Levant and prove nothing.</b> Jiryis is
-one household. Shuqayr is absent altogether. <i>The one worth chasing is Hadeed.</i></div>
+one household. Shuqayr is missing altogether. <i>The one worth chasing is Hadeed.</i></div>
 </div></div>
-<p><b>And the name itself has a Palestinian and Jordanian literature this book had not used.</b> <span class="ar">الحدادين</span> is <i>the blacksmiths</i>, and <b>Hind Abū al-Shaʿr</b> shows that Christian families of Transjordan specialised in the trade and carry the name to this day — with nineteenth-century travellers meeting Christian blacksmiths in the villages of ʿAjlūn in 1868, 1877 and 1884, Tamīmī and Bahjat recording that most Nablus Christians were blacksmiths or leather-dyers, and the Jerusalem court records of the seventeenth century treating blacksmithing as an exclusively Christian trade{c('Hind Abū al-Shaʿr, <span class="ar">تاريخ شرق الأردن في العهد العثماني</span> (Amman: Jordanian Ministry of Culture, 2010), p. 364; Rafīq al-Tamīmī and Muḥammad Bahjat, <span class="ar">ولاية بيروت</span> (1917), p. 123; Maḥmūd ʿAṭāllah on seventeenth-century Jerusalem; all cited in Ḥammūdeh (2014), n. 52. <b>The family name is an occupation, and the occupation was a Christian one in this country. That is not a lesser origin than a dynasty; it is a better-documented one.</b>')}. <i>A trade name is not a pedigree, and it does not contradict one — but it is the explanation the record actually supports, and it should be printed first.</i></p>
-<p><b>Which sharpens the register question.</b> <span class="ar">حديد</span> and <span class="ar">حداد</span> — “iron” and
-“blacksmith” — are the same root, one letter apart, and in an Ottoman clerk’s hand in an unpointed
-register they are barely distinguishable. <b>John transliterated it Hadeed.</b> And it is not new in
+<p><b>And the name itself has a Palestinian and Jordanian literature we had not used.</b> <span class="ar">الحدادين</span> means <i>the blacksmiths</i>. <b>Hind Abū al-Shaʿr</b> shows that Christian families of Transjordan specialised in the trade and carry the name to this day. Nineteenth-century travellers met Christian blacksmiths in the villages of ʿAjlūn in 1868, 1877 and 1884. Tamīmī and Bahjat recorded that most Nablus Christians were blacksmiths or leather-dyers. And the Jerusalem court records of the seventeenth century treat blacksmithing as an exclusively Christian trade{c('Hind Abū al-Shaʿr, <span class="ar">تاريخ شرق الأردن في العهد العثماني</span> (Amman: Jordanian Ministry of Culture, 2010), p. 364; Rafīq al-Tamīmī and Muḥammad Bahjat, <span class="ar">ولاية بيروت</span> (1917), p. 123; Maḥmūd ʿAṭāllah on seventeenth-century Jerusalem; all cited in Ḥammūdeh (2014), n. 52. <b>The family name is an occupation, and the occupation was a Christian one in this country. That is not a lesser origin than a dynasty; it is a better-documented one.</b>')}. <i>A trade name is not a pedigree, and it does not contradict one. But it is the explanation the record actually supports, and it should be told first.</i></p>
+<p><b>That sharpens the register question.</b> <span class="ar">حديد</span> and <span class="ar">حداد</span> — “iron” and
+“blacksmith” — share the same root and are one letter apart. In an Ottoman clerk’s hand, in a
+register written without the dots that tell Arabic letters apart, they are barely distinguishable.
+<b>John transliterated it Hadeed.</b> And it is not new in
 1562: <b>Jareer bin Hadeed is in the Bayt Jālā register of 1553 as well</b>, one of the nineteen who
 make the move. <i>If that reading is right, the family name is in a document nine years before the
 town exists</i>{c('Jareer bin Hadeed appears in both registers; Ghneim bin Hadeed and Ghanayem bin Hadeed appear at Ramallah in 1562. <b>The reading cannot be settled from a transliteration.</b> It requires the Arabic of Registers 289 and 516 — the Istanbul <i>tapu tahrir</i> series, I.S. 289 and I.S. 516 — read for the pointing. Until then this is a lead, not a finding, and it is exactly the kind of surname resemblance this book warns against three eras earlier, in the <span class="ar">الحدادة</span> entry.')}.</p>
 {FIX('A finding.',
  '<b>A lead, and the trap named beside it.</b>',
- 'This book has already refused one attractive surname match — al-Suwaydī’s <span class="ar">الحدادة</span>, an unrelated North African group — on the ground that a resemblance between a clan name and an ancestor’s name is not evidence of anything. <b>The same rule applies here, to our own advantage rather than against it.</b> Ḥadīd is worth the trip to Istanbul, where registers 289 and 516 are; Ankara holds the 1596 mufaṣṣal. It is not worth a sentence in the family’s history until somebody makes it.')}
-<p><b>One number to keep.</b> The ten Muslim households of 1562 are named too — Khaleel bin Hassaan,
+ 'We have already refused one tempting surname match: al-Suwaydī’s <span class="ar">الحدادة</span>, an unrelated North African group. We refused it because a likeness between a clan name and an ancestor’s name is not evidence of anything. <b>The same rule applies here, even though this time the match would be in our favour.</b> Ḥadīd is worth the trip to Istanbul, where registers 289 and 516 are; Ankara holds the 1596 mufaṣṣal. It is not worth a sentence in the family’s history until somebody makes that trip.')}
+<p><b>One number to keep.</b> The ten Muslim households of 1562 are named too: Khaleel bin Hassaan,
 ʿAmeer bin ʿOmar, Hasan bin ʿAta, Ahmad bin Muhammad and six more. <b>They were on the hill first,
-and the register puts them at the head of the page.</b> This book has said since the fourth edition
-that Muslims were never absent from Ramallah. <i>It can now say who they were.</i></p>"""),
+and the register puts them at the head of the page.</b> We have said since the fourth edition that
+Muslims were never absent from Ramallah. <i>Now we can say who they were.</i></p>"""),
 
 ent('after 1562', 'oral', True, 'The five sons, the eight clans',
  'The land is divided in fifths among <b>Haddad, Ibrahim, Jirius, Shukair and Hassaan</b> — Jirius, unsatisfied, gets the extra parcel called Karm ʿAli — and Haddad’s fifth is divided again among his own five sons{}.'.format(c('Shāhīn (1982), ch. 1: the fifths, Karm ʿAli, and the eight clans — four Hadadeh (Sharaka, Jaghab, Yousef, ʿAwwaad-with-ʿAzzouz) and four Hamayel.')),
