@@ -2573,8 +2573,8 @@ signed the register on 17 March. Its names were taken from the municipal tax reg
 Khalīl’s words, every person paying taxes was put on the register, whether he had applied or not.
 Nobody under twenty-one could vote{c('Israel State Archives, P-213/40: the committee’s summary, items 1–7 (PDF p. 70); the evidence of Mūsā Khalīl, 23 November 1946, points 1–5 (PDF p. 55); the lawyers’ notes on qualification (PDF p. 5). Every name read for this entry on the voters’ lists is a man’s.')}.</p>
 <p>The register counted the clans. The committee numbered the voters district by district: the
-Ḥaddāda from 1 to <b>401</b>, Dār Ibrāhīm to 55, al-Shaqara to 84 and Dār Jiryis to 13. The figure for
-Dār Jiryis is hard to read in the original, and we settle it from the list of names, which holds thirteen. The lists of names break the Ḥaddāda into the same four
+Ḥaddāda from 1 to <b>401</b>, Dār Ibrāhīm to 55, al-Shaqara to 84 and Dār Jiryis to 43 or 13. The figure for
+Dār Jiryis is hard to read in the original. Its list of names holds thirteen, but every house’s list holds fewer names than the register, so the list alone cannot settle it. The lists of names break the Ḥaddāda into the same four
 houses that the ration-card count of 1944 gives (see “The counting years”): Dār Abū Jaghab, Dār Yūsuf, al-Sharāka and Dār ʿAwwād.</p>
 <p>Two further columns stand apart. One is the Ḥasāmna. The other is <i>al-aghrāb</i>, “the
 strangers”: men living in the town but outside its families, among them Muslim and Armenian
@@ -3388,6 +3388,30 @@ footer.end{border-top:1px solid #DCD6C9;margin-top:70px;padding:26px 0 90px;colo
   figcaption{padding:6px 14px 14px}
   .figtitle{padding:12px 14px 0;font-size:1rem}
 }
+/* v65.1: reading on a phone (David, 8 Nov 2026). Narrower gutters so a line
+   holds more words, a Chapters button that is always under the thumb, the
+   chain ladder swiped like the plates, and a hint on every wide table. */
+.tocbtn{display:none}
+@media (max-width:760px){
+  .wrap{padding:0 14px}
+  .entry{padding-left:18px}
+  .chron::before{left:4px}
+  .entry::before{left:-2px}
+  .sect{padding-left:18px}
+  .linkat{padding:14px 16px 16px}
+  .linkat .lkladder{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .linkat .lkladder svg{width:640px;min-width:640px;max-width:none;height:auto}
+  .ntwrap{position:relative}
+  .ntwrap::before{content:"swipe the table →";display:block;text-align:right;font-size:.72rem;letter-spacing:.12em;color:#8F8A80;padding:0 4px 4px}
+  .eraband{padding-left:18px;padding-right:18px}
+  .ebody h3{font-size:1.28rem;line-height:1.3}
+  .note,.more p{font-size:1.04rem;line-height:1.62}
+  .tocbtn{display:block;position:fixed;right:12px;bottom:14px;z-index:50;background:#007a3d;color:#fff;
+    font:700 .8rem/1 "Times New Roman",Times,serif;letter-spacing:.08em;text-transform:uppercase;
+    padding:11px 14px;border-radius:22px;box-shadow:0 2px 8px rgba(0,0,0,.25);text-decoration:none}
+  .contents{scroll-margin-top:12px}
+}
+@media print{.tocbtn{display:none}}
 @media (max-width:760px) and (prefers-reduced-motion:no-preference){
   .figwrap{scroll-behavior:smooth}
 }
@@ -3806,7 +3830,8 @@ def render():
     return ''.join(out)
 WWSDK_RE = re.compile(r'<p><b>What we still don’t know\.</b>\s*(.*?)</p>', re.S)
 
-CONTENTS = ('<div class="contents"><h4>Contents</h4><ol>' + ''.join(
+CONTENTS = ('<a class="tocbtn" href="#toc" aria-label="Jump to the list of chapters">Chapters</a>'
+            '<div class="contents" id="toc"><h4>Contents</h4><ol>' + ''.join(
     f'<li><a href="#ch{n}"><span class="cnum">{k.replace("ERA ","").strip().title()}</span>'
     f'<span class="ctit">{t.split("&middot;")[0].strip()}'
     + (f'<span class="cgen">{t.split("&middot;")[1].strip()}</span>' if "&middot;" in t else '')

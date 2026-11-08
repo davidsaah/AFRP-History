@@ -488,7 +488,7 @@ def fig_karak_wheel():
     s.append(f'<text x="{tx+BW+34}" y="{ly+24}" font-size="10.4" fill="#FFFAF0" text-anchor="middle" '
              f'font-family="Times New Roman, Times, serif" xml:lang="ar">رام الله</text>')
     SONS = [('Ḥaddād', 'حداد'), ('Ibrāhīm', 'ابراهيم'), ('Jiryis', 'جريس'),
-            ('Shuqayr', 'شقير'), ('Ḥassān', 'حسن')]
+            ('Shuqayr', 'شقير'), ('Ḥasan', 'حسن')]
     sx = tx + BW + 76
     link(tx + BW + 62, ly + BH / 2, sx, ly + BH / 2, col=GOLD, w=2.2)
     for i, (en, ar) in enumerate(SONS):

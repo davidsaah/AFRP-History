@@ -42,8 +42,6 @@ FIXES = [
      'Our line stops in 569. In 593/4 the Greek writers stop naming the family.'),
     (' I.17; Serikoff (2017) for the silence after 594; Kennedy (2010) and al-Yaʿqūbī (d. 890); the ʿAbūd, Jifnā, Karak and Shawbak records as cited in Part II.',
      ' I.17; Shahîd, <tspan font-style="italic">BASIC</tspan> I.1 (1995) for the silence after 593/4; Kennedy (2010) and al-Yaʿqūbī (d. 890); the ʿAbūd, Jifnā, Karak and Shawbak records as cited in Part II.'),
-    ('<text x="692.0" y="321.0" font-size="10.6" fill="#8A5A1E" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="0" font-family="Times New Roman, Times, serif">Ḥasan</text>',
-     '<text x="692.0" y="321.0" font-size="10.6" fill="#8A5A1E" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="0" font-family="Times New Roman, Times, serif">Ḥassān</text>'),
     ('Two counts disagree: Guérin estimated about 1,100 in 1870, but the census Shāhīn cites for the same year counted 2,000. The chart follows the census.',
      'Two counts disagree: an estimate of about 1,100 is given for 1870, but the census Shāhīn cites for the same year counted 2,000. The chart follows the census.'),
 ]
