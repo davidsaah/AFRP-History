@@ -3544,7 +3544,8 @@ with them to every city they went to, and to those, in every generation, who kep
 always known where they came from. They have told it at weddings and funerals, written it in notebooks,
 and carried it to San Francisco, Detroit and Jacksonville. What they have not had is the story set
 out, date by date, beside the records that can be checked.</p>
-<p>That is what this book tries to do. It follows two threads at once. One is the family’s own account,
+<p>That is what we have tried to do. Part One tells the story in date order, and Part Two shows how we
+know it. Throughout, we follow two threads at once. One is the family’s own account,
 reaching back through Rāshid al-Ḥaddādīn to Karak and to Ghassān. The other is what the land and the
 documents say: the archaeology of these hills, the Crusader charter, the Mamluk endowment, the Ottoman
 registers, the Jerusalem court, and the Mandate and Jordanian censuses. Where the two agree, we say so.
@@ -3577,9 +3578,12 @@ ours, and we will correct them in the open.</p>
 
 HOWTO = f"""
 <div class="howto"><h4>How to read this book</h4>
-<p><b>It is one line.</b> Every event, from Adam and Eve to this morning, sits at its own date on a
-single unbroken timeline, and the evidence for it — the maps, the charts, the tables, the
-corrections — sits directly beneath it, at the same date.</p>
+<p><b>The book has two parts.</b> <b>Part One, “The Story of Ramallah”</b>, tells our history from the
+beginning to today in ten chapters, in date order. Each event sits at its own date, and the maps,
+charts, tables and photographs that go with it sit right beside it. <b>Part Two, “How We Know”</b>,
+gathers the harder questions: the Ghassān tradition, the missing centuries between the Ghassanid
+princes and Rāshid, the Ḥaddādīn of Karak, and what the evidence finally shows. Read Part One for the
+story. Turn to Part Two when you want to see how we reached it.</p>
 <p><b>Two texts are the keys:</b> ʿAzīz Shāhīn’s history of 1982 and John Aziz Mogannam’s chart of
 thirty-six generations. Where both carry an entry <i>and testify independently</i> it wears
 <span class="w2">TWO WITNESSES</span> — and from 1500 onward they do testify independently, because
@@ -3599,13 +3603,13 @@ Every entry also carries a grade, saying what kind of thing holds it up:
 A document outranks a memory, and the memory is kept anyway; an inference is drawn as an inference;
 a conflict is printed as a conflict; and where the record corrects the family, the correction
 appears in a marked box at the date where it happens.</p>
-<p><b>The chapters are the eras of this land</b>, from the first people who lived on it to the city
-it holds today — Natufian, Canaanite, Iron Age, Persian and Hellenistic, Roman, Byzantine, early
-Islamic, Crusader and Mamluk, Ottoman, Mandate. <i>The land is the spine of this book, and our own
-family is one of the things that happened to it.</i></p>
-<p><b>Our own line runs through the eras as a chain of nine links</b>, and every era opens with a
-strip saying where that chain stands — which link we are on, and what evidence there is for it in
-that era. Often the honest answer is <i>none</i>, and the strip says so. Figure 1 sets out all nine
+<p><b>The chapters of Part One follow the land through time</b>, from the first people who lived on it
+to the city it holds today: Natufian, Canaanite, Iron Age, Persian and Hellenistic, Roman, Byzantine,
+early Islamic, Crusader and Mamluk, Ottoman, Mandate, Jordanian and our own day. <i>The land is the
+thread that holds the story together, and our families are part of what happened on it.</i></p>
+<p><b>Our own family line runs through the story as a chain of nine links.</b> Each chapter of Part
+One opens with a strip showing where that chain stands: which link we have reached, and what evidence
+there is for it at that point. Often the honest answer is <i>none</i>, and the strip says so. Figure 1 sets out all nine
 links at once, each with the source that carries it and, printed for the first time in this edition,
 <b>what would break it</b>.</p>
 <p><b>One change of method matters more than any of the others.</b> John Mogannam’s chart of
@@ -3627,10 +3631,10 @@ drawn as a single line. <b>This book's number</b> counts generations: <b>sixty-s
 Eve to Rāshid, and about eighteen more to this morning, <b>eighty-four in all</b>. So <i>“the
 Mogannam chart, generation 36”</i> means Rāshid's row on the chart, and <i>“generation 66”</i> means
 Rāshid. Generations 1 to 34 carry the same number in both.</p>
-<p><b>The line ends by proving three things</b> — where we come from, how we became part of the
-Palestinian people, and when and how Ramallah was founded — with the key dates on one page. <b>After
-the bibliography comes the test harness</b>: all thirty-six checkable claims from the family's own
-presentation, each with the verdict on it, printed so the audit can be re-run by anyone.</p>
+<p><b>Part Two ends with what the evidence shows</b> about three things: where we come from, how we
+became part of the Palestinian people, and when and how Ramallah was founded, with the key dates on one
+page. <b>After the bibliography comes the test of the family’s own presentation</b>: all thirty-six of
+its claims that can be checked, each with what we found, so that anyone can check them again.</p>
 </div>
 {CONTENTS}
 {CHAINFIG}
