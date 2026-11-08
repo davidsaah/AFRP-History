@@ -1,5 +1,22 @@
 # Changelog
 
+## v64.1 — 8 November 2026
+
+### Twelve consistency fixes (approved by David)
+
+1. Khirbet et-Tireh: the chapter 2 note no longer says "until the earthquake of 749"; it points to the withdrawal.
+2. Ṭaybeh: 11 km everywhere (the AD 69–70 note said twelve); great-circle from al-Manāra.
+3. Jifnā: about 7 km everywhere (was 6.5 km and 6.7 km in two places).
+4. ʿAin Samiya: 15.5 km in text and note; the "not independently verified" caveat is resolved with published coordinates.
+5. "The ridge and the plateau stay Christian": one man of a queried "Jifnā" in a contract of 1374, not "men of Jifnā" in 1391–92; "continuously Christian" now notes Schick's possible break.
+6. "The city, counted to the present": prints 42,122 for 2021 (PCBS), not 43,880 for 2024.
+7. Population chart caption: the 1967 dip is no longer called "emigration".
+8. 1953: "local count" throughout; the Taraki note records that she calls it "a Jordanian census".
+9. "Our contribution": Muslim households since 1538–39.
+10. Dissard / court record: "a year earlier" replaced with "in 1561, the year before the census of 1562". "About 1815" still unchecked.
+11. Riyam inscription: seven lands, not eight, lie between the Azd and Ghassān.
+12. The Federation: the convention count now notes that the roster has no 2020 convention, so the sixty-third falls in 2022.
+
 ## v64 — 8 November 2026
 
 ### One voice
