@@ -409,33 +409,38 @@ ent('the whole of it', 'attested', False, 'What this land is made of',
 CH(4)
 sect('And in our own line', 'A dam in Joktan’s country, and a road that ends at Gaza')
 ent('8th–7th c. BCE', 'attested', 'shared', 'The great dam of Maʾrib is built — in Joktan’s country',
- 'The monumental sluice works of the Sabaean dam are dated by inscription and excavation to about the eighth and seventh centuries BCE{}. The family’s own account — ʿAdnān al-Ḥaddādīn’s 1953 manuscript, printed by Shāhīn — remembers it “built as early as the 7th century B.C.” <i>A memory that lands on the right phase — see the qualification below.</i>'.format(c('The Maʾrib sluice structures, Sabaean period, c. 8th–7th c. BCE, with earlier earthworks beneath; ʿAdnān al-Ḥaddādīn, <i>A Brief History of the Haddadeen</i> (MS, Ramallah City Hall, 8 August 1953), as printed in Shāhīn (1982), ch. 1.')),
+ 'The great stone sluices of the Sabaean dam (the dam of Sabaʾ, the old kingdom of Yemen) are dated, by inscription and by excavation, to about the eighth and seventh centuries BCE{}. Our families’ own account remembers the dam too. ʿAdnān al-Ḥaddādīn’s 1953 manuscript, printed by Shāhīn, says it was “built as early as the 7th century B.C.” <i>That memory lands on the right phase, with one caution we explain below.</i>'.format(c('The Maʾrib sluice structures, Sabaean period, c. 8th–7th c. BCE, with earlier earthworks beneath; ʿAdnān al-Ḥaddādīn, <i>A Brief History of the Haddadeen</i> (MS, Ramallah City Hall, 8 August 1953), as printed in Shāhīn (1982), ch. 1.')),
  f"""
-<p>It is worth pausing on what this thing actually was, because <b>the whole first half of this
-family’s story is a story about water</b>. The dam was not a reservoir. It was a diversion wall —
-some five hundred and eighty metres of packed earth faced with stone, thrown across the Wādī Dhana
-where it breaks through a gap between two mountains — and its purpose was to catch the flash-floods
-that come off the Yemeni highlands twice a year and push them, through two great masonry sluice
-towers, into a network of canals{c('On the structure and its phases: the Sabaean earthworks of the 8th–7th centuries BCE, the monumental sluice towers of the 6th, and the successive raisings of the wall recorded in the Sabaic inscriptions of the mukarribs. The irrigated area is generally estimated at some 9,600 hectares.')}. It watered something on the order of ninety-six square
-kilometres of desert — <b>and it did so, with repairs, for something close to thirteen hundred
-years</b> — a working life almost nothing else in the ancient world matched, though the Dujiangyan
-irrigation works in Sichuan, begun about 256 BC, are still running today{c('UNESCO World Heritage List no. 1001, “Mount Qingcheng and the Dujiangyan Irrigation System,” inscribed 2000: built c. 256 BC and still in operation. Earlier editions of this book said nothing else in the ancient world ran as long as the Maʾrib dam; that is not true, and the claim is now stated as a comparison rather than a record.')}.</p>
+<p>It is worth stopping to see what the dam actually was. <b>The whole first half of our families’
+story is a story about water.</b></p>
+<p>The dam was not a reservoir. It was a diversion wall: some five hundred and eighty metres of
+packed earth faced with stone. It was thrown across the Wādī Dhana (a <i>wādī</i> is a valley that
+runs with water only after rain), where the valley breaks through a gap between two mountains. Its
+job was to catch the flash-floods that come off the Yemeni highlands twice a year. Two great stone
+sluice towers then pushed that water into a network of canals{c('On the structure and its phases: the Sabaean earthworks of the 8th–7th centuries BCE, the monumental sluice towers of the 6th, and the successive raisings of the wall recorded in the Sabaic inscriptions of the mukarribs. The irrigated area is generally estimated at some 9,600 hectares.')}.</p>
+<p>It watered something like ninety-six square kilometres of desert. <b>And, with repairs, it kept
+doing so for close to thirteen hundred years.</b> Almost nothing else in the ancient world worked
+that long. The Dujiangyan irrigation works in Sichuan, begun about 256 BC, are the exception: they
+are still running today{c('UNESCO World Heritage List no. 1001, “Mount Qingcheng and the Dujiangyan Irrigation System,” inscribed 2000: built c. 256 BC and still in operation. Earlier editions of this book said nothing else in the ancient world ran as long as the Maʾrib dam; that is not true, and the claim is now stated as a comparison rather than a record.')}.</p>
 {fig(F3.fig_dam_eng(),'The machine that watered a kingdom',
- 'The dam of Maʾrib in schematic: the wadi, the gap between the two Balaq mountains, the wall, the two sluices, and the two irrigated gardens on either bank. The Qurʾān’s phrase for Sabaʾ — “two gardens, on the right hand and on the left” — is a literal description of this diagram.',
+ 'A simple drawing of the dam of Maʾrib: the wādī, the gap between the two Balaq mountains, the wall, the two sluices, and the two watered gardens on either bank. The Qurʾān calls Sabaʾ a place of “two gardens, on the right hand and on the left.” That phrase describes this drawing exactly.',
  'The Sabaic inscriptions and the excavation record; Qurʾān 34:15.')}
-<p>And here a <b>third text</b> joins the family’s two. The Qurʾān describes this exact place, in
-these exact terms: <i>“There was for Sabaʾ, in their dwelling-place, a sign: two gardens, on the
-right hand and on the left”</i>{c('Qurʾān 34 (Sūrat Sabaʾ):15. The chapter takes its name from the kingdom.')}. <b>Genesis puts Joktan’s sons in this country; the Qurʾān
-describes its gardens; the family’s 1953 manuscript dates the dam’s monumental phase to the seventh
-century BC; and the inscriptions bear that phase out.</b></p>
-<p><i>Two honest qualifications, because this book does not get to have it both ways.</i> Genesis says
-nothing whatever about a dam — it is a witness to the <i>country</i>, not to the structure. And a
-1953 Arabic manuscript giving a date in the form “the 7th century B.C.” is far more likely to be
-repeating published European scholarship on Maʾrib than remembering anything: <b>it is the ONE
-TRADITION problem in miniature, and it applies to the family’s own text.</b> Dam-building at the
-Wādī Dhana also begins around 1750–1700 BC, a thousand years before the monumental sluices, so
-“as early as the 7th century B.C.” is right about one phase and late by a millennium about the
-site.</p>"""),
+<p>Here a <b>third text</b> joins our families’ two. The Qurʾān describes this very place, in these
+very terms: <i>“There was for Sabaʾ, in their dwelling-place, a sign: two gardens, on the
+right hand and on the left”</i>{c('Qurʾān 34 (Sūrat Sabaʾ):15. The chapter takes its name from the kingdom.')}.</p>
+<p><b>So the texts and the stones meet here. Genesis puts Joktan’s sons in this country. The Qurʾān
+describes its gardens. Our families’ 1953 manuscript dates the dam’s great stone phase to the seventh
+century BC. And the inscriptions bear that phase out.</b></p>
+<p><i>We owe the reader two honest cautions, because we cannot have it both ways.</i></p>
+<p>First, Genesis says nothing at all about a dam. It is a witness to the <i>country</i>, not to the
+building.</p>
+<p>Second, a 1953 Arabic manuscript that gives a date as “the 7th century B.C.” is far more likely
+to be repeating published European scholarship on Maʾrib than remembering anything. <b>This is the
+“one tradition” problem in small — two texts that seem separate but drink from the same well — and
+it applies to our families’ own text.</b></p>
+<p>Dam-building at the Wādī Dhana also began much earlier, around 1750–1700 BC, a thousand years
+before the great sluices. So “as early as the 7th century B.C.” is right about one phase, and a
+thousand years late about the site.</p>"""),
 
 CH(2)
 
@@ -638,42 +643,44 @@ this family too, three thousand years later.</p>""" + fig(R.fig_peoples(),
 CH(4)
 
 sect('What the ground says', 'Assyria, and the road that already joined the two ends of this story')
-ent('745–681 BCE', 'documents', False, 'Assyria writes this landscape down — and a caravan road ties the two ends of this story together',
- 'From <b>Tiglath-pileser III (745–727)</b> onward the Assyrian empire records this country in cuneiform: tribute lists, provincial reorganisations, deportations, and Sennacherib’s siege of Lachish carved in relief for the walls of Nineveh{}. <i>The point here is not who paid whom. It is that from the eighth century BCE this landscape is continuously documented by outside powers — and in none of those documents is it ever empty.</i>'.format(c('The Assyrian royal inscriptions of Tiglath-pileser III, Sargon II and Sennacherib; the Lachish reliefs from Sennacherib’s palace at Nineveh, now in the British Museum. Standard editions in the <i>Royal Inscriptions of the Neo-Assyrian Period</i> series.')),
+ent('745–681 BCE', 'documents', False, 'Assyria writes this landscape down — and a caravan road ties the two ends of our story together',
+ 'From the reign of <b>Tiglath-pileser III (745–727)</b> onward, the Assyrian empire records this country in cuneiform, the wedge-shaped writing of ancient Mesopotamia. It keeps tribute lists, records of new provinces and lists of deportations. Sennacherib’s siege of Lachish was carved in relief for the walls of Nineveh{}. <i>What matters to us is not who paid whom. It is that from the eighth century BCE outside powers wrote this landscape down without a break — and in none of their documents is it ever empty.</i>'.format(c('The Assyrian royal inscriptions of Tiglath-pileser III, Sargon II and Sennacherib; the Lachish reliefs from Sennacherib’s palace at Nineveh, now in the British Museum. Standard editions in the <i>Royal Inscriptions of the Neo-Assyrian Period</i> series.')),
  """
-<p><b>And in the same centuries, at the other end of the family’s story, the incense road is
-running.</b> Pliny describes it in detail. The frankincense of South Arabia was gathered at
-<b>Sabota</b> — Shabwa, in <b>Ḥaḍramawt</b>, one of Joktan’s thirteen sons in the Genesis list this
-chart begins with — where a tenth was tithed to the god at a single gate; from <b>Thomna</b>, the
-Gebbanite capital, it then went <b>1,487½ miles by camel to Gaza on the Palestinian coast, in
-sixty-five stages</b>. He even totals the bill: water, fodder, lodging and tolls came to
+<p><b>In the same centuries, at the other end of our families’ story, the incense road was already
+running.</b> The Roman writer Pliny describes it in detail.</p>
+<p>The frankincense of South Arabia was gathered at <b>Sabota</b>. That is Shabwa, in
+<b>Ḥaḍramawt</b> — and Ḥaḍramawt is one of Joktan’s thirteen sons in the Genesis list that our chart
+begins with. There a tenth of it was paid to the god, at a single gate. From <b>Thomna</b>, the
+capital of the Gebbanites, it then went <b>1,487½ miles by camel to Gaza on the Palestinian coast, in
+sixty-five stages</b>. Pliny even adds up the bill. Water, fodder, lodging and tolls came to
 <b>688 denarii a camel</b> before a single Roman customs officer was paid{}.</p>
 <p><i>This is worth stopping on.</i> More than a thousand years before the dam broke, and more than
-two thousand years before Rāshid crossed the Jordan, <b>there was already a permanent, tolled, mapped
-commercial road joining the country scripture assigns this family to the country the family now
-lives in</b> — and it ended at Gaza, some eighty kilometres south-west of the ridge. The migration the tradition remembers
-did not need to invent a route. It only needed to use one that had been open, in both directions,
-for the better part of a millennium.</p>""".format(
+two thousand years before Rāshid crossed the Jordan, <b>a permanent road already joined the country
+scripture gives our families to the country our families live in now</b>. It was tolled, it was
+mapped, and it carried trade. It ended at Gaza, about eighty kilometres south-west of the ridge.</p>
+<p>The migration our tradition remembers did not need to invent a route. It only needed to use one
+that had been open, in both directions, for the better part of a thousand years.</p>""".format(
   c('Pliny, <i>Naturalis Historia</i> XII.63–65: the incense tithed at Sabota (Shabwa) in Ḥaḍramawt, then carried from Thomna, capital of the Gebbanitae, 1,487½ Roman miles to Gaza in sixty-five camel stages, with charges at every halt totalling 688 denarii a camel.'))),
 
 CH(5)
 
 sect('What the ground says', 'Five empires in five centuries, and a village that does not move')
 ent('539–63 BCE', 'documents', False, 'Six sovereigns over one ridge, and nobody moves',
- 'Cyrus takes Babylon in <b>539</b> and the edict of return is conventionally dated <b>538</b>; Alexander comes in <b>332</b>; then the Ptolemies, the Seleucids, the Hasmoneans — and Pompey in <b>63 BCE</b>. <b>Five changes of sovereign in five centuries, and no change of population.</b> The administrative district around Jifnā that Rome will inherit and Pliny will write down is Hellenistic in origin; Rome did not invent this landscape, it took delivery of it.',
+ 'Cyrus takes Babylon in <b>539</b>, and his edict of return is usually dated <b>538</b>. Alexander comes in <b>332</b>. Then come the Ptolemies, the Seleucids and the Hasmoneans, and finally Pompey in <b>63 BCE</b>. <b>Five changes of ruler in five centuries, and no change of people.</b> The district around Jifnā that Rome will inherit, and that Pliny will write down, goes back to the Hellenistic age, the time of the Greek kings after Alexander. Rome did not invent this landscape. It took delivery of it.',
  """
-<p>The period leaves ordinary paperwork, which is the best kind of evidence there is. The
-<b>Zenon papyri</b> — the working correspondence of an agent of Ptolemy II’s finance minister, who
-was travelling through this country in <b>259 BCE</b>, on a tour begun late in 260 — record estates, grain, slaves, wine and olive oil
-moving through Palestinian towns, in Greek, as routine commercial business{}. <i>Nobody writes
-letters like that about an empty country.</i></p>""".format(
+<p>This period leaves ordinary paperwork, and that is the best kind of evidence there is.</p>
+<p>The <b>Zenon papyri</b> are letters written on papyrus, the reed paper of the ancient world. They
+are the working letters of Zenon, an agent of the finance minister of Ptolemy II. He was travelling
+through this country in <b>259 BCE</b>, on a tour he began late in 260. His letters record estates,
+grain, slaves, wine and olive oil moving through Palestinian towns. They are in Greek, and they treat
+all of it as routine business{}. <i>Nobody writes letters like that about an empty country.</i></p>""".format(
   c('The Zenon archive (P. Cair. Zen.), 261–229 BCE; Zenon’s Palestinian journey of 259 BCE on behalf of Apollonios, dioiketes of Ptolemy II Philadelphus.'))),
 
 E[-1] = E[-1][:7] + (E[-1][7] + fig(F5.fig_sovereigns(), 'Six sovereigns, one people',
- 'Five changes of sovereign in five centuries, and every one of them happened above the villages rather than to them. The bands are the rulers; the green line underneath is everyone else.',
+ 'Five changes of ruler in five centuries. Every one of them happened above the villages, not to them. The bands are the rulers; the green line underneath is everyone else.',
  'Reign dates as conventionally given; the Zenon archive (P. Cair. Zen.) for 259 BC.'),)
 ent('5th–2nd c. BCE', 'attested', False, 'The Samaritans, and Mount Gerizim',
- 'Magen dates the sanctuary on Gerizim archaeologically to the <b>mid-fifth century BCE</b>, and the dating is disputed; when the separation from Judaism became final is disputed, and the decisive rupture is usually placed at the Hasmonean destruction of the temple there, about <b>110 BCE</b>{}. What is not disputed is the sequel: the Samaritans are <b>still on that mountain</b> — reduced from a Byzantine-era population in the hundreds of thousands to about 150 souls by 1900, and recovering to some 900 today{}. <b>Continuity in this landscape is observable, not rhetorical.</b> <i>And the Gospel sets a conversation on that same mountain — “our fathers worshipped in this mountain, and ye say that in Jerusalem is the place where men ought to worship”</i>{}.'.format(
+ 'Magen, who excavated the site, dates the sanctuary on Mount Gerizim, above Nablus, to the <b>mid-fifth century BCE</b>. Scholars disagree about that date. They also disagree about when the split between the Samaritans and Judaism became final. The decisive break is usually placed at about <b>110 BCE</b>, when the Hasmoneans destroyed the temple there{}. What no one disputes is what came after. The Samaritans are <b>still on that mountain</b>. Their numbers fell from hundreds of thousands in the Byzantine era to about 150 people by 1900, and have grown back to some 900 today{}. <b>In this landscape, continuity is something we can see, not just something we say.</b> <i>The Gospel sets a conversation on that same mountain: “our fathers worshipped in this mountain, and ye say that in Jerusalem is the place where men ought to worship”</i>{}.'.format(
   c('Y. Magen, <i>Mount Gerizim Excavations</i> I–II (Israel Antiquities Authority, 2004, 2008), for the mid-fifth-century sanctuary — excavated and published by the Staff Officer of Archaeology under the Civil Administration, on a mountain in occupied territory, and cited here for its stratigraphy and not for its frame (see the bibliography, §XXX). The Persian-period date is disputed; Gary Knoppers, <i>Jews and Samaritans: The Origins and History of Their Early Relations</i> (Oxford, 2013), ch. 1, for the range of dates proposed — from Ezra to 70 CE; Josephus, <i>Antiquitates</i> XIII.255–56, for John Hyrcanus and the destruction of the Gerizim temple. <b>Earlier editions of this book printed a flat “c. 400 BCE,” which no source supports.</b>'),
   c('On Samaritan demographic history: the Byzantine-era revolts of 484, 529 and 555 and the collapse that followed; census counts of 163 (1922) and 182 (1931); c. 900 today at Holon and Kiryat Luza.'),
   c('John 4:20, the Samaritan woman at the well near Sychar; the well itself is at Bālāṭa outside Nablus, at the foot of Gerizim, and the mountain in the verse is the one this entry is about. <b>The dispute the verse records is the one the archaeology dates.</b>'))),
@@ -681,207 +688,226 @@ ent('5th–2nd c. BCE', 'attested', False, 'The Samaritans, and Mount Gerizim',
 CH(6)
 sect('What the ground says', 'Rome paves the ridge, ranks the district, and writes its villages down')
 ent('63 BCE → 77 CE', 'documents', False, 'Rome writes the district down — and ranks it second',
- 'Pompey takes Judaea from the Hasmoneans in 63 BCE, and a century and a half later the empire has the place on paper. Pliny lists <b>Gophna</b> — Jifnā, about seven kilometres due north of the ridge — among the ten toparchies of Judaea; Josephus calls it <b>“the second of those cities”</b> after Jerusalem itself{}.'.format(c('Pliny, <i>Naturalis Historia</i> V.70; Josephus, <i>Bellum Judaicum</i> III.54–55; also IV.551 (Vespasian takes the toparchy, 68 CE), V.50 and VI.115.')),
+ 'Pompey takes Judaea from the Hasmoneans in 63 BCE. A century and a half later, the empire has the place on paper. Pliny lists <b>Gophna</b> — Jifnā, about seven kilometres due north of the ridge — among the ten toparchies of Judaea. A toparchy was an administrative district with its own chief town. Josephus calls Gophna <b>“the second of those cities”</b>, after Jerusalem itself{}.'.format(c('Pliny, <i>Naturalis Historia</i> V.70; Josephus, <i>Bellum Judaicum</i> III.54–55; also IV.551 (Vespasian takes the toparchy, 68 CE), V.50 and VI.115.')),
  f"""
 {fig(ATLAS.fig_roman(),'The district when Rome wrote it down',
- 'Ramallah’s neighbours in the Roman and Byzantine record, with the imperial road that runs the length of this ridge. Every green dot is named in a surviving text. The gold circle is the site of Ramallah — named in none of them, and in none at all until 1186.',
+ 'Ramallah’s neighbours in the Roman and Byzantine record, with the imperial road that runs the length of this ridge. Every green dot is named in a text that survives. The gold circle is the site of Ramallah. None of those texts names it, and no text names it at all until 1186.',
  'Pliny, NH V.70; Josephus, BJ III.54–55; Eusebius, Onomasticon; the Madaba mosaic; Tappy, NEA 75 (2012); al-Houdalieh on Khirbet et-Tireh.')}
-<p>The hills the family would one day reach were not a wilderness. They were an imperial district
-with a paved highway down the middle — the road from Aelia Capitolina to Neapolis, milestoned and
-measured, which Eusebius later used as his surveyor’s baseline: Bethel, he writes, is <i>“twelve
-miles from Jerusalem, to the right of the road going to Neapolis.”</i>{c('Eusebius, <i>Onomasticon</i>, s.vv. Baithel, Silo; ed. Klostermann (1904); Notley &amp; Safrai (Brill, 2005). The road’s milestones catalogued by Thomsen, <i>ZDPV</i> 40 (1917).')} <b>When the family
-walks up this ridge in 1562, and when the first emigrants ride down it in 1901, they are using a
-road Rome paved.</b> Two kilometres from the future town centre, Khirbet et-Tireh — two churches, a
-monastery, an oil press, excavated by Salah al-Houdalieh — shows the ground itself was worked and
-prayed on for some seven hundred years, from the Roman period onward{c('Salah al-Houdalieh (al-Quds University), excavations at Khirbet et-Tireh from 2013 — two contemporaneous churches, a monastery and an oil press, two kilometres west of the present town centre; the settlement covers some thirty thousand square metres. Hamdan Taha at ʿAbūd. See the bibliography, §XVIII and §XXIX. <b>Two corrections here. Earlier editions said “a thousand years before the founding,” which implied an unbroken occupation the excavation does not show. And earlier editions said the site was abandoned after the earthquake of 749 and reoccupied only in the Ottoman period — al-Houdalieh’s own publication of the press says the opposite: “we believe that the press facility itself was maintained in continuous use from the Byzantine through the late Ottoman periods.” The 749 abandonment is withdrawn.</b> Salah Hussein al-Houdalieh, “The Oil Press Complex of Khirbat al-Tira,” <i>Jerusalem Quarterly</i> 62 (2015), 84–96.')}. <i>Only the name Ramallah is missing from
-every text — the neighbours are Roman, the ground is Byzantine, the name will be Mamluk.</i></p>"""),
+<p>The hills our families would one day reach were not a wilderness. They were an imperial district
+with a paved highway down the middle. This was the road from Aelia Capitolina, the Roman name for
+Jerusalem, to Neapolis. It was measured and marked with milestones. Eusebius later used it as his
+surveyor’s baseline: Bethel, he writes, is <i>“twelve
+miles from Jerusalem, to the right of the road going to Neapolis.”</i>{c('Eusebius, <i>Onomasticon</i>, s.vv. Baithel, Silo; ed. Klostermann (1904); Notley &amp; Safrai (Brill, 2005). The road’s milestones catalogued by Thomsen, <i>ZDPV</i> 40 (1917).')}</p>
+<p><b>When our families walked up this ridge in 1562, and when the first emigrants rode down it in
+1901, they were using a road Rome paved.</b></p>
+<p>Two kilometres from the future town centre lies Khirbet et-Tireh (<i>khirbet</i> means “ruin”).
+Salah al-Houdalieh excavated two churches, a monastery and an oil press there. They show that the
+ground itself was worked and prayed on for some seven hundred years, from the Roman period
+onward{c('Salah al-Houdalieh (al-Quds University), excavations at Khirbet et-Tireh from 2013 — two contemporaneous churches, a monastery and an oil press, two kilometres west of the present town centre; the settlement covers some thirty thousand square metres. Hamdan Taha at ʿAbūd. See the bibliography, §XVIII and §XXIX. <b>Two corrections here. Earlier editions said “a thousand years before the founding,” which implied an unbroken occupation the excavation does not show. And earlier editions said the site was abandoned after the earthquake of 749 and reoccupied only in the Ottoman period — al-Houdalieh’s own publication of the press says the opposite: “we believe that the press facility itself was maintained in continuous use from the Byzantine through the late Ottoman periods.” The 749 abandonment is withdrawn.</b> Salah Hussein al-Houdalieh, “The Oil Press Complex of Khirbat al-Tira,” <i>Jerusalem Quarterly</i> 62 (2015), 84–96.')}.</p>
+<p><i>Only the name Ramallah is missing from every text. The neighbours are Roman, the ground is
+Byzantine, and the name will be Mamluk.</i></p>"""),
 
 ent('c. 30 CE', 'documents', False, '“A city called Ephraim, and there continued with his disciples”',
- 'John 11:54. The city is generally identified with <b>Ṭaybeh, eleven kilometres from Ramallah</b>{} — still, today, the last entirely Christian town in Palestine.'.format(c('John 11:54: <span class="gk">εἰς Ἐφραὶμ λεγομένην πόλιν</span>. The identification with eṭ-Ṭaybeh is standard from Robinson (1841) and the <i>Survey of Western Palestine</i>, resting on Eusebius and the villagers’ retained memory of the older name; Albright preferred ʿAyn Sāmiya.')),
+ 'John 11:54. Scholars generally identify the city with <b>Ṭaybeh, eleven kilometres from Ramallah</b>{}. Ṭaybeh is still, today, the last entirely Christian town in Palestine.'.format(c('John 11:54: <span class="gk">εἰς Ἐφραὶμ λεγομένην πόλιν</span>. The identification with eṭ-Ṭaybeh is standard from Robinson (1841) and the <i>Survey of Western Palestine</i>, resting on Eusebius and the villagers’ retained memory of the older name; Albright preferred ʿAyn Sāmiya.')),
  f"""
 <blockquote><span class="gk">Εφρων ἡ Εφραια ἔνθα ἦλθεν ὁ Κ(ύριο)ς</span><br>
 “Ephron, also Ephraia, <b>where the Lord went.</b>”
-<span class="cite">The Madaba mosaic map, sixth century — the caption still in the church floor at
+<span class="cite">The Madaba mosaic map, sixth century. The caption is still in the church floor at
 Madaba{c('Avi-Yonah, <i>The Madaba Mosaic Map</i> (1954), no. 41; Donner no. 43; Piccirillo no. 44.')}</span></blockquote>
-<p>And the road he used is this road. Josephus: <b>“It was the custom of the Galileans, when they
+<p>And the road he used is this road. Josephus writes: <b>“It was the custom of the Galileans, when they
 came to the holy city at the festivals, to take their journeys through the country of the
-Samaritans”</b>{c('Josephus, <i>Antiquitates</i> XX.118; cf. <i>BJ</i> II.232. The Gospels assume both routes: Luke 9:51–53 and John 4:3–5 the ridge, Mark 10:1 the Jordan valley.')} — the ridge route, past the site of Ramallah. Over the following three or four centuries the
-country became largely Christian without anybody moving — by conversion, not replacement, and with
-Jewish and Samaritan communities remaining throughout; in 451 Jerusalem became a Patriarchate at Chalcedon,
-and the church this family still belongs to acquired the form it still has{c('The see of Jerusalem elevated to patriarchal rank at the Council of Chalcedon, 451; on the continuity of its structures through the early Islamic period, Milka Levy-Rubin, <i>ARAM</i> 15 (2003).')}.
-<b>This family’s faith is not something that arrived with it in 1562. It was already here — and it
-is one of the things that never left.</b></p>"""),
+Samaritans”</b>{c('Josephus, <i>Antiquitates</i> XX.118; cf. <i>BJ</i> II.232. The Gospels assume both routes: Luke 9:51–53 and John 4:3–5 the ridge, Mark 10:1 the Jordan valley.')}. That is the ridge route, past the site of Ramallah.</p>
+<p>Over the next three or four centuries the country became largely Christian without anybody
+moving. It happened by conversion, not replacement, and Jewish and Samaritan communities remained
+throughout. In 451, at the Council of Chalcedon, Jerusalem became a Patriarchate, one of the great
+seats of the Church, each led by a patriarch. The church our families still belong to took the form
+it still has{c('The see of Jerusalem elevated to patriarchal rank at the Council of Chalcedon, 451; on the continuity of its structures through the early Islamic period, Milka Levy-Rubin, <i>ARAM</i> 15 (2003).')}.</p>
+<p><b>Our faith did not arrive with our families in 1562. It was already here, and it is one of the
+things that never left.</b></p>"""),
 
-ent('c. 27–30 CE', 'scripture', False, 'THE ROADS HE USED — and every Gospel place within a day of this hill',
- f'''The Gospels are not set <i>near</i> this district. <b>They are set in it.</b> Put every place they name at its real coordinates and the whole of it fits inside a day’s walk of the hill Ramallah would be founded on fifteen centuries later — Jerusalem at fourteen kilometres, Bethany at fifteen, Jericho at twenty-three, and <b>Ephraim at eleven</b>{c('Distances are great-circle measurements from the centre of present-day Ramallah (31.8996° N, 35.2042° E) to the accepted site of each place. Every distance printed on a plate in this book is now computed from that point and the site’s own plotted coordinates, so a label cannot drift away from the dot it belongs to. <b>Earlier editions printed eṭ-Ṭaybeh at twelve kilometres throughout; the measurement is 10.7, and the book now prints eleven.</b>')}.''',
+ent('c. 27–30 CE', 'scripture', False, 'The roads he used — and every Gospel place within a day of this hill',
+ f'''The Gospels are not set <i>near</i> this district. <b>They are set in it.</b> Put every place they name at its real position on the map, and all of them fit inside a day’s walk of the hill Ramallah would be founded on fifteen centuries later. Jerusalem is fourteen kilometres away, Bethany fifteen, Jericho twenty-three, and <b>Ephraim eleven</b>{c('Distances are great-circle measurements from the centre of present-day Ramallah (31.8996° N, 35.2042° E) to the accepted site of each place. Every distance printed on a plate in this book is now computed from that point and the site’s own plotted coordinates, so a label cannot drift away from the dot it belongs to. <b>Earlier editions printed eṭ-Ṭaybeh at twelve kilometres throughout; the measurement is 10.7, and the book now prints eleven.</b>')}.''',
  f"""
 {fig(F4.fig_jesus_road(), 'The roads he used, and the ridge they run along',
- 'Left, the country: the two roads between Galilee and Jerusalem, and where this ridge sits on one of them. Centre, the district within a day’s walk. Right, what the Gospels say is at each place. <b>Every marker is graded on the identification of the site, never on the verse.</b> Green is named in the Gospels at a securely identified place; grey is named in the Roman record but not in the Gospels; the dashed violet rings are medieval pilgrim tradition, printed and labelled as tradition.',
+ 'On the left, the country: the two roads between Galilee and Jerusalem, and where this ridge sits on one of them. In the centre, the district within a day’s walk. On the right, what the Gospels place at each spot. <b>Each marker is graded on how sure we are of the site, never on the verse.</b> Green means named in the Gospels at a securely identified place. Grey means named in the Roman record but not in the Gospels. The dashed violet rings are medieval pilgrim tradition, drawn and labelled as tradition.',
  'John 11:54; Luke 2:41–46, 10:30, 19:1, 24:13; Josephus, Ant. XX.118 and BJ IV.550–51, VI.113–15; Robinson &amp; Smith (1841); Pringle, Churches of the Crusader Kingdom.')}
-<p><b>Start with the road, because the road is the part that is certain.</b> There were two ways
-from Galilee to Jerusalem: down the Jordan valley and up through Jericho, or straight down the
-watershed through Samaria. Josephus says plainly which one Galilean pilgrims used — <i>“It was the
+<p><b>Start with the road, because the road is the part we are sure of.</b> There were two ways from
+Galilee to Jerusalem. One went down the Jordan valley and up through Jericho. The other went straight
+down the watershed, the line of high ground that divides the rain between east and west, through
+Samaria.</p>
+<p>Josephus says plainly which one Galilean pilgrims used: <i>“It was the
 custom of the Galileans, when they came to the holy city at the festivals, to take their journeys
-through the country of the Samaritans”</i>{c('Josephus, <i>Antiquitates</i> XX.118; the same episode at <i>BJ</i> II.232. The Gospels assume both routes are available: Luke 9:51–53 and John 4:3–5 take the ridge, Mark 10:1 the valley.')}
-— and the watershed road runs along the top of this ridge, within sight of the future town, and was
-paved and milestoned by Rome{c('Eusebius uses the Jerusalem–Neapolis road as his surveyor’s baseline in the <i>Onomasticon</i>, locating Bethel “twelve miles from Jerusalem, to the right of the road going to Neapolis”; the milestones were catalogued by Thomsen, <i>ZDPV</i> 40 (1917).')}. <b>Three times a year — Passover, Pentecost, Tabernacles —
-the pilgrim traffic of Galilee came down past this hill.</b> That is not a devotional claim. It is a
-road, a custom recorded by a hostile witness, and a milestone count.</p>
-<p><b>Now the one town on this ridge the Gospels actually name.</b> John says that when it became
-unsafe for him near Jerusalem he <i>“withdrew to a city called Ephraim, in an area near to the
-wilderness, and there continued with his disciples”</i>{c('John 11:54: <span class="gk">εἰς Ἐφραὶμ λεγομένην πόλιν</span>. The identification with eṭ-Ṭaybeh is standard from Robinson (1841) and the <i>Survey of Western Palestine</i>, and is supported by the sixth-century Madaba mosaic, which captions the place <span class="gk">Εφρων ἡ Εφραια ἔνθα ἦλθεν ὁ Κ(ύριο)ς</span> — “Ephron, also Ephraia, where the Lord went.”')}. <i>Look at where eṭ-Ṭaybeh
-sits on the map.</i> It is on the last inhabited edge of the ridge; east of it the land falls away
-into the wilderness of the Jordan rift. <b>The verse is not describing a place vaguely. It is
-describing this place accurately</b> — a town at the end of the settled country, with the desert
-starting at its feet, which is exactly what a man withdrawing from Jerusalem would want. <i>And it is
-still, today, the last entirely Christian town in Palestine.</i></p>
-<p><b>Two more places on this map belong to the neighbours rather than to the evidence, and this book
-prints them as such.</b> At <b>al-Bīra</b> — one and a half kilometres from the centre of Ramallah —
-there is a Crusader church, in the record by 1128 and described by the German pilgrim Theodoric in
-1172; by the fourteenth century the Latins held that this was the day’s-journey halt of Luke 2:44,
-where Mary and Joseph discovered the boy was not with the company{c('On the church of St Mary at al-Bīra: in the record from September 1128 under the jurisdiction of the Holy Sepulchre, and described by Theodoric in 1172; a Romanesque basilica of roughly 22 × 35 metres. The Holy Family association is attested from the fourteenth century. See Denys Pringle, <i>The Churches of the Crusader Kingdom of Jerusalem</i>, s.v. al-Bīra; and the Palestinian Ministry of Tourism and Antiquities site record. <b>The identification of al-Bīra with the Beeroth of Joshua 9:17 is Robinson’s and remains disputed; the Holy Family association is later still, and rests on nothing earlier than the Crusader period.</b>')}. At <b>al-Qubeiba</b>,
-nine kilometres to the south-west, there is a Crusader village and a fort called <i>Castellum
-Emmaus</i>; pilgrims began calling it the Emmaus of Luke 24:13 in the thirteenth century and the
-Franciscans adopted it in 1335{c('Al-Qubeiba is one of four candidates for Emmaus, with ʿImwās/Nicopolis, Abū Ghōsh and Moẓa/Qālūniya. The choice turns partly on a manuscript split at Luke 24:13 — sixty stadia in most witnesses, a hundred and sixty in Sinaiticus and others — which suits Nicopolis at roughly 160 stadia and al-Qubeiba at about 65. Franciscan pilgrimage from 1335; excavated by Bellarmino Bagatti, 1940–44.')}. <b>Neither is evidence about the first century, and this
-book does not pretend otherwise.</b> <i>What they are evidence of is something else, and worth
-saying: for eight hundred years the people living beside this ridge have believed the Gospel happened
-at their own door.</i> That belief is itself a dated, documented, physical fact — it has a church
-with foundations. The book grades the two of them violet and dashed, and leaves the reader to weigh
-them.</p>"""),
+through the country of the Samaritans”</i>{c('Josephus, <i>Antiquitates</i> XX.118; the same episode at <i>BJ</i> II.232. The Gospels assume both routes are available: Luke 9:51–53 and John 4:3–5 take the ridge, Mark 10:1 the valley.')}.
+The watershed road runs along the top of this ridge, within sight of the future town, and Rome paved
+it and marked it with milestones{c('Eusebius uses the Jerusalem–Neapolis road as his surveyor’s baseline in the <i>Onomasticon</i>, locating Bethel “twelve miles from Jerusalem, to the right of the road going to Neapolis”; the milestones were catalogued by Thomsen, <i>ZDPV</i> 40 (1917).')}.</p>
+<p><b>Three times a year — at Passover, Pentecost and Tabernacles — the pilgrims of Galilee came down
+past this hill.</b> That is not a statement of faith. It rests on a road, a custom recorded by a
+hostile witness, and a count of milestones.</p>
+<p><b>Now to the one town on this ridge that the Gospels actually name.</b> John says that when it
+became unsafe for him near Jerusalem he <i>“withdrew to a city called Ephraim, in an area near to the
+wilderness, and there continued with his disciples”</i>{c('John 11:54: <span class="gk">εἰς Ἐφραὶμ λεγομένην πόλιν</span>. The identification with eṭ-Ṭaybeh is standard from Robinson (1841) and the <i>Survey of Western Palestine</i>, and is supported by the sixth-century Madaba mosaic, which captions the place <span class="gk">Εφρων ἡ Εφραια ἔνθα ἦλθεν ὁ Κ(ύριο)ς</span> — “Ephron, also Ephraia, where the Lord went.”')}.</p>
+<p><i>Look at where eṭ-Ṭaybeh sits on the map.</i> It is on the last inhabited edge of the ridge.
+East of it the land falls away into the wilderness of the Jordan rift. <b>The verse is not vague
+about the place. It describes this place accurately</b>: a town at the end of the settled country,
+with the desert starting at its feet. That is exactly what a man withdrawing from Jerusalem would
+want. <i>And it is still, today, the last entirely Christian town in Palestine.</i></p>
+<p><b>Two more places on this map belong to the neighbours rather than to the evidence, and we mark
+them that way.</b></p>
+<p>At <b>al-Bīra</b>, one and a half kilometres from the centre of Ramallah, there is a Crusader
+church. It is in the record by 1128, and the German pilgrim Theodoric described it in 1172. By the
+fourteenth century the Latins, the Western Christians, held that this was the halt after a day’s
+journey in Luke 2:44, where Mary and Joseph found the boy was not with the company{c('On the church of St Mary at al-Bīra: in the record from September 1128 under the jurisdiction of the Holy Sepulchre, and described by Theodoric in 1172; a Romanesque basilica of roughly 22 × 35 metres. The Holy Family association is attested from the fourteenth century. See Denys Pringle, <i>The Churches of the Crusader Kingdom of Jerusalem</i>, s.v. al-Bīra; and the Palestinian Ministry of Tourism and Antiquities site record. <b>The identification of al-Bīra with the Beeroth of Joshua 9:17 is Robinson’s and remains disputed; the Holy Family association is later still, and rests on nothing earlier than the Crusader period.</b>')}.</p>
+<p>At <b>al-Qubeiba</b>, nine kilometres to the south-west, there is a Crusader village and a fort
+called <i>Castellum Emmaus</i>. Pilgrims began calling it the Emmaus of Luke 24:13 in the thirteenth
+century, and the Franciscans adopted it in 1335{c('Al-Qubeiba is one of four candidates for Emmaus, with ʿImwās/Nicopolis, Abū Ghōsh and Moẓa/Qālūniya. The choice turns partly on a manuscript split at Luke 24:13 — sixty stadia in most witnesses, a hundred and sixty in Sinaiticus and others — which suits Nicopolis at roughly 160 stadia and al-Qubeiba at about 65. Franciscan pilgrimage from 1335; excavated by Bellarmino Bagatti, 1940–44.')}.</p>
+<p><b>Neither place is evidence about the first century, and we do not pretend otherwise.</b>
+<i>But they are evidence of something else worth saying: for eight hundred years the people living
+beside this ridge have believed the Gospel happened at their own door.</i> That belief is itself a
+dated, documented, physical fact. It has a church with foundations. We mark both places violet and
+dashed, and leave the reader to weigh them.</p>"""),
 
-ent('c. 30 CE', 'documents', False, 'AND WHAT THIS RIDGE WAS DOING WHILE HE WALKED IT',
- f'''A tax district, a highway and a harvest. <b>The people on these hills in the year of the Gospels were villagers of the Gophna toparchy</b> — one of the ten administrative districts of Judaea, with its capital at Jifnā, six and a half kilometres from the future town{c('Pliny, <i>Naturalis Historia</i> V.70, listing Gophna among the ten toparchies of Judaea; Josephus, <i>BJ</i> III.54–55, where Gophna heads the list after Jerusalem. The toparchy is Hellenistic in origin and was inherited, not invented, by Rome.')} — growing olives and vines on terraces their grandparents had built, pressing oil, and paying it to Rome.''',
+ent('c. 30 CE', 'documents', False, 'And what this ridge was doing while he walked it',
+ f'''A tax district, a highway and a harvest. <b>The people on these hills in the year of the Gospels were villagers of the Gophna toparchy.</b> That was one of the ten administrative districts of Judaea, with its capital at Jifnā, six and a half kilometres from the future town{c('Pliny, <i>Naturalis Historia</i> V.70, listing Gophna among the ten toparchies of Judaea; Josephus, <i>BJ</i> III.54–55, where Gophna heads the list after Jerusalem. The toparchy is Hellenistic in origin and was inherited, not invented, by Rome.')}. They grew olives and vines on terraces their grandparents had built. They pressed oil, and they paid it to Rome.''',
  f"""
-<p><i>This is the honest shape of the answer, and the honesty matters more than the answer.</i>
-<b>We cannot name one person who stood on Ramallah’s own hill in AD 30.</b> There is no Ramallah yet;
-the excavations at Khirbet et-Tireh, two kilometres away, show the ground was worked and prayed on
-from the Roman period onward, but no text names a soul on it{c('Salah al-Houdalieh’s excavations at Khirbet et-Tireh, from 2013: two contemporaneous churches, a monastery and an oil press, in use from the Roman period until the earthquake of 749. The Roman-period phase is the relevant one here; the churches are later.')}. <b>What can be named is
-everything around a person</b> — the district, the road, the crop, the press and the tax. That is
-more than most families can say about their ground in any century, let alone the first.</p>
-<p><b>The terraces are the strongest single piece of it.</b> They are the same system this book has
-already described: dry-stone walls with no mortar of any kind, built to hold soil and water on a
-slope, and worked continuously for so long that no one can date their beginning{c('On the dry-stone technique and its continuity: Shadi Ghadban, “Palestinian Dry Stone Structures — An Endogenous Expression of Cultural Landscape,” <i>Journal “Sustainable Development, Culture, Traditions”</i> 1b (2015), 34–46.')}. <i>The
-terraces on the hills he walked through are the terraces the family would one day farm.</i> Nobody
-rebuilt this landscape between the two dates. It was maintained, wall by wall, by whoever was living
-on it.</p>
-<p><b>And the road was busy, and dangerous.</b> Josephus records a Galilean pilgrim murdered at the
-Samaritan village of Ginae on his way up to a festival, and the reprisals and Roman hearings that
-followed — an episode that is only intelligible if the ridge route carried heavy, regular,
-mixed traffic{c('Josephus, <i>Antiquitates</i> XX.118–136; <i>BJ</i> II.232–246. Under the procurator Cumanus, c. 51 CE. The affair reached the emperor Claudius.')}. <i>Whoever was farming this ridge in the first century
-was not living in a backwater. They were living on the main road, watching the whole country walk
-past their terraces three times a year.</i></p>"""),
+<p><i>Here is the honest shape of the answer, and the honesty matters more than the answer.</i>
+<b>We cannot name one person who stood on Ramallah’s own hill in AD 30.</b> There is no Ramallah yet.
+The excavations at Khirbet et-Tireh, two kilometres away, show the ground was worked and prayed on
+from the Roman period onward. But no text names a single person on it{c('Salah al-Houdalieh’s excavations at Khirbet et-Tireh, from 2013: two contemporaneous churches, a monastery and an oil press, in use from the Roman period until the earthquake of 749. The Roman-period phase is the relevant one here; the churches are later.')}.</p>
+<p><b>What we can name is everything around a person:</b> the district, the road, the crop, the press
+and the tax. That is more than most families can say about their ground in any century, let alone
+the first.</p>
+<p><b>The terraces are the strongest single piece of it.</b> They are the same system we have already
+described: dry-stone walls, built with no mortar of any kind, to hold soil and water on a slope. They
+have been worked without a break for so long that no one can date their beginning{c('On the dry-stone technique and its continuity: Shadi Ghadban, “Palestinian Dry Stone Structures — An Endogenous Expression of Cultural Landscape,” <i>Journal “Sustainable Development, Culture, Traditions”</i> 1b (2015), 34–46.')}.</p>
+<p><i>The terraces on the hills he walked through are the terraces our families would one day
+farm.</i> Nobody rebuilt this landscape between the two dates. Whoever was living on it kept it up,
+wall by wall.</p>
+<p><b>And the road was busy, and dangerous.</b> Josephus records a Galilean pilgrim who was murdered
+at the Samaritan village of Ginae on his way up to a festival. Reprisals and Roman hearings followed.
+The story only makes sense if the ridge route carried heavy, regular, mixed traffic{c('Josephus, <i>Antiquitates</i> XX.118–136; <i>BJ</i> II.232–246. Under the procurator Cumanus, c. 51 CE. The affair reached the emperor Claudius.')}.</p>
+<p><i>Whoever was farming this ridge in the first century was not living in a backwater. They lived
+on the main road, and watched the whole country walk past their terraces three times a year.</i></p>"""),
 
-ent('69 → 70 CE', 'documents', False, 'AND AFTER — the two towns garrisoned, and the priests held six kilometres away',
- f'''When Rome came back to settle the revolt, it came up this road, and Josephus names the stops. Vespasian <i>“went up to the mountainous country, and took those two toparchies that were called the Gophnitick and Acrabattene”</i>; and then — the sentence that ought to stop a reader of this book — <b><i>“after which he took Bethel and Ephraim, two small cities; and when he had put garrisons into them, he rode as far as Jerusalem.”</i></b>{c('Josephus, <i>BJ</i> IV.550–551 (Whiston IV.9.9), the campaign of AD 69. Bethel is Beitin, 4.4 km from Ramallah; Ephraim is eṭ-Ṭaybeh, twelve. The same march has Cerealis sent against upper Idumaea, where he stormed and burned Hebron.')}''',
+ent('69 → 70 CE', 'documents', False, 'And after — the two towns garrisoned, and the priests held six kilometres away',
+ f'''When Rome came back to put down the revolt, it came up this road, and Josephus names the stops. Vespasian <i>“went up to the mountainous country, and took those two toparchies that were called the Gophnitick and Acrabattene”</i>. Then comes the sentence that ought to stop any of us: <b><i>“after which he took Bethel and Ephraim, two small cities; and when he had put garrisons into them, he rode as far as Jerusalem.”</i></b>{c('Josephus, <i>BJ</i> IV.550–551 (Whiston IV.9.9), the campaign of AD 69. Bethel is Beitin, 4.4 km from Ramallah; Ephraim is eṭ-Ṭaybeh, twelve. The same march has Cerealis sent against upper Idumaea, where he stormed and burned Hebron.')}''',
  f"""
-<p><b>Read those two names together.</b> Bethel and Ephraim: the town of Jacob’s ladder and the town
-John says he withdrew to — <b>four kilometres and eleven kilometres from the centre of the present
-Ramallah</b> — are the two places the Roman army thought worth garrisoning on its way to besiege
-Jerusalem. <i>The Gospel geography and the Roman military geography of this ridge are the same
-geography.</i> They are the same small towns, on the same road, forty years apart.</p>
+<p><b>Read those two names together.</b> Bethel is the town of Jacob’s ladder. Ephraim is the town
+John says he withdrew to. They lie <b>four kilometres and eleven kilometres from the centre of
+today’s Ramallah</b>. And they are the two places the Roman army thought worth garrisoning — leaving
+soldiers to hold them — on its way to besiege Jerusalem. <i>The Gospel map of this ridge and the
+Roman army’s map of it are the same map.</i> They show the same small towns, on the same road, forty
+years apart.</p>
 <p><b>Then the district is used one more time, and it is the most human detail in the whole
-chapter.</b> During the siege, Titus took the surrender of a group of Jerusalem’s notables — among
-them the high priests <b>Joseph and Jesus</b>, and the sons of leading families — and <i>“sent them
-to Gophna, and desired them to remain there for the present,”</i> promising that when the war was
-over he would restore every man his property. The rebels inside the city then put about that the
-Romans had butchered them, to stop anyone else deserting; so Titus <b>brought the same men back from
-Gophna and walked them round the walls with Josephus, alive, where the defenders could see
-them</b>{c('Josephus, <i>BJ</i> VI.113–115 (Whiston VI.2.2). Gophna is Jifnā, 6.7 km from the centre of Ramallah.')}.</p>
+chapter.</b> During the siege, Titus took the surrender of a group of Jerusalem’s notables. Among
+them were the high priests <b>Joseph and Jesus</b>, and the sons of leading families. He <i>“sent
+them to Gophna, and desired them to remain there for the present,”</i> and promised that when the war
+was over he would give every man back his property.</p>
+<p>The rebels inside the city then spread the word that the Romans had butchered them, to stop anyone
+else from deserting. So Titus <b>brought the same men back from Gophna and walked them round the
+walls with Josephus, alive, where the defenders could see them</b>{c('Josephus, <i>BJ</i> VI.113–115 (Whiston VI.2.2). Gophna is Jifnā, 6.7 km from the centre of Ramallah.')}.</p>
 <p><i>So in the summer of AD 70, the surrendered priesthood of Jerusalem was being housed in a
 village six and a half kilometres from a hilltop that had no name yet.</i> <b>This is what the ridge
-was doing after his life: it was the last stage of the road to Jerusalem, and then it was the place
+was doing after his life. It was the last stage of the road to Jerusalem, and then it was the place
 Jerusalem’s survivors were put.</b></p>
-<p><b>And then — nothing happens to the population.</b> The villages of the Gophna toparchy are not
-destroyed and not emptied; the terraces are not abandoned; the same names go on being used. Within
-three centuries these hills are Christian, and the entry that follows shows it happened
-<b>by conversion, not by replacement</b>. <i>The people who watched the pilgrims pass in AD 30, and
-who watched the legions pass in AD 69, are the people who were still on this ridge when
-sixty-four Christian households walked up it in 1562.</i></p>"""),
+<p><b>And then nothing happens to the people.</b> The villages of the Gophna toparchy are not
+destroyed and not emptied. The terraces are not abandoned. The same names go on being used. Within
+three centuries these hills are Christian, and the next entry shows it happened <b>by conversion,
+not by replacement</b>.</p>
+<p><i>The people who watched the pilgrims pass in AD 30, and the legions pass in AD 69, are the
+people who were still on this ridge when sixty-four Christian households walked up it in
+1562.</i></p>"""),
 
 CH(6)
 
 sect('And in our own line', 'The name enters at a spring in Yemen — four thousand miles from this ridge')
-ent('c. 250 → c. 350', 'documents', False, 'THE NAME, IN STONE — Ghassān in two Sabaic inscriptions',
- 'Everything the family carries hangs on one word, and until now this book took that word entirely from the Arabic genealogists, writing five hundred years after the fact. <b>It does not have to.</b> Ghassān is named twice in South Arabian inscriptions cut while the Jafnids were still unheard of{}.'.format(c('<b>ʿInān 75</b>, mid-third century AD, recording an embassy to “the kings of the peoples (<span class="ar">أشعب</span>) of Ghassān, al-Asd, Nizār and Madhḥij”; <b>ʿAbadān 1</b>, roughly a century later, on a Ḥimyarite campaign “between the land of Nizār and the land of Ghassān.” Both in the Sabaic corpus; see the DASI database (Università di Pisa / CNR) and the discussion in Christian Julien Robin’s work on the Arab peoples of the pre-Islamic peninsula.')),
+ent('c. 250 → c. 350', 'documents', False, 'The name, in stone — Ghassān in two Sabaic inscriptions',
+ 'Everything our families carry hangs on one word. Until now we took that word entirely from the Arabic genealogists, who wrote five hundred years after the fact. <b>We do not have to.</b> Ghassān is named twice in South Arabian inscriptions, written in Sabaic, the old language of Yemen. They were cut while the Jafnids, the family of Jafna, were still unheard of{}.'.format(c('<b>ʿInān 75</b>, mid-third century AD, recording an embassy to “the kings of the peoples (<span class="ar">أشعب</span>) of Ghassān, al-Asd, Nizār and Madhḥij”; <b>ʿAbadān 1</b>, roughly a century later, on a Ḥimyarite campaign “between the land of Nizār and the land of Ghassān.” Both in the Sabaic corpus; see the DASI database (Università di Pisa / CNR) and the discussion in Christian Julien Robin’s work on the Arab peoples of the pre-Islamic peninsula.')),
  f"""
 <p><b>ʿInān 75</b>, from the middle of the third century AD, records a Sabaean embassy sent to
 <i>“the kings of the peoples of <b>Ghassān</b>, al-Asd, Nizār and Madhḥij.”</i> <b>ʿAbadān 1</b>,
 about a century later, has a Ḥimyarite army campaigning <i>“between the land of Nizār and the land of
-<b>Ghassān</b>.”</i> In both, Ghassān is a <i>shaʿb</i> — a large territorial grouping with kings of
-its own — and in both it is placed in <b>western Arabia</b>, out of Yemen and on the road north.</p>
-<p><i>This is the single most useful thing this project has found about the name.</i> It does not
-prove any family’s descent and it never could. <b>What it proves is that “Ghassān” was a real,
-sizeable, politically organised people, named by outsiders, on stone, before any Arabic genealogist
-wrote a word about it.</b> The tradition the family inherited is not describing a literary invention.
-It is describing something that existed.</p>
-<p><b>And now the disagreement, printed as this book prints disagreements.</b> The classical
-authorities all say Ghassān is a water rather than a man — and then give <b>four incompatible
-locations for it</b>: between Rimaʿ and Zabīd in the Yemeni Tihāma (Ibn al-Kalbī, the oldest and
-best-supported); at the Maʾrib dam itself (Ibn Hishām); at al-Mushallal near al-Juḥfa, on the
-Mecca–Medina road; and one report that it is not a place at all but an animal that fell into a
-water{c('Yāqūt al-Ḥamawī, <i>Muʿjam al-buldān</i>, s.v. <span class="ar">غسان</span>, who assembles the variants: Ibn al-Kalbī via Ibn Ḥabīb and Naṣr al-Iskandarī for Rimaʿ/Zabīd; Ibn Hishām (d. 218/833) for the dam at Maʾrib; an anonymous <i>wa-yuqāl</i> for al-Mushallal near al-Juḥfa; and a <i>wa-qīla</i> that the water was named after an animal that fell into it. The three geographical variants are hundreds of kilometres apart and mutually exclusive; none of the authorities had independent evidence.')}. <b>They also disagree about who is entitled to the name</b>: Yāqūt includes the Anṣār of
-Medina, Ibn Ḥazm expressly excludes them and admits only four sons of ʿAmr Muzayqiyāʾ, and al-Samʿānī
-rules out Khuzāʿa, Aslam, Bāriq and the Azd of Oman on the ground that they did not drink{c('Yāqūt, s.v. <span class="ar">غسان</span>, for the Banū Māzin b. al-Azd “who are the Anṣār,” with Banū Jafna and Khuzāʿa; Ibn Ḥazm, <i>Jamharat ansāb al-ʿArab</i>, admitting only al-Ḥārith, Jafna, Mālik and Kaʿb, the four sons of ʿAmr Muzayqiyāʾ, and excluding the Anṣār; al-Samʿānī, <i>al-Ansāb</i>, s.v. al-Ghassānī, following Ibn al-Kalbī in excluding Khuzāʿa, Aslam, Bāriq and Azd ʿUmān.')}.
+<b>Ghassān</b>.”</i></p>
+<p>In both, Ghassān is a <i>shaʿb</i>: a large territorial people with kings of its own. And in both
+it is placed in <b>western Arabia</b>, out of Yemen and on the road north.</p>
+<p><i>This is the single most useful thing we have found about the name.</i> It does not prove any
+family’s descent, and it never could. <b>What it proves is that “Ghassān” was a real, sizeable,
+politically organised people, named by outsiders, on stone, before any Arabic genealogist wrote a
+word about it.</b> The tradition our families inherited is not describing a literary invention. It is
+describing something that existed.</p>
+<p><b>Now the disagreement, set out plainly.</b> The classical authorities all say Ghassān is a water
+— a spring — rather than a man. Then they give <b>four locations for it that cannot all be true</b>.
+Ibn al-Kalbī, the oldest and best-supported, puts it between Rimaʿ and Zabīd in the Yemeni Tihāma,
+the coastal plain. Ibn Hishām puts it at the Maʾrib dam itself. Another report puts it at al-Mushallal
+near al-Juḥfa, on the Mecca–Medina road. And one report says it is not a place at all, but an animal
+that fell into a water{c('Yāqūt al-Ḥamawī, <i>Muʿjam al-buldān</i>, s.v. <span class="ar">غسان</span>, who assembles the variants: Ibn al-Kalbī via Ibn Ḥabīb and Naṣr al-Iskandarī for Rimaʿ/Zabīd; Ibn Hishām (d. 218/833) for the dam at Maʾrib; an anonymous <i>wa-yuqāl</i> for al-Mushallal near al-Juḥfa; and a <i>wa-qīla</i> that the water was named after an animal that fell into it. The three geographical variants are hundreds of kilometres apart and mutually exclusive; none of the authorities had independent evidence.')}.</p>
+<p><b>They also disagree about who is entitled to the name.</b> Yāqūt includes the Anṣār of Medina,
+the “Helpers” of the Prophet. Ibn Ḥazm expressly leaves them out and admits only four sons of ʿAmr
+Muzayqiyāʾ. Al-Samʿānī rules out Khuzāʿa, Aslam, Bāriq and the Azd of Oman, on the ground that they
+did not drink{c('Yāqūt, s.v. <span class="ar">غسان</span>, for the Banū Māzin b. al-Azd “who are the Anṣār,” with Banū Jafna and Khuzāʿa; Ibn Ḥazm, <i>Jamharat ansāb al-ʿArab</i>, admitting only al-Ḥārith, Jafna, Mālik and Kaʿb, the four sons of ʿAmr Muzayqiyāʾ, and excluding the Anṣār; al-Samʿānī, <i>al-Ansāb</i>, s.v. al-Ghassānī, following Ibn al-Kalbī in excluding Khuzāʿa, Aslam, Bāriq and Azd ʿUmān.')}.
 <i>Even the medieval genealogists could not agree on who was entitled to be called Ghassānī.</i></p>
-<div class="fix"><div class="fixhead">A trap this book will not fall into</div>
+<div class="fix"><div class="fixhead">A trap we will not fall into</div>
 <div style="font-size:.95rem;line-height:1.65;color:#46423B">
 <p style="max-width:none"><b>The written form <span class="ar">الغساني</span> is not, by itself,
-evidence of Ghassanid descent — and it was not in the classical period either.</b> Al-Samʿānī’s own
-entry on the nisba contains three separate traps on the same pages: <b><span class="ar">الغُساني</span></b>
-with a <i>ḍamma</i> is a different nisba altogether, to a clan of Ḥaḍramawt; <b>al-Ghassāniyya</b> is
-a Murjiʾī theological sect of Kufa named after some man called Ghassān; and at least one famous
+evidence of Ghassanid descent. It was not in the classical period either.</b> Al-Samʿānī’s own
+entry on the <i>nisba</i> — the name ending that shows where a person belongs — holds three separate
+traps on the same pages. <b><span class="ar">الغُساني</span></b>, with a <i>ḍamma</i> (the short “u”
+vowel mark), is a different nisba altogether, to a clan of Ḥaḍramawt. <b>al-Ghassāniyya</b> is a
+Murjiʾī theological sect of Kufa, named after some man called Ghassān. And at least one famous
 bearer, Ibrāhīm b. Ṭalḥa, is simply <i>named after a great-grandfather who happened to be called
-Ghassān</i>. Unvocalised manuscripts do not distinguish any of these{c('Al-Samʿānī, <i>al-Ansāb</i>, s.v. <span class="ar">الغساني</span>: <span class="ar">الغُساني</span> with <i>ḍamma</i>, to Ghassān b. Judhām b. al-Ṣadif, a <i>baṭn</i> of Ḥaḍramawt, on the authority of al-Dāraquṭnī; al-Ghassāniyya, the Murjiʾī sect of Kufa; and Ibrāhīm b. Ṭalḥa, <span class="ar">نُسب إلى جدّه الأعلى</span>, “named after his great-grandfather.” Ibn Ḥibbān moreover calls Yaḥyā b. Yaḥyā al-Ghassānī a <i>Kindī</i>.')}.</p>
-<p style="max-width:none"><i>So when this family’s oldest named ancestor is written </i>Rāshid
-al-Ḥaddādīn al-Ghassānī<i>, the last word is a claim, not a proof — and this book has said from the
-beginning that the claim is a claim.</i> <b>What the inscriptions add is that the thing being claimed
+Ghassān</i>. Manuscripts written without vowel marks do not tell any of these apart{c('Al-Samʿānī, <i>al-Ansāb</i>, s.v. <span class="ar">الغساني</span>: <span class="ar">الغُساني</span> with <i>ḍamma</i>, to Ghassān b. Judhām b. al-Ṣadif, a <i>baṭn</i> of Ḥaḍramawt, on the authority of al-Dāraquṭnī; al-Ghassāniyya, the Murjiʾī sect of Kufa; and Ibrāhīm b. Ṭalḥa, <span class="ar">نُسب إلى جدّه الأعلى</span>, “named after his great-grandfather.” Ibn Ḥibbān moreover calls Yaḥyā b. Yaḥyā al-Ghassānī a <i>Kindī</i>.')}.</p>
+<p style="max-width:none"><i>So when our oldest named ancestor is written </i>Rāshid
+al-Ḥaddādīn al-Ghassānī<i>, the last word is a claim, not a proof. We have said from the beginning
+that the claim is a claim.</i> <b>What the inscriptions add is that the thing being claimed
 was real.</b></p></div></div>"""),
 
 ent('c. 260–280', 'documents', False,
-    'A MAN WALKED THIS ROAD AND HAD IT CARVED — twelve lands, from the Azd to Ghassān',
- f'''There is a third inscription, published in 2016, and no earlier edition of this book knew about
-it. In a dedication to <b>Taʾlab Riyām</b> — the god of the tribes of Ḥashid and Ḥumlān — the authors
-thank him for bringing their steward home <i>“from the land of the North,”</i> and then list, in
-order, every land the man crossed: <b>Asd, Nizār, Tanūkh, Liḥyān, Tadmur, Nabaṭ, Rūmān, Lakhm,
-Ghassān, Maʿadd, Ṭayyiʾ, Khaṣaṣat</b>{c('Riyam 2006-17, from the village of Riyām in the Yemeni highlands, published by Jérémie Schiettecatte &amp; Mounir Arbach, “The political map of Arabia and the Middle East in the third century AD revealed by a Sabaean inscription,” <i>Arabian Archaeology and Epigraphy</i> 27:2 (2016), 176–196, DOI 10.1111/aae.12071. The text is one of a group of ten dated to the first–third century AD on palaeographic grounds; the authors place this one in the third century, probably c. 260–280. Lines 15–20 carry the list of lands. '+D('2016_Schiettecatte_Arbach_Political_Map_of_Arabia_3rd_c_AAE_27.pdf')+'.')}. <i>It is an itinerary, cut into stone, by somebody who had
-just walked it.</i>''',
+    'A man walked this road and had it carved — twelve lands, from the Azd to Ghassān',
+ f'''There is a third inscription. It was published in 2016, and no earlier edition of our book knew
+about it. It is a dedication to <b>Taʾlab Riyām</b>, the god of the tribes of Ḥashid and Ḥumlān. Its
+authors thank him for bringing their steward home <i>“from the land of the North.”</i> Then they list,
+in order, every land the man crossed: <b>Asd, Nizār, Tanūkh, Liḥyān, Tadmur, Nabaṭ, Rūmān, Lakhm,
+Ghassān, Maʿadd, Ṭayyiʾ, Khaṣaṣat</b>{c('Riyam 2006-17, from the village of Riyām in the Yemeni highlands, published by Jérémie Schiettecatte &amp; Mounir Arbach, “The political map of Arabia and the Middle East in the third century AD revealed by a Sabaean inscription,” <i>Arabian Archaeology and Epigraphy</i> 27:2 (2016), 176–196, DOI 10.1111/aae.12071. The text is one of a group of ten dated to the first–third century AD on palaeographic grounds; the authors place this one in the third century, probably c. 260–280. Lines 15–20 carry the list of lands. '+D('2016_Schiettecatte_Arbach_Political_Map_of_Arabia_3rd_c_AAE_27.pdf')+'.')}. <i>It is an itinerary — a list of the
+stops on a journey — cut into stone by somebody who had just walked it.</i>''',
  f"""
 {fig(F4.fig_riyam_road(), 'Twelve lands, in the order he crossed them',
- 'The stops are the inscription’s own, in the inscription’s own order. <b>The land of the Azd is the first; the land of Ghassān is the ninth</b>, and between them lie Palmyra, the Nabataeans, Rome and Lakhm — the whole northern client system, seen from Yemen and named in Sabaic. The two green stops are the two names the family’s tradition depends on, and in the third century AD they are not in the same place.',
+ 'The stops are the inscription’s own, in the inscription’s own order. <b>The land of the Azd is the first; the land of Ghassān is the ninth.</b> Between them lie Palmyra, the Nabataeans, Rome and Lakhm — the whole northern client system, the allied peoples on the empires’ edge, seen from Yemen and named in Sabaic. The two green stops are the two names our families’ tradition depends on. In the third century AD they are not in the same place.',
  'Riyam 2006-17, lines 15–20; Schiettecatte &amp; Arbach, <i>Arabian Archaeology and Epigraphy</i> 27 (2016), 176–196.')}
-<p><b>Three things this is worth to a family history, and one caution.</b></p>
-<p><b>First, Ghassān has a position.</b> Not a genealogy, not an eponym, not a water somewhere in the
-Tihāma — <i>a place in a sequence of places</i>, between Lakhm and Maʿadd, listed by a man who had
-been there. The name our own chart hangs on turns out to be a piece of third-century political
-geography.</p>
-<p><b>Second, the Azd and Ghassān are two different stops.</b> Stop one and stop nine, with eight
-lands between them. Whatever relation the genealogists later drew between al-Azd and Ghassān, in the
-third century a Sabaean envoy crossed one, then crossed seven other territories, and then crossed the
-other.</p>
-<p><b>Third, the road in this inscription is the road this whole book is about.</b> Palmyra, the
-Nabataeans, Rome, al-Ḥīra — and the Nabataean land he names is <i>this country</i>. The route from
-Yemen to the Roman frontier was open, known, walkable and worth carving in the third century AD,
-which is precisely the period the family’s tradition has its ancestors taking it.</p>
-<p><i>And the caution, because this book prints them.</i> <b>The list is not certainly a step-by-step
-route.</b> It may be a register of lands reached rather than an ordered march, and the editors say so;
-Rome, Palmyra and the Nabataeans in sequence make geographical sense, Tanūkh in lower Mesopotamia at
-position three does not. <b>The dating is palaeographic, not absolute.</b> What the stone fixes beyond
-argument is not the itinerary but the <i>inventory</i>: these twelve lands existed, under these names,
-and a Sabaean government knew all of them.</p>"""),
+<p><b>This stone gives a family history three things, and one caution.</b></p>
+<p><b>First, Ghassān has a position.</b> It is not a genealogy. It is not an eponym, an ancestor said
+to have given the people its name. It is not a water somewhere in the Tihāma. It is <i>a place in a
+sequence of places</i>, between Lakhm and Maʿadd, listed by a man who had been there. The name our
+own chart hangs on turns out to be a piece of third-century political geography.</p>
+<p><b>Second, the Azd and Ghassān are two different stops.</b> They are stop one and stop nine, with
+eight lands between them. Whatever link the genealogists later drew between al-Azd and Ghassān, in
+the third century a Sabaean envoy crossed one, then crossed seven other territories, and then crossed
+the other.</p>
+<p><b>Third, the road in this inscription is the road our whole story is about.</b> Palmyra, the
+Nabataeans, Rome, al-Ḥīra — and the Nabataean land he names is <i>this country</i>. In the third
+century AD the route from Yemen to the Roman frontier was open, known, walkable and worth carving in
+stone. That is exactly the period in which our families’ tradition has its ancestors taking it.</p>
+<p><i>And now the caution.</i> <b>The list is not certainly a step-by-step route.</b> It may be a
+register of lands reached rather than an ordered march, and the editors say so. Rome, Palmyra and the
+Nabataeans in sequence make geographical sense. Tanūkh, in lower Mesopotamia, at position three does
+not.</p>
+<p><b>The date rests on the style of the letters (palaeography), not on a fixed date.</b> What the
+stone fixes beyond argument is not the route but the <i>inventory</i>: these twelve lands existed,
+under these names, and a Sabaean government knew all of them.</p>"""),
 ent('c. 250–500', 'classical', 'shared', 'The name in the water: Ghassān moves north',
- 'The dominant tradition is that Ghassān is not a man but <b>a water</b>. Ibn al-Kalbī: <span class="ar">وإنّما غسّان ماء شربوا منه فسُمّوا به</span> — <b>“Ghassān is simply a water they drank from, and so were named after it”</b> — and he places it between Zabīd and Rimaʿ, in the Tihāma of Yemen{}. <i>The sources are not unanimous about where the water was, or whose sons drank there.</i>'.format(c('Ibn Durayd (d. 933), <i>al-Ishtiqāq</i>, s.v. Ghassān; Ibn al-Kalbī (d. 819) locates the water between Zabīd and Rimaʿ: <span class="ar">إنما غسان ماء شربوا منه فسُمّوا به</span>. '+D('0819_Ibn_al-Kalbi_Jamharat_al-nasab.pdf')+'.')),
+ 'The main tradition says Ghassān is not a man but <b>a water</b>. Ibn al-Kalbī writes: <span class="ar">وإنّما غسّان ماء شربوا منه فسُمّوا به</span> — <b>“Ghassān is simply a water they drank from, and so were named after it.”</b> He places it between Zabīd and Rimaʿ, in the Tihāma of Yemen{}. <i>The sources do not agree about where the water was, or whose sons drank there.</i>'.format(c('Ibn Durayd (d. 933), <i>al-Ishtiqāq</i>, s.v. Ghassān; Ibn al-Kalbī (d. 819) locates the water between Zabīd and Rimaʿ: <span class="ar">إنما غسان ماء شربوا منه فسُمّوا به</span>. '+D('0819_Ibn_al-Kalbi_Jamharat_al-nasab.pdf')+'.')),
  f"""
 {fig(ATLAS.fig_road(),'The road, and the ground it passes',
- 'Yemen to the Levant: the migration the tradition remembers, over the country the classical geographers describe. The chart’s generations 15–29 travel this map; at generation 29, with ʿAmr Muzayqiyāʾ, the name Al-Ghassānī enters — exactly where the classical sources put the naming at the spring.',
+ 'From Yemen to the Levant: the migration our tradition remembers, drawn over the country the classical geographers describe. Generations 15–29 of the chart travel this map. At generation 29, with ʿAmr Muzayqiyāʾ, the name Al-Ghassānī enters — exactly where the classical sources put the naming at the spring.',
  'al-Hamdānī, Ṣifat Jazīrat al-ʿArab; Ibn al-Kalbī; al-Masʿūdī; the chart, generations 15–29.')}
-<p>Both key texts carry this stretch — the chart names the generations, Shāhīn tells the
-migration — and the classical scholars supply the system it fits{c('The Azdī pedigree (al-Azd → Māzin → … → ʿAmr Muzayqiyāʾ → Jafna) in al-Suwaydī, <i>Sabāʾik al-dhahab</i>, tabulated by Wüstenfeld (1852–53); the identification Joktan = Qaḥṭān stated by al-Ṭabarī c. 915 — a harmonisation with Genesis 10, made a thousand years before this family repeated it. <b>It is not the load-bearing joint of Qaḥṭānī genealogy</b> — the Arabic tradition runs Qaḥṭān through Yaʿrub and Hūd without needing Joktan at all — so removing it costs the chart nothing.')}. Three of that tradition’s
-greatest authorities draw Ghassān’s boundary in three different places — Ibn al-Kalbī wide, Ibn Ḥazm
-narrow, Ibn Durayd narrower still — and Ibn Khaldūn, the sharpest critic the tradition ever
-produced, warns that the memory of a common ancestor beyond a few generations is an assertion, not a
-knowledge{c('Ibn Ḥazm, <i>Jamharat ansāb al-ʿArab</i>, at only the four sons of ʿAmr Muzayqiyāʾ who drank; Ibn Khaldūn, <i>Muqaddimah</i>, Book One, ch. 2 — naming this branch. '+D('1064_Ibn_Hazm_Jamharat_ansab_al-Arab.pdf')+'.')}. <b>This does not weaken the claim so much as change its kind</b>: Ghassanid identity
-was never a bloodline out of one man; it was a people who arrived somewhere and were named for it —
-which is exactly the sort of thing a family that walked from Karak to a ridge should recognise.</p>"""),
+<p>Both of our key texts carry this stretch. The chart names the generations, and Shāhīn tells the
+story of the migration. The classical scholars supply the system it fits into{c('The Azdī pedigree (al-Azd → Māzin → … → ʿAmr Muzayqiyāʾ → Jafna) in al-Suwaydī, <i>Sabāʾik al-dhahab</i>, tabulated by Wüstenfeld (1852–53); the identification Joktan = Qaḥṭān stated by al-Ṭabarī c. 915 — a harmonisation with Genesis 10, made a thousand years before this family repeated it. <b>It is not the load-bearing joint of Qaḥṭānī genealogy</b> — the Arabic tradition runs Qaḥṭān through Yaʿrub and Hūd without needing Joktan at all — so removing it costs the chart nothing.')}.</p>
+<p>Three of that tradition’s greatest authorities draw Ghassān’s boundary in three different places.
+Ibn al-Kalbī draws it wide, Ibn Ḥazm narrow, and Ibn Durayd narrower still. And Ibn Khaldūn, the
+sharpest critic the tradition ever produced, warns that the memory of a common ancestor beyond a few
+generations is an assertion, not knowledge{c('Ibn Ḥazm, <i>Jamharat ansāb al-ʿArab</i>, at only the four sons of ʿAmr Muzayqiyāʾ who drank; Ibn Khaldūn, <i>Muqaddimah</i>, Book One, ch. 2 — naming this branch. '+D('1064_Ibn_Hazm_Jamharat_ansab_al-Arab.pdf')+'.')}.</p>
+<p><b>This does not so much weaken the claim as change what kind of claim it is.</b> Ghassanid
+identity was never a bloodline out of one man. It was a people who arrived somewhere and were named
+for it. That is exactly the kind of thing a family that walked from Karak to a ridge should
+recognise.</p>"""),
 
 CH(7)
 
