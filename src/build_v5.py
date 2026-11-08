@@ -2346,81 +2346,84 @@ Rafīdiyā, so we do not yet know where his account comes from. No source names 
 Edward Rafeedie’s parents. And no diocesan record has yet been found for St Andrew’s of 1887.
 Readers who hold any of these answers can help us complete the story.</p>"""),
 
-ent('1901', 'oral', True, 'The first four sail — on a road Rome paved',
- 'Ramallah men begin to emigrate to the United States{}; the Turkish carriage road from Jerusalem to Nablus is completed the same year, and the Friends Boys School is founded (it opens in 1918). <i>The ridge road becomes infrastructure, and the first men leave on it.</i>'.format(c('Shāhīn (1982): emigration to the United States begins in 1901 — Esa Izhak ʿEadeh, Hanna ʿAazar Hishmeh, Esa Salah Jaghab and Esa Khashan the first four (1900 or 1901), seven more named in 1903; before 1914 the only entry requirement was eyes free of trachoma.')),
+ent('1901', 'oral', True, 'The first four sail for America',
+ 'As the twentieth century opened, our town still lived under Ottoman rule. In 1901 the first Ramallah men began to emigrate to the United States{}. The same year the Turkish carriage road from Jerusalem to Nablus was finished, and the Friends Boys School was founded, though it opened only in 1918. The old ridge road became a modern road, and the first men left on it.'.format(c('Shāhīn (1982): emigration to the United States begins in 1901 — Esa Izhak ʿEadeh, Hanna ʿAazar Hishmeh, Esa Salah Jaghab and Esa Khashan the first four (1900 or 1901), seven more named in 1903; before 1914 the only entry requirement was eyes free of trachoma.')),
  f"""
-<p>The leaving has its own genealogy, and Shāhīn writes it name by name: the first to leave at all,
-<b>Ibrahim of the Hassaan clan</b>, in the seventeenth century, for ʿIsifyā near Haifa — four hundred
-descendants there today; the first abroad, <b>Hanna Ibrahim Saʿah, 1858</b>, to Constantinople; the
-first West, to England, 1895; and in 1898, from Brazil, <b>the first cheque the town had ever
-seen</b> — 100 French gold francs, “and it created quite a sensation.” The early emigrants were men
-over thirty who meant to return, and almost all did. <b>Their children did not</b> — and that is the
-demographic history of this town in one sentence.</p>
+<p>Leaving has its own family tree, and ʿAzīz Shāhīn, who wrote our town’s great history in 1982,
+sets it down name by name. The first to leave at all was <b>Ibrahim of the Hassaan clan</b>, in the
+seventeenth century. He went to ʿIsifyā near Haifa, and four hundred of his descendants live there
+today.</p>
+<p>The first to go abroad was Hanna Ibrahim Saah, in 1858, to Constantinople. The first to go west
+went to England, in 1895. And in 1898 came <b>the first cheque the town had ever seen</b>, sent from
+Brazil: 100 French gold francs, “and it created quite a sensation.”</p>
+<p>The early emigrants were men over thirty who meant to come home, and almost all of them did.
+<b>Their children did not.</b> That one fact tells much of the story of our town’s people ever
+since.</p>
 {fig(ATLAS.fig_diaspora(),'Where Ramallah went, 1901 onward',
- 'The cities the town’s people went to, weighted by the family’s own record — Detroit above all, then Jacksonville, New York, San Francisco. Nobody has ever properly enumerated this diaspora, which is itself a finding.',
+ 'The cities our people went to, weighted by the family’s own record: Detroit above all, then Jacksonville, New York and San Francisco. Nobody has ever made a full count of this diaspora, our community abroad.',
  'Shāhīn (1982) for the start date and the named firsts; the Federation’s conventions for the cities.')}"""),
 
-ent('1901–1904', 'documents', False, 'AN OUTSIDER WRITES THE TOWN DOWN — Elihu Grant lives here and takes notes',
- 'Everything this book knows about how Ramallah actually lived comes from <b>ʿAzīz Shāhīn, who lived it</b>. <b>Elihu Grant</b> — superintendent of the American Friends Schools at Ramallah and Jerusalem from 1901 to 1904 — happened to be counting the same houses at the time, which lets us <i>date</i> what Shāhīn remembered. <b>Shāhīn is the source; Grant is the clock.</b> Grant and in 1907 published <i>The Peasantry of Palestine</i> — two hundred and fifty-five pages on village life, with a chapter given over to <b>Ramallah and al-Bīra by name</b>{}.'.format(c('Elihu Grant, <i>The Peasantry of Palestine: The Life, Manners and Customs of the Village</i> (Boston: Pilgrim Press, 1907), 255 pp. with 39 leaves of plates — the c. 340-page figure belongs to the enlarged edition of 1921, <i>The People of Palestine</i>; the title page describes him as “Resident (1901–1904).” Chapter IX, from p. 187, is “Village life in the concrete. Description of actual villages, Ram Allah and el-Bireh”; chapter X covers eṭ-Ṭīreh, ʿAyn ʿArīk, Baytīn, Dayr Dīwān, eṭ-Ṭaybeh, Jifnā, ʿAyn Sinya, Bīr Zayt, ʿAbūd and Mukhmās — nearly every village on this book’s district map. ' + D('peasantryofpales00gran.pdf') + '.')),
+ent('1901–1904', 'documents', False, 'Elihu Grant writes the town down',
+ 'Most of what we know about how Ramallah lived comes from ʿAzīz Shāhīn, who lived it. <b>Elihu Grant</b> was superintendent of the American Friends Schools at Ramallah and Jerusalem from 1901 to 1904. He happened to be counting the same houses at the time, so his notes let us put dates on what Shāhīn remembered. Shāhīn is our source, and Grant is our clock. In 1907 Grant published <i>The Peasantry of Palestine</i>, two hundred and fifty-five pages on village life, with a chapter on Ramallah and al-Bireh by name{}.'.format(c('Elihu Grant, <i>The Peasantry of Palestine: The Life, Manners and Customs of the Village</i> (Boston: Pilgrim Press, 1907), 255 pp. with 39 leaves of plates — the c. 340-page figure belongs to the enlarged edition of 1921, <i>The People of Palestine</i>; the title page describes him as “Resident (1901–1904).” Chapter IX, from p. 187, is “Village life in the concrete. Description of actual villages, Ram Allah and el-Bireh”; chapter X covers eṭ-Ṭīreh, ʿAyn ʿArīk, Baytīn, Dayr Dīwān, eṭ-Ṭaybeh, Jifnā, ʿAyn Sinya, Bīr Zayt, ʿAbūd and Mukhmās — nearly every village on this book’s district map. ' + D('peasantryofpales00gran.pdf') + '.')),
  f"""
-<p><i>He counts things.</i> Down one street south of the market he records <b>twenty-two houses, one
-store and one silversmith’s shop</b>, and measures <b>seven hundred and eighty feet</b> to the
-threshing floor. He gives the price of meat at Ramallah — <b>eight to twelve cents a pound</b>,
-according to season. He dates the carriage road from Jerusalem precisely: <b>opened in May 1901</b>,
-fifteen kilometres to al-Bīra{c('Grant (1907), 191–96 for the street survey, the market and the threshing floor; 189 for the road: “It was in May, 1901, that the road mentioned was opened up for use from Jerusalem to el-Bireh, a distance of fifteen kilometers.” <i>Shāhīn dates the same road to 1901; Grant, who used it, gives the month.</i>')}.</p>
-<p><b>And he gives the town a stratigraphy in buildings.</b> Grant sets out the sequence he can see
-standing side by side in 1903: the old <i>skīfeh</i> huts of stone bedded in earth with dirt roofs on
-boughs; then dressed stone and mortar with rolled earth roofs; then the heavy arched stone dome
-roofs which by then were the majority in Ramallah and rare in al-Bīra; then the new multi-room houses
-with modern windows, paved floors and cisterns that the wealthier villagers were putting up as he
-watched. <i>“The development of several centuries in highland peasant homes may thus be traced.”</i>
-<b>That is the town’s whole economic history, read off its own walls by a man standing in the
-street.</b></p>
-<p><b>One observation matters for everything this book has said about land.</b> Grant records that
-Ramallah’s people had bought fields in <i>a dozen or more villages</i> — as far out as ʿAyn Qīniya,
-Mukhmās and Dayr Dīwān — and that <b>for those outside lands they held no government deeds</b>
-(<span class="ar">كوشان</span>, pl. <span class="ar">كواشين</span>), the title resting in the
-register with the original village{c('Grant (1907), 191–92: “The needs of Ram Allah are so much in excess of the lands which are legally recorded as belonging to it that its people have bought tracts here and there all about the country… For such outside lands the Rām Allah people have no government deeds (<i>kushān</i>, plural <i>kuwashīn</i>), the title resting, so far as the government records are concerned, with the original village.”')}. <i>A town whose wealth had outgrown its own land, holding much
-of it without paper.</i> <b>That is the condition of a place about to start sending its sons to
-America — and he wrote it down the same year the first four sailed.</b></p>
-<p><i>He also, without meaning to, confirms the argument of this whole book.</i> Grant lists the
-Christian villages of the central highlands — <b>Ramallah, Bayt Jālā, eṭ-Ṭaybeh and Jifnā</b>, with
-Christians outnumbering Muslims at Bīr Zayt, ʿAyn ʿArīk and ʿAbūd — the same band along the ridge
+<p>Grant counted things. Down one street south of the market he recorded <b>twenty-two houses, one
+store and one silversmith’s shop</b>, and he measured seven hundred and eighty feet to the threshing
+floor. He gave the price of meat at Ramallah: eight to twelve cents a pound, depending on the season.
+He also dated the carriage road from Jerusalem exactly. It opened in May 1901 and ran fifteen
+kilometres to al-Bireh{c('Grant (1907), 191–96 for the street survey, the market and the threshing floor; 189 for the road: “It was in May, 1901, that the road mentioned was opened up for use from Jerusalem to el-Bireh, a distance of fifteen kilometers.” <i>Shāhīn dates the same road to 1901; Grant, who used it, gives the month.</i>')}.</p>
+<p>Grant also read the town’s history in its buildings. In 1903 he could see four kinds of house
+standing side by side. The oldest were the <i>skīfeh</i> huts: stone bedded in earth, with dirt roofs
+laid on boughs. Next came dressed stone and mortar with rolled earth roofs. Then came the heavy arched
+stone dome roofs, which by then were <b>the majority in Ramallah</b> and rare in al-Bireh. Newest were
+the houses of several rooms, with modern windows, paved floors and cisterns, which the wealthier
+villagers were putting up as he watched. <i>“The development of several centuries in highland peasant
+homes may thus be traced.”</i> He was reading our town’s whole economic history off its own walls,
+standing in the street.</p>
+<p>One of his notes matters for everything we say about land. Ramallah’s people had bought fields in
+<i>a dozen or more villages</i>, as far out as ʿAyn Qīniya, Mukhmās and Dayr Dīwān. <b>For those
+outside lands they held no government deeds</b> (<span class="ar">كوشان</span>, pl. <span class="ar">كواشين</span>).
+The title stayed in the register with the original village{c('Grant (1907), 191–92: “The needs of Ram Allah are so much in excess of the lands which are legally recorded as belonging to it that its people have bought tracts here and there all about the country… For such outside lands the Rām Allah people have no government deeds (<i>kushān</i>, plural <i>kuwashīn</i>), the title resting, so far as the government records are concerned, with the original village.”')}.</p>
+<p>So our town’s wealth had outgrown its own land, and much of that land was held without paper.
+This was a place about to start sending its sons to America, and Grant wrote it down the same year
+the first four sailed.</p>
+<p>Without meaning to, Grant also confirms a picture we have drawn all through our history. He lists
+the Christian villages of the central highlands: <b>Ramallah, Beit Jala, eṭ-Ṭaybeh and Jifnā</b>.
+Christians outnumber Muslims at Bīr Zayt, ʿAyn ʿArīk and ʿAbūd. This is the same band along the ridge
 that the Ottoman register of 1596 describes three hundred years earlier, and that the Byzantine
-churches describe a thousand years before that. <b>Different observer, different language, different
-century, same map.</b></p>"""),
+churches describe a thousand years before that. Different observer, different language, different
+century: the same map.</p>"""),
 
-ent('1902 · 1908', 'documents', True, 'The state arrives; the clans become a constitution',
- 'In 1902 Ramallah is made a district seat over thirty villages — <b>“Till 1902 there had been no government rule in the villages and small towns of Palestine”</b>{} — and in 1908 it is incorporated as a city under Elias ʿAudi, its first mayor, with <b>one council representative from each clan</b>. The ḥamūla structure of 1562 becomes, literally, the constitution.'.format(c('Shāhīn (1982): the district of 1902 under mudīr Ahmad Murad, and the incorporation of 1908 — Elias ʿAudi mayor, Assʿad Ibrahim Kassees secretary-treasurer; compare Zeʾevi, <i>An Ottoman Century</i> (1996).')),
+ent('1902 · 1908', 'documents', True, 'Ramallah becomes a city, clan by clan',
+ 'In 1902 Ramallah was made a district seat, the centre of government for thirty villages. “Till 1902 there had been no government rule in the villages and small towns of Palestine”{}. In 1908 Ramallah was incorporated as a city, with Elias ʿAudi as its first mayor. Its council had <b>one representative from each clan</b>. The ḥamūla, or clan, structure of 1562 had become, quite literally, the town’s constitution.'.format(c('Shāhīn (1982): the district of 1902 under mudīr Ahmad Murad, and the incorporation of 1908 — Elias ʿAudi mayor, Assʿad Ibrahim Kassees secretary-treasurer; compare Zeʾevi, <i>An Ottoman Century</i> (1996).')),
  fig(F3.fig_town_plan(),'The town, as Shāhīn drew it',
-  'Central Ramallah after the sketch map in his own book. The dashed ring is the original village — the eight clans’ quarters and their guest houses, all of it walking distance. Everything numbered outside it was built by the century this book has just described: the church of 1850, the Catholic mission of 1857, the Friends schools, the Meetinghouse of 1910, and the hospital the diaspora paid for in 1963. Note the two roads south: the old track from El Sharafa, where the town said goodbye to its emigrants, and the carriage road of 1901 through El Bireh that replaced it.',
+  'Central Ramallah after the sketch map in Shāhīn’s own book. The dashed ring is the original village: the eight clans’ quarters and their guest houses, all within walking distance. Everything numbered outside it was built later: the church of 1850, the Catholic mission of 1857, the Friends schools, the Meetinghouse of 1910, and the hospital the diaspora paid for in 1963. Note the two roads south. One is the old track from El Sharafa, where the town said goodbye to its emigrants. The other is the carriage road of 1901 through El Bireh, which replaced it.',
   'After Shāhīn (1982), p. 69, simplified; institution dates from his own chapters.')),
 
-ent('1904 · 1908', 'documents', False, 'THE PATRIARCHATE COUNTS ITS FLOCK — and the flock starts to argue back',
- '<b>In 1904 the Orthodox Patriarchate of Jerusalem estimated its own people, parish by parish, for its schools.</b> Of 49,596 in the whole Patriarchate, <b>Ramallah had 4,500</b> — more than Bethlehem’s 3,600 and Bayt Jālā’s 4,340, second only to Jerusalem’s 6,000. <b>Karak had 1,600.</b> <i>The two ends of the family’s road, in one table, written by the church they never left.</i>{}'.format(c('Sir Anton Bertram &amp; H. C. Luke, <i>Report of the Commission appointed by the Government of Palestine to inquire into the affairs of the Orthodox Patriarchate of Jerusalem</i> (Oxford, 1921), §9, p. 9 n. 1: “In an official estimate prepared by the Patriarchate for the purposes of its schools in 1904 … Jerusalem 6,000, Bethlehem 3,600, Beit Jala 4,340, Ramallah 4,500 … Es Salt 3,000, Kerak 1,600.” ' + D('1921_Bertram_Luke_Report_Orthodox_Patriarchate_Jerusalem.pdf') + '.')),
+ent('1904 · 1908', 'documents', False, 'The Patriarchate counts its flock',
+ 'In 1904 the Orthodox Patriarchate of Jerusalem estimated its own people, parish by parish, for its schools. Of 49,596 people in the whole Patriarchate, <b>Ramallah had 4,500</b>. That was more than Bethlehem’s 3,600 and Beit Jala’s 4,340, and second only to Jerusalem’s 6,000. Karak had 1,600. So the two ends of our family’s road appear in one table, written by the church our family never left.{}'.format(c('Sir Anton Bertram &amp; H. C. Luke, <i>Report of the Commission appointed by the Government of Palestine to inquire into the affairs of the Orthodox Patriarchate of Jerusalem</i> (Oxford, 1921), §9, p. 9 n. 1: “In an official estimate prepared by the Patriarchate for the purposes of its schools in 1904 … Jerusalem 6,000, Bethlehem 3,600, Beit Jala 4,340, Ramallah 4,500 … Es Salt 3,000, Kerak 1,600.” ' + D('1921_Bertram_Luke_Report_Orthodox_Patriarchate_Jerusalem.pdf') + '.')),
  f"""
-<p><b>The same report names the quarrel that runs underneath the rest of this book’s church history.</b>
-The parishes, the parish priests and the people were Arabic-speaking; the Patriarch and the
-Brotherhood of the Holy Sepulchre that governed them were Greek. <b>When the Ottoman constitution was
-restored in 1908, the Arab Orthodox laity began a long and bitter fight for a share in running their
-own church</b>{c('Bertram &amp; Luke (1921), §§11–14: the laity and parochial clergy “almost exclusively Arabic-speaking”; “the bitter and prolonged struggle with the local Arabic-speaking laity which arose on the declaration of the Turkish Constitution in 1908.” The commissioners were British officials of the Mandate government; their report is used here for its figures and its record of the dispute, not for its judgements.')}.
-<i>Ramallah, with the largest Orthodox parish outside Jerusalem, was in that fight from the start.</i></p>"""),
+<p>The same report names a quarrel that runs underneath the rest of our church history. The parishes,
+the parish priests and the people spoke Arabic. The Patriarch and the Brotherhood of the Holy
+Sepulchre, which governed them, were Greek. The laity are the ordinary members of the church, as
+against its clergy. <b>When the Ottoman constitution was restored in 1908, the Arab Orthodox laity
+began a long and bitter fight for a share in running their own church</b>{c('Bertram &amp; Luke (1921), §§11–14: the laity and parochial clergy “almost exclusively Arabic-speaking”; “the bitter and prolonged struggle with the local Arabic-speaking laity which arose on the declaration of the Turkish Constitution in 1908.” The commissioners were British officials of the Mandate government; their report is used here for its figures and its record of the dispute, not for its judgements.')}.</p>
+<p>Ramallah, with the largest Orthodox parish outside Jerusalem, was in that fight from the start.</p>"""),
 
 ent('12 June 1905', 'oral', False, 'The last big fight',
- 'A wedding procession, a quarrel over clan songs in the narrow streets, and a <b>three-hour stone-throwing battle</b> between Hadadeh and Hamayel from the rooftops — the women refilling the trays of stones — and nobody killed{}. The whole town is jailed together in Jerusalem and released together at the church’s pleading. <i>The 1905 census counts 3,214 people in the eight clans; every one of them seems to have been on a roof.</i>'.format(c('Shāhīn (1982), “Ramallah’s Last Big Fight,” 12 June 1905; the 1905 clan census total of 3,214 from the population chapter.'))),
+ 'On 12 June 1905 a wedding procession went through the narrow streets, and a quarrel broke out over clan songs. It became a <b>three-hour stone-throwing battle</b> between the Hadadeh and the Hamayel, fought from the rooftops, with the women refilling the trays of stones. Nobody was killed{}. The whole town was jailed together in Jerusalem, and released together when the church pleaded for it. The 1905 census counts 3,214 people in the eight clans, and every one of them seems to have been on a roof.'.format(c('Shāhīn (1982), “Ramallah’s Last Big Fight,” 12 June 1905; the 1905 clan census total of 3,214 from the population chapter.'))),
 
 ent('1914–1918', 'oral', True, 'The war, the locusts, the typhus',
- 'About thirty Ramallah men die in the Turkish army; the locusts of 1915 spare no crop; and in <b>1916 typhus kills a large part of the town — Shāhīn puts it near a third</b>{}. <i>No independent record survives, and the figure should be read as family memory rather than a measurement: the counts on either side, 3,214 in 1905 and 3,104 in 1922, do not require a loss on that scale, and heavy emigration accounts for much of the gap.</i> The British Army arrives in December 1917 — <i>the exact day is not recorded in any published source; 27 December, sometimes given, is the date of the Ottoman counter-attack on Jerusalem.</i>'.format(c('Shāhīn (1982): the war dead, the locust plague of 1915, and the typhus of 1916 — “about 30% of Ramallah’s population perished”; among the dead, Dr Maʿlouf, and the child in the family photograph on p. 30.')),
+ 'About thirty Ramallah men died in the Turkish army in the war of 1914–1918. The locusts of 1915 spared no crop. In <b>1916 typhus killed a large part of the town, and Shāhīn puts it near a third</b>{}. No independent record of it survives, so we read the figure as family memory rather than a measurement. The counts on either side, 3,214 in 1905 and 3,104 in 1922, do not require a loss that large, and heavy emigration accounts for much of the gap. The British Army arrived in December 1917. No published source records the exact day; 27 December, which is sometimes given, is the date of the Ottoman counter-attack on Jerusalem.'.format(c('Shāhīn (1982): the war dead, the locust plague of 1915, and the typhus of 1916 — “about 30% of Ramallah’s population perished”; among the dead, Dr Maʿlouf, and the child in the family photograph on p. 30.')),
  f"""
 {fig(F3.fig_war_strip(),'The dark half-decade, 1914–1918',
- 'Four blows in five years. The middle one may be the largest demographic event in the town’s recorded history — and no government count brackets it closely: the Ottoman count of 1905 and the British census of 1922 sit sixteen years apart on either side. It survives because Shāhīn wrote it down, and because his own doctor died in it.',
+ 'Four blows in five years. The middle one may be the largest demographic event in the town’s recorded history, and no government count sits close to it on either side: the Ottoman count of 1905 and the British census of 1922 are sixteen years apart. We know of it because Shāhīn wrote it down, and because his own doctor died in it.',
  'Shāhīn (1982), the war chapters; Schick (1896) and Barron (1922) for the counts that bracket the epidemic without recording it.')}
 {FIX('A population curve drawn smoothly through 1896 (2,061) and 1922 (3,104).',
  'The curve must show <b>1916</b>: about 30 per cent mortality, drawn as a labelled inference.',
  'Shāhīn records the epidemic and its scale; no census sits on either side of it, so the chart shows the event as a dashed line explicitly marked “inferred shape, not data.” No figure in this book invents a data point.')}"""),
 
 ent('1922–1944', 'documents', False, 'The counting years',
- 'The Mandate counts everything — and for once the town can be tabulated.',
+ 'After the war Britain ruled Palestine under the Mandate, and the Mandate government counted everything. For once our town can be set out in tables.',
  f"""
 {NUMTABLE('EVERY COUNT OF RAMALLAH, 1838–1953 — as Shāhīn assembles them',
  ['Year', 'Count', 'Counted by'],
@@ -2444,59 +2447,61 @@ ent('1922–1944', 'documents', False, 'The counting years',
 {fig(R.fig_sex(),'What emigration looks like in a census',
  'Mills, 1931: 1,941 men against 2,345 women. A deficit of four hundred men in a town of four thousand is the men who left after 1901, counted by their absence.',
  'E. Mills, Census of Palestine 1931, the Ramallah tables.')}
-<p><b>The 1922 census shows the same absence another way.</b> In Ramallah it counted <b>170 widowed or
-divorced women against 92 men</b>, and in Bayt Jālā, the other town of emigrants, <b>285 women against
-41 men</b>. Ramallah had 576 married men and 736 married women: <i>a hundred and sixty wives whose
+<p>The 1922 census shows the missing men another way. In Ramallah it counted <b>170 widowed or
+divorced women against 92 men</b>. In Beit Jala, the other town of emigrants, it counted 285 women
+against 41 men. Ramallah had 576 married men and 736 married women: <i>a hundred and sixty wives whose
 husbands were not in the town on census day</i>{c('J. B. Barron, <i>Palestine: Report and General Abstracts of the Census of 1922</i> (Jerusalem, 1923), Table XX, “Civil Condition Return for Municipal Areas”: Ramallah married 576 M / 736 F, widowed and divorced 92 M / 170 F, single 817 M / 713 F, total 3,104; Bait Jala married 463 / 523, widowed and divorced 41 / 285, single 876 / 913, total 3,101. That the missing husbands were abroad is this book’s reading of the figures, not the census’s statement.')}.</p>
-<p><b>Two wires reach the town in these years.</b> In <b>1935</b> the Jerusalem Electric Company ran its
-lines up from Jerusalem, and the current was switched on at what is now al-Manāra square with the mayor,
-<b>Dr Saʿadallah Qassīs</b>, present{c('Ramallah Municipality, “تاريخ البلدية” (History of the Municipality), ramallah.ps/ar/Article/3217. Shāhīn (1982), “Outstanding Dates in Ramallah’s History,” gives <b>1936</b>: “Electricity comes to Ramallah from the Jerusalem Electric Company. Most homes soon had electric lights.” The municipality’s year is printed; the other is noted.')}.
-And from the end of <b>March 1936</b> the voice of the country came out of Ramallah: the Palestine
+<p>Two wires reached the town in these years. In <b>1935</b> the Jerusalem Electric Company ran its
+lines up from Jerusalem. The current was switched on at what is now al-Manāra square, with the mayor,
+Dr Saʿadallah Kassees, present{c('Ramallah Municipality, “تاريخ البلدية” (History of the Municipality), ramallah.ps/ar/Article/3217. Shāhīn (1982), “Outstanding Dates in Ramallah’s History,” gives <b>1936</b>: “Electricity comes to Ramallah from the Jerusalem Electric Company. Most homes soon had electric lights.” The municipality’s year is printed; the other is noted.')}.</p>
+<p>From the end of March 1936 the voice of the country came out of Ramallah. The Palestine
 Broadcasting Service spoke from Jerusalem, but <b>its main transmitter stood in Ramallah</b> until
 1948{c('Andrea Stanton, “Situating Radio in the Soundscape of Mandate Palestine,” <i>Jerusalem Quarterly</i> 86, pp. 101 and 109–10, citing <i>Filasṭīn</i>, 1 April 1936, p. 5.')}.</p>"""),
 
-ent('1938', 'documents', False, 'THE REVOLT REACHES THE TOWN — written down by a teacher at the Friends school',
- '<b>In the autumn of 1938 the great Palestinian revolt against British rule came to Ramallah.</b> The post office and telephones were removed, and six hundred British soldiers were sent to occupy two old hotels. <b>On Saturday 1 October fighters from across the country gathered in the town and British forces attacked them</b> with machine-gun trucks and, after some hours, aircraft, which bombed the thickest of the fighting. <i>About eighty Palestinians were killed.</i> Among them were <b>two women and three men bombed as they ran home from their vineyards</b>{}.'.format(c('Nancy Parker McDowell, <i>Notes from Ramallah, 1939</i> (Richmond, Ind.: Friends United Press, 2002), pp. 9–17: the letters and journal of a young American teacher at the Friends school, September–December 1938 — the six hundred soldiers expected and the hotels taken (p. 9); the battle of 1 October and its dead, from her journal of 8 October (pp. 13–14) and a letter (pp. 16–17); “Ramallah has become a rebel town” (p. 16). ' + D('1939_McDowell_Notes_from_Ramallah.pdf') + '.')),
+ent('1938', 'documents', False, 'The revolt reaches the town',
+ 'In the autumn of 1938 the great Palestinian revolt against British rule came to Ramallah. The post office and telephones were removed, and six hundred British soldiers were sent to occupy two old hotels. On Saturday 1 October fighters from across the country gathered in the town. British forces attacked them with machine-gun trucks and, after some hours, with aircraft, which bombed the thickest of the fighting. About eighty Palestinians were killed. Among them were <b>two women and three men bombed as they ran home from their vineyards</b>{}.'.format(c('Nancy Parker McDowell, <i>Notes from Ramallah, 1939</i> (Richmond, Ind.: Friends United Press, 2002), pp. 9–17: the letters and journal of a young American teacher at the Friends school, September–December 1938 — the six hundred soldiers expected and the hotels taken (p. 9); the battle of 1 October and its dead, from her journal of 8 October (pp. 13–14) and a letter (pp. 16–17); “Ramallah has become a rebel town” (p. 16). ' + D('1939_McDowell_Notes_from_Ramallah.pdf') + '.')),
  f"""
-<p><b>It is the first time in this book that the town itself is a battlefield, and the first witness is
-an outsider</b> — a Quaker teacher watching from the school roof and writing home to her family.</p>
-<p><b>The second witness is one of the town’s own.</b> <b>Khalīl Ṭūṭaḥ</b>, born in Ramallah in 1886 and
-head of the Friends Boys School, kept a diary through the revolt. On <b>5 September 1938</b> the fighters
-attacked the police station. On <b>9 September</b> they entered the magistrate’s court and took its
-typewriter, the British shut the court and the post office and carried both to Jerusalem, and that
-night <b>five to eight hundred armed men</b> closed the roads into the town, marched through it and
-raised an Arab flag on a house. On <b>16 September</b> three armed men took the typewriters and the
-duplicator from the district offices. Ṭūṭaḥ dates the great battle, with <b>six British aircraft</b>,
-from the armoured car at al-Manāra to the al-Bīra crossroads, to <b>25 September</b>; the Quaker
-letters put the battle on Saturday 1 October. <i>The two dates are printed as the two witnesses
-give them.</i> And in October, when three men of the town stole two typewriters and Ṭūṭaḥ complained,
-<b>the rebels held a court in Ramallah</b>, returned the machines and punished the
-thieves{c('Thomas M. Ricks, ed., <i>Turbulent Times in Palestine: The Diaries of Khalil Totah, 1886–1955</i> (Jerusalem and Ramallah: Institute for Palestine Studies and PASSIA, 2009), diary entries of 5, 9, 16 and 25 September and October 1938, as set out in “Ramallah and the Great Palestinian Rebellion in the Diaries of Khalil Totah (1938–1939),” Institute for Palestine Studies, 7 March 2023, palestine-studies.org/en/node/1653696 (pp. 231–32 of Ricks for the police-station attack; the other page numbers are still to be checked in Ricks). The article notes that the 25 September battle may be the one at Wadi Shaiban, in which some sources count seventy-five fighters killed. On the rebel courts across the country, which sat “in business places or school buildings” and heard ordinary disputes as well as political cases: Charles W. Anderson, “State Formation from Below and the Great Revolt in Palestine,” <i>Journal of Palestine Studies</i> 47:1 (2017), pp. 45–47.')}.
-<i>Still to be collected</i>: the names of the dead, the houses burned, and what the revolt cost
-the families that stayed.</p>"""),
+<p>This is the first time in our story that the town itself is a battlefield. The first witness was an
+outsider: a Quaker teacher at the Friends school, watching from the school roof and writing home to
+her family.</p>
+<p>The second witness was one of our own. <b>Khalil Totah</b>, born in Ramallah in 1886 and head of the
+Friends Boys School, kept a diary through the revolt.</p>
+<p>On 5 September 1938 the fighters attacked the police station. On 9 September they entered the
+magistrate’s court and took its typewriter. The British shut the court and the post office and carried
+both to Jerusalem. That night <b>five to eight hundred armed men</b> closed the roads into the town,
+marched through it and raised an Arab flag on a house. On 16 September three armed men took the
+typewriters and the duplicator from the district offices.</p>
+<p>Totah dates the great battle to <b>25 September</b>. He tells of six British aircraft, and of
+fighting from the armoured car at al-Manāra to the al-Bireh crossroads. The Quaker letters put the
+battle on Saturday 1 October. We give the two dates as the two witnesses give them.</p>
+<p>In October three men of the town stole two typewriters, and Totah complained. <b>The rebels then
+held a court in Ramallah</b>, returned the machines and punished the thieves{c('Thomas M. Ricks, ed., <i>Turbulent Times in Palestine: The Diaries of Khalil Totah, 1886–1955</i> (Jerusalem and Ramallah: Institute for Palestine Studies and PASSIA, 2009), diary entries of 5, 9, 16 and 25 September and October 1938, as set out in “Ramallah and the Great Palestinian Rebellion in the Diaries of Khalil Totah (1938–1939),” Institute for Palestine Studies, 7 March 2023, palestine-studies.org/en/node/1653696 (pp. 231–32 of Ricks for the police-station attack; the other page numbers are still to be checked in Ricks). The article notes that the 25 September battle may be the one at Wadi Shaiban, in which some sources count seventy-five fighters killed. On the rebel courts across the country, which sat “in business places or school buildings” and heard ordinary disputes as well as political cases: Charles W. Anderson, “State Formation from Below and the Great Revolt in Palestine,” <i>Journal of Palestine Studies</i> 47:1 (2017), pp. 45–47.')}.</p>"""),
 
-ent('1946', 'documents', False, 'THE TOWN VOTES — the municipal election of 1946, district by clan',
- 'On <b>Monday 15 April 1946</b>, from nine in the morning, the men of the <b>Ḥaddāda</b> went up to the municipal building to choose four councillors out of five candidates. The other three seats were already filled: nobody had stood against the one man nominated in each of the other three districts. The districts were the clans. <b>Dār Jiryis</b> was district 1, <b>the Ḥaddāda</b> district 2, <b>Dār Ibrāhīm</b> district 3 and <b>al-Shaqara</b> district 4. Nearly four centuries after the settlement, the town’s first families were still the units in which it voted{}.'.format(c('Israel State Archives, file P-213/40: the election file of the Jerusalem advocates Anton and Hanna Atalla, 1945–46, 208 scanned pages without a text layer. The electoral committee’s own Arabic summary, items 1–13 (PDF pp. 70–72); the English notice of 6 April 1946 signed by Mousa Khalil, chairman of the electoral committee (PDF p. 91); the committee’s minutes from 16 November 1945 (PDF p. 131). ' + D('1946_Ramallah_Municipal_Election_File_Atalla_ISA_P-213-40.pdf') + '. Read for this book from the scans on 7 November 2026; the typed pages are read in full, the lawyers’ handwritten notes only in part.')),
+ent('1946', 'documents', False, 'The town votes by clan',
+ 'On <b>Monday 15 April 1946</b>, from nine in the morning, the men of the Ḥaddāda went up to the municipal building. They were choosing four councillors out of five candidates. The other three seats were already filled, because nobody had stood against the one man nominated in each of the other three districts. The districts were the clans. Dār Jiryis was district 1, the Ḥaddāda district 2, Dār Ibrāhīm district 3 and al-Shaqara district 4. Nearly four centuries after the settlement, our town’s first families were still the units in which it voted{}.'.format(c('Israel State Archives, file P-213/40: the election file of the Jerusalem advocates Anton and Hanna Atalla, 1945–46, 208 scanned pages without a text layer. The electoral committee’s own Arabic summary, items 1–13 (PDF pp. 70–72); the English notice of 6 April 1946 signed by Mousa Khalil, chairman of the electoral committee (PDF p. 91); the committee’s minutes from 16 November 1945 (PDF p. 131). ' + D('1946_Ramallah_Municipal_Election_File_Atalla_ISA_P-213-40.pdf') + '. Read for this book from the scans on 7 November 2026; the typed pages are read in full, the lawyers’ handwritten notes only in part.')),
  f"""
-<p><b>How the vote was made.</b> An electoral committee was named in the autumn of 1945. It sat first on
-16 November 1945 under <b>Khalīl Ṣalāḥ</b>, and when he fell ill <b>Mūsā Khalīl</b> took the chair, by notice
-in the Official Gazette no. 1465. The other members were Sālim al-Zaʿrūr, Ḥannā Jiryis, Khalīl Mubārak,
-Ḥannā Khalaf and Khalīl al-Qassīs. Registration ran from 15 November to 15 December 1945. The register was
-posted on <b>1 February 1946</b> for fourteen days, objections were heard on 21 February, and the
-chairman signed it on 17 March. Its names were taken from the municipal tax registers: in Mūsā Khalīl’s
-words, every person paying taxes was put on the register, whether he had applied or not. Nobody under
-twenty-one could vote{c('Israel State Archives, P-213/40: the committee’s summary, items 1–7 (PDF p. 70); the evidence of Mūsā Khalīl, 23 November 1946, points 1–5 (PDF p. 55); the lawyers’ notes on qualification (PDF p. 5). Every name read for this entry on the voters’ lists is a man’s.')}.</p>
-<p><b>The register counted the clans.</b> The committee numbered the voters district by district: the Ḥaddāda
-from 1 to <b>401</b>, Dār Ibrāhīm to <b>55</b>, al-Shaqara to <b>84</b> and Dār Jiryis to <b>43</b> (this last figure
-is hard to read). The lists of names break the Ḥaddāda into the four houses the 1944 ration count also
-gives: Dār Abū Jaghab, Dār Yūsuf, al-Sharāka and Dār ʿAwwād. Two further columns stand apart. One is the
-Ḥasāmna. The other is <i>al-aghrāb</i>, “the strangers”: men living in the town but outside its families,
-among them Muslim and Armenian names{c('Israel State Archives, P-213/40: the committee’s minutes of 26 January 1946 (PDF p. 131); the list of voters by house, “exhibit P.4” in the case (PDF pp. 117–124). The minutes do not say which district the Ḥasāmna and the strangers voted in. These are first readings of poor scans: the full list is still to be transcribed and checked.')}.</p>
-<p><b>The names on the lists are the families of the tree.</b> On the lists by house, <b>407 names</b> can be read:
-Jaghab 75, Yūsuf 78, Sharāka 89, ʿAwwād 57, Dār Ibrāhīm 32, Dār Jiryis 13, Shaqara 12, Ḥasāmna 5 and
-46 strangers. Each house is a clan of the Ramallah Family Tree. Matched against the tree, 106 of the 361
-clan names are one man in the same clan, 111 could be one of several, and <b>117 are not in the tree at
-all</b>. They are men of Ramallah, alive and of age in 1946, whom the tree has still to take in{c('The lists by house (PDF pp. 117–124), transcribed for this book in November 2026, and matched to the Ramallah Family Tree export of 3 November 2026: men not born after 1926 and not dead before 1946, with the father’s name checked where the list gives it. The lists hold fewer names than the register numbers above, because some pages are faint and the lists may not be complete. The review list is with John Mogannam, and nothing in the tree has been changed from it.')}.</p>
+<p>An electoral committee was named in the autumn of 1945 to run the vote. It first sat on 16 November
+1945 under Khalīl Ṣalāḥ. When he fell ill, <b>Mūsā Khalīl</b> took the chair, by notice in the Official
+Gazette no. 1465. The other members were Sālim al-Zaʿrūr, Ḥannā Jiryis, Khalīl Mubārak, Ḥannā Khalaf
+and Khalīl al-Qassīs.</p>
+<p>Registration ran from 15 November to 15 December 1945. The register, the list of voters, was posted
+on <b>1 February 1946</b> for fourteen days. Objections were heard on 21 February, and the chairman
+signed the register on 17 March. Its names were taken from the municipal tax registers. In Mūsā
+Khalīl’s words, every person paying taxes was put on the register, whether he had applied or not.
+Nobody under twenty-one could vote{c('Israel State Archives, P-213/40: the committee’s summary, items 1–7 (PDF p. 70); the evidence of Mūsā Khalīl, 23 November 1946, points 1–5 (PDF p. 55); the lawyers’ notes on qualification (PDF p. 5). Every name read for this entry on the voters’ lists is a man’s.')}.</p>
+<p>The register counted the clans. The committee numbered the voters district by district: the
+Ḥaddāda from 1 to <b>401</b>, Dār Ibrāhīm to 55, al-Shaqara to 84 and Dār Jiryis to 43. That last
+figure is hard to read. The lists of names break the Ḥaddāda into the same four houses that the 1944
+ration count gives: Dār Abū Jaghab, Dār Yūsuf, al-Sharāka and Dār ʿAwwād.</p>
+<p>Two further columns stand apart. One is the Ḥasāmna. The other is <i>al-aghrāb</i>, “the
+strangers”: men living in the town but outside its families, among them Muslim and Armenian
+names{c('Israel State Archives, P-213/40: the committee’s minutes of 26 January 1946 (PDF p. 131); the list of voters by house, “exhibit P.4” in the case (PDF pp. 117–124). The minutes do not say which district the Ḥasāmna and the strangers voted in. These are first readings of poor scans: the full list is still to be transcribed and checked.')}.</p>
+<p>The names on the lists are the families of our tree. On the lists by house, <b>407 names</b> can be
+read: Jaghab 75, Yūsuf 78, Sharāka 89, ʿAwwād 57, Dār Ibrāhīm 32, Dār Jiryis 13, Shaqara 12, Ḥasāmna 5
+and 46 strangers. Each house is a clan of the Ramallah Family Tree.</p>
+<p>We matched the 361 clan names against the tree. Of these, 106 are one man in the same clan, and 111
+could be one of several. <b>The other 117 are not in the tree at all.</b> They are men of Ramallah,
+alive and of age in 1946, whom the tree has still to take in{c('The lists by house (PDF pp. 117–124), transcribed for this book in November 2026, and matched to the Ramallah Family Tree export of 3 November 2026: men not born after 1926 and not dead before 1946, with the father’s name checked where the list gives it. The lists hold fewer names than the register numbers above, because some pages are faint and the lists may not be complete. The review list is with John Mogannam, and nothing in the tree has been changed from it.')}.</p>
 {NUMTABLE('RAMALLAH MUNICIPAL ELECTION, 1946 — the result',
  ['District', 'Candidate', 'Votes'],
  [['1 · Dār Jiryis', 'Boulos Jiryis Sābā', 'unopposed'],
@@ -2508,27 +2513,33 @@ all</b>. They are men of Ramallah, alive and of age in 1946, whom the tree has s
   ['2 · the Ḥaddāda', 'Jalīl Ḥarb', '215'],
   ['2 · the Ḥaddāda', 'Ḥannā Jābir', '154 — not elected']],
  'Nominations were taken at the municipality on Saturday 6 April 1946, and the poll for district 2 was announced in <i>Filasṭīn</i> on 7 April. The English notice gives the district 4 member as “Sama’an Khalaf”; the committee’s Arabic gives <span class="ar" dir="rtl">حنا سمعان خلف</span>. — Israel State Archives, P-213/40, PDF pp. 72 and 91.')}
-<p><b>One of the four is a name this book already knows.</b> <b>Yūsuf Jiryis Qaddūra</b>, second in the poll,
-carries the name of the author of the town’s first history, published in New York in 1954. That they are
-the same man is likely, not yet shown.</p>
-<p><b>The result was taken to law.</b> The Atalla file holds the lawyers’ notes of hearings on
-<b>23 November</b> and <b>7 December 1946</b>. Mūsā Khalīl gave evidence for the committee. The presiding officer of the
-poll, Shafīq Musallam of the Ramallah district office, said polling ran from nine to half past twelve and again
-from half past one to about five. The notes argue over how the register was published, and over men with a
-right to vote in more than one district: the lists mark, against each such man, whether he owned or rented in the
-other district. Mūsā Khalīl said that none of the men from other districts who could have voted in the Ḥaddāda chose to,
-and the notes put them at about ten{c('Israel State Archives, P-213/40: evidence of Mūsā Khalīl, 23 November 1946 (PDF p. 55); of the presiding officer and of a police corporal, 7 December 1946 (PDF p. 42); the lawyers’ points on publication and on the districts (PDF pp. 3–9); the lists of men entitled to register in a second district, with “owner” or “tenant” against each (PDF pp. 135–141).')}.
-<i>Still to be found</i>: who brought the case, and how it was decided; exhibit P.5, the register itself, which
-Mūsā Khalīl said gave each voter’s age; and the <i>Filasṭīn</i> notice of 7 April 1946.</p>"""),
+<p>One of the four winners in district 2 carries a name we know. <b>Yūsuf Jiryis Kaddoura</b> (Yūsuf Qaddūra in the
+table), second in the poll, has the name of the author of our town’s first history, published in New York in 1954, which
+we meet again in chapter ten. That they are the same man is likely, but not yet shown.</p>
+<p>The result was taken to law. The Atalla file holds the lawyers’ notes of hearings on <b>23 November
+and 7 December 1946</b>. Mūsā Khalīl gave evidence for the committee. The presiding officer of the poll,
+Shafīq Musallam of the Ramallah district office, said polling ran from nine to half past twelve and
+again from half past one to about five.</p>
+<p>The notes argue over how the register was published. They also argue over men with a right to vote
+in more than one district: against each such man, the lists mark whether he owned or rented in the
+other district. Mūsā Khalīl said that none of the men from other districts who could have voted in the
+Ḥaddāda chose to, and the notes put them at about ten{c('Israel State Archives, P-213/40: evidence of Mūsā Khalīl, 23 November 1946 (PDF p. 55); of the presiding officer and of a police corporal, 7 December 1946 (PDF p. 42); the lawyers’ points on publication and on the districts (PDF pp. 3–9); the lists of men entitled to register in a second district, with “owner” or “tenant” against each (PDF pp. 135–141).')}.</p>
+<p><b>What we still don’t know.</b> We do not yet have the names of those killed when the revolt of
+1938 reached the town, the houses burned, or what the revolt cost the families that stayed. We do not
+know who brought the election case of 1946, or how it was decided. We are still looking for exhibit
+P.5, the register itself, which Mūsā Khalīl said gave each voter’s age, and for the <i>Filasṭīn</i>
+notice of 7 April 1946. The 1946 lists of names are still to be fully transcribed and checked, and we
+have not yet shown that the Yūsuf Kaddoura of the poll is the author of the 1954 history. If your
+family’s papers hold any of these, we would like to hear from you.</p>"""),
 
-ent('1948', 'documents', False, 'The catastrophe — and the town transformed',
- 'On <b>11 July 1948</b> Israeli forces took Lydda; Ramle surrendered the next day. At half past one on <b>12 July Yitzhak Rabin signed the order to expel the inhabitants</b>, and on the morning of the 13th the people of Lydda were marched east on foot in the July heat — somewhere between fifty and seventy thousand people driven out of the two towns, and an unknown number dead on the road. The Arab Legion picked up the survivors and brought them to Ramallah. <b>Ramallah was not destroyed. Ramallah opened its doors and was tripled</b> — every madāfa, every schoolroom, every qaṣr in the fig groves. By a local count of 1953: some 13,500 souls, of whom about nine thousand are refugees and four and a half thousand are Ramallah natives — the figure that, with 2,580 in America, gives Shāhīn’s total of 7,080 Ramallah people in the world{} — <i>Jordan held no census that year; its censuses are 1952 and 1961</i>. And its own money went at the same time: the deposits in <b>Bank al-Umma</b> were frozen, not lost — part of the wholesale freezing of Palestinian bank accounts that year — the swine-raising venture collapsed with over <b>$400,000</b> in it, and some 200 Mandate salaries simply stopped{}. <i>“The future looked grim and the morale of the people was at its lowest ebb”</i> — Shāhīn saw it himself in 1951–52.'.format(
+ent('1948', 'documents', False, 'The catastrophe of 1948',
+ 'In the summer of 1948 the war reached Lydda and Ramle, west of our hills. On <b>11 July 1948</b> Israeli forces took Lydda, and Ramle surrendered the next day. At half past one on 12 July Yitzhak Rabin signed the order to expel the inhabitants. On the morning of the 13th the people of Lydda were marched east on foot in the July heat. Somewhere between fifty and seventy thousand people were driven out of the two towns, and an unknown number died on the road. The Arab Legion, the army of Jordan, picked up the survivors and brought them to Ramallah. Ramallah was not destroyed. <b>Ramallah opened its doors and was tripled.</b> People were taken into every madāfa, the clan guest house, every schoolroom, and every qaṣr, the stone field house, in the fig groves. A local count of 1953 gives some 13,500 souls: about nine thousand refugees and four and a half thousand Ramallah natives. With 2,580 in America, that is the figure behind Shāhīn’s total of 7,080 Ramallah people in the world{}. Jordan held no census that year; its censuses are 1952 and 1961. The town’s own money went at the same time. The deposits in Bank al-Umma were frozen, not lost, as part of the wholesale freezing of Palestinian bank accounts that year. The swine-raising venture collapsed with over $400,000 in it, and some 200 Mandate salaries simply stopped{}. Shāhīn saw it himself in 1951–52: <i>“The future looked grim and the morale of the people was at its lowest ebb.”</i>'.format(
   c('Shāhīn (1982), “The Great Influx of 1948,” with the 1953 census figures.'),
   c('Shāhīn (1982): the swine venture, the Bank El Ummeh closure, and the 200 lost government jobs — “all of these misfortunes occurred within three or four years.”'))),
 
 ent('1949 → 1957', 'documents', False,
-    'AND WHERE THEY LIVED — four camps, and the one inside the town',
- f'''The last entry ends with the refugees arriving. <b>This book has never said where they went, and that is a hole in it.</b> They went into four camps, three of them within six kilometres of the church, and one of them <b>inside Ramallah itself</b>{c('The camp figures throughout this entry are from the Applied Research Institute–Jerusalem (ARIJ) locality profiles for Qaddura, al-Amʿari, al-Jalazun, Qalandiya and Deir ʿAmmar (2012), which carry PCBS 2007 population counts; and from UNRWA’s camp pages for registered-refugee totals. '+D('2012_ARIJ_Qaddura_Camp_Profile.pdf')+' · '+D('2012_ARIJ_al-Amari_Camp_Profile.pdf')+' · '+D('2012_ARIJ_al-Jalazun_Camp_Profile.pdf')+' · '+D('2012_ARIJ_Qalandiya_Camp_Profile.pdf')+'.')}.''',
+    'Where the refugees lived',
+ f'''The refugees who reached Ramallah in July 1948 went into four camps. Three of them are within six kilometres of the church, and one is <b>inside Ramallah itself</b>{c('The camp figures throughout this entry are from the Applied Research Institute–Jerusalem (ARIJ) locality profiles for Qaddura, al-Amʿari, al-Jalazun, Qalandiya and Deir ʿAmmar (2012), which carry PCBS 2007 population counts; and from UNRWA’s camp pages for registered-refugee totals. '+D('2012_ARIJ_Qaddura_Camp_Profile.pdf')+' · '+D('2012_ARIJ_al-Amari_Camp_Profile.pdf')+' · '+D('2012_ARIJ_al-Jalazun_Camp_Profile.pdf')+' · '+D('2012_ARIJ_Qalandiya_Camp_Profile.pdf')+'.')}.''',
  f"""
 {NUMTABLE('The camps of this district', ['camp','where','set up','on whose land','who is in it','2017'],
  [['<b>Qaddūra</b>','inside Ramallah city, 0.5 km east of the centre','1948','<b>private land</b> — so UNRWA never recognised it as a camp','Dayr Ṭarīf, al-Lidd, Lifta, al-Ramla, Jaffa, Qālūniya, ʿImwās','924'],
@@ -2537,23 +2548,24 @@ ent('1949 → 1957', 'documents', False,
   ['<b>Qalandiyā</b>','the southern entrance to Ramallah; Jerusalem governorate','1949','leased by UNRWA from the Jordanian government','the Jerusalem-corridor villages — ʿAllār, Lifta, ʿArtūf, Khirbat al-Lawz, ʿIshwaʿ, Ṣarʿa','8,336'],
   ['<b>Dayr ʿAmmār</b>','12 km north-west','1948–49','land of non-refugee villagers of Dayr ʿAmmār and Jammāla','Bayt Nabāla, Dayr Ṭarīf, Ṭīrat Dandan, al-Sāqiya','—']],
  'Populations are PCBS 2017 for the camp localities; UNRWA’s registered-refugee rolls are far larger, because they count the descendants wherever they now live — al-Amʿarī, 97 dunums, carries 15,315 registered refugees.')}
-<p><b>Read the origin columns and the map of 1948 assembles itself.</b> Qalandiyā holds the villages
-of the Jerusalem corridor; al-Amʿarī and al-Jalazūn hold Lydda, Ramle and Jaffa. <i>The people who
-walked east out of Lydda on 13 July stopped where the road stopped, and the camps are where the road
-stopped.</i>{c('Lisa Taraki, “Enclave Micropolis: The Paradoxical Case of Ramallah/al-Bireh,” <i>Journal of Palestine Studies</i> 37:4 (2008), p. 10: “The vast majority of refugees who made their way to Ramallah/al-Bireh in the hot days of July 1948 were peasants from villages near al-Lidd (Lydda), Ramla, and Jaffa who settled — often after several temporary relocations — in al-Bireh, Qaddura refugee camp, and later in Amʿari and Jalazon camps.” '+D('2008_Taraki_Enclave_Micropolis_Ramallah_al-Bireh_JPS37.pdf')+'.')}</p>
-<p><b>One of those rows will not add up, and the failure is instructive.</b> UNRWA's own page for
-al-Jalazūn says "around 9,450 refugees live in Jalazone camp" and, two lines later, gives the camp
-as 0.253 km² at "an estimated population density of 51,383 per sq km." <i>51,383 × 0.253 = 13,000.</i>
-<b>The density was computed from a population of thirteen thousand and printed beside a headline of
-nine thousand four hundred.</b> The discrepancy is not between sources; it is inside one page, and
-it is the difference between the people registered and the people counted{c('UNRWA, “Jalazone Camp,” read 7 September 2026. PCBS counts residents — 7,344 in 2007, 8,201 in 2017, 8,858 projected for 2021; UNRWA counts registered refugees and their descendants wherever they live. Khaldun Bshara gives UNRWA c. 13,000 for 2023 against a PCBS estimate of 9,228. <b>On the land: ARIJ says leased by UNRWA from the Jordanian government; Bshara says rented from a private owner in Jifnā; OCHA in 2008 said most plots were state-owned with the remainder belonging to landowners from nearby towns. These are probably one arrangement described at three levels of detail, and Jifnā is exactly a “nearby town” — but no source produces the lease, its date or its parties, and this book will not pretend the question is closed.</b>')}.
-<i>A camp is one of the few places on earth where those two numbers are allowed to drift this far
-apart without anybody minding.</i></p>
-<p><b>The tents came down slowly, and the dates are worth printing.</b> UNRWA began building
-permanent structures in 1951 and adopted a shelter programme in 1955; <b>al-Jalazūn had concrete
-shelters from 1953, and al-Amʿarī’s last tent was gone by 1957</b>{c('Kjersti G. Berg, “The Evolving Infrastructure of Palestinian Refugee Camps,” <i>Interactive Encyclopedia of the Palestine Question</i> (Institute for Palestine Studies): UNRWA began constructing permanent structures in 1951, adopted a shelter programme in 1955, and “by 1959 most tents were replaced with concrete huts.” Khaldun Bshara, “Al-Jalazone Refugee Camp,” same encyclopedia, for concrete at Jalazone from 1953; UNRWA’s own camp page for al-Amʿari for the 1957 date. UNRWA itself was created by UN General Assembly Resolution 302 (IV) of 8 December 1949 and began operations on 1 May 1950.')}. <i>Nine years from a tent to a
-wall.</i> And in <b>1950</b> Jordan annexed the West Bank and gave the refugees citizenship — which
-made them, uniquely among Palestinians in exile, <b>refugees and citizens at the same time</b>{c('The Jericho Conference of 1 December 1948 preceded the annexation of April 1950; the Jordanian Nationality Law of 1954 conferred citizenship on “any person who, not being Jewish, possessed Palestinian nationality before 15 May 1948 and resides ordinarily in the Hashemite Kingdom.” Jalal Al Husseini, “Palestinian Refugees in the West Bank,” and “Palestinians in Jordan, 1948–1967,” both in the <i>Interactive Encyclopedia of the Palestine Question</i>, drawing on Myriam Ababsa (ed.), <i>Atlas of Jordan</i> (IFPO, 2013). Some 280,000 refugees were in the West Bank in 1949.')}.</p>
+<p>Look at where each camp’s people came from, and the map of 1948 comes together. Qalandiyā holds the
+villages of the Jerusalem corridor. Al-Amʿarī and al-Jalazūn hold Lydda, Ramle and Jaffa. <i>The people
+who walked east out of Lydda on 13 July stopped where the road stopped, and the camps are where the
+road stopped.</i>{c('Lisa Taraki, “Enclave Micropolis: The Paradoxical Case of Ramallah/al-Bireh,” <i>Journal of Palestine Studies</i> 37:4 (2008), p. 10: “The vast majority of refugees who made their way to Ramallah/al-Bireh in the hot days of July 1948 were peasants from villages near al-Lidd (Lydda), Ramla, and Jaffa who settled — often after several temporary relocations — in al-Bireh, Qaddura refugee camp, and later in Amʿari and Jalazon camps.” '+D('2008_Taraki_Enclave_Micropolis_Ramallah_al-Bireh_JPS37.pdf')+'.')}</p>
+<p>Counting the people of a camp is not simple. UNRWA is the United Nations agency for Palestine
+refugees. Its own page for al-Jalazūn says “around 9,450 refugees live in Jalazone camp.” Two lines
+later it gives the camp as 0.253 km² at “an estimated population density of 51,383 per sq km.”
+Multiply the two and you get thirteen thousand: <i>51,383 × 0.253 = 13,000.</i> <b>The density was
+worked out from a population of thirteen thousand, and printed beside a headline of nine thousand four
+hundred.</b> The difference is inside one page, not between sources. It is the difference between the
+people registered and the people counted{c('UNRWA, “Jalazone Camp,” read 7 September 2026. PCBS counts residents — 7,344 in 2007, 8,201 in 2017, 8,858 projected for 2021; UNRWA counts registered refugees and their descendants wherever they live. Khaldun Bshara gives UNRWA c. 13,000 for 2023 against a PCBS estimate of 9,228. <b>On the land: ARIJ says leased by UNRWA from the Jordanian government; Bshara says rented from a private owner in Jifnā; OCHA in 2008 said most plots were state-owned with the remainder belonging to landowners from nearby towns. These are probably one arrangement described at three levels of detail, and Jifnā is exactly a “nearby town” — but no source produces the lease, its date or its parties, and this book will not pretend the question is closed.</b>')}.</p>
+<p>A camp is one of the few places on earth where those two numbers can drift this far apart without
+anybody minding.</p>
+<p>The tents came down slowly. UNRWA began building permanent structures in 1951 and adopted a shelter
+programme in 1955. <b>Al-Jalazūn had concrete shelters from 1953, and al-Amʿarī’s last tent was gone by
+1957</b>{c('Kjersti G. Berg, “The Evolving Infrastructure of Palestinian Refugee Camps,” <i>Interactive Encyclopedia of the Palestine Question</i> (Institute for Palestine Studies): UNRWA began constructing permanent structures in 1951, adopted a shelter programme in 1955, and “by 1959 most tents were replaced with concrete huts.” Khaldun Bshara, “Al-Jalazone Refugee Camp,” same encyclopedia, for concrete at Jalazone from 1953; UNRWA’s own camp page for al-Amʿari for the 1957 date. UNRWA itself was created by UN General Assembly Resolution 302 (IV) of 8 December 1949 and began operations on 1 May 1950.')}. It took nine years to go from a tent to a wall.</p>
+<p>In <b>1950</b> Jordan annexed the West Bank and gave the refugees citizenship. That made them, alone
+among Palestinians in exile, refugees and citizens at the same time{c('The Jericho Conference of 1 December 1948 preceded the annexation of April 1950; the Jordanian Nationality Law of 1954 conferred citizenship on “any person who, not being Jewish, possessed Palestinian nationality before 15 May 1948 and resides ordinarily in the Hashemite Kingdom.” Jalal Al Husseini, “Palestinian Refugees in the West Bank,” and “Palestinians in Jordan, 1948–1967,” both in the <i>Interactive Encyclopedia of the Palestine Question</i>, drawing on Myriam Ababsa (ed.), <i>Atlas of Jordan</i> (IFPO, 2013). Some 280,000 refugees were in the West Bank in 1949.')}.</p>
 <div class="fix"><div class="fixhead">The demographic question, answered in the right order</div>
 <div style="font-size:.95rem;line-height:1.65;color:#46423B">
 <p style="max-width:none"><b>Ramallah was 2,972 Christian out of 3,104 in 1922, and is a
@@ -2579,32 +2591,35 @@ Masyūn.</i></p></div></div>"""),
 E[-1] = E[-1][:7] + (fig(F5.fig_camps(), 'Where the road stopped',
  'The people driven east out of Lydda and Ramle on 13 July 1948 stopped where the road stopped. The five camps of this district are joined here to the towns and villages their people came from, as the camp table below records them.',
  'UNRWA camp profiles; ARIJ, Ramallah governorate camp profiles (2012); Shāhīn (1982). The line of the march is drawn only approximately.') + E[-1][7],)
-ent('1944–1963', 'documents', True, 'The diaspora builds the town a hospital',
- 'The Ramallah Foundation, Inc. of New York is formed in 1944; a three-man delegation — Peter George Shihadeh, Yousef Abdallah Bateh, <b>and ʿAzīz Shāhīn himself</b> — tours every US Ramallah community in 1944–45 and collects over <b>$90,000</b>{}. The Summer Resorts Company (1945, capitalised at £P50,000 — there was no dinar in Palestine until 1950 — mostly diaspora stockholders) brings the water from ʿAin Fara in 1951; and on <b>20 May 1963 the Ramallah New Hospital opens</b> — fifty beds, on 26 dunams, its assets vested in the New York Foundation. <i>The money came back along the road the people left on.</i>'.format(c('Shāhīn (1982), “Societies”: the Foundation of 1944, the delegation and the $90,000; the Hospital Society of c. 1945 and the 26 dunams; the hospital’s completion in 1961–63, third floor 1966–68, out-patient clinic 1977.'))),
+ent('1944–1963', 'documents', True, 'The diaspora builds a hospital',
+ 'In 1944 the Ramallah Foundation, Inc. of New York was formed. A three-man delegation of Peter George Shihadeh, Yousef Abdallah Bateh and ʿAzīz Shāhīn himself toured every Ramallah community in the United States in 1944–45 and collected over <b>$90,000</b>{}. The Summer Resorts Company was founded in 1945, capitalised at £P50,000, in Palestine pounds, since there was no dinar in Palestine until 1950. Most of its stockholders were in the diaspora, and in 1951 it brought the water from ʿAin Fara. On <b>20 May 1963 the Ramallah New Hospital opened</b>, with fifty beds on 26 dunams, the local measure of land. Its assets were vested in the New York Foundation. The money came back along the road the people had left on.'.format(c('Shāhīn (1982), “Societies”: the Foundation of 1944, the delegation and the $90,000; the Hospital Society of c. 1945 and the 26 dunams; the hospital’s completion in 1961–63, third floor 1966–68, out-patient clinic 1977.')),
+ f"""
+<p><b>What we still don’t know.</b> No source we have found produces the lease for the land of
+al-Jalazūn camp, its date or its parties. If you know of a document, please tell us.</p>"""),
 
-ent('1954 · 2023', 'documents', False, 'The town’s first history is written in New York — twice',
- '<b>Joseph Jiryes Cadora</b> — pharmacist, mayor of Ramallah 1943–52 — publishes <span class="ar">تاريخ مدينة رام الله</span> at al-Hudá Press, New York, 1954; Shāhīn takes his census apparatus from it, “pp. 136–37”{}. Seventy years later the author’s niece by marriage, Samira Rafidi Meghdessian, publishes it in English as <i>Remembering Ramallah</i> (2023), annotated, with a foreword by his son. <i>The book this project hunted for years as “Qadūra” was in the family’s hands the whole time — Cadora and Qadūra are the same name.</i>'.format(c('Kaddoura/Cadora, <i>The History of Ramallah</i> (New York: Huda Press, 1954), 159 pp.; <i>Remembering Ramallah: A Preservation of History</i>, trans. Meghdessian (2023), ISBN 979-8-3507-0767-0; Shāhīn (1982) cites the census figures to Kaddoura pp. 136–37.'))),
+ent('1954 · 2023', 'documents', False, 'Our first history, written in New York',
+ 'After 1948 more and more of our people lived in America, and the town’s story began to be written there. <b>Joseph Jiryes Cadora</b> was a pharmacist and mayor of Ramallah from 1943 to 1952. In 1954 he published <span class="ar">تاريخ مدينة رام الله</span>, the <i>History of the City of Ramallah</i>, at al-Hudá Press, New York. Shāhīn took his census figures from it, “pp. 136–37”{}. Seventy years later the author’s niece by marriage, Samira Rafidi Meghdessian, published it in English as <i>Remembering Ramallah</i> (2023), with notes and a foreword by his son. For years our project hunted for it as “Qadūra”, and it was in the family’s hands the whole time. Cadora and Qadūra are the same name.'.format(c('Kaddoura/Cadora, <i>The History of Ramallah</i> (New York: Huda Press, 1954), 159 pp.; <i>Remembering Ramallah: A Preservation of History</i>, trans. Meghdessian (2023), ISBN 979-8-3507-0767-0; Shāhīn (1982) cites the census figures to Kaddoura pp. 136–37.'))),
 
 ent('1958 / 1959', 'oral', True, 'The Federation',
- 'The American Federation of Ramallah, Palestine — the body this book is written for.',
+ 'The American Federation of Ramallah, Palestine, is the body we are writing for.',
  FIX('Founded 1952, federated in Detroit on 7 September 1959 (the family presentation).',
  '<b>Resolved, and the answer is that there are three foundings.</b> <b>1952:</b> six young Ramallah immigrants at Wayne State begin <i>Hāthihi Rām Allāh</i>, the magazine that knits the scattered clubs together. <b>Sunday 7 September 1959, Detroit:</b> delegates from those clubs resolve to constitute a Federation and adopt interim by-laws and a constitution — and the first convention is held that year. <b>August 1963:</b> the IRS recognises the Federation and its education fund.',
  'The convention count settles it arithmetically. The Federation’s own roster of conventions begins at Detroit 1959; the fiftieth fell in Detroit in 2008 and the sixty-third in Dearborn in 2022 — both close on 1959 as the first, and neither closes on 1958. <b>Shāhīn’s “incorporated in Detroit, 1958” is best read as the clubs’ coalition rather than a filing</b>: 1958 appears in the Federation’s own literature too, but always attached to the conventions, never to a document. The IRS Business Master File gives the American Federation of Ramallah Palestine, EIN 38-6096448, 501(c)(4), and the American Ramallah Federation Education Fund, EIN 38-6096449, 501(c)(3), both ruled <b>August 1963</b>, both at Westland, Michigan. <b>What is still not in hand is the Michigan incorporation record itself</b> — a five-minute lookup in the LARA business-entity search for anyone with a browser, and the last thing that would let this entry name a filing date. <i>Note also that the Ramallah Foundation of New York is older and separate: founded 1943, incorporated in New York 1944 by its own account, IRS ruling February 1947.</i>')),
 
 ent('1961–2024', 'documents', False, 'The city, counted to the present',
- 'Jordan’s census, 1961: <b>14,759</b>. Israel’s, after the occupation of 1967: <b>12,134</b> — <i>and that is not simply emigration.</i> The count was taken under curfew weeks after the war; it recorded only those standing in the town on the day, and <b>every Ramallah person who happened to be abroad lost the right to come home</b>. The dip is an act of the occupation, recorded as a statistic. Birzeit College begins four-year degrees in 1972 and becomes Birzeit University in 1975; <b>Ramallah did not become a capital by accident.</b> It became one because its people made it ungovernable from outside — Birzeit’s students from 1972 onward, the strike committees of the first intifada, the town the Muqāṭaʿa was built to hold down and could not. That compound ran through every hand in turn — Tegart fort, Jordanian HQ, Israeli headquarters, and after the redeployment of December 1995 the seat of the Palestinian Authority, with Arafat moving in in 1996. In 2002 the Israeli army came back into the city and besieged it, and the town lived under curfew for weeks. <i>The census numbers are what survived that.</i> PCBS: <b>17,851 (1997) · 27,460 (2007) · 38,998 (2017) · 43,880 projected (2024)</b>{}. And the diaspora curve crosses the town’s: 1,500 in the US by 1946, over 4,000 by 1960, over 10,000 by 1975 — <b>“over 85% of Ramallah people are now in the States”</b> — <i>a formula his own figures will not carry, and which can only be read as a claim about descendants of the pre-1948 town rather than about the town’s population</i>{}.'.format(
+ 'Jordan’s census of 1961 counted <b>14,759</b> people. Israel’s count after the occupation of 1967 found 12,134, and that drop is not simply emigration. The count was taken under curfew, weeks after the war. It recorded only those standing in the town on the day, and every Ramallah person who happened to be abroad lost the right to come home. The dip is an act of the occupation, recorded as a statistic. Birzeit College began four-year degrees in 1972 and became Birzeit University in 1975. Ramallah did not become a capital by accident. It became one because its people made it ungovernable from outside: Birzeit’s students from 1972 onward, the strike committees of the first intifada, the uprising, and the town the Muqāṭaʿa, the government compound, was built to hold down and could not. That compound passed through every hand in turn: Tegart fort, Jordanian headquarters, Israeli headquarters, and, after the redeployment of December 1995, the seat of the Palestinian Authority, with Arafat moving in in 1996. In 2002 the Israeli army came back into the city and besieged it, and the town lived under curfew for weeks. The census numbers are what survived that. The Palestinian census bureau, PCBS, gives <b>17,851 (1997) · 27,460 (2007) · 38,998 (2017) · 43,880 projected (2024)</b>{}. Meanwhile the diaspora curve crosses the town’s: 1,500 in the United States by 1946, over 4,000 by 1960, over 10,000 by 1975. Shāhīn wrote that “over 85% of Ramallah people are now in the States”. His own figures will not carry that formula, and it can only be read as a claim about the descendants of the pre-1948 town, not about the town’s population{}.'.format(
   c('The census series: Jordan 1961 (14,759); the census conducted by the Israeli Central Bureau of Statistics in the occupied territories in 1967 (12,134); PCBS 1997, 2007 and 2017; and the PCBS projection series, <i>Projected Mid-Year Population for Ramallah &amp; al-Bireh Governorate by Locality 2017–2021</i>, locality code 301810, which gives Ramallah <b>42,122 for 2021</b> — the 2022–26 table is attested by title but PCBS has taken it offline, so this book prints 2021 and no later projection. <b>On religion: the 1967 census is the only locality-level count of Christians and Muslims in Ramallah between 1945 and 1997.</b> It recorded <b>6,966 Christians of 12,134 — 57 per cent</b> — and 5,203 people, 43 per cent of the town, originating from what had become Israel. <i>It is an Israeli state source, produced by the occupying power weeks into the occupation, and this book says so on the page rather than passing the number through a tertiary work.</i> Its tables are now published in full and independently by the Levy Economics Institute of Bard College, so a reader can check them. By the first Palestinian census in 1997 Christians were <b>32 per cent</b> (PCBS, <i>Final Results: Ramallah City</i>, City Reports Series 005, 2000). <b>Between 1967 and 1997 there was no census of any kind, and no municipal, church or scholarly source publishes a religious breakdown for the town in that interval. The crossing from a Christian to a Muslim majority cannot at present be dated more closely than to those thirty years.</b>'),
   c('Shāhīn (1982), the emigration chapter: 1,500 by 1946, 4,000+ by 1960, 10,000+ by 1975 with fewer than 2,000 remaining, and the 85% figure.')),
  f"""
 {fig(F3.fig_two_pop(),'Two populations, one town',
- 'Ramallah natives at home against Ramallah natives in the United States, on Shāhīn’s own figures. <b>By 1975 he counts more than ten thousand Ramallah people in America — a diaspora that had grown to rival, and by some readings to overtake, the native population still at home.</b> <i>His own “eighty-five per cent” is not supported by the numbers he prints, and this book does not repeat it as a measurement.</i> What is not in doubt is the direction of the money: the hospital, the water supply and the schools at home were paid for from the far side of the ocean.',
+ 'Ramallah natives at home against Ramallah natives in the United States, on Shāhīn’s own figures. By 1975 he counts more than ten thousand Ramallah people in America: a diaspora that had grown to rival, and by some readings to overtake, the native population still at home. His own “eighty-five per cent” is not supported by the numbers he prints, so we do not repeat it as a measurement. What is not in doubt is the direction of the money: the hospital, the water supply and the schools at home were paid for from the far side of the ocean.',
  'Shāhīn (1982): the home censuses of 1905–1953 and his diaspora counts — 1,500 by 1946, 2,580 in 1953, 4,000+ by 1960, 10,000+ by 1975.')}
 {fig(POP_CHART, 'Every number anyone has ever recorded, 1596–2024',
  'The recorded population on a logarithmic scale, now carrying every count Shāhīn assembled — 1839, 1870, 1905, 1944, 1953 — with the 1916 typhus drawn as a labelled inference and the 1967 dip labelled as what it is: emigration.',
  'The 1596 defter; Robinson and Smith; Anthemos; the censuses of 1870–2017; PCBS projections; the epidemic from Shāhīn (1982).')}"""),
 
 ent('1982', 'documents', False, 'Shāhīn closes the record',
- 'ʿAzīz Shāhīn — born 1894, typhoid survivor of 1906, Friends Boys School boarder of 1907–10, fund-raiser of 1944–45 — publishes <span class="ar">كشف النقاب</span>: 894 pages, the book everything here is measured against{}. His history ends: <i>“The foregoing history of Ramallah brings us down to the end of 1978. Every effort has been made to make it as complete and as accurate as possible.”</i> This book has tested that claim line by line, and it holds.'.format(c('Shāhīn (1982); the autobiographical details from his own chapters. The full test of his chronology against the external record: 36 checkable claims — 13 confirmed, 15 new, 3 refined, 3 corrected, 1 in conflict, 1 untestable.'))),
+ 'ʿAzīz Shāhīn was born in 1894. He survived typhoid in 1906, boarded at the Friends Boys School in 1907–10 and was a fund-raiser in 1944–45. In 1982 he published <span class="ar">كشف النقاب</span>, <i>Kashf al-niqāb</i>: 894 pages, the book we measure everything else here against{}. His history ends: <i>“The foregoing history of Ramallah brings us down to the end of 1978. Every effort has been made to make it as complete and as accurate as possible.”</i> Checked line by line against the outside record, his claim holds.'.format(c('Shāhīn (1982); the autobiographical details from his own chapters. The full test of his chronology against the external record: 36 checkable claims — 13 confirmed, 15 new, 3 refined, 3 corrected, 1 in conflict, 1 untestable.'))),
 
 sect('Three things said plainly', 'The Karak evidence, two false leads, and the people this town produced')
 ent('1812 → 1934', 'documents', False, 'When the Ḥaddādīn name actually enters the record at Karak',
@@ -2723,47 +2738,55 @@ below). Where this book does count two witnesses for Rāshid, they are <b>Haddad
 side and Shāhīn 1982 with the co-authors’ chart on the Ramallah side</b>, which are genuinely
 independent of each other.</p>"""),
 
-ent('1869 → 1963', 'attested', True, 'The people this town produced',
- 'A village of three thousand souls, on one ridge, in one century — and this is a partial list.',
+ent('1869 → 1963', 'attested', True, 'The people our town produced',
+ 'Our town was a village of three thousand souls, on one ridge, and in one century it gave all of the people below. This is only a partial list.',
  f"""
-<p><b>Miriam Karam</b> stopped Eli Jones in a narrow street — the Quaker account dates the encounter
-to 1867 — and asked him to open a school for girls. He asked who would teach it. <i>“I will,”</i> she
-said. <b>It opened in 1869 with twenty pupils and grew quickly to fifty</b>; it became a boarding
-school, the Girls Training Home, in 1889, and took the name Friends Girls School in 1925. <b>She herself taught four years</b>, then married and left — and the school
-she started is still open{c('Shāhīn (1982), the education chapter. She was not a native of Ramallah but lived there several years; she married Hanna Bayyuk of Jerusalem.')}. <b>Katie Gabriel</b>, Lebanese, ran the boarding school
-from 1889 and gave the Friends forty years.</p>
-<p><b>Dr Philip Assʿad Maʿlouf</b> came from Beirut in 1891, opened his own clinic in 1895, and for
-years was <i>the only doctor in the entire Ramallah district</i>. The town called him <b>Hakeem Abu
-Iskandar</b>. In 1906 he pulled a twelve-year-old boy through forty days of typhoid fever; the boy
-was ʿAzīz Shāhīn, who lived to write this history. <b>Maʿlouf himself died in the typhus of
-1916.</b> He used to say that a doctor got no credit in Ramallah: the people waited until a man was
-nearly dead to call him, and then blamed him if the man died{c('Shāhīn (1982), “Medical Treatment.” His predecessor, Dr George Hassenauer of the Friends clinic (1883–89), was called <b>Dr Ḥassan Nawwār</b> because the town could not pronounce his name.')}.</p>
-<p><b>Boulos Shehadeh</b>, born in Ramallah in 1882, founded <i>Mirʾāt al-Sharq</i> in Jerusalem on
-17 September 1919 — 1,132 surviving issues, digitised, with 1,535 mentions of his home town.
-<b>Khaleel Totah</b>, born here in 1886, ran the Friends Boys School and argued Palestine’s case
-across the United States for thirty years, leaving diaries that are now a source for the Mandate; the
-school’s auditorium — which he raised the money for — carries his name. <b>Dr Fuad Shatara</b> (1892–1942), a physician on the staff of Cumberland
-Hospital in Brooklyn, was an early leader of the Ramallah Young Men’s Society of New York — he helped
-organise its anti-Balfour demonstration of 8 November 1917 — and later president of the Arab National
-League, arguing the Arab case for Palestine on American platforms{c('Shāhīn (1982), “Notable Individuals,” “Societies,” and the education chapter.')}.</p>
-<p><b>In 1924 a group of Ramallah women founded the Nahda Women’s Association</b> and registered it
-on 1 January 1925 — the town’s first women’s society, and their own. It outlived the Mandate, the
+<p><b>Miriam Karam</b> stopped Eli Jones in a narrow street and asked him to open a school for girls.
+The Quaker account dates the meeting to 1867. He asked who would teach it. <i>“I will,”</i> she
+said.</p>
+<p>The school <b>opened in 1869 with twenty pupils</b> and grew quickly to fifty. It became a boarding
+school, the Girls Training Home, in 1889, and took the name Friends Girls School in 1925. Miriam herself
+taught for four years, then married and left, and the school she started is still open{c('Shāhīn (1982), the education chapter. She was not a native of Ramallah but lived there several years; she married Hanna Bayyuk of Jerusalem.')}. Katie
+Gabriel, who was Lebanese, ran the boarding school from 1889 and gave the Friends forty years.</p>
+<p><b>Dr Philip Assʿad Maʿlouf</b> came from Beirut in 1891 and opened his own clinic in 1895. For years
+he was <i>the only doctor in the entire Ramallah district</i>. The town called him Hakeem Abu Iskandar;
+<i>hakeem</i> means doctor.</p>
+<p>In 1906 Dr Maʿlouf pulled a twelve-year-old boy through forty days of typhoid fever. The boy was
+ʿAzīz Shāhīn, who lived to write our town’s history. <b>Maʿlouf himself died in the typhus of
+1916.</b> He used to say that a doctor got no credit in Ramallah: people waited until a man was nearly
+dead to call him, and then blamed him if the man died{c('Shāhīn (1982), “Medical Treatment.” His predecessor, Dr George Hassenauer of the Friends clinic (1883–89), was called <b>Dr Ḥassan Nawwār</b> because the town could not pronounce his name.')}.</p>
+<p><b>Boulos Shehadeh</b>, born in Ramallah in 1882, founded the newspaper <i>Mirʾāt al-Sharq</i>,
+“Mirror of the East”, in Jerusalem on 17 September 1919. Its 1,132 surviving issues are digitised, and
+they mention his home town 1,535 times. Khalil Totah, born here in 1886, ran the Friends Boys School.
+His diary of the 1938 revolt appears in chapter eight. For thirty years he argued Palestine’s case
+across the United States, and his diaries are now a source for the Mandate years. The school’s
+auditorium, which he raised the money for, carries his name. Dr Fuad Shatara (1892–1942) was a
+physician on the staff of Cumberland Hospital in Brooklyn. He was an early leader of the Ramallah Young
+Men’s Society of New York, and helped organise its demonstration against the Balfour Declaration on
+8 November 1917. He later became president of the Arab National League, arguing the Arab case for
+Palestine on American platforms{c('Shāhīn (1982), “Notable Individuals,” “Societies,” and the education chapter.')}.</p>
+<p>In 1924 a group of Ramallah women founded the <b>Nahda Women’s Association</b> and registered it on
+1 January 1925. It was the town’s first women’s society, and their own. It outlived the Mandate, the
 Nakba, the Jordanian years and the occupation, and was still serving about a hundred hot meals a week
-when Shāhīn wrote. Into that town came <b>Matiel Mogannam</b>, who had already been a secretary of the
-Arab Women’s Executive of 1929 and had argued the Palestinian case in English in <i>The Arab Woman
-and the Palestine Problem</i> (London, 1937); from 1938 she lived here, and in 1939 she formed the
-Women’s Union Society, which put looms and embroidery frames into paid women’s hands and in 1961
-opened a home for the town’s old women{c('Shāhīn (1982), “Societies”: the Nahda (1925), the Infant Welfare Society (1927, Mrs Neʿmeh Joseph Kaddoura), the Women’s Union (1939), the Girl Guides (1942), and the Handicraft Cooperative (1954, Miriam Yaʿcoub Zaʿroor — the first cooperative society in Palestine, fifty women, all skilled embroiderers).')}.</p>
-<p><b>Khaleel Abu Rayya</b> opened the National College in 1947 and kept it running until 1971 — the
-last fourteen years partly paralysed by a stroke — then took charge of the Ramallah Public Library he
-had founded. <b>Dr Saʿadallah Kassees</b> was both doctor and mayor. <b>Laila Kassees</b>, his
-niece, became <i>the first woman of Ramallah to qualify as a doctor</i>, and practises in Memphis.
-And <b>Joseph Jiryes Cadora</b>, pharmacist and mayor from 1943 to 1952, wrote the town’s first
-history and printed it in New York{c('Shāhīn (1982), the education and notable-individuals chapters; Cadora’s mayoralty and his 1954 book, on which see the entry above.')}.</p>
-<p><i>Most of them were born into, or married into, the eight clans on the diagram above — that is
-what a ḥamūla was for. But not all: Katie Gabriel was Lebanese, Dr Maʿlouf came from Beirut, and
-Matiel Mogannam was born in Lebanon and only settled here in 1938. <b>The town was served by people it
-never absorbed, and it is worth saying so in a book about absorption.</b></i></p>"""),
+when Shāhīn wrote. Into that town came Matiel Mogannam. She had already been a secretary of the Arab
+Women’s Executive of 1929, and had argued the Palestinian case in English in <i>The Arab Woman and the
+Palestine Problem</i> (London, 1937). From 1938 she lived here. In 1939 she formed the Women’s Union
+Society, which put looms and embroidery frames into paid women’s hands, and in 1961 it opened a home
+for the town’s old women{c('Shāhīn (1982), “Societies”: the Nahda (1925), the Infant Welfare Society (1927, Mrs Neʿmeh Joseph Kaddoura), the Women’s Union (1939), the Girl Guides (1942), and the Handicraft Cooperative (1954, Miriam Yaʿcoub Zaʿroor — the first cooperative society in Palestine, fifty women, all skilled embroiderers).')}.</p>
+<p>Khaleel Abu Rayya opened the National College in 1947 and kept it running until 1971, the last
+fourteen years partly paralysed by a stroke. Then he took charge of the Ramallah Public Library he had
+founded. Dr Saʿadallah Kassees was both doctor and mayor. His niece, Laila Kassees, became <b>the first
+woman of Ramallah to qualify as a doctor</b>, and practises in Memphis. And Joseph Jiryes Cadora,
+pharmacist and mayor from 1943 to 1952, wrote the town’s first history and printed it in New
+York{c('Shāhīn (1982), the education and notable-individuals chapters; Cadora’s mayoralty and his 1954 book, on which see the entry above.')}.</p>
+<p>Most of these people were born into, or married into, the eight clans of our town. That is what a
+ḥamūla, a clan, was for. But not all of them were: Katie Gabriel was Lebanese, Dr Maʿlouf came from
+Beirut, and Matiel Mogannam was born in Lebanon and only settled here in 1938. Our town was served by
+people it never absorbed. In a history of how our town took people in, that is worth saying.</p>
+<p><b>What we still don’t know.</b> We have not yet found the Michigan record of the Federation’s
+incorporation, which would give the date it was filed. We also cannot yet date the town’s change from
+a Christian to a Muslim majority more closely than the thirty years between the censuses of 1967 and
+1997. If your family’s papers can answer either question, please tell us.</p>"""),
 
 CH(14)
 
@@ -3375,23 +3398,23 @@ SOURCE_PAGES = [
   'Ulrich Jasper Seetzen on the road north of Jerusalem in 1806: “On our right we left the village of Taréndy, and further right of it Râm-Allah, a considerable village, inhabited mostly by Greek Christians, which cannot be seen from the road.” '
   'A little further on he passes al-Rām, the “small village of Râm”, with the ruins of a church.',
   'Ulrich Jasper Seetzen, <i>Reisen durch Syrien, Palästina, Phönicien, die Transjordan-Länder, Arabia Petraea und Unter-Aegypten</i>, ed. Fr. Kruse, vol. II (Berlin, 1854), p. 197. Public domain; scan from Heidelberg University Library.'),
- ('AN OUTSIDER WRITES THE TOWN DOWN', 'photo', 'sources/grant_1907_lane.jpg',
+ ('Elihu Grant writes', 'photo', 'sources/grant_1907_lane.jpg',
   '“Râm Allâh, as Entered by the Sinuous, Walled Lane, from the East”: the town as Elihu Grant knew it, stone field walls along the lane and the houses of the old town on the rise beyond.',
   'Elihu Grant, <i>The Peasantry of Palestine</i> (Boston: Pilgrim Press, 1907), plate. Public domain.'),
- ('AN OUTSIDER WRITES THE TOWN DOWN', 'photo', 'sources/grant_1907_schools.jpg',
+ ('Elihu Grant writes', 'photo', 'sources/grant_1907_schools.jpg',
   '“Mission Schools (sustained by the American Friends)”: pupils and teachers of the Friends schools at Ramallah, which Grant ran from 1901 to 1904.',
   'Elihu Grant, <i>The Peasantry of Palestine</i> (Boston: Pilgrim Press, 1907), plate. Public domain.'),
- ('THE TOWN VOTES', 'srcpage', 'sources/ramallah_1946_notice.jpg',
+ ('The town votes', 'srcpage', 'sources/ramallah_1946_notice.jpg',
   'The committee’s notice of 6 April 1946: three districts filled without a contest, and five men nominated for the four seats of district 2, the Ḥaddāda, with the poll set for Monday 15 April.',
   'Notice signed by Mousa Khalil, chairman of the electoral committee for the Municipal Commission of Ramallah, 6 April 1946. Israel State Archives, P-213/40, PDF p. 91.'),
- ('THE TOWN VOTES', 'srcpage', 'sources/ramallah_1946_results_ar.jpg',
+ ('The town votes', 'srcpage', 'sources/ramallah_1946_results_ar.jpg',
   'The committee’s own account, in Arabic, ending with item 13, the result: '
   '<span class="ar" dir="rtl">كانت نتيجة التصويت كما يلي</span>, “the result of the vote was as follows”: Jamīl Ṭūṭaḥ 255, Yūsuf Qaddūra 236, Khalīl Ṣalāḥ 222, Jalīl Ḥarb 215, Ḥannā Jābir 154.',
   'Ramallah municipality, “Intikhābāt baladiyyat Rām Allāh”, p. 2. Israel State Archives, P-213/40, PDF p. 72.'),
- ('THE TOWN VOTES', 'srcpage', 'sources/ballot_1946_p142.jpg',
+ ('The town votes', 'srcpage', 'sources/ballot_1946_p142.jpg',
   'The ballot paper for district 2, the Ḥaddāda: five nominees for four seats, Monday 15 April 1946.',
   'Israel State Archives, P-213/40, PDF p. 142.'),
- ('The people this town produced', 'srcpage', 'sources/mirat_al_sharq_1919.jpg',
+ ('The people our town produced', 'srcpage', 'sources/mirat_al_sharq_1919.jpg',
   'The first issue of <i>Mirʾāt al-Sharq</i>, “Mirror of the East”, Jerusalem, Wednesday 17 September 1919. '
   'The masthead, top right, names its licence-holder and editor, <span class="ar" dir="rtl">بولس شحادة</span>, Boulos Shehadeh of Ramallah, and calls it “a free Arabic political newspaper, appearing once a week for the present”. '
   'His opening article begins: “Today we publish among our people a newspaper called <i>Mirʾāt al-Sharq</i>, and we issue it from the city of Jerusalem.”',
@@ -3465,9 +3488,9 @@ _ORDER = {
  7: ['The present Greek Orthodox church', 'The town gains', 'How the town lived', 'The festivals',
      'The first doctors', 'What a day was worth', 'The twin town'],
  8: ['The first four sail', 'AN OUTSIDER WRITES', 'The state arrives', 'THE PATRIARCHATE', 'The last big fight',
-     'The war, the locusts', 'The counting years', 'THE REVOLT REACHES', 'THE TOWN VOTES'],
- 9: ['The catastrophe', 'AND WHERE THEY LIVED', 'The diaspora builds'],
- 10: ['The town’s first history', 'The Federation', 'The city, counted', 'Shāhīn closes', 'The people this town produced'],
+     'The war, the locusts', 'The counting years', 'The revolt reaches', 'The town votes'],
+ 9: ['The catastrophe', 'Where the refugees lived', 'The diaspora builds'],
+ 10: ['Our first history', 'The Federation', 'The city, counted', 'Shāhīn closes', 'The people our town produced'],
  11: ['THE DAM CANNOT', 'WERE THE GHASSANIDS'],
  12: ['GENERATION 35', 'GHASSĀN IS STILL THERE', 'THE WORD UNDERNEATH', 'AND THE MAN WHO SHOULD', 'THE TRADITION HAS',
       'WHAT THE OTHER ARCHIVE', 'FIVE SEARCHES', 'THE INTERVAL', 'THE VOID IS NOT'],
