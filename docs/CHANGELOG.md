@@ -1,5 +1,24 @@
 # Changelog
 
+## v64 — 8 November 2026
+
+### One voice
+
+All 96 entries are rewritten in the voice of `STYLE_GUIDE` (project files):
+- plain, warm sentences, with "we" and "our family";
+- short titles in sentence case;
+- terms explained the first time they appear;
+- cross-references that fit the new order.
+
+Each story chapter opens with what was happening and ends with "What we still
+don't know".
+
+Nothing else changes. All 272 notes are unchanged, character for character.
+All 41 figures, 51 photographs and source pages, the tables and the correction
+boxes are kept in their entries. Points the writers thought doubtful were left
+alone and listed for David in `history/rewrite_v64_review_notes.md` (project
+files).
+
 ## v63 — 7 November 2026
 
 ### Story first, evidence second (structure only)
