@@ -3233,6 +3233,16 @@ span.w2{background:#004A26;color:#F3ECDD;padding:2px 7px;border-radius:3px;
 .wwsdk h4{margin:0 0 8px;font:700 .8rem/1.2 "Times New Roman",Times,serif;letter-spacing:.14em;text-transform:uppercase;color:#9a6324}
 .wwsdk p{margin:.5em 0;max-width:none}
 @media(max-width:760px){.wwsdk{margin-left:0}}
+/* v66: the reading list that closes each chapter */
+.scholars{position:relative;z-index:1;margin:30px 0 18px 122px;padding:16px 22px;border:1px solid #D9E6DD;border-left:4px solid #007a3d;background:#F8FBF8}
+.scholars h4{margin:0 0 10px;font:700 .8rem/1.2 "Times New Roman",Times,serif;letter-spacing:.14em;text-transform:uppercase;color:#007a3d}
+.scholars ul{list-style:none;margin:0;padding:0}
+.scholars li{margin:0 0 12px;line-height:1.5}
+.scholars .sw{display:block;font-weight:700;color:#1A1A1A}
+.scholars .sp{display:block;font-size:.86rem;color:#77726A}
+.scholars .sl2{display:block;font-size:.98rem;color:#46423B}
+.scholars .sfoot{margin:6px 0 0;font-size:.86rem;color:#77726A;max-width:none}
+@media(max-width:760px){.scholars{margin-left:0;padding:14px 16px}}
 figcaption .made{font-variant:small-caps;letter-spacing:.04em;color:#9a6324;font-weight:700}
 
 .byline{margin:8px 0 0;font-size:1.06rem;letter-spacing:.05em;color:#1A1A1A}
@@ -3824,10 +3834,20 @@ def render():
                 f'<div class="entry{major}"><div class="ewhen"><span class="d">{date}</span>'
                 f'<span class="g" style="background:{gf};color:{gc}">{gl}</span>{w2h}</div>'
                 f'<div class="ebody"><h3>{title}</h3><div class="note">{note}</div>{more}</div></div>')
+        if SCHOLARS.get(str(num)):
+            out.append('<div class="scholars"><h4>What the scholars say</h4><ul>'
+                       + ''.join(f'<li><span class="sw">{w["who"]}</span>'
+                                 f'<span class="sp">{w["pub"]}</span>'
+                                 f'<span class="sl2">{w["line"]}</span></li>' for w in SCHOLARS[str(num)])
+                       + '</ul><p class="sfoot">Full details in <a href="#appA">the bibliography</a>.</p></div>')
         if open_q:
             out.append('<div class="wwsdk"><h4>What we still don’t know</h4>'
                        + ''.join(f'<p>{q}</p>' for q in open_q) + '</div>')
     return ''.join(out)
+import json as _json
+# v66: each chapter's reading list, chosen from the annotated bibliography
+_SCH = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'scholars.json')
+SCHOLARS = _json.load(open(_SCH, encoding='utf-8')) if os.path.exists(_SCH) else {}
 WWSDK_RE = re.compile(r'<p><b>What we still don’t know\.</b>\s*(.*?)</p>', re.S)
 
 CONTENTS = ('<a class="tocbtn" href="#toc" aria-label="Jump to the list of chapters">Chapters</a>'
