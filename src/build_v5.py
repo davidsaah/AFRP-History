@@ -913,41 +913,43 @@ CH(7)
 
 sect('What the ground says', 'The hills turn Christian, and stay that way')
 ent('324 → 638', 'attested', False, 'The hills become Christian — and simply stay that way',
- 'Within three or four centuries of the road through Ephraim the country is overwhelmingly Christian, and it happened <b>mostly by conversion rather than by replacement</b> — though Samaritan Samaria and Jewish Galilee remain, and the Samaritan revolts of 484, 529 and 555 are fought within sight of this ridge. Palestine in the Byzantine centuries reaches a density of population it will not regain until the twentieth century, and the ridge north of Jerusalem fills with village churches, monasteries and oil presses{}.'.format(c('On the Byzantine demographic peak and the density of rural churches on this ridge: Piccirillo, <i>The Mosaics of Jordan</i> and the Madaba map corpus; al-Houdalieh’s excavations at Khirbet et-Tireh (from 2013); Hamdan Taha at ʿAbūd. See the bibliography, §XVIII and §XXIX.')),
+ 'Within three or four centuries of the road through Ephraim, the country is overwhelmingly Christian. It happened <b>mostly by conversion, not by one people replacing another</b>. Not everyone changed: Samaria stays Samaritan and Galilee stays Jewish, and the Samaritan revolts of 484, 529 and 555 are fought within sight of this ridge. In the Byzantine centuries, when the eastern Roman Empire ruled here, Palestine holds more people than it will again until the twentieth century. The ridge north of Jerusalem fills with village churches, monasteries and oil presses{}.'.format(c('On the Byzantine demographic peak and the density of rural churches on this ridge: Piccirillo, <i>The Mosaics of Jordan</i> and the Madaba map corpus; al-Houdalieh’s excavations at Khirbet et-Tireh (from 2013); Hamdan Taha at ʿAbūd. See the bibliography, §XVIII and §XXIX.')),
  """
-<p>The evidence is in the ground within walking distance of the future town. <b>Khirbet et-Tireh</b>,
-two kilometres from the present town centre, has two churches, a monastery and an oil press.
-<b>ʿAbūd</b>, about eighteen kilometres north-west, has a church old enough that its rebuilding in 1058 is
-itself a dated medieval event. <b>Ṭaybeh</b> — the Ephraim of John 11:54 — has its Byzantine church
-still standing in ruin. And the great mosaic map laid in the church floor at <b>Madaba</b> in the
-sixth century labels this district with the confidence of an administrator working from an official
-list.</p>
-<p><i>This is the single most important fact about the ground the family will settle on.</i> When
-sixty-four Christian households come up the ridge road in 1562, <b>they are not bringing
-Christianity to these hills. They are joining a Christian population that has been in this district,
-continuously, since before Arabic was the language of it.</b> The family’s faith is the oldest thing
-about this story that can be verified without reference to any genealogy at all.</p>"""),
+<p>The evidence is in the ground, within walking distance of where our town will stand.
+<b>Khirbet et-Tireh</b>, two kilometres from the present town centre, has two churches, a monastery
+and an oil press. <b>ʿAbūd</b>, about eighteen kilometres north-west, has a church so old that its
+rebuilding in 1058 is itself a dated medieval event. <b>Ṭaybeh</b> — the Ephraim of John 11:54 —
+still has its Byzantine church, standing in ruin.</p>
+<p>In the sixth century a great mosaic map was laid in the church floor at <b>Madaba</b>. It labels
+this district with the confidence of an official working from a government list.</p>
+<p><i>This is the most important fact about the ground our families will settle on.</i> In 1562,
+sixty-four Christian households come up the ridge road. <b>They are not bringing Christianity to
+these hills. They are joining a Christian population that has lived in this district without a
+break since before Arabic was its language.</b> Our families’ faith is the oldest part of this
+story that we can check without any family tree at all.</p>"""),
 
 CH(7)
 sect('And in our own line', 'The water fails, the dynasty is already north, and a Greek historian writes one of them down')
-ent('455 → c. 575', 'documents', 'shared', 'THE DAM BREAKS',
- 'The tradition dates the family’s departure from Yemen to the bursting of the dam “about 300 AD.” <b>The dam’s failures are dated, and they are later:</b> a breach repaired under Sharaḥbiʾīl Yaʿfur in <b>455</b>, a further breach in <b>542/543</b>, the great breach of <b>547</b> repaired in <b>548</b>, and a last recorded restoration in <b>557/558</b>{}.'.format(c('Norbert Nebes, “A New ʾAbraha Inscription from the Great Dam of Mārib,” <i>Proceedings of the Seminar for Arabian Studies</i> 34 (2004), 221–30, esp. 223–24. CIH 540, Sharaḥbiʾīl Yaʿfur’s rupture-and-repair text, is dated Himyarite year 565 = <b>AD 455</b> on the 110 BC epoch Nebes uses; the figure of 449–450 printed in earlier editions of this book reflects the older 115 BC epoch and <b>contradicts the very study cited beside it</b>. CIH 541 records the breach of 657 HE (547) repaired in 658 HE (548). '+D('2004_Nebes_New_Abraha_Inscription_Marib_Dam.pdf')+'.')),
+ent('455 → c. 575', 'documents', 'shared', 'The dam breaks',
+ 'Our family tradition says our ancestors left Yemen when the great dam at Maʾrib burst, “about 300 AD.” <b>The dam’s failures are dated, and they are later.</b> A breach was repaired under Sharaḥbiʾīl Yaʿfur in <b>455</b>. Another breach came in <b>542/543</b>. The great breach of <b>547</b> was repaired in <b>548</b>, and the last recorded restoration was in <b>557/558</b>{}.'.format(c('Norbert Nebes, “A New ʾAbraha Inscription from the Great Dam of Mārib,” <i>Proceedings of the Seminar for Arabian Studies</i> 34 (2004), 221–30, esp. 223–24. CIH 540, Sharaḥbiʾīl Yaʿfur’s rupture-and-repair text, is dated Himyarite year 565 = <b>AD 455</b> on the 110 BC epoch Nebes uses; the figure of 449–450 printed in earlier editions of this book reflects the older 115 BC epoch and <b>contradicts the very study cited beside it</b>. CIH 541 records the breach of 657 HE (547) repaired in 658 HE (548). '+D('2004_Nebes_New_Abraha_Inscription_Marib_Dam.pdf')+'.')),
  f"""
-<p>We know this in extraordinary detail, because the last great repair left <b>an inscription</b>.
-In 548 the Ethiopian-born king <b>Abraha</b> cut into the stone a record of the work: the breach, the
-levies raised, the tribes summoned to labour, and a plague that struck the workforce. <i>In a separate
-passage of the same stone</i> he records the delegations he received at Maʾrib — from <b>Aksum</b>,
-Byzantium, Persia, and the Arab kings of al-Ḥīra and Ghassān{c('CIH 541, the Abraha inscription of 548 — 136 lines, one of the longest pre-Islamic Sabaic inscriptions known. The dam repair occupies lines 55–61 and 92–117; the diplomatic reception is a distinct episode at lines 87–92, after Abraha’s campaigns and his return to Maʾrib. <b>Earlier editions of this book said the embassies came to witness the repair, and omitted Aksum — the first delegation named, and the one Abraha himself came from.</b> Christian Julien Robin, “Abraha and Ethiopia,” in S. F. Johnson (ed.), <i>The Oxford Handbook of Late Antiquity</i> (2015), 247–332, at 292.')}. <i>It is a maintenance
-report, carved in stone, from the collapse of the world this family says it came from.</i></p>
-<p>The Qurʾān records the same catastrophe from the other side — as the end of a people’s
-prosperity: <b>“they turned away, and We sent against them the flood of al-ʿArim”</b>, the flood of
-the dam, and the two gardens became gardens of bitter fruit{c('Qurʾān 34:16: <span class="ar">فَأَعْرَضُوا فَأَرْسَلْنَا عَلَيْهِمْ سَيْلَ الْعَرِمِ</span> — “the flood of al-ʿArim,” generally understood as the dam or its embankment.')}. And it draws the moral that
-became a proverb, and then a genealogy: <b>“We made them tales, and scattered them utterly.”</b>{c('Qurʾān 34:19: <span class="ar">فَجَعَلْنَاهُمْ أَحَادِيثَ وَمَزَّقْنَاهُمْ كُلَّ مُمَزَّقٍ</span>. The Arabic proverb <i>tafarraqū aydī Sabaʾ</i> — “they scattered like the people of Sabaʾ” — is still current.')}</p>
+<p>We know this in remarkable detail, because the last great repair left <b>an inscription</b>.
+In 548 the Ethiopian-born king <b>Abraha</b> had a record of the work cut into the stone. It names the
+breach, the levies raised, the tribes called in to labour, and a plague that struck the workers.</p>
+<p><i>In a separate passage of the same stone</i>, he lists the delegations he received at Maʾrib.
+They came from <b>Aksum</b>, the kingdom in Ethiopia, and from Byzantium, Persia, and the Arab kings
+of al-Ḥīra and Ghassān{c('CIH 541, the Abraha inscription of 548 — 136 lines, one of the longest pre-Islamic Sabaic inscriptions known. The dam repair occupies lines 55–61 and 92–117; the diplomatic reception is a distinct episode at lines 87–92, after Abraha’s campaigns and his return to Maʾrib. <b>Earlier editions of this book said the embassies came to witness the repair, and omitted Aksum — the first delegation named, and the one Abraha himself came from.</b> Christian Julien Robin, “Abraha and Ethiopia,” in S. F. Johnson (ed.), <i>The Oxford Handbook of Late Antiquity</i> (2015), 247–332, at 292.')}. <i>It is a maintenance
+report, carved in stone, from the collapse of the world our families say they came from.</i></p>
+<p>The Qurʾān remembers the same disaster from the other side, as the end of a people’s good
+fortune: <b>“they turned away, and We sent against them the flood of al-ʿArim”</b>. That is the
+flood of the dam, and the two gardens became gardens of bitter fruit{c('Qurʾān 34:16: <span class="ar">فَأَعْرَضُوا فَأَرْسَلْنَا عَلَيْهِمْ سَيْلَ الْعَرِمِ</span> — “the flood of al-ʿArim,” generally understood as the dam or its embankment.')}.</p>
+<p>It draws a lesson that became a proverb, and then a family tree: <b>“We made them tales, and
+scattered them utterly.”</b>{c('Qurʾān 34:19: <span class="ar">فَجَعَلْنَاهُمْ أَحَادِيثَ وَمَزَّقْنَاهُمْ كُلَّ مُمَزَّقٍ</span>. The Arabic proverb <i>tafarraqū aydī Sabaʾ</i> — “they scattered like the people of Sabaʾ” — is still current.')}</p>
 {FIX('The family left Yemen “about 300 AD,” when the dam broke.',
- 'The dam’s dated failures are <b>455, 542/543 and 547–548</b>, with a last recorded restoration in 557/558 and abandonment conventionally placed at <b>570 or 575</b>. The migration tradition stands; the century attached to it moves forward by some 250 years.',
- 'Abraha’s repair inscription of 548 (CIH 541) fixes the mid-sixth-century breach absolutely. <b>The final failure is fixed by nothing:</b> every South Arabian text about the dam is a repair text, the last dated 557/558, and the conventional 570 or 575 rests on later Arabic tradition, not on epigraphy or excavation. This book prints that rather than the confident “c. 575–580” of earlier editions. <b>This correction costs the story nothing and gains it everything:</b> moved forward, the departure lands in exactly the century when the family’s claimed dynasty was at its height on the Roman frontier — which is where the next entries find them.')}
+ 'The dam’s dated failures are <b>455, 542/543 and 547–548</b>. The last recorded restoration was in 557/558, and the dam’s abandonment is usually placed at <b>570 or 575</b>. The migration tradition stands. The century attached to it moves forward by some 250 years.',
+ 'Abraha’s repair inscription of 548 (CIH 541) fixes the mid-sixth-century breach beyond doubt. <b>Nothing fixes the final failure.</b> Every South Arabian text about the dam is a repair text, and the last is dated 557/558. The usual date of 570 or 575 rests on later Arabic tradition, not on inscriptions or excavation. We print that, instead of the confident “c. 575–580” of earlier editions. <b>This correction costs the story nothing and gains it everything.</b> Moved forward, the departure lands in exactly the century when the dynasty our families claim was at its height on the Roman frontier. That is where the next entries find them.')}
 {fig(R.fig_dam(),'The dam, and a date that has to move',
- 'The tradition’s “about 300 AD” against the dated breaches. A correction, not a demolition.',
+ 'The tradition’s “about 300 AD”, set against the dated breaches. This is a correction, not a demolition.',
  'Nebes, PSAS 34 (2004); CIH 541; the family tradition in both key texts.')}"""),
 
 ent('c. 250 against 455', 'documents', False,
@@ -990,79 +992,91 @@ centuries. In earlier editions that sat in a footnote as a scholarly hedge. <b>O
 out here it stops being a hedge and becomes the finding.</b></p>"""),
 
 ent('473', 'attested', False, 'Amorkesos signs a treaty with Byzantium',
- 'A well-dated fifth-century federate arrangement covering Palaestina Tertia — <b>though not the earliest: Queen Mavia’s treaty with Valens is a century older</b>{}. The system the family’s ancestors are said to have led is already running.'.format(c('The Amorkesos episode is known from a fragment of Malchus preserved by Photius (fr. 1, ed. Blockley); Shahîd, <i>Byzantium and the Arabs in the Fifth Century</i> (Dumbarton Oaks, 1989), 61–113, reconstructs it as a formal <i>foedus</i>, which others dispute. <b>Mavia’s treaty with Valens, c. 377–378, is nearly a century earlier and is attested by four independent church historians — Rufinus, Socrates, Sozomen and Theodoret. Earlier editions of this book called Amorkesos “the earliest,” which is wrong.</b>'))),
+ 'Amorkesos, an Arab chief, makes a well-dated fifth-century agreement with the empire as a <i>federate</i> — an ally who serves Rome under treaty. It covers the Roman province of Palaestina Tertia. <b>It is not the earliest such treaty: Queen Mavia’s treaty with the emperor Valens is a century older</b>{}. The system our ancestors are said to have led is already running.'.format(c('The Amorkesos episode is known from a fragment of Malchus preserved by Photius (fr. 1, ed. Blockley); Shahîd, <i>Byzantium and the Arabs in the Fifth Century</i> (Dumbarton Oaks, 1989), 61–113, reconstructs it as a formal <i>foedus</i>, which others dispute. <b>Mavia’s treaty with Valens, c. 377–378, is nearly a century earlier and is attested by four independent church historians — Rufinus, Socrates, Sozomen and Theodoret. Earlier editions of this book called Amorkesos “the earliest,” which is wrong.</b>'))),
 
 ent('528–569', 'attested', 'shared', 'Al-Ḥārith ibn Jabala — generation 34, in contemporary Greek',
- 'Justinian sets him over “as many clans as possible” of the Saracens of Arabia and bestows on him <b>“the dignity of king, a thing which among the Romans had never before been done”</b> — and Procopius, a contemporary who disliked him, writes it down{}.'.format(c('Procopius, <i>Wars</i> I.17.45–48, Loeb ed. Dewing (1914), i.158–59: <span class="gk">βασιλέως ἀξίωμα</span>, “the dignity of king.” <b>Earlier editions of this book printed the honorific <i>patrikios</i> here; Procopius does not use it in this passage, and what he does say is stronger.</b> '+D('0550_Procopius_History_of_the_Wars_I-II_Loeb.pdf')+', 610 pp. The modern treatment: Shahîd, <i>Byzantium and the Arabs in the Sixth Century</i> I.1 (1995); the field now prefers “Jafnid dynasty” to “Ghassanid kingdom” — Fisher (2011, 2018), Genequand &amp; Robin (2015).')),
+ 'The emperor Justinian sets him over “as many clans as possible” of the Saracens of Arabia — Saracens was the Romans’ word for Arabs. He gives him <b>“the dignity of king, a thing which among the Romans had never before been done”</b>. Procopius, a historian of the time who disliked him, writes it down{}.'.format(c('Procopius, <i>Wars</i> I.17.45–48, Loeb ed. Dewing (1914), i.158–59: <span class="gk">βασιλέως ἀξίωμα</span>, “the dignity of king.” <b>Earlier editions of this book printed the honorific <i>patrikios</i> here; Procopius does not use it in this passage, and what he does say is stronger.</b> '+D('0550_Procopius_History_of_the_Wars_I-II_Loeb.pdf')+', 610 pp. The modern treatment: Shahîd, <i>Byzantium and the Arabs in the Sixth Century</i> I.1 (1995); the field now prefers “Jafnid dynasty” to “Ghassanid kingdom” — Fisher (2011, 2018), Genequand &amp; Robin (2015).')),
  f"""
-<p>This is where the family’s line walks out of literature and into history. <b>No contemporary
-Greek, Syriac or Latin source ever uses the word “Ghassanid”</b> — they name individuals, and the
-individuals are real{c('Hoyland’s observation; the scholarly shift from “kingdom” to “dynasty of Byzantine-appointed supreme phylarchs” in Fisher, <i>Between Empires</i> (2011) and Genequand &amp; Robin, <i>Les Jafnides</i> (2015).')}. In 542 al-Ḥārith petitions the empress Theodora and produces the
-consecration of Jacob Baradaeus — the best-attested fact tying the dynasty to the eastern
-church{c('John of Ephesus, <i>Ecclesiastical History</i> and <i>Lives of the Eastern Saints</i>, on the 542 petition and the ordinations of Jacob Baradaeus and Theodore.')}. In 554 he breaks the Lakhmid king at Chalcis. And on the plateau beside Madaba — <i>the
-very plateau the family remembers as its road</i> — a sixth-century church at <b>Nitl</b> carries
-mosaic inscriptions naming <b>“Thaʿlaba, the most illustrious phylarch”</b> and <b>“Arethas son of
-Arethas”</b>: the most important Jafnid-associated
-monument in Jordan — though the identification rests on the names alone, and both readings are partly
-restored. <b>The unambiguous royal inscriptions are in Syria: the Arabic text at Jabal Usays, dated 423 of the era of Bostra — 528 CE — first read and published by the Syrian scholar <b>Muḥammad Abū al-Faraj al-ʿUsh</b>,
-which names al-Ḥārith the king outright, and the tower inscription of al-Mundhir at Ruṣāfa</b>{c('Piccirillo, “The Church of Saint Sergius at Nitl,” <i>Liber Annuus</i> 51 (2001); the al-Mundhir audience hall at Ruṣāfa (562–583) and the Ḥarrān inscription of 568 complete the epigraphic core.')}.</p>
-<p>Then the empire turns. Al-Mundhir is arrested in 581, shipped to Constantinople, and exiled to Sicily on Maurice’s accession in 582; al-Nuʿmān is tried and
-exiled after him; the phylarchate is broken up among many smaller
-phylarchs and, so far as the record shows, never reconstituted under one house{c('Shahîd I.1, 530–563, on the exiles, the dissolution of 582–585 and the restoration of 585–587.')}. <b>In 593–594 the individual names stop appearing in Greek
-altogether.</b> The silence that the chart prints as generation 35 has a start date, and this is
-it{c('Irfan Shahîd, <i>Byzantium and the Arabs in the Sixth Century</i> I.1 (Dumbarton Oaks, 1995), 554–60, for the disappearance of the Jafnid names from Greek after 593/594. <b>Earlier editions of this book credited this to Serikoff (2017), which is a philological note on Greek loanwords and not about the Ghassanids at all.</b>')}.</p>"""),
+<p>This is where our families’ line walks out of stories and into history. <b>No Greek, Syriac or
+Latin source of the time ever uses the word “Ghassanid.”</b> They name individuals, and the
+individuals are real{c('Hoyland’s observation; the scholarly shift from “kingdom” to “dynasty of Byzantine-appointed supreme phylarchs” in Fisher, <i>Between Empires</i> (2011) and Genequand &amp; Robin, <i>Les Jafnides</i> (2015).')}. Scholars now speak of
+the <i>Jafnid</i> dynasty — this ruling family — rather than of a Ghassanid kingdom.</p>
+<p>In 542 al-Ḥārith petitions the empress Theodora, and the result is the consecration of Jacob
+Baradaeus. It is the best-attested fact tying the dynasty to the eastern church{c('John of Ephesus, <i>Ecclesiastical History</i> and <i>Lives of the Eastern Saints</i>, on the 542 petition and the ordinations of Jacob Baradaeus and Theodore.')}. In 554 he defeats the Lakhmid king — leader of
+Persia’s Arab allies — at Chalcis.</p>
+<p>On the plateau beside Madaba — <i>the very plateau our families remember as their road</i> —
+stands a sixth-century church at <b>Nitl</b>. Its mosaic inscriptions name <b>“Thaʿlaba, the most
+illustrious phylarch”</b> and <b>“Arethas son of Arethas”</b>. A <i>phylarch</i> was a tribal ally
+of Rome. This is the most important Jafnid-linked monument in Jordan. But the link rests on the
+names alone, and both readings are partly restored.</p>
+<p><b>The clear royal inscriptions are in Syria.</b> One is the Arabic text at Jabal Usays, dated 423
+of the era of Bostra — 528 CE. It was first read and published by the Syrian scholar <b>Muḥammad Abū
+al-Faraj al-ʿUsh</b>, and it names al-Ḥārith the king outright. The other is the tower inscription of
+al-Mundhir at Ruṣāfa{c('Piccirillo, “The Church of Saint Sergius at Nitl,” <i>Liber Annuus</i> 51 (2001); the al-Mundhir audience hall at Ruṣāfa (562–583) and the Ḥarrān inscription of 568 complete the epigraphic core.')}.</p>
+<p>Then the empire turns. Al-Mundhir is arrested in 581 and shipped to Constantinople. When
+Maurice becomes emperor in 582, he is exiled to Sicily. Al-Nuʿmān is tried and exiled after him.
+The phylarchate — the office of chief ally — is broken up among many smaller phylarchs. So far as
+the record shows, it is never rebuilt under one house{c('Shahîd I.1, 530–563, on the exiles, the dissolution of 582–585 and the restoration of 585–587.')}.</p>
+<p><b>In 593–594 the individual names stop appearing in Greek altogether.</b> Our family chart prints
+a silence as generation 35. That silence has a start date, and this is it{c('Irfan Shahîd, <i>Byzantium and the Arabs in the Sixth Century</i> I.1 (Dumbarton Oaks, 1995), 554–60, for the disappearance of the Jafnid names from Greek after 593/594. <b>Earlier editions of this book credited this to Serikoff (2017), which is a philological note on Greek loanwords and not about the Ghassanids at all.</b>')}.</p>"""),
 
 ent('after 543', 'classical', 'shared', 'The scattering — one catastrophe, five destinies',
- 'The classical genealogists trace the entire dispersal of the Azd to the failing of the dam, and the Arabic language keeps the memory in a proverb still spoken: <b><i>tafarraqū aydī Sabaʾ</i></b> — “they scattered like the people of Sabaʾ.”{}'.format(c('Ibn al-Kalbī and the Azdī pedigree tradition; al-Masʿūdī, <i>Murūj al-dhahab</i>, on the dispersal. Brian Ulrich, <i>Arabs in the Early Islamic Empire</i> (Edinburgh, 2019), 13, 29–31, cautions that the “Scattering of Azd” is itself a literary construction of the eighth to tenth centuries — the tradition’s shape, not necessarily its detail, is what survives scrutiny.')),
+ 'The classical Arab genealogists trace the whole spreading-out of the Azd tribes to the failing of the dam. The Arabic language keeps the memory in a proverb still spoken today: <b><i>tafarraqū aydī Sabaʾ</i></b> — “they scattered like the people of Sabaʾ.”{}'.format(c('Ibn al-Kalbī and the Azdī pedigree tradition; al-Masʿūdī, <i>Murūj al-dhahab</i>, on the dispersal. Brian Ulrich, <i>Arabs in the Early Islamic Empire</i> (Edinburgh, 2019), 13, 29–31, cautions that the “Scattering of Azd” is itself a literary construction of the eighth to tenth centuries — the tradition’s shape, not necessarily its detail, is what survives scrutiny.')),
  f"""
 {fig(F3.fig_scattering(),'“They scattered like the people of Sabaʾ”',
- 'Where the Azd tribes went when the water failed. Each arrow became a famous people: the Khuzāʿa who kept Mecca, the Aws and Khazraj who received the Prophet at Medina and are remembered as the Anṣār, the seafaring Azd of Oman — and, north along the caravan roads to the Roman frontier, Ghassān. The family’s tradition is not an eccentric private claim; it is a branch of the best-known migration story in the Arabic language.',
+ 'Where the Azd tribes went when the water failed. Each arrow became a famous people. The Khuzāʿa kept Mecca. The Aws and Khazraj received the Prophet at Medina and are remembered as the Anṣār, the Helpers. The Azd of Oman took to the sea. And Ghassān went north along the caravan roads to the Roman frontier. Our families’ tradition is not an odd private claim. It is a branch of the best-known migration story in the Arabic language.',
  'Ibn al-Kalbī; al-Masʿūdī; Qurʾān 34:15–19; Ulrich (2019) for the modern caution.')}
-<p><b>This is the moment that makes the family’s story ordinary — in the best sense.</b> A house
-claiming descent from Ghassān is claiming a place in the same dispersal that produced the guardians
-of Mecca and the helpers of Medina. The tradition is shared, ancient, and enormous; what this book
-tests is only the family’s particular thread through it.</p>"""),
+<p><b>This is the moment that makes our families’ story ordinary — in the best sense.</b> A house
+that claims descent from Ghassān claims a place in the same scattering that produced the guardians
+of Mecca and the helpers of Medina. The tradition is shared, ancient and enormous. What we are
+checking is only our own families’ thread through it.</p>"""),
 
 ent('563/4 · 569 → 581/2', 'attested', False, 'The silence starts later than the chart does — two inscriptions',
- '<b>The family’s line stops at al-Ḥārith, who dies in 569. The dynasty’s record does not.</b> Two finds, one of them published this year, carry the Jafnids further than any text does — and both are in Jordan{}.'.format(c('Both were found and published in Jordan, on the plateau and the desert edge the family’s tradition names as its road — not in Syria, where the dynasty’s capitals were.')),
+ '<b>Our families’ line stops at al-Ḥārith, who dies in 569. The dynasty’s record does not.</b> Two finds, one of them published this year, carry the Jafnids further than any written history does. Both are in Jordan{}.'.format(c('Both were found and published in Jordan, on the plateau and the desert edge the family’s tradition names as its road — not in Syria, where the dynasty’s capitals were.')),
  f"""
-<p><b>At Tall al-ʿUmayrī East</b>, on the Balqāʾ plateau near Amman, a three-and-a-half-metre Greek
-mosaic inscription laid in red tesserae names <b>Alamoundaros</b> — al-Mundhir, al-Ḥārith’s son —
-with the titles <i>megaloprepestatos</i> and <i>komes</i>, and invokes the God of Saint Sergius over
-and over. It is dated to about <b>563/4</b>, while his father was still alive{c('George Bevan, Greg Fisher and Denis Genequand, “The Late Antique Church at Tall al-ʿUmayrī East: New Evidence for the Jafnid Family and the Cult of St Sergius in Northern Jordan,” <i>Bulletin of the American Schools of Oriental Research</i> 373 (2015), 49–68. The terminal date of the inscription is lost; the authors place it in al-Ḥārith’s tenure, with al-Mundhir holding an intermediate rank before succeeding about 568/9.')}.</p>
-<p><b>And in 2024 a stone was found in the north-eastern Jordanian ḥarrah</b>, at Wādī al-Shuwayṭī,
-carrying a <b>Paleo-Arabic inscription dated by the regnal year of al-Mundhir the king</b> — “year
-six of the reign of al-Mundhir.” It carries a three-generation genealogy of ordinary men, which is
-what makes it remarkable: <i>not a king’s monument, but somebody counting the years by a Jafnid
-king’s reign, in Arabic, on the desert edge.</i> It was published in 2026{c('Ahmad Al-Jallad, Ali al-Manaser and Greg Fisher, “A Dated Paleo-Arabic Inscription Mentioning al-Mundhir (ʾmndr) the King,” <i>Arabian Archaeology and Epigraphy</i> 70:1 (2026), doi:10.1111/aae.70013. The text is dated to year six of al-Mundhir’s reign, placing it between 569 and his exile in 581/2, and carries the genealogy Zubaydah/Ziyaydah b. ʾhd b. Kuwayṯ; a second text names ʿAlqamah b. ʿAntarat. <b>This is the newest Jafnid epigraphy known and it was published while this book was being written.</b>')}.</p>
-<p><b>What this does to the void.</b> The chart’s last named ancestor still dies in 569. But the
-<i>documentary</i> silence about the dynasty now begins around <b>581/2</b> rather than 569, and the
-Greek narrative sources run to 593/4. <i>The hole in the family’s line and the hole in the record are
-two different holes, and this book has been careless about saying so.</i></p>"""),
+<p><b>The first is at Tall al-ʿUmayrī East</b>, on the Balqāʾ plateau near Amman. There a Greek
+mosaic inscription three and a half metres long, laid in red tesserae (small mosaic stones), names
+<b>Alamoundaros</b> — al-Mundhir, al-Ḥārith’s son. It gives him two Greek titles of rank,
+<i>megaloprepestatos</i> and <i>komes</i>, and calls on the God of Saint Sergius again and again.
+It is dated to about <b>563/4</b>, while his father was still alive{c('George Bevan, Greg Fisher and Denis Genequand, “The Late Antique Church at Tall al-ʿUmayrī East: New Evidence for the Jafnid Family and the Cult of St Sergius in Northern Jordan,” <i>Bulletin of the American Schools of Oriental Research</i> 373 (2015), 49–68. The terminal date of the inscription is lost; the authors place it in al-Ḥārith’s tenure, with al-Mundhir holding an intermediate rank before succeeding about 568/9.')}.</p>
+<p><b>The second is a stone found in 2024 in the north-eastern Jordanian ḥarrah</b>, the stony
+basalt desert, at Wādī al-Shuwayṭī. It carries a <b>Paleo-Arabic inscription dated by the regnal year
+of al-Mundhir the king</b>: “year six of the reign of al-Mundhir.” Paleo-Arabic is Arabic written
+before Islam.</p>
+<p>The stone also carries a family tree of three generations of ordinary men, and that is what makes
+it remarkable. <i>It is not a king’s monument. It is somebody counting the years by a Jafnid king’s
+reign, in Arabic, on the desert edge.</i> It was published in 2026{c('Ahmad Al-Jallad, Ali al-Manaser and Greg Fisher, “A Dated Paleo-Arabic Inscription Mentioning al-Mundhir (ʾmndr) the King,” <i>Arabian Archaeology and Epigraphy</i> 70:1 (2026), doi:10.1111/aae.70013. The text is dated to year six of al-Mundhir’s reign, placing it between 569 and his exile in 581/2, and carries the genealogy Zubaydah/Ziyaydah b. ʾhd b. Kuwayṯ; a second text names ʿAlqamah b. ʿAntarat. <b>This is the newest Jafnid epigraphy known and it was published while this book was being written.</b>')}.</p>
+<p><b>What this does to the gap.</b> The last named ancestor on our chart still dies in 569. But the
+silence <i>in the documents</i> about the dynasty now begins around <b>581/2</b>, not 569. The Greek
+histories run on to 593/4. <i>The hole in our families’ line and the hole in the record are two
+different holes, and we have been careless about saying so.</i></p>"""),
 
 ent('the frontier, in stone', 'attested', False,
-    'WHAT THEY LEFT — a Roman fort, a Ghassanid hall and an Umayyad palace, inside the same walls',
- f'''Everything this book has offered for the Ghassanids so far is <i>writing</i>: Procopius, two
-Sabaic inscriptions, a Greek dedication, an itinerary. <b>There is also a building.</b> At <b>Qaṣr
-al-Ḥallābāt</b>, on the Jordanian steppe, a Roman fort of the <i>limes Arabicus</i> was rebuilt as a
-monastic and Ghassanid complex and then refurbished again as an Umayyad palace — <i>three regimes,
-one set of walls, and no destruction layer between them</i>{c('Ignacio Arce, “Romans, Ghassanids and Umayyads and the Transformation of the <i>Limes Arabicus</i>: from Coercive and Deterrent Diplomacy towards Religious Proselytism and Political Clientelarism,” in Guido Vannini &amp; Michele Nucciotti (eds), <i>La Transgiordania nei secoli XII–XIII e le “frontiere” del Mediterraneo medievale</i>, Limina/Limites 1, BAR International Series 2386 (Oxford: Archaeopress, 2012), ISBN 978-1-4073-0978-1. The article is dedicated to Michele Piccirillo, Svend Helms and Irfan Shahid. '+D('2012_Arce_Romans_Ghassanids_Umayyads_and_the_Limes_Arabicus_BAR_S2386.pdf')+'.')}.''',
+    'What they left — a Roman fort, a Ghassanid hall and an Umayyad palace, inside the same walls',
+ f'''Everything we have offered for the Ghassanids so far is <i>writing</i>: Procopius, two Sabaic
+inscriptions, a Greek dedication, an itinerary. <b>There is also a building.</b> At <b>Qaṣr
+al-Ḥallābāt</b>, on the Jordanian steppe, stands a Roman fort of the <i>limes Arabicus</i>, Rome’s
+defended frontier line in Arabia. It was rebuilt as a monastic and Ghassanid complex. Then it was
+refurbished again as a palace of the Umayyads, the early Islamic rulers. <i>Three regimes, one set
+of walls, and no layer of destruction between them</i>{c('Ignacio Arce, “Romans, Ghassanids and Umayyads and the Transformation of the <i>Limes Arabicus</i>: from Coercive and Deterrent Diplomacy towards Religious Proselytism and Political Clientelarism,” in Guido Vannini &amp; Michele Nucciotti (eds), <i>La Transgiordania nei secoli XII–XIII e le “frontiere” del Mediterraneo medievale</i>, Limina/Limites 1, BAR International Series 2386 (Oxford: Archaeopress, 2012), ISBN 978-1-4073-0978-1. The article is dedicated to Michele Piccirillo, Svend Helms and Irfan Shahid. '+D('2012_Arce_Romans_Ghassanids_Umayyads_and_the_Limes_Arabicus_BAR_S2386.pdf')+'.')}.''',
  f"""
-<p><b>Arce’s argument is about how a frontier stops being a wall.</b> Rome held this line with forts
-and garrisons — coercion, and the threat of it. What replaced that was not collapse but a different
-instrument: <i>client kings, and a shared religion</i>. The Ghassanid phylarchs were paid, titled,
-and made Christian, and the forts they inherited became audience halls and churches. The Umayyads
-then inherited the same buildings and the same method and changed the religion. <b>The physical
-continuity is the argument: the same walls serve three states because the states are doing the same
-job by gentler means each time.</b></p>
-<p><b>And there is a historiographical point in it that this book should say out loud, because it is
-our own problem in someone else’s field.</b> Arce notes that the Ghassanid century has been almost
-invisible in the archaeology — classical archaeologists passed over it as a barbarian takeover of
-Roman ground, even though the takers were Christian Arabs; Islamic archaeologists passed over it as
-the tired last decades before the conquest. <i>It fell between two disciplines and nobody dug it.</i>
-<b>A gap in a record is not always an absence in the world. Sometimes it is an absence of people
-looking</b>{c('Arce, in Vannini &amp; Nucciotti (2012), on the “academic frontier” between classical and Islamic archaeology in Transjordan, and on the excavation and restoration of Qaṣr al-Ḥallābāt directed by the author from 2002. On the same ground: Michele Piccirillo, <i>The Mosaics of Jordan</i> (Amman: ACOR, 1993), for the Nitl church and its Ghassanid dedications.')}. — which is exactly the argument the interlude of this
-book will make about our own nine hundred years.</p>"""),
+<p><b>Arce’s argument is about how a frontier stops being a wall.</b> Ignacio Arce is the
+archaeologist who dug and restored the site. Rome held this line with forts and garrisons — force,
+and the threat of force. What replaced that was not collapse but a different tool: <i>client kings,
+and a shared religion</i>.</p>
+<p>The Ghassanid phylarchs, Rome’s tribal allies, were paid, given titles and made Christian. The
+forts they inherited became audience halls and churches. Then the Umayyads inherited the same
+buildings and the same method, and changed the religion. <b>The unbroken buildings are the argument.
+The same walls serve three states because each state is doing the same job, by gentler means each
+time.</b></p>
+<p><b>There is also a point here about how history gets written. We should say it out loud, because
+it is our own problem in someone else’s field.</b> Arce notes that the Ghassanid century has been
+almost invisible in archaeology. Classical archaeologists passed over it as a barbarian takeover of
+Roman ground, even though the newcomers were Christian Arabs. Islamic archaeologists passed over it
+as the tired last decades before the conquest. <i>It fell between two fields, and nobody dug it.</i></p>
+<p><b>A gap in a record is not always an absence in the world. Sometimes it is an absence of people
+looking</b>{c('Arce, in Vannini &amp; Nucciotti (2012), on the “academic frontier” between classical and Islamic archaeology in Transjordan, and on the excavation and restoration of Qaṣr al-Ḥallābāt directed by the author from 2002. On the same ground: Michele Piccirillo, <i>The Mosaics of Jordan</i> (Amman: ACOR, 1993), for the Nitl church and its Ghassanid dedications.')}. That is exactly what we will argue in
+the interlude about our own nine hundred years.</p>"""),
 ent('the question behind the question', 'attested', False, 'WERE THE GHASSANIDS SOVEREIGN? — and why it is being asked',
  f"""Procopius says Justinian gave al-Ḥārith <b>“the dignity of king”</b> — and that is where a
 modern argument begins, because if the Ghassanids were sovereigns then somebody today might inherit
@@ -1113,51 +1127,53 @@ CH(8)
 
 sect('And in our own line', 'The dynasty’s last century in the record — and then nothing for four hundred years')
 ent('636', 'oral', False, 'Yarmūk — and the story that has no witness',
- 'Jabala ibn al-Ayham is said to have led the Ghassanid contingent, converted, quarrelled with the caliph over a broken nose, and fled to Byzantium. <b>No contemporary source names him at all</b> — the whole story is Abbasid-era literature, written 150 to 550 years later, and scholars read Jabala as semi-legendary{}. <i>The most famous Ghassanid story is the worst-attested claim in this book, and the family should know that before repeating it.</i>'.format(c('Fisher, <i>Rome, Persia, and Arabia</i> (2020): “there are no contemporary sources about Jabala.” The narrative sources are al-Balādhurī (d. 892), al-Ṭabarī (d. 923), and Ibn ʿAsākir (d. 1176).'))),
+ 'The story goes that Jabala ibn al-Ayham led the Ghassanid troops at Yarmūk. He became a Muslim, quarrelled with the caliph over a broken nose, and fled to Byzantium. <b>No source from his own time names him at all.</b> The whole story is literature of the Abbasid era, written 150 to 550 years later, and scholars treat Jabala as half-legendary{}. <i>The most famous Ghassanid story is the worst-attested claim in our whole history, and our families should know that before repeating it.</i>'.format(c('Fisher, <i>Rome, Persia, and Arabia</i> (2020): “there are no contemporary sources about Jabala.” The narrative sources are al-Balādhurī (d. 892), al-Ṭabarī (d. 923), and Ibn ʿAsākir (d. 1176).'))),
 
 ent('684', 'documents', False, 'Marj Rāhiṭ: still a people, forty-eight years on',
- 'At Jābiya, the old Ghassanid capital, a <i>shūrā</i> convened by the <b>Banū Kalb</b> makes Marwān I caliph — and Damascus is secured for him by a Ghassanid nobleman, <b>Yazīd ibn Abī l-Nims</b>{}. Named Ghassanid men — a governor of Mosul, a “leader of the people of Damascus,” a family of scholars — hold office in Damascus into the 830s{}.'.format(
+ 'At Jābiya, the old Ghassanid capital, the <b>Banū Kalb</b> call a <i>shūrā</i> — a council that chooses a leader. It makes Marwān I caliph. A Ghassanid nobleman, <b>Yazīd ibn Abī l-Nims</b>, secures Damascus for him{}. Ghassanid men we can name still hold office in Damascus into the 830s: a governor of Mosul, a “leader of the people of Damascus,” and a family of scholars{}.'.format(
   c('Crone, <i>Slaves on Horses</i> (1980), 34–36; Kennedy, “Syrian Elites from Byzantium to Islam,” in Haldon (2010), 196–198.'),
   c('Khalek, <i>Damascus after the Muslim Conquest</i> (2011), 43–46, 66–67; Madelung, <i>JSAI</i> 24 (2000), 333.'))),
 
 ent('c. 890', 'documents', False, 'al-Yaʿqūbī finds Ghassān — in Transjordan',
- 'The geographer, describing his own present, records the Ghassān living in the Ghūṭa of Damascus <b>and at Gharandal, in Transjordan</b>{} — the last time a geographer describing his own present <i>locates a settled Ghassān population on the ground</i>. <b>It is on the very plateau the family remembers as its road.</b>'.format(c('al-Yaʿqūbī (d. 897), cited in Kennedy (2010), 198. Gharandal (Arindela) lies on the plateau south of Karak.')),
+ 'The geographer al-Yaʿqūbī, describing the world of his own day, records the Ghassān living in the Ghūṭa, the farmland of Damascus, <b>and at Gharandal, in Transjordan</b>{}. It is the last time a geographer describing his own present <i>places a settled Ghassān population on the ground</i>. <b>And it is on the very plateau our families remember as their road.</b>'.format(c('al-Yaʿqūbī (d. 897), cited in Kennedy (2010), 198. Gharandal (Arindela) lies on the plateau south of Karak.')),
  """
-<p>Three hundred and twenty-one years after al-Ḥārith’s death, and two hundred and ninety-six
-after the Greek sources stopped saying the word at all, a Muslim geographer writing in
-Arabic still knows where the Ghassān live — and one of the two places he gives is the southern
-Transjordanian plateau. <b>That single sentence shortens the documentary silence by three
-centuries</b>, from roughly nine hundred years to about six hundred and ten, and it puts the family's
-claimed people on the exact ground the family's own migration story starts from.</p>
-<p><i>It is not a chain of fathers, and this book will not pretend otherwise. It is something more
-modest and more useful: evidence that the population the tradition names was still there, still
-named, and still in the right place, long after the kingdom that made it famous had gone.</i></p>"""),
+<p>This is three hundred and twenty-one years after al-Ḥārith’s death, and two hundred and
+ninety-six after the Greek sources stopped saying the word at all. Yet a Muslim geographer writing
+in Arabic still knows where the Ghassān live. One of the two places he gives is the southern
+Transjordanian plateau.</p>
+<p><b>That single sentence shortens the silence in the documents by three centuries</b>, from roughly
+nine hundred years to about six hundred and ten. And it puts the people our families claim on the
+exact ground where our own migration story starts.</p>
+<p><i>It is not a chain of fathers, and we will not pretend otherwise. It is something more modest
+and more useful. It shows that the people the tradition names were still there, still named, and
+still in the right place, long after the kingdom that made them famous had gone.</i></p>"""),
 
 sect('What the ground says', 'Meanwhile on this ridge, the Christian villages go on being Christian villages')
 ent('c. 550 → 750', 'attested', False,
-    'THE TOWNS DO NOT DIE — Pella, Jarash and ʿAmmān across the conquest',
- f'''This era’s claim — <i>the conquest changes the rulers, not the people</i> — has so far been carried
-by argument. <b>It can be carried by excavation.</b> Across the river, at <b>Pella</b>, <b>Jarash</b>
-and <b>ʿAmmān</b>, the two centuries either side of 636 show occupation, markets, building and
-church repair running straight through the conquest, with no destruction horizon and no
-abandonment{c('Alan Walmsley, “Pella, Jarash and ʿAmman: Old and New in the Crossing to Arabia, ca. 550–750 C.E.” The paper opens from the Nessana papyri — the administrator of Nessana, in the <i>kūra</i> of Ghazza within <i>jund Filasṭīn</i>, receiving a requisition for two camels and two drovers about 685 — and works east into the highland towns of Jordan. '+D('19xx_Walmsley_Pella_Jarash_and_Amman_550-750_CE.pdf')+' <b>The offprint carries no year of publication; this book therefore prints none.</b>')}. <i>The names of the governors change on the documents. The
+    'The towns do not die — Pella, Jarash and ʿAmmān across the conquest',
+ f'''Our main claim for this era is that <i>the conquest changes the rulers, not the people</i>. So
+far it has rested on argument. <b>Excavation can carry it too.</b> Across the Jordan river, at
+<b>Pella</b>, <b>Jarash</b> and <b>ʿAmmān</b>, the two centuries either side of 636 show people
+living, trading, building and repairing churches straight through the conquest. There is no layer of
+destruction and no abandonment{c('Alan Walmsley, “Pella, Jarash and ʿAmman: Old and New in the Crossing to Arabia, ca. 550–750 C.E.” The paper opens from the Nessana papyri — the administrator of Nessana, in the <i>kūra</i> of Ghazza within <i>jund Filasṭīn</i>, receiving a requisition for two camels and two drovers about 685 — and works east into the highland towns of Jordan. '+D('19xx_Walmsley_Pella_Jarash_and_Amman_550-750_CE.pdf')+' <b>The offprint carries no year of publication; this book therefore prints none.</b>')}. <i>The names of the governors change on the documents. The
 pottery does not change at all.</i>''',
  f"""
-<p><b>This matters here for one specific reason.</b> The family’s tradition puts its ancestors on the
-Transjordanian plateau — Karak, Shawbak, the country these three towns anchor — for exactly the
-centuries when the standard story says the region emptied out. <b>It did not empty out.</b> The
-excavation of the towns says the population stayed, kept trading, kept worshipping, and simply
-acquired new rulers, which is the same thing this book argues happened on this ridge and for the same
+<p><b>This matters here for one specific reason.</b> Our families’ tradition puts our ancestors on
+the Transjordanian plateau — Karak, Shawbak, the country these three towns anchor. It puts them there
+in exactly the centuries when the usual story says the region emptied out. <b>It did not empty
+out.</b></p>
+<p>The digging in these towns shows that the people stayed. They kept trading, kept worshipping, and
+simply got new rulers. We argue that the same thing happened on our own ridge, for the same
 reasons.</p>
-<p><i>What it does not do is find anybody of ours.</i> Continuity of settlement is not continuity of
-a family, and no name from any of these three towns is ours. It removes an objection rather than
-supplying a proof: <b>nobody can now say the plateau was empty when the tradition says our people
-were on it.</b></p>"""),
+<p><i>What it does not do is find anybody of ours.</i> A place that goes on being lived in is not the
+same as a family that goes on, and no name from any of these three towns is ours. The finding removes
+an objection; it does not supply a proof. <b>Nobody can now say the plateau was empty when the
+tradition says our people were on it.</b></p>"""),
 ent('1058', 'documents', False, 'A village church is rebuilt at ʿAbūd — dated, inside the silence',
- 'About eighteen kilometres north-west of the future Ramallah, the church at <b>ʿAbūd</b> is rebuilt, and the work is dated{}. <i>Nothing in the family record covers this year. The hills do.</i>'.format(c('The rebuilding of the church at ʿAbūd, dated 1058, among the dated Christian records of these hills between the seventh and sixteenth centuries; Hamdan Taha\u2019s work at \u02bfAb\u016bd. See the bibliography, \u00a7XXIX.'))),
+ 'About eighteen kilometres north-west of the future Ramallah, the church at <b>ʿAbūd</b> is rebuilt, and the work is dated{}. <i>Nothing in our families’ record covers this year. The hills do.</i>'.format(c('The rebuilding of the church at ʿAbūd, dated 1058, among the dated Christian records of these hills between the seventh and sixteenth centuries; Hamdan Taha\u2019s work at \u02bfAb\u016bd. See the bibliography, \u00a7XXIX.'))),
 
 E[-1] = E[-1][:7] + (E[-1][7] + fig(F5.fig_rulers_traces(), 'Who ruled, and who stayed, 636–1517',
- 'Seven dynasties pass over these hills in nine centuries. Underneath them runs one line that never breaks: the Christian villages of the ridge, leaving a dated trace in every one of those dynasties. In 1186, under the Franks, the name Ramallah is written down for the first time.',
+ 'Seven dynasties pass over these hills in nine centuries. Underneath them runs one line that never breaks: the Christian villages of the ridge. They leave a dated trace under every one of those dynasties. In 1186, under the Franks, the name Ramallah is written down for the first time.',
  'The traces as cited in this chapter and the next: Taha at ʿAbūd; the cartulary of the Holy Sepulchre; Strehlke no. 20; Thietmar; sijill 48 p. 88; the Ḥaram documents.'),)
 CH(9)
 
