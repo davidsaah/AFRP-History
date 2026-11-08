@@ -1,5 +1,30 @@
 # Changelog
 
+## v63 — 7 November 2026
+
+### Story first, evidence second (structure only)
+
+David chose option B. All 96 entries are moved and none is reworded.
+- **Part One, "The Story of Ramallah":** ten chapters in date order, from the
+  land before 1200 BC to the city today.
+- **Part Two, "How We Know":** four sections:
+  - the Ghassān story, tested;
+  - the missing centuries;
+  - Karak, the charts and the registers;
+  - what is proven.
+- **What changed besides the order:**
+  - The old "What the ground says" and "And in our own line" signposts are
+    dropped.
+  - Chapter-head photographs and the "Where our own line stands" strips follow
+    their entries. Five strips that repeated "nothing datable" have no chapter
+    now.
+- **Not done yet.** Some entries still say "the entry above" or "this era"
+  about their old neighbours. That is fixed in the rewrite, chapter by chapter,
+  following `STYLE_GUIDE` (in the project files).
+- **How it works:** `_ORDER` in `src/build_v5.py` lists each chapter's
+  entries by the start of their titles. The build stops if any entry is missed
+  or matched twice.
+
 ## v61.2 — 7 November 2026
 
 ### The municipal election of 1946
