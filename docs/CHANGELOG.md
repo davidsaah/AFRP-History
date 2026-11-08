@@ -1,5 +1,64 @@
 # Changelog
 
+## v62 — 7 November 2026
+
+### The story first, the evidence second, in one voice
+
+David asked for the book to be put in date order and written in one
+educational voice throughout, with every map, diagram and photograph kept.
+
+**The new shape.**
+- **Part One, "The Story of Ramallah"**, has ten chapters in date order:
+  1. The land before us (to 800 BC)
+  2. Empires on the ridge (800 BC – AD 324)
+  3. A Christian countryside, and the Ghassān story (324–1099)
+  4. Crusaders and Mamluks: the name appears (1099–1517)
+  5. Karak, Bayt Jālā and the road to Ramallah (1517–1562)
+  6. The founding families (1562–1834)
+  7. Churches, schools and the wider world (1834–1900)
+  8. Emigration and the Mandate (1901–1947)
+  9. 1948 and after (1948–1967)
+  10. Ramallah today (1967 to now)
+- **Part Two, "How We Know"**, gathers the argument behind the story:
+  - the Ghassān tradition, tested;
+  - the missing centuries;
+  - Karak and the Ḥaddādīn;
+  - what is proven.
+- **How the placement works.** A table (`NEW_CHAPTERS` in `src/build_v5.py`)
+  places every entry and asserts that each one is placed exactly once. The
+  "what the ground says" and "in our own line" waymarks are retired, because
+  the date order now carries both threads together.
+
+**One voice.** `docs/STYLE.md` sets it. Every entry, caption and correction
+box is rewritten to match:
+- warm and plain, in "we" and "our families";
+- terms explained on first use;
+- sentence-case titles;
+- doubt said in plain words.
+
+Every fact, number, date, quotation and note is kept, and nothing new is
+claimed. A few short glosses were added where the style guide asks for a term
+to be explained. The citation notes are unchanged. "How to read this book"
+and the preface now describe the two parts.
+
+**Kept.** All 41 figures, 50 photographs and source pages, 16 tables, 43
+correction boxes and 271 notes.
+
+**For the authors to check.** These were flagged during the rewrite and left
+as they were:
+- "A man walked this road" says "eight lands between them" and then "seven
+  other territories". Seven is right.
+- In the population chart, the caption calls the 1967 dip emigration, but the
+  entry says it is not simply emigration.
+- "The first villages": ʿAin Samiya is 15 km in the text but about 13 km in
+  its note.
+- The ridge-and-plateau entry says "continuously Christian", while the Schick
+  box above it argues for a break.
+- The Federation's convention numbers don't fit together: if 1959 was the
+  first, the sixty-third falls in 2021, not 2022.
+- Several glosses are worth a second look: madāfa, qaṣr, diwan and the
+  Lakhmid kings.
+
 ## v61.2 — 7 November 2026
 
 ### The municipal election of 1946

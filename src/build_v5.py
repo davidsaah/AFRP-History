@@ -528,8 +528,7 @@ early fruit in May and June, the figs and the grapes from July through September
 October and November. <i>For seven months of the year, somebody from the household is sleeping out
 on the land.</i> Men built the huts together, several to a tower, and the owner of the ground fed
 them while they built it{c('Ghadban (2015), 40 and 43, on the three harvest seasons — “early fruit and grain harvest… May and June,” “figs and grape-vines… July through September,” “olive harvesting… October and November” — and on cooperative building: “peasants would mostly collaborate in building the structures,” with the owner providing food. Also Ghadban, “The Architecture of the Palestinian Dry-Stone Hut — Al-mantarah,” <i>Journal of Comparative Cultural Studies in Architecture</i> 6 (2012), 16–25.')}.</p>
-<p><b>This is the district’s own technology. It is the only thing in this chapter that our own
-ancestors certainly made with their hands.</b> Patrons built the churches. Clerks wrote the
+<p><b>This is the district’s own technology. It is the only thing in this part of our story that our own ancestors certainly made with their hands.</b> Patrons built the churches. Clerks wrote the
 registers. The armies belonged to somebody else. The terraces were built by whoever was going to eat
 from them. They are still there, and people are still eating from them.</p>
 <p><i>They are also disappearing.</i> Ghadban’s parallel survey of the walls themselves found
@@ -1355,13 +1354,12 @@ generations.”</b></p>
 thirty-six rows, because it draws the gap as a single row. Open the gap out to the thirty-one
 generations the arithmetic needs, and the line from Adam to Rāshid is <b>sixty-six generations, not
 thirty-six</b>. That is thirty-four down to al-Ḥārith, thirty-one across the gap, and Rāshid at
-sixty-six. <i>The ladder of generations in every era strip of the book is now drawn on that
-count.</i></p>
+sixty-six. <i>The ladder of generations in the strip that opens each chapter is now drawn on that count.</i></p>
 <p>Of those thirty-one, <b>thirty have no name of any kind</b>. <b>One does.</b> The last of them,
 generation sixty-five, is <b>Ṣaqr</b>, Rāshid’s father, named on the Karak wheel. <i>Only one witness
 names him, so the ladder draws him in a broken outline.</i> Our own chart gives another reading:
 Rāshid bin ʿĪsā bin ʿIyād bin Ḍahdūḥa. That would fill generations sixty-three to sixty-five instead,
-and it is set out two eras on. <b>Either way the count is sixty-six.</b> The only difference is how
+and it is set out later in the book. <b>Either way the count is sixty-six.</b> The only difference is how
 many of the last three places carry a name.</p>
 <div class="ntwrap"><div class="nthead">The line, counted again</div>
 <table class="ntable"><tr><th>generations</th><th>who</th><th>what carries them</th></tr>
@@ -2183,8 +2181,7 @@ sentence:
 <i>“After the rebellion of 1834, twenty-six men were taken to Egypt and put into the public works,
 whence they have never returned. Not long since, one of their two priests went to Egypt to look
 after them, and died there.”</i>{c('Edward Robinson and Eli Smith, <i>Biblical Researches in Palestine, Mount Sinai and Arabia Petræa: A Journal of Travels in the Year 1838</i>, vol. III (Boston: Crocker &amp; Brewster; London: John Murray, <b>1841</b>), pp. 78–79. Robinson spells the village <i>Jufna</i>. <b>Cite the 1841 edition: the 1856 second edition renumbers the volumes and this material sits elsewhere.</b> Robinson gives no motive, no accusation and no trial, and he does not describe a rising at Jifnā — the deportation follows the general rebellion. Jifnā’s connection to it is administrative: the village belonged to the northern Banī Ḥārith, whose paramount shaykh Ismāʿīl Simḥān was executed by Ibrāhīm Pasha in the same year.')}</p>
-<p><b>Read that carefully. Four hours before we wrote this, we had it wrong ourselves, and the
-error is everywhere.</b> The version in general circulation says twenty-six men were <i>exiled for
+<p><b>Read that carefully. We had it wrong ourselves until we read it, and the error is everywhere.</b> The version in general circulation says twenty-six men were <i>exiled for
 their alleged participation</i>, and that <i>two priests joined them voluntarily</i>. <b>Neither is
 in Robinson.</b></p>
 <p>The men were <i>put into the public works</i>. That means they were taken for forced labour, not
@@ -3749,8 +3746,7 @@ correction to that chart in this book is a correction the co-authors make to the
 <p><b>And the chart’s count is corrected here for the first time.</b> Its generation 35 draws
 nine hundred and thirty-one years as a single line. That stretch is about <b>thirty-one</b>
 generations, so the line from Adam to Rāshid is <b>sixty-six generations, not thirty-six</b> —
-thirty-six of them named, thirty with no name at all. <i>The ladder in every era strip is drawn on
-that count.</i></p>
+thirty-six of them named, thirty with no name at all. <i>The ladder in the strip that opens each chapter is drawn on that count.</i></p>
 <p><b>How the generations are numbered — two numbers, and they are not the same.</b>
 <b>The chart's number</b> counts its own thirty-six rows, one of which is a nine-hundred-year void
 drawn as a single line. <b>This book's number</b> counts generations: <b>sixty-six</b> from Adam and
