@@ -3152,6 +3152,7 @@ body{margin:0;background:#FFFAF0;color:#1A1A1A;
 .pbar i{display:block;height:100%;width:0;background:#B98A4E}
 
 header.masthead{background:#FFFAF0;border-bottom:1px solid #DCD6C9;padding:26px 0 34px}
+.updated{margin:0 0 6px;font-size:.88rem;font-weight:700;color:#007a3d;letter-spacing:.04em}
 .mastrow{display:flex;justify-content:space-between;align-items:baseline;
   font:11px/1.4 "Times New Roman",Times,serif;letter-spacing:.22em;text-transform:uppercase}
 .mastrow .l{color:#B98A4E;font-weight:700}
@@ -4060,8 +4061,12 @@ TEST_SECTION = (
    'making a different kind of claim from one that does not.</p>'
  '</div>')
 
+import datetime as _dt
+_TODAY = _dt.date.today()
+LAST_UPDATED = f'{_TODAY.day} {_TODAY:%B %Y}'
 html_parts = ['<div class="pbar"><i></i></div>',
 f"""<header class="masthead"><div class="wrap">
+<p class="updated">Last updated {LAST_UPDATED}</p>
 <div class="mastrow"><span class="l">The Ramallah Family Tree Book</span>
 <span class="r">The Roots of Ramallah &middot; fifth edition</span></div>
 <hr class="mastrule">
