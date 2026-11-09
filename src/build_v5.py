@@ -796,8 +796,7 @@ centuries these hills were Christian, and in the next chapter we show it happene
 replacement</b>. The people who watched the pilgrims pass in AD 30, and the legions pass in AD 69, are
 the people who were still on this ridge when sixty-three Christian households and eight single men walked up it in 1562.</p>
 <p><b>What we still don’t know.</b> We cannot yet name anyone who lived on Ramallah’s own hill in
-these centuries, because no text names a soul there. We don’t know the source of the
-southern-European-related ancestry the Philistines brought. The date of the first sanctuary on Mount
+these centuries, because no text names a soul there. The date of the first sanctuary on Mount
 Gerizim is still disputed, and so is when the Samaritans finally parted from Judaism. If you know of a
 record that speaks to any of these, we would like to hear from you.</p>"""),
 
@@ -1168,9 +1167,7 @@ ent('1058', 'documents', False, 'A village church is rebuilt at ʿAbūd',
  """
 <p><b>What we still don’t know.</b> We have no chain of fathers between al-Ḥārith, who died in 569,
 and the Ghassān that al-Yaʿqūbī found at Gharandal, and no name from Pella, Jarash or ʿAmmān is ours.
-The story of Jabala ibn al-Ayham at the Yarmūk has no witness from its own time. The last dated
-repair of the dam at Maʾrib is from 557/558, and nothing fixes when it finally failed. Much of the
-Ghassanid century on the Jordanian steppe was passed over, and nobody dug it. If you know of an
+The story of Jabala ibn al-Ayham at the Yarmūk has no witness from its own time. If you know of an
 inscription, a manuscript or a site from these centuries, you may hold part of the answer.</p>"""),
 
 E[-1] = E[-1][:7] + (E[-1][7] + fig(F5.fig_rulers_traces(), 'Who ruled, and who stayed, 636–1517',
@@ -3841,6 +3838,7 @@ def render():
                                  f'<span class="sp">{w["pub"]}</span>'
                                  f'<span class="sl2">{w["line"]}</span></li>' for w in SCHOLARS[str(num)])
                        + '</ul><p class="sfoot">Full details in <a href="#appA">the bibliography</a>.</p></div>')
+        open_q += WWSDK_EXTRA.get(num, [])
         if open_q:
             out.append('<div class="wwsdk"><h4>What we still don’t know</h4>'
                        + ''.join(f'<p>{q}</p>' for q in open_q) + '</div>')
@@ -3849,6 +3847,22 @@ import json as _json
 # v66: each chapter's reading list, chosen from the annotated bibliography
 _SCH = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'scholars.json')
 SCHOLARS = _json.load(open(_SCH, encoding='utf-8')) if os.path.exists(_SCH) else {}
+# v68: the three chapters whose entries carried no "What we still don't know" paragraph
+WWSDK_EXTRA = {
+ 2: ['We don’t know the source of the southern-European-related ancestry the Philistines brought. '
+     'No excavation has found an Iron Age village on Ramallah’s own hill, and the nearest, Khirbet Raddana '
+     'in al-Bīra, has since been built over, so we may never know whether anyone lived on our ridge in these '
+     'centuries. If you know of a record or a dig that speaks to either, we would like to hear from you.'],
+ 4: ['We don’t know where the water called Ghassān really was: the old scholars give four places for it, '
+     'and they cannot all be right. We don’t know what became of al-Ḥārith’s family after the Greek writers '
+     'stop naming them in 593–594. The last dated repair of the dam at Maʾrib is from 557/558, and nothing '
+     'fixes when it finally failed. Much of the Ghassanid century on the Jordanian steppe was passed over, '
+     'and nobody dug it. If you know of an inscription, a manuscript or a site from these centuries, we would '
+     'like to hear from you.'],
+ 8: ['We don’t yet know what lay behind the ʿAzzouz incident of 1820, or which eight villages took the town '
+     'in. We cannot yet name the first families of each clan in the parish records before 1700. If your family '
+     'kept papers from these years, they may hold the answer.'],
+}
 WWSDK_RE = re.compile(r'<p><b>What we still don’t know\.</b>\s*(.*?)</p>', re.S)
 
 CONTENTS = ('<a class="tocbtn" href="#toc" aria-label="Jump to the list of chapters">Chapters</a>'
