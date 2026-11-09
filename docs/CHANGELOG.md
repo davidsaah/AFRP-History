@@ -1,5 +1,15 @@
 # Changelog
 
+## v67 — 9 November 2026
+
+- **Evidence halves for chapters 9, 11 and 12.** No new text. Three existing entries move from the story to the chapter's evidence half, because each one reads a source rather than tells an event:
+  - chapter 9: "The twin town and the Rafeedie family" (the Rafīdiyā tradition, as Ḥammūdeh reports it, and its limits);
+  - chapter 11: "Our first history, written in New York" (Kaddoura's 1954 history);
+  - chapter 12: "Shāhīn closes the record" (Shāhīn's 1982 history).
+- **Build:** the figure restore step now lives in the repo as `tools/restore_svg.py`. It takes the v60 drawings from git commit 9bcad59, matched by figure title, and keeps Figure 27 as drawn. Full build:
+  `python build.py && python3 tools/restore_svg.py && python3 src/post_restore_fixes.py out/AFRP_The_One_Line_v5.html && python3 src/restyle.py out/AFRP_The_One_Line_v5.html`.
+  Checked: on main it reproduces the published file exactly, apart from the "Last updated" date and random clip-path ids.
+
 ## v64.1 — 8 November 2026
 
 ### Twelve consistency fixes (approved by David)
