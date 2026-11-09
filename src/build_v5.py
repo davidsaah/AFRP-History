@@ -3859,9 +3859,10 @@ WWSDK_EXTRA = {
      'fixes when it finally failed. Much of the Ghassanid century on the Jordanian steppe was passed over, '
      'and nobody dug it. If you know of an inscription, a manuscript or a site from these centuries, we would '
      'like to hear from you.'],
- 8: ['We don’t yet know what lay behind the ʿAzzouz incident of 1820, or which eight villages took the town '
-     'in. We cannot yet name the first families of each clan in the parish records before 1700. If your family '
-     'kept papers from these years, they may hold the answer.'],
+ 8: ['We cannot yet name the first families of each clan in the parish records before 1700, and we know '
+     'little of the town between the boundary case of 1565 and the early 1800s. The written accounts of 1820 '
+     'do not agree on whose feud it was: Shahin (1982) says the Shakara, Shaheen (1992, 2005) the Sharaka. '
+     'If your family kept papers from these years, they may hold the answer.'],
 }
 WWSDK_RE = re.compile(r'<p><b>What we still don’t know\.</b>\s*(.*?)</p>', re.S)
 
