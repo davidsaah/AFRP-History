@@ -31,8 +31,8 @@ ROWS = [
   'A precise economic datum from a century the project had almost nothing for — and <b>the detail that the teaching was in Arabic <i>and Greek</i></b> speaks directly to the Rūm Orthodox character of the town. Cross-check against <i>Analekta</i> II.'),
  (1807, 'Fr Mitry Elias Kassees builds the first Greek Orthodox church, near the present bus station.', 'confirmed',
   'The presentation says the 1852 church replaced “an earlier building of the early nineteenth century.” <b>Shāhīn names that earlier building, its builder and its site.</b> The vague sentence in the deck can now be replaced with a fact.'),
- (1820, 'Several men of the ʿAzzouz family killed in a feud within the Sharaka clan.', 'untested',
-  'No documentary trace found. Inter-clan feud detail of this kind rarely reaches the registers; keep it as family memory, attributed to Shāhīn.'),
+ (1820, 'Several men of the ʿAzzouz family killed in a feud within the Sharaka clan.', 'refined',
+  '<b>The fuller account says Shakara, not Sharaka.</b> Shāhīn (1982), pp. 33–34, following Kaddoura (1954), p. 59, says the quarrel was among the Shakara themselves (<span class="ar">آل الشقرة انفسهم</span>), the one clan that held with the Yaman, and that ten-odd men were killed (<span class="ar">بضعة عشر رجلا</span>). Shaheen (1992, 2005) prints Sharaka. The town scattered to eight villages and was home again within the year. No documentary trace has been found; feud detail of this kind rarely reaches the registers, so it stays family memory, with both spellings named.'),
  (1834, 'Ibrāhīm Pasha of Egypt occupies Ramallah without resistance.', 'confirmed',
   'Agrees with the documented 1834 revolt against Ibrāhīm Pasha and the defeat of the district’s shaykhs. <b>“Without resistance” is the new element</b> and is consistent with Ramallah not being a throne village.'),
  (1838, 'Robinson and Smith visit and estimate the population at 800–900.', 'confirmed',
@@ -87,7 +87,7 @@ ROWS = [
   'Agrees with the reconstruction: the town kept its houses and lost its hinterland, and the camps follow from 1949.'),
  (1951, 'The Summer Resorts Co., with both municipalities, brings water from ʿAin Fara.', 'new', 'New.'),
  (1958, 'The American Ramallah Federation is incorporated in Detroit, Michigan.', 'conflict',
-  '<b>The deck says the Federation was founded by recent immigrants in 1952 and formally federated in Detroit on 7 September 1959.</b> Shāhīn says incorporated in Detroit in 1958. These may be three stages of one process — founding, incorporation, federation — but as printed they conflict. <b>The AFRP’s own records settle this in an afternoon, and the AFRP is the publisher of the book.</b>'),
+  '<b>The deck says the Federation was founded by recent immigrants in 1952 and formally federated in Detroit on 7 September 1959.</b> Shāhīn’s chronology says incorporated in Detroit in 1958. <b>We now read this line as 1959.</b> Shaheen (2005), p. 354: “The Federation was incorporated in the state of Michigan in 1959.” The Federation’s own pages give 1959 for the decision and the first convention, and its roster of conventions begins “1959 Detroit.” No other source we have read gives 1958. The Michigan filing itself has not yet been seen.'),
  (1963, '20 May: the Ramallah New Hospital opens.', 'new', 'New.'),
 ]
 
@@ -249,8 +249,8 @@ to either faction and declines to assert one. <b>Shāhīn assigns it: Ramallah w
 headquarters in the fighting of 1844.</b> The deck’s sentence is now false as written. It should
 become: <i>one source, the family’s own historian, places Ramallah with the Qays.</i></p>
 <p><b>4. The Federation’s founding date needs settling.</b> Deck: founded 1952, federated in Detroit
-7 September 1959. Shāhīn: incorporated in Detroit 1958. Probably three stages of one process — but
-the AFRP publishes this book and holds the records.</p>
+7 September 1959. Shāhīn’s chronology: incorporated in Detroit 1958. Shaheen (2005), p. 354, and the
+Federation’s own pages say 1959, and we now follow them. The Michigan filing is still to be seen.</p>
 </div>
 
 <h3>And what Shāhīn hands us for free</h3>
