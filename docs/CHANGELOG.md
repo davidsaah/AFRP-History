@@ -1,5 +1,18 @@
 # Changelog
 
+## v70 — 10 November 2026
+
+### The accepted additions from the deep research (A1 to A40)
+
+Thirty-three new paragraphs, each with its source named, appended to the entry it belongs to. They are held in the `ADD70` table in `src/build_v5.py`, keyed by entry title. Items read only in extract say so in the note.
+
+- Chapters 1 to 5: A1 Khirbet Raddana; A2 Eusebius's two distances; A4 Abraha's repair by month; A5 after al-Mundhir; A6 Ghassān after the conquest, a name without a stated faith.
+- Chapters 6 and 7: A7 and A8 the register of 1531–32 and a town with no lord; A9 the Hebron endowment at Karak; A10 the Jordanian reading of 1596 (in the A9 note); A11 "they went back and forth" (David, 10 November); A12 the second Kasābra and Ḥijāz ibn Ḥusayn; A13 the sons of Ḥadīd and Shuqayr, 1604–05; A14 the boundaries of 1565.
+- Chapters 8 and 9: A15 the ʿAzzouz incident in full; A16 the local chronicle of the faction wars; A17 Jabal al-Quds; A18 the ḥōsh, the madāfa and Karm ʿAlī; A19 why 1600 to 1800 is blank; A20 the Friends' schools; A21 the town about 1875; A22 the two meanings of qaṣr; A23 the Rafeedie at al-Bīra.
+- Chapter 10: A24 to A26 and A33 the revolt (1936, the months around the battle, the names of the dead, the army's word); A27 the missing men were Christian men; A28 what the town lived on; A29 women's societies, paid embroidery and dress; A30 the quarrel behind the 1946 election; A32 the priests' meeting of 30 August 1932; A37 Radio Ramallah after 1948.
+- Chapters 11 and 12: A34 al-Jalazūn's first years; A35 the twin towns in 1967; A36 the mayors under occupation; A38 the lions of al-Manāra; A39 the Rāshid al-Ḥaddādīn monument; A40 refugees and the town since.
+- Already in the book, so nothing added: A3 (the places of the water) and A31 (the radio opening of 1936).
+
 ## v69 — 10 November 2026
 
 ### The story check: corrections from the deep research of 10 November
