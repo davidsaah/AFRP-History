@@ -1409,7 +1409,7 @@ This is the highest-value half-hour available to the project, and everything in 
 reconciliation depends on it.</li>
 <li><strong>Open al-Bakhīt and al-Sawāriyya’s published Jerusalem registers, volume four.</strong>
 They print taxpayers by name. Do the Christian household heads at Ramallah in 1562 carry the clan
-names?{c('Muḥammad ʿAdnān al-Bakhīt and Nūfān Rajā al-Sawāriyya (eds.), <em>Daftar mufaṣṣal liwāʾ al-Quds al-sharīf</em>, 6 vols. (London: al-Furqān, 2005–11). Volume 4, ISBN 9781788146395, about £30 — the cheapest decisive item in the whole project.')} <em>Settles the founding.</em></li>
+names?{c('Muḥammad ʿAdnān al-Bakhīt and Nūfān Rajā al-Sawāriyya (eds.), <em>Daftar mufaṣṣal liwāʾ al-Quds al-sharīf</em>, 6 vols. (London: al-Furqān, 2005–11). Volume 4, ISBN 9781788146395, about £30 — the cheapest decisive item in the whole project. An earlier note in our library numbers the volumes differently (T.D. 516 as volume 5, and the 1596 register, T.D. 515, as volume 6); check the publisher’s page before buying.')} <em>Settles the founding.</em></li>
 <li><strong>Then the Karak side.</strong> The ʿAjlūn defter of the same year, published in Amman in
 1989. Are there Ḥaddādīn households at Karak or Maʿīn? <em>Settles the crossing.</em></li>
 <li><strong>Then the other twenty-two IRCICA volumes</strong>, and Yāqūt’s Jerusalem-district village

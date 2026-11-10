@@ -1,5 +1,19 @@
 # Changelog
 
+## v69 — 10 November 2026
+
+### The story check: corrections from the deep research of 10 November
+
+David delegated the rulings ("answer the questions using a Palestinian bias from the literature with proper academic inference when needed"). Rule set: Palestinian and Arab sources decide; where two disagree, both are printed by name; Israeli authors never drive a change and are marked; inference is labelled. Numbers are those of the report *Ramallah history gaps and story check*.
+
+**New correction boxes (8):** C11 the Maʾrib dam (620 to 680 m, sixth century BC, about a thousand years); C27 the hill before the family (first Christians to stay, not first to stay); C29 "in the registers from 1553–54"; C32 the court entry of 22 June 1565 (Ḥammūdeh: 29 June), one entry, deed shown in court; C39 three shaykhs put to death in 1834; C45 and C46 two fights in 1938 and the range of the dead; C58 Kaddoura mayor 1943–47.
+
+**Changed in place, with the source named:** C1, C3, C4, C5, C6a–b, C8, C9, C10, C12 (Israeli-author marks: Finkelstein, Agranat-Tamir, Magen, Roll), C13, C15a–c and e, C16, C17, C19, C20, C21, C23, C24, C25, C26, C30, C33, C34, C35, C36, C37, C38, C40, C41b–c, C42, C43, C44, C47a, C48, C49, C50, C51, C52, C54, C55, C56 (the chronology test now reads 1959), C57a–b, C59, C60.
+
+**Not changed, after checking the book's own notes:** C6c (al-Dabbāgh is the source), C7 (Ghadban 2015 is the source), C15d (already given to Pliny), C18 (Nebes 2004 is the source), C41a and C41d (the notes already cover them). C2 is a wording change only.
+
+**Held for David or for a page still to be read:** C14, C22, C28, C31, C47b, C53, C57c.
+
 ## v67 — 9 November 2026
 
 - **Evidence halves for chapters 9, 11 and 12.** No new text. Three existing entries move from the story to the chapter's evidence half, because each one reads a source rather than tells an event:
