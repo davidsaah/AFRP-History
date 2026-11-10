@@ -25,7 +25,9 @@ David delegated the rulings ("answer the questions using a Palestinian bias from
 
 **Not changed, after checking the book's own notes:** C6c (al-Dabbāgh is the source), C7 (Ghadban 2015 is the source), C15d (already given to Pliny), C18 (Nebes 2004 is the source), C41a and C41d (the notes already cover them). C2 is a wording change only.
 
-**Held for David or for a page still to be read:** C14, C22, C28, C47b.
+**Held for David or for a page still to be read:** C14, C22, C47b.
+
+**C28 (David, 10 November: "Add a note"):** the 1186 line stays, with one note that Strehlke doubted the charter and that Ḥammūdeh and Shaheen accept it.
 
 **After the lot 1 and lot 2 page checks:** C31 now names Abū al-Fidāʾ (“most of its inhabitants are Christians”); C53 stands, since Shāhīn's English p. 29 prints 4,500 and 9,000; C58 is confirmed by the municipality's own list; C59 reads “in the summer of 1967, just after the war” (the census date itself is still unread).
 
