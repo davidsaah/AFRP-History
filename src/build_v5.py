@@ -188,7 +188,129 @@ V69 = {
   'Naseeb Shaheen, <i>A Pictorial History of Ramallah, Part II</i> (2005), p. 85: “Yousef Cadoura, a pharmacist, who became mayor of Ramallah from 1943-1947.” The municipality’s own list of its heads agrees: Yūsuf Qaddūra 1943–1947, then Khalīl Ṣalāḥ 1947–1951. We have found no source for 1952. If he held office until 1947, the Yūsuf Qaddūra who came second in the poll of April 1946 was the sitting mayor.'),
 }
 
+# v70 additions from the deep research of 10 November (A1 to A40). Each paragraph is appended to the
+# body of the entry named by its title; the note is made when the entry is built, so numbering stays in order.
+def _P(text, note=None):
+    return '<p>' + (text.replace('{n}', c(note)) if note else text) + '</p>'
+
+ADD70 = {
+ 'The highlands fill up': [lambda: _P(
+  "<b>Khirbet Raddana, a closer look.</b> The village on the edge of our town was lived in only in these two centuries. It had clusters of pillared houses, cisterns and terraces, and a jar handle from it carries one of the early alphabetic inscriptions of the hill country. It was dug in a hurry from 1969 to 1974, in its excavator’s words “before the encroachments of modern civilization destroyed or covered the ancient remains.” Today it is almost wholly built over{n}.",
+  "Joseph Callaway, the excavator, in his 1983 account of the dig, for the quotation; he dated the village to about 1200–1050 BC. The summary of the finds follows Klaus Koenen, “Khirbet Raddana,” <i>Das wissenschaftliche Bibellexikon</i> (2014). Both were read online and want a check against the printed reports.")],
+ '“A city called Ephraim”': [lambda: _P(
+  "One caution about the old witnesses. Eusebius, about AD 300, lists a village Aphra “five miles to the east” of Bethel, which fits eṭ-Ṭaybeh. He is also reported to place an Ephraim twenty Roman miles north of Jerusalem, which is too far for it. The Madaba map takes its caption from Eusebius, so the map and the book are one tradition, not two witnesses{n}.",
+  "Eusebius, <i>Onomasticon</i>, in C. Umhau Wolf’s translation, for Aphra; the twenty miles as W. Ewing reports it in the <i>International Standard Bible Encyclopaedia</i> (1915). Read online.")],
+ 'The dam breaks': [lambda: _P(
+  "The last great repair can be followed month by month. Abraha learned of the breach in July 547. Plague stopped the work. It began again in January 548, and his two inscriptions are dated February and March 548{n}.",
+  "George Hatke, “Abraha,” in the online <i>Thematic Dictionary of Ancient Arabia</i>, read in extract.")],
+ 'The silence starts later than the chart': [lambda: _P(
+  "What followed al-Mundhir’s arrest is told by Theodor Nöldeke from the Greek and Syriac writers. His sons rose in revolt. Al-Nuʿmān was taken in his turn, and the Arabs of the frontier split into fifteen groups. Greg Fisher adds that Arab forces “remained in imperial service” after 582. Any later return of the family to power is inference, and we do not claim one{n}.",
+  "Th. Nöldeke, <i>Die Ghassânischen Fürsten aus dem Hause Gafna’s</i> (Berlin, 1887), pp. 29–33, read in the project library. Greg Fisher, “Arabia and the Late Antique East,” p. 12, read in extract.")],
+ 'al-Yaʿqūbī finds Ghassān in Transjordan': [lambda: _P(
+  "We should say plainly what this is and what it is not. After the conquest Ghassān lives on in the Arab writers as the name of a tribe: here about 890, and “in the Balqāʾ,” “at the Yarmūk” and “at Ḥimṣ” in a notice of the Mamluk period. None of these writers states their faith, and no medieval source we have found ties Karak itself to Ghassān. Mark Whittow notes that they “supported the Umayyads during the first century of Islam.” Our family’s memory of a Christian Ghassān at Karak stays what it is: a tradition, honestly held{n}.",
+  "ʿUmar Riḍā Kaḥḥāla, <span class='ar'>معجم قبائل العرب</span>, vol. 3, s.v. Ghassān, citing al-Ḥamdānī through al-Qalqashandī. Mark Whittow (2013), p. 2. Both read online.")],
+ 'The name appears in 1186': [lambda: _P(
+  "The register that runs to 1531–32 gives Ramallah a revenue of 500 akçe; Ḥammūdeh reports no count of households from it. So the hill was settled again between 1528 and 1532. In all these registers no lord of Ramallah is ever named. Its revenue stayed with the two sanctuaries and was managed by their officers: Ḥammūdeh names Muḥammad ibn Mūsā al-Kurdī, “the endowment collector for the two sites,” and Muḥammad Jalabī, “overseer of the two holy sanctuaries.” Al-Bīra next door was different. In the court case of 1565 it is the <i>tīmār</i>, the military fief, of one Muṣṭafā Bey. <b>Ramallah had no lord, and its neighbour did</b>{n}.",
+  "Ḥammūdeh (2014), pp. 41–43, for register T.D. 131 and the two officers; the IRCICA edition of sijill 48, printed p. 54, for al-Bīra as Muṣṭafā Bey’s <i>tīmār</i>.")],
+ 'Karak was a Christian town': [lambda: _P(
+  "<b>One endowment at both ends of the road.</b> The Ottoman registers of 1548 and 1596 list, in the district of Karak, a share for the sanctuary of Abraham at Hebron: 2,000 akçe, then 2,500. This is the endowment that owned the hill of Ramallah. It is not evidence that anyone moved. By inference it shows only that, in the decades when our tradition has the family on the road, one endowment’s collectors worked at both ends of it{n}.",
+  "The entry “Hisse-i Vakf-ı Hz. Halîl” in the Karak registers, as published in <i>GTTAD</i> (2023), p. 187, read online. Jordanian scholarship reads the register of 1596 as this book does, 78 Muslim and 103 Christian households at Karak: Al Btoush (2024), in a University of Jordan journal, citing Hind Abū al-Shaʿr.")],
+ 'When the Ḥaddādīn name enters the record': [lambda: _P(
+  "<b>They went back and forth.</b> Frederick Peake, writing of the Christian clans of Transjordan, says: “Most of the Christian clans hail from Palestine … In el-Karak, many of them have come from Hebron, Bethlehem and Jerusalem.” Heikki Palva, who quotes him, adds that the clans’ claims of Ghassanid origin are as impossible to prove as the Muslim clans’ claims of Bedouin descent. Set beside Burckhardt, this does not refute our tradition. It shows that Christian families moved in both directions between Karak and the Jerusalem hills, over centuries, and ours may have done both{n}.",
+  "Heikki Palva, in the <i>Journal of Arabic and Islamic Studies</i> 8 (2008), pp. 54–55, quoting Peake. Read online; Peake’s own page is still to be checked.")],
+ 'The registers begin': [lambda: _P(
+  "Two small facts from the same papers. A second group called Kasābra is recorded at Dayr Abān, also “from Khirbat Kusbar.” So the name marks people who came from Kusbār, not one family. And a man of al-Bīra called Ḥijāz ibn Ḥusayn appears in a court record of 947 AH, 1540–41. It is a father’s name and no more. It neither supports nor contradicts al-Bīra’s own tradition of its Ḥusayn founders{n}.",
+  "Ḥammūdeh (2014), pp. 41–42 and his discussion of the Kasābra.")],
+ 'The registers do give names': [lambda: _P(
+  "<b>Two court records put the names on the hill.</b> Ḥammūdeh found them in the Jerusalem registers. On 27 November 1604 the court recorded a reconciliation between ʿUbayd ibn Ghānim “of the clan of the sons of Hadid” and Muṣliḥ ibn Ibrāhīm “of the sons of al-Naqqāsh,” both Christians of Ramallah. On 3 July 1605 it names “Muṣliḥ son of the Christian Shuqayr, from the families of Ramallah.” These are the only firm mentions of the town we have between 1596 and 1800. They put a Ḥadīd clan and a Shuqayr here within forty-three years of the register of 1562, where Shuqayr is missing. They bear on whether the old name was Ḥadīd or Ḥaddād. They do not settle it{n}.",
+  "Sijill 84, p. 541, and sijill 85, p. 188, as Ḥammūdeh (2014) reports them at p. 49 and in his notes 74 and 76. The registers themselves are unpublished.")],
+ 'The Christian settlement of 1561–62': [lambda: _P(
+  "The case of 1565 also drew the town’s edges. The judge went out to the ground in person. Ramallah’s limits were set at Dayr Fazṭām to the south, the “Roman” chain wall along the road to the east, and Burj Salmiya to the north. Ḥammūdeh’s English prints the southern limit as “Dayr Qurtam,” and the reading of that word is not settled. The same volume names a Ramallah man, Ḥammād ibn Aḥmad, in 1566{n}.",
+  "The IRCICA edition of sijill 48, printed p. 54, read from the page images on 9 November 2026.")],
+ 'Feuds, a pasha and a faction': [lambda: _P(
+  "<b>The ʿAzzouz incident, as the town tells it.</b> A marriage was refused in a Hānī family, and the killing followed. The whole town left. The Shakara went to Beitunia, the Sharaka to Beit Ijza, the Jaghab to Silwad, the Yousef to Abu Qash, the Hasasneh to ʿAin Yabroud, the ʿAwwaad to Mazraʿa al-Gharbiyya, the Ibrahim to Mazraʿa al-Sharqiyya and the Jirius to al-Fandaqumiyya. They were home within the year, and the ʿAzzouz who survived joined the Jaghab. This is oral tradition, written down by Kaddoura in 1954. No outside source confirms it{n}.",
+  "Shāhīn (1982), pp. 33–34, after Kaddoura (1954), p. 59, which we have not yet read; Shaheen (2005), p. 18, for the ʿAzzouz joining the Jaghab."),
+  lambda: _P(
+  "<b>The faction wars, from a local chronicle.</b> Macalister and Masterman printed it in 1905–06 “from native sources.” After the Egyptians left in 1840, Ramallah’s people sought the protection of Muṣṭafā Abū Ghōsh of the Yaman, who set guardians over them. The Qaysī leaders of the town, Yūsif Ḥarb and ʿAīsa Abū Jughub, appealed to the Simḥān. A Qaysī force “proceeded against Ram Allah, which they reached a little before sunset.” Abū Ghōsh attacked at midnight with about three thousand men. His brother Ṭāhā was killed, and more than a hundred died. Later he “set out for Ram Allah, which he attacked. All the inhabitants fled except one dumb old man”; “the village, however, was not looted.” So a Ḥarb and a Jaghab led the town in the 1840s, and they are named in an account written outside it{n}.",
+  "R. A. S. Macalister and E. W. G. Masterman, <i>PEF Quarterly Statement</i> 38 (1906), pp. 41–44. Read online.")],
+ 'The peasants’ revolt of 1834': [lambda: _P(
+  "Ramallah had no shaykhly house of its own. The chronicle and the British survey of the 1870s both place it in Jabal al-Quds, a district of four shaykhs, two of them next door at al-Bīra and Beitunia. Our town sat between two small seats{n}.",
+  "Macalister and Masterman (1905), pp. 353–354: “Among the other villages of this district are Ram Allah, Kefr ʿAkab, Jebaʿ.” <i>The Survey of Western Palestine</i>, Memoirs III, p. 13, lists the town under “Jebel el Kuds.”")],
+ 'The five sons and the eight clans': [lambda: _P(
+  "Each of the eight clans, Naseeb Shaheen writes, “had its own neighborhood where members of that clan built their homes around a central courtyard,” the <i>ḥōsh</i>. The town’s guest house, the <i>madāfa</i>, stood beside the shrine of al-Khalīl and was pulled down about 1960. Karm ʿAlī comes back into the story too. Salem Butros Jaber of the Yousef clan bought land there, on the northern edge, “and in about 1850 moved there with his many relatives.” It became the first quarter outside the old village, the Kedaireh{n}.",
+  "N. Shaheen, <i>A Pictorial History of Ramallah, Part II</i> (2005), pp. 63–64 and 234, read in the project library. On the guest house in general, Suad Amiry and Vera Tamari, <i>The Palestinian Village Home</i>, p. 15: “The guest-house (madafah), usually situated in the sahah, was also the centre of male gatherings and entertainment.”")],
+ 'The parish proves itself in writing': [lambda: _P(
+  "<b>Why the next two centuries are nearly blank.</b> Naseeb Shaheen puts it down to the lack of registers: “the Orthodox Church kept no records of the births, baptisms, marriages, and deaths of Ramallah people.” Careful records begin in 1857, and they are the Roman Catholic parish’s, kept for its own flock. So the town’s own registers cannot name the first families before then, and the names must come from the Jerusalem court and from the Patriarchate. The Patriarchate’s archive lists a “Collective petition of the inhabitants of Ramallah” of 1889, which we have not yet read{n}.",
+  "Shaheen (2005), p. 31. Ḥammūdeh (2014), n. 2, reports him as dating Greek Orthodox registration from 1857; Shaheen’s own page says the Roman Catholic Church. The petition is in the Open Jerusalem inventory of the Patriarchate’s archive, reference JM-AEPI/VI/Γ/15/1889/9; title only.")],
+ 'The town gains its churches and schools': [lambda: _P(
+  "The Friends’ first school was called the Hope School, and it opened in August 1869. Hishmeh, who had been the Joneses’ guide, ran the day schools for seventeen years, and by 1893 there were eight of them. In 1888 the English and American Friends divided their work, and the Americans took Ramallah. After Katie Gabriel the girls’ school was led by Alice Jones from 1906, and then by Mildred White, Victoria Hannush, Sylvia Clark, Anna Langston, Annice Carter and Margaret Paull. It had 150 girls in 1930. In 1966 the two schools had 233 girls and 320 boys{n}.",
+  "Enaya Othman, <i>Jerusalem Quarterly</i> 50, pp. 50 and 62 n. 11; the Philadelphia Yearly Meeting’s history page for 1888; the Ramallah Friends School’s own history page for the heads and the numbers. The last two were read online."),
+  lambda: _P(
+  "The British surveyors who mapped the country about 1875 described the town in a few lines: “A large Christian village, of well-built stone houses … In the village is a Greek church, and on the east a Latin convent and a Protestant schoolhouse, all modern buildings.” They gave al-Bīra about 800 people{n}.",
+  "<i>The Survey of Western Palestine</i>, Memoirs III (London, 1883), pp. 9 and 13. Read online.")],
+ 'The terraces and their': [lambda: _P(
+  "One word needs care. <i>Qaṣr</i> means two things in this book. In the fields it is the watchtower, built, the survey says, “to watch over the cultivated land” and as “an alternate living space” at harvest: of the 167 towers, 125 have two storeys, 41 have one and a single tower has three. In the story of 1834 it is the fortified house of a district shaykh. The two share a name and little else{n}.",
+  "Al-Houdalieh and Ghadban (2013), pp. 510 and 521.")],
+ 'The twin town and the Rafeedie family': [lambda: _P(
+  "One dated trace of the family at al-Bīra survives. Shāhīn lists, from the Ramallah population register, Ilyās Yaʿqūb Nazzāl and his wife Salmā, daughter of Sālim al-Rafīdī of al-Bīra (<span class='ar' dir='rtl'>الياس يعقوب نزال وزوجته سلمى بنت سالم الرفيدي من البيرة</span>), and his English edition dates that household to “about 1890 or 1895.” So a Sālim al-Rafīdī was at al-Bīra by about 1890. Where his family came from we still do not know{n}.",
+  "Shāhīn (1982), Arabic and English editions. The Arabic was read by machine from the scan and wants an eye.")],
+ 'Elihu Grant writes the town down': [lambda: _P(
+  "<b>What the town lived on.</b> Lisa Taraki shows Ramallah merchants selling olive oil to the soap makers of Jaffa, and buying raisins from the villages for a German firm that shipped them through Jaffa; women workers prepared them. The Bellevue <i>locanda</i>, a hotel, opened in 1902. Grant himself wrote that “the finest grapes within reach of Jerusalem are those from Hebron and Râm Allâh.” The dollars came from peddling. Saleh Abdel Jawad, writing of al-Bīra men on the same road, found that “successful peddlers made about three to five dollars a day in 1910.” He names Ramallah peddlers who rose to be wholesalers: Abdullah and Issa al-Batih, Hanna Hishmeh and Aziz Shahin. And when the men left, “their wives saw to the affairs of the family and the lands”{n}.",
+  "Lisa Taraki, <i>Jerusalem Quarterly</i> 83, pp. 87–88 and 96–99. Elihu Grant, <i>The Peasantry of Palestine</i> (1907), ch. I. Saleh Abdel Jawad, <i>Jerusalem Quarterly</i> 36, pp. 20–24.")],
+ 'The Patriarchate counts its flock': [lambda: _P(
+  "<b>Ramallah, 30 August 1932.</b> The struggle came to our own town. More than sixty Arab Orthodox priests from Palestine and Transjordan met here. They passed reforms for the schools, the churches, the endowments and the church courts, and elected a committee with Father Niqūlā Khoury as its secretary. Khoury tells it himself in his memoirs. His editors note that his account is disputed, and Papastathis confirms that the meeting took place. In the 1940s Ramallah had its own club in the Union of Orthodox Clubs. Grant, thirty years before the meeting, had watched a village wedding read “partly in Arabic and partly in Greek” by a head priest “who was a Greek by blood”{n}.",
+  "Niqūlā Khoury, <i>Memoirs</i>, printed pp. 101–102 and the editors’ n. 66; Papastathis, p. 39; Neveu, p. 57; all read in the project library on 9 November 2026. Grant (1907).")],
+ 'The counting years': [lambda: _P(
+  "<b>The missing men were Christian men.</b> The census of 1931 counts 1,662 Christian men against 2,104 Christian women in the town, a gap of 442. The town’s Muslims had more men than women, 280 against 240. In 1922 the Christian gap had been 204, so it doubled in nine years. Over the same years the town’s Muslims grew from 125 to 520. The men who sailed were ours, and the town was already changing behind them{n}.",
+  "E. Mills, <i>Census of Palestine 1931</i>, vol. II, Tables V and VI, pp. 16–17; Barron (1923) for 1922. The 1931 tables were read through a machine-read scan and want an eye."),
+  lambda: _P(
+  "After 1948 Jordan took over the Ramallah transmitter. When Jordan opened a national station at Amman in 1956, it shared a frequency with what one study calls “its then primary radio station, which broadcast its programs from Ramallah”{n}.",
+  "Andrea Stanton (2013), chronology, for 1948; Tweissi (2021) for 1956. Both read online. How long Ramallah went on broadcasting after that we have not established.")],
+ 'The revolt reaches the town': [lambda: _P(
+  "<b>1936 in the town.</b> The revolt began with the general strike of 1936. Totah wrote on 11 May: “In Ram-Allah we kept open during the first week of the strike.” On 8 July he protested to the High Commissioner about troops shooting villagers. The national committees of Ramallah and al-Bīra formed a joint committee, with Ḥannā Khalaf for Ramallah, and on 7 May the municipality voted twenty-five Palestine pounds for the poor whom the strike had hurt{n}.",
+  "Ricks, ed., <i>Turbulent Times in Palestine</i>, for Totah; Ḥammūda (2019) for the committees and the vote, read in a web copy without its footnotes."),
+  lambda: _P(
+  "<b>The months around the battle.</b> A rebel communiqué of 7 September 1938 claimed about four hundred men under Muḥammad ʿUmar al-Nūbānī, with units from Ramallah, Baytūniyā and al-Bīra. After the fighting Totah’s diary records long curfews, and an order to the townspeople to pull down the stone walls and trees around their houses. The post office and the telephone came back on 10 and 11 February 1939. On 24 August 1939 the radio station, the police and the army post were attacked again{n}.",
+  "Totah’s diary as set out by the Institute for Palestine Studies (2023), cited above."),
+  lambda: _P(
+  "<b>The names of the dead.</b> No townsman of Ramallah killed in the fighting is named in anything we have read. Ḥammūda names villagers who fell at Wādī Shaybān: Rāḍī Muṣṭafā Shaḥāda, Saʿīd Jumʿa Ṣāfī, Zaʿīd Yāsīn Muḥammad and Nasīm ʿAbdallāh Ẓāhir of Baytīn, and Aḥmad ʿAbd al-Muṭṭalib Aḥmad Jabr of Rāfāt, with eight men of Dayr Dibwān and three of Burqa whose names he does not give. He also records that a man of the al-Kaʿbīnī family of Ramallah died in a disused well the British used to hold prisoners. Of our own clans, Ḥannā ʿĪsā Khalaf of the Shaqara “took an active part in the 1936 Arab uprising,” was jailed at Sarafand, deported to Iraq, and came home about 1939 “in disguise”{n}.",
+  "Ḥammūda (2019), web copy; Shaheen (2005), pp. 41–42, for Khalaf."),
+  lambda: _P(
+  "<b>The army’s word.</b> The intelligence summaries of the West Yorkshire battalion, written at Ramallah that winter, say “the town of Ramallah had refused to pay the rebels a subsidy.” The historian Matthew Hughes files this under “collaboration.” That is the British army’s word, and we print it as theirs. Totah’s diary shows the other side of the same months: the rebels held a court and punished men who had robbed townspeople. The summaries are kept at the regimental museum in York, and they are our best lead for the names{n}.",
+  "Matthew Hughes, <i>Journal of Contemporary History</i> (2016), p. 300.")],
+ 'The town votes by clan': [lambda: _P(
+  "<b>The quarrel behind the fifth candidate.</b> Naseeb Shaheen keeps the family memory. “The dispute was over a nomination to the city council, ca. 1943 … the clan nominated Hanna Jaber as the new member. But the Harb family … selected one of their own family, Jaleel Harb.” Two feasts of reconciliation followed about 1949. The result sheet has exactly these two men in the Ḥaddāda district: Jalīl Ḥarb, elected with 215 votes, and Ḥannā Jābir with 154. Shaheen’s “ca. 1943” is memory; the poll was on 15 April 1946{n}.",
+  "N. Shaheen, <i>A Pictorial History of Ramallah</i> (1992), p. 220, and <i>Part II</i> (2005), p. 75.")],
+ 'Where the refugees lived': [lambda: _P(
+  "Al-Jalazūn began with “around 4,000–5,000 people.” About 1951–52 some families built in rubble stone and earth, and concrete shelters came in 1953. Early residents also lived in “olive and apricot orchards belonging to the village Jifna”{n}.",
+  "“Jalazone,” in the <i>Interactive Encyclopedia of the Palestine Question</i> (Institute for Palestine Studies and the Palestinian Museum), read online."),
+  lambda: _P(
+  "The refugees changed the town for good. After 1948, Salim Tamari writes, in towns like Ramallah “the majority of local merchants did not originate from the town itself, but were war refugees from the coastal cities.” In the census of 2017 refugees were 41 per cent of the town’s residents, against 67 per cent in the local count of 1953{n}.",
+  "Salim Tamari, <i>Mountain against the Sea</i> (2009), p. 48; PCBS 2017, Table 4, p. 59.")],
+ 'The Federation': [lambda: _P(
+  "The Federation says of itself that it “represents more than 50,000 people.” That is its own figure, not a count.")],
+ 'The city, counted to the present': [lambda: _P(
+  "<b>The twin towns in 1967.</b> The same count has a row for Ramallah and al-Bīra together: 21,808 people, 34.2 per cent Christian and 65.6 per cent Muslim, with 45 in every hundred from land that had become Israel. So the two towns together were already two-thirds Muslim while Ramallah alone was still mostly Christian. This too is the occupying power’s count{n}.",
+  "The census of 1967, vol. 1, Table 1, in the copy published by the Levy Economics Institute."),
+  lambda: _P(
+  "<b>The mayors under occupation.</b> A United Nations committee recorded in 1970 that Mayor Nadīm Zarū “was arrested on 1 October 1969, detained in prison for six days, and then expelled from the area.” Karīm Khalaf won the elections of 1972 and 1976. He lost a leg to a car bomb on 2 June 1980, and the occupation authorities removed him from office in 1982. From 1982 to 1987 the Israeli Civil Administration ran the town. The municipality’s own list of its heads dates his term 1976–1985, so its two pages do not agree{n}.",
+  "UN Special Committee report (1970), para. 84; Ramallah Municipality, <span class='ar'>تاريخ البلدية</span>: <span class='ar' dir='rtl'>أقالته السلطات عام 1982م من رئاسة البلدية</span>; the Khalaf entry in the <i>Interactive Encyclopedia of the Palestine Question</i>."),
+  lambda: _P(
+  "<b>The lions of al-Manāra.</b> The municipality commissioned a monument from a Ramallah artist in 1946. It was finished in 1951: five lion heads on a pillar. “The five lions represented the five Ramallah families who viewed themselves as the city’s ‘original’ inhabitants.” A decree of 1982 ordered the square demolished. The old monument was later set up again, with a clock, in Mīdān al-Mughtaribīn, the Emigrants’ Square, and a new one with four lions was finished in July 2000. The square’s own beginning is dated two ways: 1923 by the municipality, and 1935, when the electricity pole went up, by Shibli. When the square was renamed for Yasser Arafat, residents objected: “It is no longer the original landmark of Ramallah city.” We do not yet know the name of the sculptor of 1946{n}.",
+  "Adania Shibli, <i>Jerusalem Quarterly</i> 26, for the monument; Brocket, <i>Geopolitics</i> (2021), p. 557, for the renaming."),
+  lambda: _P(
+  "And the founder has a monument of his own. On 3 April 2017 the municipality unveiled a memorial to Rāshid al-Ḥaddādīn at the municipality building. It is the work of the artists Sliman Mansour and Nabil Anani, and it was given by Ḥannā Ghānim and his sister Najma Ghānim{n}.",
+  "Wattan news agency, 3 April 2017: <span class='ar' dir='rtl'>ازاحت دار بلدية رام الله، مساء اليوم الاثنين، الستار عن النصب التذكاري لمؤسس مدينة رام الله راشد الحدادين</span>. The municipality’s own page lists only <span class='ar' dir='rtl'>افتتاح نصب راشد الحدادين</span> among the works of Mayor Mūsā Ḥadīd’s terms.")],
+ 'The people our town produced': [lambda: _P(
+  "The Palestinian Museum’s archive confirms the Nahda from outside Shāhīn: it was “founded in 1925 to serve women and children in the Ramallah district,” with a kindergarten, a clinic and literacy classes. Women here also earned wages by the needle. At the Hishmeh shawl factory “specially trained women” embroidered flowers on shawls. The dress itself was the town’s signature: white handwoven linen worked in wine-red cross-stitch, a tall palm on the back, and a headdress “surrounded by a stuffed halo of material with coins attached to it.” The star of Bethlehem’s embroidery, Widad Kawar wrote, “becomes a moon in Ramallah.” And in April 1933 Matiel Mogannam spoke at the Mosque of ʿUmar in Jerusalem, a Christian woman speaking in a mosque{n}.",
+  "Palestinian Museum Digital Archive, the Nahda collection. Widad Kawar, in the <i>Journal of Palestine Studies</i> (1980), pp. 123–127. Saca, <i>Embroidering Identities</i>, pp. 16–26. Ellen Fleischmann, <i>Journal of Palestine Studies</i> (2000), pp. 19 and 24.")],
+}
+
+
 def ent(date, grade, w2, title, note, body=''):
+    for _k in [k for k in ADD70 if title.startswith(k)]:
+        for _f in ADD70.pop(_k):
+            body += _f()
     for _k, _v in V69.items():
         body = body.replace('[[' + _k + ']]', _v)
         note = note.replace('[[' + _k + ']]', _v)
@@ -2726,7 +2848,7 @@ ent('1954 · 2023', 'documents', False, 'Our first history, written in New York'
 ent('1958 / 1959', 'oral', True, 'The Federation',
  'The American Federation of Ramallah, Palestine, is the body we are writing for.',
  FIX('Founded 1952, federated in Detroit on 7 September 1959 (the family presentation).',
- '<b>Resolved, and the answer is that there are three foundings.</b> <b>1952:</b> six young Ramallah immigrants at Wayne State begin <i>Hāthihi Rām Allāh</i>, the magazine that knits the scattered clubs together. <b>7 September 1959, Detroit:</b> delegates from those clubs resolve to constitute a Federation and adopt interim by-laws and a constitution — and the first convention is held that year. <b>August 1963:</b> the IRS recognises the Federation and its education fund.',
+ '<b>Resolved, and the answer is that there are three foundings.</b> <b>1952:</b> five or six Ramallah students at Wayne State (Shaheen names five and then says six) begin <i>Hāthihi Rām Allāh</i>, the magazine that knits the scattered clubs together. <b>7 September 1959, Detroit:</b> delegates from those clubs resolve to constitute a Federation and adopt interim by-laws and a constitution — and the first convention is held that year. <b>August 1963:</b> the IRS recognises the Federation and its education fund.',
  'The convention count settles it arithmetically. The Federation’s own roster of conventions begins at Detroit 1959; the fiftieth fell in Detroit in 2008 and the sixty-third in Dearborn, by Detroit, in 2022 (the roster prints Detroit). The roster lists no convention for 2020, so the sixty-third falls in 2022 rather than 2021, and both close on 1959 as the first; neither closes on 1958. <b>Shāhīn’s “incorporated in Detroit, 1958” is best read as the clubs’ coalition rather than a filing</b>: 1958 appears in the Federation’s own literature too, but always attached to the conventions, never to a document. The IRS Business Master File gives the American Federation of Ramallah Palestine, EIN 38-6096448, 501(c)(4), and the American Ramallah Federation Education Fund, EIN 38-6096449, 501(c)(3), both ruled <b>August 1963</b>, both at Westland, Michigan. <b>What is still not in hand is the Michigan incorporation record itself</b> — a five-minute lookup in the LARA business-entity search for anyone with a browser, and the last thing that would let this entry name a filing date. <i>Note also that the Ramallah Foundation of New York is older and separate: founded 1943, incorporated in New York 1944 by its own account, IRS ruling February 1947.</i>')),
 
 ent('1961–2024', 'documents', False, 'The city, counted to the present',
@@ -3835,6 +3957,8 @@ def _made(key):
     lab = PIC_DATES.get(key, (0, None))[1]
     return f'<span class="made">{lab}.</span> ' if lab else ''
 
+
+assert not ADD70, list(ADD70)
 
 def render():
     out = []
