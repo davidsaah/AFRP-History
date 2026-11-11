@@ -1,5 +1,15 @@
 # Changelog
 
+## v71 — 11 November 2026
+
+### Lot 3: large files read on David's PC
+
+- **C60 closed.** The 1961 Jordanian census, Table 2.11: 8,745 Christians among 29,269 people in Ramallah and al-Bīra together (29.9 per cent); no figure for Ramallah alone.
+- **C22 closed, book stands.** Ibn al-Kalbī's *Jamhara* (ed. Nājī Ḥasan, p. 615) does put the water between Zabīd and Rimaʿ. The note now gives the page and the Arabic, and says that Yāqūt reports him differently.
+- **C28.** The Strehlke note is now from the page itself (p. 18): "qua vaditur" is his correction of the manuscript's "qui vacatur".
+- Confirmed with no change needed: C37 (آل الشقرة, بضعة عشر رجلا), C50 (1939 in Shāhīn's Arabic), C53 (4,500 and 9,000 in both editions), the 1946 emigration figure.
+- Still open: C14, C47b, the date of the 1967 census, Bertram and Luke after §79.
+
 ## v70 — 10 November 2026
 
 ### The accepted additions from the deep research (A1 to A40)
