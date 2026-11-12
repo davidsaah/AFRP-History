@@ -1,6 +1,6 @@
 # The library
 
-The book is built on a working library of roughly **190 items** — about 2 GB of
+The book is built on a working library of roughly **190 items** in the September 2026 index, with about 50 more added in November 2026 (see *The November 2026 shelf* below) — about 2 GB of
 scanned scholarship, archival facsimiles, censuses and family histories.
 
 **The files are not in this repository, and will not be.** Most are not ours to
@@ -78,7 +78,7 @@ print or has a published edition; the book cites the edition.
 ### Byzantium, identity, and the modern historiography
 
 `2016_Durak_Jevtic_Identity_and_the_Other_in_Byzantium` · `2022_Kaldellis_Provincial_Identities_in_Byzantium` ·
-`2022_Stouraitis_Is_Byzantinism_an_Orientalism` · `2018_Pickett_Written_into_Submission_AHR` ·
+`2022_Stouraitis_Is_Byzantinism_an_Orientalism` · `2018_Pickett_Written_into_Submission_Reassessing_Sovereignty_AHR` ·
 `2017_Isaac_Latin_in_Cities_of_the_Roman_Near_East` · `2012_Genz_The_Northern_Levant`
 
 ### Arab genealogy and the tribes
@@ -179,9 +179,9 @@ print or has a published edition; the book cites the edition.
 ### Women, memory, oral history, the present
 
 `2000_Fleischmann_Emergence_of_the_Palestinian_Womens_Movement_JPS29.pdf` ·
-`2007_Jad_The_NGOization_of_the_Arab_Womens_Movements.pdf` ·
-`20xx_WCLAC_Palestinian_Women_and_Inheritance_Study.pdf` ·
-`20xx_Sayigh_Making_Holes_in_the_Wall_Palestinian_Oral_Testimonies.pdf` ·
+`2003_Jad_The_NGOization_of_the_Arab_Womens_Movements_AlRaida100.pdf` ·
+`2014_WCLAC_Palestinian_Women_and_Inheritance_Study.pdf` ·
+`2011_Sayigh_Making_Holes_in_the_Wall_Palestinian_Oral_Testimonies.pdf` ·
 `2006_Saca_Embroidering_Identities_Palestinian_Clothing_OIMP25.pdf` ·
 `2009_Tamari_Mountain_against_the_Sea.pdf` · `2022_Khoury_The_House_of_the_Priest_Brill_OA.pdf` (**OA**) ·
 `2014_Harker_Ghosts_of_Jerusalem_JQ58.pdf` · `2019_Norris_Dragomans_Tattooists_Artisans.pdf` ·
@@ -189,7 +189,7 @@ print or has a published edition; the book cites the edition.
 `2021_Sharkawi_Introducing_Olive_Culture_in_Palestine_Bethlehem_Univ.pdf` ·
 `2013_World_Bank_Area_C_and_the_Future_of_the_Palestinian_Economy.pdf` ·
 `2015_UN_Habitat_Spatial_Planning_in_Area_C_West_Bank.pdf` ·
-`20xx_OCHA_West_Bank_Movement_and_Access_Factsheet.pdf` ·
+`2025_OCHA_West_Bank_Movement_and_Access_Update.pdf` ·
 `2021_Anderson_When_Palestinians_Became_Human_Shields_CSSH63.pdf` ·
 `2025_FakherEldin_Land_Governance_Colonization_AlMuntaqa19.pdf` ·
 `I Saw Ramallah` (Barghouti) — **z-lib**
@@ -200,9 +200,51 @@ print or has a published edition; the book cites the edition.
 `2012_ARIJ_Deir_Ammar_Camp_Profile.pdf` · `2012_ARIJ_Qaddura_Camp_Profile.pdf` ·
 `2012_ARIJ_Qalandiya_Camp_Profile.pdf`
 
+### The November 2026 shelf
+
+Added in the round 2 research of November 2026 and renamed to the convention on 12 November 2026.
+The full catalogue is `AFRP_Ramallah_Bibliography_v5.html`, section XXXI. Web pages are kept as `.html`.
+
+*Ramallah and its families:* `1954_Cadora_Remembering_Ramallah_A_Preservation_of_History.pdf`
+(with `_Restored` and `_Flattened_and_Sharpened` copies) · `2020_IPS_Jerusalem_Quarterly_83.pdf` (Taraki) ·
+`2009_AlMadina_Haddadin_of_Palestine_Ramallah.html` · `2008_RamallahMunicipality_Centennial_Book.pdf` ·
+`20xx_RamallahMunicipality_Ramallah_in_Historical_Sources.html` · `20xx_RamallahMunicipality_Karim_Khalaf_Square.html` ·
+`2016_AlHayat_Why_Manara_Was_So_Named.html` · `2021_Raya_Manara_Lions_Restoration.html` ·
+`2016_Tamari_Najlas_Dance_al-Bireh_Jerusalem_Train_JQ67.pdf` · `2021_Brocket_Street_Naming_and_Counter_Memory_in_Ramallah_Geopolitics26.pdf` ·
+`2020_Jawabrah_Jarada_Badawy_Bauhaus_Architecture_in_Ramallah_IJSR9.pdf` · `20xx_RFS_History_by_Decade.html` ·
+`2008_Ricks_Khalil_Totah_The_Unknown_Years_JQ34.pdf`
+
+*Ottoman registers, Karak and Ajlun:* `1999_AbuManneh_Rise_of_the_Sanjak_of_Jerusalem.pdf` ·
+`2023_BaniIssa_Aclun_Waqfs_and_Mulks_GTTAD.pdf` · `2011_Taskin_Aclun_Sancak_Register_TT269.pdf` ·
+`2024_AlBtoush_Christian_Elite_of_Karak_Dirasat51.pdf` · `2014_AlRai_Liwa_Ajlun_in_the_16th_Century_pt1.html` ·
+`2026_AmmonNews_Christian_Jordanian_Clans_pt1.html` · `2013_Areq_Jordan_Radio.html`
+
+*Nineteenth century and the First World War:* `1841_Robinson_Biblical_Researches_v3.pdf` (village lists, PDF pp. 615–620) ·
+`1896_Schick_Einwohnerzahl_Bezirk_Jerusalem_ZDPV19.pdf` · `1921_Grant_The_People_of_Palestine.html` ·
+`2014_Wichhart_1915_Locust_Plague_JQ56-57.pdf`
+
+*Mandate and the 1936–39 revolt:* `1938_PalestinePolice_Annual_Administrative_Report.pdf` (s. 17(a), entry 7, Birch; crops kept as `.png`) ·
+`1938_HMG_Report_to_League_of_Nations_Palestine.html` · `2023_Faris_Tahrir_al-mudun_1938_pt1.html` ·
+`2009_Hughes_A_Very_British_Affair.pdf` · `2025_MECA_Palestine_Police_Guide.pdf` (St Antony's, Oxford)
+
+*1948 to 1967:* `20xx_PYM_July_1948_Christina_Jones_diary.html` · `2021_Shalash_Proving_and_Silencing_AlMuntaqa.pdf` ·
+`1949_UNCCP_Technical_Committee_Working_Paper_W2.pdf` · `1951_UNRWA_Annual_Report_of_the_Director_1950-51.html` ·
+`1952_UNRWA_Annual_Report_of_the_Director_1951-52.html` · `1967_ICBS_Census_of_Population_vol1_Intro.pdf` (Israeli author; page renders kept as `.png`) ·
+`2012_Perlmann_1967_Census_Dataset_Documentation.pdf`
+
+*Ramallah today and the diaspora:* `2010_CEC_Decree4_Christian_Seats.pdf` · `2016_CEC_Presidential_Decree_Christian_Seats.pdf` ·
+`2017_CEC_Presidential_Decree_Christian_Seats.pdf` · `2017_CEC_Local_Elections_Final_Report_Annexes.pdf` ·
+`2021_PalestinianGazette_Decree19_Christian_Seats.pdf` · `2024_AlJazeera_Qalandiya_Camp.html` ·
+`2025_AFRP_Annual_Report_2024-25.pdf` · `2026_AFRP_Past_Presidents.html` · `1978_Bates_Reunion_on_the_Potomac_AramcoWorld.html`
+
+*Other renames on 12 November 2026:* `2021_Atshan_The_Anthropological_Rise_of_Palestine_JPS50.pdf` ·
+`1951_Prawer_Colonization_Activities_Latin_Kingdom_Jerusalem_RBPH29.pdf` · duplicates kept as
+`1841_Robinson_Biblical_Researches_v2_copy2.pdf` and `2020_Tramontana_Trading_Spiritual_Earthly_Goods_copy2.pdf`.
+Still undated: `198x_Farhan`, `19xx_Walmsley`, `20xx_Frame`.
+
 ### The project's own outputs, kept on the shelf
 
-`AFRP_Ramallah_Bibliography_v4.html` · `AFRP_The_One_Line_v5.html` ·
+`AFRP_Ramallah_Bibliography_v5.html` (v4 kept) · `AFRP_The_One_Line_v5.html` ·
 `AFRP_Register_Names_1553_1562.csv` · `Ramallah_Family_Tree_Book_v117.pdf` ·
 `Literature_Manifest_20260914.md` · `Download_List_20260821.md` · `Reconciliation_Memo.md`
 
@@ -225,5 +267,5 @@ Named so they are visible rather than papered over.
 
 ---
 
-*Index generated 14 September 2026. The shelf itself lives outside this repository;
+*Index generated 14 September 2026; November 2026 shelf and renames added 12 November 2026. The shelf itself lives outside this repository;
 `docs/SOURCES.md` states the rights position.*
