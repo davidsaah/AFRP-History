@@ -1,5 +1,19 @@
 # Changelog
 
+## v72 — 12 November 2026
+
+### Round 2: the ready items, Cadora, and the Saah sidebar
+
+David chose "Ready items" on 12 November. New paragraphs, each with its source named, are held in the `ADD72` table in `src/build_v5.py`, keyed by entry title. Numbers are those of the report *Ramallah history gaps round 2*.
+
+- 1938: E14 Assistant Inspector W. E. Birch named (Palestine Police report 1938, s. 17(a); McDowell); E15 the laundress's house; E17 the Ramallah and al-Bīra units and their commanders (the two Ḥannā Khalafs are not merged).
+- 1948: E19 Jordan from 18 May (Shalash; Cadora p. 64); E33 the air raids of May and the mayors' visit to the king; E29 to E31 the Lydda march, its dead and its witnesses; E20 the Friends schools take in refugees; E21 the Arab Refugee Congress count, 72,660, March 1949; Cadora's 1953 split (5,000 and 8,500) beside Shāhīn's; Cadora acting mayor from 1 April 1948.
+- Cadora also: the 1820 feud in his telling; the municipality established 1 April 1908; the Saah builders of the 1852 church; the clans' crafts; the 1885 lanterns and the 1935 grid; Ḥannā Ibrāhīm al-Saah in Istanbul and Joseph ʿAudeh in 1895 (printed beside Shāhīn's England); the Qaddūra name; Yūsuf Jiryis al-Saah's factory, 1940.
+- The Saah builders and Acre: a sidebar in "New families arrive", told as family tradition (Cadora pp. 35, 40, 146), with Buckingham (1821) and the family tree; the al-Qassīs priestly line and Ayoub al-Ṣafadī's silk robes.
+- Karak: D4 and D5 and E10 (Peake's Arabic p. 351 on al-Ḥalasa and al-Ṭanāshāt, both views printed; the Ḥaddādīn entry is p. 348).
+- Since 1948: D9 and D13 the Federation's founding year in each source's words (AFRP 2024–25 report: "Founded in 1952"; 1958; 1959; the Aramco World 1978 inference); D10 Decree 19 of 2021 and the Christian council head; D15 the 1967 count dated 21 September 1967 for Ramallah–Jericho (occupying power's count).
+- Already in the book, so nothing added: D2 (the Latin parish registers of 1857) and E6 (Karak 57 per cent Christian in 1596).
+
 ## v71 — 11 November 2026
 
 ### Lot 3: large files read on David's PC

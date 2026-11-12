@@ -306,11 +306,76 @@ ADD70 = {
   "Palestinian Museum Digital Archive, the Nahda collection. Widad Kawar, in the <i>Journal of Palestine Studies</i> (1980), pp. 123–127. Saca, <i>Embroidering Identities</i>, pp. 16–26. Ellen Fleischmann, <i>Journal of Palestine Studies</i> (2000), pp. 19 and 24.")],
 }
 
+# v72 round 2 additions (12 Nov 2026). Same mechanism as ADD70: appended to the entry whose title starts with the key.
+ADD72 = {
+ 'The present Greek Orthodox church is built': [lambda: _P(
+  "Cadora names the builders. At the inauguration of 1852, under the supervision of Sheikh Muḥammad al-ʿĀmir of al-Bīra, the prefect of the district, who was paid a quarter of a mejīdī a day, “the builders of the church were from the Al-Saah family”{n}.",
+  "Cadora, <i>Remembering Ramallah</i>, p. 46.")],
+ 'How the town lived': [lambda: _P(
+  "<b>Each clan had its craft.</b> Cadora gives the town’s trades by family. Weaving was the speciality of the Sharaqa, who wove woollen and striped cloaks. Shoemaking belonged to the Hishmeh and the ʿAudeh. “Construction was the domain of the Saah clan.” The women made the clay jars, stoves and hearths, the straw trays, and the cross-stitch embroidery{n}.",
+  "Cadora, <i>Remembering Ramallah</i>, p. 101.")],
+ 'The first four sail for America': [lambda: _P(
+  "Cadora tells the first departures more fully. Ḥannā Ibrāhīm al-Saah sold Holy Land goods, and in 1858 he left with the Greek pilgrims for Istanbul, where he opened a shop. He went back and forth for years, grew rich, and died there without heirs, leaving his fortune to the Patriarchate of the Phanar. Cadora’s Saah chart marks a Ḥannā who “Died in Constantinople.” The idea of America, Cadora writes, came in 1889, when the Friends brought masons from Bethlehem to build the girls’ school, and the Ramallah labourers heard them talk of the money to be made there. Joseph ʿAudeh then left for America in 1895. Shāhīn has the first to go west leaving in 1895 for England; we print both{n}.",
+  "Cadora, <i>Remembering Ramallah</i>, p. 104, and the clan chart, p. 146.")],
+ 'The counting years': [lambda: _P(
+  "The light has a family history too. In 1885 Ibrāhīm al-Saah brought petrol lanterns from Jerusalem to light his house, and the village came to look; Cadora had the story from Sheikh Ḥannā al-Zaʿrūr. Cadora adds that in 1935 ʿAzīz Cadora, the grandson of Khalīl Ibrāhīm al-Saah, was the first to install the electric grid and carry it to the houses and streets{n}.",
+  "Cadora, <i>Remembering Ramallah</i>, p. 89.")],
+ 'Our first history, written in New York': [lambda: _P(
+  "The name has its own story, told by the family in the 2023 edition. Khalīl Saah’s wife was warned as a girl that the district’s Ottoman policeman, a man named Qaddūra, would be called to punish her. She became “the Qaddoura mother,” her children “the children of Qaddoura,” and the family was known as the Qaddūras instead of Saah. At Ellis Island the name was written Cadora{n}.",
+  "Cadora, <i>Remembering Ramallah</i>, English edition (2023), front matter, p. 10, family tradition.")],
+ 'The people our town produced': [lambda: _P(
+  "In 1940 Yūsuf Jiryis al-Saah opened a large furniture factory in Washington, D.C., making tables, chairs and cupboards{n}.",
+  "Cadora, <i>Remembering Ramallah</i>, pp. 108–109.")],
+ 'New families arrive': [lambda: _P(
+  "<b>The Saah builders and Acre.</b> Cadora tells this story as the families told it to him. After Ẓāhir al-ʿUmar was killed in 1775, Aḥmad al-Jazzār made Acre his seat and set about rebuilding its walls. His men roamed the villages of Palestine and south Lebanon and forced men into labour, and Ramallah was not spared. “The Al-Saah family were builders and among the first forced into labor.” When the work was done, the Saah builders escaped. Al-Jazzār knew where they came from, so they went to Safad instead of home and worked there as builders. In Safad their daughter Hishmeh married Khaled, a roaming shoemaker, and her grandchildren are the Hishmehs of Ramallah. The family stayed away for fifteen years, until Yaʿqūb of the Ḥaddādīn went to Safad and brought them home. They came back with a new name, al-Ṣafadī, the people from Safad. The outside record fits the story. Al-Jazzār governed from Acre from 1776 until 1804. James Silk Buckingham, who saw Acre in 1816, wrote that its outer walls were “the work of Djezzar Pasha,” who improved the fortifications after the French withdrew in 1799. The family tree puts Elias Salāmeh Saah’s birth at about 1769, and his daughter Sabḥa (born about 1799) married Ayoub Ibrahim Safadi. That fits Cadora’s own clan chart, which is headed “The Saah or Al Safadi Clan”{n}.",
+  "Cadora, <i>Remembering Ramallah</i> (1954; English 2023), pp. 35–36 and the clan chart, p. 146, family tradition. J. S. Buckingham, <i>Travels in Palestine</i> (1821), p. 76. The Saah family tree."),
+  lambda: _P(
+  "Two more family stories belong with this one. The same labour gangs explain a priestly line. Ḥannā Saʿad of the ʿAwwād clan was an only son, so his cousins took him to the Greek Orthodox monastery in Jerusalem rather than let him be taken to Acre. He became a priest, and he is the ancestor of the al-Qassīs family, who are kin to the ʿAwwād. And the trade went on. Ayoub Ḥannā al-Ṣafadī was a mason who built houses in the villages and a revered sheikh at home. One house-owner paid him with four silk robes, the only ones in Ramallah, and for years couples borrowed them to be married in{n}.",
+  "Cadora, <i>Remembering Ramallah</i>, pp. 35 and 40, family tradition.")],
+ 'Feuds, a pasha and a faction': [lambda: _P(
+  "<b>The feud of 1820 in Cadora’s telling.</b> Cadora, who was Shāhīn’s source, writes that “in 1820, a fight broke out among members of Al-Shaqara clan.” A marriage into the Abū Hānī family was refused, and the would-be groom’s brother was killed. The killer fled to the Barāghtha of Banī Zayd, and Muḥammad Abū Salāmeh of the Ghazāwneh of al-Bīra turned the revenge onto the Qaysī side. The families scattered to the villages around, among them Silwād and Yabrūd, and they “returned to Ramallah through a Sulha after an absence of one year.” His spelling is Shaqara, as in Shāhīn (1982){n}.",
+  "Cadora, <i>Remembering Ramallah</i>, pp. 40–41 (scan page markers). The scan is machine-read and garbles some village names and the number of the dead, so those are not printed here.")],
+ 'Ramallah becomes a city, clan by clan': [lambda: _P(
+  "Cadora, who later sat in the mayor’s chair himself, gives the day: the municipality was “established on April 1, 1908,” and Elias ʿAudeh was its first mayor, from 1908 to 1921{n}.",
+  "Cadora, <i>Remembering Ramallah</i>, p. 65 (scan page marker).")],
+ 'Musil asked them himself': [lambda: _P(
+  "<b>What Peake’s Arabic edition adds.</b> Peake’s Arabic volume of 1935 gives two Karak entries that touch this table. Of al-Ḥalasa he writes that “they are said to be the sons of an Egyptian who came to Karak and married a girl of the Ḥaddādīn clan; their rite is Greek Orthodox; they live in Karak and the village of Ḥammūd, and they have kin in Nazareth called al-Ḥanādisa.” So one Karak Christian clan kept kin west of the Jordan. Of al-Ṭanāshāt he says the opposite of Musil. Musil counts them among the old lineages “who built the town”; Peake lists them under a Muslim clan, “descendants of one of the old Ottoman officials.” We print both views by name. Kaddoura’s Sheikh Ṭanāsh, who flees with Rāshid, belongs to this same name{n}.",
+  "F. G. Peake, <span class='ar'>تاريخ شرقي الأردن وقبائلها</span> (Jerusalem, 1935), p. 351, page image read: <span class='ar' dir='rtl'>يقال انهم ابناء رجل مصري قدم الى الكرك وتزوج فتاة من عشيرة الحدادين، ومذهبهم روم ارثودكس. يقطنون في الكرك وقرية حمود ولهم اقارب في الناصرة يدعون بالحنادسه</span>; for al-Ṭanāshāt, <span class='ar' dir='rtl'>من اعقاب أحد الموظفين العثمانيين القدماء</span>. Page 351 is the al-Ḥalasa page; Peake’s Ḥaddādīn entry, which Kaḥḥāla cites, is p. 348.")],
+ 'The revolt reaches the town': [lambda: _P(
+  "<b>The officer who was killed.</b> The British police officer killed on 1 October has a name. The Palestine Police report for 1938 lists, among the British police killed that year, “Assistant Inspector W. E. Birch. Killed by unknown persons during an engagement at Ramallah on 1st October.” The Quaker teacher knew him. On 8 October she wrote: “Of the British, only one, our friend, Sargent Birch, was killed. He had taken refuge in the house of our laundress, where the Arabs shot him down and burned the house. The poor widow who owned it had worked years and just finished building her home.” So one house that burned that day can be named by its owner’s work, though not by her name, and it burned in the fight, not by a British demolition order. The next day “burned houses were still smoldering.” She adds that the roads “had been blocked off with rocks so that British armored cars couldn’t get by,” and the telephone wires were cut{n}.",
+  "Palestine Police, <i>Annual Administrative Report 1938</i>, s. 17(a), British entry 7, page image read. McDowell, <i>Notes from Ramallah, 1939</i>, printed pp. 14–17. " + D('1939_McDowell_Notes_from_Ramallah.pdf') + "."),
+  lambda: _P(
+  "<b>The fighters’ side of the same weeks.</b> The Palestinian historian Bilāl Fāris names the units: the Ramallah unit under Ḥannā ʿĪsā Khalaf, and the al-Bīra unit under ʿAbd al-Dāʾim ʿAbd al-Ṣamad. A Ḥannā Khalaf also sat on the national committee of 1936 and the election committee of 1946; we do not assume they are one man without a source that says so. Abū ʿUmar al-Nūbānī “took the British police station in the town,” and Darwaza’s memoirs record that “the Ramallah police office was closed and its equipment taken to Jerusalem.” <i>Al-Akhbār</i> of 8 September reports two fighters martyred on 5 September, where Totah speaks only of wounded{n}.",
+  "Bilāl Fāris, <span class='ar'>تحرير المدن 1938</span>, Institute for Palestine Studies (2023), pt 1, read in extract, with his sources: Ḥammūda for al-Nūbānī; Muḥammad ʿIzzat Darwaza, memoirs, p. 502; <i>al-Difāʿ</i>, 20 September 1938, for the move of the post office and court; <i>al-Akhbār</i>, 8 September 1938. His notes put Ricks’s edition of Totah at p. 232 for the police post and the entry of 500 to 800 men on 9 September, and p. 234 for the evening of 7 September. The Arabic wants an eye check.")],
+ 'The catastrophe of 1948': [lambda: _P(
+  "<b>Before Lydda.</b> Jordan took charge of the Ramallah region weeks before the expulsions. Bahjat Tabbāra was appointed for the Ramallah region on 18 May 1948, with ʿAzmī al-Nashāshībī as his assistant, and a second company of the Arab Legion was sent to the town on 27 May. Cadora, who was acting mayor from 1 April 1948 while Khalīl Ṣalāḥ was away, gives the same date for Tabbāra. He records that Ramallah was bombed from the air on 26, 27 and 29 May, and a refugee from Ramle was killed. On 5 June the mayors of Lydda, Ramle, Ramallah and al-Bīra went together to King Abdullah about the refugees. In December 1948 the king came to a conference in Ramallah, and the notables, the mukhtārs and the National Committee of the Ramallah area signed a petition against Jordanian rule{n}.",
+  "Bilāl Shalash, <i>Almuntaqa</i> 8 (2021), from the writings of Qāsim al-Rīmāwī, read in extract. Cadora, <i>Remembering Ramallah</i>, pp. 58–60, 64 and 72 (scan page markers)."),
+  lambda: _P(
+  "<b>The march.</b> About seventy thousand people of Lydda, Ramle and the villages near them were given half an hour to leave on 13 July. They were sent on “a rugged, treacherous path to reach Ramallah.” More than four hundred people were killed in Lydda, eighty to 176 of them at the Dahmash mosque, and close to a thousand died in the city and on the march together. Hundreds died of thirst and exhaustion on the road, and newborns did not survive. The painter Ismāʿīl Shammūṭ lost his brother to thirst on the march. Reja-e Busailah, George Ḥabash and Spiro Munayyer, who walked it or saw it, have left their own accounts{n}.",
+  "“Lydda, 9–13 July 1948,” <i>Palestinian Journeys</i> (Institute for Palestine Studies and the Palestinian Museum), read in extract; it names the witnesses: Reja-e Busailah, <i>In the Land of My Birth</i> (2017); George Ḥabash in <i>Majallat al-Dirāsāt al-Filasṭīniyya</i> (1998); Spiro Munayyer, “The Fall of Lydda” (1998), with notes by Walid Khalidi."),
+  lambda: _P(
+  "<b>The town receives them.</b> Christina Jones of the Friends schools wrote on 13 July of “thousands of people on foot struggling up the twenty-five-mile road.” About two hundred were sheltered in the Girls School, and the Boys School became an emergency hospital, with a maternity ward in the principal’s house and “as many as seven refugee babies born in a single day.” Cadora writes of “25,000 refugees who came overnight,” fed by the Jordanian government until the Red Cross took over. By March 1949 the refugees’ own body, the Arab Refugee Congress of Ramallah, counted <b>72,660</b> refugees, almost certainly for the Ramallah area rather than the town. That is a Palestinian count, made by the refugees themselves{n}.",
+  "Christina Jones’s diary, Philadelphia Yearly Meeting, “1948 July,” read in extract; Ramallah Friends School, history page, for the maternity ward. Cadora, <i>Remembering Ramallah</i>, pp. 58–60. UN Conciliation Commission for Palestine, Technical Committee, working paper CDM.TECH/W.2 (14 June 1949), section “Ramallah, March 1949”; the scan is poor and the total wants an eye check."),
+  lambda: _P(
+  "<b>The count of 1953, in two hands.</b> Shāhīn gives 13,500 people: four and a half thousand natives and nine thousand refugees. Cadora, his source, gives the same total split differently: “The original inhabitants numbered 5,000. The additional 8,500 were refugees.” We print both, by name{n}.",
+  "Shāhīn (1982), p. 22; Cadora, <i>Remembering Ramallah</i>, p. 37 (scan page marker).")],
+ 'The Federation': [lambda: _P(
+  "<b>The founding year, in each source’s own words.</b> The Federation’s own annual report for 2024–25 says: “Founded in 1952, the American Federation of Ramallah Palestine is a nationwide organization headquartered in Westland, Michigan.” Shāhīn (1982) and the municipality’s centennial book give 1958, the book as “the founding of the Union of Ramallah’s Sons in America in Detroit, Michigan.” Shaheen (2005) has incorporation in Michigan in 1959, and the Federation’s roster names Farid Shatara as its first president, 1959 to 1962. In 1978 <i>Aramco World</i> wrote that the Federation had sponsored annual conventions “for 19 years,” which points to a first convention in 1959; that is our inference. The 1952 founding is the five students’ magazine; the Friends School’s own history calls them “five Friends School graduates, who were attending Wayne State University in Detroit”{n}.",
+  "American Federation of Ramallah Palestine, <i>Annual Report 2024–25</i>, PDF p. 2, “Who we are.” Ramallah Municipality, centennial book (2008), timeline: <span class='ar' dir='rtl'>إنشاء اتحاد أبناء رام الله في أمريكا في ديترويت ميتشيغان</span>. Shaheen (2005), pp. 353–355. AFRP, past presidents. P. Bates, “Reunion on the Potomac,” <i>Aramco World</i> (1978). Ramallah Friends School, history page.")],
+ 'The city, counted to the present': [lambda: _P(
+  "<b>The day of the 1967 count.</b> The census volume itself gives the day for the Ramallah–Jericho region: it was enumerated on <b>21 September 1967</b>, under curfew. This is the occupying power’s count, and we use it only for its date and its figures{n}.",
+  "Israeli Central Bureau of Statistics, <i>Census of Population 1967</i>, vol. 1, p. V, dates of enumeration, page image read (Israeli state source). The dataset documentation (Perlmann, Levy Institute, 2012) adds that a curfew was declared for the day of the enumeration."),
+  lambda: _P(
+  "<b>The Christian mayor is written into law.</b> Ramallah’s Christian mayor is not only a custom. Presidential Decree no. 19 of 2021 puts Ramallah first in its table, with 8 of the council’s 15 seats reserved for Christians, and its second article says that “the head of each of the councils named above shall be a Christian.” Earlier decrees on the same subject were issued in 2010, 2016 and 2017, under the 2005 amendment to the local elections law. Eight of fifteen is a political allocation, not a share of the population{n}.",
+  "Decree no. 19 of 2021, dated 27 September 2021, <i>al-Waqāʾiʿ al-Filasṭīniyya</i> no. 184 (27 October 2021), pp. 30–31: <span class='ar' dir='rtl'>يكون رئيس كل من الهيئات المحلية المذكورة أعلاه مسيحيا</span> (Burqīn excepted). Central Elections Commission, decrees of 2010 (no. 4), 2016 and 2017, and the 2017 local elections report, annex 7. The Arabic wants an eye check.")],
+}
+
 
 def ent(date, grade, w2, title, note, body=''):
-    for _k in [k for k in ADD70 if title.startswith(k)]:
-        for _f in ADD70.pop(_k):
-            body += _f()
+    for _tab in (ADD70, ADD72):
+        for _k in [k for k in _tab if title.startswith(k)]:
+            for _f in _tab.pop(_k):
+                body += _f()
     for _k, _v in V69.items():
         body = body.replace('[[' + _k + ']]', _v)
         note = note.replace('[[' + _k + ']]', _v)
@@ -3959,6 +4024,7 @@ def _made(key):
 
 
 assert not ADD70, list(ADD70)
+assert not ADD72, list(ADD72)
 
 def render():
     out = []
