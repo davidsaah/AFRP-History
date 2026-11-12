@@ -237,6 +237,11 @@ The full catalogue is `AFRP_Ramallah_Bibliography_v5.html`, section XXXI. Web pa
 `2021_PalestinianGazette_Decree19_Christian_Seats.pdf` · `2024_AlJazeera_Qalandiya_Camp.html` ·
 `2025_AFRP_Annual_Report_2024-25.pdf` · `2026_AFRP_Past_Presidents.html` · `1978_Bates_Reunion_on_the_Potomac_AramcoWorld.html`
 
+*From Cadora's bibliography (shelved 12 November 2026):* `2018_Irving_A_Young_Man_of_Promise_JQ73_full_issue.pdf` ·
+`2008_vanderLeest_Conversion_and_Conflict_in_Palestine_PhD.pdf` · `1905_Dissard_Tribu_des_Amer_Revue_Biblique_ns2_full_volume.pdf`
+(article at PDF pp. 428–443) · `1898_Papadopoulos-Kerameus_Analekta_V.pdf` (probably Cadora's "Memoirs"; not yet confirmed).
+The other nineteen works in his bibliography are listed as wanted in the v5 catalogue, section XXXI F.
+
 *Other renames on 12 November 2026:* `2021_Atshan_The_Anthropological_Rise_of_Palestine_JPS50.pdf` ·
 `1951_Prawer_Colonization_Activities_Latin_Kingdom_Jerusalem_RBPH29.pdf` · duplicates kept as
 `1841_Robinson_Biblical_Researches_v2_copy2.pdf` and `2020_Tramontana_Trading_Spiritual_Earthly_Goods_copy2.pdf`.
