@@ -1,5 +1,9 @@
 # Changelog
 
+## v73 — 12 November 2026
+
+Scan checks on David's PC: Zarifeh ʿAudeh confirmed, the March 1949 count read, Cadora's 1953 school figures added. Small differences no longer noted (David: "No need to note small differences … for the entire book"): seven notes trimmed (a spelling aside, a roster place name, an edition-numbering caution, two page-number caveats, a pending page check, an OCR reading note). Disagreements that change the story are still printed both ways.
+
 ## v72 — 12 November 2026
 
 ### More from Cadora (David chose "All 24", 12 November)
