@@ -2,6 +2,10 @@
 
 ## v72 — 12 November 2026
 
+### More from Cadora (David chose "All 24", 12 November)
+
+23 further paragraphs from Cadora, *Remembering Ramallah*, each marked as his account with scan page markers, appended to `ADD72` in the "v72b" block: the 1889 first class by name, the Holy Sepulchre ceiling, the interpreter of the 1820s, red and white brides with the Mar Saba diary of 1844 ("1500 souls"), Sheikh ʿĪsā Ḥarb, the newcomers' dates, the sheikhs' cloak, the 1807 church's end, weddings, the 1902 mill and 1928 arak works, cemeteries and malaria, the 1910–12 minutes, the 1920s council, the 1924 boundary, the 1920 snow and harvest, the societies, the 1944 hospital committee and "Ramallah Federation", the author's father and wife, professional firsts, Selim Hishmeh with Stanley, the first firms in America and the 1954 roll, and the town in numbers in 1953. Conflicts are printed both ways by name: the 1898/1900 money order, the newcomers' dates, the locusts in 1914/1915, the hospital sums, the fight in 1904/1905, and the church demolished in 1951/1952. Holy Light delegation (candidate 12) skipped: already in the book.
+
 ### Round 2: the ready items, Cadora, and the Saah sidebar
 
 David chose "Ready items" on 12 November. New paragraphs, each with its source named, are held in the `ADD72` table in `src/build_v5.py`, keyed by entry title. Numbers are those of the report *Ramallah history gaps round 2*.
