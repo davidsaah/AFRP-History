@@ -1,5 +1,18 @@
 # Changelog
 
+## v76 — 13 November 2026
+
+### The maps (option B, terrain and water)
+
+All eleven drawn maps now follow one style guide, `docs/MAP_STYLE.md`, implemented in `src/map_style.py` (colours, symbols, type, furniture, terrain) and `src/build_atlas.py` (the `Sheet`, `Flat` and `Lin` projections). Figure 11 is a table and is unchanged.
+
+- **One symbol vocabulary:** green = documented, ochre = remembered, grey = context, open diamond = standing evidence, red ring = Ramallah on every map (an empty ring before 1562). Figure 5's periods use a separate violet ramp, so green and ochre keep their meaning.
+- **Ground:** hillshade and muted elevation tints from SRTM/Copernicus (AWS Terrain Tiles) on every regional and district map, each raster under 150 KB and cached in `data/terrain/`. District sheets have 100 m or 200 m contours, with the 800 m line drawn bolder as "the ridge". The old "no hill shading" rule is retired.
+- **Water:** one blue family; wadis derived from the elevation model, left unnamed (no sourced names yet). Springs are not drawn yet, for the same reason.
+- **Frame and type:** a hairline neatline with graticule ticks on the frame, a scale bar bottom-left, a locator inset on the district sheets, the legend under the map, one source line. No place name is under 11 px on a phone.
+- **Redrawn:** figure 17 (the scattering) on a real Arabia with terrain, every arrow drawn as tradition; figure 33 (the town plan) as a framed schematic with a north arrow, "schematic, not to scale", and no scale bar.
+- `tools/restore_svg.py` now keeps the eleven maps (their text was checked against v60 first). The book grows by about 1 MB, almost all of it the terrain images.
+
 ## v75 — 13 November 2026
 
 ### The new literature (David chose "All")

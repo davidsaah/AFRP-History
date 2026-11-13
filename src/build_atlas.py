@@ -281,7 +281,7 @@ class Sheet:
                 px, py = self.P(la, lo2)
                 if y0 + 2 < py < y1 - 2:
                     s.append(f'<line x1="{xx:.1f}" y1="{py:.1f}" x2="{xx + sgn*6:.1f}" y2="{py:.1f}" stroke="{MS.FRAME}" stroke-width=".9"/>')
-                    if labels and sgn > 0:
+                    if labels is True and sgn > 0:   # 'lon': no latitude labels (a sheet with a neighbour on its left)
                         s.append(MS.text(x0 - 3, py + 3.5, f'{abs(round(la, 3)):g}°N', MS.T_FURN - 1.5, MS.NOTE, 'end'))
             la += dlat
 
@@ -524,7 +524,7 @@ def fig_road():
         x, y = mark(s, B, la, lo, k)
         label(s, x, y, nm, dx, dy, an, 13.5 if nm.isupper() else 13)
     x, y = mark(s, B, 31.90, 35.20, 'ram')
-    label(s, x, y, 'RAMALLAH', -12, -6, 'end', 13.5, MS.RAMALLAH)
+    label(s, x, y, 'RAMALLAH', 0, -14, 'middle', 13.5, MS.RAMALLAH)
     x, y = mark(s, B, 31.66, 35.83, 'mon')
     label(s, x, y, 'Nitl', 10, 13, 'start', 13)
     x, y = mark(s, B, 32.52, 36.48, 'mon')
@@ -532,11 +532,12 @@ def fig_road():
     B.scalebar(s)
     s.append(txt(B.x, B.y - 8, 'B · THE LEG THAT CAN BE CHECKED', 12, GOLD, 'start', '700', 'normal', '1.2'))
 
-    MS.legend(s, A.y + A.h + 30, [('mem', 'remembered station, tradition only'),
+    LY = max(A.y + A.h, B.y + B.h) + 34
+    MS.legend(s, LY, [('mem', 'remembered station, tradition only'),
                                   ('doc', 'attested in a document'),
                                   ('mon', 'Ghassanid site with standing evidence'),
                                   ('route-mem', 'the remembered road'), ('ram', 'Ramallah')], rows=2)
-    H = foot(s, W, A.y + A.h + 74,
+    H = foot(s, W, LY + 40,
              'Nitl lies a few kilometres from Maʿīn. Its mosaics are the most important Jafnid-associated monument in Jordan, and they sit on the road the family remembers.',
              'Sheet A is drawn at roughly one-eighth the scale of sheet B. Coastlines, rivers and lakes after Natural Earth; Lambert conformal conic projection. ' + TERRAIN_SRC + ' The Dead Sea outline is the modern one.')
     return plate_end(s, H)
@@ -556,6 +557,10 @@ class Flat:
         self.s = min(self.sx, self.sy)
         self.ox = x + (w - (lon1 - lon0) * self.k * self.s) / 2
         self.oy = y + (h - (lat1 - lat0) * self.s) / 2
+        # v76: snap the frame to the ground mapped, as Sheet does
+        self.x, self.y = self.ox, self.oy
+        self.w = (lon1 - lon0) * self.k * self.s
+        self.h = (lat1 - lat0) * self.s
 
     def P(self, lat, lon):
         lon0, lon1, lat0, lat1 = self.bbox
@@ -792,13 +797,13 @@ def fig_diaspora():
     s = _plate(W, 0, 'WHERE RAMALLAH WENT, 1901 ONWARD',
                'The cities the town’s people went to, weighted by the family’s own record. Nobody has ever properly enumerated this diaspora, which is itself a finding.',
                'Atlas map of the Ramallah diaspora in North America')
-    M = Flat(-126.0, 38.0, 22.0, 54.0, 44, 84, 772, 306)
+    M = Flat(-126.0, 38.0, 18.0, 58.0, 44, 84, 772, 240)
     M.base(s, '50m', rivers=False, clipid='clip_diaspora'); M.graticule(s, 20, 10, labels=False); M.close(s)
     M.sea(s, 40.0, -45.0, 'ATLANTIC OCEAN', 13)
     M.sea(s, 34.0, -124.0, 'PACIFIC', 12, -90, 'middle')
     CITIES = [(42.33, -83.05, 'DETROIT', 34, 10, -5, 'start'),
               (30.33, -81.66, 'Jacksonville', 18, 10, 4, 'start'),
-              (40.71, -74.01, 'New York', 16, 10, -6, 'start'),
+              (40.71, -74.01, 'New York', 16, 10, 14, 'start'),
               (37.77, -122.42, 'San Francisco', 12, 10, 4, 'start'),
               (41.88, -87.63, 'Chicago', 10, -10, 12, 'end'),
               (34.05, -118.24, 'Los Angeles', 9, 10, 10, 'start'),
@@ -875,7 +880,7 @@ def fig_karak():
 
     # ── B · the enlargement
     N = Sheet(*fit_box(34.98, 35.40, 31.52, 31.99, 250, 450), 326, 92, 250, 450)
-    N.base(s, '10m', clipid='clip_karak_b', terrain={'contour': 200, 'wadi_km2': 8}, key='karak_b'); N.graticule(s, 0.2, 0.2); N.close(s)
+    N.base(s, '10m', clipid='clip_karak_b', terrain={'contour': 200, 'wadi_km2': 8}, key='karak_b'); N.graticule(s, 0.2, 0.2, labels='lon'); N.close(s)
     s.append(txt(N.x, N.y - 8, 'B · THE LAST TWO LEGS', 12, GOLD, 'start', '700', 'normal', '1.1'))
     for pts, col, n in legs[1:]:
         route(s, N, pts, col=col, w=3.2)
