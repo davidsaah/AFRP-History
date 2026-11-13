@@ -240,7 +240,9 @@ substantial but **partial**.
   nearest reference is his note 8, to **al-Dabbāgh, *Bilāduna Filasṭīn*, vol. 8
   pt. 2, p. 258** — which he does not attach to it. *Go to al-Dabbāgh and see
   whether the Rafīdiyā origin is there.* The book now prints the claim as
-  Ḥammūdeh's assertion, not as a documented finding.
+  Ḥammūdeh's assertion, not as a documented finding. **Checked 13 Nov 2026: not
+  there.** Vol. 8 pt. 2 p. 258 is the al-Bīra entry and never names Rafīdiyā. Best
+  lead remains Cadora p. 36 (Nazzāl "from Rafidia", 1855).
 - **Bethlehem's Muslim quarter, 1 June 1834 — withdrawn pending a page.** The
   claim circulates sourced to Rood 2004, p. 130. Her *article* says something
   else for that date. Needs Rood 2004, pp. 129–130, read directly.
@@ -267,11 +269,16 @@ substantial but **partial**.
   daughter, three sons refused and left Karak, and the move to Māʿīn began **1894**
   in successive drought years. *That is a newspaper's paraphrase of a
   family-produced book, not the book.* **Beware a decoy:** a different عشائر
-  الحدادين by عباس حدادين was launched in Amman.
+  الحدادين by عباس حدادين was launched in Amman. **Partly closed 13 Nov 2026:** full
+  citation from Chatelard (Kh., M. and ʿO. Ḥaddādīn, Amman, 1991); Chatelard cites it
+  for Māʿīn c. 1901 and 1909 and for a Yemen-via-Ghassān origin; Zahran cites pp. 25–26,
+  33 and 854. The book itself is still not held.
 - **Sijill 48, p. 54** — the boundary dispute reading comes from a machine decode
   of the IRCICA scan and has not been checked against the page images. Not the
   waqf entry (p. 88). Do not cite until somebody reads the folio.
-- **St Andrew's, 1887** — Shāhīn alone; no diocesan record found.
+- **St Andrew's, 1887** — Shāhīn alone; no diocesan record found. *v75:* Kaddoura
+  (Cadora p. 77) says 1855; the 2023 translator says 1888; no CMS agent lived in
+  Ramallah before 15 March 1863 (van der Leest). The book prints both dates.
 - **The Hourani study** on the Maalouf forgery is unrefereed and self-posted; say
   so where the book leans on it.
 - **Ramallah municipality records before 1948** — never consulted.
@@ -283,17 +290,23 @@ Ranked by size. Each has a named source, several already on the shelf and uncite
 - **The Mandate as a political period** — no 1936, no Great Revolt, no partition.
   Rashid Khalidi, *The Iron Cage*; Khalil Totah's diaries; the 1,132 digitised
   issues of *Mirʾāt al-Sharq* the book calls unexploited and leaves unexploited.
-- **The economic base** — "soap" appears nowhere in a book about a Palestinian
+- **The economic base** — *v75:* still no soap trade at Ramallah in any source;
+  Cadora p. 101 mentions oil for soap only in general. "Soap" appears nowhere in a book about a Palestinian
   hill town. Olive oil, the Nablus soap industry, remittance capital replacing
   agricultural capital. Doumani (now on the shelf); Seikaly, *Men of Capital*.
   *The Khirbat al-Tira press, four beds and an owner's share, is the local end of
   this and is now in hand.*
-- **Women** — 66 generations, all male, and the book never remarks on it. The
+- **Women** — *partly filled in v75:* Jaussen 1908 (the 1906 Salt case, bride-price,
+  clans founded by marriage) and Chatelard on the Ḥalasa; Moors and Fleischmann still
+  wanted. — 66 generations, all male, and the book never remarks on it. The
   marriage-ring practice is described as a church mechanism rather than as how
   women's marriages built the clan structure. Fleischmann, *The Nation and Its
   "New" Women*; Moors, *Women, Property and Islam*.
 - **Church institutions** — the Arab-versus-Greek clergy struggle, which is the
-  political history of Ramallah's own Orthodox majority, is absent.
+  political history of Ramallah's own Orthodox majority, is absent. *Partly filled in
+  v75* for Karak (Chatelard, Tristram) and by the 1863–64 Ramallah petition to leave
+  "the name of Greeks" (van der Leest). No Arab-clergy movement in Ramallah itself is
+  documented yet.
 - **1967 and after** — one good paragraph. Taraki (on the shelf); Jubeh, cited six
   times in the bibliography and never in the narrative.
 - **The Mamluk and early Ottoman centuries** — Zeʾevi, *An Ottoman Century*, on

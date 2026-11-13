@@ -11,6 +11,9 @@ restore step is retired this file can go too.
 import sys
 
 FIXES = [
+    # v75: Shahîd, BASIC I.2 p. 948 n. 19: Kalb won the caliphate at Jābiya, not a Ghassanid faction
+    ('a Ghassanid faction still makes a caliph, from the old capital at Jābiya',
+     'Kalb’s council at Jābiya makes a caliph; a Ghassanid secures Damascus'),
     ('A Palestinian city and the seat of an authority. 43,880 people.',
      'A Palestinian city and the seat of an authority. 42,122 people in 2021.'),
     ('holding Jerusalem’s surrendered priests at Jifnā, six kilometres away.',

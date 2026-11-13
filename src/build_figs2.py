@@ -457,7 +457,7 @@ def fig_void_solved():
     s.append(f'<line x1="{px(569):.1f}" y1="{ax}" x2="{px(1500):.1f}" y2="{ax}" stroke="{FOLIO}"/>')
 
     MARKS = [(594, 'Our line stops in 569. In 593/4 the Greek writers stop naming the family.', 'edge'),
-             (684, 'Marj Rāhiṭ — a Ghassanid faction still makes a caliph, from the old capital at Jābiya', 'yes'),
+             (684, 'Marj Rāhiṭ — Kalb’s council at Jābiya makes a caliph; a Ghassanid secures Damascus', 'yes'),
              (890, '<tspan font-weight="700">al-Yaʿqūbī finds Ghassān in the Ghūṭa of Damascus — and at Gharandal, in Transjordan</tspan>', 'key'),
              (1058, 'ʿAbūd — a Syriac inscription names a patriarch, an archbishop and a priest', 'yes'),
              (1179, 'Jifnā — Ibrāhīm and his brothers, sons of Mūsā, named in stone at Choziba', 'yes'),
