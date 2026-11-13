@@ -95,7 +95,7 @@ def localize_loc(h):
 def _photo(h, names):
     """The first photograph in the book whose file name is in names, if it can be shown."""
     for name in names:
-        m = re.search(r'<figure class="photo[^"]*"><img src="([^"]*/%s)" alt="([^"]*)"' % re.escape(name), h)
+        m = re.search(r'<figure class="photo[^"]*"[^>]*><img src="([^"]*/%s)" alt="([^"]*)"' % re.escape(name), h)
         if m and (m.group(1).startswith('../img/')):
             return m.group(1), m.group(2)
     return None

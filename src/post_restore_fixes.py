@@ -11,6 +11,18 @@ restore step is retired this file can go too.
 import sys
 
 FIXES = [
+    # v80: the figures state what is true; the past editions stay in the changelog
+    ('>A correction, not a demolition: the migration tradition survives, and the century attached to it moves forward by 150–250 years.<',
+     '>The migration tradition survives; the century attached to it moves forward by 150–250 years.<'),
+    ('The honest correction is therefore not to invent thirty names, but to print the number.',
+     'The honest course is therefore not to invent thirty names, but to print the number.'),
+    ('Warda Books, 2025”; that attribution is wrong on author, publisher and year — see the note in the text.',
+     'Warda Books, 2025”; for the book itself, see the note in the text.'),
+    ('>the deck was wrong<', '>the record differs from the deck<'),
+    ('>Three corrections and one open conflict out of thirty-six.<', '>Three changed by the record and one open conflict, out of thirty-six.<'),
+    # v80: Figure 7.6 (five datings) follows the text: the Muslim households of 1538–39, al-Dabbāgh's early 1600s
+    ('font-family="Times New Roman, Times, serif">1539</text>', 'font-family="Times New Roman, Times, serif">1538–39</text>'),
+    ('font-family="Times New Roman, Times, serif">c. 1600s</text>', 'font-family="Times New Roman, Times, serif">early 1600s</text>'),
     # v75: Shahîd, BASIC I.2 p. 948 n. 19: Kalb won the caliphate at Jābiya, not a Ghassanid faction
     ('a Ghassanid faction still makes a caliph, from the old capital at Jābiya',
      'Kalb’s council at Jābiya makes a caliph; a Ghassanid secures Damascus'),

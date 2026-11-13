@@ -279,7 +279,7 @@ def fig_town_plan():
         (452, 330, '5', 'Municipality and park', 'start', 13, 10),
         (492, 388, '6', 'Lutheran church and school', 'start', 13, 4),
         (612, 452, '7', 'Ramallah New Hospital (1963)', 'start', 13, 4),
-        (288, 346, '8', 'Friends Girls School (1869)', 'end', -14, 14),
+        (288, 346, '8', 'Friends girls’ school (1869, 1889)', 'end', -14, 14),
         (700, 190, '9', 'Friends Boys School (1919)', 'end', -14, -14),
     ]
     for x, y, n, lab, anc, dx, dy in SITES:
