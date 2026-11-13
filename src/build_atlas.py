@@ -13,6 +13,7 @@ import shapefile                      # pyshp, pulled in by geopandas
 import cartopy.io.shapereader as shpreader
 
 import build_recon as R
+import map_style as MS
 txt, esc = R.txt, R.esc
 
 GOLD, GREY, RULE, FOLIO = '#B98A4E', '#77726A', '#DCD6C9', '#9A958C'
@@ -20,14 +21,15 @@ INK, BODY, DARK = '#1A1A1A', '#46423B', '#004A26'
 GREEN, RUST, PLUM = '#007A3D', '#A85210', '#6D4E9E'
 SURF = '#FCFBF8'
 # the atlas palette
-SEA      = '#CFE0E8'
-SEA_DEEP = '#B9D2DD'
-SEALINE  = '#8FB2C2'
-LAND     = '#F0E7D3'
-LAND_HI  = '#E7DBC0'
-COAST    = '#A08E6A'
-RIVER    = '#8FB2C2'
-GRAT     = '#DED4BE'
+# v76: the water and land colours come from the one map style (map_style.py)
+SEA      = MS.SEA
+SEA_DEEP = MS.LAKE
+SEALINE  = MS.WATER_LINE
+LAND     = '#F5F2EA'
+LAND_HI  = '#ECE5D6'
+COAST    = MS.WATER_LINE
+RIVER    = MS.RIVER
+GRAT     = '#E0D9CB'
 
 
 # ─────────────────────────────── data
@@ -177,6 +179,18 @@ class Sheet:
         a, b = self._raw(lat, lon)
         return (self.ox + (a - self.rx0) * self.s, self.oy + (self.ry1 - b) * self.s)
 
+    def inv(self, px, py):
+        """Plate units back to lat/lon (numpy arrays)."""
+        import numpy as np
+        a = (px - self.ox) / self.s + self.rx0
+        b = self.ry1 - (py - self.oy) / self.s
+        dy = self.rho0 - b
+        rho = np.sign(self.n) * np.sqrt(a * a + dy * dy)
+        th = np.arctan2(a * np.sign(self.n), dy * np.sign(self.n))
+        lat = 2 * np.arctan((self.F / rho) ** (1 / self.n)) - math.pi / 2
+        lon = self.lam0 + th / self.n
+        return np.degrees(lat), np.degrees(lon)
+
     def km_per_px(self):
         la = (self.bbox[2] + self.bbox[3]) / 2
         x1, y1 = self.P(la, self.bbox[0]); x2, y2 = self.P(la, self.bbox[1])
@@ -204,79 +218,127 @@ class Sheet:
             d.append('Z')
         return ''.join(d)
 
-    def base(self, s, res='10m', rivers=True, clipid=None):
+    def base(self, s, res='10m', rivers=True, clipid=None, terrain=None, key=None):
+        """The ground. With `terrain` (a dict of options for map_style.terrain)
+        the land is a muted hillshade over hypsometric tints, with contours and
+        DEM-derived wadis; without it, flat land as before. Either way water is
+        the one blue of the map style."""
         cid = clipid or ('clip%d' % id(self))
         s.append(f'<clipPath id="{cid}"><rect x="{self.x}" y="{self.y}" '
                  f'width="{self.w}" height="{self.h}"/></clipPath>')
         s.append(f'<g clip-path="url(#{cid})">')
-        s.append(f'<rect x="{self.x}" y="{self.y}" width="{self.w}" height="{self.h}" fill="{SEA}"/>')
-        for seg in _feats(res, 'physical', 'land', self.bbox):
-            s.append(f'<path d="{self._path(seg, True)}" fill="{LAND}" stroke="none"/>')
-        for seg in _feats(res, 'physical', 'lakes', self.bbox):
-            s.append(f'<path d="{self._path(seg, True)}" fill="{SEA}" stroke="{SEALINE}" stroke-width=".7"/>')
+        lands = _feats(res, 'physical', 'land', self.bbox)
+        lakes = _feats(res, 'physical', 'lakes', self.bbox)
+        if terrain is not None:
+            proj = lambda seg: [self.P(la, lo) for lo, la in seg]
+            t = MS.terrain(key or cid, self.inv, self.x, self.y, self.w, self.h, self.km_per_px(),
+                           [proj(g) for g in lands], [proj(g) for g in lakes], terrain)
+            MS.draw_terrain(s, t, self.x, self.y, self.w, self.h)
+            for seg in lakes:
+                s.append(f'<path d="{self._path(seg, True)}" fill="none" stroke="{SEALINE}" stroke-width=".9"/>')
+        else:
+            s.append(f'<rect x="{self.x}" y="{self.y}" width="{self.w}" height="{self.h}" fill="{SEA}"/>')
+            for seg in lands:
+                s.append(f'<path d="{self._path(seg, True)}" fill="{LAND}" stroke="none"/>')
+            for seg in lakes:
+                s.append(f'<path d="{self._path(seg, True)}" fill="{SEA}" stroke="{SEALINE}" stroke-width=".8"/>')
         if rivers:
             for seg in _feats(res, 'physical', 'rivers_lake_centerlines', self.bbox, False):
                 s.append(f'<path d="{self._path(seg)}" fill="none" stroke="{RIVER}" '
-                         f'stroke-width="1.1" stroke-linejoin="round" opacity=".85"/>')
+                         f'stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>')
         for seg in _feats(res, 'physical', 'coastline', self.bbox, False):
-            s.append(f'<path d="{self._path(seg)}" fill="none" stroke="{COAST}" stroke-width="1.1"/>')
+            s.append(f'<path d="{self._path(seg)}" fill="none" stroke="{COAST}" stroke-width="1"/>')
         return cid
 
     def graticule(self, s, dlon, dlat, labels=True):
+        """v76: ticks on the neatline, not lines across the ground. The ticks
+        are drawn by close(), once the frame is on top; here they are queued."""
+        self._grat = (dlon, dlat, labels)
+
+    def _ticks(self, s):
+        if not getattr(self, '_grat', None):
+            return
+        dlon, dlat, labels = self._grat
         lon0, lon1, lat0, lat1 = self.bbox
+        x0, y0, x1, y1 = self.x, self.y, self.x + self.w, self.y + self.h
         lo = math.ceil(lon0 / dlon) * dlon
-        while lo <= lon1:
-            d = self._path([(lo, lat0 + i * (lat1 - lat0) / 24) for i in range(25)])
-            s.append(f'<path d="{d}" fill="none" stroke="{GRAT}" stroke-width=".7"/>')
-            if labels:
-                px, _ = self.P(lat0, lo)
-                s.append(txt(px, self.y + self.h - 5, f'{abs(lo):g}°E', 7.4, FOLIO, 'middle'))
+        while lo <= lon1 + 1e-9:
+            for la, yy, sgn in ((lat0, y1, -1), (lat1, y0, 1)):
+                px, py = self.P(la, lo)
+                if x0 + 2 < px < x1 - 2:
+                    s.append(f'<line x1="{px:.1f}" y1="{yy:.1f}" x2="{px:.1f}" y2="{yy + sgn*6:.1f}" stroke="{MS.FRAME}" stroke-width=".9"/>')
+                    if labels and sgn < 0:
+                        s.append(MS.text(px, y1 + 13, f'{abs(round(lo, 3)):g}°E', MS.T_FURN - 1.5, MS.NOTE, 'middle'))
             lo += dlon
         la = math.ceil(lat0 / dlat) * dlat
-        while la <= lat1:
-            d = self._path([(lon0 + i * (lon1 - lon0) / 24, la) for i in range(25)])
-            s.append(f'<path d="{d}" fill="none" stroke="{GRAT}" stroke-width=".7"/>')
-            if labels:
-                px, py = self.P(la, lon0)
-                s.append(txt(self.x + 4, py - 3, f'{abs(la):g}°N', 7.4, FOLIO, 'start'))
+        while la <= lat1 + 1e-9:
+            for lo2, xx, sgn in ((lon0, x0, 1), (lon1, x1, -1)):
+                px, py = self.P(la, lo2)
+                if y0 + 2 < py < y1 - 2:
+                    s.append(f'<line x1="{xx:.1f}" y1="{py:.1f}" x2="{xx + sgn*6:.1f}" y2="{py:.1f}" stroke="{MS.FRAME}" stroke-width=".9"/>')
+                    if labels and sgn > 0:
+                        s.append(MS.text(x0 - 3, py + 3.5, f'{abs(round(la, 3)):g}°N', MS.T_FURN - 1.5, MS.NOTE, 'end'))
             la += dlat
 
     def close(self, s):
         s.append('</g>')
-        s.append(f'<rect x="{self.x}" y="{self.y}" width="{self.w}" height="{self.h}" '
-                 f'fill="none" stroke="{COAST}" stroke-width="1.2"/>')
+        MS.neatline(s, self.x, self.y, self.w, self.h)
+        self._ticks(s)
 
     # ── furniture ─────────────────────────────────────────────────
     def scalebar(self, s, x=None, y=None, km=None):
         kpp = self.km_per_px()
         if km is None:
-            raw = kpp * (self.w * 0.28)
+            raw = kpp * (self.w * 0.22)
             mag = 10 ** math.floor(math.log10(raw))
             km = min([m * mag for m in (1, 2, 5, 10)], key=lambda v: abs(v - raw))
         px = km / kpp
-        x = self.x + 12 if x is None else x
-        y = self.y + self.h - 20 if y is None else y
-        s.append(f'<rect x="{x}" y="{y}" width="{px/2:.1f}" height="5" fill="{INK}"/>')
-        s.append(f'<rect x="{x+px/2:.1f}" y="{y}" width="{px/2:.1f}" height="5" fill="#FFFFFF" stroke="{INK}" stroke-width=".8"/>')
-        s.append(txt(x, y - 4, '0', 7.4, INK, 'middle'))
-        s.append(txt(x + px, y - 4, f'{km:g} km', 7.4, INK, 'middle'))
+        x = self.x + 14 if x is None else x
+        y = self.y + self.h - 14 if y is None else y
+        MS.scalebar(s, x, y, km, px)
         return km
 
     def north(self, s, x=None, y=None):
-        x = self.x + self.w - 22 if x is None else x
-        y = self.y + 24 if y is None else y
-        s.append(f'<path d="M{x} {y-13} L{x+5} {y+5} L{x} {y+1} L{x-5} {y+5} Z" fill="{INK}"/>')
-        s.append(txt(x, y + 16, 'N', 8.4, INK, 'middle', '700'))
+        """v76: the map style draws a north arrow only on plans and on sheets
+        where north is not up. These conic sheets are north-up, and the
+        neatline ticks carry the orientation, so this draws nothing."""
+        return
+
+    def locator(self, s, corner='tr', box=(33.4, 37.6, 29.0, 33.9), w=104):
+        """A small inset showing where this sheet sits in the southern Levant."""
+        lon0, lon1, lat0, lat1 = box
+        h = w * (lat1 - lat0) / ((lon1 - lon0) * math.cos(math.radians((lat0 + lat1) / 2)))
+        pad = 8
+        x = self.x + self.w - w - pad if corner[1] == 'r' else self.x + pad
+        y = self.y + pad if corner[0] == 't' else self.y + self.h - h - pad
+        L = Flat(lon0, lon1, lat0, lat1, x, y, w, h)
+        L.pathtol = 1.0
+        cid = f'loc{abs(hash((self.bbox, x, y))) % 10**8}'
+        s.append(f'<rect x="{x-1.5:.1f}" y="{y-1.5:.1f}" width="{w+3:.1f}" height="{h+3:.1f}" fill="#FFFFFF" stroke="{MS.FRAME}" stroke-width=".8"/>')
+        s.append(f'<clipPath id="{cid}"><rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}"/></clipPath><g clip-path="url(#{cid})">')
+        s.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" fill="{SEA}"/>')
+        for seg in _feats('50m', 'physical', 'land', L.bbox):
+            s.append(f'<path d="{L._path(seg, True)}" fill="#F1ECE1" stroke="{COAST}" stroke-width=".5"/>')
+        for seg in _feats('50m', 'physical', 'lakes', L.bbox):
+            s.append(f'<path d="{L._path(seg, True)}" fill="{SEA}" stroke="{COAST}" stroke-width=".4"/>')
+        bl0, bl1, bt0, bt1 = self.bbox
+        xa, ya = L.P(bt1, bl0); xb, yb = L.P(bt0, bl1)
+        s.append('</g>')
+        s.append(f'<rect x="{xa:.1f}" y="{ya:.1f}" width="{max(3, xb-xa):.1f}" height="{max(3, yb-ya):.1f}" fill="{MS.RAMALLAH}" fill-opacity=".12" stroke="{MS.RAMALLAH}" stroke-width="1.3"/>')
+        rx, ry = L.P(31.9038, 35.2034)
+        s.append(f'<circle cx="{rx:.1f}" cy="{ry:.1f}" r="2" fill="{MS.RAMALLAH}"/>')
 
     def sea(self, s, lat, lon, label, size=10, rot=0, anchor='middle'):
         px, py = self.P(lat, lon)
         tr = f' transform="rotate({rot} {px:.1f} {py:.1f})"' if rot else ''
-        s.append(f'<text x="{px:.1f}" y="{py:.1f}" font-size="{size}" fill="#5E8296" '
+        size = max(size, MS.T_WATER - 2)
+        s.append(f'<text x="{px:.1f}" y="{py:.1f}" font-size="{size}" fill="{MS.WATER_TEXT}" '
                  f'text-anchor="{anchor}" font-style="italic" letter-spacing="1.6" '
                  f'font-family="Times New Roman, Times, serif"{tr}>{esc(label)}</text>')
 
-    def region(self, s, lat, lon, label, size=10, fill='#B0A184', ls='2.2'):
+    def region(self, s, lat, lon, label, size=10, fill='#8A7457', ls='2.2'):
         px, py = self.P(lat, lon)
+        size = max(size, MS.T_REGION - 1)
         s.append(txt(px, py, esc(label), size, fill, 'middle', '700', 'normal', ls))
 
 
@@ -295,11 +357,14 @@ def diamond(s, sh, lat, lon, col):
 
 
 def label(s, x, y, text, dx, dy, anchor='start', size=10.2, col=INK, weight='700', halo=True):
+    """v76: sizes are floored by the map style so that no place name is under
+    11 px on a phone (13 plate units); notes in regular weight under 9.6 px."""
+    size = max(size, MS.T_VILLAGE if weight == '700' else MS.T_NOTE)
     tx, ty = x + dx, y + dy
     if halo:
         s.append(f'<text x="{tx:.1f}" y="{ty:.1f}" font-size="{size}" text-anchor="{anchor}" '
                  f'font-weight="{weight}" font-family="Times New Roman, Times, serif" '
-                 f'stroke="#FFFAF0" stroke-width="3.2" stroke-linejoin="round" opacity=".92">{esc(text)}</text>')
+                 f'fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linejoin="round" opacity=".9">{esc(text)}</text>')
     s.append(txt(tx, ty, esc(text), size, col, anchor, weight))
 
 
@@ -329,7 +394,7 @@ def _legend(s, y, items, W=860):
         else:
             s.append(f'<line x1="{lx-7}" y1="{y}" x2="{lx+7}" y2="{y}" stroke="{col}" '
                      f'stroke-width="2.6" stroke-dasharray="6 4"/>')
-        s.append(txt(lx + 13, y + 4, lab, 9.6, BODY))
+        s.append(txt(lx + 13, y + 4, lab, MS.T_FURN, BODY))
 
 
 # ═══════════════════════ 1 · the road out of Arabia ═══════════════════
@@ -422,10 +487,16 @@ class Flat:
         return (self.ox + (lon - lon0) * self.k * self.s,
                 self.oy + (lat1 - lat) * self.s)
 
+    def inv(self, px, py):
+        lon0, lon1, lat0, lat1 = self.bbox
+        return lat1 - (py - self.oy) / self.s, lon0 + (px - self.ox) / (self.k * self.s)
+
     km_per_px = Sheet.km_per_px
     _path = Sheet._path
     base = Sheet.base
     graticule = Sheet.graticule
+    _ticks = Sheet._ticks
+    locator = Sheet.locator
     close = Sheet.close
     scalebar = Sheet.scalebar
     north = Sheet.north
@@ -480,7 +551,7 @@ def fig_district():
                'Everything within a few kilometres of the town, on one sheet: the excavated sites, the Frankish settlement, the throne villages, and the watershed road all of it hangs off.',
                'Atlas map of the villages and excavated sites around Ramallah')
     M = Sheet(*fit_box(34.98, 35.42, 31.66, 32.08, 772, 392), 44, 78, 772, 392)
-    M.base(s, '10m'); M.graticule(s, 0.1, 0.1); M.close(s)
+    M.base(s, '10m', terrain={'contour': 200, 'wadi_km2': 10}, key='district'); M.graticule(s, 0.1, 0.1); M.close(s)
     route(s, M, [(31.66, 35.20), (31.78, 35.222), (31.91, 35.222), (31.97, 35.222), (32.08, 35.24)],
           col='#9A7A45', w=5.0, dash='none')
     rx, ry = M.P(32.045, 35.235)
