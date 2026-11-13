@@ -16,8 +16,6 @@ FIXES = [
      'Kalb’s council at Jābiya makes a caliph; a Ghassanid secures Damascus'),
     ('A Palestinian city and the seat of an authority. 43,880 people.',
      'A Palestinian city and the seat of an authority. 42,122 people in 2021.'),
-    ('holding Jerusalem’s surrendered priests at Jifnā, six kilometres away.',
-     'holding Jerusalem’s surrendered priests at Jifnā, about seven kilometres away.'),
     # v65.1: David's choices on the 31 conflicts (Figures 21, 22, the tell, the Karak wheel, the population chart)
     ('<text x="300.0" y="253.0" font-size="9.6" fill="#46423B" text-anchor="start" font-weight="400" font-style="normal" letter-spacing="0" font-family="Times New Roman, Times, serif">The name Rām Allāh is written down in a sultan’s endowment deed, 1279.',
      '<text x="300.0" y="247.0" font-size="9.6" fill="#46423B" text-anchor="start" font-weight="400" font-style="normal" letter-spacing="0" font-family="Times New Roman, Times, serif">A sultan’s endowment of 1279 includes Rām Allāh (the deed is lost; a court</text><text x="300.0" y="259.0" font-size="9.6" fill="#46423B" text-anchor="start" font-weight="400" font-style="normal" letter-spacing="0" font-family="Times New Roman, Times, serif">record of 1565 cites it).'),

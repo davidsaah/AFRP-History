@@ -1,5 +1,10 @@
 # Changelog
 
+
+## v78 — 13 November 2026: the book stops talking about its own past editions
+
+David: "Smooth everything." About forty passages in the text, notes and figures that described this book's own earlier mistakes ("earlier editions of this book…", "an earlier draft…", "is withdrawn", "corrected here for the first time", "our earlier versions") now simply state what is true, with every citation kept. Disagreements between named sources are still printed both ways. The six kept correction boxes are unchanged. The preface now says a box marks a long-held family belief the record overturns. The stale Jifnā "six kilometres" fix in `post_restore_fixes.py` is removed.
+
 ## v77 — 13 November 2026
 
 ### Correction boxes retired (David chose "Keep a few")

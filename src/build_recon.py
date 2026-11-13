@@ -370,7 +370,7 @@ def fig_dam():
     # abraha
     s.append(f'<line x1="{px(548):.1f}" y1="{y-11}" x2="{px(548):.1f}" y2="{y-46}" stroke="{GREEN}" stroke-width="1.2"/>')
     s.append(txt(px(548), y - 52, 'Abraha’s repair inscription, CIH 541 (548 CE)', 10, GREEN, 'middle', '700'))
-    s.append(txt(40, H - 24, 'A correction, not a demolition: the migration tradition survives, and the century attached to it moves forward by 150–250 years.', 10.5, BODY, 'start', '700'))
+    s.append(txt(40, H - 24, 'The migration tradition survives; the century attached to it moves forward by 150–250 years.', 10.5, BODY, 'start', '700'))
     s.append('</svg>')
     return ''.join(s)
 
@@ -1181,7 +1181,7 @@ The family’s account is refined by the paper, not refuted by it.</p>
 <p>The family remembers a route: the Ḥijāz, Udhruḥ, al-Shawbak, al-Karak, Maʿīn, and across the
 Jordan. <strong>Every stage from Karak onward is attested independently, in registers kept in another
 country.</strong> Karak’s Christian community is documented from the early thirteenth century and counted at
-<strong>103 Christian households and 8 bachelors in the register of 1596</strong>{c('Ottoman Defter 185, the Karak register of 1596. The figure of 143 households for 1562, printed in earlier editions of this work, was carried second-hand and no folio has been produced for it; it is set aside as unverified rather than repeated. Route reconstruction: Hammoudeh, JQ 59 (2014), 43, 45 and 52 n. 57.')}. And Peake’s Karak clan register records the Ḥaddādīn directly:</p>
+<strong>103 Christian households and 8 bachelors in the register of 1596</strong>{c('Ottoman Defter 185, the Karak register of 1596. A figure of 143 households for 1562 is second-hand and no folio has been produced for it, so it is not printed. Route reconstruction: Hammoudeh, JQ 59 (2014), 43, 45 and 52 n. 57.')}. And Peake’s Karak clan register records the Ḥaddādīn directly:</p>
 
 <blockquote><span class="ar">…وتزوج فتاة من عشيرة الحدادين، ومذهبهم روم أرثوذكس</span><br>
 “…he came to al-Karak and married a girl of the Ḥaddādīn clan, and their rite is Greek Orthodox.
@@ -1217,7 +1217,7 @@ four hundred years and writing in two countries, describe the same route in the 
 That convergence is not proof, but it is the kind of evidence oral tradition can actually supply, and
 it is stronger than either telling on its own.</p>
 
-<p>The Palestinian side of the same literature is al-Dabbāgh’s volume on the Arab tribes and their lineages{c('مصطفى مراد الدباغ, <em>القبائل العربية وسلائلها في بلادنا فلسطين</em> (Beirut: al-Muʾassasa al-ʿArabiyya lil-Dirāsāt wa-al-Nashr), 288 pp. In the drive as <code>1979_Dabbagh_al-Qabail_al-Arabiyya_fi_Filastin.pdf</code>. <em>Note:</em> the archive.org item carrying this book was catalogued in earlier editions of the bibliography under ʿAmāri’s tribal dictionary; the correction is made here.')}, with
+<p>The Palestinian side of the same literature is al-Dabbāgh’s volume on the Arab tribes and their lineages{c('مصطفى مراد الدباغ, <em>القبائل العربية وسلائلها في بلادنا فلسطين</em> (Beirut: al-Muʾassasa al-ʿArabiyya lil-Dirāsāt wa-al-Nashr), 288 pp. In the drive as <code>1979_Dabbagh_al-Qabail_al-Arabiyya_fi_Filastin.pdf</code>. <em>Note:</em> the archive.org item carrying this book is catalogued there under ʿAmāri’s tribal dictionary.')}, with
 Kaḥḥāla’s tribal encyclopaedia{c('عمر رضا كحالة, <em>معجم قبائل العرب القديمة والحديثة</em>, vols. 4–5 in the drive.')} and al-ʿAzīzī’s Jordanian compendium{c('روكس بن زائد العزيزي, <em>معلمة للتراث الأردني</em>, 1,887 pp. In the drive as <code>1984_Azizi_Mualamat_lil-turath_al-Urduni.pdf</code>.')} beside it.</p>
 {FIGS['datings']}
 <h3 class="sub">Rāshid, and what a clan actually was</h3>
