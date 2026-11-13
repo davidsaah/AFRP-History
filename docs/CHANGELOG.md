@@ -858,3 +858,6 @@ name is not a lesser origin than a dynasty. It is a better-documented one.
 compilation. John's chart stops being an outside source this book audits and
 becomes the co-authors' own prior work — which makes the method stricter, not
 softer.
+
+## v74 (12 Nov 2026)
+- 1706 school grant: Patriarchate documents (Analekta II pp. 307–311, 376–380) quoted; paid yearly, Shāhīn/Cadora say monthly; 1709 school list added.

@@ -164,7 +164,7 @@ print or has a published edition; the book cites the edition.
 | `2016_Tamari_Najlas_Dance_al-Bireh_Jerusalem_Train_JQ67.pdf` | |
 | `2020_Jawabrah_Jarada_Badawy_Bauhaus_Architecture_in_Ramallah_IJSR9.pdf` | |
 | `2015_Ghadban_Palestinian_Dry_Stone_Structures_SDCT_1b.pdf` | |
-| `Ramallah_Original_Trees.pdf` | the hand-drawn trees the tree-builder reproduces |
+| `19xx_AFRP_Ramallah_Original_Trees.pdf` | the hand-drawn trees the tree-builder reproduces |
 
 ### Palestine — geography, toponymy, archaeology
 
@@ -203,7 +203,7 @@ print or has a published edition; the book cites the edition.
 ### The November 2026 shelf
 
 Added in the round 2 research of November 2026 and renamed to the convention on 12 November 2026.
-The full catalogue is `AFRP_Ramallah_Bibliography_v5.html`, section XXXI. Web pages are kept as `.html`.
+The full catalogue is `AFRP_Ramallah_Bibliography_v6.html` (13 November 2026, 515 entries; v4 and v5 kept), section XXXI. Web pages are kept as `.html`.
 
 *Ramallah and its families:* `1954_Cadora_Remembering_Ramallah_A_Preservation_of_History.pdf`
 (with `_Restored` and `_Flattened_and_Sharpened` copies) · `2020_IPS_Jerusalem_Quarterly_83.pdf` (Taraki) ·
@@ -239,19 +239,21 @@ The full catalogue is `AFRP_Ramallah_Bibliography_v5.html`, section XXXI. Web pa
 
 *From Cadora's bibliography (shelved 12 November 2026):* `2018_Irving_A_Young_Man_of_Promise_JQ73_full_issue.pdf` ·
 `2008_vanderLeest_Conversion_and_Conflict_in_Palestine_PhD.pdf` · `1905_Dissard_Tribu_des_Amer_Revue_Biblique_ns2_full_volume.pdf`
-(article at PDF pp. 428–443) · `1898_Papadopoulos-Kerameus_Analekta_V.pdf` (probably Cadora's "Memoirs"; not yet confirmed).
-The other nineteen works in his bibliography are listed as wanted in the v5 catalogue, section XXXI F.
+(article at PDF pp. 428–443) · `1894_Papadopoulos-Kerameus_Analekta_II.pdf` (the 1706 source, pp. 307–311 and 376–380). `1898_..._Analekta_V.pdf` is on the shelf but is not Cadora's source.
+The other nineteen works in his bibliography are listed as wanted in the v6 catalogue, section XXXI F, with Hütteroth & Abdulfattah 1977 (Shawbak, p. 173).
 
 *Other renames on 12 November 2026:* `2021_Atshan_The_Anthropological_Rise_of_Palestine_JPS50.pdf` ·
 `1951_Prawer_Colonization_Activities_Latin_Kingdom_Jerusalem_RBPH29.pdf` · duplicates kept as
 `1841_Robinson_Biblical_Researches_v2_copy2.pdf` and `2020_Tramontana_Trading_Spiritual_Earthly_Goods_copy2.pdf`.
-Still undated: `198x_Farhan`, `19xx_Walmsley`, `20xx_Frame`.
+Still undated: `198x_Farhan`, `19xx_Walmsley`, `20xx_Frame`, `19xx_AFRP_Ramallah_Original_Trees` and four web pages.
+
+*Renamed 13 November 2026:* `2024_Haddadin_Dawlat_al-Ghasasina_SCAN.pdf` (with two bilingual reading drafts). Every `_OCR.pdf` searchable copy keeps its original's name plus `_OCR` and is listed on the original's catalogue entry.
 
 ### The project's own outputs, kept on the shelf
 
-`AFRP_Ramallah_Bibliography_v5.html` (v4 kept) · `AFRP_The_One_Line_v5.html` ·
-`AFRP_Register_Names_1553_1562.csv` · `Ramallah_Family_Tree_Book_v117.pdf` ·
-`Literature_Manifest_20260914.md` · `Download_List_20260821.md` · `Reconciliation_Memo.md`
+Catalogued in v6, section XXXI G: `AFRP_Ramallah_Bibliography_v6.html` (v4, v5 kept) · `AFRP_The_One_Line_v5.html` ·
+`2026_AFRP_Register_Names_1553_1562.csv` · `2026_Mogannam_Saah_Ramallah_Family_Tree_Book_v117.pdf` ·
+`2026_AFRP_Literature_Manifest_2026-09-14.md` · `2026_AFRP_Download_List_2026-08-21.md` · `2026_AFRP_Reconciliation_Memo.md`
 
 ---
 
