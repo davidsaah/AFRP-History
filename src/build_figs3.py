@@ -79,80 +79,82 @@ def fig_dam_eng():
 
 # ═════════════════════ the scattering of the Azd
 def fig_scattering():
-    W, H = 860, 700
-    # Arabia, simple equirect
-    lat0, lat1 = 12.0, 34.0
-    lon0 = 34.0
-    y0, y1 = 92, 560
-    sy = (y1 - y0) / (lat1 - lat0)
-    sx = sy * math.cos(math.radians(23.0))
-    xc = 118.0
-    px = lambda lon: xc + (lon - lon0) * sx
-    py = lambda lat: y0 + (lat1 - lat) * sy
-
-    s = []
-    _head(s, W, H, '“THEY SCATTERED LIKE THE PEOPLE OF SABAʾ”',
-          'The dispersal of the Azd — the most famous migration in Arab tradition. Every arrow became a people. One of them became this family.',
-          'Map of the scattering of the Azd tribes from Marib after the dam failures')
-    # coast outline of Arabia (very simplified)
-    land = [(30.2,47.6),(29.0,48.0),(27.5,49.5),(26.0,51.5),(24.4,54.5),(24.0,58.0),
-            (22.5,59.6),(20.5,58.5),(18.5,56.5),(17.0,55.0),(14.5,52.0),(13.0,48.5),
-            (12.6,45.0),(13.5,43.2),(16.5,42.6),(19.0,41.0),(21.5,39.0),(25.0,37.0),
-            (28.0,34.6),(29.5,34.9),(31.0,35.3),(33.0,36.2),(34.0,38.5),(34.0,44.0),
-            (32.0,46.5)]
-    s.append('<path d="M' + ' L'.join(f'{px(lo):.0f} {py(la):.0f}' for la, lo in land) +
-             f' Z" fill="{LAND}" opacity=".55" stroke="#C9BFA8" stroke-width="1.2"/>')
-    s.append(txt(px(48.5), py(20.5), 'A R A B I A', 13, '#C4B8A0', 'middle', '700', 'normal', '5'))
-    s.append(txt(px(50.5), py(13.0), 'the Indian Ocean', 8.6, '#9BB0BA', 'start', '400', 'italic'))
-    s.append(txt(px(39.4), py(16.6), 'the', 8.4, '#B6C4CB', 'middle', '400', 'italic'))
-    s.append(txt(px(39.4), py(15.9), 'Red Sea', 8.4, '#B6C4CB', 'middle', '400', 'italic'))
+    """v76: on the atlas engine. A real Arabia (Lambert conic, Natural Earth
+    coasts, SRTM terrain) with the five streams of the tradition drawn as
+    remembered moves. Every arrow is tradition, so every arrow is ochre."""
+    import build_atlas as A
+    import map_style as MS
+    W = 860
+    s = A._plate(W, 0, '“THEY SCATTERED LIKE THE PEOPLE OF SABAʾ”',
+                 'The dispersal of the Azd, the most famous migration in Arab tradition. Every arrow became a people. One of them became this family.',
+                 'Map of the scattering of the Azd tribes from Maʾrib after the dam failures, with terrain')
+    M = A.Sheet(*A.fit_box(33.0, 60.0, 12.0, 34.5, 772, 480), 44, 88, 772, 480)
+    M.base(s, '50m', rivers=False, terrain={'res': 1.0}, key='scatter')
+    M.graticule(s, 5, 5)
+    M.sea(s, 18.4, 39.7, 'RED SEA', 12, -58)
+    M.sea(s, 12.7, 48.6, 'GULF OF ADEN', 12)
+    M.sea(s, 17.0, 57.6, 'ARABIAN SEA', 12)
+    M.sea(s, 26.9, 51.6, 'THE GULF', 12, -40)
+    M.sea(s, 33.6, 33.9, 'MEDITERRANEAN', 11, -30)
+    M.region(s, 23.6, 46.0, 'A R A B I A', 14)
+    M.region(s, 17.4, 48.6, 'S A B A ʾ', 12)
 
     MA = (15.43, 45.33)
-    mx, my = px(MA[1]), py(MA[0])
-    # the routes
-    ROUTES = [
-        # (dest lat, lon, label, sub, colour, weight, curve)
-        (19.5, 41.8, 'AZD AL-SARĀT', 'stay nearest — the Sarāt mountains', FOLIO, 2.2, -30),
-        (21.4, 39.85, 'KHUZĀʿA', 'to Mecca — later its keepers', '#4A7C8C', 2.2, -50),
-        (24.47, 39.61, 'AWS & KHAZRAJ', 'to Yathrib — the Anṣār who received the Prophet', PLUM, 2.6, -66),
-        (23.1, 57.5, 'AZD ʿUMĀN', 'east to Oman — sailors and traders', '#9A8CC0', 2.2, 40),
-        (32.0, 36.1, 'GHASSĀN', 'north, water by water, to the Roman frontier', GOLD, 4.2, -86),
+    mx, my = M.P(*MA)
+    STREAMS = [  # dest lat, lon, weight, bend (px, + = left of travel)
+        (19.5, 41.8, 2.0, 18),
+        (21.42, 39.83, 2.0, 30),
+        (24.47, 39.61, 2.4, 46),
+        (23.1, 57.5, 2.0, -40),
+        (32.0, 36.1, 3.6, -60),
     ]
-    s.append('<defs><marker id="sc" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5.6" '
-             'markerHeight="5.6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="context-stroke"/></marker></defs>')
-    for la, lo, lab, sub, col, wgt, bend in ROUTES:
-        x2, y2 = px(lo), py(la)
-        cx1 = (mx + x2) / 2 + bend
-        cy1 = (my + y2) / 2 + (20 if bend > 0 else -20)
-        s.append(f'<path d="M{mx:.0f} {my:.0f} Q {cx1:.0f} {cy1:.0f} {x2:.0f} {y2:.0f}" fill="none" '
-                 f'stroke="{col}" stroke-width="{wgt}" marker-end="url(#sc)" opacity=".9"/>')
-        s.append(f'<circle cx="{x2:.0f}" cy="{y2:.0f}" r="4.6" fill="{col}"/>')
-    # labels placed manually to avoid collisions
-    s.append(txt(px(40.9), py(17.6), 'AZD AL-SARĀT', 9.6, FOLIO, 'end', '700'))
-    s.append(txt(px(40.9), py(16.9), 'stay nearest — the Sarāt mountains', 8.4, BODY, 'end', '400', 'italic'))
-    s.append(txt(px(38.6), py(21.9), 'KHUZĀʿA', 9.6, '#4A7C8C', 'end', '700'))
-    s.append(txt(px(38.6), py(21.2), 'to Mecca — later its keepers', 8.4, BODY, 'end', '400', 'italic'))
-    s.append(txt(px(38.3), py(25.6), 'AWS &amp; KHAZRAJ', 9.6, PLUM, 'end', '700'))
-    s.append(txt(px(38.3), py(24.9), 'to Yathrib — the Anṣār who', 8.4, BODY, 'end', '400', 'italic'))
-    s.append(txt(px(38.3), py(24.3), 'received the Prophet at Medina', 8.4, BODY, 'end', '400', 'italic'))
-    s.append(txt(px(56.6), py(24.3), 'AZD ʿUMĀN', 9.8, '#9A8CC0', 'start', '700'))
-    s.append(txt(px(56.6), py(23.6), 'east to Oman — sailors, traders', 8.6, BODY, 'start', '400', 'italic'))
-    s.append(txt(px(37.0), py(33.2), 'GHASSĀN', 12, GOLD, 'start', '700', 'normal', '.8'))
-    s.append(txt(px(37.0), py(32.5), 'north, water by water, to the Roman frontier —', 8.6, BODY, 'start', '400', 'italic'))
-    s.append(txt(px(37.0), py(31.9), 'the Balqāʾ, the Golan, and a phylarchate', 8.6, BODY, 'start', '400', 'italic'))
-    # Marib
-    s.append(f'<circle cx="{mx:.0f}" cy="{my:.0f}" r="8" fill="{RUST}"/>')
-    s.append(f'<circle cx="{mx:.0f}" cy="{my:.0f}" r="14" fill="none" stroke="{RUST}" stroke-width="1.4" stroke-dasharray="3 3"/>')
-    s.append(txt(mx + 20, my + 4, 'MAʾRIB — the dam', 10.5, RUST, 'start', '700'))
-    s.append(txt(mx + 20, my + 17, 'Sabaʾ; the two gardens', 8.8, BODY, 'start', '400', 'italic'))
-    # footer
-    s.append(f'<line x1="40" y1="{H-104}" x2="820" y2="{H-104}" stroke="{RULE}"/>')
-    s.append(txt(40, H - 84, 'The proverb is still spoken: <tspan font-style="italic">tafarraqū aydī Sabaʾ</tspan> — “they scattered like the people of Sabaʾ.”', 10.6, INK, 'start', '700'))
-    s.append(txt(40, H - 64, 'The classical genealogists trace the whole dispersal of the Azd to the failing of the dam. Each stream became a famous people: the helpers of the Prophet at Medina,', 10, BODY))
-    s.append(txt(40, H - 50, 'the keepers of Mecca, the seafarers of Oman — and the kings of the north, whose road this family claims as its own. <tspan font-weight="700">One catastrophe, five destinies.</tspan>', 10, BODY))
-    s.append(txt(40, H - 26, 'Ibn al-Kalbī and the Azdī pedigree tradition; al-Masʿūdī on the dispersal; Qurʾān 34:15–19 on the flood and the scattering. Ulrich (2019) cautions that the “Scattering of Azd” is itself a literary construction of the 8th–10th centuries.', 8.4, FOLIO, 'start', '400', 'italic'))
-    s.append('</svg>')
-    return ''.join(s)
+    s.append('<defs><marker id="scat_arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="4.6" '
+             'markerHeight="4.6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="context-stroke"/></marker></defs>')
+    s.append(f'<g clip-path="url(#{M._cid})">')
+    for la, lo, wgt, bend in STREAMS:
+        x2, y2 = M.P(la, lo)
+        dx, dy = x2 - mx, y2 - my
+        L = (dx * dx + dy * dy) ** .5
+        cx, cy = (mx + x2) / 2 + dy / L * bend, (my + y2) / 2 - dx / L * bend
+        # stop short of the destination dot, so the head sits beside it
+        t = 1 - 9 / L
+        ex = (1 - t) ** 2 * mx + 2 * (1 - t) * t * cx + t * t * x2
+        ey = (1 - t) ** 2 * my + 2 * (1 - t) * t * cy + t * t * y2
+        d = f'M{mx:.1f} {my:.1f} Q {cx:.1f} {cy:.1f} {ex:.1f} {ey:.1f}'
+        s.append(f'<path d="{d}" fill="none" stroke="#FFFAF0" stroke-width="{wgt+2.6}" opacity=".55"/>')
+        s.append(f'<path d="{d}" fill="none" stroke="{MS.MEM}" stroke-width="{wgt}" stroke-dasharray="7 4" '
+                 f'marker-end="url(#scat_arrow)"/>')
+    s.append('</g>')
+    M.close(s)
+
+    LAB = [  # lat, lon, name, note lines, dx, dy, anchor
+        (19.5, 41.8, 'AZD AL-SARĀT', ['stay nearest, in the Sarāt mountains'], 10, 4, 'start'),
+        (21.42, 39.83, 'KHUZĀʿA', ['to Mecca, later its keepers'], -10, 4, 'end'),
+        (24.47, 39.61, 'AWS & KHAZRAJ', ['to Yathrib: the Anṣār, who', 'received the Prophet at Medina'], -10, 4, 'end'),
+        (23.1, 57.5, 'AZD ʿUMĀN', ['east to Oman,', 'sailors and traders'], -10, -26, 'end'),
+        (32.0, 36.1, 'GHASSĀN', ['north, water by water, to the Roman', 'frontier: the Balqāʾ, the Golan,', 'and a phylarchate'], 12, 4, 'start'),
+    ]
+    for la, lo, nm, notes, dx, dy, an in LAB:
+        x, y = A.mark(s, M, la, lo, 'mem')
+        A.label(s, x, y, nm, dx, dy, an, 13.5 if nm == 'GHASSĀN' else 13, MS.MEM)
+        for i, n in enumerate(notes):
+            A.label(s, x, y, n, dx, dy + 14 + 13 * i, an, 11.5, MS.BODY, '400')
+    x, y = A.mark(s, M, MA[0], MA[1], 'mon', 6.4)
+    A.label(s, x, y, 'MAʾRIB', 12, -2, 'start', 13.5, MS.INK)
+    A.label(s, x, y, 'the dam, and the two gardens', 12, 12, 'start', 11.5, MS.BODY, '400')
+    x, y = A.mark(s, M, 31.90, 35.20, 'ram')
+    A.label(s, x, y, 'RAMALLAH', -10, 16, 'end', 13.5, MS.RAMALLAH)
+    M.scalebar(s)
+
+    ly = M.y + M.h + 34
+    MS.legend(s, ly, [('mon', 'Maʾrib: the dam, still standing'),
+                      ('mem', 'where the tradition sends each stream'),
+                      ('route-mem', 'a remembered move, not a documented one'),
+                      ('ram', 'Ramallah')], rows=2)
+    H = A.foot(s, W, ly + 34,
+               'The proverb is still spoken: tafarraqū aydī Sabaʾ, “they scattered like the people of Sabaʾ.” The classical genealogists trace the whole dispersal of the Azd to the failing of the dam. Each stream became a famous people: the helpers of the Prophet at Medina, the keepers of Mecca, the seafarers of Oman, and the kings of the north, whose road this family claims as its own. One catastrophe, five destinies.',
+               'Ibn al-Kalbī and the Azdī pedigree tradition; al-Masʿūdī on the dispersal; Qurʾān 34:15–19 on the flood and the scattering. Ulrich (2019) cautions that the “Scattering of Azd” is itself a literary construction of the 8th to 10th centuries, so every arrow here is drawn as tradition. Lambert conformal conic; coastlines after Natural Earth. Terrain from SRTM/Copernicus elevation via AWS Terrain Tiles.')
+    return A.plate_end(s, H)
 
 
 # ═════════════════════ the clan tree
@@ -224,77 +226,78 @@ def fig_clans_tree():
 
 # ═════════════════════ the old-town plan
 def fig_town_plan():
-    W, H = 860, 620
-    s = []
-    _head(s, W, H, 'THE TOWN, AS SHĀHĪN DREW IT',
-          'The principal streets of central Ramallah, after the sketch in his own book — the old village core, the two roads to Jerusalem, and the institutions the century built.',
-          'Plan of central Ramallah after Shahin 1982')
-    cxm, cym = 470, 300
-    RD = '#B9B0A0'
-    def road(d, w=5):
+    """v76: the map style's plan. A schematic after Shāhīn's own sketch, so it
+    has a frame and a north arrow but no scale bar and no terrain, and says so."""
+    import build_atlas as A
+    import map_style as MS
+    W = 860
+    s = A._plate(W, 0, 'THE TOWN, AS SHĀHĪN DREW IT',
+                 'The principal streets of central Ramallah, after the sketch in his own book: the old village core, the two roads to Jerusalem, and the institutions the century built.',
+                 'Schematic plan of central Ramallah after Shahin 1982')
+    FX, FY, FW, FH = 44, 84, 772, 488
+    s.append(f'<rect x="{FX}" y="{FY}" width="{FW}" height="{FH}" fill="#F6F1E6"/>')
+    RD = '#D9C4A0'
+    def road(d, w=6):
+        s.append(f'<path d="{d}" fill="none" stroke="#FFFFFF" stroke-width="{w+2.4}" stroke-linecap="round" opacity=".9"/>')
         s.append(f'<path d="{d}" fill="none" stroke="{RD}" stroke-width="{w}" stroke-linecap="round"/>')
-        s.append(f'<path d="{d}" fill="none" stroke="{SURF}" stroke-width="1" stroke-dasharray="1 7"/>')
-    # main street west-east to Bireh
-    road('M120 300 L 780 268', 7)
-    # el-tira road NW
-    road('M120 300 C 220 268, 300 232, 392 210')
-    # 'Ain Misbah St (north loop)
-    road('M392 210 C 470 180, 580 176, 650 210')
-    # Radio St NE
-    road('M650 210 C 700 188, 740 160, 790 140')
-    # to Birzeit (N)
-    road('M650 210 L 668 120')
-    # Bain el-Hawa S from west end
-    road('M200 296 C 210 380, 220 440, 232 500')
-    # Jaffa Road SW
-    road('M320 292 C 300 360, 260 430, 200 480')
-    # Masyoun S
-    road('M420 288 C 420 380, 400 470, 380 540')
-    # original Jerusalem road (SE, pre-1901)
-    road('M560 276 C 590 360, 640 440, 700 520')
-    s.append(txt(716, 500, 'the ORIGINAL', 8.6, '#8A6A3A', 'start', '700'))
-    s.append(txt(716, 512, 'Ramallah–Jerusalem road', 8.6, '#8A6A3A', 'start'))
-    s.append(txt(716, 524, '— the only way south until 1901', 8.2, BODY, 'start', '400', 'italic'))
-    # present Jerusalem road via Bireh (E then S)
-    road('M780 268 C 800 330, 800 400, 786 470', 6)
-    s.append(txt(770, 452, 'the PRESENT', 8.6, '#8A6A3A', 'end', '700'))
-    s.append(txt(770, 464, 'Jerusalem road, built 1901', 8.6, '#8A6A3A', 'end'))
-    s.append(txt(770, 476, 'running through El Bireh', 8.2, BODY, 'end', '400', 'italic'))
+    road('M120 300 L 780 268', 8)                          # main street to Bireh
+    road('M120 300 C 220 268, 300 232, 392 210')            # el-Tira road
+    road('M392 210 C 470 180, 580 176, 650 210')            # ʿAin Misbah St
+    road('M650 210 C 700 188, 740 160, 790 140')            # Radio St
+    road('M650 210 L 668 112')                              # to Birzeit
+    road('M200 296 C 210 380, 220 440, 232 520')            # Bain el-Hawa
+    road('M320 292 C 300 360, 260 430, 190 492')            # Jaffa Rd
+    road('M420 288 C 420 380, 400 470, 380 548')            # Masyoun
+    # the two roads to Jerusalem: the old one is history, the new one the road
+    s.append('<path d="M560 276 C 590 360, 640 440, 700 540" fill="none" stroke="#FFFFFF" stroke-width="9" opacity=".9"/>')
+    s.append(f'<path d="M560 276 C 590 360, 640 440, 700 540" fill="none" stroke="{MS.DOC}" stroke-width="3" stroke-dasharray="7 4"/>')
+    road('M780 268 C 800 330, 800 400, 786 470', 7)
     # old core
-    s.append(f'<ellipse cx="358" cy="286" rx="96" ry="62" fill="none" stroke="{GOLD}" stroke-width="2" stroke-dasharray="6 5"/>')
-    s.append(txt(358, 214, 'THE ORIGINAL VILLAGE', 9, GOLD, 'middle', '700', 'normal', '1'))
-    s.append(txt(358, 226, 'the eight clans’ quarters, the guest houses', 8, BODY, 'middle', '400', 'italic'))
-    # labels for roads
-    s.append(txt(150, 288, 'El Tira Rd', 8.4, GREY, 'start', '400', 'italic'))
-    s.append(txt(505, 170, '‘Ain Misbah St', 8.4, GREY, 'middle', '400', 'italic'))
-    s.append(txt(766, 128, 'Radio St', 8.4, GREY, 'start', '400', 'italic'))
-    s.append(txt(676, 118, 'to Birzeit', 8.4, GREY, 'start', '400', 'italic'))
-    s.append(txt(226, 512, 'Bain El-Hawa', 8.4, GREY, 'middle', '400', 'italic'))
-    s.append(txt(196, 494, 'Jaffa Rd', 8.4, GREY, 'end', '400', 'italic'))
-    s.append(txt(378, 552, 'Masyoun', 8.4, GREY, 'middle', '400', 'italic'))
-    s.append(txt(600, 300, 'Main St', 8.6, GREY, 'middle', '400', 'italic'))
-    s.append(txt(640, 460, 'El Sharafa — where the town', 8.2, BODY, 'end', '400', 'italic'))
-    s.append(txt(640, 472, 'wept its emigrants goodbye', 8.2, BODY, 'end', '400', 'italic'))
-    # numbered sites
+    s.append(f'<ellipse cx="358" cy="286" rx="100" ry="64" fill="#FFFFFF" fill-opacity=".35" stroke="{MS.MEM}" stroke-width="2" stroke-dasharray="6 5"/>')
+    MS.sym_ramallah(s, 330, 272)
+    s.append(MS.text(358, 206, 'THE ORIGINAL VILLAGE', 13, MS.MEM, 'middle', '700', 'normal', '1.2', halo=True))
+    s.append(MS.text(358, 222, 'the eight clans’ quarters, the guest houses', 11.5, MS.BODY, 'middle', '400', 'italic', halo=True))
+    # street names: italic grey, on a halo
+    for x, y, t, an in [(130, 290, 'El Tira Rd', 'start'), (520, 166, 'ʿAin Misbah St', 'middle'),
+                        (748, 176, 'Radio St', 'start'), (676, 110, 'to Birzeit', 'start'),
+                        (236, 538, 'Bain El-Hawa', 'middle'), (182, 490, 'Jaffa Rd', 'end'),
+                        (380, 564, 'Masyoun', 'middle'), (500, 296, 'Main St', 'middle')]:
+        s.append(MS.text(x, y, t, 11.5, MS.NOTE, an, '400', 'italic', halo=True))
+    for i, t in enumerate(['the ORIGINAL road to Jerusalem,', 'the only way south until 1901']):
+        s.append(MS.text(668, 512 + 14 * i, t, 11.5, MS.DOC_DEEP, 'start' if False else 'end', '700' if i == 0 else '400',
+                         'normal' if i == 0 else 'italic', halo=True))
+    for i, t in enumerate(['the PRESENT Jerusalem road,', 'built 1901, through El Bireh']):
+        s.append(MS.text(806, 420 + 14 * i, t, 11.5, '#7A5A2A', 'end', '700' if i == 0 else '400',
+                         'normal' if i == 0 else 'italic', halo=True))
+    for i, t in enumerate(['El Sharafa, where the town', 'wept its emigrants goodbye']):
+        s.append(MS.text(576, 414 + 14 * i, t, 11.5, MS.BODY, 'end', '400', 'italic', halo=True))
     SITES = [
-        (780, 268, '1', 'Manara Square', 'end', -12, -8),
-        (620, 232, '2', 'Friends Meetinghouse (1910)', 'start', 10, -4),
-        (520, 246, '3', 'Roman Catholic church &amp; school', 'end', -12, -6),
-        (388, 302, '4', 'Greek Orthodox church (1850)', 'end', -12, 26),
-        (452, 330, '5', 'Municipality &amp; park', 'start', 10, 12),
-        (492, 388, '6', 'Lutheran church &amp; school', 'start', 10, 4),
-        (612, 420, '7', 'Ramallah New Hospital (1963)', 'start', 10, 4),
-        (288, 346, '8', 'Friends Girls School (1869→)', 'end', -12, 12),
-        (700, 190, '9', 'Friends Boys School (1919)', 'start', 10, -4),
+        (780, 268, '1', 'Manara Square', 'end', -14, -10),
+        (620, 232, '2', 'Friends Meetinghouse (1910)', 'start', 13, -6),
+        (520, 246, '3', 'Roman Catholic church and school', 'end', -14, -8),
+        (392, 304, '4', 'Greek Orthodox church (1850)', 'end', -14, 20),
+        (452, 330, '5', 'Municipality and park', 'start', 13, 10),
+        (492, 388, '6', 'Lutheran church and school', 'start', 13, 4),
+        (612, 452, '7', 'Ramallah New Hospital (1963)', 'start', 13, 4),
+        (288, 346, '8', 'Friends Girls School (1869)', 'end', -14, 14),
+        (700, 190, '9', 'Friends Boys School (1919)', 'end', -14, -14),
     ]
     for x, y, n, lab, anc, dx, dy in SITES:
-        s.append(f'<circle cx="{x}" cy="{y}" r="9" fill="{DARK}"/>')
-        s.append(txt(x, y + 3.4, n, 9, '#F3ECDD', 'middle', '700'))
-        s.append(txt(x + dx, y + dy, lab, 8.8, INK, anc, '700'))
-    s.append(txt(40, H - 36, 'After the sketch map in Shāhīn (1982), p. 69, simplified; site dates from his own chapters.', 8.6, FOLIO, 'start', '400', 'italic'))
-    s.append(txt(40, H - 22, 'Before 1901 the road to Jerusalem left from El Sharafa on the south-east edge — the Russian pilgrims’ bells and the emigrants’ farewells both belong to that road.', 8.6, FOLIO, 'start', '400', 'italic'))
-    s.append('</svg>')
-    return ''.join(s)
+        s.append(f'<circle cx="{x}" cy="{y}" r="9.5" fill="{MS.DOC_DEEP}" stroke="#FFFFFF" stroke-width="1.6"/>')
+        s.append(MS.text(x, y + 4, n, 11, '#FFFFFF', 'middle', '700'))
+        s.append(MS.text(x + dx, y + dy + 4, lab, 12, MS.INK, anc, '700', halo=True))
+    MS.neatline(s, FX, FY, FW, FH)
+    MS.north(s, FX + FW - 28, FY + FH - 42)
+    s.append(MS.text(FX + 12, FY + 20, 'SCHEMATIC, NOT TO SCALE', 11, MS.NOTE, 'start', '700', 'normal', '1.2', halo=True))
+    ly = FY + FH + 28
+    MS.legend(s, ly, [('road', 'a street, as Shāhīn sketched it'),
+                      ('route-doc', 'the old Jerusalem road, before 1901'),
+                      ('dot', 'a numbered building or place named in Shāhīn’s chapters', MS.DOC_DEEP),
+                      ('ram', 'Ramallah: the old village core')], rows=2)
+    H = A.foot(s, W, ly + 34,
+               'Before 1901 the road to Jerusalem left from El Sharafa on the south-east edge of the town. The Russian pilgrims’ bells and the emigrants’ farewells both belong to that road.',
+               'A schematic after the sketch map in Shāhīn (1982), p. 69, simplified; site dates from his own chapters. Streets are placed as he drew them, not surveyed, so the plan has no scale bar.')
+    return A.plate_end(s, H)
 
 
 # ═════════════════════ two populations

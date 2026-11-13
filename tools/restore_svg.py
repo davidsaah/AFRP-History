@@ -15,7 +15,20 @@ import re, subprocess, sys
 V60 = '9bcad59'
 # Figures drawn fresh by the build, never restored (the old restore did not
 # match them either; restoring Figure 27 would bring back 64 + 7 for 1562).
-KEEP_NEW = {'The households, counted'}
+# v76: the maps are redrawn to docs/MAP_STYLE.md and must not be restored.
+# Their text was checked against v60 before this list was added: no drift.
+KEEP_NEW = {'The households, counted',
+            'The oldest ground within a morning’s walk of Ramallah',
+            'The ridge in the Iron Age, and the gap in the middle',
+            'The roads he used, and the ridge they run along',
+            'The district when Rome wrote it down',
+            '“They scattered like the people of Sabaʾ”',
+            'The road, and the ground it passes',
+            'The hills around Ramallah — what has been dug, what was written, who ruled',
+            'The road the family actually walked',
+            'Where Ramallah went, 1901 onward',
+            'The town, as Shāhīn drew it',
+            'Where the road stopped'}
 PAT = re.compile(r'(<div class="figtitle">(.*?)</div><div class="figwrap">)(<svg\b.*?</svg>)', re.S)
 
 def figs(html):
