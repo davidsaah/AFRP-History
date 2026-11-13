@@ -141,47 +141,50 @@ def fig_rulers_traces():
 
 # ══════════════════ 1948: where the road stopped ════════════════════════════
 def fig_camps():
-    W, H = 860, 580
-    s = _plate(W, H, 'WHERE THE ROAD STOPPED — LYDDA AND RAMLE TO THE CAMPS AROUND RAMALLAH, 1948–49',
-               'The march east of 13 July 1948, and the five camps of this district, joined to the towns and villages their people came from.',
-               'Map of the expulsion from Lydda and Ramle and the refugee camps around Ramallah')
-    M = A.Sheet(*A.fit_box(34.70, 35.32, 31.74, 32.10, 772, 400), 44, 70, 772, 400)
-    M.base(s, '10m'); M.graticule(s, 0.1, 0.1); M.close(s)
-    camps = [(31.9055, 35.2085, 'Qaddūra · inside the town, 1948', 12, -4, 'start'),
+    W = 860
+    MS = A.MS
+    s = A._plate(W, 0, 'WHERE THE ROAD STOPPED — LYDDA AND RAMLE TO THE CAMPS AROUND RAMALLAH, 1948–49',
+                 'The march east of 13 July 1948, and the five camps of this district, joined to the towns and villages their people came from.',
+                 'Map of the expulsion from Lydda and Ramle and the refugee camps around Ramallah, with terrain')
+    M = A.Sheet(*A.fit_box(34.70, 35.32, 31.74, 32.10, 772, 420), 44, 84, 772, 420)
+    M.base(s, '10m', terrain={'contour': 200, 'wadi_km2': 15}, key='camps'); M.graticule(s, 0.1, 0.1); M.close(s)
+    M.sea(s, 31.98, 34.66, 'MEDITERRANEAN', 12, -62)
+    camps = [(31.9055, 35.2085, 'Qaddūra · in the town, 1948', -14, -14, 'end'),
              (31.8925, 35.2150, 'al-Amʿarī · al-Bīra, 1949', 12, 8, 'start'),
              (31.9480, 35.2100, 'al-Jalazūn · 1949', 12, 2, 'start'),
              (31.8686, 35.2240, 'Qalandiyā · 1949', 12, 10, 'start'),
-             (31.9686, 35.1075, 'Dayr ʿAmmār · 1948–49', 0, -12, 'middle')]
+             (31.9686, 35.1075, 'Dayr ʿAmmār · 1948–49', 0, -13, 'middle')]
     origins = [(31.951, 34.895, 'al-Lidd (Lydda)', -10, -10, 'end'),
-               (31.927, 34.866, 'al-Ramla', -10, 14, 'end'),
+               (31.927, 34.866, 'al-Ramla', -10, 15, 'end'),
                (32.050, 34.755, 'Jaffa', 10, -8, 'start'),
-               (31.985, 34.948, 'Bayt Nabāla', 0, -12, 'middle'),
-               (31.795, 35.197, 'Lifta', -10, 12, 'end')]
+               (31.985, 34.948, 'Bayt Nabāla', 0, -13, 'middle'),
+               (31.795, 35.197, 'Lifta', -10, 13, 'end')]
     links = [(0, 1), (0, 2), (0, 0), (1, 1), (1, 0), (2, 1), (2, 0),
              (3, 2), (3, 4), (4, 3), (4, 0)]
+    s.append(f'<g clip-path="url(#{M._cid})">')
     for oi, ci in links:
         (ola, olo), (cla, clo) = origins[oi][:2], camps[ci][:2]
         x0, y0 = M.P(ola, olo); x1, y1 = M.P(cla, clo)
         mx, my = (x0 + x1) / 2, (y0 + y1) / 2 - 18
         s.append(f'<path d="M{x0:.1f} {y0:.1f} Q{mx:.1f} {my:.1f} {x1:.1f} {y1:.1f}" fill="none" '
-                 f'stroke="{OCHRE_L}" stroke-width="1.2" opacity=".85"/>')
+                 f'stroke="{MS.CONTEXT}" stroke-width="1.2" opacity=".9"/>')
+    s.append('</g>')
     A.route(s, M, [(31.951, 34.895), (31.945, 34.97), (31.950, 35.02), (31.925, 35.10), (31.905, 35.20)],
-            col=OCHRE, w=3.0, dash='8 5')
+            col=MS.DOC, w=3.0, dash='3 3')
     rx, ry = M.P(31.935, 35.03)
-    A.label(s, rx, ry, 'the march of 13 July, on foot (route approximate)', 0, 18, 'middle', 9.4, OCHRE, '700')
+    A.label(s, rx, ry, 'the march of 13 July, on foot (route approximate)', 0, 46, 'middle', 12, MS.DOC_DEEP, '700')
     for la, lo, nm, dx, dy, an in origins:
-        x, y = A.dot(s, M, la, lo, OCHRE, 5.2)
-        A.label(s, x, y, nm, dx, dy, an, 10)
-    rx, ry = M.P(31.9038, 35.2034)
+        x, y = A.mark(s, M, la, lo, 'ctx', 5.0)
+        A.label(s, x, y, nm, dx, dy, an, 13)
+    A.mark(s, M, 31.9038, 35.2034, 'ram')
     for la, lo, nm, dx, dy, an in camps:
-        x, y = M.P(la, lo)
-        s.append(f'<rect x="{x-5:.1f}" y="{y-5:.1f}" width="10" height="10" fill="{GREEN}" stroke="{WHITE}" stroke-width="1.5" transform="rotate(45 {x:.1f} {y:.1f})"/>')
-        A.label(s, x, y, nm, dx, dy, an, 9.8, DEEP)
-    M.scalebar(s); M.north(s)
-    A._legend(s, H - 66, [('dot', OCHRE, 'town or village the refugees came from'),
-                          ('dia', GREEN, 'camp, with the year it was set up'),
-                          ('line', OCHRE, 'the march east')])
-    _foot(s, W, H, 'Qalandiyā holds the Jerusalem corridor; al-Amʿarī and al-Jalazūn hold Lydda, Ramle and Jaffa. The camps are where the road stopped.',
-          'Origins and dates from the camp table in this chapter (UNRWA; ARIJ camp profiles, 2012). Ramallah town itself is beside Qaddūra. Natural Earth coastlines.')
-    s.append('</svg>')
-    return ''.join(s)
+        x, y = A.mark(s, M, la, lo, 'doc', 5.0)
+        A.label(s, x, y, nm, dx, dy, an, 13, MS.DOC_DEEP)
+    M.scalebar(s); M.locator(s)
+    MS.legend(s, M.y + M.h + 30, [('ctx', 'town or village the refugees came from'),
+                                  ('doc', 'camp, with the year it was set up'),
+                                  ('route-approx', 'the march east, approximate', MS.DOC), ('ram', 'Ramallah')], rows=2)
+    H = A.foot(s, W, M.y + M.h + 74,
+               'Qalandiyā holds the Jerusalem corridor; al-Amʿarī and al-Jalazūn hold Lydda, Ramle and Jaffa. The camps are where the road stopped.',
+               'Origins and dates from the camp table in this chapter (UNRWA; ARIJ camp profiles, 2012). Ramallah town itself is beside Qaddūra. Natural Earth coastlines; contours every 200 m. ' + A.TERRAIN_SRC)
+    return A.plate_end(s, H)

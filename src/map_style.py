@@ -26,7 +26,7 @@ import os
 HERE = os.path.dirname(os.path.abspath(__file__))
 TERRAIN_DIR = os.path.join(os.path.dirname(HERE), 'data', 'terrain')
 TILE_CACHE = os.environ.get('AFRP_DEM_CACHE', os.path.expanduser('~/.cache/afrp-dem'))
-VERSION = 'v76.3'
+VERSION = 'v76.4'
 
 # ─────────────────────────────── palette
 # Colours here are chosen to be outside src/restyle.py's map, so the restyle
@@ -161,6 +161,10 @@ def legend(s, y, items, x0=40, x1=820, rows=None):
             sym_ramallah(s, lx, ly, True)
         elif kind == 'spring':
             sym_spring(s, lx, ly)
+        elif kind == 'sq':
+            s.append(f'<rect x="{lx-4.6}" y="{ly-4.6}" width="9.2" height="9.2" fill="{DOC_DEEP}" stroke="#FFFFFF" stroke-width="1.4"/>')
+        elif kind.startswith('era'):
+            s.append(f'<circle cx="{lx}" cy="{ly}" r="5.4" fill="{ERA[int(kind[3])]}" stroke="#FFFFFF" stroke-width="1.5"/>')
         elif kind == 'dot':
             s.append(f'<circle cx="{lx}" cy="{ly}" r="5" fill="{c}" stroke="#FFFFFF" stroke-width="1.5"/>')
         elif kind == 'ring':
@@ -206,15 +210,18 @@ def _tile(z, x, y):
     p = os.path.join(TILE_CACHE, f'{z}_{x}_{y}.png')
     if not os.path.exists(p):
         import urllib.request
-        url = f'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'
-        for attempt in range(4):
+        import time
+        urls = [f'https://elevation-tiles-prod.s3.amazonaws.com/terrarium/{z}/{x}/{y}.png',
+                f'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png']
+        for attempt in range(10):
             try:
-                with urllib.request.urlopen(url, timeout=60) as r:
+                with urllib.request.urlopen(urls[attempt % 2], timeout=60) as r:
                     data = r.read()
                 break
             except Exception:
-                if attempt == 3:
+                if attempt == 9:
                     raise
+                time.sleep(2 + attempt * 2)
         open(p, 'wb').write(data)
     from PIL import Image
     import numpy as np

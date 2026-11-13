@@ -224,6 +224,7 @@ class Sheet:
         DEM-derived wadis; without it, flat land as before. Either way water is
         the one blue of the map style."""
         cid = clipid or ('clip%d' % id(self))
+        self._cid = cid
         s.append(f'<clipPath id="{cid}"><rect x="{self.x}" y="{self.y}" '
                  f'width="{self.w}" height="{self.h}"/></clipPath>')
         s.append(f'<g clip-path="url(#{cid})">')
@@ -318,7 +319,7 @@ class Sheet:
         s.append(f'<clipPath id="{cid}"><rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}"/></clipPath><g clip-path="url(#{cid})">')
         s.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" fill="{SEA}"/>')
         for seg in _feats('50m', 'physical', 'land', L.bbox):
-            s.append(f'<path d="{L._path(seg, True)}" fill="#F1ECE1" stroke="{COAST}" stroke-width=".5"/>')
+            s.append(f'<path d="{L._path(seg, True)}" fill="#E4D8BE" stroke="{COAST}" stroke-width=".5"/>')
         for seg in _feats('50m', 'physical', 'lakes', L.bbox):
             s.append(f'<path d="{L._path(seg, True)}" fill="{SEA}" stroke="{COAST}" stroke-width=".4"/>')
         bl0, bl1, bt0, bt1 = self.bbox
@@ -356,6 +357,70 @@ def diamond(s, sh, lat, lon, col):
     return x, y
 
 
+def mark(s, sh, lat, lon, kind, r=None):
+    """v76: the one symbol vocabulary of docs/MAP_STYLE.md, placed on a sheet.
+    kind: doc, doc?, mem, mem?, ctx, mon, ram, ram0, spring, era0..era3, sq."""
+    x, y = sh.P(lat, lon)
+    if kind == 'doc':
+        MS.sym_documented(s, x, y, r or 5.6)
+    elif kind == 'doc?':
+        MS.sym_documented(s, x, y, r or 5.6, True)
+    elif kind == 'mem':
+        MS.sym_remembered(s, x, y, r or 5.2)
+    elif kind == 'mem?':
+        MS.sym_remembered(s, x, y, r or 5.2, True)
+    elif kind == 'ctx':
+        MS.sym_context(s, x, y, r or 4.4)
+    elif kind == 'mon':
+        MS.sym_monument(s, x, y, r=r or 5.0)
+    elif kind == 'ram':
+        MS.sym_ramallah(s, x, y)
+    elif kind == 'ram0':
+        MS.sym_ramallah(s, x, y, True)
+    elif kind == 'spring':
+        MS.sym_spring(s, x, y)
+    elif kind == 'sq':
+        rr = r or 4.8
+        s.append(f'<rect x="{x-rr:.1f}" y="{y-rr:.1f}" width="{2*rr:.1f}" height="{2*rr:.1f}" fill="{MS.DOC_DEEP}" stroke="#FFFFFF" stroke-width="1.5"/>')
+    elif kind.startswith('era'):
+        s.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r or 6:.1f}" fill="{MS.ERA[int(kind[3])]}" stroke="#FFFFFF" stroke-width="1.8"/>')
+    return x, y
+
+
+def wrap(t, n):
+    out, line = [], ''
+    for w in t.split(' '):
+        if len((line + ' ' + w).strip()) > n and line:
+            out.append(line); line = w
+        else:
+            line = (line + ' ' + w).strip()
+    return out + ([line] if line else [])
+
+
+def foot(s, W, y, bold, src):
+    """The closing band under the legend: a rule, the bold sentence and the
+    source line, wrapped to the plate. Returns the plate height needed."""
+    s.append(f'<line x1="40" y1="{y}" x2="{W-40}" y2="{y}" stroke="{RULE}"/>')
+    y += 20
+    for ln in wrap(bold, 138):
+        s.append(MS.text(40, y, ln, 12, MS.BODY, 'start', '700')); y += 16
+    y += 2
+    for ln in wrap(src, 160):
+        s.append(MS.text(40, y, ln, 11, MS.NOTE, 'start', '400', 'italic')); y += 14
+    return y + 4
+
+
+def plate_end(s, H):
+    """Close a plate whose height was only known at the end."""
+    s[0] = s[0].replace('viewBox="0 0 860 0"', f'viewBox="0 0 860 {H:.0f}"')
+    s[1] = s[1].replace('height="0"', f'height="{H:.0f}"')
+    s.append('</svg>')
+    return ''.join(s)
+
+
+TERRAIN_SRC = 'Terrain from SRTM/Copernicus elevation via AWS Terrain Tiles; wadis derived from it.'
+
+
 def label(s, x, y, text, dx, dy, anchor='start', size=10.2, col=INK, weight='700', halo=True):
     """v76: sizes are floored by the map style so that no place name is under
     11 px on a phone (13 plate units); notes in regular weight under 9.6 px."""
@@ -371,15 +436,21 @@ def label(s, x, y, text, dx, dy, anchor='start', size=10.2, col=INK, weight='700
 def route(s, sh, pts, col=RUST, w=2.6, dash='8 5'):
     d = ''.join(('M' if i == 0 else 'L') + '%.1f %.1f' % sh.P(la, lo)
                 for i, (la, lo) in enumerate(pts))
+    cid = getattr(sh, '_cid', None)
+    if cid:
+        s.append(f'<g clip-path="url(#{cid})">')
     s.append(f'<path d="{d}" fill="none" stroke="#FFFAF0" stroke-width="{w+2.6}" opacity=".55" stroke-linejoin="round"/>')
     s.append(f'<path d="{d}" fill="none" stroke="{col}" stroke-width="{w}" stroke-dasharray="{dash}" stroke-linejoin="round"/>')
+    if cid:
+        s.append('</g>')
 
 
 def _plate(W, H, kicker, sub, aria):
     s = [f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="{aria}">']
     s.append(f'<rect width="{W}" height="{H}" fill="{SURF}"/>')
-    s.append(txt(40, 32, kicker, 11, GOLD, 'start', '700', 'normal', '1.35'))
-    s.append(txt(40, 50, sub, 10.4, GREY, 'start', '400', 'italic'))
+    s.append(txt(40, 32, kicker, 12, GOLD, 'start', '700', 'normal', '1.35'))
+    for i, ln in enumerate(wrap(sub, 158)[:2]):
+        s.append(txt(40, 52 + i * 14, ln, 11.5, GREY, 'start', '400', 'italic'))
     return s
 
 
@@ -399,72 +470,72 @@ def _legend(s, y, items, W=860):
 
 # ═══════════════════════ 1 · the road out of Arabia ═══════════════════
 def fig_road():
-    W, H = 860, 620
-    s = _plate(W, H, 'THE ROAD OUT OF ARABIA, AS THE FAMILY REMEMBERS IT',
+    W = 860
+    s = _plate(W, 0, 'THE ROAD OUT OF ARABIA, AS THE FAMILY REMEMBERS IT',
                'Two sheets at two scales. The whole arc on the left; on the right, the Transjordanian leg where every station can be checked.',
-               'Atlas map of the remembered migration route from Marib in Yemen to Ramallah')
-    A = Sheet(*fit_box(33.0, 51.5, 12.0, 37.5, 350, 452), 44, 78, 350, 452)
-    B = Sheet(*fit_box(34.85, 37.25, 30.00, 33.05, 392, 452), 424, 78, 392, 452)
+               'Atlas map of the remembered migration route from Marib in Yemen to Ramallah, with terrain')
+    A = Sheet(*fit_box(33.0, 51.5, 12.0, 37.5, 350, 470), 44, 84, 350, 470)
+    B = Sheet(*fit_box(34.85, 37.25, 30.00, 33.05, 392, 470), 424, 84, 392, 470)
 
-    A.base(s, '50m', rivers=False, clipid='ca'); A.graticule(s, 5, 5); A.close(s)
-    A.sea(s, 20.0, 38.6, 'RED SEA', 9.4, -62)
-    A.sea(s, 13.6, 48.5, 'GULF OF ADEN', 8.6)
-    A.sea(s, 27.0, 50.6, 'THE GULF', 8.6, -70)
-    A.sea(s, 33.6, 33.4, 'MEDITERRANEAN', 8.6, -40)
-    A.region(s, 22.5, 44.0, 'A R A B I A', 11.5)
-    route(s, A, [(15.42, 45.33), (21.42, 39.83), (25.5, 37.6), (30.33, 35.60), (31.90, 35.20)])
+    A.base(s, '50m', rivers=False, clipid='ca', terrain={'res': 1.2}, key='road_a'); A.graticule(s, 5, 5); A.close(s)
+    A.sea(s, 20.0, 38.6, 'RED SEA', 12, -62)
+    A.sea(s, 13.4, 48.5, 'GULF OF ADEN', 11)
+    A.sea(s, 27.0, 50.6, 'THE GULF', 11, -70)
+    A.sea(s, 33.4, 33.6, 'MEDITERRANEAN', 11, -40)
+    A.region(s, 23.0, 45.0, 'A R A B I A', 13)
+    route(s, A, [(15.42, 45.33), (21.42, 39.83), (25.5, 37.6), (30.33, 35.60), (31.90, 35.20)], col=MS.MEM, w=2.4)
     for la, lo, nm, k, dx, dy, an in [
-            (15.42, 45.33, 'Maʾrib', 't', 9, 4, 'start'),
-            (21.42, 39.83, 'the Ḥijāz', 't', 9, 4, 'start'),
-            (30.33, 35.60, 'Udhruḥ', 't', -9, 10, 'end'),
-            (31.90, 35.20, 'RAMALLAH', 'a', -9, -6, 'end')]:
-        x, y = dot(s, A, la, lo, GREEN if k == 'a' else RUST, 5.5 if k == 'a' else 4.6)
-        label(s, x, y, nm, dx, dy, an, 10 if k == 'a' else 9.4)
+            (15.42, 45.33, 'Maʾrib', 'mem', 9, 4, 'start'),
+            (21.42, 39.83, 'the Ḥijāz', 'mem', 9, 4, 'start'),
+            (30.33, 35.60, 'Udhruḥ', 'mem', 9, 12, 'start')]:
+        x, y = mark(s, A, la, lo, k)
+        label(s, x, y, nm, dx, dy, an, 13)
+    mark(s, A, 31.90, 35.20, 'ram')
     for la, lo, nm in [(35.63, 38.75, 'Ruṣāfa'), (32.52, 36.48, 'Bosra')]:
-        x, y = diamond(s, A, la, lo, PLUM)
-        label(s, x, y, nm, 8, 3.5, 'start', 9, PLUM)
-    A.scalebar(s); A.north(s)
-    s.append(txt(A.x + 12, A.y - 8, 'A · THE WHOLE ARC', 8.8, GOLD, 'start', '700', 'normal', '1.2'))
+        x, y = mark(s, A, la, lo, 'mon')
+        label(s, x, y, nm, 9, 4, 'start', 13)
+    A.scalebar(s)
+    s.append(txt(A.x, A.y - 8, 'A · THE WHOLE ARC', 12, GOLD, 'start', '700', 'normal', '1.2'))
 
-    # the enlargement box, and the leaders to sheet B
     bl, bt = A.P(B.bbox[3], B.bbox[0]); br, bb = A.P(B.bbox[2], B.bbox[1])
     s.append(f'<rect x="{bl:.1f}" y="{bt:.1f}" width="{br-bl:.1f}" height="{bb-bt:.1f}" '
-             f'fill="none" stroke="{GOLD}" stroke-width="1.6"/>')
+             f'fill="none" stroke="{MS.RAMALLAH}" stroke-width="1.4"/>')
     for ya, yb in ((bt, B.y), (bb, B.y + B.h)):
-        s.append(f'<line x1="{br:.1f}" y1="{ya:.1f}" x2="{B.x}" y2="{yb}" stroke="{GOLD}" '
-                 f'stroke-width=".9" stroke-dasharray="3 3" opacity=".75"/>')
+        s.append(f'<line x1="{br:.1f}" y1="{ya:.1f}" x2="{B.x}" y2="{yb}" stroke="{MS.RAMALLAH}" '
+                 f'stroke-width=".8" stroke-dasharray="3 3" opacity=".6"/>')
 
-    B.base(s, '10m', rivers=True, clipid='cb'); B.graticule(s, 1, 1); B.close(s)
-    B.sea(s, 31.45, 35.47, 'DEAD SEA', 7.6, -74)
-    B.sea(s, 32.55, 35.00, 'MEDITERRANEAN', 8, -52)
-    B.region(s, 30.9, 36.72, 'THE PLATEAU', 9.6, '#B0A184', '2.2')
+    B.base(s, '10m', rivers=True, clipid='cb', terrain={'res': 1.6, 'wadi_km2': 400, 'wadi_cell': 2.5}, key='road_b'); B.graticule(s, 1, 1); B.close(s)
+    B.sea(s, 31.45, 35.47, 'DEAD SEA', 11, -74)
+    B.sea(s, 32.45, 34.95, 'MEDITERRANEAN', 11, -52)
+    B.region(s, 30.9, 36.72, 'THE PLATEAU', 13, '#8A7457', '2.2')
     route(s, B, [(30.33, 35.60), (30.53, 35.56), (31.18, 35.70), (31.68, 35.73),
-                 (31.87, 35.53), (31.72, 35.19), (31.90, 35.20)])
+                 (31.87, 35.53), (31.72, 35.19), (31.90, 35.20)], col=MS.MEM, w=2.6)
     for la, lo, nm, k, dx, dy, an in [
-            (30.33, 35.60, 'Udhruḥ', 't', 10, 12, 'start'),
-            (30.53, 35.56, 'al-Shawbak', 't', -10, 0, 'end'),
-            (31.18, 35.70, 'al-KARAK', 'a', 10, 4, 'start'),
-            (31.68, 35.73, 'Maʿīn', 'a', 10, -4, 'start'),
-            (31.87, 35.53, 'the ford of al-Lisān', 't', 8, -8, 'start'),
-            (31.72, 35.19, 'Bayt Jālā', 'a', -10, 13, 'end'),
-            (31.90, 35.20, 'RAMALLAH', 'a', -10, -5, 'end')]:
-        x, y = dot(s, B, la, lo, GREEN if k == 'a' else RUST)
-        label(s, x, y, nm, dx, dy, an, 10.4 if nm.isupper() else 10)
-    x, y = diamond(s, B, 31.66, 35.83, PLUM)
-    label(s, x, y, 'Nitl', 11, 12, 'start', 9.4, PLUM)
-    x, y = diamond(s, B, 32.52, 36.48, PLUM)
-    label(s, x, y, 'Bosra / the Ḥawrān', 9, 4, 'start', 9.4, PLUM)
-    B.scalebar(s); B.north(s)
-    s.append(txt(B.x + 12, B.y - 8, 'B · THE LEG THAT CAN BE CHECKED', 8.8, GOLD, 'start', '700', 'normal', '1.2'))
+            (30.33, 35.60, 'Udhruḥ', 'mem', 10, 12, 'start'),
+            (30.53, 35.56, 'al-Shawbak', 'mem', -10, 0, 'end'),
+            (31.18, 35.70, 'al-KARAK', 'doc', 10, 4, 'start'),
+            (31.68, 35.73, 'Maʿīn', 'doc', 10, -6, 'start'),
+            (31.87, 35.53, 'the ford of al-Lisān', 'mem', 8, -9, 'start'),
+            (31.72, 35.19, 'Bayt Jālā', 'doc', -10, 14, 'end')]:
+        x, y = mark(s, B, la, lo, k)
+        label(s, x, y, nm, dx, dy, an, 13.5 if nm.isupper() else 13)
+    x, y = mark(s, B, 31.90, 35.20, 'ram')
+    label(s, x, y, 'RAMALLAH', -12, -6, 'end', 13.5, MS.RAMALLAH)
+    x, y = mark(s, B, 31.66, 35.83, 'mon')
+    label(s, x, y, 'Nitl', 10, 13, 'start', 13)
+    x, y = mark(s, B, 32.52, 36.48, 'mon')
+    label(s, x, y, 'Bosra / the Ḥawrān', 9, 4, 'start', 13)
+    B.scalebar(s)
+    s.append(txt(B.x, B.y - 8, 'B · THE LEG THAT CAN BE CHECKED', 12, GOLD, 'start', '700', 'normal', '1.2'))
 
-    _legend(s, H - 74, [('dot', RUST, 'remembered station — tradition only'),
-                        ('dot', GREEN, 'attested in a document'),
-                        ('dia', PLUM, 'Ghassanid site with standing evidence')])
-    s.append(f'<line x1="40" y1="{H-56}" x2="{W-40}" y2="{H-56}" stroke="{RULE}"/>')
-    s.append(txt(40, H - 36, 'Nitl lies a few kilometres from Maʿīn — the mosaics there are the most important Jafnid-associated monument in Jordan, and they sit on the road the family remembers.', 10.2, BODY, 'start', '700'))
-    s.append(txt(40, H - 20, 'Sheet A is drawn at roughly one-eighth the scale of sheet B. Coastlines, rivers and lakes after Natural Earth; Lambert conformal conic projection.', 9.8, GREY, 'start', '400', 'italic'))
-    s.append('</svg>')
-    return ''.join(s)
+    MS.legend(s, A.y + A.h + 30, [('mem', 'remembered station, tradition only'),
+                                  ('doc', 'attested in a document'),
+                                  ('mon', 'Ghassanid site with standing evidence'),
+                                  ('route-mem', 'the remembered road'), ('ram', 'Ramallah')], rows=2)
+    H = foot(s, W, A.y + A.h + 74,
+             'Nitl lies a few kilometres from Maʿīn. Its mosaics are the most important Jafnid-associated monument in Jordan, and they sit on the road the family remembers.',
+             'Sheet A is drawn at roughly one-eighth the scale of sheet B. Coastlines, rivers and lakes after Natural Earth; Lambert conformal conic projection. ' + TERRAIN_SRC + ' The Dead Sea outline is the modern one.')
+    return plate_end(s, H)
 
 
 class Flat:
@@ -541,125 +612,115 @@ class Lin:
 
 # ═══════════════════════ 2 · the Roman district ═══════════════════════
 def fig_roman():
-    W, H = 860, 540
-    s = _plate(W, H, 'THE DISTRICT WHEN ROME WROTE IT DOWN',
-               'Every green dot is a place named in a surviving classical text. The gold ring is the site of Ramallah — named in none of them, and in nothing at all until 1186.',
-               'Atlas map of the Roman and Byzantine district around Ramallah')
-    M = Sheet(*fit_box(34.88, 35.62, 31.62, 32.18, 772, 372), 44, 78, 772, 372)
-    M.base(s, '10m'); M.graticule(s, 0.25, 0.25); M.close(s)
-    M.sea(s, 31.70, 35.50, 'DEAD SEA', 7.6, -80)
-    # the imperial road, Aelia to Neapolis
+    W = 860
+    s = _plate(W, 0, 'THE DISTRICT WHEN ROME WROTE IT DOWN',
+               'Every green dot is a place named in a surviving classical text. The red ring is the site of Ramallah, named in none of them, and in nothing at all until 1186.',
+               'Atlas map of the Roman and Byzantine district around Ramallah, with terrain')
+    M = Sheet(*fit_box(34.88, 35.62, 31.62, 32.18, 772, 400), 44, 84, 772, 400)
+    M.base(s, '10m', terrain={'contour': 200, 'wadi_km2': 12}, key='roman'); M.graticule(s, 0.25, 0.25); M.close(s)
+    M.sea(s, 31.66, 35.50, 'DEAD SEA', 12, -80)
     route(s, M, [(31.70, 35.22), (31.78, 35.225), (31.91, 35.222), (31.96, 35.222),
-                 (32.10, 35.24), (32.22, 35.26)], col='#9A7A45', w=5.0, dash='none')
-    rx, ry = M.P(32.11, 35.245)
-    label(s, rx, ry, 'the road to Neapolis', 10, 0, 'start', 9, '#8A6A3A', '400')
+                 (32.10, 35.24), (32.22, 35.26)], col='#A88452', w=4.4, dash='none')
+    rx, ry = M.P(32.12, 35.247)
+    label(s, rx, ry, 'the road to Neapolis', 10, 0, 'start', 12, '#7A5A2A', '400')
     for la, lo, nm, dx, dy, an in [
             (31.9603, 35.2158, 'Gophna / Jifnā', 10, -5, 'start'),
             (31.9280, 35.2200, 'Bethel / Beitin', 10, 12, 'start'),
             (32.0300, 35.0700, 'ʿAbūd', -10, 4, 'end'),
             (31.9500, 35.3100, 'Ephraim / Ṭaybeh', 10, 4, 'start'),
-            (31.8930, 35.1800, 'Khirbet et-Tireh', -10, 14, 'end'),
+            (31.8930, 35.1800, 'Khirbet et-Tireh', -10, 17, 'end'),
             (31.7780, 35.2354, 'AELIA CAPITOLINA', 10, 12, 'start'),
             (31.7050, 35.2030, 'Bethlehem', 10, 4, 'start')]:
-        x, y = dot(s, M, la, lo, GREEN, 5.2)
-        label(s, x, y, nm, dx, dy, an, 10 if nm.isupper() else 9.8)
-    x, y = M.P(31.9038, 35.2034)
-    s.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="9" fill="none" stroke="{GOLD}" stroke-width="2.4"/>')
-    s.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2.6" fill="{GOLD}"/>')
-    label(s, x, y, 'the site of RAMALLAH', -13, -8, 'end', 10.4, '#8A6A3A')
-    label(s, x, y, 'named in no classical text', -13, 5, 'end', 8.8, GREY, '400')
-    M.scalebar(s); M.north(s)
-    _legend(s, H - 62, [('dot', GREEN, 'named in a surviving classical text'),
-                        ('line', '#9A7A45', 'the milestoned imperial road'),
-                        ('dot', GOLD, 'the site of Ramallah')])
-    s.append(f'<line x1="40" y1="{H-44}" x2="{W-40}" y2="{H-44}" stroke="{RULE}"/>')
-    s.append(txt(40, H - 24, 'When the family walks up this ridge in 1562, and when the first emigrants ride down it in 1901, they are using a road Rome paved.', 10.2, BODY, 'start', '700'))
-    s.append(txt(40, H - 10, 'Coastlines and drainage after Natural Earth; Lambert conformal conic. Sites after Pliny, Josephus, Eusebius and the Madaba mosaic.', 9.6, GREY, 'start', '400', 'italic'))
-    s.append('</svg>')
-    return ''.join(s)
-
+        x, y = mark(s, M, la, lo, 'doc')
+        label(s, x, y, nm, dx, dy, an, 13.5 if nm.isupper() else 13)
+    x, y = mark(s, M, 31.9038, 35.2034, 'ram0')
+    label(s, x, y, 'the site of RAMALLAH', -13, -22, 'end', 13, MS.RAMALLAH)
+    label(s, x, y, 'named in no classical text', -13, -8, 'end', 11.5, MS.NOTE, '400')
+    M.scalebar(s); M.locator(s)
+    MS.legend(s, M.y + M.h + 30, [('doc', 'named in a surviving classical text'),
+                                  ('road', 'the milestoned imperial road', '#A88452'),
+                                  ('ram0', 'the site of Ramallah')])
+    H = foot(s, W, M.y + M.h + 50,
+             'When the family walks up this ridge in 1562, and when the first emigrants ride down it in 1901, they are using a road Rome paved.',
+             'Sites after Pliny, Josephus, Eusebius and the Madaba mosaic. Coastlines after Natural Earth; Lambert conformal conic; contours every 200 m, the 800 m line bolder. ' + TERRAIN_SRC)
+    return plate_end(s, H)
 
 # ═══════════════════════ 3 · the hills around Ramallah ════════════════
 def fig_district():
-    W, H = 860, 560
-    s = _plate(W, H, 'THE HILLS AROUND RAMALLAH — WHAT HAS BEEN DUG, WHAT WAS WRITTEN, WHO RULED',
+    W = 860
+    s = _plate(W, 0, 'THE HILLS AROUND RAMALLAH — WHAT HAS BEEN DUG, WHAT WAS WRITTEN, WHO RULED',
                'Everything within a few kilometres of the town, on one sheet: the excavated sites, the Frankish settlement, the throne villages, and the watershed road all of it hangs off.',
-               'Atlas map of the villages and excavated sites around Ramallah')
-    M = Sheet(*fit_box(34.98, 35.42, 31.66, 32.08, 772, 392), 44, 78, 772, 392)
-    M.base(s, '10m', terrain={'contour': 200, 'wadi_km2': 10}, key='district'); M.graticule(s, 0.1, 0.1); M.close(s)
+               'Atlas map of the villages and excavated sites around Ramallah, with terrain')
+    M = Sheet(*fit_box(34.98, 35.42, 31.66, 32.08, 772, 430), 44, 84, 772, 430)
+    M.base(s, '10m', terrain={'contour': 100, 'wadi_km2': 6}, key='district'); M.graticule(s, 0.1, 0.1); M.close(s)
+    M.sea(s, 31.70, 35.50, 'DEAD SEA', 12, -80)
     route(s, M, [(31.66, 35.20), (31.78, 35.222), (31.91, 35.222), (31.97, 35.222), (32.08, 35.24)],
-          col='#9A7A45', w=5.0, dash='none')
-    rx, ry = M.P(32.045, 35.235)
-    label(s, rx, ry, 'the watershed ridge road', 9, 0, 'start', 9, '#8A6A3A', '400')
-    SITES = [(31.9038, 35.2034, 'RAMALLAH', 'town', -11, -6, 'end'),
-             (31.9100, 35.2200, 'al-Bīra', 'frank', 11, -4, 'start'),
-             (31.8930, 35.1800, 'Khirbet et-Tireh', 'dig', -11, 12, 'end'),
-             (31.9603, 35.2158, 'Jifnā', 'insc', 11, -4, 'start'),
-             (32.0300, 35.0700, 'ʿAbūd', 'dig', 11, 4, 'start'),
-             (31.7200, 35.1900, 'Bayt Jālā', 'town', 11, 4, 'start'),
-             (31.9250, 35.2620, 'et-Tell (Ai)', 'set', 11, 4, 'start'),
-             (32.0200, 35.0800, 'Dayr Ghassāna', 'throne', -11, 14, 'end'),
-             (31.9300, 35.1100, 'Rās Karkar', 'throne', -11, 4, 'end'),
-             (31.9720, 35.1900, 'Bīr Zayt', 'vill', -11, 4, 'end'),
-             (31.9500, 35.3100, 'Ṭayyibat al-Ism', 'vill', 11, 4, 'start')]
-    STY = {'town': (GREEN, 6.4), 'dig': (GREEN, 5.2), 'frank': (PLUM, 5.2), 'insc': (PLUM, 4.8),
-           'throne': (RUST, 4.8), 'set': (FOLIO, 4.4), 'vill': (FOLIO, 4.2)}
+          col='#A88452', w=4.4, dash='none')
+    rx, ry = M.P(32.06, 35.243)
+    label(s, rx, ry, 'the watershed ridge road', 9, 0, 'start', 12, '#7A5A2A', '400')
+    SITES = [(31.9100, 35.2200, 'al-Bīra', 'mon', 10, 14, 'start'),
+             (31.8930, 35.1800, 'Khirbet et-Tireh', 'doc', -10, 13, 'end'),
+             (31.9603, 35.2158, 'Jifnā', 'mon', 10, -3, 'start'),
+             (32.0300, 35.0700, 'ʿAbūd', 'doc', 10, -4, 'start'),
+             (31.7200, 35.1900, 'Bayt Jālā', 'doc', 10, 4, 'start'),
+             (31.9250, 35.2620, 'et-Tell (Ai)', 'doc', 10, -4, 'start'),
+             (32.0200, 35.0800, 'Dayr Ghassāna', 'sq', -10, 15, 'end'),
+             (31.9300, 35.1100, 'Rās Karkar', 'sq', -10, 4, 'end'),
+             (31.9720, 35.1900, 'Bīr Zayt', 'ctx', -10, 4, 'end'),
+             (31.9500, 35.3100, 'Ṭayyibat al-Ism', 'ctx', 10, 4, 'start')]
     dx0, dy0 = M.P(31.9038, 35.2034)
     s.append(f'<circle cx="{dx0:.1f}" cy="{dy0:.1f}" r="{2/ M.km_per_px():.1f}" fill="none" '
-             f'stroke="{GREEN}" stroke-width="1" stroke-dasharray="4 3" opacity=".7"/>')
+             f'stroke="{MS.RAMALLAH}" stroke-width="1.1" stroke-dasharray="4 3" opacity=".8"/>')
     for la, lo, nm, k, dx, dy, an in SITES:
-        col, r = STY[k]
-        x, y = dot(s, M, la, lo, col, r)
-        label(s, x, y, nm, dx, dy, an, 10.4 if k == 'town' else 9.8)
-    M.scalebar(s); M.north(s)
-    _legend(s, H - 62, [('dot', GREEN, 'excavated, or the town itself'),
-                        ('dia', PLUM, 'named in a medieval document'),
-                        ('dot', RUST, 'throne village — a shaykhly seat')])
-    s.append(f'<line x1="40" y1="{H-44}" x2="{W-40}" y2="{H-44}" stroke="{RULE}"/>')
-    s.append(txt(40, H - 24, 'Ramallah is the one dot with nothing under it before 1562 — which is exactly what a hill of endowment land should look like. The dashed ring is two kilometres.', 10.2, BODY, 'start', '700'))
-    s.append(txt(40, H - 10, 'Coastlines and drainage after Natural Earth; Lambert conformal conic.', 9.6, GREY, 'start', '400', 'italic'))
-    s.append('</svg>')
-    return ''.join(s)
+        x, y = mark(s, M, la, lo, k)
+        label(s, x, y, nm, dx, dy, an, 13, MS.INK if k != 'ctx' else MS.BODY, '700' if k != 'ctx' else '400')
+    x, y = mark(s, M, 31.9038, 35.2034, 'ram0')
+    label(s, x, y, 'RAMALLAH', -12, -8, 'end', 13.5, MS.RAMALLAH)
+    M.scalebar(s); M.locator(s)
+    MS.legend(s, M.y + M.h + 30, [('doc', 'excavated'), ('mon', 'standing church or inscription'),
+                                  ('sq', 'throne village, a shaykh’s seat', ), ('ctx', 'village, for orientation'),
+                                  ('ram0', 'the site of Ramallah before 1562')], rows=2)
+    H = foot(s, W, M.y + M.h + 74,
+             'Ramallah is the one place with nothing under it before 1562, which is exactly what a hill of endowment land should look like. The dashed ring is two kilometres.',
+             'Coastlines after Natural Earth; Lambert conformal conic. Contours every 100 m, the 800 m line bolder: the ridge. ' + TERRAIN_SRC)
+    return plate_end(s, H)
 
 
 # ═══════════════════════ 4 · the oldest ground ════════════════════════
 def fig_oldest():
-    W, H = 860, 560
-    s = _plate(W, H, 'THE OLDEST GROUND WITHIN A MORNING’S WALK OF RAMALLAH',
+    W = 860
+    s = _plate(W, 0, 'THE OLDEST GROUND WITHIN A MORNING’S WALK OF RAMALLAH',
                'Every dot is a site with a published excavation and a calibrated date. Distances are measured from the centre of Ramallah.',
-               'Atlas map of the earliest excavated sites around Ramallah')
-    M = Sheet(*fit_box(34.94, 35.52, 31.70, 32.08, 772, 384), 44, 78, 772, 384)
-    M.base(s, '10m'); M.graticule(s, 0.2, 0.2); M.close(s)
-    M.sea(s, 31.80, 35.48, 'DEAD SEA', 7.6, -80)
-    KIND = {'pal': (PLUM, 'Palaeolithic & Natufian'), 'neo': (GREEN, 'Neolithic'),
-            'chal': (RUST, 'Chalcolithic'), 'eb': (GOLD, 'Bronze Age')}
+               'Atlas map of the earliest excavated sites around Ramallah, with terrain')
+    M = Sheet(*fit_box(34.94, 35.52, 31.70, 32.08, 772, 400), 44, 84, 772, 400)
+    M.base(s, '10m', terrain={'contour': 200, 'wadi_km2': 10}, key='oldest'); M.graticule(s, 0.2, 0.2); M.close(s)
+    M.sea(s, 31.76, 35.50, 'DEAD SEA', 12, -80)
+    KIND = {'pal': ('era0', 'Palaeolithic and Natufian'), 'neo': ('era1', 'Neolithic'),
+            'chal': ('era2', 'Chalcolithic'), 'eb': ('era3', 'Bronze Age')}
     SITES = [(31.9819, 35.0436, 'SHUQBA CAVE', 'pal', 19.3, 10, -6, 'start'),
-             (31.8711, 35.4442, 'TELL es-SULTAN — Jericho', 'neo', 23.0, -11, -6, 'end'),
-             (31.8869, 35.2164, 'TELL en-NAṢBA', 'chal', 2.5, -11, 17, 'end'),
-             (31.9169, 35.2569, 'et-TELL (Ai)', 'eb', 5.3, 11, -6, 'start'),
-             (31.9700, 35.3200, 'ʿAIN SAMIYA', 'eb', 13.8, 11, 4, 'start'),
-             (31.7933, 35.1533, 'MOTZA', 'neo', 12.5, 11, 4, 'start'),
-             (31.8058, 35.1044, 'ABU GHOSH', 'neo', 13.9, -11, 4, 'end')]
+             (31.8711, 35.4442, 'TELL es-SULTAN, Jericho', 'neo', 23.0, 0, 20, 'middle'),
+             (31.8869, 35.2164, 'TELL en-NAṢBA', 'chal', 2.5, 10, 14, 'start'),
+             (31.9169, 35.2569, 'et-TELL (Ai)', 'eb', 5.3, 10, -6, 'start'),
+             (31.9700, 35.3200, 'ʿAIN SAMIYA', 'eb', 13.8, 10, 4, 'start'),
+             (31.7933, 35.1533, 'MOTZA', 'neo', 12.5, 10, 4, 'start'),
+             (31.8058, 35.1044, 'ABU GHOSH', 'neo', 13.9, -10, 4, 'end')]
     rx, ry = M.P(31.9038, 35.2034)
     for la, lo, nm, k, km, dx, dy, an in SITES:
-        col = KIND[k][0]
         x, y = M.P(la, lo)
-        s.append(f'<line x1="{rx:.1f}" y1="{ry:.1f}" x2="{x:.1f}" y2="{y:.1f}" stroke="{col}" '
-                 f'stroke-width=".9" stroke-dasharray="3 3" opacity=".5"/>')
-        dot(s, M, la, lo, col, 5.8)
-        label(s, x, y, nm, dx, dy, an, 9.8)
-        label(s, x, y, f'{km} km', dx, dy + 11, an, 8.4, GREY, '400')
-    s.append(f'<circle cx="{rx:.1f}" cy="{ry:.1f}" r="8" fill="none" stroke="{INK}" stroke-width="2.2"/>')
-    s.append(f'<circle cx="{rx:.1f}" cy="{ry:.1f}" r="2.6" fill="{INK}"/>')
-    label(s, rx, ry, 'RAMALLAH', -12, 4, 'end', 11, INK)
-    M.scalebar(s); M.north(s)
-    _legend(s, H - 68, [('dot', c, l) for c, l in KIND.values()])
-    s.append(f'<line x1="40" y1="{H-50}" x2="{W-40}" y2="{H-50}" stroke="{RULE}"/>')
-    s.append(txt(40, H - 30, 'The Natufian — the first culture anywhere to build regularly in stone and hold a base camp through the year — is named after a wadi in this governorate.', 10.2, BODY, 'start', '700'))
-    s.append(txt(40, H - 14, 'These highlands are thinly excavated compared with the coast and the Jordan valley: the blank spaces are gaps in the survey record, not gaps in the past.', 9.8, GREY, 'start', '400', 'italic'))
-    s.append('</svg>')
-    return ''.join(s)
-
+        s.append(f'<line x1="{rx:.1f}" y1="{ry:.1f}" x2="{x:.1f}" y2="{y:.1f}" stroke="{MS.NOTE}" '
+                 f'stroke-width=".9" stroke-dasharray="3 3" opacity=".7"/>')
+    for la, lo, nm, k, km, dx, dy, an in SITES:
+        x, y = mark(s, M, la, lo, KIND[k][0], 6.2)
+        label(s, x, y, nm, dx, dy, an, 13)
+        label(s, x, y, f'{km} km', dx, dy + 13, an, 11.5, MS.NOTE, '400')
+    x, y = mark(s, M, 31.9038, 35.2034, 'ram')
+    label(s, x, y, 'RAMALLAH', -13, 4, 'end', 13.5, MS.RAMALLAH)
+    M.scalebar(s); M.locator(s)
+    MS.legend(s, M.y + M.h + 30, [(v[0], v[1]) for v in KIND.values()] + [('ram', 'Ramallah')])
+    H = foot(s, W, M.y + M.h + 50,
+             'The Natufian, the first culture anywhere to build regularly in stone and hold a base camp through the year, is named after a wadi in this governorate. These highlands are thinly excavated: the blank spaces are gaps in the survey record, not gaps in the past.',
+             'Garrod; Boyd and Crossland; Badè; Marquet-Krause and Callaway; Kenyon. Coastlines after Natural Earth; Lambert conformal conic; contours every 200 m, the 800 m line bolder. ' + TERRAIN_SRC)
+    return plate_end(s, H)
 
 # ═══════════════════════ 5 · the Ḥaddādīn of Jordan ═══════════════════
 def fig_haddadin():
@@ -723,60 +784,60 @@ def fig_haddadin():
 
 # ═══════════════════════ 6 · the diaspora ═════════════════════════════
 def fig_diaspora():
-    W, H = 860, 500
-    s = _plate(W, H, 'WHERE RAMALLAH WENT, 1901 ONWARD',
+    W = 860
+    s = _plate(W, 0, 'WHERE RAMALLAH WENT, 1901 ONWARD',
                'The cities the town’s people went to, weighted by the family’s own record. Nobody has ever properly enumerated this diaspora, which is itself a finding.',
                'Atlas map of the Ramallah diaspora in North America')
-    M = Flat(-126.0, 38.0, 22.0, 54.0, 44, 74, 772, 306)
+    M = Flat(-126.0, 38.0, 22.0, 54.0, 44, 84, 772, 306)
     M.base(s, '50m', rivers=False, clipid='cd'); M.graticule(s, 20, 10, labels=False); M.close(s)
-    M.sea(s, 40.0, -45.0, 'ATLANTIC OCEAN', 9.4)
-    M.sea(s, 34.0, -125.0, 'PACIFIC', 8.6, -90, 'middle')
+    M.sea(s, 40.0, -45.0, 'ATLANTIC OCEAN', 13)
+    M.sea(s, 34.0, -124.0, 'PACIFIC', 12, -90, 'middle')
     CITIES = [(42.33, -83.05, 'DETROIT', 34, 10, -5, 'start'),
               (30.33, -81.66, 'Jacksonville', 18, 10, 4, 'start'),
               (40.71, -74.01, 'New York', 16, 10, -6, 'start'),
               (37.77, -122.42, 'San Francisco', 12, 10, 4, 'start'),
-              (41.88, -87.63, 'Chicago', 10, -10, 10, 'end'),
-              (34.05, -118.24, 'Los Angeles', 9, 10, 8, 'start'),
+              (41.88, -87.63, 'Chicago', 10, -10, 12, 'end'),
+              (34.05, -118.24, 'Los Angeles', 9, 10, 10, 'start'),
               (35.15, -90.05, 'Memphis', 8, 10, 8, 'start'),
-              (29.76, -95.37, 'Houston', 8, 10, 4, 'start'),
+              (29.76, -95.37, 'Houston', 8, 10, 6, 'start'),
               (44.98, -93.27, 'Minneapolis', 7, -10, -4, 'end')]
     hx, hy = M.P(31.9038, 35.2034)
     for la, lo, nm, wgt, dx, dy, an in CITIES:
         x, y = M.P(la, lo)
         cx, cy = (hx + x) / 2, min(hy, y) - 70
         s.append(f'<path d="M{hx:.1f} {hy:.1f} Q {cx:.1f} {cy:.1f} {x:.1f} {y:.1f}" fill="none" '
-                 f'stroke="{RUST}" stroke-width="{0.7 + wgt/18:.1f}" opacity=".55"/>')
+                 f'stroke="{MS.MEM}" stroke-width="{0.7 + wgt/18:.1f}" opacity=".5"/>')
     for la, lo, nm, wgt, dx, dy, an in CITIES:
-        x, y = dot(s, M, la, lo, GREEN, 3.4 + wgt / 12)
-        label(s, x, y, nm, dx, dy, an, 10 if nm.isupper() else 9.4)
-    s.append(f'<circle cx="{hx:.1f}" cy="{hy:.1f}" r="7" fill="{GOLD}" stroke="#FFFFFF" stroke-width="2"/>')
-    label(s, hx, hy, 'RAMALLAH', -11, 4, 'end', 10.6, '#8A6A3A')
-    M.scalebar(s); M.north(s)
-    s.append(f'<line x1="40" y1="{H-72}" x2="{W-40}" y2="{H-72}" stroke="{RULE}"/>')
-    s.append(txt(40, H - 52, 'Circle size and line weight follow the family’s own record of where people went, not a census — no census of this diaspora has ever been taken.', 10.2, BODY, 'start', '700'))
-    s.append(txt(40, H - 36, 'The first four men sail in 1901. By 1946 Shāhīn counts 1,500 in the United States; by 1960 more than 4,000; by 1975 more than 10,000.', 10.2, BODY, 'start', '400'))
-    s.append(txt(40, H - 18, 'Equirectangular projection with a mid-latitude correction; coastlines after Natural Earth. Great-circle arcs are drawn schematically.', 9.6, GREY, 'start', '400', 'italic'))
-    s.append('</svg>')
-    return ''.join(s)
+        x, y = mark(s, M, la, lo, 'doc', 3.4 + wgt / 12)
+        label(s, x, y, nm, dx, dy, an, 13.5 if nm.isupper() else 13)
+    mark(s, M, 31.9038, 35.2034, 'ram')
+    label(s, hx, hy, 'RAMALLAH', -13, 4, 'end', 13.5, MS.RAMALLAH)
+    M.scalebar(s)
+    MS.legend(s, M.y + M.h + 30, [('doc', 'a city in the family’s record; size follows the record'),
+                                  ('line', 'the move, weighted the same way', MS.MEM), ('ram', 'Ramallah')])
+    H = foot(s, W, M.y + M.h + 50,
+             'Circle size and line weight follow the family’s own record of where people went, not a census: no census of this diaspora has ever been taken. The first four men sail in 1901. By 1946 Shāhīn counts 1,500 in the United States; by 1960 more than 4,000; by 1975 more than 10,000.',
+             'Equirectangular projection with a mid-latitude correction; coastlines after Natural Earth. The arcs are drawn schematically.')
+    return plate_end(s, H)
 
 
 # ═══════════════════════ 7 · the road the family walked ═══════════════
 def fig_karak():
-    W, H = 860, 600
+    W, H = 860, 0
     s = _plate(W, H, 'THE ROAD THE FAMILY ACTUALLY WALKED — KARAK TO THE RIDGE',
                'Three moves, and the evidence for each. The southern anchors are the plateau’s Christian record; the northern legs are carried by the Ottoman registers.',
                'Atlas map of the route from Karak to Ramallah in three documented legs')
     # Three panels. The geography is portrait — two degrees of latitude against
     # one and a half of longitude — so sheet A is drawn portrait and the width
     # saved goes to sheet B, where the last two legs have room to be read.
-    M = Sheet(*fit_box(34.85, 36.30, 30.20, 32.20, 268, 430), 44, 78, 268, 430)
-    M.base(s, '10m', clipid='ck1'); M.graticule(s, 0.5, 0.5); M.close(s)
-    M.sea(s, 31.24, 35.49, 'DEAD SEA', 7.4, -78)
-    s.append(txt(M.x + 10, M.y - 8, 'A · THE WHOLE ROUTE', 8.4, GOLD, 'start', '700', 'normal', '1.1'))
+    M = Sheet(*fit_box(34.85, 36.30, 30.20, 32.20, 268, 450), 44, 92, 268, 450)
+    M.base(s, '10m', clipid='ck1', terrain={'res': 1.8, 'wadi_km2': 150}, key='karak_a'); M.graticule(s, 0.5, 0.5); M.close(s)
+    M.sea(s, 31.24, 35.49, 'DEAD SEA', 11, -78)
+    s.append(txt(M.x, M.y - 8, 'A · THE WHOLE ROUTE', 12, GOLD, 'start', '700', 'normal', '1.1'))
 
-    legs = [([(31.18, 35.70), (31.55, 35.35), (31.60, 35.10)], RUST, '1'),
-            ([(31.60, 35.10), (31.72, 35.19)], GREEN, '2'),
-            ([(31.72, 35.19), (31.9038, 35.2034)], GREEN, '3')]
+    legs = [([(31.18, 35.70), (31.55, 35.35), (31.60, 35.10)], MS.MEM, '1'),
+            ([(31.60, 35.10), (31.72, 35.19)], MS.DOC, '2'),
+            ([(31.72, 35.19), (31.9038, 35.2034)], MS.DOC, '3')]
 
     def _badge(sheet, pts, col, n, r=9.6, fs=10.6, off=16):
         # Numeral at the arc midpoint, pushed east of the line. A leg with only
@@ -800,36 +861,35 @@ def fig_karak():
     for pts, col, n in legs:
         route(s, M, pts, col=col, w=2.6)
     for la, lo, nm, k, dx, dy, an in [
-            (30.53, 35.56, 'al-Shawbak', 't', 9, 4, 'start'),
-            (31.18, 35.70, 'al-KARAK', 'a', 9, 4, 'start'),
-            (31.60, 35.10, 'Kusbār', 'a', -9, -5, 'end'),
-            (31.72, 35.19, 'Bayt Jālā', 'a', -9, -5, 'end'),
-            (31.9038, 35.2034, 'RAMALLAH', 'a', -9, -5, 'end'),
-            (30.33, 35.60, 'Gharandal', 't', 9, 4, 'start')]:
-        x, y = dot(s, M, la, lo, GREEN if k == 'a' else RUST, 5.6 if nm.isupper() else 4.6)
-        label(s, x, y, nm, dx, dy, an, 9.8 if nm.isupper() else 9.2)
-    M.scalebar(s); M.north(s)
+            (30.53, 35.56, 'al-Shawbak', 'doc', 9, 4, 'start'),
+            (31.18, 35.70, 'al-KARAK', 'doc', 9, 4, 'start'),
+            (30.33, 35.60, 'Gharandal', 'doc', 9, 6, 'start')]:
+        x, y = mark(s, M, la, lo, k)
+        label(s, x, y, nm, dx, dy, an, 13.5 if nm.isupper() else 13)
+    mark(s, M, 31.9038, 35.2034, 'ram')
+    M.scalebar(s)
 
     # ── B · the enlargement
-    N = Sheet(*fit_box(34.98, 35.40, 31.52, 31.99, 250, 430), 326, 78, 250, 430)
-    N.base(s, '10m', clipid='ck2'); N.graticule(s, 0.2, 0.2); N.close(s)
-    s.append(txt(N.x + 10, N.y - 8, 'B · THE LAST TWO LEGS, ENLARGED', 8.4, GOLD, 'start', '700', 'normal', '1.1'))
+    N = Sheet(*fit_box(34.98, 35.40, 31.52, 31.99, 250, 450), 326, 92, 250, 450)
+    N.base(s, '10m', clipid='ck2', terrain={'contour': 200, 'wadi_km2': 8}, key='karak_b'); N.graticule(s, 0.2, 0.2); N.close(s)
+    s.append(txt(N.x, N.y - 8, 'B · THE LAST TWO LEGS', 12, GOLD, 'start', '700', 'normal', '1.1'))
     for pts, col, n in legs[1:]:
         route(s, N, pts, col=col, w=3.2)
-    for la, lo, nm, dx, dy, an in [(31.9038, 35.2034, 'RAMALLAH', 10, -5, 'start'),
-                                   (31.72, 35.19, 'Bayt Jālā', 10, 4, 'start'),
+    for la, lo, nm, dx, dy, an in [(31.72, 35.19, 'Bayt Jālā', 10, 4, 'start'),
                                    (31.60, 35.10, 'Kusbār, by Ḥalḥūl', 10, 4, 'start')]:
-        x, y = dot(s, N, la, lo, GREEN, 6.2 if nm.isupper() else 5.2)
-        label(s, x, y, nm, dx, dy, an, 10.4 if nm.isupper() else 9.8)
+        x, y = mark(s, N, la, lo, 'doc')
+        label(s, x, y, nm, dx, dy, an, 13)
+    x, y = mark(s, N, 31.9038, 35.2034, 'ram')
+    label(s, x, y, 'RAMALLAH', 12, -6, 'start', 13.5, MS.RAMALLAH)
     badges += [_badge(N, pts, col, n, 11, 12, 19) for pts, col, n in legs[1:]]
     N.scalebar(s)
 
     # the key box on sheet A, and the leaders to sheet B
     kl, kt = M.P(N.bbox[3], N.bbox[0]); kr, kb = M.P(N.bbox[2], N.bbox[1])
     s.append(f'<rect x="{kl:.1f}" y="{kt:.1f}" width="{kr-kl:.1f}" height="{kb-kt:.1f}" '
-             f'fill="none" stroke="{GOLD}" stroke-width="1.4"/>')
-    s.append(f'<rect x="{kr-13:.1f}" y="{kt:.1f}" width="13" height="12" fill="{GOLD}"/>')
-    s.append(txt(kr - 6.5, kt + 9, 'B', 8.6, '#FFFAF0', 'middle', '700'))
+             f'fill="none" stroke="{MS.RAMALLAH}" stroke-width="1.4"/>')
+    s.append(f'<rect x="{kr-13:.1f}" y="{kt:.1f}" width="13" height="13" fill="{MS.RAMALLAH}"/>')
+    s.append(txt(kr - 6.5, kt + 10, 'B', 11, '#FFFFFF', 'middle', '700'))
 
     # badges last, so nothing on either sheet can paint over a numeral
     for mx, my, n, col, r, fs in badges:
@@ -839,8 +899,8 @@ def fig_karak():
 
     # ── C · the evidence for each leg
     bx = 596
-    s.append(f'<rect x="{bx}" y="78" width="220" height="430" fill="#FFFFFF" stroke="{RULE}" rx="4"/>')
-    yy = 104
+    s.append(f'<rect x="{bx}" y="92" width="224" height="450" fill="#FFFFFF" stroke="{RULE}" rx="4"/>')
+    yy = 116
     for n, ttl, lines, col in [
         ('1', 'KARAK → KUSBĀR', ['Tradition, plus the plateau’s',
                                  'documented Christian',
@@ -850,28 +910,30 @@ def fig_karak():
                                  '1217–18; a Christian majority at',
                                  'Shawbak in 1321; 103 Christian',
                                  'households and 8 bachelors at',
-                                 'Karak in the register of 1596.'], RUST),
+                                 'Karak in the register of 1596.'], MS.MEM),
         ('2', 'KUSBĀR → BAYT JĀLĀ', ['The Ottoman register of',
                                      '1553–54 finds the group at',
                                      'Bayt Jālā — the 36 Christian',
                                      'households the register calls',
                                      'the Kasābra. They are not yet',
-                                     'at Ramallah.'], GREEN),
+                                     'at Ramallah.'], MS.DOC),
         ('3', 'BAYT JĀLĀ → RAMALLAH', ['1562: the 36 Kasābra families',
                                        'come up the ridge road, with',
                                        '27 further Christian families',
                                        'and 8 unmarried men — some',
                                        '63 Christian households,',
                                        'joining the 10 Muslim families',
-                                       'already on the hill.'], GREEN)]:
+                                       'already on the hill.'], MS.DOC)]:
         s.append(f'<circle cx="{bx+22}" cy="{yy-4}" r="9" fill="#FFFAF0" stroke="{col}" stroke-width="2"/>')
         s.append(txt(bx + 22, yy - 0.5, n, 10, col, 'middle', '700'))
-        s.append(txt(bx + 40, yy, ttl, 8.8, col, 'start', '700', 'normal', '1'))
-        for i, ln in enumerate(lines):
-            s.append(txt(bx + 40, yy + 15 + i * 12.5, ln, 9.2, BODY))
-        yy += 34 + len(lines) * 12.5
-    s.append(f'<line x1="40" y1="{H-56}" x2="{W-40}" y2="{H-56}" stroke="{RULE}"/>')
-    s.append(txt(40, H - 36, 'Two memories and a tax ledger, telling one story in three voices — and every stage from Karak onward can be checked against a register kept by somebody else.', 10.2, BODY, 'start', '700'))
-    s.append(txt(40, H - 18, 'Ḥammūdeh, Jerusalem Quarterly 59 (2014); Hütteroth and Abdulfattah (1977); Piccirillo (2001); al-Yaʿqūbī. Coastlines after Natural Earth.', 9.6, GREY, 'start', '400', 'italic'))
-    s.append('</svg>')
-    return ''.join(s)
+        s.append(txt(bx + 36, yy, ttl, 11, col, 'start', '700', 'normal', '.6'))
+        for i, ln in enumerate(wrap(' '.join(lines), 31)):
+            s.append(txt(bx + 12, yy + 17 + i * 13.5, ln, 11, BODY))
+            k = i
+        yy += 40 + k * 13.5
+    MS.legend(s, 92 + 450 + 30, [('mem', 'tradition, with the plateau’s documented Christians'),
+                                 ('doc', 'found in an Ottoman register or source'), ('ram', 'Ramallah')])
+    H = foot(s, W, 92 + 450 + 50,
+             'Two memories and a tax ledger, telling one story in three voices, and every stage from Karak onward can be checked against a register kept by somebody else.',
+             'Ḥammūdeh, Jerusalem Quarterly 59 (2014); Hütteroth and Abdulfattah (1977); Piccirillo (2001); al-Yaʿqūbī. Coastlines after Natural Earth; Lambert conformal conic; contours every 200 m on sheet B. ' + TERRAIN_SRC)
+    return plate_end(s, H)
