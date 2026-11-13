@@ -1,5 +1,44 @@
 # Changelog
 
+## v77 — 13 November 2026
+
+### Correction boxes retired (David chose "Keep a few")
+
+The text around every correction box already read the corrected way, so the boxes were only a record of past edits sitting inside the story. Thirty-six were found: thirty-three `FIX()` boxes (seven through the `V69` table) and three hand-written ones. Six are kept, each where a belief the family long held was overturned: leaving Yemen "about 300 AD"; the 1186 charter "pledging Ramallah" (with the 1198 "Ramalei" forgery); Ramallah "founded in 1562" or "about 1550" (two boxes merged into one); Ṣabra as Rāshid's son; the church "built 1852"; the Federation "founded 1952". `FIX()` now returns nothing and `KFIX()` draws the kept boxes. This changelog is the record of what changed.
+
+Removed, with what each had corrected (the text and notes already carry the corrected reading and its sources):
+- Jericho credited to its Palestinian–Italian excavators (Taha and Nigro), not only to European and Israeli ones.
+- The Maʾrib dam: 620–680 m, sixth century BC, about a thousand years; 1750–1700 BC withdrawn.
+- Jabala is historical; the conversion story is the legend.
+- The dam's later date does not rescue the dam-to-Syria chain.
+- "Whether the Ghassanids were sovereign" is not the question that matters.
+- A range of about 27–37 generations, not a fixed count.
+- People lived on the hill before the families did (Mamluk village; Muslim households 1538–39).
+- Thietmar was hosted at Shawbak by a Frankish widow, not by a bishop at Karak.
+- One man of a queried "Jifnā al-Jawz" in 1374, not "men of Jifnā".
+- Ghassān named as a living people to about 1300–1400, not only to 890.
+- The Chabot "Ghassanide" footnote anecdote withdrawn.
+- Shahîd's volumes read; his case does not rest on late Arabic writers alone.
+- In the registers from 1553–54, not "from the start".
+- al-Ḥudayda existed by 1455 but mattered little before the nineteenth century. Kept as a prose paragraph with its note.
+- The settlement begins with the court oath of 1561, not the census of 1562. The note moved into the text.
+- Karak's 1596 figure is 103 Christian households; the 143 figure was dropped.
+- Sijill 48: 22 June 1565 (Ḥammūdeh 29 June), one entry; the deed was shown and does not survive. The note was added to the text.
+- The registers do give names (they are mufaṣṣal).
+- Ḥadīd is a lead, not a finding.
+- Karak and Shawbak are in Hütteroth and Abdulfattah.
+- Musil's "ḫ. el-Ḥaddâd" is a ruin, not a lineage.
+- The Karak wheel was misread, not wrong.
+- The corridor is remembered in both directions.
+- Peake records the Ghassanid claim without judging it.
+- The "Warda Books 2025" caption is Munther Haddadin's 2024 book.
+- Ramallah was Qaysī in 1844.
+- Three shaykhs were put to death in 1834, and 1834 broke the system without ending it.
+- Twenty-six men of Jifnā were taken for forced labour, not exiled; one priest followed them.
+- The population curve shows the 1916 epidemic as an inference.
+- 1938: two fights, a week apart, with each witness's count.
+- Kaddoura was mayor from 1943 to 1947.
+
 ## v76 — 13 November 2026
 
 ### The maps (option B, terrain and water)
