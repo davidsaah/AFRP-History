@@ -133,6 +133,8 @@ def fit_box(lon0, lon1, lat0, lat1, w, h):
     return lon0, lon1, lat0, lat1
 
 
+_CLIPN = 0
+
 # ─────────────────────────────── projection
 class Sheet:
     """A Lambert conformal conic sheet with a pixel viewport."""
@@ -223,7 +225,9 @@ class Sheet:
         the land is a muted hillshade over hypsometric tints, with contours and
         DEM-derived wadis; without it, flat land as before. Either way water is
         the one blue of the map style."""
-        cid = clipid or ('clip%d' % id(self))
+        global _CLIPN
+        _CLIPN += 1
+        cid = clipid or ('clip_%s_%d' % (key or 'sheet', _CLIPN))
         self._cid = cid
         s.append(f'<clipPath id="{cid}"><rect x="{self.x}" y="{self.y}" '
                  f'width="{self.w}" height="{self.h}"/></clipPath>')
@@ -477,7 +481,7 @@ def fig_road():
     A = Sheet(*fit_box(33.0, 51.5, 12.0, 37.5, 350, 470), 44, 84, 350, 470)
     B = Sheet(*fit_box(34.85, 37.25, 30.00, 33.05, 392, 470), 424, 84, 392, 470)
 
-    A.base(s, '50m', rivers=False, clipid='ca', terrain={'res': 1.2}, key='road_a'); A.graticule(s, 5, 5); A.close(s)
+    A.base(s, '50m', rivers=False, clipid='clip_road_a', terrain={'res': 1.2}, key='road_a'); A.graticule(s, 5, 5); A.close(s)
     A.sea(s, 20.0, 38.6, 'RED SEA', 12, -62)
     A.sea(s, 13.4, 48.5, 'GULF OF ADEN', 11)
     A.sea(s, 27.0, 50.6, 'THE GULF', 11, -70)
@@ -504,7 +508,7 @@ def fig_road():
         s.append(f'<line x1="{br:.1f}" y1="{ya:.1f}" x2="{B.x}" y2="{yb}" stroke="{MS.RAMALLAH}" '
                  f'stroke-width=".8" stroke-dasharray="3 3" opacity=".6"/>')
 
-    B.base(s, '10m', rivers=True, clipid='cb', terrain={'res': 1.6, 'wadi_km2': 400, 'wadi_cell': 2.5}, key='road_b'); B.graticule(s, 1, 1); B.close(s)
+    B.base(s, '10m', rivers=True, clipid='clip_road_b', terrain={'res': 1.6, 'wadi_km2': 400, 'wadi_cell': 2.5}, key='road_b'); B.graticule(s, 1, 1); B.close(s)
     B.sea(s, 31.45, 35.47, 'DEAD SEA', 11, -74)
     B.sea(s, 32.45, 34.95, 'MEDITERRANEAN', 11, -52)
     B.region(s, 30.9, 36.72, 'THE PLATEAU', 13, '#8A7457', '2.2')
@@ -789,7 +793,7 @@ def fig_diaspora():
                'The cities the town’s people went to, weighted by the family’s own record. Nobody has ever properly enumerated this diaspora, which is itself a finding.',
                'Atlas map of the Ramallah diaspora in North America')
     M = Flat(-126.0, 38.0, 22.0, 54.0, 44, 84, 772, 306)
-    M.base(s, '50m', rivers=False, clipid='cd'); M.graticule(s, 20, 10, labels=False); M.close(s)
+    M.base(s, '50m', rivers=False, clipid='clip_diaspora'); M.graticule(s, 20, 10, labels=False); M.close(s)
     M.sea(s, 40.0, -45.0, 'ATLANTIC OCEAN', 13)
     M.sea(s, 34.0, -124.0, 'PACIFIC', 12, -90, 'middle')
     CITIES = [(42.33, -83.05, 'DETROIT', 34, 10, -5, 'start'),
@@ -831,7 +835,7 @@ def fig_karak():
     # one and a half of longitude — so sheet A is drawn portrait and the width
     # saved goes to sheet B, where the last two legs have room to be read.
     M = Sheet(*fit_box(34.85, 36.30, 30.20, 32.20, 268, 450), 44, 92, 268, 450)
-    M.base(s, '10m', clipid='ck1', terrain={'res': 1.8, 'wadi_km2': 150}, key='karak_a'); M.graticule(s, 0.5, 0.5); M.close(s)
+    M.base(s, '10m', clipid='clip_karak_a', terrain={'res': 1.8, 'wadi_km2': 150}, key='karak_a'); M.graticule(s, 0.5, 0.5); M.close(s)
     M.sea(s, 31.24, 35.49, 'DEAD SEA', 11, -78)
     s.append(txt(M.x, M.y - 8, 'A · THE WHOLE ROUTE', 12, GOLD, 'start', '700', 'normal', '1.1'))
 
@@ -871,7 +875,7 @@ def fig_karak():
 
     # ── B · the enlargement
     N = Sheet(*fit_box(34.98, 35.40, 31.52, 31.99, 250, 450), 326, 92, 250, 450)
-    N.base(s, '10m', clipid='ck2', terrain={'contour': 200, 'wadi_km2': 8}, key='karak_b'); N.graticule(s, 0.2, 0.2); N.close(s)
+    N.base(s, '10m', clipid='clip_karak_b', terrain={'contour': 200, 'wadi_km2': 8}, key='karak_b'); N.graticule(s, 0.2, 0.2); N.close(s)
     s.append(txt(N.x, N.y - 8, 'B · THE LAST TWO LEGS', 12, GOLD, 'start', '700', 'normal', '1.1'))
     for pts, col, n in legs[1:]:
         route(s, N, pts, col=col, w=3.2)
