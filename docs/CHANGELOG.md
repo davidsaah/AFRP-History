@@ -1,5 +1,14 @@
 # Changelog
 
+## v75 — 13 November 2026
+
+### The new literature (David chose "All")
+
+The deep reading of the books shelved on 12 and 13 November (report: `history/deep_research/new_literature_2026-11-13/deep_research_new_literature_2026-11-13.md` in the project files). New paragraphs are in the `ADD75` table in `src/build_v5.py`; corrections are inline, with FIX boxes where the book's wording changes its meaning.
+
+- **New:** al-Maʿlūf 1907, p. 371 n. 1, the earliest outside witness to the Karak and Shawbak origin, the Ḥaddādūn and Sharāqiyyūn halves and the Muslim family at al-Bīra, with no Ghassanid claim; Dissard's Muslim allies and Diāb ibn Qaysūm; the Ḥalasa marriage dated (Oppenheim via Chatelard, Connell) and its lasting marriage ties; Jaussen's 1906 Salt case and the bride-price; the Māʿīn move in stages (1892/94, c. 1901, 1909); Seetzen's Ḥaddādīn tents c. 1806 (via Chatelard) and Jaussen's eight Christian tribes of Karak c. 1905, with a row in the Karak table; Karak's Christian quarter, the Gharābā, the Greek metropolitan and the Arab clergy, Tristram's school; Mādabā sharecroppers from Ramallah and the ʿAzayzāt exodus; Zahran's Mamluk claim, traced to the 1991 clan book; Shahîd on Abū Karib, al-Maṣna, Adhruḥ and Ḥātim's king "from Maʾāb to Zughar" (Karak link labelled inference); Shahîd on Dayr Ghassāna; Analekta III dating the interpreter's flight to 17 December 1809, and the guns taken in April 1821; the Ottoman school report of 1903; van der Leest on Gobat, Girgis (15 March 1863), the 1863–64 petition, Nyland and the 137 boys of 1878; St Andrew's 1855 and 1887/1888 printed both ways; Peake's second road for the Ḥishmeh; the gazetteers on embroidery and remittances; what Haddadin 2024 says, without his unsourced "650".
+- **Corrected:** Shahîd's source base (the withdrawn v57 claim is false: Syriac records of 684 and 793, ninth-century Arabic writers, Umayyad verse); Jabala is historical and the conversion is the legend; the 684 timeline line (Kalb's council, not a Ghassanid faction); Greek-silence pages are I.1 534 and 562–64; Ṣadaqa called "inferential" as Shahîd does; Peake 1935 only records the Ghassanid claim; the Biskintā Ḥaddād line is a Lebanese family from the Ḥawrān (al-Maʿlūf p. 179); al-Dabbāgh and Kaddoura are one witness for the Qalāwūn endowment; Dissard's "about 1815" and the gazetteers' seventeenth century give way to the register of 1562; the bibliography's "incompatible with a 300 AD migration" line replaced.
+
 ## v73 — 12 November 2026
 
 Scan checks on David's PC: Zarifeh ʿAudeh confirmed, the March 1949 count read, Cadora's 1953 school figures added. Small differences no longer noted (David: "No need to note small differences … for the entire book"): seven notes trimmed (a spelling aside, a roster place name, an edition-numbering caution, two page-number caveats, a pending page check, an OCR reading note). Disagreements that change the story are still printed both ways.

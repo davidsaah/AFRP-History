@@ -251,6 +251,14 @@ Still undated: `198x_Farhan`, `19xx_Walmsley`, `20xx_Frame`, `19xx_AFRP_Ramallah
 
 ### The project's own outputs, kept on the shelf
 
+*Read for v75 (shelved 13 November 2026, v6 section XXXI H, and the first batch):*
+`1907_Maalouf_Dawani_al-Qutuf_fi_Tarikh_Bani_al-Maaluf.pdf` (with `_OCR`) ·
+`1908_Jaussen_Coutumes_des_Arabes_au_pays_de_Moab.pdf` · `2000_Chatelard_Briser_la_mosaique_Chretiens_de_Madaba_1870-1997_these.pdf` ·
+`2022_Connell_Colonial_Ottomanism_in_al-Karak_1893-1918_MA_AUB.pdf` · `1873_Tristram_The_Land_of_Moab.pdf` ·
+`1902_Forder_With_the_Arabs_in_Tent_and_Town.pdf` · `1989_Shahid_Byzantium_and_the_Arabs_5th_Century.pdf` ·
+`1995_Shahid_Byzantium_and_the_Arabs_6th_Century_v1p1.pdf` · `1995_Shahid_Byzantium_and_the_Arabs_6th_Century_v1p2.pdf` ·
+`2024_Haddadin_Dawlat_al-Ghasasina_SCAN.pdf` · `2006_Zahran_Ghassan_Resurrected.pdf` · `1897_Papadopoulos-Kerameus_Analekta_III.pdf`.
+
 Catalogued in v6, section XXXI G: `AFRP_Ramallah_Bibliography_v6.html` (v4, v5 kept) · `AFRP_The_One_Line_v5.html` ·
 `2026_AFRP_Register_Names_1553_1562.csv` · `2026_Mogannam_Saah_Ramallah_Family_Tree_Book_v117.pdf` ·
 `2026_AFRP_Literature_Manifest_2026-09-14.md` · `2026_AFRP_Download_List_2026-08-21.md` · `2026_AFRP_Reconciliation_Memo.md`
@@ -261,8 +269,9 @@ Catalogued in v6, section XXXI G: `AFRP_Ramallah_Bibliography_v6.html` (v4, v5 k
 
 Named so they are visible rather than papered over.
 
-- **Shahîd, *Byzantium and the Arabs in the Sixth Century* (BASIC)**, 2 vols in 4 — not obtainable;
-  the v57 claim about his source base was withdrawn as unverified for exactly this reason.
+- **Shahîd, *Byzantium and the Arabs in the Sixth Century* (BASIC)**: now held (all four parts, open access)
+  and read for v75. The v57 claim about his source base was checked and is false; the book says so.
+  His 1989 article "Ghassān post Ghassān" (pp. 323–36) is still not held.
 - **Musil, *Arabia Petraea* III** — read online, no local copy filed.
 - **Hütteroth & Abdulfattah p. 171** — the Karak figures are confirmed by an independent
   arithmetic route but nobody on this project has seen the page.
@@ -270,7 +279,12 @@ Named so they are visible rather than papered over.
 - **al-Furqān, *Liwāʾ al-Quds al-Sharīf*, 6 vols** — to purchase; vol. 5 = TD 516/1562, vol. 6 = TD 515/1596.
 - **Jubeh & Bshara**, *Ramallah: Architecture and History*; **Riwaq Registry** vol. 2;
   **Amiry & Anani**, *Throne Village Architecture* — to purchase.
-- The two Arabic Ḥaddādīn clan histories (1991 and the later Amman volume) — neither held.
+- The two Arabic Ḥaddādīn clan histories, neither held. The first is now fully cited (Chatelard 2000,
+  bibliography): Kh. Ḥaddādīn, M. Ḥaddādīn and ʿO. Ḥaddādīn, *ʿAshāʾir al-Ḥaddādīn ḥattā ʿām 1991*
+  (Amman: privately printed, 1991), at least 854 pp. It is the only lead to names above Rāshid bin Ṣaqr,
+  and Zahran's Mamluk claims (pp. 25–26) come from it. Not to be confused with ʿAbbās Ḥaddādīn's later book.
+- **Seetzen, *Reisen* (1854), vol. 1, p. 411**: the Ḥaddādīn tents at Ḥumaymāt, c. 1806, known only through
+  Chatelard; check the page.
 
 ---
 
