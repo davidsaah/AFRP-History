@@ -95,6 +95,7 @@ b,strong{font-weight:600}
 .masthead{background:none!important;border:0!important;padding:0!important}
 .evfold>.evbody{display:block!important}
 *{box-shadow:none!important;border-radius:0!important}
+img{filter:none!important;mix-blend-mode:normal!important}
 
 /* ── title page, its verso, contents ── */
 .tp{page:front;break-after:page;height:7.3in;display:flex;flex-direction:column;align-items:center;text-align:center;padding-top:.5in}
@@ -136,6 +137,13 @@ b,strong{font-weight:600}
 .opener{position:relative;height:4.7in;width:6in;margin:0!important;overflow:hidden;background:#fff!important;aspect-ratio:auto!important;max-height:none!important}
 .opener img{width:100%;height:100%;object-fit:cover;display:block}
 .opener .opnum{display:none}
+/* Library of Congress scans are 1024 px: set at two-thirds of the page with white around them */
+.opener.framed{width:3.9in;height:3.05in;margin:.75in auto 0 1.05in!important;overflow:visible;background:none!important}
+.opener.framed img{object-fit:cover;width:100%!important;transform:none!important}
+.opener.framed.stereo{width:2.9in;height:2.75in}
+.opener.framed .opcap{position:static;display:block;max-width:none;text-align:left;margin-top:.07in;color:#6B675F;text-shadow:none}
+.erahead:has(.opener.framed) .eraband{padding-top:.42in!important;padding-left:1.05in!important}
+.erahead:has(.opener.framed) .eraband::before{font-size:44pt}
 .opener .opcap{position:absolute;right:.22in;bottom:.12in;max-width:3.4in;text-align:right;
   font:italic 7.6pt/1.3 SERIF;color:#fff;text-shadow:0 0 6px rgba(0,0,0,.75)}
 .erahead .eraband{background:none!important;color:#1B1A17!important;margin:0!important;padding:.36in .9in 0 .9in!important;border:0!important}
@@ -161,7 +169,7 @@ b,strong{font-weight:600}
 /* ── the running text ── */
 .chron::before,.entry::before,.entry::after,.sect::before{display:none!important}
 .entry{display:block!important;position:relative;margin:0 0 .17in!important;padding:0!important}
-.ewhen{position:absolute!important;top:.02in;width:.78in;padding:0!important;margin:0!important;text-align:right!important;line-height:1.15;font-size:8pt}
+.ewhen{position:absolute!important;margin-top:.02in!important;width:.78in;padding:0!important;margin:0!important;text-align:right!important;line-height:1.15;font-size:8pt}
 .pagedjs_left_page .ewhen{left:-.92in;text-align:right!important}
 .pagedjs_right_page .ewhen{right:-.92in;left:auto;text-align:left!important}
 .ewhen .d{display:block;font:500 9pt/1.15 SERIF!important;color:#9A6324!important;font-variant-numeric:lining-nums;hyphens:none}
@@ -199,10 +207,13 @@ blockquote b{font-weight:500}
 blockquote .cite{display:block;margin-top:.07in;font:8.6pt/1.3 SERIF;font-style:normal;font-variant:small-caps;text-transform:lowercase;letter-spacing:.06em;color:#9A6324}
 .fix{background:none!important;border:0!important;border-top:.5pt solid #9A6324!important;border-bottom:.5pt solid #9A6324!important;
   padding:.08in 0!important;margin:.2in 0!important;break-inside:avoid;font-size:9.8pt}
+.fixgrid{display:block!important}
+.fixgrid>div{display:block!important;width:auto!important;margin:0 0 .07in!important;padding:0!important;border:0!important;background:none!important;text-align:left}
+.fix .fl{display:block;font-variant:small-caps;text-transform:lowercase;letter-spacing:.1em;color:#9A6324;font-size:8.6pt}
 .fixhead{font-variant:small-caps;text-transform:lowercase;letter-spacing:.12em;color:#9A6324!important;background:none!important;padding:0!important}
 
 /* figures and photographs: full text width, captions below */
-figure{display:flex!important;flex-direction:column;margin:.26in 0!important;padding:0!important;border:0!important;background:none!important;
+figure{display:block!important;margin:.26in 0!important;padding:0!important;border:0!important;background:none!important;
   break-inside:avoid;max-width:100%!important;text-align:left}
 figure .figwrap{order:1;padding:0!important;overflow:visible!important;background:none!important;border:0!important}
 figure .fignum{order:2;margin:.08in 0 0!important;font:500 8.4pt/1.2 SERIF!important;font-variant:small-caps;text-transform:lowercase;
@@ -214,7 +225,8 @@ figure figcaption .src{display:block;margin-top:.04in;font-style:italic;color:#6
 figure figcaption .made{font-weight:500!important}
 .figwrap img.mapimg{display:block;width:100%;height:auto;max-height:6.7in;object-fit:contain}
 .figwrap svg{width:100%!important;min-width:0!important;height:auto!important;max-height:6.7in}
-figure.photo img{order:1;display:block;width:100%!important;height:auto;max-height:5.6in;object-fit:contain;margin:0 0 .08in!important;border:0!important}
+figure.photo img{order:1;display:block;width:auto!important;max-width:100%!important;height:auto;max-height:2.55in!important;object-fit:contain;margin:0 0 .08in!important;border:0!important}
+figure.photo.srcpage img{max-height:5.4in!important}
 figure.photo figcaption{order:2}
 figure.wide .figwrap svg{max-height:6.9in}
 
@@ -267,9 +279,11 @@ nav{font-size:9pt}
 """.replace('SERIF', SERIF)
 
 
-def embed(src, px=MAX_PX, cache={}):
-    """A JPEG data URI for an image under img/, resized and compressed."""
-    key = (src, px)
+def embed(src, px=MAX_PX, crop=None, cache={}):
+    """A JPEG data URI for an image under img/, resized and compressed.
+    crop='opener' trims the black glass-negative border of a Library of Congress scan;
+    crop='stereo' also keeps only the left frame of a stereograph."""
+    key = (src, px, crop)
     if key in cache:
         return cache[key]
     from PIL import Image
@@ -279,6 +293,13 @@ def embed(src, px=MAX_PX, cache={}):
         return None
     im = Image.open(path)
     im = im.convert('L' if im.mode in ('L', 'LA', '1') else 'RGB')
+    if crop:
+        w, h = im.size
+        if crop == 'stereo':
+            im = im.crop((0, 0, w // 2, h))
+            w, h = im.size
+        dx, dy = int(w * .055), int(h * .06)
+        im = im.crop((dx, dy, w - dx, h - dy))
     if max(im.size) > px:
         im.thumbnail((px, px), Image.LANCZOS)
     buf = io.BytesIO()
@@ -343,10 +364,16 @@ def prepare(h):
 
     # openers: full-bleed, larger file; dropped when the photo is not held locally
     def opener(m):
-        uri = embed(m.group(1), OPENER_PX) if m.group(1).startswith('../img/') else None
-        return m.group(0).replace(m.group(1), uri) if uri else ''
-    h = re.sub(r'<div class="opener"><img src="([^"]+)".*?</span></div>', opener, h)
-    h = re.sub(r'(<div class="opener"><img [^>]*?)\s+onerror="[^"]*"', r'\1', h)
+        src = m.group(1)
+        is_loc = '/img/loc/' in src
+        crop = ('stereo' if 'stereo' in m.group(0)[:40] else 'opener') if is_loc else None
+        uri = embed(src, OPENER_PX, crop) if src.startswith('../img/') else None
+        if not uri:
+            return ''
+        out = m.group(0).replace(src, uri)
+        return re.sub(r'<div class="opener', '<div class="opener framed', out, count=1) if is_loc else out
+    h = re.sub(r'<div class="opener(?: stereo)?"><img src="([^"]+)".*?</span></div>', opener, h)
+    h = re.sub(r'(<div class="opener[^"]*"><img [^>]*?)\s+onerror="[^"]*"', r'\1', h)
 
     # photographs: embedded, or left out of print entirely
     dropped = []
@@ -372,6 +399,21 @@ def prepare(h):
     h = re.sub(r'<img\b[^>]*\bsrc="([^"]+)"[^>]*>', img, h)
 
     h = rasterize_maps(h)
+
+    # figure number and title move under the picture, as a caption (block layout: Paged.js
+    # does not split flex boxes reliably)
+    out, pos = [], 0
+    for m in re.finditer(r'<figure[^>]*>(<div class="fignum">.*?</div>)(<div class="figtitle">.*?</div>)(?=<div class="figwrap">)', h, flags=re.S):
+        fw = m.end()
+        fe = block_end(h, fw)
+        out.append(h[pos:m.start()] + m.group(0)[:m.start(1) - m.start()] + h[fw:fe] + m.group(1) + m.group(2))
+        pos = fe
+    out.append(h[pos:])
+    h = ''.join(out)
+
+    # the margin date travels with its entry's heading: move it inside the entry body
+    h = re.sub(r'(<div class="entry[^"]*">)(<div class="ewhen">.*?</div>)(<div class="ebody">)',
+               r'\1\3\2', h, flags=re.S)
 
     # wide maps get a little more height
     h = re.sub(r'<figure>(<div class="fignum">)', r'<figure class="wide">\1', h)

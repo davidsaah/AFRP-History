@@ -78,6 +78,9 @@ OPENER = {
     'ch12': ['p162_2.jpg'],
 }
 
+# Matson stereographs: two near-identical frames side by side. Openers show the left frame.
+STEREO = {'01047v.jpg', '01719v.jpg', '04114v.jpg', '05506v.jpg'}
+
 LOC = re.compile(r'https://tile\.loc\.gov/storage-services/service/pnp/[a-z]+/\d+/(\w+\.jpg)')
 
 
@@ -117,6 +120,7 @@ body,.eraband h2,.ebody h3,blockquote,figure,figcaption{font-family:"EB Garamond
 .pullq{display:none}
 .opener{position:relative;margin:0;overflow:hidden;background:#1A1915;aspect-ratio:16/7;max-height:380px;border-radius:12px 12px 0 0}
 .opener img{display:block;width:100%;height:100%;object-fit:cover}
+.opener.stereo img{width:200%;max-width:none;object-position:left center}
 .opener .opnum{position:absolute;left:24px;bottom:2px;font:500 6rem/1 "EB Garamond",Georgia,serif;
   color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.5)}
 .opener .opcap{position:absolute;right:12px;bottom:8px;max-width:55%;text-align:right;
@@ -320,9 +324,10 @@ def reader(h):
             ph = _photo(h, OPENER.get(cid, []))
             if ph and 1 <= num <= 12:
                 cap = re.split(r'(?<=[.!?])\s', ph[1], maxsplit=1)[0]
-                opener = ('<div class="opener"><img src="%s" alt="" decoding="async" '
+                opener = ('<div class="opener%s"><img src="%s" alt="" decoding="async" '
                           'onerror="this.parentNode.style.display=\'none\'"><span class="opnum">%d</span>'
-                          '<span class="opcap">%s</span></div>' % (ph[0], num, cap))
+                          '<span class="opcap">%s</span></div>' % (' stereo' if ph[0].split('/')[-1] in STEREO else '',
+                                                              ph[0], num, cap))
             epi = ''
             if cid in PULL:
                 q, by = PULL[cid]

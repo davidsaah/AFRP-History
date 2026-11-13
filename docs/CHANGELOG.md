@@ -1,25 +1,24 @@
 # Changelog
 
 
-## v79 — 13 November 2026: two editions from one source (layout plan, option B)
+## v79 — 13 November 2026: two editions from one source, set as a book
 
 No words or facts in the book change. Only the layout does.
 
 **Phone reader** (`src/reader.py`, run at the end of `src/restyle.py`):
-- Each chapter opens with a photograph from that chapter, a large chapter number, and the era dates on their own line under the title. A photograph held in `img/` is preferred; if the photo cannot load, the opener hides itself and the green band stands alone.
-- On screens up to 700 px wide, each chapter's evidence half (the evidence entries and "What the scholars say") is folded under a "Show the evidence" button that counts its sources. "What we still don't know" stays open. Links into the evidence open the fold. Desktop is unchanged.
-- One pull quote per chapter, in ochre, taken from words already quoted in that chapter's story (chapters 5 and 13 have none).
-- A "Next chapter" link at the end of each chapter. The existing progress bar, Chapters button, anchors and notes are kept.
-- Figures fit the screen width; a tap opens them full size in a lightbox. Sideways swiping is gone and pinch-zoom still works.
+- EB Garamond throughout (`assets/fonts/eb-garamond/`, SIL Open Font License), a calmer page with more white, and no coloured badges, rounded cards or heavy bands on phones: labels are small capitals in ochre, panels are set off by a hairline rule.
+- Each chapter opens with a different picture from its own era, a large numeral, the dates on their own line and an epigraph from a source quoted in that chapter. Matson stereographs show their left frame. A drop cap starts each story.
+- On screens up to 700 px, each chapter's evidence half is folded under "Show the evidence"; links into it open the fold. "What we still don't know" stays open.
+- A "Next chapter" link closes each chapter. Figures fit the screen and open full size on a tap; pinch-zoom still works.
+- The 15 Library of Congress photographs are now read from `img/loc/` (branch `loc-images`), so they show offline too.
 
 **Printed book** (`tools/build_print.py`, Paged.js 0.4.3 vendored in `tools/vendor/` under its MIT licence):
-- `out/Roots_of_Ramallah_print.html` and `out/Roots_of_Ramallah_6x9.pdf`: 6 × 9 inch pages, mirrored margins, a title page and its verso, a contents page with page numbers, the book title over the left-hand pages and the chapter over the right-hand pages, with folios.
-- Each chapter and appendix starts on a right-hand page, with a half-page photograph where the chapter has one held in `img/`.
-- Figures, small tables, quotation boxes and evidence boxes are kept whole; long tables break between rows. Maps and charts are scaled to the text block.
-- Notes stay as the numbered References at the back, linked both ways in the PDF.
-- Every photograph held in `img/` is embedded, compressed to 1000 px. The 15 photographs linked from the Library of Congress (`tile.loc.gov`) could not be downloaded on the build machine; each prints as a framed note with its caption and credit until they are saved into `img/`.
-- This build: 795 pages, 36 MB PDF; the print HTML is 10 MB. The PDF is not committed (see `.gitignore`); run `python3 tools/build_print.py` (set `PRINT_CHROMIUM` to a Chrome binary if Playwright's own is not installed).
-- The phone/desktop book grows by 15 KB (3,120,811 to 3,135,506 bytes).
+- `out/Roots_of_Ramallah_6x9.pdf`: 377 pages, 6 × 9 inches. EB Garamond embedded, 10.8 pt on 1.42, justified and hyphenated. A title page and verso, a contents page with page numbers, running heads (book title on the left, chapter on the right) and folios.
+- Every chapter opens on a right-hand page of its own: its picture (full bleed for the scans held in `img/`; two-thirds of the page with white around it for the 1024 px Library of Congress scans), the numeral, title, dates, summary and epigraph.
+- Dates and evidence labels sit in the outer margin as small ochre notes. Drop caps start each story. The evidence half is a quiet indented section; "What the scholars say" and "What we still don't know" are side panels set off by a hairline. Quotations are set large in italic. Figures and photographs run the full text width with their number, title and caption below; terrain maps are rendered once at print resolution to keep the file small.
+- The main book ends with John Mogannam's chart, a short Further reading (fifteen titles taken word for word from the bibliography) and the References. The annotated bibliography and the test harness are printed in `out/Roots_of_Ramallah_Companion_6x9.pdf` (411 pages).
+- Every photograph is embedded; one not held in `img/` is left out of print rather than printed as an empty frame. Neither PDF is committed (see `.gitignore`); run `python3 tools/build_print.py`, with `PRINT_CHROMIUM` set to a Chrome binary if Playwright's own is not installed.
+- The phone/desktop book grows by 20 KB (3,120,811 to 3,141,123 bytes).
 
 ## v78 — 13 November 2026: the book stops talking about its own past editions
 

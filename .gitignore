@@ -19,3 +19,4 @@ push_log.txt
 
 # Print edition PDF (rebuilt by tools/build_print.py; draft copy kept in the project folder)
 out/Roots_of_Ramallah_6x9.pdf
+out/Roots_of_Ramallah_Companion_6x9.pdf
