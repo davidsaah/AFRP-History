@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v79 — 13 November 2026: two editions from one source (layout plan, option B)
+
+No words or facts in the book change. Only the layout does.
+
+**Phone reader** (`src/reader.py`, run at the end of `src/restyle.py`):
+- Each chapter opens with a photograph from that chapter, a large chapter number, and the era dates on their own line under the title. A photograph held in `img/` is preferred; if the photo cannot load, the opener hides itself and the green band stands alone.
+- On screens up to 700 px wide, each chapter's evidence half (the evidence entries and "What the scholars say") is folded under a "Show the evidence" button that counts its sources. "What we still don't know" stays open. Links into the evidence open the fold. Desktop is unchanged.
+- One pull quote per chapter, in ochre, taken from words already quoted in that chapter's story (chapters 5 and 13 have none).
+- A "Next chapter" link at the end of each chapter. The existing progress bar, Chapters button, anchors and notes are kept.
+- Figures fit the screen width; a tap opens them full size in a lightbox. Sideways swiping is gone and pinch-zoom still works.
+
+**Printed book** (`tools/build_print.py`, Paged.js 0.4.3 vendored in `tools/vendor/` under its MIT licence):
+- `out/Roots_of_Ramallah_print.html` and `out/Roots_of_Ramallah_6x9.pdf`: 6 × 9 inch pages, mirrored margins, a title page and its verso, a contents page with page numbers, the book title over the left-hand pages and the chapter over the right-hand pages, with folios.
+- Each chapter and appendix starts on a right-hand page, with a half-page photograph where the chapter has one held in `img/`.
+- Figures, small tables, quotation boxes and evidence boxes are kept whole; long tables break between rows. Maps and charts are scaled to the text block.
+- Notes stay as the numbered References at the back, linked both ways in the PDF.
+- Every photograph held in `img/` is embedded, compressed to 1000 px. The 15 photographs linked from the Library of Congress (`tile.loc.gov`) could not be downloaded on the build machine; each prints as a framed note with its caption and credit until they are saved into `img/`.
+- This build: 795 pages, 36 MB PDF; the print HTML is 10 MB. The PDF is not committed (see `.gitignore`); run `python3 tools/build_print.py` (set `PRINT_CHROMIUM` to a Chrome binary if Playwright's own is not installed).
+- The phone/desktop book grows by 15 KB (3,120,811 to 3,135,506 bytes).
+
 ## v78 — 13 November 2026: the book stops talking about its own past editions
 
 David: "Smooth everything." About forty passages in the text, notes and figures that described this book's own earlier mistakes ("earlier editions of this book…", "an earlier draft…", "is withdrawn", "corrected here for the first time", "our earlier versions") now simply state what is true, with every citation kept. Disagreements between named sources are still printed both ways. The six kept correction boxes are unchanged. The preface now says a box marks a long-held family belief the record overturns. The stale Jifnā "six kilometres" fix in `post_restore_fixes.py` is removed.
