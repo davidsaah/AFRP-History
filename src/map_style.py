@@ -40,6 +40,8 @@ MEM_LIGHT = '#C49A5E'
 CONTEXT = '#8F8A80'      # context, named for orientation only
 MONUMENT = '#3D3A35'     # monument or standing evidence (open diamond)
 RAMALLAH = '#B3261E'     # the one place on every map
+# thematic ramp for maps whose subject is a category, not evidence (periods)
+ERA = ['#2E2A4A', '#5A4E8C', '#8676B8', '#B0A3D6']
 # water: one blue family
 SEA = '#D5E5EC'
 LAKE = '#C6DCE6'
@@ -442,9 +444,9 @@ def terrain(key, inv, x, y, w, h, km_per_unit, land_polys=(), lake_polys=(), opt
     rgb[lake & land] = lake_rgb
     im = Image.fromarray(rgb.astype('uint8'), 'RGB')
     buf = io.BytesIO()
-    q = opts.get('quality', 72)
+    q = opts.get('quality', 66)
     im.save(buf, 'JPEG', quality=q, optimize=True, progressive=True)
-    while buf.tell() > 150_000 and q > 40:
+    while buf.tell() > opts.get('max_bytes', 110_000) and q > 34:
         q -= 8; buf = io.BytesIO(); im.save(buf, 'JPEG', quality=q, optimize=True, progressive=True)
     jpeg = base64.b64encode(buf.getvalue()).decode()
 

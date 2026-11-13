@@ -504,6 +504,41 @@ class Flat:
     region = Sheet.region
 
 
+class Lin:
+    """v76: a hand-drawn panel's own linear lat/lon projection, wrapped so the
+    panel can take the shared terrain, water and frame. `P` is the figure's
+    existing (lat, lon) -> plate function; it must be linear in each."""
+    def __init__(self, P, x, y, w, h):
+        x00, y00 = P(0.0, 0.0); x11, y11 = P(1.0, 1.0)
+        self._P = P
+        self.ax, self.bx = x00, x11 - x00          # px = ax + bx*lon
+        self.ay, self.by = y00, y11 - y00          # py = ay + by*lat
+        self.x, self.y, self.w, self.h = x, y, w, h
+        self.pathtol = 1.2
+        la0, lo0 = self.inv(x, y + h); la1, lo1 = self.inv(x + w, y)
+        self.bbox = (min(lo0, lo1), max(lo0, lo1), min(la0, la1), max(la0, la1))
+
+    def P(self, lat, lon):
+        return (self.ax + self.bx * lon, self.ay + self.by * lat)
+
+    def inv(self, px, py):
+        return (py - self.ay) / self.by, (px - self.ax) / self.bx
+
+    def km_per_px(self):
+        return 111.2 / abs(self.by)
+
+    _path = Sheet._path
+    base = Sheet.base
+    graticule = Sheet.graticule
+    _ticks = Sheet._ticks
+    locator = Sheet.locator
+    close = Sheet.close
+    scalebar = Sheet.scalebar
+    north = Sheet.north
+    sea = Sheet.sea
+    region = Sheet.region
+
+
 # ═══════════════════════ 2 · the Roman district ═══════════════════════
 def fig_roman():
     W, H = 860, 540
