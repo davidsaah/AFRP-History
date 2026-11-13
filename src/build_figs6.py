@@ -21,7 +21,7 @@ TINT = ['#1A1915', '#6B6760', '#B7B2A8', '#DDD8CE']
 GOLD = '#9A6324'
 PAPER = '#FFFFFF'
 
-T_LAB, T_NOTE, T_BIG = 13, 12, 15
+T_LAB, T_NOTE, T_BIG = 15, 14, 17
 
 
 def esc(s):
@@ -85,7 +85,7 @@ _GR = {'scripture': ('#D5E9DF', INK, 'scripture'), 'join': ('#8FBFA6', INK, 'the
 
 def fig_ladder9(cur):
     """The family's chain as nine links, with link `cur` (0-based row) as this chapter's."""
-    rh, top = 34, 8
+    rh, top = 46, 8
     H = top + len(LINKS) * rh + 30
     s = []
     for i, (lk, what, g, gens) in enumerate(LINKS):
@@ -97,21 +97,21 @@ def fig_ladder9(cur):
         s.append(f'<g opacity="{op}">')
         s.append(f'<rect x="8" y="{y}" width="{W-16}" height="{rh-5}" rx="3" fill="{fill}" '
                  f'stroke="{"#C9A46A" if g == "none" else fill}"{dash}/>')
-        s.append(t(18, y + 19, lk, T_NOTE, tc, 'start', '700'))
-        s.append(t(126, y + 19, what, T_LAB, tc))
-        s.append(t(W - 16, y + 19, gens, T_NOTE, tc, 'end', '400', 'italic'))
+        s.append(t(18, y + 17, lk, T_NOTE, tc, 'start', '700'))
+        s.append(t(W - 18, y + 17, gens, T_NOTE, tc, 'end', '400', 'italic'))
+        s.append(t(18, y + 35, what, T_LAB, tc))
         s.append('</g>')
         if i == cur:
             s.append(f'<rect x="5" y="{y-3}" width="{W-10}" height="{rh+1}" rx="4" fill="none" '
-                     f'stroke="{GOLD}" stroke-width="2.4"/>')
-    y = top + len(LINKS) * rh + 14
+                     f'stroke="{GOLD}" stroke-width="2.6"/>')
+    y = top + len(LINKS) * rh + 16
     s.append(t(8, y, 'Solid: reached by this chapter. Faint: still ahead.', T_NOTE, NOTE, 'start', '400', 'italic'))
     return svg(H, 'The family chain in nine links; link %d is this chapter’s' % (cur + 1), ''.join(s))
 
 
 # ───────────────────────────────────────────── churches and schools, 1776–1925
 MISSION_LANES = [('Orthodox', ERA[0]), ('Protestant and Anglican', ERA[1]), ('Catholic', ERA[2]),
-                 ('Friends', GOLD), ('German', TINT[1])]
+                 ('Friends', ERA[3]), ('German', TINT[1])]
 MISSION_EVENTS = [
     ('1776–77', 0, 'The Orthodox Patriarchate’s first primary school, by the Ottoman count of 1903'),
     ('1805–06', 0, 'A second Orthodox school'),
@@ -137,7 +137,7 @@ def fig_missions():
     # legend, one row of chips wrapping onto two
     x, y = 8, 16
     for name, col in MISSION_LANES:
-        w = 22 + len(name) * 6.4
+        w = 22 + len(name) * 7.2
         if x + w > W - 8:
             x, y = 8, y + 20
         s.append(f'<circle cx="{x+5}" cy="{y-4}" r="5" fill="{col}"/>')
@@ -151,14 +151,14 @@ def fig_missions():
     for when, lane, what in MISSION_EVENTS:
         lines = wrap(what, T_LAB, W - xl - 26)
         rows.append((when, lane, lines, y))
-        y += max(1, len(lines)) * 16 + 12
+        y += max(1, len(lines)) * 18 + 12
     s.append(f'<line x1="{xl}" y1="{s_y0-2}" x2="{xl}" y2="{y-14}" stroke="{AXIS}" stroke-width="1.2"/>')
     for when, lane, lines, yy in rows:
         col = MISSION_LANES[lane][1]
         s.append(t(xl - 12, yy + 9, when, T_NOTE if len(when) > 7 else T_LAB, INK, 'end', '700'))
         s.append(f'<circle cx="{xl}" cy="{yy+5}" r="6" fill="{col}" stroke="#FFFFFF" stroke-width="1.5"/>')
         for k, ln in enumerate(lines):
-            s.append(t(xl + 14, yy + 9 + k * 16, ln, T_LAB, BODY))
+            s.append(t(xl + 14, yy + 9 + k * 18, ln, T_LAB, BODY))
     return svg(y, 'Churches and schools at Ramallah, 1776 to 1925, by denomination', ''.join(s))
 
 
@@ -178,7 +178,7 @@ def fig_households2():
     for col, lab in chips:
         s.append(f'<rect x="{lx}" y="8" width="12" height="12" fill="{col}"/>')
         s.append(t(lx + 17, 19, lab, T_NOTE, BODY))
-        lx += 30 + len(lab) * 5.8
+        lx += 30 + len(lab) * 6.8
     for v in (0, 20, 40, 60, 80):
         yy = y1 - v * sc
         s.append(f'<line x1="{x0}" y1="{yy:.1f}" x2="{x1}" y2="{yy:.1f}" stroke="{RULE if v else AXIS}"/>')
@@ -210,7 +210,7 @@ def fig_households2():
     yy += 18
     vills = [('Bayt Jālā', 239, 6), ('Ṭayyibat al-Ism', 23, 63), ('Ramallah', 71, 9),
              ('al-Bīra', 0, 45), ('Bīr Zayt', 0, 26), ('Jifnā', 0, 21)]
-    lx0, mxv = 128, 250
+    lx0, mxv = 132, 290
     pw = W - 12 - lx0
     for nm, ch, mu in vills:
         bold = nm == 'Ramallah'
@@ -221,7 +221,7 @@ def fig_households2():
         if mu:
             s.append(f'<rect x="{lx0+wc:.1f}" y="{yy+2}" width="{wm:.1f}" height="14" fill="{TINT[2]}"/>')
         s.append(t(lx0 + wc + wm + 5, yy + 13, str(ch + mu), T_NOTE, NOTE))
-        yy += 22
+        yy += 25
     txt_, yy = para(8, yy + 8, 'The published register enters Jifnā as Muslim; every sixteenth-century register has it Christian, and Robinson found it wholly Christian in 1838.', T_NOTE)
     s.append(txt_)
     return svg(yy + 4, 'Households at Ramallah in the Ottoman registers, 1525 to 1596, and its neighbours in 1596', ''.join(s))
@@ -255,10 +255,9 @@ def fig_karak():
             s.append(f'<circle cx="{cx:.1f}" cy="{Y(lo):.1f}" r="5" fill="#FFFFFF" stroke="{CONTEXT}" stroke-width="2"/>')
     # labels for the points that matter
     s.append(t(X(1596) + 8, Y(57) + 4, '1596: 57%', T_LAB, INK, 'start', '700'))
-    s.append(t(X(1818) - 4, Y(50) - 9, '1818: about half', T_NOTE, BODY, 'middle'))
-    s.append(t(X(1812) + 8, Y(27) + 16, '1812: 27%', T_NOTE, BODY))
+    s.append(t(X(1818) + 8, Y(50) + 4, '1818: about half', T_NOTE, BODY))
     s.append(t(X(1961), Y(22) - 10, '1961: 22%', T_NOTE, BODY, 'end'))
-    s.append(t(X(1900) - 4, Y(18) + 18, 'about 1900: 18–20%', T_NOTE, BODY, 'end'))
+    s.append(t(X(1900) + 4, Y(18) + 20, 'about 1900: 18–20%', T_NOTE, BODY, 'middle'))
     y = y1 + 36
     txt_, y = para(8, y, 'Green: counted or seen on the spot. Hollow: hearsay. Seetzen’s 1806 count is a range. Taxable households in 1596; families, houses or persons later.', T_NOTE)
     s.append(txt_)
@@ -278,8 +277,8 @@ def fig_karak():
         s.append(t(96, y + 12, nm, T_LAB, RAMALLAH if hl else INK, 'end', '700'))
         lines = wrap(frm, T_LAB, W - 112)
         for k, ln in enumerate(lines):
-            s.append(t(106, y + 12 + k * 15, ln, T_LAB, BODY))
-        y += 15 * len(lines) + 6
+            s.append(t(106, y + 12 + k * 17, ln, T_LAB, BODY))
+        y += 17 * len(lines) + 6
     txt_, y = para(8, y + 10, 'About 1905 Jaussen counted eight Christian tribes, two hundred households, with the Ḥalasa first and the Ḥaddādīn eighth, under their sheikh Khalīl bin Ibrāhīm. Not one clan names Jerusalem, Bethlehem or Bayt Jālā as its origin.', T_NOTE, BODY, style='normal')
     s.append(txt_)
     return svg(y + 4, 'The Christian share of Karak from 1596 to 1961, and the eight Christian clans with the origins they gave Musil', ''.join(s))
@@ -322,7 +321,7 @@ def fig_halasa():
     for when, who, k, what in HALASA:
         lines = wrap(what, T_LAB, W - xl - 34)
         rows.append((when, who, k, lines, y))
-        y += len(lines) * 16 + 10
+        y += len(lines) * 18 + 10
     s.append(f'<line x1="{xl}" y1="{y0}" x2="{xl}" y2="{y-12}" stroke="{AXIS}" stroke-width="1.2"/>')
     for when, who, k, lines, yy in rows:
         col = DOC if k == 'doc' else MEM
@@ -331,7 +330,7 @@ def fig_halasa():
         tag = {'h': 'H', 'a': 'A', 'both': 'H A', 'ctx': ''}[who]
         s.append(t(W - 8, yy + 9, tag, T_NOTE, NOTE, 'end', '700'))
         for j, ln in enumerate(lines):
-            s.append(t(xl + 14, yy + 9 + j * 16, ln, T_LAB, BODY))
+            s.append(t(xl + 14, yy + 9 + j * 18, ln, T_LAB, BODY))
     return svg(y, 'The Ḥaddādīn and the Ḥalasa of Karak, from the founding marriage to the 1990s', ''.join(s))
 
 
@@ -354,20 +353,20 @@ def fig_emigration():
         s.append(t(x0 - 6, Y(v) + 4, fmt(v), T_NOTE, NOTE, 'end'))
     for yr in (1900, 1920, 1940, 1960, 1980):
         s.append(t(X(yr), y1 + 17, str(yr), T_NOTE, NOTE, 'middle'))
-    for yr, lab in ((1916, 'typhus'), (1948, '1948'), (1959, 'Federation')):
+    for yr, lab, dy in ((1916, 'typhus', 0), (1948, '1948', 0), (1959, 'Federation', 16)):
         s.append(f'<line x1="{X(yr):.1f}" y1="{y0}" x2="{X(yr):.1f}" y2="{y1}" stroke="{AXIS}" stroke-dasharray="2 3"/>')
-        s.append(t(X(yr) + 3, y0 + 12, lab, T_NOTE, NOTE, 'start', '400', 'italic'))
+        s.append(t(X(yr) - 3, y0 + 12 + dy, lab, T_NOTE, NOTE, 'end', '400', 'italic'))
     hp = ' '.join(f'{"M" if i == 0 else "L"}{X(a):.1f} {Y(b):.1f}' for i, (a, b) in enumerate(home))
     s.append(f'<path d="{hp}" fill="none" stroke="{TINT[2]}" stroke-width="3"/>')
     up = ' '.join(f'{"M" if i == 0 else "L"}{X(a):.1f} {Y(b):.1f}' for i, (a, b, _) in enumerate(us))
     s.append(f'<path d="{up}" fill="none" stroke="{INK}" stroke-width="3"/>')
     for yr, v, plus in us:
         s.append(f'<circle cx="{X(yr):.1f}" cy="{Y(v):.1f}" r="4.5" fill="{INK}"/>')
-    s.append(t(X(1901) + 6, Y(4) - 8, 'the first four, 1901', T_NOTE, INK))
+    s.append(t(X(1901) + 8, Y(4) - 10, 'the first four, 1901', T_NOTE, INK))
     s.append(t(X(1946) - 6, Y(1500) - 10, '1,500', T_NOTE, INK, 'end', '700'))
-    s.append(t(X(1953) + 6, Y(2580) + 16, '2,580', T_NOTE, INK, 'start', '700'))
-    s.append(t(X(1960) - 6, Y(4000) - 6, 'over 4,000', T_NOTE, INK, 'end', '700'))
-    s.append(t(X(1975) - 4, Y(10000) - 9, 'over 10,000', T_NOTE, INK, 'end', '700'))
+    s.append(t(X(1953) + 8, Y(2580) + 14, '2,580', T_NOTE, INK, 'start', '700'))
+    s.append(t(X(1960) + 8, Y(4000) + 4, 'over 4,000', T_NOTE, INK, 'start', '700'))
+    s.append(t(X(1975) - 8, Y(10000) + 5, 'over 10,000', T_NOTE, INK, 'end', '700'))
     s.append(t(X(1975), Y(2000) + 18, 'fewer than 2,000', T_NOTE, NOTE, 'end'))
     y = y1 + 40
     txt_, y = para(8, y, 'At home: the censuses of 1905, 1922 and 1931; then natives only, from the count of 1944 and Shāhīn’s figures for 1953 (7,080 Ramallah people, 2,580 of them in America) and 1975 (fewer than 2,000 still at home). In the United States: Shāhīn’s counts.', T_NOTE)
@@ -382,7 +381,7 @@ def fig_emigration():
         s.append(t(64, y + 13, lab, T_LAB, BODY, 'end'))
         s.append(f'<rect x="72" y="{y+1}" width="{w:.1f}" height="16" fill="{TINT[0] if lab == "men" else TINT[1]}"/>')
         s.append(t(78 + w, y + 13, fmt(v), T_LAB, INK, 'start', '700'))
-        y += 24
+        y += 27
     txt_, y = para(8, y + 8, 'About four hundred men short, in a town of four thousand: the men who had sailed after 1901, counted by their absence.', T_NOTE)
     s.append(txt_)
     return svg(y + 4, 'Ramallah people in the United States and at home, 1901 to 1975, and the census of 1931 by sex', ''.join(s))
@@ -401,7 +400,7 @@ def fig_population():
         s.append(t(x0 - 6, Y(v) + 4, fmt(v), T_NOTE, NOTE, 'end'))
     for yr in (1850, 1900, 1950, 2000):
         s.append(t(X(yr), y1 + 17, str(yr), T_NOTE, NOTE, 'middle'))
-    for yr, lab, dy in ((1916, 'typhus', 0), (1948, 'refugees', 0), (1967, 'occupation', 16)):
+    for yr, lab, dy in ((1916, 'typhus', 0), (1948, 'refugees', 16), (1967, 'occupation', 32)):
         s.append(f'<line x1="{X(yr):.1f}" y1="{y0}" x2="{X(yr):.1f}" y2="{y1}" stroke="{AXIS}" stroke-dasharray="2 3"/>')
         s.append(t(X(yr) - 3, y0 + 12 + dy, lab, T_NOTE, NOTE, 'end', '400', 'italic'))
     # 1870: estimates only
@@ -418,14 +417,14 @@ def fig_population():
     s.append(t(X(1838), Y(850) - 10, '1838: 800–900', T_NOTE, BODY))
     s.append(t(X(1953) - 8, Y(13500) - 8, '1953: 13,500', T_NOTE, INK, 'end', '700'))
     s.append(t(X(1967) + 6, Y(12134) + 16, '1967: 12,134', T_NOTE, BODY))
-    s.append(t(X(2017) - 6, Y(38998) - 2, '2017: 38,998', T_NOTE, INK, 'end', '700'))
+    s.append(t(X(2017) - 8, Y(38998) + 16, '2017: 38,998', T_NOTE, INK, 'end', '700'))
     y = y1 + 36
     chips = [(TINT[1], 'natives'), (TINT[2], 'refugees and newcomers')]
     lx = 8
     for col, lab in chips:
         s.append(f'<rect x="{lx}" y="{y-10}" width="12" height="12" fill="{col}"/>')
         s.append(t(lx + 17, y, lab, T_NOTE, BODY))
-        lx += 40 + len(lab) * 5.8
+        lx += 40 + len(lab) * 6.8
     txt_, y = para(8, y + 20, 'Persons, on an ordinary scale. The grey bar at 1870 spans two estimates of the same decade. The 1967 count was taken under curfew weeks after the occupation and left out everyone then abroad. 2021 is the census bureau’s projection.', T_NOTE)
     s.append(txt_)
     return svg(y + 4, 'The population of Ramallah from 1838 to 2021 on an ordinary scale', ''.join(s))
@@ -456,7 +455,7 @@ def fig_clans2():
             s.append(t(96, y + 17, nm, T_LAB, INK, 'start', '700'))
             s.append(f'<rect x="{bx0}" y="{y+5}" width="{w:.1f}" height="15" fill="{GOLD if grp else TINT[1]}"/>')
             s.append(t(bx0 + w + 5, y + 17, fmt(n), T_NOTE, INK))
-            y += 24
+            y += 27
         s.append(f'<line x1="86" y1="{top+6}" x2="86" y2="{y-4}" stroke="{GOLD if grp else TINT[2]}" stroke-width="3"/>')
         s.append(t(8, top + 17, son, T_LAB, INK, 'start', '700'))
         if grp:
@@ -496,8 +495,8 @@ def fig_land():
         s.append(t(8, y + 24, lab, T_LAB, GOLD, 'start', '700'))
         lines = wrap(what, T_LAB, W - 96)
         for k, ln in enumerate(lines):
-            s.append(t(82, y + 24 + k * 16, ln, T_LAB, BODY))
-        y += 24 + 16 * len(lines) + 4
+            s.append(t(82, y + 24 + k * 18, ln, T_LAB, BODY))
+        y += 24 + 18 * len(lines) + 4
     txt_, y = para(8, y + 14, '“Eighty percent of the land is now uncultivated.” Shāhīn, 1982.', T_NOTE)
     s.append(txt_)
     return svg(y + 4, 'The crop of 1920 in kilograms, and the farming year at Ramallah', ''.join(s))
