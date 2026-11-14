@@ -3815,7 +3815,7 @@ footer.end{border-top:1px solid #DCD6C9;margin-top:70px;padding:26px 0 90px;colo
   .ntwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
   table.ntable{min-width:580px}
   .entry{content-visibility:auto;contain-intrinsic-size:auto 620px}
-  figure{content-visibility:auto;contain-intrinsic-size:auto 700px}
+  /* v86: not on figures; a skipped plate could come up blank on a fast scroll */
   /* A footnote can be three hundred thousand pixels away. Animating that is
      several seconds of the page flying past; on a telephone it should just
      arrive. */
