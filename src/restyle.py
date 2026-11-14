@@ -115,6 +115,10 @@ if __name__ == '__main__':
     p = sys.argv[1]
     h = open(p, encoding='utf-8').read()
     h = restyle(h)
+    # v81: the older figures in small capitals, with their text enlarged where it fits
+    sys.path.insert(0, __import__('os').path.dirname(__file__))
+    from figure_tidy import apply as figure_tidy
+    h = figure_tidy(h)
     # v79: the phone reader runs last, on the finished page.
     sys.path.insert(0, __import__('os').path.dirname(__file__))
     from reader import reader

@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v81 — 14 November 2026: the family edition, quieter figures, three findings
+
+**Three findings** (approved by David, "All of them"; from the text-mining report of 14 November):
+- **The water called Ghassān.** The Yemeni geographer al-Hamdānī (d. 945), *Ṣifat Jazīrat al-ʿArab* (ed. al-Akwaʿ, PDF p. 141), puts "the place of the water that used to be called Ghassān" at the lower end of Wādī Rimaʿ, and his editor says it is still known there. With Ibn al-Kalbī, two independent Arab authorities place the water in the Tihāma of Yemen. Chapter 4 says so in the story and the evidence, and its "What we still don't know" no longer lists the place as unknown.
+- **1967.** Ramallah was 59.4 Christians in every hundred of known religion (Israeli census of 1967, introduction p. XII), in place of 57 per cent; the count was taken on 21 September 1967, under curfew. Marked as an Israeli state source, cited for its count.
+- **1946.** The notice to Ramallah's voters of 28 March 1946 is signed by ʿĀrif al-ʿĀrif, the historian of Jerusalem, then acting Assistant District Commissioner (ISA P-213/40, PDF p. 81).
+
+**Family edition** (`tools/build_family.py`): `out/Roots_of_Ramallah_Family_6x9.pdf`, 6 × 9 inches. The story half of every chapter, word for word, with no evidence halves, tables, note numbers, evidence labels or correction boxes. It adds a timeline of the whole story, a timeline at the head of each chapter, a photo essay after each chapter (every photograph the full book prints for that era, two to a row), and three family panels: the Saah (sentences of the full book, checked word for word by the build), the five sons, and the emigrants. Chapters start on the next page, with no blank versos.
+
+**Figures:**
+- The 23 older charts, diagrams, timelines and tables (`src/figure_tidy.py`, run by `restyle.py`): lines in full capitals are set in small capitals; a heading inside a drawing that repeats the figure's title is dropped; text is enlarged by the largest factor at which nothing collides (5 to 35 per cent on 17 of them), measured by `tools/fit_figure_text.py` into `data/figure_text_scale.json`. Maps are left to the map style.
+- Five figures whose drawings print their sources in full no longer repeat them in the caption (6 sovereigns, the scattering, the road the family walked, the Karak wheel, Shāhīn's town plan).
+- The 1919 *Mirʾāt al-Sharq* plate now comes before the 1946 election plates (it opens the 1938 entry), so chapter 10's plates run in date order.
+- Print: tall phone-first charts are capped so a chart and its caption share one page.
+
 ## v80 — 13 November 2026: pictures beside their stories, charts a phone can read
 
 No dates or findings change. The pictures and charts do.
