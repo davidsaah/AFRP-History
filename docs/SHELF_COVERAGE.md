@@ -38,6 +38,45 @@ Ordered by how many pages mention the subjects. Each line: what the work is, the
 
 25 works. Works with no `_Text` copy or no hits are not listed here; see the full table.
 
+## Hand check of the "possibly" and "no" flags, 14 Nov 2026 (v84)
+
+Each flagged work was opened from its Drive `_Text` copy (or its saved web page) and searched for Ramallah, al-Bīra, the Ḥaddādīn, Karak, Ghassān and modern Palestine.
+
+**Now cited, with new facts in the book (v84):**
+- Barghouti 1997, ch. 12
+- Al Btoush 2024, ch. 10
+- Ramallah Municipality 2008 centennial book, chs. 10–11
+- al-Madīna News 2009 (Jordanian ministers), ch. 11
+- Areq 2013 (the Ramallah radio of 1948), ch. 10
+- al-Ḥayāt al-Jadīda 2016 and Raya 2021 (the Manara lions), ch. 11
+- Ramallah Municipality, Karīm Khalaf Square, ch. 12
+- JQ 73 (2018), the Rodenko memoir, ch. 11
+- Hughes 2009 (Hilda Wilson at Ramallah, 1938), ch. 10
+- Banko 2016 (the 1925 citizenship order), ch. 10
+- WCLAC 2014 (inheritance claims), ch. 12
+- Sanchez Summerer & Zananiri 2021, now named in full in the note for the Union of Orthodox Clubs
+
+**Already cited, under another name or form (the automatic check missed them):**
+- Papadopoulos-Kerameus, *Analekta* II, III and V
+- Grant 1921
+- HMG 1938, the report to the League of Nations
+- Palestine Police 1938, the annual report
+- UNCCP 1949, W.2
+- ICBS 1967
+- van der Leest 2008, with its title pages
+- CEC decrees of 2010, 2016 and 2017, the CEC 2017 annexes, and the Gazette 2021 Decree 19
+- PYM, the Christina Jones diary of July 1948
+- Ramallah Friends School, history page
+- Ramallah Municipality, "Ramallah in Historical Sources"
+- the Arbach and Schiettecatte South Arabian works
+
+**Opened, with nothing new for Ramallah:**
+- *Ramallah appears only in a bibliography, an address or a meeting place:* Abu-Manneh 1999, Hughes 2010, Banko 2018, Dalachanis & Lemire 2018, Mack 2020, Sharkawi 2021, Fakher Eldin 2025, UN-Habitat 2015, Jad 2003, MECA 2025.
+- *No mention of the town at all:* Wichhart 2014 (the locusts; the book covers 1915 from other sources), Taşkın 2011 and Banī ʿĪsā 2023 (ʿAjlūn), al-Raʾy 2014 (ʿAjlūn).
+- *Karak only, with nothing on the Ḥaddādīn:* Forder 1902 and Ammon News 2026.
+- *Already covered:* Al Jazeera 2024 on Qalandiyā camp; the founding year and site already come from ARIJ and UNRWA.
+- *Out of the subject area* (ancient Arabia; "Palestine" hits are modern bibliography only): Genz 2012, Hausleiter 2012, Magee 2014, Shuaib 2014, Frahm 2017, Bukharin 2020, Rohmer 2021, Charloux 2009, Gajda 2013, Abdel-Kareem 2016, the CIS IV and *Raydān* 8 items, and Potts 2000.
+
 ## Cadora, *Remembering Ramallah* (1954; 2023 edition)
 
 Joseph Jiryis Cadora, translated and researched by Samira Rafidi Meghdessian, foreword by Frederic Joseph Cadora (2023; 161 PDF pages). The book cites it at pp. 46, 101, 104 and 146. Its contents, from the table of contents on PDF pp. 7–8 (printed page numbers, cleaned of OCR dots):
