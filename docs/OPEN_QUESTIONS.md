@@ -6,6 +6,19 @@ opened, and the purchase list is down to four things.**
 
 ---
 
+# Worked on 14 November 2026 (v85)
+
+- **Ḥasāmna and Hasasneh.** The 1946 voters' lists have a Ḥasāmna column. The town's
+  account of the ʿAzzouz incident sends the Hasasneh to ʿAin Yabroud. They may be one clan under two
+  spellings. Nothing we hold settles it. David: leave both as printed.
+- **The Shawbak stage before Karak** is now in the book: ʿAdnān 1953 (Udhruḥ, then
+  Shawbak, then Karak) and al-Rawāshida's Shawbak-first tradition. Still to get:
+  - al-Rawāshida, *al-Shawbak: al-arḍ wa-l-insān*, read only through *al-Madīna*
+    News (2009);
+  - Khūrī's ʿAyn ʿArīk book;
+  - Hütteroth & Abdulfattah p. 173, for the 5 Christian households at Shawbak in 1596;
+  - Shibli 2006.
+
 # Worked on 7 November 2026
 
 - **Books David is ordering:** al-Furqān vols. 5–6 (registers 516 and 515) and
