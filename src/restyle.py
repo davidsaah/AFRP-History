@@ -127,4 +127,8 @@ if __name__ == '__main__':
     # v79: the phone reader runs last, on the finished page.
     sys.path.insert(0, __import__('os').path.dirname(__file__))
     from reader import reader
-    open(p, 'w', encoding='utf-8', newline='\n').write(reader(h))
+    h = reader(h)
+    # v86: pictures that read on a phone (close-ups, typed text, tap to enlarge)
+    from phone_images import apply as phone_images
+    h = phone_images(h)
+    open(p, 'w', encoding='utf-8', newline='\n').write(h)

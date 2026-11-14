@@ -3815,7 +3815,7 @@ footer.end{border-top:1px solid #DCD6C9;margin-top:70px;padding:26px 0 90px;colo
   .ntwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
   table.ntable{min-width:580px}
   .entry{content-visibility:auto;contain-intrinsic-size:auto 620px}
-  figure{content-visibility:auto;contain-intrinsic-size:auto 700px}
+  /* v86: not on figures; a skipped plate could come up blank on a fast scroll */
   /* A footnote can be three hundred thousand pixels away. Animating that is
      several seconds of the page flying past; on a telephone it should just
      arrive. */
@@ -3934,7 +3934,7 @@ SOURCE_PAGES = [
   'The charter of 7 March 1186 as Strehlke printed it in 1869, with <i>qua vaditur Ramelie</i>, “by which one goes to Ramallah”, boxed. This is the first time the name is written down.',
   'Ernst Strehlke, ed., <i>Tabulae Ordinis Theutonici</i> (Berlin, 1869), p. 18, no. 20. Public domain.'),
  ('The name appears in 1186', 'period', 'period/vesconte_c1320.jpg',
-  'The Holy Land on the grid map Pietro Vesconte drew for Marino Sanudo’s crusade plan about 1320. This is the world in which the Mamluk endowment of 1279 already named Rām Allāh.',
+  'The Holy Land on the grid map Pietro Vesconte drew for Marino Sanudo’s crusade plan about 1320. This is the world of Sultan Qalāwūn’s endowment of 1279–80, known from a Jerusalem court record of 1565, in which Rām Allāh is already a named place, about a century after the charter of 1186 first wrote the name down.',
   'After Pietro Vesconte, for Marino Sanudo, <i>Liber secretorum fidelium crucis</i> (c. 1320), in the engraved copy printed by Jacques Bongars, <i>Gesta Dei per Francos</i> II (Hanau, 1611). Public domain.'),
  ('Magna Mahumeria', 'period', 'period/bireh_church_1881.jpg',
   '“Ruins of Crusaders’ church at el Bîreh”: the three apses and north wall of the Frankish church at al-Bīra, Magna Mahumeria, with a cornfield growing inside it.',
@@ -3957,7 +3957,7 @@ SOURCE_PAGES = [
   'On the right, <i>Karye-i Ramallah … tamāmen, hāsıl maʿa rüsūm 2905</i>: the whole village, endowed to the shrine of Abraham at Hebron, yielding 2,905 akçe with its dues. '
   'Below left, <i>Nasārā der-karye-i Ramallah … 71 neferen, fī 80, 5680</i>: the Christians of Ramallah, seventy-one persons at 80 akçe each, 5,680 akçe. '
   'This is the line that counts the families who came up from Bayt Jālā.',
-  '<i>Defter-i Evkaf-ı Liva-i Kuds-i Şerif</i>, ed. Sevgi Işık (Ankara: Tapu ve Kadastro Genel Müdürlüğü, 2015), p. 73, an edition of TKG.KK.TTd. 406, folio 1. Transcription only; the Ottoman folio itself is not reproduced in the edition.'),
+  '<i>Defter-i Evkaf-ı Liva-i Kuds-i Şerif</i>, ed. Sevgi Işık (Ankara: Tapu ve Kadastro Genel Müdürlüğü, 2015), p. 73, an edition of TKG.KK.TTd. 406, folio 1. Transcription only: the edition does not reproduce the Ottoman folio itself.'),
  ('The peasants’ revolt', 'srcpage', 'sources/robinson_1841_p263.jpg',
   'Edward Robinson at Jifnā on 13 June 1838, four years after the revolt. He eats lunch under a walnut tree inside the ruined church that the village’s Christian shaykh tells him was St George’s, where mass is still said now and then, and he ends: '
   '“The present inhabitants of Jufna are all Christians; they number only forty-two taxable men.”',

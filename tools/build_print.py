@@ -359,6 +359,8 @@ def prepare(h):
     sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'src'))
     from phone_maps import strip as strip_phone_maps
     h = strip_phone_maps(h)        # v82: print keeps the full map plates
+    from phone_images import strip as strip_phone_images
+    h = strip_phone_images(h)      # v86: print keeps the full scans, no close-ups
     h = re.sub(r'<link[^>]+fonts\.googleapis[^>]*>', '', h)
     h = re.sub(r'<style>(.*?)</style>', lambda m: '<style>' + strip_media_print(m.group(1)) + '</style>',
                h, count=1, flags=re.S)
