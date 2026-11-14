@@ -609,14 +609,14 @@ class Strip:
         last = [-1e9] * rows
         for k, it in enumerate(items):
             x = self.X(it['x'])
-            w = len(it['text']) * 6.8
+            w = len(it['text']) * 7.4
+            xx = min(max(x, self.x0 + w / 2), self.x1 - w / 2)
             for r in range(rows):
-                if x - w / 2 > last[r] + 6:
+                if xx - w / 2 > last[r] + 6:
                     break
             else:
                 r = rows - 1
             anc = 'middle'
-            xx = min(max(x, self.x0 + w / 2), self.x1 - w / 2)
             c.add(f'<line x1="{x:.1f}" y1="{y:.1f}" x2="{x:.1f}" y2="{y+4+r*16:.1f}" stroke="{AXIS}"/>')
             c.add(tx(xx, y + 17 + r * 16, it['text'], T_NOTE, NOTE, anc))
             last[r] = xx + w / 2

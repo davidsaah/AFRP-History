@@ -336,7 +336,7 @@ def panel(c, o, p, cid, keyed, callouts):
         import math
         cx_, cy_ = P(mk[0], mk[1]) if mk else (X, Y - 5)
         spots = [(cx_, cy_)] if not mk else []
-        for rad in (14, 20, 27, 35):
+        for rad in (14, 20, 27, 35, 45, 56):
             for ang in range(-45, 315, 30):
                 spots.append((cx_ + rad * math.cos(math.radians(ang)), cy_ + rad * math.sin(math.radians(ang))))
         def cost(pt):
@@ -353,16 +353,16 @@ def panel(c, o, p, cid, keyed, callouts):
     for it in o.items:
         if not DEG.match(it['text']):
             continue
-        if x0 - 50 < it['x'] < x0 and y0 - 4 <= it['y'] <= y1 + 4:
+        if x0 - 50 < it['x'] < x0 and y0 - 4 <= it['y'] <= y1 + 4 and it['anchor'] == 'end':
             X, Y = frame[0] + 2, P(0, it['y'])[1] + 4
             an = 'start'
-        elif y1 < it['y'] < y1 + 26 and x0 - 4 <= it['x'] <= x1 + 4:
+        elif y1 < it['y'] < y1 + 26 and x0 - 4 <= it['x'] <= x1 + 4 and it['anchor'] == 'middle':
             X, Y = P(it['x'], 0)[0], frame[3] - 3
             an = 'middle'
-        elif x1 < it['x'] < x1 + 50 and y0 - 4 <= it['y'] <= y1 + 4:
+        elif x1 < it['x'] < x1 + 50 and y0 - 4 <= it['y'] <= y1 + 4 and it['anchor'] == 'start':
             X, Y = frame[2] - 2, P(0, it['y'])[1] + 4
             an = 'end'
-        elif y0 - 20 < it['y'] < y0 and x0 - 4 <= it['x'] <= x1 + 4:
+        elif y0 - 20 < it['y'] < y0 and x0 - 4 <= it['x'] <= x1 + 4 and it['anchor'] == 'middle':
             X, Y = P(it['x'], 0)[0], frame[1] + 14
             an = 'middle'
         else:

@@ -16,6 +16,10 @@ What it adds is pictures and shape:
   * at the head of each chapter, a timeline of that chapter's entries;
   * at the end of each chapter, a photo essay of every photograph the full book
     prints for that era, in the story or in the evidence;
+  * v82: the scans of old pages (charters, registers, the 1919 newspaper, the
+    1946 notice and ballots) beside the story they belong to, or, when the full
+    book prints them in the evidence, in the photo essay, each with the first
+    sentence of its caption and its source line;
   * three family panels, built from passages and figures of the full book:
     the Saah, the five sons, and the emigrants.
 
@@ -131,12 +135,49 @@ def strip_story(s):
     return s
 
 
-def pull_photos(seg, keep_srcpages=False):
-    """Every photograph in seg, in order, and seg without them."""
+def first_sentence(cap):
+    """The first sentence of a caption (outside brackets, not after p. or no.)."""
+    depth = 0
+    for i, ch in enumerate(cap):
+        if ch == '(':
+            depth += 1
+        elif ch == ')':
+            depth -= 1
+        elif ch == '.' and depth == 0:
+            j = i + 1
+            while j < len(cap) and cap[j] in '”’"':
+                j += 1
+            prev = re.search(r'(\S*)$', re.sub(r'<[^>]+>', '', cap[:i])).group(1).lower()
+            if prev in ('p', 'pp', 'no', 'c', 'vol', 'ed', 'st'):
+                continue
+            if j >= len(cap) or (cap[j] == ' ' and j + 1 < len(cap) and (cap[j + 1].isupper() or cap[j + 1] in '“<')):
+                return cap[:j]
+    return cap
+
+
+def short_caption(fig):
+    """v82: a source-page scan keeps the first sentence of its caption and its source line."""
+    def sub(m):
+        body, src = m.group(1), m.group(2) or ''
+        return '<figcaption>%s%s</figcaption>' % (first_sentence(body), src)
+    fig = re.sub(r' data-k="[^"]*"', '', fig, count=1)      # the full book's figure number
+    return re.sub(r'<figcaption>(.*?)(<span class="src">.*?</span>)?</figcaption>', sub, fig, count=1, flags=re.S)
+
+
+def pull_photos(seg, keep_srcpages=False, leave_srcpages=False):
+    """Every photograph in seg, in order, and seg without them. v82: source-page
+    scans (old documents, registers, newspapers, ballots) are kept with short
+    captions: left where they stand in the story (leave_srcpages), or gathered
+    into the photo essay with the rest (keep_srcpages)."""
     photos = []
 
     def take(m):
-        if 'srcpage' in m.group(1) and not keep_srcpages:
+        if 'srcpage' in m.group(1):
+            if leave_srcpages:
+                return short_caption(m.group(0))
+            if not keep_srcpages:
+                return ''
+            photos.append(short_caption(m.group(0)))
             return ''
         photos.append(m.group(0))
         return ''
@@ -283,8 +324,8 @@ def build(h):
                 if which == 'story':
                     story = story[:w] + story[bp.block_end(story, w):]
                 break
-        photos_s, story = pull_photos(story)
-        photos_e, _ = pull_photos(evidence)
+        photos_s, story = pull_photos(story, leave_srcpages=True)
+        photos_e, _ = pull_photos(evidence, keep_srcpages=True)
         story = strip_story(story)
         story = drop_figures(story, {'Table', 'Diagram', 'Chart'}, keep=KEEP_FIGS)
         close = strip_story(close)
