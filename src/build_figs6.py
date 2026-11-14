@@ -123,7 +123,7 @@ MISSION_EVENTS = [
     ('1873', 2, 'The Sisters of St Joseph: a girls’ school and a free clinic'),
     ('1875–76', 1, 'The Protestant boys’ school'),
     ('1878', 1, '137 boys in the mission schools of Ramallah and outstations'),
-    ('1887', 1, 'St Andrew’s (Kaddoura gives 1855)'),
+    ('1887', 1, 'St Andrew’s (Cadora gives 1855)'),
     ('1889', 3, 'The Girls Training Home: fifteen boarders'),
     ('1890–91', 4, 'Two German girls’ schools; 82 girls by 1903'),
     ('1893', 3, 'Eight Friends day schools'),
