@@ -1,6 +1,31 @@
 # Changelog
 
 
+## v83 — 14 November 2026: Ramallah from 1914 to today, in the chapters we have
+
+David: "Let's make the more recent history more enriched … the wars … the intifadas, the occupation … up to today … the way you would see it recorded in a Palestinian history museum." He chose option A, "Enrich chapters".
+
+All the new text is in `src/modern.py`. `build_v5.py` changes in two lines.
+
+- **Chapter 10:** adds *Snow, then the earth shakes* (1920, 1927) and *The Second World War* (the Trans-Jordan Frontier Force certificate of Elias Nasrallah Oudeh). There is also a letter from the front of December 1916.
+- **Chapter 11:** adds *The town guards itself* (November 1947 – May 1948, from Cadora's chronicle as acting mayor) and *Under the Jordanian crown* (1949–1966). Two more refugee photographs of 1949–50 are added.
+- **Chapter 12:** adds *Occupation, and the mayor in Houston* (1967–1982), *The first intifada, and the Authority* (1987–2000), *The second intifada and the siege* (2000–2005) and *The Wall, a capital, and our own people* (2002–2025).
+- **Each new entry is built like a museum room:** a short story, then *The record* (a compact panel of dates and documents), at most one testimony for each era, and one or two photographs.
+- **Photographs:** 11 Shaheen plates AFRP holds, and three Library of Congress photographs (no known restrictions). The three are the opening of the Palestine Broadcasting Service at Ramallah in 1936, the 1927 earthquake at Nablus, and a Ramallah woman in colour, 1935–46. The other eleven downloaded LoC items and the permission-needed items are listed in `docs/MODERN_IMAGES.md`.
+- **Sources:** Palestinian and Arab sources first: Cadora, Shāhīn, Shaheen, al-Farḥān, the municipality, Birzeit University, Taraki, the Institute for Palestine Studies, ARIJ, al-Haq and the PLO Negotiations Affairs Department. United Nations and press reports are cited for dates and counts.
+
+## v82 — 14 November 2026: every figure and map readable on a phone; the old pages in the family edition
+
+No dates or findings change.
+
+**Figures** (`src/build_figs7.py`, put in place by `src/phone_figs.py` after `figure_tidy`): the 23 older 860-unit charts, diagrams, timelines and tables are redrawn in the v80 style, 400 units wide, with nothing under 14 units (11.5 px on a 390 px phone; before, 3 to 6 px). Nothing is retyped: the text is read from the drawings v81 printed, frozen in `data/fig_v81/` by `tools/freeze_v81_figs.py`, and `tools/check_redraw.py` checks that every word of each old drawing is in its redraw. Wide rows become stacked cards, horizontal time axes become vertical, and the drawn pictures (terraces, the dam, the wheel) keep their artwork with numbered keys. `restore_svg` and `post_restore_fixes` still run underneath, unchanged.
+
+**Maps** (`src/phone_maps.py`): each of the 11 maps gets a phone plate beside the full one. Each panel is cut out at phone width with all its artwork; every name is set again at 14 to 15 units with a halo, at its own place; a name that cannot be set without covering another gets a lettered badge at its place and is spelled out under the panel; names on leader lines become lettered badges; the legend is set as rows with their own symbols. Under 760 px the phone plate shows; on wider screens and in print the full plate shows, and tapping a map opens the full plate. `check_redraw.py` checks every word of each full plate is on its phone plate (graticule figures are set where they fit).
+
+**Old pages:**
+- Family edition: the twelve source-page scans (the 1186 charter, Shāhīn's founding page, the 1562 endowment register, the 1553–54 Bayt Jālā census, Seetzen, Robinson, Guérin, the 1896 loan agreement, the 1919 *Mirʾāt al-Sharq*, the 1946 notice, the committee's result and the ballot) are back: beside their story where the full book prints them in the story, in the chapter's photo essay where it prints them in the evidence, each with the first sentence of its caption and its source line.
+- Main book: every chapter that has old-page scans shows them once (chapters 6 to 10). The repository holds no old-page scan that is not printed except the second copy of the 1186 charter, left out in v80 as a duplicate.
+
 ## v81 — 14 November 2026: the family edition, quieter figures, three findings
 
 **Three findings** (approved by David, "All of them"; from the text-mining report of 14 November):

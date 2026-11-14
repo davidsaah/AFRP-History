@@ -119,6 +119,11 @@ if __name__ == '__main__':
     sys.path.insert(0, __import__('os').path.dirname(__file__))
     from figure_tidy import apply as figure_tidy
     h = figure_tidy(h)
+    # v82: the older drawings redrawn phone-first, in the finished drawings' place
+    from phone_figs import apply as phone_figs
+    h = phone_figs(h)
+    from phone_maps import apply as phone_maps
+    h = phone_maps(h)
     # v79: the phone reader runs last, on the finished page.
     sys.path.insert(0, __import__('os').path.dirname(__file__))
     from reader import reader
