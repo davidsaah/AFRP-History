@@ -2,22 +2,27 @@
 
 Chapters 10 to 12 print only images AFRP holds: Naseeb Shaheen's collection, *A Pictorial History of Ramallah, Part II* (2005). Their files are in `img/shaheen/`.
 
-The items below are **not printed yet**. Nothing has been downloaded or embedded. Each one has the entry it would go in.
+Since 14 November 2026 they also print three Library of Congress photographs. The files are in `img/loc/`, listed in `img/loc/SOURCES.md` under "Modern-history set".
+
+The other items below are **not printed**. Each one has the entry it would go in.
 
 ## Library of Congress, Matson Collection (no known restrictions)
 
-These are free to use. They have to be downloaded on a PC, because the cloud build cannot reach loc.gov. Save each file to `img/loc/` under its LoC file name, and the build will pick it up.
+All fourteen are downloaded to `img/loc/`. To keep the chapters short (option A), only the strongest three are printed.
 
-| LoC item | What it shows | Entry |
-|---|---|---|
-| 2019707546, 2019707547, 2019707541 | The opening of the Palestine Broadcasting Service station, 30 March 1936 | Ch. 10, *The revolt reaches the town* |
-| 2019711190 | Nebi Saleh, 1940 | Ch. 10, *The Second World War* |
-| 90706788, 2019712564, 2019692542, 2019692543 | Al-Bīra | Ch. 10 |
-| 2019707096 | Bethel (Baytīn), 1934 | Ch. 10 |
-| 2019705207, 2019705094 | Ramallah women, 1929 and 1935 | Ch. 10, *Snow, then the earth shakes* |
-| 2019700865, 2019696336 | The earthquake of 1927, at Nablus | Ch. 10, *Snow, then the earth shakes* |
-| 2007675285 | Album, "Diary in photos vol. III, 1938" | Ch. 10, *The revolt reaches the town* |
-| 2007675259 | Album, "WWI and the British Mandate" | Ch. 10, *The war, the locusts, the typhus* |
+| LoC item | What it shows | Entry | Printed |
+|---|---|---|---|
+| 2019707547 | The opening of the Palestine Broadcasting Service at Ramallah, 30 March 1936, with the mast | Ch. 10, *The counting years* (beside the paragraph on the transmitter) | Yes |
+| 2019696336 | A house in Nablus wrecked by the earthquake of 11 July 1927 | Ch. 10, *Snow, then the earth shakes* | Yes |
+| 2019705094 | A Ramallah woman in the town's dress, in colour, 1935–46 | Ch. 10, *The Second World War* | Yes |
+| 2019707546, 2019707541 | The same opening, two more views | Ch. 10, *The counting years* | No: one view is enough |
+| 2019705207 | A Ramallah woman, 1929–46, colour | Ch. 10 | No: close to 2019705094 |
+| 2019700865 | The 1927 earthquake, Nablus | Ch. 10, *Snow, then the earth shakes* | No: one view is enough |
+| 2019711190 | Nebi Saleh, 1940 | Ch. 10, *The Second World War* | No |
+| 90706788, 2019712564, 2019692542, 2019692543 | Al-Bīra | Ch. 10 | No. 90706788 exists only at 640 px, too small to print |
+| 2019707096 | Bethel (Baytīn), 1934 | Ch. 10 | No |
+| 2007675259 | Album, "WWI and the British Mandate": inside cover only | | No: it shows no Ramallah or al-Bīra page |
+| 2007675285 | Album, "Diary in photos vol. III, 1938" | | Nothing taken: no Ramallah or al-Bīra page |
 
 ## Permission needed (letters drafted, for David to send)
 

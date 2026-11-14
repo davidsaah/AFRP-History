@@ -55,6 +55,11 @@ def apply(g):
     def plate(fn, pg, cap, kind='Photograph'):
         return _plate(fn, '../img/shaheen/' + fn, cap, '%s, p. %s. %s' % (SH, pg, RIGHTS['afrp']), kind)
 
+    def locplate(fn, item, cap, who):
+        return _plate(fn, '../img/loc/' + fn, cap,
+                      f'{who} Library of Congress, Prints &amp; Photographs Division, '
+                      f'<a href="https://www.loc.gov/item/{item}/">loc.gov/item/{item}</a>. {RIGHTS["loc"]}', 'Photograph')
+
     def title(e):
         return re.sub(r'<[^>]+>', '', e[5])
 
@@ -92,7 +97,14 @@ def apply(g):
             c(CAD + ', p. 55.'),
             c(SHAHIN + ', English section, chronology, p. 75: “Only two inhabitants of Ramallah killed, but property damage heavy”; '
               + SH + ', p. 34; ' + CAD + ', p. 56, for the old town and the Patriarchate.')),
-        _p('<b>What we still don’t know.</b> We have found nothing written about Ramallah in the troubles of August 1929.'))
+        locplate('03041v.jpg', '2019696336',
+            'A house in Nablus left a shell by the earthquake of 11 July 1927. We have found no photograph of the damage in Ramallah.',
+            'American Colony Photo Department, 1927.')
+        + _p('<b>What we still don’t know.</b> We have found nothing written about Ramallah in the troubles of August 1929.'))
+    add_body('The counting years', locplate('16769v.jpg', '2019707547',
+        'The opening of the Palestine Broadcasting Service at its transmitter in Ramallah, 30 March 1936. '
+        'The High Commissioner gives the inaugural address; the mast stands behind the crowd.',
+        'Matson Photo Service, 1936.'))
     insert_after('The war, the locusts', [snow])
 
     ww2 = ent(10, '1939–1945', 'The Second World War',
@@ -103,7 +115,10 @@ def apply(g):
             c(SH + ', p. 282: the certificate of discharge, serial no. 3904, “W/T operator,” enlisted 4 October 1938, discharged 27 December 1943.'),
             c(SH + ', p. 275.'), c(SH + ', p. 92.'), c(CAD + ', p. 55.')),
         plate('p283_3.jpg', 282, 'The certificate of discharge of Corporal Elias Nasrallah Oudeh, wireless operator of the Trans-Jordan Frontier Force, '
-              'enlisted 4 October 1938 and discharged 27 December 1943, beside his photograph on horseback.', 'Document'))
+              'enlisted 4 October 1938 and discharged 27 December 1943, beside his photograph on horseback.', 'Document')
+        + locplate('14899v.jpg', '2019705094',
+            'A Ramallah woman in the embroidered dress and headdress of the town, photographed in colour between 1935 and 1946.',
+            'Matson Photo Service, 1935–46.'))
     insert_after('The revolt reaches the town', [ww2])
 
     # =======================================================================

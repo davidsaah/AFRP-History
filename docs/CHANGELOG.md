@@ -11,7 +11,7 @@ All the new text is in `src/modern.py`. `build_v5.py` changes in two lines.
 - **Chapter 11:** adds *The town guards itself* (November 1947 – May 1948, from Cadora's chronicle as acting mayor) and *Under the Jordanian crown* (1949–1966). Two more refugee photographs of 1949–50 are added.
 - **Chapter 12:** adds *Occupation, and the mayor in Houston* (1967–1982), *The first intifada, and the Authority* (1987–2000), *The second intifada and the siege* (2000–2005) and *The Wall, a capital, and our own people* (2002–2025).
 - **Each new entry is built like a museum room:** a short story, then *The record* (a compact panel of dates and documents), at most one testimony for each era, and one or two photographs.
-- **Photographs:** 11 Shaheen plates AFRP holds. Library of Congress and permission-needed items are listed in `docs/MODERN_IMAGES.md`.
+- **Photographs:** 11 Shaheen plates AFRP holds, and three Library of Congress photographs (no known restrictions). The three are the opening of the Palestine Broadcasting Service at Ramallah in 1936, the 1927 earthquake at Nablus, and a Ramallah woman in colour, 1935–46. The other eleven downloaded LoC items and the permission-needed items are listed in `docs/MODERN_IMAGES.md`.
 - **Sources:** Palestinian and Arab sources first: Cadora, Shāhīn, Shaheen, al-Farḥān, the municipality, Birzeit University, Taraki, the Institute for Palestine Studies, ARIJ, al-Haq and the PLO Negotiations Affairs Department. United Nations and press reports are cited for dates and counts.
 
 ## v82 — 14 November 2026: every figure and map readable on a phone; the old pages in the family edition
