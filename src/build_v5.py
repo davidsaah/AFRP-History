@@ -234,7 +234,7 @@ ADD70 = {
   "The case of 1565 also drew the town’s edges. The judge went out to the ground in person. Ramallah’s limits were set at Dayr Fazṭām to the south, the “Roman” chain wall along the road to the east, and Burj Salmiya to the north. Ḥammūdeh’s English prints the southern limit as “Dayr Qurtam,” and the reading of that word is not settled. The same volume names a Ramallah man, Ḥammād ibn Aḥmad, in 1566{n}.",
   "The IRCICA edition of sijill 48, printed p. 54, read from the page images on 9 November 2026.")],
  'Feuds, a pasha and a faction': [lambda: _P(
-  "<b>The ʿAzzouz incident, as the town tells it.</b> A marriage was refused in a Hānī family, and the killing followed. The whole town left. The Shakara went to Beitunia, the Sharaka to Beit Ijza, the Jaghab to Silwad, the Yousef to Abu Qash, the Hasasneh to ʿAin Yabroud, the ʿAwwaad to Mazraʿa al-Gharbiyya, the Ibrahim to Mazraʿa al-Sharqiyya and the Jirius to al-Fandaqumiyya. They were home within the year, and the ʿAzzouz who survived joined the Jaghab. This is oral tradition, written down by Cadora in 1954. No outside source confirms it{n}.",
+  "<b>The ʿAzzouz incident, as the town tells it.</b> A marriage was refused in a Hānī family, and the killing followed. The whole town left. The Shakara went to Beitunia, the Sharaka to Beit Ijza, the Jaghab to Silwad, the Yousef to Abu Qash, the Hasasneh to ʿAin Yabroud, the ʿAwwād to Mazraʿa al-Gharbiyya, the Ibrahim to Mazraʿa al-Sharqiyya and the Jirius to al-Fandaqumiyya. They were home within the year, and the ʿAzzouz who survived joined the Jaghab. This is oral tradition, written down by Cadora in 1954. No outside source confirms it{n}.",
   "Shāhīn (1982), pp. 33–34, after Cadora (1954), Arabic edition p. 59 (pp. 40–41 of the 2023 edition); Shaheen (2005), p. 18, for the ʿAzzouz joining the Jaghab."),
   lambda: _P(
   "<b>The faction wars, from a local chronicle.</b> Macalister and Masterman printed it in 1905–06 “from native sources.” After the Egyptians left in 1840, Ramallah’s people sought the protection of Muṣṭafā Abū Ghōsh of the Yaman, who set guardians over them. The Qaysī leaders of the town, Yūsif Ḥarb and ʿAīsa Abū Jughub, appealed to the Simḥān. A Qaysī force “proceeded against Ram Allah, which they reached a little before sunset.” Abū Ghōsh attacked at midnight with about three thousand men. His brother Ṭāhā was killed, and more than a hundred died. Later he “set out for Ram Allah, which he attacked. All the inhabitants fled except one dumb old man”; “the village, however, was not looted.” So a Ḥarb and a Jaghab led the town in the 1840s, and they are named in an account written outside it{n}.",
@@ -805,7 +805,7 @@ CH(2)
 
 sect('What the ground says', 'The first people of this land, and the layers they left')
 ent('about 3500 – 2400 BC', 'attested', False, 'The first villages of this district',
- f"""These are not general claims about “the region”. They are <b>named, excavated and dated sites within a few kilometres of our town</b>. Tell en-Naṣba, on the edge of al-Bireh and about two and a half kilometres from the centre of Ramallah, was a village of about 3500–3300 BC, in the Late Chalcolithic (the Copper Age) and Early Bronze I{c('Tell en-Naṣba, identified with biblical Mizpah, on the edge of al-Bīra. Excavated in five seasons, 1926–1935, by William Frederic Badè for the Pacific School of Religion. The Late Chalcolithic / Early Bronze I village is Stratum 5, c. 3500–3300 BC, after which the site was long abandoned.')}. et-Tell, five kilometres east, was an Early Bronze town lived in from 3200 to 2400 BC{c('et-Tell, generally identified with biblical Ai, 5.3 km east of Ramallah. Excavated by John Garstang (1928), Judith Marquet-Krause (1933–35), Joseph Callaway (1964–70) and Hani Nur el-Din (2005–07). Occupation runs from Early Bronze I through Early Bronze III, c. 3200–2400 BC.')}. ʿAin Samiya, fifteen and a half kilometres north-east, holds a cemetery of shaft tombs from the Intermediate Bronze Age, the time between the Early and Middle Bronze Ages, 2300–2000 BC. The famous ʿAin Samiya goblet came from it{c('ʿAin Samiya and the neighbouring Dhahr Mirzbaneh, east of Kafr Malik. <b>The distance is now checked:</b> the spring and valley of ʿAin Samiya lie at about 31.988° N, 35.333° E (Palestine grid 181/155), some 15.5 km in a straight line north-east of al-Manāra square in Ramallah (31.904° N, 35.203° E). The site: Intermediate Bronze Age (Early Bronze IV) shaft-tomb cemeteries, c. 2300–2000 BC. Paul Lapp excavated Dhahr Mirzbaneh in 1963; Zvi Yeivin excavated ʿAin Samiya in 1970–71. The ʿAin Samiya goblet is an Intermediate Bronze piece, not a Chalcolithic one.')}.""",
+ f"""These are not general claims about “the region”. They are <b>named, excavated and dated sites within a few kilometres of our town</b>. Tell en-Naṣba, on the edge of al-Bīra and about two and a half kilometres from the centre of Ramallah, was a village of about 3500–3300 BC, in the Late Chalcolithic (the Copper Age) and Early Bronze I{c('Tell en-Naṣba, identified with biblical Mizpah, on the edge of al-Bīra. Excavated in five seasons, 1926–1935, by William Frederic Badè for the Pacific School of Religion. The Late Chalcolithic / Early Bronze I village is Stratum 5, c. 3500–3300 BC, after which the site was long abandoned.')}. et-Tell, five kilometres east, was an Early Bronze town lived in from 3200 to 2400 BC{c('et-Tell, generally identified with biblical Ai, 5.3 km east of Ramallah. Excavated by John Garstang (1928), Judith Marquet-Krause (1933–35), Joseph Callaway (1964–70) and Hani Nur el-Din (2005–07). Occupation runs from Early Bronze I through Early Bronze III, c. 3200–2400 BC.')}. ʿAin Samiya, fifteen and a half kilometres north-east, holds a cemetery of shaft tombs from the Intermediate Bronze Age, the time between the Early and Middle Bronze Ages, 2300–2000 BC. The famous ʿAin Samiya goblet came from it{c('ʿAin Samiya and the neighbouring Dhahr Mirzbaneh, east of Kafr Malik. <b>The distance is now checked:</b> the spring and valley of ʿAin Samiya lie at about 31.988° N, 35.333° E (Palestine grid 181/155), some 15.5 km in a straight line north-east of al-Manāra square in Ramallah (31.904° N, 35.203° E). The site: Intermediate Bronze Age (Early Bronze IV) shaft-tomb cemeteries, c. 2300–2000 BC. Paul Lapp excavated Dhahr Mirzbaneh in 1963; Zvi Yeivin excavated ʿAin Samiya in 1970–71. The ʿAin Samiya goblet is an Intermediate Bronze piece, not a Chalcolithic one.')}.""",
  """
 <p>Two mistakes are common in local writing, and we put them right here. ʿAin Samiya is often
 called Chalcolithic. <b>It is Intermediate Bronze Age</b>, some fifteen hundred years later. And
@@ -962,7 +962,7 @@ excavation found exactly that: an Early Bronze town destroyed about 2400 BC, the
 a thousand years, then a village of Iron I, the first part of the Iron Age, built quietly on the abandoned mound{c('Judith Marquet-Krause (1933–35); Joseph A. Callaway for the American Schools of Oriental Research (1964–70); Hani Nur el-Din, al-Quds University (2005–07). John Garstang trenched the site in 1928. The absence of a Late Bronze town at et-Tell is long-established and much discussed; what is not in doubt is the sequence — Early Bronze town, long abandonment, Iron I village.')}. The name and
 the ground say the same thing. Whoever named that hill knew what was on it.</p>
 <p>What does this mean for a family from Ramallah? The landscape of scripture is not somewhere else.
-It is the ground between al-Bireh and Ṭaybeh. <b>Its names were kept by the people who farmed those
+It is the ground between al-Bīra and Ṭaybeh. <b>Its names were kept by the people who farmed those
 hills and went on saying the words</b>, not in a library, not by a church, not by a state. When we say
 the people of this ridge were never replaced, the map of the Bible is one of the proofs. A replaced
 people forgets the names.</p>"""),
@@ -1093,7 +1093,7 @@ accurately</b>: a town at the end of the settled country, with the desert starti
 is exactly what a man withdrawing from Jerusalem would want. And it is still, today, the last entirely
 Christian town in Palestine.</p>
 <p>Two more places on this map belong to the beliefs of the neighbours rather than to the evidence,
-and we mark them that way. At <b>al-Bireh</b>, one and a half kilometres from the centre of Ramallah,
+and we mark them that way. At <b>al-Bīra</b>, one and a half kilometres from the centre of Ramallah,
 there is a Crusader church. It is in the record by 1128, and the German pilgrim Theodoric described it
 in 1172. By the fourteenth century the Latins held that this was the day’s-journey halt of Luke 2:44,
 where Mary and Joseph discovered the boy was not with the company{c('On the church of St Mary at al-Bīra: in the record from September 1128 under the jurisdiction of the Holy Sepulchre, and described by Theodoric in 1172; a Romanesque basilica of roughly 22 × 35 metres. The Holy Family association is attested from the fourteenth century. See Denys Pringle, <i>The Churches of the Crusader Kingdom of Jerusalem</i>, s.v. al-Bīra; and the Palestinian Ministry of Tourism and Antiquities site record. <b>The identification of al-Bīra with the Beeroth of Joshua 9:17 is Robinson’s and remains disputed; the Holy Family association is later still, and rests on nothing earlier than the Crusader period.</b>')}.</p>
@@ -1539,7 +1539,7 @@ CH(9)
 
 sect('What the ground says', 'Four centuries in which the land is thoroughly documented and our own line is not')
 ent('1099 → 1187', 'documents', False, 'Magna Mahumeria and the Franks',
- 'In these centuries rulers change again and again around villages that stay put. The first new rulers are the Franks, the Crusaders from Western Europe, who arrive in 1099. Crusader al-Bireh, the next hill over from ours, becomes <b>Magna Mahumeria</b>, one of the largest Frankish rural settlements in the kingdom of Jerusalem. Its charter of 1156 lists ninety-two Frankish burgesses, or townsmen, by name, and some fifty more are added over the next thirty years{}. Not one local Christian is listed, though the local Christians were plainly there, because the Franks had to farm around them. Saladin takes the place back in 1187. Yāqūt, writing a generation later, reports having seen the ruin himself{}.'.format(
+ 'In these centuries rulers change again and again around villages that stay put. The first new rulers are the Franks, the Crusaders from Western Europe, who arrive in 1099. Crusader al-Bīra, the next hill over from ours, becomes <b>Magna Mahumeria</b>, one of the largest Frankish rural settlements in the kingdom of Jerusalem. Its charter of 1156 lists ninety-two Frankish burgesses, or townsmen, by name, and some fifty more are added over the next thirty years{}. Not one local Christian is listed, though the local Christians were plainly there, because the Franks had to farm around them. Saladin takes the place back in 1187. Yāqūt, writing a generation later, reports having seen the ruin himself{}.'.format(
   c('The 1156 charter in the cartulary of the Holy Sepulchre, often cited as of 11 February, a day this project has not verified against the cartulary itself; Ellenblum, <i>Frankish Rural Settlement in the Latin Kingdom of Jerusalem</i> (1998); Pringle, <i>The Churches of the Crusader Kingdom of Jerusalem</i>, I. '+D('1993_Pringle_Churches_of_the_Crusader_Kingdom_v1.pdf')+'.'),
   c('Yāqūt al-Ḥamawī, <i>Muʿjam al-buldān</i>, s.v. <span class="ar">البيرة</span>. A first-person <span class="ar">رأيتها</span> sometimes quoted here cannot be verified in the text, and is not printed. The secondary literature says only that Yāqūt mentions having seen the ruins.')),
  f"""
@@ -1618,7 +1618,7 @@ archive in Jerusalem, the words
 of fourteenth-century government offices and courts, photographed on microfilm in 1978, defeats it
 completely.</p>
 <p>So we searched <b>the published catalogue</b> instead, which any reader can check. Across the whole
-of it, the villages of our country, north and south of Jerusalem (Jifnā, ʿAbūd, Ṭaybeh, al-Bireh,
+of it, the villages of our country, north and south of Jerusalem (Jifnā, ʿAbūd, Ṭaybeh, al-Bīra,
 Silwād, Beit Jala, and Ramallah itself), appear exactly twice. One is the queried <span class="ar">جفنا الجوز؟</span> above. The other is a
 letter of 1914 about appointing an imam at Silwād in the nāḥiya, or district, of ʿAbawīn, five and a
 half centuries too late to help{c('#887, a letter of Jumādā I 1332 / 1914 from Muḥammad Kāmil al-Ḥusaynī, deputy judge of the sharīʿa court at Jerusalem, requesting a <i>berat</i> for Shaykh Muḥammad b. Shaykh ʿAbd al-Fattāḥ as imam of the mosque at Silwād. Aljoumani, Bhalloo &amp; Hirschler (2024), 103.')}.</p>
@@ -1784,7 +1784,7 @@ word underneath it is al-ʿUmarī’s, and it explains the whole silence, as the
 
 ent('about 1340', 'documents', False,
     'The word underneath',
- f'''Al-ʿUmarī does not file these Ghassānids under tribes. He files them under
+ f'''Al-ʿUmarī does not file these Ghassanids under tribes. He files them under
 <span class="ar">صليبة العرب</span>, <i>Arabs of pure and direct descent</i>. Then he says what has
 become of them: <b>“in Syria there are, of the pure-stock Arabs, various peoples in the
 settled country <span class="ar">قد خرجوا بها عن حكم العرب</span> — they have passed out of the
@@ -1821,8 +1821,8 @@ ent('900 / 1495', 'documents', False,
  f'''<b>Now the evidence on the other side, at full strength.</b> Mujīr al-Dīn al-ʿUlaymī finished
 <i>al-Uns al-jalīl</i> at Jerusalem in 900 AH, which is 1495. That is within a few years of the time
 Rāshid lived, in the city our ridge belongs to, in a book about the country of Jerusalem and Hebron
-and its people. He mentions the Ghassānids exactly once, in the usual list of the Prophet’s letters to
-foreign kings: al-Ḥārith the Ghassānid at Damascus. He mentions them nowhere else{c('Mujīr al-Dīn al-ʿUlaymī, <span class="ar">الأنس الجليل بتاريخ القدس والخليل</span>, searched complete in <b>two independent printed editions</b> (the Dandīs and the Najaf texts). <span class="ar">غسان</span> and every inflected form return nothing; <span class="ar">الغساني</span> returns one hit in each, the same sentence: <span class="ar">وأرسل إلى الحارث الغساني بدمشق</span>. <span class="ar">الغساسنة</span>, <span class="ar">الأيهم</span>, <span class="ar">تنوخ</span> and <span class="ar">لخم</span> return nothing at all. <b>Controls prove the search reaches the text</b>: <span class="ar">القدس</span> 363 and 307, <span class="ar">غزة</span> 62 and 55. <i>It is once, formulaically, and anybody can check it in five seconds.</i>')}.''',
+and its people. He mentions the Ghassanids exactly once, in the usual list of the Prophet’s letters to
+foreign kings: al-Ḥārith the Ghassanid at Damascus. He mentions them nowhere else{c('Mujīr al-Dīn al-ʿUlaymī, <span class="ar">الأنس الجليل بتاريخ القدس والخليل</span>, searched complete in <b>two independent printed editions</b> (the Dandīs and the Najaf texts). <span class="ar">غسان</span> and every inflected form return nothing; <span class="ar">الغساني</span> returns one hit in each, the same sentence: <span class="ar">وأرسل إلى الحارث الغساني بدمشق</span>. <span class="ar">الغساسنة</span>, <span class="ar">الأيهم</span>, <span class="ar">تنوخ</span> and <span class="ar">لخم</span> return nothing at all. <b>Controls prove the search reaches the text</b>: <span class="ar">القدس</span> 363 and 307, <span class="ar">غزة</span> 62 and 55. <i>It is once, formulaically, and anybody can check it in five seconds.</i>')}.''',
  f"""
 <p>Mujīr al-Dīn wrote in our forefather Rāshid’s own generation, so his silence deserves a careful
 look, from both sides.</p>
@@ -2058,7 +2058,7 @@ a meal without salt, which binds no one to keep faith:
 <i>“Treachery, O Haddad!”</i> The clan flees by night across al-Lisān, the ford of the Dead Sea, to
 Ḥalḥūl, and then to the Beit Jala country.</p>
 <p><b>The Cadora account.</b> Rāshid is a blacksmith, a <i>ḥaddād</i> in Arabic. He plants forged
-blades in the ford, so that the pursuers’ horses turn the water red. He settles first at al-Bireh beside
+blades in the ford, so that the pursuers’ horses turn the water red. He settles first at al-Bīra beside
 Sheikh Ṭanāsh. Then he buys the wooded hill next door from the Ghazāwneh, for the sake of kindling for
 his forge.</p>
 <p>Shāhīn weighs both and decides. The eldest son was named Haddad, and that is where the name
@@ -2076,7 +2076,7 @@ They stop six months at Ḥalḥūl, then settle in the Beit Jala and Bethlehem 
 Ramallah. A second brother stays in Beit Jala. The third goes to al-Salṭ, “where his offspring, the
 Haddadeen, remain until this day.”</p>
 <p>Their Muslim neighbours from the south, the seven brothers of al-Banawiyya under one Ḥusayn, settle
-beside them at al-Bireh. After six years Ṣabra goes home to
+beside them at al-Bīra. After six years Ṣabra goes home to
 Karak{c('N. Shaheen (2005), ch. 2, pp. 13–16, printing ʿAdnān al-Ḥaddādīn’s account dated 8 August 1953. The Bayt Jālā and al-Salṭ brothers are not named.')}.</p>
 <p><b>The daughter the whole flight was about stays in the story.</b> “An Egyptian Christian named
 Haleesa came as a refugee to Sabra. Sabra gave him his daughter as a bride (the daughter that was the
@@ -2109,7 +2109,7 @@ and part of the clan went back. Jaussen still lists the Ḥaddādīn at Karak un
 quarrel with the Ḥalasa, and settle there for good only in 1909, after they had gone over to the
 Melkite rite{c('Chatelard (2000), PDF p. 53 n. 56, citing <i>ʿAshāʾir al-Ḥaddādīn ḥattā ʿām 1991</i>: « s’étaient réfugiés une première fois à Maʿin vers 1901 après une dispute avec les Halasa et ne s’y établirent définitivement qu’en 1909, après être passés au rite melkite »; '+D('2000_Chatelard_Briser_la_mosaique_Chretiens_de_Madaba_1870-1997_these.pdf')+'. <span class="ar">الرأي</span>, 27 November 2007, for 1894. Jaussen (1908), p. 396, for Karak about 1905.')}.</p>
 <p><b>Cadora remembers the land.</b> In his version it is Sheikh Ṭanāsh of Karak who flees with
-Rāshid and becomes the father of the Ḥusayn clan at al-Bireh. Rāshid buys the hill of Ramallah from
+Rāshid and becomes the father of the Ḥusayn clan at al-Bīra. Rāshid buys the hill of Ramallah from
 the Ghazāwneh, “the original Bireh natives.” He goes back to Karak and leaves his five sons, who
 divide the land in fifths, as the next chapter tells{c('Joseph Jiryes Cadora, <i>History of the City of Ramallah</i> (New York, 1954), as printed in N. Shaheen (2005), ch. 3, pp. 17–18. Shaheen notes where Cadora differs from ʿAdnān: the girl is Rāshid’s daughter, Rāshid returns to Karak, and Ṣabra is Rāshid’s son. The two accounts name different founders for the Ḥusayn clan of al-Bīra — al-Banawiyya’s Ḥusayn or Sheikh Ṭanāsh.')}.</p>
 <p>Abū Rayya also wrote down what he was told at Maʿīn.</p>
@@ -2531,7 +2531,7 @@ the register puts them at the head of the page.</b> We have long said that
 Muslims were never absent from Ramallah. <i>Now we can say who they were.</i></p>"""),
 
 ent('after 1562', 'oral', True, 'The five sons and the eight clans',
- 'Ramallah was now a mostly Christian village on endowment land, counted by the Ottoman clerks. The family remembers how its land was shared out. It was divided in fifths among <b>Haddad, Ibrahim, Jirius, Shukair and Hassaan</b>. Jirius was not satisfied, so he was given the extra parcel called Karm ʿAli. Haddad’s fifth was then divided again among his own five sons{}.'.format(c('Shāhīn (1982), ch. 1: the fifths, Karm ʿAli, and the eight clans — four Hadadeh (Sharaka, Jaghab, Yousef, ʿAwwaad-with-ʿAzzouz) and four Hamayel.')),
+ 'Ramallah was now a mostly Christian village on endowment land, counted by the Ottoman clerks. The family remembers how its land was shared out. It was divided in fifths among <b>Haddad, Ibrahim, Jirius, Shukair and Hassaan</b>. Jirius was not satisfied, so he was given the extra parcel called Karm ʿAli. Haddad’s fifth was then divided again among his own five sons{}.'.format(c('Shāhīn (1982), ch. 1: the fifths, Karm ʿAli, and the eight clans — four Hadadeh (Sharaka, Jaghab, Yousef, ʿAwwād-with-ʿAzzouz) and four Hamayel.')),
  f"""
 <p>Out of this double division comes the shape every Ramallah family still knows: <b>eight clans,
 four Hadadeh and four Hamayel</b>. The Hadadeh are Haddad’s descendants; the Hamayel are the clans
@@ -2590,7 +2590,7 @@ looting{c('Rood, <i>Jerusalem Quarterly</i> 27 (2006): “The following day the 
 After the revolt was put down, conscription was extended to Christians as well. The rising of 1834 was a revolt of
 tax-farming shaykhs, the chiefs who collected the state’s taxes, and their villages against a
 centralising state. <b>Religion was a factor, but it was not the dividing line.</b>{c('On the looting of 23–24 May: Rood (2004), p. 128 — “virtually every Muslim, Jewish and Christian-owned shop was raided and damaged.” On conscription extended to Christians after the revolt: Joel Beinin, <i>Workers and Peasants in the Modern Middle East</i>, p. 33. <b>A claim this book will not print:</b> that Bethlehem’s Muslim quarter was destroyed in reprisal on 1 June. It circulates widely, sourced to Rood’s 2004 book at p. 130; her own article says something else for that date — that the Taʿāmira armed themselves to defend Christians in Bethlehem against looting Khedival troops — and this project could not read the book. <b>Withdrawn pending the page.</b>')}</p>
-<p>Apart from a few lines in Shāhīn, Ramallah and al-Bireh appear in no account of that year that we
+<p>Apart from a few lines in Shāhīn, Ramallah and al-Bīra appear in no account of that year that we
 have found. As we told in “Feuds, a pasha and a faction,” Shāhīn records only that Ibrāhīm Pasha
 occupied the town without resistance, and that its hundred and fifty families fed his army’s oxen and
 got them back.</p>
@@ -2627,7 +2627,7 @@ its revenue assigned to endowment. <i>It was a waqf village, held by a religious
 almost entirely undocumented for this town. <i>Ramallah is absent from the lists. That is not the
 same as having been proved to be nothing.</i></p></div></div>
 <p><b>What we still don’t know.</b> Beyond Shāhīn’s few lines, we have found no account of 1834 that
-names Ramallah or al-Bireh. And the two centuries from about 1600 to 1800 are still almost entirely
+names Ramallah or al-Bīra. And the two centuries from about 1600 to 1800 are still almost entirely
 undocumented for our town. Papers or memories from those years, in any family, could help fill the
 gap.</p>"""),
 
@@ -2658,7 +2658,7 @@ ent('the 1800s', 'oral', True, 'How the town lived',
 house. There the men gathered in the evening over coffee to settle disputes, appoint the village
 watchman and shepherd, and argue about the harvest. At first the whole town had one. Then there were
 two, one for the Hadadeh and one for the Hamayel. Then, as the clans grew, each of the eight had its
-own{c('Shāhīn (1982), ch. 4, “Social Gatherings; the Guest House.” The oldest known photograph of Ramallah’s inhabitants — the ʿAwwaad clan seated outside their madafa, c. 1890 — hangs enlarged in Ramallah’s City Hall.')}.</p>
+own{c('Shāhīn (1982), ch. 4, “Social Gatherings; the Guest House.” The oldest known photograph of Ramallah’s inhabitants — the ʿAwwād clan seated outside their madafa, c. 1890 — hangs enlarged in Ramallah’s City Hall.')}.</p>
 <p>A distinguished guest was given a <i>mensaf</i>. It came in a wooden bowl big enough for fifteen
 loaves: bread soaked in lamb broth, a deep layer of rice, and an entire leg of lamb, the
 <i>shadah</i>, laid on top for the guest of honour. That was <b>twenty to thirty pounds of meat</b>,
@@ -2735,7 +2735,7 @@ sect('The ground and the line, together', 'The town starts leaving, and every ro
 
 ent('19th century', 'documents', False,
     'The twin town and the Rafeedie family',
- f'''One and a half kilometres from the centre of Ramallah there is a second town, al-Bireh. It is older than ours, larger than ours until our families came up the ridge in 1562 (after that, the registers count Ramallah at about twice its size), and Muslim where ours is Christian. From some point in the nineteenth century a Christian family has lived there, <b>the Rafeedie family</b> (al-Rafīdī). They came to al-Bireh, Sāmiḥ Ḥammūdeh tells us, from the village of Rafīdiyā in the Nablus district, and their name is simply that village worn into a surname{c('Sāmiḥ Ḥammūdeh (Birzeit University), <span class="ar">البيرة في فترة الاحتلال والانتداب البريطاني ١٩١٧–١٩٤٨</span>, in <i>Shuʾūn Filasṭīniyya</i>: al-Bīra’s Mandate-era population was the continuation of families settled there in the Mamluk and Ottoman periods — al-Ṭawīl, al-Qarʿān, al-Ḥamāyil, al-Ghazāwna — <span class="ar">وعائلة الرفيدي المسيحية، وقد وفدت إليها من قرية رفيديا، قضاء نابلس في العهد العثماني، في القرن التاسع عشر</span>: “and the Christian Rafeedie family, which came to it from the village of Rafīdiyā, Nablus district, in the Ottoman period, in the nineteenth century.” Ḥammūdeh is the author of <i>Ottoman Ramallah</i> (Institute for Palestine Studies) and of the 2014 article this book’s founding chapter is built on — he is the same historian, reading the same kind of register, for the town next door. <b>An honest qualification, added after the endnotes were obtained: Ḥammūdeh’s note on this sentence (endnote 9) is an explanatory aside about the 1948 refugees, not a citation, and he gives no source for the Rafeedie’s arrival from Rafīdiyā.</b> The nearest reference in the passage is his note 8, to Muṣṭafā Murād al-Dabbāgh, <span class="ar">بلادنا فلسطين</span>, vol. 8 pt. 2, p. 258, which supports the family-names list but which he does not attach to this sentence. <i>The claim is printed here as Ḥammūdeh’s assertion, on his authority as the historian of Ottoman Ramallah, and not as a documented finding.</i> The article appeared in <i>Shuʾūn Filasṭīniyya</i> 275–276 (2019); Ḥammūdeh died on 25 May 2019, aged 59, before the series of city studies he had planned could go further.')}. They belong in our story, and not only as neighbours.''',
+ f'''One and a half kilometres from the centre of Ramallah there is a second town, al-Bīra. It is older than ours, larger than ours until our families came up the ridge in 1562 (after that, the registers count Ramallah at about twice its size), and Muslim where ours is Christian. From some point in the nineteenth century a Christian family has lived there, <b>the Rafeedie family</b> (al-Rafīdī). They came to al-Bīra, Sāmiḥ Ḥammūdeh tells us, from the village of Rafīdiyā in the Nablus district, and their name is simply that village worn into a surname{c('Sāmiḥ Ḥammūdeh (Birzeit University), <span class="ar">البيرة في فترة الاحتلال والانتداب البريطاني ١٩١٧–١٩٤٨</span>, in <i>Shuʾūn Filasṭīniyya</i>: al-Bīra’s Mandate-era population was the continuation of families settled there in the Mamluk and Ottoman periods — al-Ṭawīl, al-Qarʿān, al-Ḥamāyil, al-Ghazāwna — <span class="ar">وعائلة الرفيدي المسيحية، وقد وفدت إليها من قرية رفيديا، قضاء نابلس في العهد العثماني، في القرن التاسع عشر</span>: “and the Christian Rafeedie family, which came to it from the village of Rafīdiyā, Nablus district, in the Ottoman period, in the nineteenth century.” Ḥammūdeh is the author of <i>Ottoman Ramallah</i> (Institute for Palestine Studies) and of the 2014 article this book’s founding chapter is built on — he is the same historian, reading the same kind of register, for the town next door. <b>An honest qualification, added after the endnotes were obtained: Ḥammūdeh’s note on this sentence (endnote 9) is an explanatory aside about the 1948 refugees, not a citation, and he gives no source for the Rafeedie’s arrival from Rafīdiyā.</b> The nearest reference in the passage is his note 8, to Muṣṭafā Murād al-Dabbāgh, <span class="ar">بلادنا فلسطين</span>, vol. 8 pt. 2, p. 258, which supports the family-names list but which he does not attach to this sentence. <i>The claim is printed here as Ḥammūdeh’s assertion, on his authority as the historian of Ottoman Ramallah, and not as a documented finding.</i> The article appeared in <i>Shuʾūn Filasṭīniyya</i> 275–276 (2019); Ḥammūdeh died on 25 May 2019, aged 59, before the series of city studies he had planned could go further.')}. They belong in our story, and not only as neighbours.''',
  f"""
 <p><b>The Rafeedie tell our own story back to us, in another town’s voice.</b> Rafīdiyā’s account
 of itself goes like this. A Christian family of Ghassanid descent fled Karak to escape a forced
@@ -2765,7 +2765,7 @@ Rāshid ever stood at a ford.</p>
 <p><b>The ground under our neighbours is not a tradition at all.</b> Al-Bireh has been lived in
 without a break for so long that the shape of the medieval town can still be read in the modern
 street plan. Denys Pringle, the Crusader archaeologist who excavated it, writes that the general
-layout of medieval al-Bireh <i>remains fairly clear in the twentieth-century street pattern, despite
+layout of medieval al-Bīra <i>remains fairly clear in the twentieth-century street pattern, despite
 over eight centuries of continuous habitation</i>{c('Denys Pringle, “Magna Mahumeria (al-Bīra): the Archaeology of a Frankish New Town in Palestine,” in <i>Fortification and Settlement in Crusader Palestine</i> (Routledge, 2023), ch. VI, 147–168, DOI 10.4324/9781003418405-6; and <i>The Churches of the Crusader Kingdom of Jerusalem</i> I (Cambridge, 1993), 161–165. Al-Bīra sits at 860 m on the Nablus road, 16 km north of Jerusalem. Medieval Islamic reoccupation is attested by the thirteenth century, evidenced by a hoard of 116 copper coins, Ayyubid and Mamluk, found in a cistern in 1951.')}.</p>
 <p>The Frankish, or Crusader, new town there was Magna Mahumeria, which we met in chapter six. Its
 charter of 1156 lists ninety-two burgesses, its townsmen, by name. Its parish church of St Mary is in
@@ -2773,16 +2773,16 @@ the record by <b>1128</b>, and the German pilgrim Theodoric described it in
 1172{c('Palestinian Ministry of Tourism and Antiquities, site record for the church at al-Bīra: documented September 1128 under the jurisdiction of the Holy Sepulchre; described by Theodoric, 1172; a Romanesque basilica of roughly 22 × 35 m with three semi-circular apses; known as St Mary’s Parish Church, the Church of the Holy Family and the Church of the Visitation; probably converted to a mosque after Ṣalāḥ al-Dīn retook the town in 1195, and largely demolished by Turkish forces in the First World War for bridge stone.')}.</p>
 <p>The old buildings are counted too. Riwaq’s registry of historic buildings, a Palestinian survey
 that walked 422 localities between 1994 and 2007 and recorded 50,320 buildings, lists 381
-historic buildings at Ramallah, the most in the governorate, and <b>168 at al-Bireh</b>. The al-Bireh list is dominated by the houses of al-Qarʿān, al-Ṭawīl, al-Ḥamāyil and
+historic buildings at Ramallah, the most in the governorate, and <b>168 at al-Bīra</b>. The al-Bīra list is dominated by the houses of al-Qarʿān, al-Ṭawīl, al-Ḥamāyil and
 al-Qarāqira. These are the same families Ḥammūdeh names, arrived at independently, building by
 building{c('Riwaq — Centre for Architectural Conservation, Ramallah, <i>Registry of Historic Buildings in Palestine</i>, browsable free at buildings.riwaq.org: 50,320 buildings in 422 localities, surveyed 1994–2007, with 400+ digitised maps and 45,000+ photographs. Ramallah and al-Bīra governorate: 71 localities, 7,618 historic buildings, of which Ramallah city holds 381 and al-Bīra 168. Three Riwaq restoration projects at al-Bīra, five at Ramallah. <b>The Ramallah list is given house by house under its owners’ names</b> — <span class="ar">دار حنا وجريس عيسى حنا حديد</span>, <span class="ar">دار بشارة حنا عقال</span>, <span class="ar">دار سالم غنام</span>, <span class="ar">دار مغنم</span>, the Ottoman court, the Ramallah hotel and dozens more. It is the nearest thing that exists to a house-by-house gazetteer of this town, it is Palestinian, and it is free.')}.</p>
 <p>Underneath all of it, inside the modern streets, lies Khirbet Raddana, the farming village of the
 early Iron Age (Iron I) that we mapped in chapter two. It was dug in salvage seasons between 1969 and
-1974, and al-Bireh’s own growth has since built over it. Iron Age village, Frankish town, Ayyubid
+1974, and al-Bīra’s own growth has since built over it. Iron Age village, Frankish town, Ayyubid
 coins in a cistern, Ottoman quarter, modern city: one continuous street plan.</p>
 <p><b>The two towns are recorded together twenty-one years before the Christian families were counted
 here.</b> A Jerusalem court record of 1541 has Ḥasan bin ʿAlī of the village of Ramallah doing
-business with men from the village of al-Bireh{c('Jerusalem sharīʿa court records, 1541, in Sāmiḥ Ḥammūdeh, “New Light on Ramallah’s Origins in the Ottoman Period,” <i>Jerusalem Quarterly</i> 59 (2014). Note the date: 1541 is twenty-one years before the Christian settlement was counted in 1562, and the Ramallah party is one of the Muslim households already on the hill.')}.
+business with men from the village of al-Bīra{c('Jerusalem sharīʿa court records, 1541, in Sāmiḥ Ḥammūdeh, “New Light on Ramallah’s Origins in the Ottoman Period,” <i>Jerusalem Quarterly</i> 59 (2014). Note the date: 1541 is twenty-one years before the Christian settlement was counted in 1562, and the Ramallah party is one of the Muslim households already on the hill.')}.
 So before there was a Christian Ramallah at all, the Muslim households on this hill were already
 trading with the town next door. The relationship is older than the Christian settlement.</p>
 <div class="fix"><div class="fixhead">And the thing the numbers say, which is the opposite of ours</div>
@@ -2795,18 +2795,18 @@ town{c('1596: Hütteroth and Abdulfattah (1977), p. 116 — 45 households, all M
 <i>Two towns whose streets run into one another, with opposite religious arithmetic, and no record
 of that ever having been the point.</i></p>
 <p style="max-width:none"><b>We will not claim them as our own.</b> The Rafeedie are an
-al-Bireh family, not a Ramallah clan; in America they have their own society, organised around
+al-Bīra family, not a Ramallah clan; in America they have their own society, organised around
 descent from their own town, as the Federation is organised around descent from ours. <i>They are
 not part of this genealogy.</i> <b>They are part of this history</b> — which is a different claim,
 and the truer one.</p></div></div>
-<p>Jumping ahead a century, one Rafeedie we can name from the record is Wissām Rafeedie, journalist, of al-Bireh. He was
+<p>Jumping ahead a century, one Rafeedie we can name from the record is Wissām Rafeedie, journalist, of al-Bīra. He was
 arrested at his home on 11 August 1994 and held under administrative detention orders, renewed for
 twenty-one months, until the United Nations Working Group on Arbitrary Detention declared the
 detention <b>arbitrary</b> in 1996{c('UN Working Group on Arbitrary Detention, <i>Rafeedie v. Israel</i>, Opinion No. 17/1996, 23 May 1996 — residence given as “El Bireh, West Bank”; arrested 11 August 1994; the Working Group found the detention arbitrary, citing the absence of effective appeal and its duration.')}.</p>
 <p>He wrote a novel in prison on Red Cross booklets, and it was confiscated. He got a second copy out
 in miniature handwriting hidden in pill capsules, and it was printed in <b>Ramallah</b>, in
 1998{c('Wissām Rafeedie, <span class="ar">الثالوث الأصولي</span> (<i>The Trinity of Fundamentals</i>), written from 1993 in al-Naqab (Ktzi‘ot) prison, printed in Ramallah in 1998 after his release; English translation 2024.')}.
-An al-Bireh man’s book, printed in our town. That is what the bond between these two places looks
+An al-Bīra man’s book, printed in our town. That is what the bond between these two places looks
 like, and it did not need a shared family tree.</p>
 <div class="fix"><div class="fixhead">Two things this book was offered and would not print</div>
 <div class="fixgrid">
@@ -2837,17 +2837,17 @@ since.</p>
  'Shāhīn (1982) for the start date and the named firsts; the Federation’s conventions for the cities.')}"""),
 
 ent('1901–1904', 'documents', False, 'Elihu Grant writes the town down',
- 'Most of what we know about how Ramallah lived comes from ʿAzīz Shāhīn, who lived it. <b>Elihu Grant</b> was superintendent of the American Friends Schools at Ramallah and Jerusalem from 1901 to 1904. He happened to be counting the same houses at the time, so his notes let us put dates on what Shāhīn remembered. Shāhīn is our source, and Grant is our clock. In 1907 Grant published <i>The Peasantry of Palestine</i>, two hundred and fifty-five pages on village life, with a chapter on Ramallah and al-Bireh by name{}.'.format(c('Elihu Grant, <i>The Peasantry of Palestine: The Life, Manners and Customs of the Village</i> (Boston: Pilgrim Press, 1907), 255 pp. with 39 leaves of plates — the c. 340-page figure belongs to the enlarged edition of 1921, <i>The People of Palestine</i>; the title page describes him as “Resident (1901–1904).” Chapter IX, from p. 187, is “Village life in the concrete. Description of actual villages, Ram Allah and el-Bireh”; chapter X covers eṭ-Ṭīreh, ʿAyn ʿArīk, Baytīn, Dayr Dīwān, eṭ-Ṭaybeh, Jifnā, ʿAyn Sinya, Bīr Zayt, ʿAbūd and Mukhmās — nearly every village on this book’s district map. ' + D('peasantryofpales00gran.pdf') + '.')),
+ 'Most of what we know about how Ramallah lived comes from ʿAzīz Shāhīn, who lived it. <b>Elihu Grant</b> was superintendent of the American Friends Schools at Ramallah and Jerusalem from 1901 to 1904. He happened to be counting the same houses at the time, so his notes let us put dates on what Shāhīn remembered. Shāhīn is our source, and Grant is our clock. In 1907 Grant published <i>The Peasantry of Palestine</i>, two hundred and fifty-five pages on village life, with a chapter on Ramallah and al-Bīra by name{}.'.format(c('Elihu Grant, <i>The Peasantry of Palestine: The Life, Manners and Customs of the Village</i> (Boston: Pilgrim Press, 1907), 255 pp. with 39 leaves of plates — the c. 340-page figure belongs to the enlarged edition of 1921, <i>The People of Palestine</i>; the title page describes him as “Resident (1901–1904).” Chapter IX, from p. 187, is “Village life in the concrete. Description of actual villages, Ram Allah and el-Bireh”; chapter X covers eṭ-Ṭīreh, ʿAyn ʿArīk, Baytīn, Dayr Dīwān, eṭ-Ṭaybeh, Jifnā, ʿAyn Sinya, Bīr Zayt, ʿAbūd and Mukhmās — nearly every village on this book’s district map. ' + D('peasantryofpales00gran.pdf') + '.')),
  f"""
 <p>Grant counted things. Down one street south of the market he recorded <b>twenty-two houses, one
 store and one silversmith’s shop</b>, and he measured seven hundred and eighty feet to the threshing
 floor. He gave the price of meat at Ramallah: eight to twelve cents a pound, depending on the season.
 He also dated the carriage road from Jerusalem exactly. It opened in May 1901 and ran fifteen
-kilometres to al-Bireh{c('Grant (1907), 191–96 for the street survey, the market and the threshing floor; 189 for the road: “It was in May, 1901, that the road mentioned was opened up for use from Jerusalem to el-Bireh, a distance of fifteen kilometers.” <i>Shāhīn dates the same road to 1901; Grant, who used it, gives the month.</i>')}.</p>
+kilometres to al-Bīra{c('Grant (1907), 191–96 for the street survey, the market and the threshing floor; 189 for the road: “It was in May, 1901, that the road mentioned was opened up for use from Jerusalem to el-Bireh, a distance of fifteen kilometers.” <i>Shāhīn dates the same road to 1901; Grant, who used it, gives the month.</i>')}.</p>
 <p>Grant also read the town’s history in its buildings. In 1903 he could see four kinds of house
 standing side by side. The oldest were the <i>skīfeh</i> huts: stone bedded in earth, with dirt roofs
 laid on boughs. Next came dressed stone and mortar with rolled earth roofs. Then came the heavy arched
-stone dome roofs, which by then were <b>the majority in Ramallah</b> and rare in al-Bireh. Newest were
+stone dome roofs, which by then were <b>the majority in Ramallah</b> and rare in al-Bīra. Newest were
 the houses of several rooms, with modern windows, paved floors and cisterns, which the wealthier
 villagers were putting up as he watched. <i>“The development of several centuries in highland peasant
 homes may thus be traced.”</i> He was reading our town’s whole economic history off its own walls,
@@ -2913,7 +2913,7 @@ ent('1922–1944', 'documents', False, 'The counting years',
  'Shāhīn (1982), citing Cadora (1954), pp. 136–37, and the British census reports; Barron (1923); Mills (1932).')}
 {NUMTABLE('THE 1944 RATION-CARD CENSUS — the eight clans of 1562, still countable',
  ['Clan', 'Persons'],
- [['ʿAwwaad', '625'], ['Sharaka', '650'], ['Yousef', '750'], ['Jaghab', '675'],
+ [['ʿAwwād', '625'], ['Sharaka', '650'], ['Yousef', '750'], ['Jaghab', '675'],
   ['Shakara', '660'], ['Jirius', '550'], ['Ibrahim', '775'], ['Hassaan', '200'],
   ['<b>Natives</b>', '<b>4,885</b>'], ['Outsiders', '1,415'], ['<b>Total</b>', '<b>6,300</b>']],
  'By religion: Greek Orthodox 3,570 · Roman Catholic 1,080 · Greek Catholic 700 · Episcopalian 325 · Friends 200 · Muslims 425. — Shāhīn (1982).')}
@@ -2945,7 +2945,7 @@ both to Jerusalem. That night <b>five to eight hundred armed men</b> closed the 
 marched through it and raised an Arab flag on a house. On 16 September three armed men took the
 typewriters and the duplicator from the district offices.</p>
 <p>Totah dates the great battle to <b>25 September</b>. He tells of six British aircraft, and of
-fighting from the armoured car at al-Manāra to the al-Bireh crossroads. The Quaker letters put their
+fighting from the armoured car at al-Manāra to the al-Bīra crossroads. The Quaker letters put their
 battle on Saturday 1 October, and the British government’s own report for 1938 agrees with them: on 1 October “a British police inspector was fatally wounded at Ramallah by a band,” which “was later engaged and suffered some 50 casualties.” So these are two fights, a week apart. Totah also records the plan for the soldiers: 260 in the Friends school and 400 in government schools and hotels.</p>[[C45]]
 <p>In October three men of the town stole two typewriters, and Totah complained. <b>The rebels then
 held a court in Ramallah</b>, returned the machines and punished the thieves{c('Thomas M. Ricks, ed., <i>Turbulent Times in Palestine: The Diaries of Khalil Totah, 1886–1955</i> (Jerusalem and Ramallah: Institute for Palestine Studies and PASSIA, 2009), diary entries of 5, 9, 16 and 25 September and October 1938, as set out in “Ramallah and the Great Palestinian Rebellion in the Diaries of Khalil Totah (1938–1939),” Institute for Palestine Studies, 7 March 2023, palestine-studies.org/en/node/1653696 (pp. 231–32 of Ricks for the police-station attack). The article notes that the 25 September battle may be the one at Wadi Shaiban, in which some sources count seventy-five fighters killed. On the rebel courts across the country, which sat “in business places or school buildings” and heard ordinary disputes as well as political cases: Charles W. Anderson, “State Formation from Below and the Great Revolt in Palestine,” <i>Journal of Palestine Studies</i> 47:1 (2017), pp. 45–47.')}.</p>"""),
@@ -3015,7 +3015,7 @@ ent('1948', 'documents', False, 'The catastrophe of 1948',
 
 ent('1949 → 1957', 'documents', False,
     'Where the refugees lived',
- f'''The refugees who reached Ramallah in July 1948 went into five camps, and the official lists add a small sixth at Silwād (453 people in the census of 2017). One, Qaddūra, is <b>inside Ramallah itself</b>{c('The camp figures throughout this entry are from the Applied Research Institute–Jerusalem (ARIJ) locality profiles for Qaddura, al-Amʿari, al-Jalazun, Qalandiya and Deir ʿAmmar (2012), which carry PCBS 2007 population counts; and from UNRWA’s camp pages for registered-refugee totals. '+D('2012_ARIJ_Qaddura_Camp_Profile.pdf')+' · '+D('2012_ARIJ_al-Amari_Camp_Profile.pdf')+' · '+D('2012_ARIJ_al-Jalazun_Camp_Profile.pdf')+' · '+D('2012_ARIJ_Qalandiya_Camp_Profile.pdf')+'.')}. Al-Amʿarī, al-Jalazūn and Qalandiyā are within about six kilometres, and Dayr ʿAmmār is twelve kilometres north-west.''',
+ f'''The refugees who reached Ramallah in July 1948 went into five camps, and the official lists add a small sixth at Silwād (453 people in the census of 2017). One, Qaddūra, is <b>inside Ramallah itself</b>{c('The camp figures throughout this entry are from the Applied Research Institute–Jerusalem (ARIJ) locality profiles for Qaddūra, al-Amʿarī, al-Jalazūn, Qalandiyā and Deir ʿAmmar (2012), which carry PCBS 2007 population counts; and from UNRWA’s camp pages for registered-refugee totals. '+D('2012_ARIJ_Qaddura_Camp_Profile.pdf')+' · '+D('2012_ARIJ_al-Amari_Camp_Profile.pdf')+' · '+D('2012_ARIJ_al-Jalazun_Camp_Profile.pdf')+' · '+D('2012_ARIJ_Qalandiya_Camp_Profile.pdf')+'.')}. Al-Amʿarī, al-Jalazūn and Qalandiyā are within about six kilometres, and Dayr ʿAmmār is twelve kilometres north-west.''',
  f"""
 {NUMTABLE('The camps of this district', ['camp','where','set up','on whose land','who is in it','2017'],
  [['<b>Qaddūra</b>','inside Ramallah city, 0.5 km east of the centre','1948','<b>private land</b> — so UNRWA never recognised it as a camp','Dayr Ṭarīf, al-Lidd, Lifta, al-Ramla, Jaffa, Qālūniya, ʿImwās','924'],
@@ -3038,7 +3038,7 @@ people registered and the people counted{c('UNRWA, “Jalazone Camp,” read 7 S
 anybody minding.</p>
 <p>The tents came down slowly. UNRWA began building permanent structures in 1951 and adopted a shelter
 programme in 1955. <b>Al-Jalazūn had concrete shelters from 1953, and al-Amʿarī’s last tent was gone by
-1957</b>{c('Kjersti G. Berg, “The Evolving Infrastructure of Palestinian Refugee Camps,” <i>Interactive Encyclopedia of the Palestine Question</i> (Institute for Palestine Studies): UNRWA began constructing permanent structures in 1951, adopted a shelter programme in 1955, and “by 1959 most tents were replaced with concrete huts.” Khaldun Bshara, “Al-Jalazone Refugee Camp,” same encyclopedia, for concrete at Jalazone from 1953; UNRWA’s own camp page for al-Amʿari for the 1957 date. UNRWA itself was created by UN General Assembly Resolution 302 (IV) of 8 December 1949 and began operations on 1 May 1950.')}. It took nine years to go from a tent to a wall.</p>
+1957</b>{c('Kjersti G. Berg, “The Evolving Infrastructure of Palestinian Refugee Camps,” <i>Interactive Encyclopedia of the Palestine Question</i> (Institute for Palestine Studies): UNRWA began constructing permanent structures in 1951, adopted a shelter programme in 1955, and “by 1959 most tents were replaced with concrete huts.” Khaldun Bshara, “Al-Jalazone Refugee Camp,” same encyclopedia, for concrete at al-Jalazūn from 1953; UNRWA’s own camp page for al-Amʿarī for the 1957 date. UNRWA itself was created by UN General Assembly Resolution 302 (IV) of 8 December 1949 and began operations on 1 May 1950.')}. It took nine years to go from a tent to a wall.</p>
 <p>In <b>1950</b> Jordan annexed the West Bank and gave the refugees citizenship. That made them, alone
 among Palestinians in exile, refugees and citizens at the same time{c('The Jericho Conference of 1 December 1948 preceded the annexation of April 1950; the Jordanian Nationality Law of 1954 conferred citizenship on “any person who, not being Jewish, possessed Palestinian nationality before 15 May 1948 and resides ordinarily in the Hashemite Kingdom.” Jalal Al Husseini, “Palestinian Refugees in the West Bank,” and “Palestinians in Jordan, 1948–1967,” both in the <i>Interactive Encyclopedia of the Palestine Question</i>, drawing on Myriam Ababsa (ed.), <i>Atlas of Jordan</i> (IFPO, 2013). Some 280,000 refugees were in the West Bank in 1949.')}.</p>
 <div class="fix"><div class="fixhead">How our town changed</div>
@@ -3379,7 +3379,7 @@ ent('III', 'documents', True, 'The founding of Ramallah',
   ['1186', 'Rām Allāh first named — as the place a Crusader king’s road leads to', 'Strehlke no. 20; Ḥammūdeh (2014), p. 39'],
   ['1279–80', 'The hill endowed to the Ibrāhīmī sanctuary at Hebron', 'sijill 48, p. 88 (1565)'],
   ['<b>c. 1300</b>', '<b>Ghassān still entered as a living people — al-Balqāʾ, the Yarmūk, Ḥimṣ</b>', 'al-Ḥamdānī the <i>mihmandār</i>, via al-ʿUmarī and al-Qalqashandī'],
-  ['1495', 'Mujīr al-Dīn, at Jerusalem, mentions the Ghassānids once and formulaically', '<i>al-Uns al-jalīl</i>, searched complete in two editions'],
+  ['1495', 'Mujīr al-Dīn, at Jerusalem, mentions the Ghassanids once and formulaically', '<i>al-Uns al-jalīl</i>, searched complete in two editions'],
   ['c. 1500', 'Rāshid al-Ḥaddādīn — generation 66', 'both family texts'],
   ['<b>1561–62</b>', '<b>The Christian settlement: terms agreed in court in 1561; counted in 1562 as 71 Christian taxpayers, 63 households and 8 single men, beside 10 Muslim households already on the hill</b>', 'the court record of 968/1561; the register of 970/1562, transcribed in full'],
   ['1596–97', 'The register counts 80 households, 71 Christian — the names are in Ankara, not yet read by us', 'the defter'],

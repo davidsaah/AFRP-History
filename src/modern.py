@@ -211,7 +211,7 @@ def apply(g):
                    'A Ramallah household under curfew, April 2002 (Seitz, <i>Middle East Report Online</i>)'))
 
     wall = ent(12, '2002–2025', 'The Wall, a capital, and our own people',
-        'The Wall cut Ramallah off from Jerusalem, and the road south now ends at the checkpoint of <b>Qalandiya</b>. '
+        'The Wall cut Ramallah off from Jerusalem, and the road south now ends at the checkpoint of <b>Qalandiyā</b>. '
         'The International Court of Justice found the Wall contrary to international law on 9 July 2004. '
         'Around the town stand <b>26 settlements</b> with nearly <b>150,000 settlers</b>; Beit El and Psagot are built on the land of al-Bīra, some of it owned by Palestinian-Americans{}. '
         'The town became a capital without a state. In 2005 it elected <b>Janet Mikhail</b>, its first woman mayor{}. '
