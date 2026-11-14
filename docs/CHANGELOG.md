@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v80 — 13 November 2026: pictures beside their stories, charts a phone can read
+
+No dates or findings change. The pictures and charts do.
+
+- **Shaheen plates.** 27 new portraits and scenes from the Shaheen collection (`img/shaheen/CATALOGUE.csv`), each placed in the entry it belongs to, with a short caption and its rights line. About 30 plates that sat at chapter heads now sit beside their entries, spread through the text; every placement is checked against the entry's era. The duplicate 1186 charter plate is gone.
+- **One numbering.** Every figure, map and plate is numbered by chapter ("Figure 7.3 · Portrait"), front matter as 0.n; the kind (Portrait, Scene, Document, Map, Chart, Diagram) shows on each.
+- **New phone-first charts** (`src/build_figs6.py`, 400 units wide, no text under 14 units): the churches and schools, 1776–1925; the households, 1525–1596, with the neighbours in 1596; Karak's Christians counted and named; the Ḥaddādīn and the Ḥalasa; the emigration, 1901–1975; the population, 1838–2021; five sons and eight clans; what the land gave; the camps and their people. The nine-link ladder is redrawn for every chapter.
+- **Removed:** "The peoples of this land … overlap", "The whole story on one scale" and "Ramallah among its neighbours, 1596" (now inside the households chart).
+- **Maps:** Adhruḥ spelled as the sources spell it; the Dead Sea note added to four maps; the Fig 19 crossing labelled "across the Jordan"; al-Lisān placed on the Karak map.
+- **Figure wording:** the figures state what the record shows, with no correction language; Figure 7.6 follows the text (1538–39; early 1600s).
+- Print and phone builds both regenerate; the print rules size the ladders to the page.
+
 ## v79 — 13 November 2026: two editions from one source, set as a book
 
 No words or facts in the book change. Only the layout does.

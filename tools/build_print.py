@@ -165,6 +165,7 @@ img{filter:none!important;mix-blend-mode:normal!important}
   padding:.08in 0 .06in!important;margin:0 0 .3in!important;font-size:8.6pt;line-height:1.35;break-inside:avoid;text-align:left}
 .linkat .lkhead{font:500 8.4pt/1 SERIF!important;font-variant:small-caps;text-transform:lowercase;letter-spacing:.16em;color:#9A6324!important;margin-bottom:.05in}
 .linkat .lkladder svg{max-height:1.5in;width:100%}
+.linkat .lkladder svg.phonefig{max-height:2.4in!important;width:auto!important;max-width:100%!important;margin:0}
 
 /* ── the running text ── */
 .chron::before,.entry::before,.entry::after,.sect::before{display:none!important}
@@ -385,7 +386,7 @@ def prepare(h):
             dropped.append(src)
             return ''
         return m.group(0).replace(src, uri).replace(' loading="lazy"', '')
-    h = re.sub(r'<figure class="photo[^"]*">(<img [^>]*?src="([^"]+)"[^>]*>).*?</figure>', photo, h, flags=re.S)
+    h = re.sub(r'<figure class="photo[^"]*"[^>]*>(<img [^>]*?src="([^"]+)"[^>]*>).*?</figure>', photo, h, flags=re.S)
 
     def img(m):
         src = m.group(1)

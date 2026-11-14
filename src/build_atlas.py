@@ -491,7 +491,7 @@ def fig_road():
     for la, lo, nm, k, dx, dy, an in [
             (15.42, 45.33, 'Maʾrib', 'mem', 9, 4, 'start'),
             (21.42, 39.83, 'the Ḥijāz', 'mem', 9, 4, 'start'),
-            (30.33, 35.60, 'Udhruḥ', 'mem', 9, 12, 'start')]:
+            (30.33, 35.60, 'Adhruḥ', 'mem', 9, 12, 'start')]:
         x, y = mark(s, A, la, lo, k)
         label(s, x, y, nm, dx, dy, an, 13)
     mark(s, A, 31.90, 35.20, 'ram')
@@ -515,11 +515,11 @@ def fig_road():
     route(s, B, [(30.33, 35.60), (30.53, 35.56), (31.18, 35.70), (31.68, 35.73),
                  (31.87, 35.53), (31.72, 35.19), (31.90, 35.20)], col=MS.MEM, w=2.6)
     for la, lo, nm, k, dx, dy, an in [
-            (30.33, 35.60, 'Udhruḥ', 'mem', 10, 12, 'start'),
+            (30.33, 35.60, 'Adhruḥ', 'mem', 10, 12, 'start'),
             (30.53, 35.56, 'al-Shawbak', 'mem', -10, 0, 'end'),
             (31.18, 35.70, 'al-KARAK', 'doc', 10, 4, 'start'),
             (31.68, 35.73, 'Maʿīn', 'doc', 10, -6, 'start'),
-            (31.87, 35.53, 'the ford of al-Lisān', 'mem', 8, -9, 'start'),
+            (31.87, 35.53, 'across the Jordan', 'mem', 8, -9, 'start'),
             (31.72, 35.19, 'Bayt Jālā', 'doc', -10, 14, 'end')]:
         x, y = mark(s, B, la, lo, k)
         label(s, x, y, nm, dx, dy, an, 13.5 if nm.isupper() else 13)
@@ -651,7 +651,7 @@ def fig_roman():
                                   ('ram0', 'the site of Ramallah')])
     H = foot(s, W, M.y + M.h + 50,
              'When the family walks up this ridge in 1562, and when the first emigrants ride down it in 1901, they are using a road Rome paved.',
-             'Sites after Pliny, Josephus, Eusebius and the Madaba mosaic. Coastlines after Natural Earth; Lambert conformal conic; contours every 200 m, the 800 m line bolder. ' + TERRAIN_SRC)
+             'Sites after Pliny, Josephus, Eusebius and the Madaba mosaic. Coastlines after Natural Earth; Lambert conformal conic; contours every 200 m, the 800 m line bolder. ' + TERRAIN_SRC + ' The Dead Sea outline is the modern one.')
     return plate_end(s, H)
 
 # ═══════════════════════ 3 · the hills around Ramallah ════════════════
@@ -691,7 +691,7 @@ def fig_district():
                                   ('ram0', 'the site of Ramallah before 1562')], rows=2)
     H = foot(s, W, M.y + M.h + 74,
              'Ramallah is the one place with nothing under it before 1562, which is exactly what a hill of endowment land should look like. The dashed ring is two kilometres.',
-             'Coastlines after Natural Earth; Lambert conformal conic. Contours every 100 m, the 800 m line bolder: the ridge. ' + TERRAIN_SRC)
+             'Coastlines after Natural Earth; Lambert conformal conic. Contours every 100 m, the 800 m line bolder: the ridge. ' + TERRAIN_SRC + ' The Dead Sea outline is the modern one.')
     return plate_end(s, H)
 
 
@@ -728,7 +728,7 @@ def fig_oldest():
     MS.legend(s, M.y + M.h + 30, [(v[0], v[1]) for v in KIND.values()] + [('ram', 'Ramallah')])
     H = foot(s, W, M.y + M.h + 50,
              'The Natufian, the first culture anywhere to build regularly in stone and hold a base camp through the year, is named after a wadi in this governorate. These highlands are thinly excavated: the blank spaces are gaps in the survey record, not gaps in the past.',
-             'Garrod; Boyd and Crossland; Badè; Marquet-Krause and Callaway; Kenyon. Coastlines after Natural Earth; Lambert conformal conic; contours every 200 m, the 800 m line bolder. ' + TERRAIN_SRC)
+             'Garrod; Boyd and Crossland; Badè; Marquet-Krause and Callaway; Kenyon. Coastlines after Natural Earth; Lambert conformal conic; contours every 200 m, the 800 m line bolder. ' + TERRAIN_SRC + ' The Dead Sea outline is the modern one.')
     return plate_end(s, H)
 
 # ═══════════════════════ 5 · the Ḥaddādīn of Jordan ═══════════════════
@@ -744,7 +744,7 @@ def fig_haddadin():
     PL = [(32.49, 35.87, 'al-Ḥuṣn', 10, -4, 'start'), (32.53, 35.86, 'Aydūn', 10, 10, 'start'),
           (32.40, 35.72, 'Kufr ʿAwān', -10, 4, 'end'), (32.04, 35.73, 'al-Salṭ', 10, 4, 'start'),
           (31.72, 35.79, 'Madaba', 10, -4, 'start'), (31.68, 35.73, 'Maʿīn', 10, 10, 'start'),
-          (30.53, 35.56, 'al-Shawbak', 10, 4, 'start'), (30.33, 35.60, 'Udhruḥ', 10, 4, 'start')]
+          (30.53, 35.56, 'al-Shawbak', 10, 4, 'start'), (30.33, 35.60, 'Adhruḥ', 10, 4, 'start')]
     BIG = [(31.18, 35.70, 'al-KARAK', 10, -4, 'start'), (31.13, 35.73, 'Ḥamūd', 10, 12, 'start')]
     for la, lo, nm, dx, dy, an in PL:
         x, y = dot(s, M, la, lo, RUST, 4.8)
@@ -770,7 +770,7 @@ def fig_haddadin():
                             'north of Karak.'], RUST),
         ('CENTRE — AL-BALQĀʾ', ['At al-Salṭ, and at Maʿīn and Madaba',
                                 'on the plateau beside Nitl.'], RUST),
-        ('SOUTH — THE PLATEAU', ['al-Shawbak and Udhruḥ, the southern',
+        ('SOUTH — THE PLATEAU', ['al-Shawbak and Adhruḥ, the southern',
                                  'end of the Christian plateau, where',
                                  'al-Yaʿqūbī located Ghassān in 890.'], RUST),
         ('AND ACROSS THE RIVER', ['Relatives at Nazareth, called',
@@ -844,7 +844,7 @@ def fig_karak():
     M.sea(s, 31.24, 35.49, 'DEAD SEA', 11, -78)
     s.append(txt(M.x, M.y - 8, 'A · THE WHOLE ROUTE', 12, GOLD, 'start', '700', 'normal', '1.1'))
 
-    legs = [([(31.18, 35.70), (31.55, 35.35), (31.60, 35.10)], MS.MEM, '1'),
+    legs = [([(31.18, 35.70), (31.27, 35.50), (31.32, 35.37), (31.60, 35.10)], MS.MEM, '1'),
             ([(31.60, 35.10), (31.72, 35.19)], MS.DOC, '2'),
             ([(31.72, 35.19), (31.9038, 35.2034)], MS.DOC, '3')]
 
@@ -875,6 +875,8 @@ def fig_karak():
             (30.33, 35.60, 'Gharandal', 'doc', 9, 6, 'start')]:
         x, y = mark(s, M, la, lo, k)
         label(s, x, y, nm, dx, dy, an, 13.5 if nm.isupper() else 13)
+    x, y = mark(s, M, 31.27, 35.47, 'mem')
+    label(s, x, y, 'al-Lisān', -9, 4, 'end', 13)
     mark(s, M, 31.9038, 35.2034, 'ram')
     M.scalebar(s)
 
@@ -944,5 +946,5 @@ def fig_karak():
                                  ('doc', 'found in an Ottoman register or source'), ('ram', 'Ramallah')])
     H = foot(s, W, 92 + 450 + 50,
              'Two memories and a tax ledger, telling one story in three voices, and every stage from Karak onward can be checked against a register kept by somebody else.',
-             'Ḥammūdeh, Jerusalem Quarterly 59 (2014); Hütteroth and Abdulfattah (1977); Piccirillo (2001); al-Yaʿqūbī. Coastlines after Natural Earth; Lambert conformal conic; contours every 200 m on sheet B. ' + TERRAIN_SRC)
+             'Ḥammūdeh, Jerusalem Quarterly 59 (2014); Hütteroth and Abdulfattah (1977); Piccirillo (2001); al-Yaʿqūbī. Coastlines after Natural Earth; Lambert conformal conic; contours every 200 m on sheet B. ' + TERRAIN_SRC + ' The Dead Sea outline is the modern one.')
     return plate_end(s, H)

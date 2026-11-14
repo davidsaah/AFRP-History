@@ -1286,7 +1286,7 @@ scattered them utterly.”{c('Qurʾān 34:19: <span class="ar">فَجَعَلْ�
  'The dam’s dated failures are <b>455, 542/543 and 547–548</b>, with a last recorded restoration in 557/558 and abandonment conventionally placed at <b>570 or 575</b>. The migration tradition stands; the century attached to it moves forward by some 250 years.',
  'Abraha’s repair inscription of 548 (CIH 541) fixes the mid-sixth-century breach absolutely. <b>The final failure is fixed by nothing:</b> every South Arabian text about the dam is a repair text, the last dated 557/558, and the conventional 570 or 575 rests on later Arabic tradition, not on epigraphy or excavation. This book prints that, not a confident “c. 575–580”. <b>The later date costs the story nothing and gains it everything:</b> moved forward, the departure lands in exactly the century when the family’s claimed dynasty was at its height on the Roman frontier — which is where the next entries find them.')}
 {fig(R.fig_dam(),'The dam, and a date that has to move',
- 'The tradition’s “about 300 AD” against the dated breaches. A correction, not a demolition.',
+ 'The tradition’s “about 300 AD” against the dated breaches. The tradition survives; its century moves.',
  'Nebes, PSAS 34 (2004); CIH 541; the family tradition in both key texts.')}"""),
 
 ent('c. 250 against 455', 'documents', False,
@@ -3305,7 +3305,7 @@ ent('I', 'attested', True, 'Our origins',
  f"""
 <p>Our story is told, and the evidence behind it has been laid out chapter by chapter. Here we weigh
 three claims on all of it: our origins, our contribution, and the founding of Ramallah.</p>
-<p><b>Go back to Figure 1 and read the grade column downward.</b> Nine links carry our family from
+<p><b>Go back to Figure 0.1 and read the grade column downward.</b> Nine links carry our family from
 Adam to this morning, and they do not all rest on the same kind of evidence.</p>
 <p>A doubter always aims at link two, which matches Joktan in the Bible with Qaḥṭān, ancestor of the
 southern Arabs. But that link is a thousand years old, and every Qaḥṭānī Arab in the world stands on
@@ -3659,16 +3659,19 @@ figure.frontis img{display:inline-block;width:100%;max-width:520px;height:auto;m
 figure.frontis figcaption{padding:4px 0 0;font-style:italic;color:#6B6760;font-size:.9rem;text-align:center}
 figure.frontis::after{content:"";display:block;width:180px;height:1px;margin:14px auto 0;background:#9A6324}
 figure.photo{margin:24px 0 30px;padding:14px 14px 0;position:relative;z-index:1}
-figure.photo::before{content:"Photograph";display:flex;align-items:center;gap:10px;color:#9A6324;
+figure.photo::before{content:attr(data-k);display:flex;align-items:center;gap:10px;color:#9A6324;
   font:700 10px/1 "Times New Roman",Times,serif;letter-spacing:.26em;text-transform:uppercase;margin:0 4px 10px}
 figure.photo img{display:block;width:auto;max-width:min(100%,820px);max-height:640px;height:auto;border-radius:0;
-  border:1px solid #007A3D;padding:5px;background:#FFFFFF;box-sizing:border-box;
+  border:1px solid #D9D4C8;padding:5px;background:#FFFFFF;box-sizing:border-box;
   filter:grayscale(.2) sepia(.12) contrast(1.03)}
 figure.photo figcaption{max-width:820px;padding:10px 4px 14px;font-style:italic}
 figure.photo figcaption .src{font-style:normal}
-figure.photo.srcpage::before{content:"From the source"}
+
 figure.photo.srcpage img{filter:none;max-height:780px}
-figure.photo.period::before{content:"From the period"}
+/* v80: phone-first plates (src/build_figs6.py) are drawn 400 wide and never swipe */
+.figwrap svg.phonefig,.linkat .lkladder svg.phonefig{width:100%!important;min-width:0!important;max-width:520px!important;height:auto!important;margin:0 auto;display:block}
+@media print{.linkat .lkladder svg.phonefig{max-height:2.6in!important;width:auto!important}}
+
 .front h3{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#8A6A2E;margin:22px 0 6px}
 .front .ded{font-style:italic;font-size:1.05rem;line-height:1.6;margin:0}
 .front p{line-height:1.6;margin:0 0 10px}
@@ -4204,6 +4207,317 @@ def _made(key):
     return f'<span class="made">{lab}.</span> ' if lab else ''
 
 
+# ---------------------------------------------------------------------------
+# v80: the visuals overhaul (David chose "Plus portraits", 13 Nov 2026).
+#  * Every plate sits beside the entry it illustrates; chapters no longer open
+#    with a stack of pictures (the chapter opener is drawn by src/reader.py).
+#  * Plates are spread through the entry's paragraphs, never more than two in a row.
+#  * Each plate says what kind of thing it is (Photograph, Document, Historical
+#    map, ...) and carries one rights line from a fixed list.
+#  * Shaheen's portraits and scenes join the entries that name their people.
+#  * Duplicated figures go; the dense charts are redrawn phone-first
+#    (src/build_figs6.py); every visual is numbered by chapter.
+# ---------------------------------------------------------------------------
+import build_figs6 as F6
+import csv as _csv
+
+RIGHTS = {
+ 'loc': 'No known restrictions on publication (Library of Congress).',
+ 'afrp': 'Courtesy of the American Federation of Ramallah, Palestine.',
+ 'pd': 'Public domain.',
+ 'isa': 'Israel State Archives; reproduced by permission.',
+ 'perm': 'Reproduced by permission.',
+ 'family': 'AFRP family archive.',
+}
+
+# The 1186 charter is shown once, from Strehlke's own print (the Shaheen reprint
+# of the same page is dropped).
+SHAHEEN = {n: [it for it in v if it[0] != 'p030_1.jpg'] for n, v in SHAHEEN.items()}
+SHAHEEN = {n: v for n, v in SHAHEEN.items() if v}
+del PIC_DATES['p030_1.jpg']
+# The bronze shows the founder's family; it belongs with the five sons (chapter 8).
+LOCAL_PHOTOS[8] = LOCAL_PHOTOS.pop(7)
+PIC_DATES['memorial_bronze.jpg'] = (1562, 'A modern memorial')
+LOCAL_PHOTOS[10] = [(fn, cap, 'American Colony Photo Department, 1919. ' + RIGHTS['loc'] if 'spinning' in fn else src)
+                    for fn, cap, src in LOCAL_PHOTOS[10]]
+
+# New plates from Naseeb Shaheen, A Pictorial History of Ramallah II (2005);
+# captions are Shaheen's own, shortened (img/shaheen/CATALOGUE.csv).
+_SH80 = [
+ (8, 'p229_1.jpg', 228, 'The five lions of Manara Square, carved for the five sons of Rāshid.', (1562, 'Photographed in the 1950s')),
+ (9, 'p231_3.jpg', 230, '“Jacob Hishmeh his wife and children. Ram Alla. 1877.” The note on the card adds his mother-in-law, “who wears a round tire, like the moon”. The photographer was Alexander Rosenthal of Jerusalem.', (1877, None)),
+ (9, 'p232_3.jpg', 231, '“Teacher at Ram Alla”: Katie Gabriel, the Maʿallimeh Catibah, in 1877. She came from Souk el-Gharb in Mount Lebanon and served the Friends for more than forty-five years.', (1877, None)),
+ (9, 'p233_2.jpg', 232, '“Cateby and Marsha. Ram Allah. 1879.” Marsha came from Lebanon with Katie Gabriel; both wear the dress of the girls of the Training Home.', (1879, None)),
+ (9, 'p238_3.jpg', 237, 'Im ʿIsa Totah of the Sharaka clan, about 1895, aged perhaps twenty to twenty-five.', (1895, None)),
+ (10, 'p252_1.jpg', 251, 'The passport picture of Ibrahim Shihadeh Kandah of the Ibrahim clan, 1912. He served in the United States army in the First World War and came home in 1919.', (1912, None)),
+ (10, 'p112_3.jpg', 111, 'Nicola and Badiʿa Salameh with their five children in Colombia, about 1921. Nicola had gone out about 1903 and came home in 1909 to marry.', (1921, None)),
+ (10, 'p243_1.jpg', 242, 'Two women inside a Ramallah house, 1906, in the town’s costume: the headdress with its two rows of coins, the saffa and the shakka. The bedding is stacked in the wall niche behind them.', (1906, None)),
+ (10, 'p250_2.jpg', 249, 'Musa Rabah (left) and Yaʿcoub Hanania in the United States army, in the First World War.', (1918, None)),
+ (10, 'p246_1.jpg', 245, 'The Roman Catholic church and school of Ramallah on a postcard of 1918. The school seems to have served as a hospital after the British came that year.', (1918, None)),
+ (10, 'p277_1.jpg', 276, 'Musa Khaleel, mayor of Ramallah (right), with Iskandar Badr, the first mayor of Beit Jala, 17 October 1935.', (1935, None)),
+ (10, 'p173_1.jpg', 172, 'Girls of the Girls’ Training Home about 1910, with Timothy Hussey and his wife at the centre. Katie Gabriel, the boarding school’s first principal, stands at the far left of the back row.', (1910, None)),
+ (10, 'p179_1.jpg', 178, '“The Totah Family”: Khalil Totah stands on the right, with Mother Azeezie, Helanie, Naameh and her children, and Martha Totah. Shaheen dates it about 1920, with a question mark.', (1920, None)),
+ (10, 'p315_1.jpg', 314, 'The graduating class of the Friends Boys School, 1946, with Dr Khalil Totah, the principal, at the centre. Most were boarders from Haifa, Jaffa, Gaza and Tiberias; from Ramallah, Fuad Saʿah, Ghanayem Kandah, George Katouʿah and Andrew Faramand.', (1946, None)),
+ (10, 'p111_1.jpg', 110, 'The priest Hanna Jubran of the Shakara clan (1865–1924), about 1915. He served in Jaffa, Lydda, Ramle, Gaza and al-Salṭ, and came home to Ramallah for the feasts.', (1915, None)),
+ (10, 'p106_1.jpg', 105, 'The Bateh boys in Brooklyn, New York, 20 June 1924: brothers and cousins, fourteen young men of one family.', (1924, None)),
+ (10, 'p268_1.jpg', 267, 'Musa Naser ʿAckall on a postcard he mailed from Newark, New Jersey, 22 January 1922, to his brother Saleh at school in ʿAin Karem: “try and take care of your scool … because at cost plenty of money.”', (1922, None)),
+ (10, 'p266_3.jpg', 265, 'Zareefah Hanna Hishmeh with her sons Rasheed and Marshood, about 1924, in the embroidered taqseereh jacket and the khirkeh scarf.', (1924, None)),
+ (10, 'p227_1.jpg', 226, 'The cast-iron electricity structure that stood in the middle of Manara Square from the 1930s to about 1950. The bright lamp on its roof gave the square its name, al-Manāra, “the lighthouse”. Sketch by Hosni Radwan.', (1940, None)),
+ (11, 'p184_2.jpg', 183, '“Feeding at the church at Ramallah,” summer 1949, at the school opened that March for refugee children. Elaine R. Lubbat and Naimeh Gabriel are the first two adults from the left.', (1949, None)),
+ (11, 'p183_1.jpg', 182, '“Refugee camp near Ramallah. A girl in the doorway of her tent house.” The bedding is sunning on the stones. Received by the Friends in August 1950.', (1950, None)),
+ (11, 'p183_2.jpg', 182, '“A U.N. school for refugee boys in a camp near Ramallah”: the ends of the benches show inside the tent. August 1950.', (1950, None)),
+ (11, 'p184_3.jpg', 183, '“Friends Meeting House Ramallah when refugee school was in session,” spring 1949.', (1949, None)),
+ (11, 'p160_2.jpg', 159, 'Embroiderers working for the Women’s Union in the 1950s. The two women facing the camera in Ramallah dress wear the row of coins called the shekkah.', (1955, None)),
+ (11, 'p357_1.jpg', 356, 'The evening haflah at the first Ramallah convention, Detroit, September 1959.', (1959, None)),
+ (12, 'p343_1.jpg', 342, 'Mughtarabeen Plaza, the Emigrants’ Square, about 1987, known as Clock Plaza for the clock on its column.', (1987, None)),
+ (12, 'p343_2.jpg', 342, 'Ramallah from al-Masyoon, looking east, 1997. Photograph by Basem Ahwal.', (1997, None)),
+]
+for _n, _fn, _pg, _cap, _d in _SH80:
+    SHAHEEN.setdefault(_n, []).append((_fn, _pg, _cap))
+    PIC_DATES[_fn] = _d
+_check_pictures()
+
+# What each picture is, and the entry it belongs to (matched by the start of its title).
+KIND = {
+ 'p024_1.jpg': 'Document', 'p371_1.jpg': 'Document', 'p012_1.jpg': 'Modern map', 'p038_1.jpg': 'Historical map',
+ 'p227_1.jpg': 'Drawing', 'memorial_bronze.jpg': 'Memorial',
+}
+PLACE = {
+ # chapter 1
+ 'matpc/04100/04114v.jpg': 'Jericho, twenty-three', 'matpc/05500/05506v.jpg': 'What this land is made of',
+ 'matpc/22900/22915v.jpg': 'The highlands fill up',
+ 'matpc/01700/01719v.jpg': 'Six sovereigns over one ridge', 'matpc/22100/22165v.jpg': 'The roads Jesus used',
+ 'matpc/05300/05329v.jpg': 'The hills become Christian',
+ 'matpc/03700/03718v.jpg': 'The towns do not die',
+ # chapter 7
+ 'matpc/06900/06951v.jpg': 'Rāshid al-Ḥaddādīn', 'matpc/17000/17063v.jpg': 'Rāshid al-Ḥaddādīn',
+ 'p012_1.jpg': 'What the family remembers',
+ 'matpc/22100/22174v.jpg': 'The Christian settlement of 1561', 'p024_1.jpg': 'The registers do give names',
+ # chapter 8
+ 'memorial_bronze.jpg': 'The five sons and the eight clans', 'p229_1.jpg': 'The five sons and the eight clans',
+ 'p038_1.jpg': 'New families arrive',
+ # chapter 9
+ 'p231_1.jpg': 'The town gains its churches and schools', 'p231_3.jpg': 'How the town lived',
+ 'p238_1.jpg': 'How the town lived',
+ 'p232_3.jpg': 'A teacher and a doctor from outside', 'p233_2.jpg': 'A teacher and a doctor from outside',
+ 'p202_1.jpg': 'The festivals of the church year', 'p238_3.jpg': 'The festivals of the church year',
+ 'p371_1.jpg': 'What a day was worth',
+ # chapter 10
+ 'p252_1.jpg': 'The first four sail for America', 'p112_3.jpg': 'The first four sail for America',
+ 'matpc/01000/01047v.jpg': 'Ramallah becomes a city', 'p244_1.jpg': 'Ramallah becomes a city',
+ 'p245_2.jpg': 'Ramallah becomes a city',
+ 'ppmsca/13100/13196v.jpg': 'The last big fight', 'p172_1.jpg': 'The last big fight',
+ 'p250_1.jpg': 'The war, the locusts', 'p250_2.jpg': 'The war, the locusts', 'p246_1.jpg': 'The war, the locusts',
+ 'matpc/03300/03332v.jpg': 'The revolt reaches the town', 'p277_1.jpg': 'The revolt reaches the town',
+ 'p206_1.jpg': 'The town votes by clan',
+ 'matpc/17700/17778v.jpg': 'The people our town produced', 'p173_1.jpg': 'The people our town produced',
+ 'p179_1.jpg': 'The people our town produced', 'p315_1.jpg': 'The people our town produced',
+ 'p243_1.jpg': 'Elihu Grant writes the town down', 'matpc/00600/00662v.jpg': 'Elihu Grant writes the town down',
+ 'period/spinning_1919.jpg': 'Elihu Grant writes the town down',
+ 'p111_1.jpg': 'The Patriarchate counts its flock',
+ 'p106_1.jpg': 'The counting years', 'p268_1.jpg': 'The counting years', 'p266_3.jpg': 'The counting years',
+ 'p227_1.jpg': 'The counting years',
+ # chapter 11
+ 'p184_2.jpg': 'The catastrophe of 1948',
+ 'p185_1.jpg': 'Where the refugees lived', 'p183_1.jpg': 'Where the refugees lived',
+ 'p183_2.jpg': 'Where the refugees lived', 'p184_3.jpg': 'Where the refugees lived',
+ 'p228_1.jpg': 'The diaspora builds a hospital', 'p160_2.jpg': 'The diaspora builds a hospital',
+ 'p357_1.jpg': 'The Federation', 'p161_3.jpg': 'The Federation',
+ # chapter 12
+ 'p162_2.jpg': 'The city, counted to the present', 'p343_1.jpg': 'The city, counted to the present',
+ 'p343_2.jpg': 'The city, counted to the present',
+}
+
+def _plate(key, src, cap, srcline, kind):
+    alt = re.sub(r'<[^>]+>', '', cap).replace('"', '&quot;')
+    cls = ' srcpage' if kind in ('Document', 'Printed source', 'Newspaper') else ''
+    return (f'<figure class="photo{cls}" data-k="{kind}"><img src="{src}" alt="{alt}" loading="lazy" decoding="async">'
+            f'<figcaption>{_made(key)}{cap}<span class="src">{srcline}</span></figcaption></figure>')
+
+PLATES = {}
+for _n, _items in PHOTOS.items():
+    for path, item, cap, who in _items:
+        PLATES[path] = (_n, _plate(path, '../img/loc/' + path.split('/')[-1], cap,
+                        f'{who} Library of Congress, Prints &amp; Photographs Division, '
+                        f'<a href="https://www.loc.gov/item/{item}/">loc.gov/item/{item}</a>. {RIGHTS["loc"]}', 'Photograph'))
+for _n, _items in LOCAL_PHOTOS.items():
+    for fn, cap, src in _items:
+        if fn == 'memorial_bronze.jpg':
+            src = src + ' ' + RIGHTS['family']
+        PLATES[fn] = (_n, _plate(fn, '../img/' + fn, cap, src, KIND.get(fn, 'Photograph')))
+for _n, _items in SHAHEEN.items():
+    for fn, pg, cap in _items:
+        PLATES[fn] = (_n, _plate(fn, '../img/shaheen/' + fn, cap,
+                      f'Naseeb Shaheen, <i>A Pictorial History of Ramallah, Part II</i> (Birzeit University Press, 2005), p. {pg}. {RIGHTS["afrp"]}',
+                      KIND.get(fn, 'Photograph')))
+assert set(PLATES) == set(PLACE), set(PLATES) ^ set(PLACE)
+
+_DEPTH_RE = re.compile(r'<(/?)(div|figure|blockquote|table|ul|ol)\b[^>]*>')
+def _top_para_ends(body):
+    """Offsets just after each </p> that is not inside a nested block."""
+    out, depth, i = [], 0, 0
+    for m in re.finditer(r'<(/?)(div|figure|blockquote|table|ul|ol)\b[^>]*>|</p>', body):
+        if m.group(0) == '</p>':
+            if depth == 0:
+                out.append(m.end())
+        else:
+            depth += -1 if m.group(1) else 1
+    return out
+
+def _spread(body, plates):
+    """Set the plates among the entry's paragraphs, evenly, and after any figure already there."""
+    ends = _top_para_ends(body)
+    fig_end = body.rfind('</figure>')
+    ends = [e for e in ends if e > fig_end] if fig_end >= 0 else ends
+    if not ends:
+        return body + ''.join(plates)
+    m = len(plates)
+    picks = []
+    for j in range(m):
+        k = min(len(ends) - 1, round((j + 1) * len(ends) / (m + 1)))
+        picks.append(ends[k])
+    out, last = [], 0
+    for pos, pl in sorted(zip(picks, plates), key=lambda x: x[0]):
+        out.append(body[last:pos] + pl)
+        last = pos
+    out.append(body[last:])
+    return ''.join(out)
+
+def _entry_index(prefix):
+    hits = [i for i, e in enumerate(E) if e[0] == 'e' and re.sub(r'<[^>]+>', '', e[5]).startswith(prefix)]
+    assert len(hits) == 1, (prefix, hits)
+    return hits[0]
+
+def _add_to_entry(prefix, html, after=None):
+    i = _entry_index(prefix)
+    b = E[i][7]
+    if after:
+        k = b.find(after)
+        assert k >= 0, (prefix, after)
+        b = b[:k] + html + b[k:]
+    else:
+        b = b + html
+    E[i] = E[i][:7] + (b,) + E[i][8:]
+
+_by_entry = {}
+for key, prefix in PLACE.items():
+    _by_entry.setdefault(prefix, []).append(key)
+for prefix, keys in _by_entry.items():
+    i = _entry_index(prefix)
+    for k in keys:   # the picture must show something from the chapter it now sits in
+        lo, hi = ERA_YEARS[E[i][1]]
+        assert lo <= PIC_DATES[k][0] <= hi, ('picture outside its era', k, E[i][1])
+    order = sorted(keys, key=lambda k: PIC_DATES[k][0])
+    E[i] = E[i][:7] + (_spread(E[i][7], [PLATES[k][1] for k in order]),) + E[i][8:]
+
+# Kinds for the pages and plates set inside entries since v61 (SOURCE_PAGES).
+_SRC_KIND = {'strehlke': 'Printed source', 'seetzen': 'Printed source', 'robinson': 'Printed source',
+             'guerin': 'Printed source', 'shahin_1982': 'Printed source', 'defter_1562': 'Printed source',
+             'ramallah_1946_notice': 'Document', 'ramallah_1946_results': 'Document', 'ballot_1946': 'Document',
+             'mirat_al_sharq': 'Newspaper', 'vesconte': 'Historical map', 'pef_1880': 'Historical map',
+             'bireh_church': 'Engraving', 'bireh_khan': 'Engraving', 'grant_1907': 'Photograph'}
+_SRC_RIGHTS = {'ramallah_1946_notice': RIGHTS['isa'], 'ramallah_1946_results': RIGHTS['isa'],
+               'ballot_1946': RIGHTS['isa'], 'shahin_1982': RIGHTS['perm'], 'defter_1562': RIGHTS['perm']}
+def _kind_srcpages(body):
+    def sub(m):
+        src = m.group(2)
+        name = src.split('/')[-1]
+        kind = next((v for k, v in _SRC_KIND.items() if name.startswith(k)), 'Photograph')
+        return f'<figure class="photo{m.group(1) or ""}" data-k="{kind}">{m.group(3)}'
+    body = re.sub(r'<figure class="photo( srcpage| period)?">(?=<img src="([^"]+)")()', sub, body)
+    for k, r in _SRC_RIGHTS.items():
+        body = re.sub(r'(<img src="[^"]*/' + k + r'[^"]*"[^>]*><figcaption>.*?<span class="src">)(.*?)(</span>)',
+                      lambda m: m.group(1) + re.sub(r'\s*(NONE STATED|reproduced in the edition\.?)\s*$', '', m.group(2)).rstrip()
+                      + ('' if r in m.group(2) else ' ' + r) + m.group(3), body, flags=re.S)
+    return body
+for _i, _e in enumerate(E):
+    if _e[0] == 'e' and '<figure class="photo' in _e[7]:
+        E[_i] = _e[:7] + (_kind_srcpages(_e[7]),) + _e[8:]
+
+# ── figures: duplicates out, dense charts redrawn for the phone
+_FIG_RE = lambda title: re.compile(r'<figure><div class="fignum">Figure \d+</div><div class="figtitle">'
+                                   + re.escape(title) + r'</div>.*?</figure>', re.S)
+def _swap_fig(title, new):
+    hits = 0
+    for i, e in enumerate(E):
+        if e[0] == 'e' and title in e[7]:
+            b, n = _FIG_RE(title).subn(lambda m: new, e[7])
+            if n:
+                E[i] = e[:7] + (b,) + e[8:]
+                hits += n
+    assert hits == 1, (title, hits)
+
+# Fig. 10 drew the same idea as Fig. 6 ("How a people is made"), in another style.
+_swap_fig('The peoples of this land do not replace one another — they overlap', '')
+# Fig. 39 repeated the key-dates table set directly above it.
+_swap_fig('The whole story on one scale', '')
+# Figs 26 and 27 become one phone-first chart of the registers.
+_swap_fig('Ramallah among its neighbours, 1596', '')
+_swap_fig('The households, counted', fig(F6.fig_households2(), 'The households, counted, 1525–1596',
+ 'Ramallah in the Ottoman registers of the sixteenth century: uninhabited endowment land, then a handful of Muslim households, then the Christian families from Bayt Jālā, then a village of eighty households paying 9,400 akçe, all of it to the endowment. Below, the same register of 1596 for the villages around. <b>Ramallah, at eighty households, is one of the larger villages of the district and one of the few with a Christian majority.</b> Hütteroth and Abdulfattah publish 1596 as counts; the register itself names all eighty heads of household, and those names are still to be read.',
+ 'Ḥammūdeh, <i>Jerusalem Quarterly</i> 59 (2014), pp. 45–48, for the registers of 1525–28 to 1562; Hütteroth and Abdulfattah (1977), pp. 114–21, for 1596–97; Robinson and Smith (1841) for Jifnā.'))
+# Fig. 30, the clan tree, redrawn for the phone with each clan's 1946 district.
+_swap_fig('One man, five sons, eight clans — and a town', fig(F6.fig_clans2(), 'Five sons, eight clans',
+ 'The social structure of Ramallah from Rāshid down, with each clan’s number in the ration-card count of 1944 and the election district it voted in, in 1946. Nearly four centuries after the land was divided, a British administrator issuing ration books, and the town’s own electoral committee, still counted the town by Rāshid’s grandsons.',
+ 'Shāhīn (1982), ch. 1, for the fifths, Karm ʿAli and the two halves; the 1944 ration-card census; the 1946 election papers, Israel State Archives P-213/40.'))
+# Fig. 35 (the census by sex) and the diaspora half of Fig. 37 become one chart of the emigration.
+_swap_fig('What emigration looks like in a census', fig(F6.fig_emigration(), 'The emigration, 1901–1975',
+ 'The town’s people in America rise from four men in 1901 to more than ten thousand by 1975, while the number at home stops growing. The census of 1931 shows the same thing from the other side: about four hundred men missing from a town of four thousand.',
+ 'Shāhīn (1982), the emigration chapter, for 1,500 (1946), 2,580 and 7,080 (1953), 4,000+ (1960) and 10,000+ (1975); the censuses of 1905, 1922 (Barron 1923) and 1931 (Mills 1932).'))
+_swap_fig('Two populations, one town', fig(F6.fig_population(), 'The population, one honest line',
+ 'Every count of the town’s own residents from 1838 to 2021, on an ordinary scale so the jumps look as large as they were. The refugees of 1948 tripled the town in five years. The dip of 1967 is the occupation’s curfew count, not an emigration. The chart that follows sets the same counts on a logarithmic scale, beside the families in America.',
+ 'Robinson and Smith (1841); the censuses of 1905, 1922, 1931 and 1961; the ration-card count of 1944 and the local count of 1953 (Shāhīn 1982); the 1967 count; PCBS 1997, 2007, 2017 and its projection for 2021.'))
+
+# New visuals, in the entries whose text they draw.
+_add_to_entry('The town gains its churches and schools', fig(F6.fig_missions(), 'Six denominations in fifty years',
+ 'The churches and schools of Ramallah, 1776–1925, in the order they came. The Orthodox parish taught its boys for eighty years before the first mission school arrived; then, in half a century, came Protestants, Latins, Friends, the Sisters of St Joseph and the Germans, each because some of the town’s people asked.',
+ 'This chapter’s entry: the Ottoman education report of 1321 AH (1903) as al-Dabbāgh quotes it; the Friends’ and the mission’s own records as van der Leest and Cadora give them; Shāhīn (1982) and Kaddoura (1954) for St Andrew’s.'))
+_add_to_entry('How the town lived', fig(F6.fig_land(), 'What the land gave',
+ 'The farming year that every emigrant carried in his head: summers in the fig groves, winters round the oven, and in 1920 a crop counted in millions of kilograms.',
+ 'Shāhīn (1982), the chapters on village life and on the crops of 1920.'))
+_add_to_entry('When the Ḥaddādīn name enters the record', fig(F6.fig_halasa(), 'The Ḥaddādīn and the Ḥalasa',
+ 'Two Karak clans joined by a marriage, told from both sides. Green marks what an outside witness saw or wrote down; ochre, what the clan history remembers. The two clans moved to Maʿīn together, quarrelled, parted, and were still marrying into each other in the 1990s.',
+ 'Oppenheim (1947) and Jaussen (1908) as Chatelard (2000) gives them; Connell (2022); Burckhardt (1822); al-Ziriklī; Peake (1934, 1935); the Ḥaddādīn clan history of 1991 as Chatelard cites it; Shaheen (2005), ch. 2.'))
+_add_to_entry('Karak was a Christian town', fig(F6.fig_karak(), 'Karak’s Christians, counted and named',
+ 'The Christian share of Karak from the Ottoman register of 1596 to the Jordanian census of 1961, and the eight Christian clans of the town with the origins each gave Alois Musil. Only the register of 1596 shows a majority; every later count shows a fifth to two-fifths.',
+ 'The 1596 mufaṣṣal (Hütteroth and Abdulfattah 1977, p. 171); Seetzen (1854); Burckhardt (1822); Irby and Mangles (1823); Tristram (1873); Hill (1896); Musil, <i>Arabia Petraea</i> III (1908), p. 99 and the clan table; Jaussen (1908); the Jordanian census of 1961.'))
+_add_to_entry('Where the refugees lived', fig(F6.fig_camps(), 'The camps, with their people',
+ 'How many people live in each camp today. The camps are counted as localities by the Palestinian census bureau; the UNRWA rolls are far larger because they follow every family wherever it now lives.',
+ 'PCBS, Census 2017, camp localities; UNRWA camp profile for al-Amʿarī.'),
+ after='<p>Look at where each camp')
+
+# ── one ladder per chapter, rebuilt for the phone: the nine links as rungs
+_L = LINKAT
+LINKAT = {
+ 1: ('Links one to three &middot; Adam to Qaḥṭān, and the join at Joktan', _L[1][1], 'scripture', 1),
+ 2: ('Link four of nine &middot; Qaḥṭān to al-Azd', _L[2][1], 'none', 2),
+ 3: ('Link five of nine &middot; al-Azd towards Ghassān', _L[3][1], 'none', 3),
+ 4: ('Links five and six &middot; Ghassān named at a water, and the Jafnid phylarchs', _L[4][1], 'attested', 4),
+ 5: ('Link seven of nine &middot; the unnamed generations', _L[5][1], 'none', 5),
+ 6: ('Link seven of nine &middot; the unnamed generations, measured', _L[6][1], 'none', 5),
+ 7: ('Link eight of nine &middot; Rāshid al-Ḥaddādīn', _L[7][1], 'documents', 6),
+ 8: ('Link nine of nine &middot; five sons and eight clans', _L[8][1], 'documents', 7),
+ 9: ('Link nine of nine &middot; the clans become a town',
+     'Documented: parish letters, Ottoman school counts, and travellers who name the town and count its houses.', 'documents', 7),
+ 10: ('Link nine of nine &middot; the town and its emigrants', _L[10][1], 'documents', 7),
+ 11: ('Link nine of nine &middot; the town takes in the refugees',
+      'Documented: local counts, the refugee agencies’ records and the Federation’s own papers.', 'documents', 7),
+ 12: ('Link nine of nine &middot; to this morning',
+      'Documented to the present, in censuses and in living memory.', 'documents', 7),
+ 13: ('All nine links, weighed', 'Scripture, then classical scholarship, then a contemporary Greek historian, then a gap of thirty-one generations, then four and a half centuries of paper.', 'documents', 7),
+}
+def linkat(n):
+    """Where the family's own chain stands as this era opens: nine rungs, this chapter's ringed."""
+    if n not in LINKAT:
+        return ''
+    lab, note, g, row = LINKAT[n]
+    gf, gc, gl = GRADE[g]
+    return (f'<div class="linkat"><div class="lkhead">Where our own line stands here</div>'
+            f'<div class="lkrow"><span class="lkname">{lab}</span>'
+            f'<span class="g" style="background:{gf};color:{gc}">{gl}</span></div>'
+            f'<div class="lknote">{note}</div>'
+            f'<div class="lkladder">{F6.fig_ladder9(row)}</div></div>')
+
 assert not ADD70, list(ADD70)
 assert not ADD72, list(ADD72)
 assert not ADD75, list(ADD75)
@@ -4220,7 +4534,6 @@ def render():
             pk, pt = PARTS[num]
             out.append(f'<div class="partband" id="part{num}"><div class="pk">{pk}</div><h2>{pt}</h2></div>')
         out.append(f'<div class="erahead" id="ch{num}">{band}{linkat(num)}</div>')
-        out.append(photos_for(num))
         open_q = []
         for e in grp:
             if e[0] == 's':
@@ -4381,7 +4694,7 @@ appears in a marked box at the date where it happens.</p>
 thread that holds the story together, and our families are part of what happened on it.</i></p>
 <p><b>Our own family line runs through the story as a chain of nine links.</b> Every chapter
 opens with a strip showing where that chain stands: which link we have reached, and what evidence
-there is for it at that point. Often there is <i>none</i>, and the strip says so. Figure 1 sets out all nine
+there is for it at that point. Often there is <i>none</i>, and the strip says so. Figure 0.1 sets out all nine
 links at once, each with the source that carries it and, printed here for the first time,
 <b>what would prove it wrong</b>.</p>
 <p><b>One change of method matters more than any of the others.</b> John Mogannam’s chart of
@@ -4423,7 +4736,7 @@ CHART_SECTION = (
  '<p><b>This book is not built on this chart.</b> A family genealogy compiled in the present from published tables is a '
  '<i>guide</i> to a line — an excellent one, and the reason this project knew where to look — but it '
  'is not evidence for the line. The evidence is Genesis, the Arabic genealogists, Procopius, the '
- 'Ottoman defters and the parish books, and the chain in Figure 1 is built from those directly.</p>'
+ 'Ottoman defters and the parish books, and the chain in Figure 0.1 is built from those directly.</p>'
  '<p><b>The one number in it that this edition changes is the count.</b> Generation 35 draws nine '
  'hundred and thirty-one years as a single row and labels it “45 generations.” Forty-five implies a '
  'male-line generation of about twenty-one years, which no observed population sustains; the stretch is '
@@ -4552,12 +4865,42 @@ def renumber(body, cites):
     body = re.sub(r'<sup class="cn"><a href="#n(\d+)" id="r\1">\1</a></sup>',
                   lambda m: '<sup class="cn"><a href="#n%d" id="r%d">%d</a></sup>'
                             % ((remap[int(m.group(1))],) * 3), body)
-    fign = [0]
+    # v80: every visual numbered by chapter (front matter 0.n, appendices A.n, B.n, C.n),
+    # with what kind of thing it is: "Figure 7.3 · Map".
+    fign, state = [0], {'ch': '0', 'n': 0}
     def bump(m):
+        if m.group(1) or m.group(2):
+            state['ch'], state['n'] = (m.group(1) or m.group(2)), 0
+            return m.group(0)
+        state['n'] += 1
         fign[0] += 1
-        return '<div class="fignum">Figure %d</div>' % fign[0]
-    body = re.sub(r'<div class="fignum">Figure \d+</div>', bump, body)
+        num = '%s.%d' % (state['ch'], state['n'])
+        if m.group(3) is not None:      # a drawn figure
+            return '<div class="fignum">Figure %s · %s</div><div class="figtitle">%s</div>' % (
+                num, fig_kind(m.group(3)), m.group(3))
+        return '<figure class="photo%s" data-k="Figure %s · %s">' % (m.group(4), num, m.group(5))
+    body = re.sub(r'<div class="erahead" id="ch(\d+)">|id="app([A-C])"'
+                  r'|<div class="fignum">Figure \d+</div><div class="figtitle">(.*?)</div>'
+                  r'|<figure class="photo([^"]*)" data-k="([^"]*)">', bump, body)
     return body, [cites[old_n - 1] for old_n in order], fign[0]
+
+FIG_KINDS = [  # by the start of the title
+ ('Map', ('The oldest ground', 'The ridge in the Iron Age', 'The roads he used', 'The district when Rome',
+          '“They scattered', 'The road, and the ground', 'The hills around Ramallah', 'The road the family',
+          'Where Ramallah went', 'The town, as Shāhīn', 'Where the road stopped')),
+ ('Timeline', ('Six sovereigns', 'The dam, and a date', 'Who ruled, and who stayed', 'Five datings',
+               'Six denominations', 'The Ḥaddādīn and the Ḥalasa', 'The dark half-decade')),
+ ('Table', ('The chain, link by link', 'Every biblical place', 'The same people, nine years', 'John Mogannam')),
+ ('Chart', ('A line to Adam', 'The highlands fill up', 'Forty-five is the wrong', 'The households, counted',
+            'The ladder of a day', 'Every number anyone', 'The family’s account', 'Karak’s Christians',
+            'The emigration', 'The population, one honest', 'The camps, with', 'What the land gave')),
+]
+def fig_kind(title):
+    plain = re.sub(r'<[^>]+>', '', title)
+    for k, starts in FIG_KINDS:
+        if plain.startswith(starts):
+            return k
+    return 'Diagram'
 
 _body = ''.join(html_parts[1:-3])   # drop the pre-built notes band and list
 _body, CITES_ORDERED, NFIGS = renumber(_body, CITES)
