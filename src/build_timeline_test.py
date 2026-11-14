@@ -67,7 +67,7 @@ ROWS = [
   '<b>New and consequential.</b> It dates the arrival of direct Ottoman administration in the town, and it is the administrative prehistory of the 1908 municipality. It also confirms from inside the town what Zeʾevi and the deck argue from the registers: that the hill country was taxed but not governed.'),
  (1903, 'Nicola Khoury brings the first mechanical flour mill; Ibrāhīm Esa Abu Shihady starts a horse-drawn carriage service to Jerusalem at 6 piasters. Wages: labourer 6 piasters a day, boy 4, mason 23, craftsman 15–20; a doctor’s visit 6–10.', 'new',
   '<b>A complete wage table for the town at the turn of the century</b>, which exists nowhere else in this project. Note the mason at 23 piasters — nearly four times a labourer. That bears directly on the mason tradition tested in Part Six of the reconstruction.'),
- (1908, 'Ramallah incorporated as a city; Elias ʿAudi first mayor; council of one representative from each clan.', 'confirmed',
+ (1908, 'Ramallah incorporated as a city; Elias ʿAudeh first mayor; council of one representative from each clan.', 'confirmed',
   'The deck has the 1908 municipality. <b>“One representative from each clan” is new</b> and is the single clearest statement anywhere that the ḥamūla structure <i>was</i> the political structure — the same nine divisions the Family Tree Book is organised by.'),
  (1914, 'World War I; about thirty Ramallah men serving in the Turkish army die.', 'new', 'New.'),
  (1915, 'A locust plague; no crops escape; the economy suffers greatly.', 'confirmed',

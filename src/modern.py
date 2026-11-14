@@ -165,14 +165,17 @@ def apply(g):
         'The feasts went quiet: “all large festivities, both Muslim and Christian, have ceased{}.” '
         'In 1974 the dentist <b>Alfred Toubassi</b> was taken to the Lebanese border at night and sent across, and Birzeit’s president, Dr <b>Ḥannā Nāṣir</b>, was deported for nineteen years{}. '
         'From 1978 the occupation set up the <b>Village Leagues</b> against the elected mayors, with their centre at Ramallah{}. '
-        'The mayor the town had elected, <b>Karīm Khalaf</b>, flew in July 1974 to the Federation’s convention in Houston{}.'.format(
+        'The mayor the town had elected, <b>Karīm Khalaf</b>, flew in July 1974 to the Federation’s convention in Houston{}. '
+        'Many of the town’s students were abroad that June and could not come home. The poet <b>Murīd al-Barghūthī</b>, of Dayr Ghassāna, was sitting his Latin examination at Cairo University on the morning of 5 June 1967; he crossed the Jordan bridge back to Ramallah only in the summer of 1996, thirty years later. '
+        'He found the Society for the Support of the Family, which Umm Khalīl had founded “two years before Ramallah fell to the Israeli Occupation in 1967,” teaching the daughters and sons of martyrs and prisoners to sew, embroider and carve{}.'.format(
             c('Applied Research Institute–Jerusalem (ARIJ), <i>Atlas 40</i>, ch. 1.3.'),
             c(FARHAN + ', pp. 79 and 100–101 (page numbers of the OCR text).'),
             c('al-Haq, field report on the Latrun villages, 13 June 2013. al-Haq is a Palestinian human-rights organisation founded in Ramallah in 1979.'),
             c(SHAHIN + ', English section, pp. 63–64.'),
             c(SH + ', p. 55; ' + BZU + '.'),
             c(FARHAN + ', p. 102.'),
-            c(SH + ', pp. 341 and 357.')),
+            c(SH + ', pp. 341 and 357.'),
+            c('Mourid Barghouti, <i>I Saw Ramallah</i>, trans. Ahdaf Soueif (Cairo: American University in Cairo Press, 2000; Arabic original <span class="ar" dir="rtl">رأيت رام الله</span>, 1997), pp. 1–2 and 115–16.')),
         plate('p162_1.jpg', 161, 'Feeding the children of needy refugees after the 1967 war, late 1960s.')
         + plate('p358_2.jpg', 357, 'Houston, July 1974: Mayor Karīm Khalaf with the Federation’s president, George Mogannam, and all its past presidents.')
         + _rec(['6 June 1967: Ramallah taken (ARIJ).',
