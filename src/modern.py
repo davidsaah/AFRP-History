@@ -50,7 +50,7 @@ def _p(t):
 
 def apply(g):
     """Add the modern history to chapters 10 to 12. g is build_v5's globals()."""
-    E, c, _plate, RIGHTS = g['E'], g['c'], g['_plate'], g['RIGHTS']
+    E, c, _plate, RIGHTS, D = g['E'], g['c'], g['_plate'], g['RIGHTS'], g['D']
 
     def plate(fn, pg, cap, kind='Photograph'):
         return _plate(fn, '../img/shaheen/' + fn, cap, '%s, p. %s. %s' % (SH, pg, RIGHTS['afrp']), kind)
@@ -149,8 +149,11 @@ def apply(g):
         'From 1950 Ramallah was a town of the Hashemite Kingdom, and from 1954 its people were Jordanian citizens and Palestinians at once. '
         'The kingdom gave them a parliament and watched them. On 11 May 1951 the leaders of the Labour Party in Ramallah were arrested, accused of communism, and jailed in Amman{}. '
         'Dr <b>Daoud Mikhail</b> was jailed in 1957 for the National Socialist Party; years later his daughter, Dr Hanan Mikhail ʿAshrawi, reminded King Hussein of it{}. '
-        'In 1952, Cadora writes, “life became unbearable,” and the town’s families left for America{}.'.format(
-            c(CAD + ', p. 62.'), c(SH + ', p. 54.'), c(CAD + ', p. 63.')),
+        'In 1952, Cadora writes, “life became unbearable,” and the town’s families left for America{}. '
+        'Ramallah’s sons also sat in the king’s cabinets. Dr <b>Jalīl Badrān</b>, born in Ramallah in 1913, was minister of commerce and of reconstruction in the government of 15 December 1955, which fell five days later in the protests against the Baghdad Pact. '
+        '<b>Jalīl Ḥarb</b> was minister of the national economy from 28 June 1961, and <b>Ḥannā Khalaf</b> was three times minister of justice, in 1962 and 1963{}.'.format(
+            c(CAD + ', p. 62.'), c(SH + ', p. 54.'), c(CAD + ', p. 63.'),
+            c('<i>al-Madīna News</i> (Amman), 6 October 2009: <span class="ar" dir="rtl">التمثيل العشائري: آل خلف، آل بدران، آل حرب (حدّادين فلسطين) / رام الله</span>, a series on the clans represented in Jordan’s governments, which gives the dates and traces each family through Shāhīn (1982) to the sons of Rāshid. ' + D('2009_AlMadina_Haddadin_of_Palestine_Ramallah.html') + '.')),
         plate('p045_3.jpg', 44, 'Ḥannā Khalaf of Ramallah addressing the Parliament of Jordan, 1961.')
         + plate('p337_2.jpg', 336, 'The Jordanian army band marches round al-Manāra and its five lion heads, probably in the 1960s.')
         + _p('<b>What we still don’t know.</b> What Ramallah did in the Suez war of 1956, and in the protests after the raid on al-Samūʿ in November 1966.'))
@@ -218,13 +221,16 @@ def apply(g):
         'The International Court of Justice found the Wall contrary to international law on 9 July 2004. '
         'Around the town stand <b>26 settlements</b> with nearly <b>150,000 settlers</b>; Beit El and Psagot are built on the land of al-Bīra, some of it owned by Palestinian-Americans{}. '
         'The town became a capital without a state. In 2005 it elected <b>Janet Mikhail</b>, its first woman mayor{}. '
+        'Its women went to law for what was theirs: in a study of 2010–13, women who claimed their inheritance in court outnumbered the men who did, in the courts of Ramallah, Hebron and Nablus{}. '
         'It buried <b>Maḥmūd Darwīsh</b> on 13 August 2008, in a grave that “faces the outskirts of Jerusalem”{}. '
         'The occupation reached the diaspora too. <b>ʿUmar Asʿad</b>, seventy-eight, of Jiljilyā and Milwaukee, died in January 2022 after soldiers left him bound and blindfolded{}. '
         '<b>Sayfollah Musallet</b>, twenty, of Tampa, was beaten to death by settlers at Sinjil on 11 July 2025{}. '
         'In 2025 the United Nations counted 1,680 settler attacks in the West Bank, “an average of five incidents per day”{}.'.format(
             c('PLO Negotiations Affairs Department, “Israeli Settlements in the Ramallah &amp; Al-Bireh Governorate,” 26 March 2023; '
               'International Court of Justice, advisory opinion of 9 July 2004.'),
-            c(CENT + '.'), c('Al Jazeera, 13 August 2008.'), c('Al Jazeera, 16 August 2024.'),
+            c(CENT + '.'),
+            c('Women’s Centre for Legal Aid and Counselling (WCLAC), <i>Palestinian Women and Inheritance</i> (Ramallah, 2014), ISBN 978-9950-354-00-5, p. 10 of the held copy; the survey ran from early 2010 to late 2013. ' + D('2014_WCLAC_Palestinian_Women_and_Inheritance_Study.pdf') + '.'),
+            c('Al Jazeera, 13 August 2008.'), c('Al Jazeera, 16 August 2024.'),
             c('ABC News, 12 July 2025.'),
             c('United Nations OCHA, <i>Humanitarian Situation Update #346, West Bank</i>, 4 December 2025.')),
         plate('p343_3.jpg', 342, 'The Khalil Sakakini Cultural Centre, founded in 1996 in a house of 1927 once owned by Khalīl Ṣalāḥ, mayor from 1947 to 1951.')
