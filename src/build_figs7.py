@@ -429,14 +429,24 @@ def fig_people():
 
 
 # ───────────────────────────────────────────── a picture kept, its labels keyed
-def art(o, x0, y0, x1, y1, width=W - 2 * PAD, x=PAD, y=0):
-    """The old drawing's own artwork (no text) for the box x0..x1, y0..y1, scaled to width."""
-    body = re.search(r'<svg\b[^>]*>(.*)</svg>', o.raw, re.S).group(1)
+_CLIP = [0]
+
+
+def art(o, x0, y0, x1, y1, width=W - 2 * PAD, x=PAD, y=0, raw=None, cid=None):
+    """The old drawing's own artwork (no text) for the box x0..x1, y0..y1, scaled to width.
+    A clipped, scaled group rather than a nested <svg>, so the page's simple
+    svg-matching passes (print, figure_tidy) never meet an svg inside an svg."""
+    src = raw if raw is not None else o.raw
+    body = re.search(r'<svg\b[^>]*>(.*)</svg>', src, re.S).group(1)
     body = re.sub(r'<text\b.*?</text>', '', body, flags=re.S)
     body = re.sub(r'<rect width="860" height="[\d.]+" fill="#FFFFFF"/>', '', body)
-    h = width * (y1 - y0) / (x1 - x0)
-    return (f'<svg x="{x}" y="{y:.1f}" width="{width:.1f}" height="{h:.1f}" viewBox="{x0} {y0} {x1-x0} {y1-y0}" '
-            f'preserveAspectRatio="xMidYMid meet" overflow="hidden">{body}</svg>'), h
+    k = width / (x1 - x0)
+    h = k * (y1 - y0)
+    _CLIP[0] += 1
+    cid = cid or 'p7c%d' % _CLIP[0]
+    return (f'<clipPath id="{cid}"><rect x="{x:.1f}" y="{y:.1f}" width="{width:.1f}" height="{h:.1f}"/></clipPath>'
+            f'<g clip-path="url(#{cid})"><g transform="translate({x:.2f} {y:.2f}) scale({k:.5f}) '
+            f'translate({-x0:.2f} {-y0:.2f})">{body}</g></g>'), h
 
 
 def badge(x, y, n, fill=GOLD):

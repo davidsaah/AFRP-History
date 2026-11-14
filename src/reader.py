@@ -247,8 +247,8 @@ JS = r'''
     if(!window.matchMedia('(max-width:760px)').matches)return;
     var w=e.target.closest&&e.target.closest('.figwrap');
     if(!w||e.target.closest('a'))return;
-    var svg=w.querySelector('svg');if(!svg)return;
-    var c=svg.cloneNode(true);c.removeAttribute('width');c.style.width='1100px';
+    var svg=w.querySelector('svg.fullmap')||w.querySelector('svg');if(!svg)return;
+    var c=svg.cloneNode(true);c.removeAttribute('width');c.classList.remove('fullmap');c.style.width='1100px';
     inner.innerHTML='';inner.appendChild(c);
     var fig=w.closest('figure');var t=fig&&fig.querySelector('.figtitle');
     lb.querySelector('.lbt').textContent=t?t.textContent:'';

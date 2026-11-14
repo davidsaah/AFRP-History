@@ -356,6 +356,9 @@ WORDS = ['', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Ni
 def prepare(h):
     """Everything both volumes share: scripts out, print CSS in, images embedded."""
     h = re.sub(r'<script\b.*?</script>', '', h, flags=re.S)
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'src'))
+    from phone_maps import strip as strip_phone_maps
+    h = strip_phone_maps(h)        # v82: print keeps the full map plates
     h = re.sub(r'<link[^>]+fonts\.googleapis[^>]*>', '', h)
     h = re.sub(r'<style>(.*?)</style>', lambda m: '<style>' + strip_media_print(m.group(1)) + '</style>',
                h, count=1, flags=re.S)
