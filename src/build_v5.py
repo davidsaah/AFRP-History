@@ -4598,6 +4598,8 @@ WWSDK_EXTRA = {
 }
 WWSDK_RE = re.compile(r'<p><b>What we still don’t know\.</b>\s*(.*?)</p>', re.S)
 
+import modern; modern.apply(globals())   # v83: 1914 to today (src/modern.py)
+
 CONTENTS = ('<a class="tocbtn" href="#toc" aria-label="Jump to the list of chapters">Chapters</a>'
             '<div class="contents" id="toc"><h4>Contents</h4><ol>' + ''.join(
     f'<li><a href="#ch{n}"><span class="cnum">{k.replace("ERA ","").strip().title()}</span>'
@@ -4924,6 +4926,7 @@ html = ('<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
         '<title>The Roots of Ramallah: A History of Its People</title>'
         '<style>' + CSS + '</style></head><body>' + ''.join(html_parts) + '</body></html>')
 
+html = modern.finish(html)   # v83
 from restyle import restyle
 html = restyle(html)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
