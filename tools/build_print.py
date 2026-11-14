@@ -230,6 +230,8 @@ figure.photo img{order:1;display:block;width:auto!important;max-width:100%!impor
 figure.photo.srcpage img{max-height:5.4in!important}
 figure.photo figcaption{order:2}
 figure.wide .figwrap svg{max-height:6.9in}
+/* tall phone-first charts: capped so the chart and its caption share one page */
+.figwrap svg.phonefig{max-height:5.3in!important;width:auto!important;max-width:100%!important;display:block;margin:0 auto}
 
 /* tables */
 .ntwrap{border:0!important;background:none!important;overflow:visible!important;margin:.2in 0!important}
