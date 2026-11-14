@@ -59,8 +59,6 @@ PULL = {
              'Shāhīn, of 1951–52'),
     'ch12': ('The five lions represented the five Ramallah families who viewed '
              'themselves as the city’s ‘original’ inhabitants.', None),
-    'ch13': ('We have two kilos of rice and we have to make it last for the four of us.',
-             'A Ramallah household under curfew, April 2002'),
 }
 
 # The opener photograph of each chapter: a different picture from the chapter's own era.
@@ -78,7 +76,6 @@ OPENER = {
     'ch10': ['p172_1.jpg', '01047v.jpg'],
     'ch11': ['p228_1.jpg'],
     'ch12': ['p162_2.jpg'],
-    'ch13': ['p343_2.jpg'],
 }
 
 # Matson stereographs: two near-identical frames side by side. Openers show the left frame.
@@ -325,7 +322,7 @@ def reader(h):
         if m:
             opener = ''
             ph = _photo(h, OPENER.get(cid, []))
-            if ph and 1 <= num <= 13:
+            if ph and 1 <= num <= 12:
                 cap = re.split(r'(?<=[.!?])\s', ph[1], maxsplit=1)[0]
                 opener = ('<div class="opener%s"><img src="%s" alt="" decoding="async" '
                           'onerror="this.parentNode.style.display=\'none\'"><span class="opnum">%d</span>'

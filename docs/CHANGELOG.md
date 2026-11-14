@@ -1,19 +1,17 @@
 # Changelog
 
 
-## v83 — 14 November 2026: Ramallah from 1914 to today, as a museum would show it
+## v83 — 14 November 2026: Ramallah from 1914 to today, in the chapters we have
 
-David: "Let's make the more recent history more enriched … the wars … the intifadas, the occupation … up to today … the way you would see it recorded in a Palestinian history museum." Option C of the plan of 14 November.
+David: "Let's make the more recent history more enriched … the wars … the intifadas, the occupation … up to today … the way you would see it recorded in a Palestinian history museum." He chose option A, "Enrich chapters".
 
-All the new text is in `src/modern.py`. `build_v5.py` changes in two lines. `reader.py` gets an opener and an epigraph for Chapter 13.
+All the new text is in `src/modern.py`. `build_v5.py` changes in two lines.
 
-- **Chapter 10:** *Snow, then the earth shakes* (1920, 1927) and *The Second World War* (the Trans-Jordan Frontier Force certificate of Elias Nasrallah Oudeh). There is also the letter from the front of December 1916 and a portrait from the 1936 uprising.
-- **Chapter 11:** *The town guards itself* (November 1947 – May 1948, from Cadora's chronicle as acting mayor) and *Under the Jordanian crown* (1949–1966). Four more refugee photographs of 1949–50 are added.
-- **Chapter 12** is now *Under occupation, 1967–1987*. It adds *The June war, and the first days of occupation* and *Deported at night, welcomed in Houston* (the deportations, the Village Leagues, and Mayor Karīm Khalaf at the Federation's 1974 convention).
-- **Chapter 13 (new):** *Two uprisings and a capital, 1987 to today*. It runs from the first intifada through the Authority, the second intifada and the siege, the Wall, the checkpoint and the settlements, and the capital years, to 2022–2025.
-- **The record (new):** the dates from 1914 to 2025 on one wall, each with its source. The closing follows it.
-- **Each new entry is built like a museum room:** the story, then *The record* (a quiet panel of the documents and numbers), then a testimony quoted from a published Palestinian source, then the photographs.
-- **Photographs:** 21 Shaheen plates AFRP holds. Library of Congress and permission-needed items are listed in `docs/MODERN_IMAGES.md` and are not printed.
+- **Chapter 10:** adds *Snow, then the earth shakes* (1920, 1927) and *The Second World War* (the Trans-Jordan Frontier Force certificate of Elias Nasrallah Oudeh). There is also a letter from the front of December 1916.
+- **Chapter 11:** adds *The town guards itself* (November 1947 – May 1948, from Cadora's chronicle as acting mayor) and *Under the Jordanian crown* (1949–1966). Two more refugee photographs of 1949–50 are added.
+- **Chapter 12:** adds *Occupation, and the mayor in Houston* (1967–1982), *The first intifada, and the Authority* (1987–2000), *The second intifada and the siege* (2000–2005) and *The Wall, a capital, and our own people* (2002–2025).
+- **Each new entry is built like a museum room:** a short story, then *The record* (a compact panel of dates and documents), at most one testimony for each era, and one or two photographs.
+- **Photographs:** 11 Shaheen plates AFRP holds. Library of Congress and permission-needed items are listed in `docs/MODERN_IMAGES.md`.
 - **Sources:** Palestinian and Arab sources first: Cadora, Shāhīn, Shaheen, al-Farḥān, the municipality, Birzeit University, Taraki, the Institute for Palestine Studies, ARIJ, al-Haq and the PLO Negotiations Affairs Department. United Nations and press reports are cited for dates and counts.
 
 ## v82 — 14 November 2026: every figure and map readable on a phone; the old pages in the family edition

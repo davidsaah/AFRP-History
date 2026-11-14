@@ -1,6 +1,6 @@
 # Images for the modern chapters (v83)
 
-Chapters 10 to 13 and *The record* print only images AFRP holds: Naseeb Shaheen's collection, *A Pictorial History of Ramallah, Part II* (2005). Their files are in `img/shaheen/`.
+Chapters 10 to 12 print only images AFRP holds: Naseeb Shaheen's collection, *A Pictorial History of Ramallah, Part II* (2005). Their files are in `img/shaheen/`.
 
 The items below are **not printed yet**. Nothing has been downloaded or embedded. Each one has the entry it would go in.
 
@@ -28,16 +28,19 @@ The drafts are in `/mnt/project-files/history/modern/permission_letters.md`.
 | Palestinian Museum Digital Archive 0101.01.0002 | Map of the Ramallah area, 1932–33 | Ch. 10 |
 | PMDA 0253.01.0039 | Al-Manāra, 1950 | Ch. 11, *Under the Jordanian crown* |
 | PMDA 0092.01.0053 | Scouts at al-Manāra | Ch. 11 |
-| PMDA 0419.01.0083 | Karkabi collection, 1967 | Ch. 12, *The June war* |
+| PMDA 0419.01.0083 | Karkabi collection, 1967 | Ch. 12, *Occupation, and the mayor in Houston* |
 | PMDA 0118.02.0428 | The 1969 letter on Nadīm Zarū's exile | Ch. 12, *The city, counted* |
-| PMDA 0006.02.0093 | One-day strike, al-Mazraʿa al-Sharqiyya, 1988 | Ch. 13, *The first intifada* |
-| PMDA, Joss Dray | Demonstration in Ramallah, 1989 | Ch. 13, *The first intifada* |
-| PMDA 0100.01.0001 | Qalandiya, 6 April 2002, by Yousef al-Qutob (WAFA) | Ch. 13, *The second intifada and the siege* |
-| PMDA 0141.01.0027 | Arafat's funeral, 13 November 2004 | Ch. 13, *The second intifada and the siege* |
-| UN Photo | The Secretary-General at Arafat's tomb; Qalandiya | Ch. 13 |
+| PMDA 0006.02.0093 | One-day strike, al-Mazraʿa al-Sharqiyya, 1988 | Ch. 12, *The first intifada, and the Authority* |
+| PMDA, Joss Dray | Demonstration in Ramallah, 1989 | Ch. 12, *The first intifada, and the Authority* |
+| PMDA 0100.01.0001 | Qalandiya, 6 April 2002, by Yousef al-Qutob (WAFA) | Ch. 12, *The second intifada and the siege* |
+| PMDA 0141.01.0027 | Arafat's funeral, 13 November 2004 | Ch. 12, *The second intifada and the siege* |
+| UN Photo | The Secretary-General at Arafat's tomb; Qalandiya | Ch. 12 |
 | UNRWA Photo and Film Archive | The district's camps in the 1950s | Ch. 11, *Where the refugees lived* |
-| Palestine Poster Project | Posters, 1967 to today | Ch. 13 |
+| Palestine Poster Project | Posters, 1967 to today | Ch. 12 |
 
 ## Not used
+
+Ten of the 21 Shaheen scans first chosen were left out to keep the book short (option A): p060_1, p283_1, p298_2, p183_3, p186_1, p228_2, p333_3, p340_1, p340_2 and p342_1. They are still on Drive.
+
 
 Shaheen p315_2.jpg is catalogued as "mayors and mukhtars, about 1956", but the file on Drive shows a school class. It is left out until the catalogue and the file are matched.

@@ -364,7 +364,7 @@ def build(h):
                 '<span class="tt">The story at a glance</span></a></li>%s</ol></section>' % ''.join(li))
     ded = '<section class="front"><p class="ded">%s</p></section>' % re.sub(r'</?p[^>]*>', '', dedication)
     glance_s = ('<section class="glance" id="glance"><h2>The story at a glance</h2>'
-                '<p class="gs">Thirteen chapters, from the first villages on the ridge to the town and its people today.</p>'
+                '<p class="gs">Twelve chapters, from the first villages on the ridge to the town and its people today.</p>'
                 '<ol>%s</ol></section>' % ''.join(glance))
     # no blank versos: a family edition opens chapters on the next page, left or right
     head = (head.replace('.erahead{page:opener;break-before:right;', '.erahead{page:opener;break-before:page;')
