@@ -59,7 +59,7 @@ print or has a published edition; the book cites the edition.
 | `1909_Agapius_Kitab_al-Unwan_PO.pdf` · `1924_Yahya_al-Antaki_Histoire_PO18_23.pdf` | |
 | `1932_Bar_Hebraeus_Chronography.pdf` | |
 | `1984_Shahid_Rome_and_the_Arabs.pdf` · `1984_Shahid_Byzantium_and_the_Arabs_4th_Century.pdf` | |
-| `2002_Shahid_Byzantium_and_the_Arabs_6th_Century_v2p1.pdf` · `2010_..._v2p2.pdf` | **BASIC I is not on the shelf** — an outstanding gap |
+| `2002_Shahid_Byzantium_and_the_Arabs_6th_Century_v2p1.pdf` · `2010_Shahid_Byzantium_and_the_Arabs_6th_Century_v2p2.pdf` | all seven volumes are now on the shelf (5th C. and 6th C. I.1–I.2 added 13 Nov 2026) |
 | `2012_Arce_Romans_Ghassanids_Umayyads_and_the_Limes_Arabicus_BAR_S2386.pdf` | |
 | `19xx_Walmsley_Pella_Jarash_and_Amman_550-750_CE.pdf` | |
 
