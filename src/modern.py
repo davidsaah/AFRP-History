@@ -53,6 +53,7 @@ def _p(t):
 def apply(g):
     """Add the modern history to chapters 10 to 12. g is build_v5's globals()."""
     E, c, _plate, RIGHTS, D = g['E'], g['c'], g['_plate'], g['RIGHTS'], g['D']
+    NUMTABLE = g['NUMTABLE']
 
     def plate(fn, pg, cap, kind='Photograph'):
         return _plate(fn, '../img/shaheen/' + fn, cap, '%s, p. %s. %s' % (SH, pg, RIGHTS['afrp']), kind)
@@ -90,9 +91,9 @@ def apply(g):
     add_body('The war, the locusts', plate('p372_1.jpg', 371,
         'A letter from Ibrāhīm Dāʾūd Ḥarb to his son Wadīʿ, written on 16 December 1916, in the middle of the war, '
         'from Burqīn near Jenin.', 'Document')
-        + _p('In the last year of the war the Ottoman and German command, with its headquarters in the Friends School, ordered all the people of Ramallah to leave the town. '
+        + _p('In December 1917, with the front a few miles south, the Ottoman and German command, with its headquarters in the Friends School, ordered all the people of Ramallah to leave the town. '
              'A delegation went to the town’s governor, the mudīr <b>Jamīl al-ʿUmarī</b> of Aleppo, the last Ottoman mudīr of Ramallah, and won a month’s grace. '
-             'The British came before the month was out{}.'.format(c(NIR + ', pp. 55–56.'))))
+             'The British came a few days into the month’s grace, and the order was never carried out{}.'.format(c(NIR + ', pp. 55–56.'))))
 
     snow = ent(10, '1920 · 1927', 'Snow, then the earth shakes',
         'On <b>9 February 1920</b> snow fell on Ramallah for seventy-two hours, up to a metre and a quarter deep. '
@@ -154,7 +155,7 @@ def apply(g):
 
     jordan = ent(11, '1949–1966', 'Under the Jordanian crown',
         'From 1950 Ramallah was a town of the Hashemite Kingdom, and from 1954 its people were Jordanian citizens and Palestinians at once. '
-        'At the Jericho Conference of December 1948 the lawyer <b>ʿAzīz Shiḥāda</b> spoke for Ramallah, and ʿUmar Maṭar al-Maʿānī was named the town’s military governor{}. '
+        'On 30 September 1948 ʿUmar Maṭar al-Maʿānī was named the town’s military governor. At the Jericho Conference of 1 December 1948 the lawyer <b>ʿAzīz Shiḥāda</b> spoke for Ramallah, and on 2 January 1949 King ʿAbdallāh came to Ramallah and stayed several days{}. '
         'The kingdom gave them a parliament and watched them. On 11 May 1951 the leaders of the Labour Party in Ramallah were arrested, accused of communism, and jailed in Amman{}. '
         'Dr <b>Daoud Mikhail</b> was jailed in 1957 for the National Socialist Party; years later his daughter, Dr Hanan Mikhail ʿAshrawi, reminded King Hussein of it{}. '
         'In 1952, Cadora writes, “life became unbearable,” and the town’s families left for America{}. '
@@ -247,6 +248,39 @@ def apply(g):
                 '22 September 2024: the Al Jazeera office in Ramallah raided and closed for 45 days (Anadolu Agency).',
                 '2023: 26 settlements and about 150,000 settlers in Ramallah and al-Bīra governorate (PLO Negotiations Affairs Department).'])
         + _p('<b>What we still don’t know.</b> The town’s own record of the first intifada, its dead, its prisoners and its popular committees, has not been gathered.'))
+
+    add_body('Ramallah becomes a city, clan by clan', _p(
+        '<b>The Ottoman governors of the town.</b> Nayrūz, after Yūsuf Qaddūra, lists them: Aḥmad Murād of Jerusalem, the first, 1902–1905; '
+        'Jamīl al-ʿUmarī of Aleppo, 1905–1911; a Turkish officer whose name the scan does not give clearly, 1911–1912; ʿAlī Riḍā, also a Turk, 1912–1916; '
+        'and al-ʿUmarī again, 1916–1917, the last. Elias ʿAudeh, he adds, was chosen as first mayor because he belonged to no Ramallah clan: '
+        'every clan had its own candidate, and a man raised in the town but born outside it settled the quarrel{}.'.format(
+            c(NIR + ', p. 388, notes 4 and 8, after Qaddūra, <i>Tārīkh madīnat Rām Allāh</i>, p. 43, and Khalīl Abū Rayya, <i>Rām Allāh qadīman wa-ḥadīthan</i>, p. 135. '
+              'Nayrūz gives 1 April 1908 for the founding of the municipality and notes Abū Rayya’s 1 April 1910.')))
+        + NUMTABLE('THE HEADS OF THE MUNICIPALITY, 1908–1999 — as Nayrūz lists them',
+            ['Years', 'Head of the town'],
+            [['1908–1921', 'Elias ʿAudeh al-Dubaynī'],
+             ['1921–1922', 'Yūsuf Jiryis Darbās'],
+             ['1922–1927', 'a council whose members took the chair in turn'],
+             ['1927–1932', 'Mūsā Khalīl Mūsā'],
+             ['1932–1937', 'Dr Saʿdallāh al-Qassīs'],
+             ['1937–1940', 'Dimitri Farrāj, qāʾimmaqām'],
+             ['1940', 'Jamīl al-Tājī, qāʾimmaqām'],
+             ['1940–1943', 'Sālim Zaʿrūr'],
+             ['1943–1947', 'Yūsuf Jiryis Qaddūra'],
+             ['1947–1951', 'Khalīl Ṣalāḥ'],
+             ['1951–1956', 'Dr Jalīl Badrān'],
+             ['1956–1957', 'Shāhir al-Liḥaysin, qāʾimmaqām'],
+             ['1957–1958', 'Falāḥ Ḥannūn'],
+             ['1958–1961', 'Jalīl Ḥarb'],
+             ['1961–1964', 'Būlus Sābā'],
+             ['1964–1969', 'Nadīm al-Zarū'],
+             ['1969–1972', 'Khalīl Mūsā Khalīl'],
+             ['1972–1983', 'Karīm Khalaf'],
+             ['1982–1986', 'officers of the Israeli army, appointed by the occupation'],
+             ['1986–1996', 'Khalīl Mūsā Khalīl, again'],
+             ['1996–1999', 'ʿĪsā Ziyāda'],
+             ['from 1999', 'Ayyūb Yaʿqūb Rabāḥ']],
+            NIR + ', p. 387. The dates are Nayrūz’s. The municipality’s own pages put Khalaf’s removal in 1982 and also date his term 1976–1985; see the paragraph on the mayors under occupation. A qāʾimmaqām is a district governor, here acting as head of the town.'))
 
     add_body('The city, counted', _p('By 2004 Ramallah had six congregational mosques, among them al-ʿUmarī in the old town and the mosques of ʿAin Miṣbāḥ and ʿAin Munjid{}.'.format(c(NIR + ', p. 301.'))))
     insert_after('The city, counted', [june, int1, int2, wall])

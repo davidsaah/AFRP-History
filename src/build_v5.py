@@ -2919,6 +2919,7 @@ ent('1922–1944', 'documents', False, 'The counting years',
   ['1931', '4,286 in 1,014 homes', 'British census, village list (its towns tables print 4,287)'],
   ['1941', '≈ 5,000', 'British estimate, 1 January'],
   ['1944', '6,300 (4,885 natives)', 'ration-card distribution — the government <i>Village Statistics</i> of April 1945 give 5,080'],
+  ['1952', '17,145 — 8,490 males, 8,655 females', 'a count Nayrūz gives for 1952, after al-Farḥān, al-Dajānī, Qaddūra and Nāʾil Yūnis (Nayrūz 2004, p. 183, note). He warns that after 1952 many counts take in al-Bīra as well'],
   ['1953', '13,500 (natives + 8,500–9,000 refugees)', 'a local count — <b>Jordan held no census in 1953</b> (its censuses are 1952 and 1961)'],
   ['1953', '+ 2,580 in the United States', '“the total number of Ramallah people in 1953 was 7,080”']],
  'Shāhīn (1982), citing Cadora (1954), pp. 136–37, and the British census reports; Barron (1923); Mills (1932).')}
