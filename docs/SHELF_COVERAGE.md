@@ -4,7 +4,7 @@ Which works on the Literature shelf (`D:\GDrive_gmail\My Drive\AFRP_saah\Family 
 
 **How "cited" is judged.** Automatic, by author surname and title words in the book text. *yes* = author with the year, or author plus two title words; *possibly* = author or several title words only (check by hand: a common surname such as Shaheen or Totah can match a person, not the book); *no* = neither. Restored, flattened and OCR copies of one work are merged. Page numbers below are PDF pages in the `_Text` copy.
 
-**221 distinct works** on the shelf (230 files): 155 cited, 51 possibly cited, 15 not cited. The book's front matter (src/build_v5.py, "the family library of 88 titles") undercounts the shelf.
+**222 distinct works** on the shelf (230 files, plus the Nayrūz 2004 print volume): 156 cited, 51 possibly cited, 15 not cited. The book's front matter (src/build_v5.py, "the family library of 88 titles") undercounts the shelf.
 
 ## Not (clearly) cited, with Ramallah-area or modern-Palestine content
 
@@ -222,6 +222,7 @@ The full text is on the shelf (`_Text/1954_Cadora_Remembering_Ramallah_A_Preserv
 | 2003 | Jad | The NGOization of the Arab Womens Movements AlRaida100 | no | 2003_Jad_The_NGOization_of_the_Arab_Womens_Movements_AlRaida100.pdf |
 | 2003 | Zahran | Zenobia Between Reality and Legend | yes | 2003_Zahran_Zenobia_Between_Reality_and_Legend.pdf |
 | 2004 | Nebes | New Abraha Inscription Marib Dam | yes | 2004_Nebes_New_Abraha_Inscription_Marib_Dam.pdf |
+| 2004 | Ibrahim (Nayruz) | Ram Allah Geography History Civilization (Dar al-Shuruq) | yes | print volume on the shelf; OCR scan held outside the repo (read in full Nov 2026) |
 | 2005 | Shaheen | A Pictorial History of Ramallah Part II | yes | 2005_Shaheen_A_Pictorial_History_of_Ramallah_Part_II.pdf |
 | 2006 | Arbach | Crassard Archeologie preventive au Yemen CY 13 | possibly | 2006_Arbach_Crassard_Archeologie_preventive_au_Yemen_CY_13.pdf |
 | 2006 | Saca | Embroidering Identities Palestinian Clothing OIMP25 | yes | 2006_Saca_Embroidering_Identities_Palestinian_Clothing_OIMP25.pdf |
