@@ -400,6 +400,9 @@ for _k, _v in {
   "<b>The night of 17 December 1809.</b> The Patriarchate’s own chronicle dates the interpreter’s flight. After the fire of 1808, rioters in Jerusalem attacked the masons who were rebuilding the Holy Sepulchre. The dragoman Averkios, crippled with gout, was carried out and “left Jerusalem by night and took refuge in a village three hours away, called Ramalla.” A verse account of the same events by Prokopios Nazianzenos adds a note: “Ramalla is a Christian village, sixty stadia from Jerusalem.” So Cadora’s story is confirmed by an eyewitness of the Patriarchate, and it belongs to 1809, the second year of Polykarpos{n}.",
   "Papadopoulos-Kerameus, <i>Analekta Hierosolymitikēs Stachyologias</i> III (St Petersburg, 1897), pp. 193–194 (prose) and p. 365 n. 1 (verse), page images read: <span lang='el'>ἐξῆλθε νυκτὸς τῆς Ἱερουσαλὴμ καὶ κατέφυγε εἴς τινα κώμην ἀπέχουσαν τρεῖς ὥρας… λεγομένην Ῥαμάλλαν</span>; <span lang='el'>Ῥαμάλλα εἶναι χωρίον χριστιανικόν, ἀπέχον τῆς Ἱερουσαλὴμ σταδίους ἑξήκοντα</span>. " + D('1897_Papadopoulos-Kerameus_Analekta_III.pdf')),
   lambda: _P(
+  "<b>The rescue, as Ramallah tells it.</b> Nayrūz tells the same night from our side. The engineer and his dragoman hid with Jerusalem families by the Damascus Gate, and the dragoman sent word to friends in Ramallah. They came by night, with the help of Muṣṭafā Sharaf al-Dīn of Jerusalem, and brought both men to Ramallah and hid them. From Ramallah a letter went to the governor in Damascus, who sent seven hundred Maghribi soldiers; with the help of Shaykh Ismāʿīl Simḥān, chief of the Qays, the Janissary rising was put down, and the shaykh was welcomed in Ramallah as a hero. Nayrūz dates the attack 30 September 1810; we keep the Patriarchate’s date{n}.",
+  "Ibrāhīm Nayrūz, <i>Ram Allah: Geography, History, Civilization</i> (Ramallah: Dār al-Shurūq, 2004), pp. 92–93."),
+  lambda: _P(
   "<b>April 1821: the guns are taken.</b> When the Greek revolt broke out, the sultan’s orders reached Jerusalem on 25 April 1821. The authorities searched the Patriarchate and then “went to Bethlehem and Beit Jala and Ramalla … and took their guns and daggers.” The Orthodox were ordered to wear black. Ramallah was named in the same breath as the two old Christian towns of the south{n}.",
   "Neophytos of Cyprus, in Papadopoulos-Kerameus, <i>Analekta</i> III, p. 460, page image read: <span lang='el'>ἀπῆλθον καὶ εἰς Βηθλεὲμ καὶ Πετζαλᾶν καὶ Ῥαμάλλαν… καὶ ἐπῆραν τὰ τουφέκια αὐτῶν καὶ χαντζάρια</span>. " + D('1897_Papadopoulos-Kerameus_Analekta_III.pdf')),
   lambda: _P(
@@ -2919,6 +2922,7 @@ ent('1922–1944', 'documents', False, 'The counting years',
   ['1931', '4,286 in 1,014 homes', 'British census, village list (its towns tables print 4,287)'],
   ['1941', '≈ 5,000', 'British estimate, 1 January'],
   ['1944', '6,300 (4,885 natives)', 'ration-card distribution — the government <i>Village Statistics</i> of April 1945 give 5,080'],
+  ['1952', '17,145 — 8,490 males, 8,655 females', 'a count Nayrūz gives for 1952, after al-Farḥān, al-Dajānī, Qaddūra and Nāʾil Yūnis (Nayrūz 2004, p. 183, note). He warns that after 1952 many counts take in al-Bīra as well'],
   ['1953', '13,500 (natives + 8,500–9,000 refugees)', 'a local count — <b>Jordan held no census in 1953</b> (its censuses are 1952 and 1961)'],
   ['1953', '+ 2,580 in the United States', '“the total number of Ramallah people in 1953 was 7,080”']],
  'Shāhīn (1982), citing Cadora (1954), pp. 136–37, and the British census reports; Barron (1923); Mills (1932).')}
@@ -2945,7 +2949,7 @@ Broadcasting Service spoke from Jerusalem, but <b>its main transmitter stood in 
 ent('1938', 'documents', False, 'The revolt reaches the town',
  'In the autumn of 1938 the great Palestinian revolt against British rule came to Ramallah. The post office and telephones were removed, and six hundred British soldiers were expected, to occupy two old hotels. There were two fights a week apart, on 25 September and on Saturday 1 October, when fighters from across the country gathered in the town. British forces attacked them with machine-gun trucks and, after some hours, with aircraft, which bombed the thickest of the fighting. No one number for the dead can be printed as fact: the witnesses run from “more than twenty” to about eighty. Among them were <b>two women and three men bombed as they ran home from their vineyards</b>{}.'.format(c('Nancy Parker McDowell, <i>Notes from Ramallah, 1939</i> (Richmond, Ind.: Friends United Press, 2002), pp. 9–17: the letters and journal of a young American teacher at the Friends school, September–December 1938 — the six hundred soldiers expected and the hotels taken (p. 9); the battle of 1 October and its dead, from her journal of 8 October (pp. 13–14) and a letter (pp. 16–17); “Ramallah has become a rebel town” (p. 16). ' + D('1939_McDowell_Notes_from_Ramallah.pdf') + '.')),
  f"""
-<p>This is the first time in our story that the town itself is a battlefield. The first witness was an
+<p>This is the first time in our story that a battle in the town was written down as it happened. The first witness was an
 outsider: a Quaker teacher at the Friends school, watching from the school roof and writing home to
 her family.</p>
 <p>The second witness was one of our own. <b>Khalil Totah</b>, born in Ramallah in 1886 and head of the

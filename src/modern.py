@@ -31,6 +31,8 @@ FARHAN = 'Yaḥyá ʿĪsá al-Farḥān, <span class="ar">قصة رام الله
 CENT = 'Ramallah Municipality, <i>Ramallah: One Hundred Years</i>, the municipality’s centennial book (2008)'
 TARAKI = 'Lisa Taraki, “Enclave Micropolis: The Paradoxical Case of Ramallah/al-Bireh,” <i>Journal of Palestine Studies</i> 37:4 (2008), 6–20'
 IPS = 'Institute for Palestine Studies, <i>Palestine Chronology</i>, chronology.palestine-studies.org'
+NIR = ('Ibrāhīm Nayrūz (Nirouz Ibrahim), <span class="ar">رام الله: جغرافيا، تاريخ، حضارة</span> '
+       '(<i>Ram Allah: Geography, History, Civilization</i>; Ramallah: Dār al-Shurūq, 2004)')
 BZU = 'Birzeit University, “History of Birzeit University,” pas.birzeit.edu/node/151'
 
 
@@ -51,6 +53,7 @@ def _p(t):
 def apply(g):
     """Add the modern history to chapters 10 to 12. g is build_v5's globals()."""
     E, c, _plate, RIGHTS, D = g['E'], g['c'], g['_plate'], g['RIGHTS'], g['D']
+    NUMTABLE = g['NUMTABLE']
 
     def plate(fn, pg, cap, kind='Photograph'):
         return _plate(fn, '../img/shaheen/' + fn, cap, '%s, p. %s. %s' % (SH, pg, RIGHTS['afrp']), kind)
@@ -87,7 +90,10 @@ def apply(g):
     # CHAPTER 10: the Mandate
     add_body('The war, the locusts', plate('p372_1.jpg', 371,
         'A letter from Ibrāhīm Dāʾūd Ḥarb to his son Wadīʿ, written on 16 December 1916, in the middle of the war, '
-        'from Burqīn near Jenin.', 'Document'))
+        'from Burqīn near Jenin.', 'Document')
+        + _p('In December 1917, with the front a few miles south, the Ottoman and German command, with its headquarters in the Friends School, ordered all the people of Ramallah to leave the town. '
+             'A delegation went to the town’s governor, the mudīr <b>Jamīl al-ʿUmarī</b> of Aleppo, the last Ottoman mudīr of Ramallah, and won a month’s grace. '
+             'The British came a few days into the month’s grace, and the order was never carried out{}.'.format(c(NIR + ', pp. 55–56.'))))
 
     snow = ent(10, '1920 · 1927', 'Snow, then the earth shakes',
         'On <b>9 February 1920</b> snow fell on Ramallah for seventy-two hours, up to a metre and a quarter deep. '
@@ -111,9 +117,10 @@ def apply(g):
         'The war reached Ramallah through its young men. <b>Elias Nasrallah Oudeh</b> served as a wireless operator in the Trans-Jordan Frontier Force, '
         'the British-commanded frontier cavalry, from 1938 to 1943, and his discharge certificate survives{}. '
         '<b>Shukri Elias ʿAjlouny</b> was a telegraph operator at the airport of Lydda in 1940{}, and <b>Edward Salamy</b> of Ramallah served in the United States army{}. '
-        'At home the district was run by Palestinian officers of the Mandate: Mitri Farraj until 1941, then, from 1943, the historian ʿĀrif al-ʿĀrif{}.'.format(
+        'At home the district was run by Palestinian officers of the Mandate: Mitri Farraj until 1941, then, from 1943, the historian ʿĀrif al-ʿĀrif{}. '
+        'Nayrūz’s list of the subdistrict’s qāʾimmaqāms also names Jamīl al-Tājī, Naʿīm ʿAbd al-Hādī and Naẓīf al-Khayrī{}.'.format(
             c(SH + ', p. 282: the certificate of discharge, serial no. 3904, “W/T operator,” enlisted 4 October 1938, discharged 27 December 1943.'),
-            c(SH + ', p. 275.'), c(SH + ', p. 92.'), c(CAD + ', p. 55.')),
+            c(SH + ', p. 275.'), c(SH + ', p. 92.'), c(CAD + ', p. 55.'), c(NIR + ', p. 60.')),
         plate('p283_3.jpg', 282, 'The certificate of discharge of Corporal Elias Nasrallah Oudeh, wireless operator of the Trans-Jordan Frontier Force, '
               'enlisted 4 October 1938 and discharged 27 December 1943, beside his photograph on horseback.', 'Document')
         + locplate('14899v.jpg', '2019705094',
@@ -126,11 +133,12 @@ def apply(g):
     guard = ent(11, 'November 1947 – May 1948', 'The town guards itself',
         'When the United Nations voted in November 1947 to divide Palestine, Ramallah, al-Bīra and Baytūniyā marched against the Mandate, the United Nations and the United States{}. '
         'Then the town organised its own guard. A committee with <b>one member for each clan</b> raised a tax and bought arms, '
-        'and built roadblocks and watchtowers under Dr <b>Jalīl Badrān</b>. On 14 March 1948 the guard beat off an attack on the Ramallah–Ramle bus, '
+        'and built roadblocks and watchtowers under Dr <b>Jalīl Badrān</b>. Its fighters, drawn first from the town’s rover scouts, called themselves the <b>Armed Youth Organisation</b>. Years later Badrān laid out a square beside the women’s teachers’ college, with a stone column at its centre inscribed “Ramallah Youth Organisation”{}. On 14 March 1948 the guard beat off an attack on the Ramallah–Ramle bus, '
         'and it fought on the Jerusalem road at al-Qasṭal{}. '
+        'In April units of the Arab Liberation Army came to the town, first the Yarmūk battalion under the Iraqi officer ʿAbd al-Ḥamīd al-Rāwī, then the Qādisiyya. Once they came close to blows with the town’s own fighters by the gate of the Latin convent, until Jordanian officers made peace between them{}. '
         'From April the people of Bīr Nabālā, Bayt Maḥsīr and Jaffa came up the hill: “Churches and schools opened their doors to give them refuge and shelter.” '
         'On 15 May, at almost noon, the Arab Legion drove into the town{}.'.format(
-            c(CAD + ', p. 57.'), c(CAD + ', p. 58.'), c(CAD + ', pp. 58–59. Cadora was acting mayor from 1 April 1948.')),
+            c(CAD + ', p. 57.'), c(NIR + ', p. 64.'), c(CAD + ', p. 58.'), c(NIR + ', pp. 66–67.'), c(CAD + ', pp. 58–59. Cadora was acting mayor from 1 April 1948.')),
         _testimony('What a wonderful hour that was when the Ramallah citizens called on God as the Arab army entered the town! '
                    'Fear dissipated, hope increased and souls felt at ease.',
                    'Yūsuf Qaddūra, acting mayor, on 15 May 1948 (Cadora, p. 59)')
@@ -147,12 +155,13 @@ def apply(g):
 
     jordan = ent(11, '1949–1966', 'Under the Jordanian crown',
         'From 1950 Ramallah was a town of the Hashemite Kingdom, and from 1954 its people were Jordanian citizens and Palestinians at once. '
+        'On 30 September 1948 ʿUmar Maṭar al-Maʿānī was named the town’s military governor. At the Jericho Conference of 1 December 1948 the lawyer <b>ʿAzīz Shiḥāda</b> spoke for Ramallah, and on 2 January 1949 King ʿAbdallāh came to Ramallah and stayed several days{}. '
         'The kingdom gave them a parliament and watched them. On 11 May 1951 the leaders of the Labour Party in Ramallah were arrested, accused of communism, and jailed in Amman{}. '
         'Dr <b>Daoud Mikhail</b> was jailed in 1957 for the National Socialist Party; years later his daughter, Dr Hanan Mikhail ʿAshrawi, reminded King Hussein of it{}. '
         'In 1952, Cadora writes, “life became unbearable,” and the town’s families left for America{}. '
         'Ramallah’s sons also sat in the king’s cabinets. Dr <b>Jalīl Badrān</b>, born in Ramallah in 1913, was minister of commerce and of reconstruction in the government of 15 December 1955, which fell five days later in the protests against the Baghdad Pact. '
         '<b>Jalīl Ḥarb</b> was minister of the national economy from 28 June 1961, and <b>Ḥannā Khalaf</b> was three times minister of justice, in 1962 and 1963{}.'.format(
-            c(CAD + ', p. 62.'), c(SH + ', p. 54.'), c(CAD + ', p. 63.'),
+            c(NIR + ', pp. 69–70.'), c(CAD + ', p. 62.'), c(SH + ', p. 54.'), c(CAD + ', p. 63.'),
             c('<i>al-Madīna News</i> (Amman), 6 October 2009: <span class="ar" dir="rtl">التمثيل العشائري: آل خلف، آل بدران، آل حرب (حدّادين فلسطين) / رام الله</span>, a series on the clans represented in Jordan’s governments, which gives the dates and traces each family through Shāhīn (1982) to the sons of Rāshid. ' + D('2009_AlMadina_Haddadin_of_Palestine_Ramallah.html') + '.')),
         plate('p045_3.jpg', 44, 'Ḥannā Khalaf of Ramallah addressing the Parliament of Jordan, 1961.')
         + plate('p337_2.jpg', 336, 'The Jordanian army band marches round al-Manāra and its five lion heads, probably in the 1960s.')
@@ -162,7 +171,7 @@ def apply(g):
     # =======================================================================
     # CHAPTER 12: 1967 to today
     june = ent(12, 'June 1967 – 1982', 'Occupation, and the mayor in Houston',
-        'On <b>6 June 1967</b> the Israeli army took Ramallah{}. Every weapon in the town was to be handed in at al-Manāra; '
+        'On <b>6 June 1967</b> the Israeli army took Ramallah{}. It made the <b>Odeh Hotel</b> its first headquarters in the town{}. Every weapon in the town was to be handed in at al-Manāra; '
         'people who had worked with the Palestinian organisations were arrested and some expelled. The army made Bayt Īl, Beit El, the seat of its command{}. '
         'Families driven out of ʿImwās, Yālū and Bayt Nūbā found shelter at Baytūniyā and in Ramallah{}. '
         'The feasts went quiet: “all large festivities, both Muslim and Christian, have ceased{}.” '
@@ -172,6 +181,7 @@ def apply(g):
         'Many of the town’s students were abroad that June and could not come home. The poet <b>Murīd al-Barghūthī</b>, of Dayr Ghassāna, was sitting his Latin examination at Cairo University on the morning of 5 June 1967; he crossed the Jordan bridge back to Ramallah only in the summer of 1996, thirty years later. '
         'He found the Society for the Support of the Family, which Umm Khalīl had founded “two years before Ramallah fell to the Israeli Occupation in 1967,” teaching the daughters and sons of martyrs and prisoners to sew, embroider and carve{}.'.format(
             c('Applied Research Institute–Jerusalem (ARIJ), <i>Atlas 40</i>, ch. 1.3.'),
+            c(NIR + ', p. 70.'),
             c(FARHAN + ', pp. 79 and 100–101 (page numbers of the OCR text).'),
             c('al-Haq, field report on the Latrun villages, 13 June 2013. al-Haq is a Palestinian human-rights organisation founded in Ramallah in 1979.'),
             c(SHAHIN + ', English section, pp. 63–64.'),
@@ -239,6 +249,92 @@ def apply(g):
                 '2023: 26 settlements and about 150,000 settlers in Ramallah and al-Bīra governorate (PLO Negotiations Affairs Department).'])
         + _p('<b>What we still don’t know.</b> The town’s own record of the first intifada, its dead, its prisoners and its popular committees, has not been gathered.'))
 
+    add_body('Ramallah becomes a city, clan by clan', _p(
+        '<b>The Ottoman governors of the town.</b> Nayrūz, after Yūsuf Qaddūra, lists them: Aḥmad Murād of Jerusalem, the first, 1902–1905; '
+        'Jamīl al-ʿUmarī of Aleppo, 1905–1911; a Turkish officer whose name the scan does not give clearly, 1911–1912; ʿAlī Riḍā, also a Turk, 1912–1916; '
+        'and al-ʿUmarī again, 1916–1917, the last. Elias ʿAudeh, he adds, was chosen as first mayor because he belonged to no Ramallah clan: '
+        'every clan had its own candidate, and a man raised in the town but born outside it settled the quarrel{}.'.format(
+            c(NIR + ', p. 388, notes 4 and 8, after Qaddūra, <i>Tārīkh madīnat Rām Allāh</i>, p. 43, and Khalīl Abū Rayya, <i>Rām Allāh qadīman wa-ḥadīthan</i>, p. 135. '
+              'Nayrūz gives 1 April 1908 for the founding of the municipality and notes Abū Rayya’s 1 April 1910.')))
+        + NUMTABLE('THE HEADS OF THE MUNICIPALITY, 1908–1999 — as Nayrūz lists them',
+            ['Years', 'Head of the town'],
+            [['1908–1921', 'Elias ʿAudeh al-Dubaynī'],
+             ['1921–1922', 'Yūsuf Jiryis Darbās'],
+             ['1922–1927', 'a council whose members took the chair in turn'],
+             ['1927–1932', 'Mūsā Khalīl Mūsā'],
+             ['1932–1937', 'Dr Saʿdallāh al-Qassīs'],
+             ['1937–1940', 'Dimitri Farrāj, qāʾimmaqām'],
+             ['1940', 'Jamīl al-Tājī, qāʾimmaqām'],
+             ['1940–1943', 'Sālim Zaʿrūr'],
+             ['1943–1947', 'Yūsuf Jiryis Qaddūra'],
+             ['1947–1951', 'Khalīl Ṣalāḥ'],
+             ['1951–1956', 'Dr Jalīl Badrān'],
+             ['1956–1957', 'Shāhir al-Liḥaysin, qāʾimmaqām'],
+             ['1957–1958', 'Falāḥ Ḥannūn'],
+             ['1958–1961', 'Jalīl Ḥarb'],
+             ['1961–1964', 'Būlus Sābā'],
+             ['1964–1969', 'Nadīm al-Zarū'],
+             ['1969–1972', 'Khalīl Mūsā Khalīl'],
+             ['1972–1982', 'Karīm Khalaf'],
+             ['1982–1986', 'officers of the Israeli army, appointed by the occupation'],
+             ['1986–1996', 'Khalīl Mūsā Khalīl, again'],
+             ['1996–1999', 'ʿĪsā Ziyāda'],
+             ['from 1999', 'Ayyūb Yaʿqūb Rabāḥ']],
+            NIR + ', p. 387. The dates are Nayrūz’s. A qāʾimmaqām is a district governor, here acting as head of the town.'))
+
+    # ---- v87, second batch from Nayrūz (David, 16 Nov 2026: "3 its George Saah our relative")
+    add_body('The revolt reaches the town', _p(
+        '<b>1936: the fight at al-Maskūbiyya, and George Saah.</b> The revolt had already come into the town once. In the winter of 1936 rebels came over the hills and held '
+        'al-Maskūbiyya, the Russian ground by the Orthodox church in the old town, and fought the British troops there through the day. The British sent to Jerusalem for more men, '
+        'then marched the people of Ramallah to the Odeh Hotel, their headquarters, in heavy rain and cold, and kept them there until dark, with every house left open for the search{}. '
+        'Ṭalʿat Ḥarb remembered a bullet coming through his family’s front door while they hid inside{}. At sunset the rebels were gone and no one had been caught. '
+        'The Orthodox priest, Fr <b>Yūsuf Ḥarb</b>, had agreed with them beforehand to leave the church door open, and they hid in the church until they could get away. '
+        'The soldiers then went from house to house, mixing the oil with kerosene, the lentils with the olives, the flour with sugar and mud, so that the town’s winter stores were spoiled{}.'.format(c(NIR + ', p. 95.'), c(NIR + ', p. 95, from Ṭalʿat Ḥarb, <i>Tadhkārāt Ṭalʿat Ḥarb: ṣafaḥāt min al-dhākira al-filasṭīniyya</i>, p. 21.'), c(NIR + ', pp. 95–96, and p. 277, under Fr Yūsuf Ḥarb.')))
+        + _p('One of the rebels was our own: <b>George Saah</b> (Jūrj al-Saah), known by his fighting name, <b>George al-Aqraʿ</b>. He fought, the town remembers, mostly alone and on his own decision. '
+             'Farīd al-Ṭawāsha, born in 1921, remembered him on the hills above ʿAin Miṣbāḥ firing an old Turkish rifle at the Odeh Hotel. '
+             'That night at al-Maskūbiyya he and his comrades escaped thanks to Fr Yūsuf Ḥarb. Some days later he was taken at Jifnā with a group of fighters, tried, and sentenced to death. '
+             'Before the hanging he asked for a priest, to make his confession and take communion, and a priest of the Latin Patriarchate, Fr <b>Ibrāhīm ʿAyyād</b>, came to him at the Maskūbiyya prison in Jerusalem. '
+             'When his body was brought home, Khalīl Mūsā Khalīl remembered, every town and village in Palestine sent people to console Ramallah for its <i>shahīd</i>, and for days the al-Kharja square was full of women singing the old laments for him{}.'.format(
+            c(NIR + ', pp. 260–261, from his interviews with Farīd al-Ṭawāsha (7 October 2003) and Khalīl Mūsā Khalīl (1 November 2003), and Yaʿqūb al-Aṭrash, <i>Min aʿlām al-niḍāl al-waṭanī al-filasṭīnī: al-Ab Ibrāhīm ʿAyyād</i>, p. 193; '
+              'p. 277, under Fr Yūsuf Ḥarb; p. 95 and its note naming Fr ʿAyyād, from the lawyer ʿĪsā Qandaḥ (interview, 2 August 2003). '
+              'Qandaḥ also names George with Yaʿqūb Ḥishma, ʿAṭallah Khashshān, Ilyās Samʿān and others among the Ramallah men who went with the rebels from 1936 (p. 95, note). '
+              '<b>Inference, labelled.</b> Nayrūz writes the execution beside the year 1936. British military courts began hanging rebels only in November 1937, with Shaykh Farḥān al-Saʿdī, '
+              'so we print the fight’s year and not the execution’s. The Maskūbiyya in town and the prison in Jerusalem share a name: both were Russian ground (Cadora, <i>Remembering Ramallah</i>, 2023, editors’ note).')))
+        + _p('<b>The town in the national movement.</b> A survey of 1935 counted a hundred leading figures of Palestinian politics. Twenty-three were Christians, and two of them were from Ramallah, one Orthodox and one Protestant, from a town of at most five thousand people. '
+             'Among the women, <b>Nelly Ziyāda</b> of Ramallah was a prominent member of the Syrian Social Nationalist Party{}.'.format(c(NIR + ', p. 62.'))))
+    add_body('New families arrive', _p('The Saah family also gave the revolt a <i>shahīd</i>: George Saah, “George al-Aqraʿ”, whose story is told in “The revolt reaches the town”.'))
+
+    add_body('Snow, then the earth shakes', _p(
+        'It was not the first great snow. In <b>1895</b>, Nayrūz writes, snow more than a metre deep caught a party of Russian pilgrims on the road near Ramallah, and thirty of them died. '
+        'The young men of the town went out into the storm and brought the living in on the backs of animals, many of them the horses of the Friends School, in the care of ʿĪsā Abū Shahla. '
+        'The pilgrims were shared out among the guest houses and the homes of the town until the storm passed{}.'.format(
+            c(NIR + ', p. 86. Cadora’s editors place the Russian pilgrims’ graves at al-Maskūbiyya, by the Orthodox church in the old town (Cadora, <i>Remembering Ramallah</i>, 2023, note to the Russian Compound); that these are the dead of 1895 is our inference.'))))
+
+    add_body('The war, the locusts', _p(
+        'Hunger came before the guns. In the dry year of <b>1913</b> the municipality rebuilt the spring of ʿAin Miṣbāḥ, brought the water of ʿAin al-Karzam to it, and rebuilt ʿAin al-Mizrāb{}. '
+        'In the war years, Fr Yūsuf Ḥarb remembered, the hungry of Ramallah followed the Turkish army’s horses to pick up their dung, dry it, and take out the barley grains the horses had not digested, '
+        'to grind them again for bread; people searched the roads for orange peel to eat{}.'.format(c(NIR + ', p. 87.'), c(NIR + ', p. 87, from Fr Yūsuf Ḥarb.'))))
+
+    add_body('The town guards itself', _p(
+        '<b>The battle of al-Maṣyūn.</b> Nayrūz tells the road war of early 1948 from the town’s side. A week after three Ramallah travellers were killed on the Jerusalem road, about twenty men from the settlement of ʿAṭarot, by Qalandiyā, lay in wait at dawn on the road to Rāfāt. '
+        'A bus going from Ramallah to Jaffa drove into the ambush, and its ticket seller, a Ramallah man, was killed. As the attackers made their way back over the heights of al-Maṣyūn, close above the town, men of Ramallah and al-Bīra caught them, '
+        'and young men came running from al-Bīra, al-Jīb, Baytūniyā, Rāfāt and al-Judayra. Qāsim al-Rīmāwī read the news on the radio from Ramallah. '
+        'Nayrūz counts it the fight that took Ramallah off the list of towns to be taken{}.'.format(
+            c(NIR + ', pp. 97–98, from the lawyer ʿĪsā Qandaḥ. Nayrūz dates the ambush 1 March 1948; whether it is the attack on the Ramallah–Ramle bus that Cadora dates 14 March, we cannot tell.')))
+        + _p('The refugees began to arrive on <b>22 April 1948</b>; Jaffa’s people came after 26 April, and those of al-Ramla and al-Lydd after 12 July. Soon there were more refugees in the town than people of Ramallah, and they gathered in the west of the town, at Baṭn al-Hawā. '
+             'On 26, 27 and 29 May aircraft bombed the town, and above all the refugees at Baṭn al-Hawā. Jiryis Rayyān remembered a pedlar at al-Manāra killed by a shard, and the town sleeping more than a week under the olive trees{}.'.format(
+            c(NIR + ', p. 99, from Jiryis Rayyān, born 1920 (interview, 23 July 2003).'))))
+
+    add_body('The peasants’ revolt of 1834', _p(
+        'Nayrūz keeps a place name from that year. <i>Maḥaṭṭ al-madāfiʿ</i>, “where the guns stood,” is the ground where the Friends Boys School stands today. '
+        'There, he writes, Ibrāhīm Pasha’s army set its cannon in 1834 and fired on the men of al-Bīra, who held Rās al-Ṭāḥūna in defence of their town{}.'.format(c(NIR + ', p. 93.'))))
+
+    add_body('Elihu Grant writes the town down', _p(
+        'Grant saw older Ramallah too. Nayrūz reports his account of rock-cut tombs in the garden of Dr Saʿdallāh al-Qassīs, near the Friends Girls School, reached by a horizontal passage and finely carved: '
+        'not wayside graves, Grant judged, but the burial ground of notables. Nayrūz adds that many more were found while digging the foundations of the Mustaqbal school, on the Bīr Zayt road and at ʿAin Miṣbāḥ, and that most are being lost to building{}.'.format(
+            c(NIR + ', p. 307, citing Grant. We have not found the passage in Grant’s <i>The Peasantry of Palestine</i> (1907).'))))
+
+    add_body('The city, counted', _p('By 2004 Ramallah had six congregational mosques, among them al-ʿUmarī in the old town and the mosques of ʿAin Miṣbāḥ and ʿAin Munjid{}.'.format(c(NIR + ', p. 301.'))))
     insert_after('The city, counted', [june, int1, int2, wall])
     g['_check_eras']()
 
