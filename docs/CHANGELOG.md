@@ -1,6 +1,15 @@
 # Changelog
 
 
+## v90 — 16 November 2026: the Federation's clan roster, and the last bibliography gaps from the lot review
+
+David asked for the lot review's open items to be fixed.
+
+- **Chapter on the five sons and the eight clans:** the AFRP's printed roster, "Ramallah Family Tree", is now a table under the clans paragraph. It lists every family it knew under its clan: ʿAwwād, Sharaka, Yousef and Jaghab (Hadadeh), and Hassan, Shukair, Ibrahim and Jeries (Hamayel). Names are spelled as printed. Names under more than one clan are said to be most likely different families sharing a name. One name in Jeries is clipped in the scan and is marked so. Source: `Literature/clans/AFRP_Clan_Family_Roster_sheet1…jpg` and `…sheet2…jpg`, one new note.
+- **Bibliography (525 entries):** two entries added to Section XXXI G: the clan roster, and the 12 November evidence review `Haddadin_Literature_Evidence_Review.pdf`. The 16 November shelf note says so.
+- **docs/SHELF_COVERAGE.md:** the Nayrūz 2004 row now names the two scans on the shelf.
+- The print HTML editions (`tools/build_print.py`, `tools/build_family.py`) were not rebuilt in this pass, because Playwright is not installed on the PC that did it.
+
 ## v83 — 14 November 2026: Ramallah from 1914 to today, in the chapters we have
 
 David: "Let's make the more recent history more enriched … the wars … the intifadas, the occupation … up to today … the way you would see it recorded in a Palestinian history museum." He chose option A, "Enrich chapters".
