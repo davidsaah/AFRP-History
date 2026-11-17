@@ -12,6 +12,7 @@ import build_figs2 as F
 import build_figs3 as F3
 import build_figs4 as F4
 import build_atlas as ATLAS
+import build_figs97 as F97
 import build_timeline_test as T
 import build_figs5 as F5
 
@@ -4352,6 +4353,37 @@ PLACE = {
  'p343_2.jpg': 'The city, counted to the present',
 }
 
+# v97: photographs first used in the film, now plates in the book.
+_LOC97 = ('American Colony Photo Department. Library of Congress, Prints &amp; Photographs Division, '
+          'Matson Collection, LC-DIG-matpc-{n}. ' + RIGHTS['loc'])
+LOCAL_PHOTOS.setdefault(1, []).extend([
+ ('loc/matpc_10522.jpg', 'Terraced hillsides with their stone watchtowers, in the hills of the Ramallah district.', _LOC97.format(n='10522')),
+ ('loc/matpc_15633.jpg', 'A field watchtower near Ṭaybeh, twelve kilometres from Ramallah, built of dry stone with brushwood on its top.', _LOC97.format(n='15633')),
+])
+PIC_DATES['loc/matpc_10522.jpg'] = (-1300, 'Photographed 1898–1946')
+PIC_DATES['loc/matpc_15633.jpg'] = (-1300, 'Photographed 1898–1946')
+_SH97 = [
+ (9, 'p123_1.jpg', 122, 'The Church of the Transfiguration, begun in 1850, on a wedding day in 1927. A band and the guests line the way to the church door.', (1850, 'Photographed 1927')),
+ (10, 'p174_1.jpg', 173, '“Children at the Friends Training School”: the school’s picnic of 1912 at the spring below et-Tireh, the Byzantine site on the town’s western edge.', (1912, None)),
+ (11, 'p329_4.jpg', 328, 'Selma Shaheen, the author’s aunt, baking bread in the <i>skeefeh</i>, the stone hut beside the family home, 16 July 1960. The oven is made of clay and straw.', (1960, None)),
+ (12, 'p328_1.jpg', 327, 'New Year’s Eve by the Orthodox calendar, 13 January 1967: the town’s last new year before the occupation.', (1967, None)),
+ (12, 'p222_1.jpg', 221, 'The wedding of ʿAbdallah and Samia Totah, 1967.', (1967, None)),
+ (12, 'p189_1.jpg', 188, 'A Scout training camp, winter 1967.', (1967, None)),
+]
+for _n, _fn, _pg, _cap, _d in _SH97:
+    SHAHEEN.setdefault(_n, []).append((_fn, _pg, _cap))
+    PIC_DATES[_fn] = _d
+PLACE.update({
+ 'loc/matpc_10522.jpg': 'The terraces and their stone towers', 'loc/matpc_15633.jpg': 'The terraces and their stone towers',
+ 'p123_1.jpg': 'The present Greek Orthodox church is built',
+ 'p174_1.jpg': 'The people our town produced',
+ 'p329_4.jpg': 'Under the Jordanian crown',
+ 'p328_1.jpg': 'Occupation, and the mayor in Houston', 'p222_1.jpg': 'Occupation, and the mayor in Houston',
+ 'p189_1.jpg': 'Occupation, and the mayor in Houston',
+})
+_LATE97 = ['p329_4.jpg', 'p328_1.jpg', 'p222_1.jpg', 'p189_1.jpg']   # in date order
+_check_pictures()
+
 def _plate(key, src, cap, srcline, kind):
     alt = re.sub(r'<[^>]+>', '', cap).replace('"', '&quot;')
     cls = ' srcpage' if kind in ('Document', 'Printed source', 'Newspaper') else ''
@@ -4425,6 +4457,8 @@ def _add_to_entry(prefix, html, after=None):
 
 _by_entry = {}
 for key, prefix in PLACE.items():
+    if key in _LATE97:   # v97: entries that modern.py adds; placed after modern.apply
+        continue
     _by_entry.setdefault(prefix, []).append(key)
 for prefix, keys in _by_entry.items():
     i = _entry_index(prefix)
@@ -4491,6 +4525,17 @@ _swap_fig('What emigration looks like in a census', fig(F6.fig_emigration(), 'Th
 _swap_fig('Two populations, one town', fig(F6.fig_population(), 'The population, one honest line',
  'Every count of the town’s own residents from 1838 to 2021, on an ordinary scale so the jumps look as large as they were. The refugees of 1948 tripled the town in five years. The dip of 1967 is the occupation’s curfew count, not an emigration. The chart that follows sets the same counts on a logarithmic scale, beside the families in America.',
  'Robinson and Smith (1841); the censuses of 1905, 1922, 1931 and 1961; the ration-card count of 1944 and the local count of 1953 (Shāhīn 1982); the 1967 count; PCBS 1997, 2007, 2017 and its projection for 2021.'))
+
+# v97: the film's clan tree and maps, redrawn for the book (src/build_figs97.py).
+_add_to_entry('The five sons and the eight clans', fig(F97.fig_findname(), 'Find your name',
+ 'Rāshid, his five sons, the eight clans, and every family the AFRP rosters set under each clan: the table above, drawn as a tree. Haddad’s line divided again into four clans, the Hadadeh; the other four sons’ clans are the Hamayel.',
+ 'AFRP Ramallah Family Tree Project, the clan rosters (two printed sheets), as in the table above; Shāhīn (1982), ch. 1, for the sons and the clans.'))
+_add_to_entry('New families arrive', fig(F97.fig_newcomers(), 'Where the newcomers came from',
+ 'The families who came to Ramallah from about 1750, where each came from and the clan that took it in. Shāhīn and Cadora give different years for three of them; both are printed.',
+ 'Shāhīn (1982), ch. 2; Cadora, <i>Remembering Ramallah</i> (1954; English 2023), pp. 34–36; the AFRP clan rosters.'))
+_add_to_entry('Thirty-one generations, and one name', fig(F97.fig_lights(), 'Five lights in the silence',
+ 'Between al-Ḥārith in 569 and Rāshid about 1500 our chart has no names. The land is not silent: five dated records, none of them our family’s, show the people of these hills and of the plateau still there.',
+ 'Chapters 5 and 6 of this book: Marj Rāhiṭ (684), al-Yaʿqūbī (about 890), the ʿAbūd church (1058), the charter of 1186, Abū al-Fidāʾ (1321).'))
 
 # New visuals, in the entries whose text they draw.
 _add_to_entry('The town gains its churches and schools', fig(F6.fig_missions(), 'Six denominations in fifty years',
@@ -4616,6 +4661,20 @@ WWSDK_EXTRA = {
 WWSDK_RE = re.compile(r'<p><b>What we still don’t know\.</b>\s*(.*?)</p>', re.S)
 
 import modern; modern.apply(globals())   # v83: 1914 to today (src/modern.py)
+# v97: the film's plates for the entries modern.py adds, set the same way as the others.
+_late = {}
+for key in _LATE97:
+    _late.setdefault(PLACE[key], []).append(key)
+for prefix, keys in _late.items():
+    i = _entry_index(prefix)
+    for k in keys:
+        lo, hi = ERA_YEARS[E[i][1]]
+        assert lo <= PIC_DATES[k][0] <= hi, ('picture outside its era', k, E[i][1])
+    order = keys
+    E[i] = E[i][:7] + (_spread(E[i][7], [PLATES[k][1] for k in order]),) + E[i][8:]
+_add_to_entry('Occupation, and the mayor in Houston', fig(F97.fig_june1967(), 'June 1967: the occupation begins',
+ 'In six days of June 1967 the Israeli army took the West Bank, with East Jerusalem, and the Gaza Strip. Ramallah was taken on 6 June, and has been under occupation since.',
+ 'ARIJ for 6 June 1967, as in this entry; the 1949 armistice lines, simplified.'))
 
 CONTENTS = ('<a class="tocbtn" href="#toc" aria-label="Jump to the list of chapters">Chapters</a>'
             '<div class="contents" id="toc"><h4>Contents</h4><ol>' + ''.join(
@@ -4910,6 +4969,7 @@ def renumber(body, cites):
     return body, [cites[old_n - 1] for old_n in order], fign[0]
 
 FIG_KINDS = [  # by the start of the title
+ ('Map', ('Where the newcomers came from', 'Five lights in the silence', 'June 1967: the occupation')),
  ('Map', ('The oldest ground', 'The ridge in the Iron Age', 'The roads he used', 'The district when Rome',
           '“They scattered', 'The road, and the ground', 'The hills around Ramallah', 'The road the family',
           'Where Ramallah went', 'The town, as Shāhīn', 'Where the road stopped')),
