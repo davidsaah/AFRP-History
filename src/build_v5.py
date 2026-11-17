@@ -4510,6 +4510,17 @@ _add_to_entry('Where the refugees lived', fig(F6.fig_camps(), 'The camps, with t
  'PCBS, Census 2017, camp localities; UNRWA camp profile for al-Amʿarī.'),
  after='<p>Look at where each camp')
 
+# v94: two figures from the history movie (src/build_figs8.py)
+import build_figs8 as F8
+_add_to_entry('The people of Ramallah speak', fig(F8.fig_thirds(), 'One hill, in thirds and in fifths',
+ 'The court divides the hill three ways in 1561: one third to the Muslims already on it, one third to Ghunaym and his people, one third to Mūsā and Isḥāq and theirs. <b>Two thirds of Ramallah went to the newcomers, by agreement, before a judge.</b> Below, the division the town remembers, into fifths among Rāshid’s five sons.',
+ 'Jerusalem sharīʿa court, 16 Rajab 968 / 1 April 1561, in Ḥammūdeh, <i>Jerusalem Quarterly</i> 59 (2014), pp. 47–48; the fifths after Shāhīn (1982), ch. 1. Drawn for the history movie and redrawn for the book.'),
+ after='<p>No sultan or king appears here')
+_add_to_entry('New families arrive', fig(F8.fig_acre(), 'The Saah builders: to Acre, to Safad, and home',
+ 'Cadora’s story of the Saah builders, set on the ground. Every move is remembered, not documented, so every line is ochre; what can be checked is the place they were taken to, the walls al-Jazzār built at Acre, which still stand.',
+ 'Cadora, <i>Remembering Ramallah</i> (1954; English edition 2023), as the families told it to him; Buckingham (1816) for the walls. Drawn for the history movie and redrawn for the book.'),
+ after='<p>Two more family stories belong')
+
 # ── one ladder per chapter, rebuilt for the phone: the nine links as rungs
 _L = LINKAT
 LINKAT = {
@@ -4912,13 +4923,13 @@ def renumber(body, cites):
 FIG_KINDS = [  # by the start of the title
  ('Map', ('The oldest ground', 'The ridge in the Iron Age', 'The roads he used', 'The district when Rome',
           '“They scattered', 'The road, and the ground', 'The hills around Ramallah', 'The road the family',
-          'Where Ramallah went', 'The town, as Shāhīn', 'Where the road stopped')),
+          'Where Ramallah went', 'The town, as Shāhīn', 'Where the road stopped', 'The Saah builders')),
  ('Timeline', ('Six sovereigns', 'The dam, and a date', 'Who ruled, and who stayed', 'Five datings',
                'Six denominations', 'The Ḥaddādīn and the Ḥalasa', 'The dark half-decade')),
  ('Table', ('The chain, link by link', 'Every biblical place', 'The same people, nine years', 'John Mogannam')),
  ('Chart', ('A line to Adam', 'The highlands fill up', 'Forty-five is the wrong', 'The households, counted',
             'The ladder of a day', 'Every number anyone', 'The family’s account', 'Karak’s Christians',
-            'The emigration', 'The population, one honest', 'The camps, with', 'What the land gave')),
+            'The emigration', 'The population, one honest', 'The camps, with', 'What the land gave', 'One hill, in thirds')),
 ]
 def fig_kind(title):
     plain = re.sub(r'<[^>]+>', '', title)

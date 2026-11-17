@@ -28,7 +28,9 @@ KEEP_NEW = {'The households, counted',
             'The road the family actually walked',
             'Where Ramallah went, 1901 onward',
             'The town, as Shāhīn drew it',
-            'Where the road stopped'}
+            'Where the road stopped',
+            'One hill, in thirds and in fifths',
+            'The Saah builders: to Acre, to Safad, and home'}
 PAT = re.compile(r'(<div class="figtitle">(.*?)</div><div class="figwrap">)(<svg\b.*?</svg>)', re.S)
 
 def figs(html):
