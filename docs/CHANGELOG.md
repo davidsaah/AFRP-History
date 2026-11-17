@@ -1,7 +1,7 @@
 # Changelog
 
 
-## v94 — 17 November 2026: two figures from the history movie
+## v99 — 17 November 2026: two figures from the history movie
 
 David: "There were several images and graphs and photos … added to the movie, can you use any of these in the book?" Each of the movie's 60 frames (Drive, Family Tree / Video / History – The Roots of Ramallah) was checked against the book. Most of them came from the book in the first place: the photographs are this repo's `img/` plates, and the villages chart, the 31-generation void, the town tripling, the Maʾrib road and the Khalaf photograph are already here. Two pictures were new, and both are redrawn in the book's own styles (`src/build_figs8.py`):
 

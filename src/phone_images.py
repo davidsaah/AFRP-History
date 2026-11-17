@@ -216,9 +216,26 @@ JS = r'''
 '''
 
 
-def _num(fig_open):
-    m = re.search(r'data-k="Figure ([0-9.]+) ·', fig_open)
-    return m.group(1) if m else None
+# v97: the close-ups are found by the picture, not by its figure number. The keys of
+# SCANS and MAPS (and the crop files img/crops/fig<key>.jpg) are the figure numbers of
+# v86, kept as names; a figure added earlier in a chapter no longer moves a close-up
+# onto the wrong picture.
+BY_IMAGE = {
+ 'sources/strehlke_1869_p18_no20.jpg': '6.3', 'period/vesconte_c1320.jpg': '6.4',
+ 'sources/shahin_1982_p10.jpg': '7.4', 'shaheen/p012_1.jpg': '7.5', 'sources/defter_1562_p73.jpg': '7.8',
+ 'shaheen/p024_1.jpg': '7.11', 'shaheen/p038_1.jpg': '8.4', 'sources/seetzen_1854_p197.jpg': '8.5',
+ 'sources/robinson_1841_p263.jpg': '9.1', 'sources/guerin_1875_p40.jpg': '9.2', 'shaheen/p371_1.jpg': '9.13',
+ 'period/pef_1880_sheet17.jpg': '9.14', 'shaheen/p372_1.jpg': '10.14', 'sources/mirat_al_sharq_1919.jpg': '10.16',
+ 'shaheen/p283_3.jpg': '10.19', 'sources/ramallah_1946_notice.jpg': '10.21',
+ 'sources/ramallah_1946_results_ar.jpg': '10.22', 'sources/ballot_1946_p142.jpg': '10.23',
+ 'shaheen/p380_1.jpg': '11.1', 'shaheen/p121_1.jpg': '12.8',
+}
+assert set(BY_IMAGE.values()) == set(SCANS) | set(MAPS)
+
+
+def _num(whole):
+    m = re.search(r'<img src="\.\./img/([^"]+)"', whole)
+    return BY_IMAGE.get(m.group(1)) if m else None
 
 
 def _say(num):
@@ -268,7 +285,7 @@ def apply(h):
     def fig(m):
         whole = m.group(0)
         open_tag = m.group(1)
-        num = _num(open_tag)
+        num = _num(whole)
         out = whole
         # caption split (all figures)
         def cap(cm):

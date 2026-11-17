@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""v94: two figures taken from the history movie into the book.
+"""v99: two figures taken from the history movie into the book.
 
 The movie (Drive, Family Tree / Video / History – The Roots of Ramallah) drew
 its frames from this book. Two of its pictures have no figure here yet: the
