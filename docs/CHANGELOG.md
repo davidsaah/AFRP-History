@@ -10,6 +10,9 @@ David: "Double check the dibbine question based on data and literature", then "C
 - **Cadora is a Saah.** The paragraph heading "Cadora's dates for the newcomers" read as if the Cadoras were a newcomer family. It is now "The newcomers, as Joseph Cadora of the Saah clan dates them", and the text says the Qaddūras are a Saah family.
 - **Map, "Where the newcomers came from":** ʿAudeh al-Dibbini reads "1860 (Shāhīn) · 1880 (Cadora)". The caption now says four families have two dates.
 - Not in this repo: the film narration (v7, line 184, "Dibbine in Lebanon") and two family tree points, listed in Claud_Migration `book_gaps/dibbin_question.md`.
+## v100 — 17 November 2026: the Justinian mosaic
+
+David: "You have the rights for the Justinian photo." The San Vitale mosaic of the emperor Justinian and his court (Ravenna, about 547), used in the history movie, is now a plate in chapter 4 under *Al-Ḥārith ibn Jabala, named in Greek*, the entry where Procopius says Justinian gave al-Ḥārith "the dignity of king". Image: `img/period/justinian_ravenna.jpg`. No text, dates or findings change.
 
 ## v99 — 17 November 2026: two figures from the history movie
 
