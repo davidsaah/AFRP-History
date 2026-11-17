@@ -221,12 +221,12 @@ def apply(g):
 
     int2 = ent(12, '2000–2005', 'The second intifada and the siege',
         'On <b>12 October 2000</b> Israel bombed Ramallah from the air: Arafat’s headquarters, the broadcasting centre and the police stations{}. '
-        'On <b>29 March 2002</b> the army invaded the town{}. Forty thousand people were under curfew, with water and power cut. '
+        'On the evening of <b>Thursday 28 March 2002</b> the army invaded the town with about sixty tanks and 2,500 soldiers{}. Forty thousand people were under curfew, with water and power cut. '
         'By 3 April at least fifty-four Palestinians had been killed, and twenty-three were buried together in the car park of the Ramallah hospital{}. '
         'The United Nations recorded “extensive physical damage” to the Authority’s civilian offices{}. '
         'Arafat, besieged in the Muqāṭaʿa as its buildings were pulled down around him, died in Paris on 11 November 2004 and was buried there the next day{}.'.format(
             c(IPS + ', 12 October 2000.'),
-            c('United Nations, A/ES-10/186, 30 July 2002: the operation “began on 29 March with an incursion into Ramallah.”'),
+            c(NIR + ', p. 73, which puts the tanks in the town at six in the evening of Thursday, 28 March, though it prints the date as 29 March; United Nations, A/ES-10/186, 30 July 2002, gives the official date: the operation “began on 29 March with an incursion into Ramallah.”'),
             c('Charmaine Seitz, “In Ramallah, Grueling Reoccupation Grinds On,” <i>Middle East Report Online</i>, 5 April 2002, citing the Palestinian Centre for Human Rights.'),
             c('A/ES-10/186 (2002).'),
             c(IPS + ', 21 September 2002, for the demolitions.')),
@@ -410,6 +410,157 @@ def apply(g):
         + _p('The settlers’ violence reached our own. <b>Tawfīq ʿAbd al-Jabbār</b>, seventeen, of Gretna, Louisiana, was shot on 19 January 2024 on the road by al-Mazraʿa al-Sharqiyya, his family’s village, and died in the Ramallah hospital{}.'.format(
             c('Al Jazeera, 21 January 2024.')))
         + _p('<b>What we still don’t know.</b> The town’s own record of the first intifada, its dead, its prisoners and its popular committees, has not been gathered.'))
+
+    # ---- v96, the wars plan (David, 17 Nov 2026: "Go, as recommended").
+    # Plan: /mnt/project-files/history/conflicts_1936_present/v2_2026-11-17/PLAN_and_RED_TEAM.md, steps 3, 4 and 6.
+    # Grade A/B items only. The step 2 holds (1929, the WWI toll, the conscription year, the 1944 radio raid,
+    # George Saah's date, the 12 October 2000 wording, landowners' names, family stories) stay out.
+    KHURI = ('Niqūlā Khūrī, memoir, in <i>The House of the Priest</i>, ed. Sarah Irving, Charbel Nassif and Karène Sanchez Summerer '
+             '(Leiden: Brill, 2022, open access)')
+    HRW02 = 'Human Rights Watch, <i>In a Dark Hour: The Use of Civilians during IDF Arrest Operations</i> (April 2002)'
+    UN186 = 'United Nations, Report of the Secretary-General, A/ES-10/186 (30 July 2002)'
+    JPS67 = '<i>Journal of Palestine Studies</i>, Special Document File, “Jerusalem 1967” (2007), the memoir of Anwar al-Khaṭīb, Jordan’s governor of Jerusalem'
+    DSP04 = ('Sarah Jessup and Nader Saʿīd, <i>Community Organizing in the West Bank: Opportunities and Obstacles in Civil Society, 2000–2003</i> '
+             '(Birzeit University Development Studies Programme, 2004)')
+    POICA = 'Applied Research Institute–Jerusalem (ARIJ), POICA, the 2025 reports on settler attacks and on uprooted trees (February 2026)'
+    UNKNOWN = '<p><b>What we still don’t know.</b>'
+
+    def add_before_unknown(prefix, html):
+        """Put new paragraphs before the entry's closing 'What we still don't know'."""
+        i = idx(prefix)
+        b = E[i][7]
+        k = b.rfind(UNKNOWN)
+        b = b[:k] + html + b[k:] if k >= 0 else b + html
+        E[i] = E[i][:7] + (b,) + E[i][8:]
+
+    def replace_in(prefix, old, new):
+        i = idx(prefix)
+        k = 6 if old in E[i][6] else 7
+        assert E[i][k].count(old) == 1, (prefix, old)
+        E[i] = E[i][:k] + (E[i][k].replace(old, new),) + E[i][k + 1:]
+
+    # CHAPTER 10 ---------------------------------------------------------
+    add_body('The war, the locusts', _p(
+        '<b>The front line.</b> Before the British came, the town was a Turkish base, with a garrison and grain depots{}. '
+        'The war shut it off from the world. The schools of the area closed in 1914, Bishop Gobat’s school among them, and emigration stopped because the sea was too dangerous{}. '
+        'Men who fled the army hid in the wilderness and the wadis and came home at night for food; if they were caught they were usually executed{}. '
+        'After December 1917 the front ran just north of the town for nine months. In Birzeit, the priest Niqūlā Khūrī remembered, his family was “traumatized because the British cannons were incessantly bombarding the town from Ramallah, since the Turks were still occupying” it{}. '
+        'In March 1918 the battle of Tell ʿĀṣūr fixed the line from Kafr Mālik to Nabī Ṣāliḥ, and there it stayed until September{}.'.format(
+            c(CAD + ', p. 53.'),
+            c(NIR + ', pp. 358 and 213.'),
+            c(NIR + ', p. 55.'),
+            c(KHURI + ', PDF p. 107.'),
+            c('Cyril Falls, <i>Military Operations: Egypt and Palestine</i>, vol. 2 (London, 1930), the British official history, used for the dates.')))
+        + _p('<b>In three armies.</b> Ramallah’s sons fought on both sides. <b>Ibrāhīm Rashīd Ḥishmeh</b> was photographed in Turkish uniform about 1916{}. '
+             '<b>Khalīl ʿŪdeh ʿAwwād</b> served in the British army and came home with two medals{}. '
+             'From America <b>Mūsā Rabāḥ</b> and <b>Yaʿqūb Ḥanania</b> served in the United States army, and <b>Ibrāhīm Shiḥāda Qandaḥ</b> came home from it in 1919{}. '
+             'That same year emigrants from Ramallah helped found the Palestine Anti-Zionism Society in New York{}.'.format(
+            c(SH + ', p. 249.'), c(SH + ', p. 154.'), c(SH + ', pp. 249 and 251.'), c(NIR + ', p. 210.'))))
+
+    add_body('The revolt reaches the town', _p(
+        '<b>The villages, 1936.</b> The revolt was fought in the district’s villages before it reached the town. In early July 1936 troops sweeping the Ramallah subdistrict '
+        '“repeatedly fired on villagers, killing six and injuring four.” The searches spoiled their food stores, and the collective fines were taken at once, often in kind, in grain and animals{}. '
+        'The rebels’ men hid in the same villages. Ḥannā ʿĪsā Khalaf of Ramallah hid from the British night raids in a dry well at al-Ṭayyiba, and at Kafr Mālik and Kafr Niʿma{}.'.format(
+            c('Charles Anderson, “The Suppression of the Great Revolt and the Destruction of Everyday Life in Palestine,” <i>Jerusalem Quarterly</i> 79 (2019), pp. 12–13, drawing on al-Sifrī and the British files.'),
+            c(SH + ', p. 41.'))))
+
+    add_body('The Second World War', _p(
+        '<b>The home front.</b> When the war began in 1939 people rushed to buy food. Then the municipality issued ration cards and handed out supplies and cloth “in an orderly and equitable manner”{}. '
+        'The Italian priests left Palestine in 1940{}. <b>Farḥāt Ziadeh</b> finished his law degree in London that year and could not get home; he went to the United States and made his career there{}. '
+        'The war also ended a hiding. Ḥannā ʿĪsā Khalaf, wanted since the revolt, was allowed out once it began, through <b>Miriam Zaʿrūr</b>, a Ramallah woman in British service{}. '
+        'In 1945 the church bells rang for the peace, and the town’s sects gave thanks together in the Greek Orthodox church{}.'.format(
+            c(CAD + ', p. 57.'), c(NIR + ', p. 288.'), c(SH + ', p. 77.'), c(SH + ', p. 41.'), c(CAD + ', p. 57.'))))
+
+    # CHAPTER 11 ---------------------------------------------------------
+    replace_in('Under the Jordanian crown',
+        _p('<b>What we still don’t know.</b> What Ramallah did in the days of the Suez war of 1956, and in the protests after the raid on al-Samūʿ in November 1966.'),
+        _p('<b>Suez, 1956.</b> When Britain, France and Israel attacked Egypt, Ramallah drilled. Two photographs show the <b>National Security Force</b> in the town “at the time of the triple attack on Egypt.” '
+           'In them are the attorney <b>Ḥannā Saʿah</b>, George Shunnāra, Boulos Mogannam, the attorney ʿĪsā Qandaḥ and Elias Naṣrallah. Many of the men were refugees of 1948 living in Ramallah{}. '
+           'The missionaries of the Evangelical Home left the town that year{}.'.format(c(SH + ', p. 99.'), c(NIR + ', p. 369.')))
+        + _p('<b>al-Samūʿ, 1966.</b> After the Israeli raid on al-Samūʿ, near Hebron, in November 1966, the camps rose. At <b>al-Jalazūn</b>, north of the town, the Jordanian commander of the Ramallah brigade, Brigadier Kamāl al-Ṭāhir, put the protest down with what Jerusalem’s governor called “brutalities”{}.'.format(
+            c(JPS67 + ', p. 91.')))
+        + _p('<b>What we still don’t know.</b> What the town’s own papers wrote in the weeks of November 1956 and November 1966.'))
+
+    # CHAPTER 12 ---------------------------------------------------------
+    add_body('Occupation, and the mayor in Houston', _p(
+        '<b>June 1967.</b> Israeli planes struck Ramallah on 6 June{}. Jordan’s Ramallah brigade, under the same Brigadier al-Ṭāhir, held the heights of Nabī Ṣamwīl above Jerusalem. '
+        'On the second day it pulled back without a fight. Anwar al-Khaṭīb, Jordan’s governor of Jerusalem, called it “a lion unto the refugees and a rabbit in the face of the enemy”{}. '
+        'Flights that had used the Jerusalem airport at Qalandiyā were sent to Lod{}.'.format(
+            c(NIR + ', p. 358.'), c(JPS67 + ', pp. 90–91.'), c(JPS67 + ', with Rūḥī al-Khaṭīb’s memorandum of 26 August 1967; ' + CAD + ', p. 57, note.')))
+        + _p('<b>Karameh, 1968–1969.</b> On <b>21 March 1968</b>, the day of the battle of Karameh across the river, <b>Ibrāhīm al-Ṭawāsheh</b> of Ramallah was stopped by a patrol near Bayt ʿŪr al-Taḥtā and shot dead{}. '
+             'In 1969 soldiers stormed the Girls’ Secondary School, beat its teachers and pupils, and closed it for forty days{}. '
+             'Nayrūz counts Karameh, October 1973 and the invasion of Lebanon in 1982 among the wars that kept the town emigrating{}.'.format(
+            c(NIR + ', p. 100, from Farīd al-Ṭawāsheh.'), c(NIR + ', p. 366.'), c(NIR + ', p. 209.'))))
+
+    add_body('The first intifada, and the Authority', _p(
+        '<b>The town hall and the Manāra.</b> After Karīm Khalaf was removed in 1982, an Israeli officer ran the town hall with an armed bodyguard and soldiers at the door. '
+        'Under him the <b>Manāra</b>, the column with its five lions’ heads, was taken down, officially for the traffic. The town saw it as an attack on its identity, since the square was where its demonstrations began. '
+        'The AFRP’s magazine <i>Hathihe Ramallah</i> answered in 1983: “Al-Manara Will Be Rebuilt.” It was, in 1999{}. '
+        'From 28 September 1986 an appointed Palestinian council under Khalīl Mūsā Khalīl ran the town until 1996{}.'.format(
+            c(SH + ', pp. 224–225.'), c(NIR + ', p. 381.')))
+        + _p('<b>Closed.</b> Military orders closed Birzeit University fifteen times. In the long closures every school was shut, and a pupil carrying a textbook could be taken for questioning{}. '
+             'The first camp youth centre in the West Bank to be closed was Qalandiyā’s, on 13 December 1981{}. '
+             'In the Gulf War of 1991 the army took over the Girls’ Secondary School and made it a barracks{}, and from 1990 families who had worked in Kuwait came home{}.'.format(
+            c('Birzeit University, Right to Education campaign, “History of the Campaign.”'),
+            c('Rania Alazzeh, <i>Jerusalem Quarterly</i> 94 (2023), p. 37.'),
+            c(NIR + ', p. 367.'), c(NIR + ', p. 181.')))
+        + _p('<b>27 December 1995.</b> When the army left, crowds came out to welcome the National Security forces and the police. Ramallah, Nayrūz writes, had spat out the occupation after nearly thirty years{}.'.format(
+            c(NIR + ', p. 381, which prints the year as 1994; the Institute for Palestine Studies gives 27 December 1995.'))))
+
+    add_body('The second intifada and the siege', _p(
+        '<b>Bayt Rīmā, October 2001.</b> The first great raid into land the Authority ran came to a village of our district. At half past one in the morning of <b>24 October 2001</b> undercover units, tanks, bulldozers and helicopters entered Bayt Rīmā. '
+        'Three men of the National Security Force and two policemen were killed and at least seven people hurt. Ambulances were kept from the wounded until seven, and three family homes were blown up{}.'.format(
+            c(HRW02 + ', pp. 9–12.')))
+        + _p('<b>The ministries.</b> Ramallah was the first city taken in 2002. The United Nations counted <b>21</b> offices of the Authority damaged, about <b>$8 million</b> of loss, and found that the town’s place as the seat of government “appeared to be a factor.” '
+             'The records of the ministries of Education, Health and Finance and of the Central Bureau of Statistics were carried off{}.'.format(
+            c(UN186 + ', paras 71–73.')))
+        + _p('<b>A village held together from abroad.</b> al-Mazraʿa al-Sharqiyya, fifteen kilometres north-east of the town, had 3,660 people at home in 1997 and 8,685 abroad. '
+             'Its elected council had resigned in 1988 after the army killed two of its young men, and it had none until 1996. In the closures after 2000 the money sent from abroad kept it going. '
+             'Soldiers raided the youth club and it closed. A stone-cutter could no longer reach Jerusalem, and in two years more than forty families, about two hundred people, emigrated{}.'.format(
+            c(DSP04 + ', pp. 20–26.'))))
+
+    add_before_unknown('The Wall, a capital, and our own people',
+        _p('<b>The villages that marched.</b> West of the town the Wall and the settlement plans beside it took land from Bilʿīn, Niʿlīn and Dayr Qaddīs{}. '
+           'From February 2005 <b>Bilʿīn</b> marched every Friday. <b>Bāsim Abū Raḥma</b> was killed by a tear-gas canister on 17 April 2009, and his sister <b>Jawāhir</b> died after breathing tear gas at the march on 31 December 2010{}. '
+           'At <b>Nabī Ṣāliḥ</b> the marches began in 2009, over land and springs taken by the settlement of Ḥallamish, and <b>Muṣṭafā al-Tamīmī</b>, twenty-eight, died on 9 December 2011 after a canister hit him in the face{}.'.format(
+            c(ARIJ15 + ', PDF p. 60.'), c('Al Jazeera, 7 January 2011.'), c('Al Jazeera, 11 December 2011.')))
+        + _p('<b>Turmus ʿAyyā, 2023.</b> Turmus ʿAyyā, known for its many American citizens, was burned on <b>21 June 2023</b>. About four hundred settlers came; thirty homes and more than sixty cars were set alight, twelve people were wounded by live fire, and <b>ʿUmar Qaṭīn</b>, twenty-seven, an electrician, was shot dead. '
+             'A Chicago man’s brother lost his house, and a family from Ohio lost four cars{}.'.format(
+            c('Al Jazeera, 21 June 2023, citing the mayor, Lāfī Adīb, through WAFA.')))
+        + _p('<b>2025.</b> At <b>Kafr Mālik</b> on 25 June settlers burned cars and homes, and when the villagers faced them three were shot dead: <b>Luṭfī Ṣabrī Buʿayrāt</b>, twenty, <b>Murshid Nawwāf Ḥamāyil</b>, thirty-six, and <b>Muḥammad Qāhir al-Nājī</b>, twenty{}. '
+             'At <b>al-Ṭayyiba</b>, the Christian village where Ḥannā Khalaf once hid, a fire set on 7 July reached the ruins of the fifth-century church of St George, and on 14 July the patriarchs came to stand with the village{}. '
+             'On 20 August Israel gave final approval to about 3,500 homes at <b>E1</b>, on one of the last links of open land between Ramallah and Bethlehem{}. '
+             'By the count of the Applied Research Institute, 2025 was the worst year yet. Of 65 new outposts in the West Bank, <b>14</b> were in the Ramallah governorate, and the governorate had more settler attacks than any other (as of February 2026){}.'.format(
+            c('Palestinian Centre for Human Rights, 27 June 2025.'),
+            c('Vatican News, 15 July 2025.'),
+            c('Al Jazeera, 20 August 2025.'),
+            c(POICA + '.')))
+        + NUMTABLE('THE WARS AROUND US, 1911–2025 — what reached Ramallah',
+            ['When', 'War', 'What reached the town'],
+            [['1911–1913', 'Italy’s war on Libya; the Balkan wars', 'Felt from a distance'],
+             ['1914–1918', 'The First World War', 'Garrison, conscription, hunger, typhus; the front north of the town'],
+             ['1920–1921, 1929', 'The riots', 'Felt from a distance'],
+             ['1936–1939', 'The great revolt', 'Village searches; the attack on the town, October 1938; George Saah'],
+             ['1939–1945', 'The Second World War', 'Rations; men in British, American and Transjordan uniform'],
+             ['1947–1949', 'The Nakba', 'The town guard; the refugees and the camps'],
+             ['1953', 'Qibya', 'A village of the district destroyed'],
+             ['1956', 'Suez', 'The National Security Force drilled in the town'],
+             ['1966', 'al-Samūʿ', 'Protests put down at al-Jalazūn'],
+             ['1967', 'The June war', 'Ramallah taken on 6 June; the occupation begins'],
+             ['1968', 'Karameh', 'Ibrāhīm al-Ṭawāsheh shot; emigration'],
+             ['1970', 'Black September', 'Felt from a distance'],
+             ['1973', 'October', 'The National Front; the mayors deported'],
+             ['1978, 1982', 'Lebanon', 'The mayors removed, 1982; emigration'],
+             ['1987–1993', 'The first intifada', 'Curfews; Birzeit closed four years'],
+             ['1990–1991', 'The Gulf War', 'Round-the-clock curfew; families home from Kuwait'],
+             ['1996', 'The tunnel', 'Seven killed in Ramallah'],
+             ['2000–2005', 'The second intifada', 'The town invaded; the Muqāṭaʿa besieged'],
+             ['2003', 'Iraq', 'Felt from a distance'],
+             ['2006–2007', 'Lebanon; the split', 'Ramallah left as the seat of government'],
+             ['2008–2022', 'The Gaza wars', 'Protests; the Qalandiyā march of 2014'],
+             ['2023–2025', 'Gaza, Lebanon, Iran', 'Raids, settler attacks, closures; Iron Wall in the north']],
+            'The wars felt only from a distance are listed so that the book answers for all of them. The sources are in the entries of chapters 10 to 12.'))
+
     g['_check_eras']()
 
 
