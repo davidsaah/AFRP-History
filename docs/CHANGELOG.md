@@ -1,6 +1,15 @@
 # Changelog
 
 
+## v101 — 17 November 2026: the Dibbīn family, and Cadora as a Saah
+
+David: "Double check the dibbine question based on data and literature", then "Cadora is a Saah not a newcomer", then "Go".
+
+- **Dibbīn is east of the Jordan, in sight of Jerash.** Shāhīn (1982), Cadora (1954), Nayrūz ("al-Dubaynī"), Robinson (1841) and Peake (1935) agree on this. No source on the shelf puts the family in Lebanon.
+- **The date.** Shāhīn's Arabic text (p. 17) gives **1860**, and his English text "around 1855–60". Cadora gives 1880. The book printed only Cadora's year. Both are now printed. Shāhīn's year fits the sons: Elias was at the Friends' clinic in 1891 and was mayor from 1908, and his brother Yūsuf's daughter Saʿda married in 1906. Shāhīn's details are added too: Nazareth before Ramallah, Ḥanneh Yaʿqūb Slīm of the Sakrān family, the ʿAwwād clan, and Ḥanneh as the town's midwife.
+- **Cadora is a Saah.** The paragraph heading "Cadora's dates for the newcomers" read as if the Cadoras were a newcomer family. It is now "The newcomers, as Joseph Cadora of the Saah clan dates them", and the text says the Qaddūras are a Saah family.
+- **Map, "Where the newcomers came from":** ʿAudeh al-Dibbini reads "1860 (Shāhīn) · 1880 (Cadora)". The caption now says four families have two dates.
+- Not in this repo: the film narration (v7, line 184, "Dibbine in Lebanon") and two family tree points, listed in Claud_Migration `book_gaps/dibbin_question.md`.
 ## v100 — 17 November 2026: the Justinian mosaic
 
 David: "You have the rights for the Justinian photo." The San Vitale mosaic of the emperor Justinian and his court (Ravenna, about 547), used in the history movie, is now a plate in chapter 4 under *Al-Ḥārith ibn Jabala, named in Greek*, the entry where Procopius says Justinian gave al-Ḥārith "the dignity of king". Image: `img/period/justinian_ravenna.jpg`. No text, dates or findings change.
