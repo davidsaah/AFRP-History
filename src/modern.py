@@ -50,6 +50,98 @@ def _p(t):
     return '<p>' + t + '</p>'
 
 
+def _ctx(era, big, ground, why):
+    """v98: a short 'what was happening' box for younger readers at the head of each conflict."""
+    return ('<div class="ctxbox"><div class="ck">What was happening · %s</div>'
+            '<p><b>The big picture.</b> %s</p><p><b>On the ground.</b> %s</p>'
+            '<p><b>Why it still matters.</b> %s</p></div>') % (era, big, ground, why)
+
+
+# (entry title prefix, paragraph start or None for the entry's opening, era, big picture, on the ground, why it matters)
+CONTEXT_BOXES = [
+    ('Magna Mahumeria', None, 'Crusaders and Mamluks, 1099–1516',
+     'European armies, the Crusaders, took Jerusalem in 1099 and ruled much of the country for less than a century. Saladin won it back in 1187. From 1260 the Mamluks, soldier-sultans based in Cairo, ruled Palestine for over 250 years.',
+     'The Crusaders built a town for European settlers at al-Bīra. Our hill was farmland given to a religious endowment; the Mamluk sultan Qalāwūn’s deed of 1279–80 already names Rām Allāh.',
+     'Rulers came and went; the people of these hills stayed and farmed. The Crusaders were the one group that came and truly left.'),
+    ('The registers begin', None, 'The Ottomans, 1516–1917',
+     'The Ottoman Turks took Palestine from the Mamluks in 1516–17 and ruled it for four centuries from Istanbul. It was a distant empire that mostly wanted taxes and, later, soldiers.',
+     'The Ottomans reached Ramallah through their tax registers, not their armies. Our families came up by way of Bayt Jālā and appear by name in 1562–63. The worst violence was local: the Qays–Yaman feuds, and the Egyptian occupation of 1831–40, which crushed the peasants’ revolt of 1834.',
+     'The registers are why we can trace our families back 460 years.'),
+    ('The war, the locusts', None, 'The First World War, 1914–1918',
+     'The Ottomans joined Germany’s side. Britain invaded Palestine from Egypt. In 1917 Britain promised a “national home for the Jewish people” in Palestine, the Balfour Declaration, without asking the people who lived there.',
+     'Men were drafted or hid in the wadis. Locusts and requisitions brought famine, and with typhus about 30 per cent of the town died. For nine months the front line ran just north of Ramallah.',
+     'Emigration to the Americas, already under way, became the town’s lifeline, and Balfour’s promise shaped the next century.'),
+    ('Snow, then the earth shakes', None, 'British rule, 1917–1948',
+     'Britain governed Palestine under a League of Nations mandate that wrote the Balfour promise into law. Jewish immigration from Europe grew fast, and land bought from absentee owners often meant Palestinian farmers were evicted. Palestinians protested in 1920, 1921 and 1929.',
+     'Ramallah grew: schools, a municipality, the radio station of 1936. Emigrants abroad, some shut out by the citizenship rules of 1925, organised to defend Palestine from New York.',
+     'The conflict over land and who decides Palestine’s future began here.'),
+    ('The revolt reaches the town', None, 'The Great Revolt, 1936–1939',
+     'Palestinians held a six-month general strike, then rose in armed revolt against British rule and mass immigration. Britain crushed it with troops, curfews, collective fines, house demolitions, detention and executions. About 5,000 Palestinians were killed, and many leaders were exiled.',
+     'Ramallah men joined the rebels; George Saah was hanged. In 1938 rebels took the police station, British planes bombed, and the town lived under curfew and checkpoints.',
+     'Many of the methods used against Palestinians today were first used by the British in these years, and the revolt’s defeat left Palestinians disarmed for 1948.'),
+    ('The Second World War', None, 'The Second World War, 1939–1945',
+     'Britain fought Germany and Italy; Palestine was a British base. Rationing and shortages followed.',
+     'Ration cards came through the municipality; Ramallah men served in British, American and Transjordanian uniforms; emigrants were stranded abroad.',
+     'The war ended with Britain exhausted and the world sympathetic to the Jewish survivors of the Holocaust, which shaped what happened to Palestine next.'),
+    ('The town guards itself', None, 'Partition and the Nakba, 1947–1949',
+     'In November 1947 the UN voted to divide Palestine, giving more than half the land to a Jewish state when Jews were about a third of the population. War followed. About 750,000 Palestinians, more than half the Arab population, were driven out or fled and were never allowed back. More than 400 villages were emptied and most were destroyed. Palestinians call it the <b>Nakba</b>, the catastrophe.',
+     'In July 1948 the people of al-Lidd and al-Ramla were forced out and walked to Ramallah in the summer heat. The town’s population tripled, and the camps of al-Amʿarī, al-Jalazūn and Qalandiyā began.',
+     'The refugees and their descendants, now millions, still hold the right of return. The Nakba is the event every later one refers back to.'),
+    ('Under the Jordanian crown', None, 'Jordanian rule, 1948–1967',
+     'Jordan took the West Bank in 1948 and annexed it in 1950. Palestinians became Jordanian citizens but political parties were suppressed. Israeli raids across the armistice line punished whole villages, at Qibya in 1953 and al-Samūʿ in 1966.',
+     'Ramallah became a summer resort and a refugee town at once. Students marched against the Baghdad Pact; the army fired on protesters at al-Jalazūn in 1966.',
+     'These were years of rebuilding, and of emigration: many families left for the Americas and the Gulf in this period.'),
+    ('Occupation, and the mayor in Houston', None, 'The June War and the occupation, 1967',
+     'In six days in June 1967 Israel took the West Bank, East Jerusalem, Gaza, the Golan and Sinai. About 300,000 more Palestinians were displaced. Palestinians call it the <b>Naksa</b>, the setback. Israel annexed East Jerusalem and put the West Bank under military rule. UN Security Council Resolution 242 called for Israel to withdraw.',
+     'Ramallah fell on 6 June, after Israeli planes struck the town. Anyone abroad that September, many of our relatives among them, lost the right to live here and was treated as an “absentee.”',
+     'The military occupation that began that week has now lasted almost sixty years, longer than most of our readers have been alive.'),
+    ('Occupation, and the mayor in Houston', '1972–1973.', 'The resistance movements, 1967–1982',
+     'After 1967 the Palestine Liberation Organisation, led by Fatah, became the voice of Palestinians. Its fighters, the <i>fidāʾiyyīn</i>, fought at Karameh in 1968, were expelled from Jordan in 1970–71 (Black September), and moved to Lebanon. In 1974 the Arab states and the UN recognised the PLO.',
+     'Ramallah people were arrested, deported and sometimes killed; schools were closed in protest; in 1976 the town elected a nationalist council under Karīm Khalaf.',
+     'Palestinians outside the country, our own diaspora included, became part of a national movement for the first time.'),
+    ('Occupation, and the mayor in Houston', 'March 1982.', 'The 1980s: bombs, dismissals and appointed rulers',
+     'Israel tried to replace the elected nationalist mayors with leaders it chose (the Village Leagues) and created a Civil Administration in 1981. In 1982 Israel invaded Lebanon to destroy the PLO; the PLO left for Tunis, and in September hundreds of refugees were massacred at Sabra and Shatila.',
+     'In 1980 a settler car bomb cost Ramallah’s mayor Karīm Khalaf his leg. In 1982 he was dismissed and an Israeli officer ran the town hall; the Manāra column was taken down.',
+     'The town’s own memory of these years, and its pride in rebuilding the Manāra, come from here.'),
+    ('The first intifada, and the Authority', None, 'The First Intifada, 1987–1993',
+     'In December 1987 Palestinians in the West Bank and Gaza rose up together. It was mostly an unarmed uprising: strikes, boycotts of Israeli goods, refusing to pay taxes, stone-throwing, and neighbourhood committees that ran daily life. Israel answered with curfews, mass arrests, school closures and a “break their bones” policy. More than 1,000 Palestinians were killed.',
+     'Ramallah was one of the uprising’s centres. Schools were shut and Birzeit was closed for four years, so classes met in secret.',
+     'The uprising put Palestinians back on the world’s map and led to the Oslo talks. Many of our readers’ parents lived through it as teenagers.'),
+    ('The first intifada, and the Authority', 'The curfews.', 'The Gulf War, 1990–1991',
+     'Iraq invaded Kuwait; a US-led coalition drove it out. The PLO’s stance cost Palestinians dearly: between 300,000 and 400,000 Palestinians were forced out of Kuwait.',
+     'The West Bank was under round-the-clock curfew for weeks. Families who had worked in Kuwait for decades came back to Ramallah with nothing.',
+     'It ended the Gulf as the safe second home many Ramallah families had relied on.'),
+    ('The first intifada, and the Authority', '27 December 1995.', 'Oslo and the Palestinian Authority, 1993–2000',
+     'In 1993 Israel and the PLO signed the Oslo Accords. A Palestinian Authority was set up to run the towns for five years while a final deal was negotiated. The West Bank was split into Areas A, B and C; Israel kept full control of Area C, about 60 per cent of the land. The final deal never came, and settlements kept growing throughout the Oslo years.',
+     'The Israeli army left Ramallah on 27 December 1995. The town became the Authority’s seat and boomed with ministries, offices and returnees.',
+     'The Ramallah of today, a capital in all but name surrounded by checkpoints, was made by Oslo.'),
+    ('The second intifada and the siege', None, 'The Second Intifada, 2000–2005',
+     'After the Camp David talks failed, Ariel Sharon’s visit to al-Aqṣā in September 2000 set off a second uprising, this time armed on both sides. Israel reoccupied the Palestinian cities in 2002 and began building the separation Wall; the International Court of Justice ruled in 2004 that the Wall breaks international law. More than 3,000 Palestinians were killed.',
+     'In 2002 tanks occupied Ramallah for weeks; 21 offices of the Authority were wrecked and their records carried off, and Arafat was besieged in the Muqāṭaʿa. He died in 2004. Many families emigrated.',
+     'The Wall, Qalandiyā checkpoint and the permit system our readers meet on every visit all date from these years.'),
+    ('The Wall, a capital', None, 'The Wall, 2002 to today',
+     'From 2002 Israel built a barrier of fences and 8-metre concrete walls. Israel called it security; but 85 per cent of its route runs inside the West Bank, not on the 1967 line, taking land, wells and villages. In 2004 the International Court of Justice ruled it illegal and said it must come down. It is still being built.',
+     'Around Ramallah it runs about 89 km and cuts through 19 villages. Bilʿīn lost about 2,300 dunums and began weekly marches in 2005; two of its people were killed. Qalandiyā’s roadblock became a terminal. A short drive to Jerusalem can take hours, and farmers need permits to reach their own olive trees.',
+     'The Wall decides who can pray in Jerusalem, marry across an ID line, or harvest a field. It is the grey line visitors photograph at Qalandiyā.'),
+    ('The Wall, a capital', 'The land.', 'Settlements, 1967 to today',
+     'Israel began building Jewish settlements in the occupied territories soon after 1967. International law, the Fourth Geneva Convention, forbids an occupying power to move its own people into occupied land; the UN and the International Court of Justice have said the settlements are illegal. Today more than 700,000 settlers live in the West Bank and East Jerusalem.',
+     'A ring of settlements went up around Ramallah from the 1970s: Beit El, Psagot, Ofra, Dolev and others, on land taken from our villages. Since 2023 small farm outposts have spread fastest; in 2025 Ramallah governorate had more settler attacks than any other (ARIJ).',
+     'Settlements decide which roads we drive, which land we can farm, and where the checkpoints are.'),
+    ('The Wall, a capital', 'The roads.', 'What occupation means day to day',
+     'Occupation is not one event but a system. Since 1967 the West Bank has been run by military orders: thousands of them, covering who may build, travel, teach, farm, dig a well or come home. Residency, permits and ID cards decide where a person may go. In 2024 the International Court of Justice found the occupation itself unlawful.',
+     'For Ramallah families this means permits to cross the bridge, residency cards that can be cancelled, checkpoints like Qalandiyā, and land in Area C that cannot be built on.',
+     'Most of the conflicts in this chapter are moments when this daily system broke into open violence.'),
+    ('The Wall, a capital', 'A capital without a state.', 'Division and the Gaza wars, 2006 to 2023',
+     'Hamas won the 2006 elections; in 2007 Palestinians split, with Hamas ruling Gaza and the Authority ruling West Bank towns from Ramallah. Israel blockaded Gaza and fought wars there in 2008–09, 2012, 2014 and 2021. In the West Bank, villages such as Bilʿīn and Nabī Ṣāliḥ held weekly unarmed marches against the Wall and settlements.',
+     'Ramallah was spared the bombing but not the raids, arrests and closures; it mourned Gaza’s dead in its squares.',
+     'The split still divides Palestinian politics, and the village marches are the model of popular resistance many young people know.'),
+    ('The Wall, a capital', '2025.', 'Since October 2023',
+     'After the Hamas attack of 7 October 2023, Israel’s war on Gaza killed tens of thousands of Palestinians and destroyed most of the Strip. In 2025 the UN’s independent Commission of Inquiry concluded that Israel had committed genocide there. In the West Bank, raids, arrests, closures and settler attacks rose sharply.',
+     'Ramallah’s district villages, Turmus ʿAyyā, Sinjil, al-Mughayyir, Kafr Mālik and al-Ṭayyiba among them, faced settler attacks; Palestinian-Americans were among the dead. Fourteen new outposts went up in the governorate in 2025.',
+     'This is the present. It is why the next generation is asking these questions.'),
+]
+
+
 def apply(g):
     """Add the modern history to chapters 10 to 12. g is build_v5's globals()."""
     E, c, _plate, RIGHTS, D = g['E'], g['c'], g['_plate'], g['RIGHTS'], g['D']
@@ -561,6 +653,20 @@ def apply(g):
              ['2023–2025', 'Gaza, Lebanon, Iran', 'Raids, settler attacks, closures; Iron Wall in the north']],
             'The wars felt only from a distance are listed so that the book answers for all of them. The sources are in the entries of chapters 10 to 12.'))
 
+    # ---- v98, the context boxes (David, 17 Nov 2026: "This is great").
+    # Text: /mnt/project-files/history/conflicts_1936_present/v2_2026-11-17/CONTEXT_BOXES.md, numbers rechecked against the book.
+    # Each box sits at the head of its conflict: the entry's opening, or the paragraph that begins with `at`.
+    for (prefix, at, era, big, ground, why) in CONTEXT_BOXES:
+        box = _ctx(era, big, ground, why)
+        i = idx(prefix)
+        if at is None:
+            E[i] = E[i][:6] + (box + E[i][6],) + E[i][7:]
+        else:
+            mark = '<p><b>' + at
+            k = 6 if mark in E[i][6] else 7
+            assert E[i][k].count(mark) == 1, (prefix, at)
+            E[i] = E[i][:k] + (E[i][k].replace(mark, box + mark),) + E[i][k + 1:]
+
     g['_check_eras']()
 
 
@@ -574,6 +680,12 @@ CSS = """
 .testimony{margin:14px 0 14px 18px;padding:2px 0 2px 16px;border-left:2px solid #9A6324;background:none;font-style:italic;break-inside:avoid}
 .testimony p{margin:0 0 4px;text-indent:0!important}
 .testimony .tw{display:block;font-style:normal;font-size:.86rem;color:#77726A}
+/* v98: the context boxes for younger readers (src/modern.py) */
+.ctxbox{margin:12px 0 16px;padding:9px 14px 6px;background:#F4EFE6;border-left:3px solid #9A6324;font-size:.86rem;line-height:1.45;color:#3A3730;break-inside:avoid}
+.ctxbox .ck{font-variant:small-caps;text-transform:lowercase;letter-spacing:.14em;color:#9A6324;font-size:.8rem;margin:0 0 5px}
+.ctxbox p{margin:0 0 6px;text-indent:0!important}
+.ctxbox b{color:#1A1915}
+@media (max-width:520px){.ctxbox{margin:10px 0 14px;padding:8px 11px 4px;font-size:.84rem}}
 """
 
 
