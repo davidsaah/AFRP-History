@@ -290,7 +290,7 @@ def apply(g):
         'Ṭalʿat Ḥarb remembered a bullet coming through his family’s front door while they hid inside{}. At sunset the rebels were gone and no one had been caught. '
         'The Orthodox priest, Fr <b>Yūsuf Ḥarb</b>, had agreed with them beforehand to leave the church door open, and they hid in the church until they could get away. '
         'The soldiers then went from house to house, mixing the oil with kerosene, the lentils with the olives, the flour with sugar and mud, so that the town’s winter stores were spoiled{}.'.format(c(NIR + ', p. 95.'), c(NIR + ', p. 95, from Ṭalʿat Ḥarb, <i>Tadhkārāt Ṭalʿat Ḥarb: ṣafaḥāt min al-dhākira al-filasṭīniyya</i>, p. 21.'), c(NIR + ', pp. 95–96, and p. 277, under Fr Yūsuf Ḥarb.')))
-        + _p('One of the rebels was our own: <b>George Saah</b> (Jūrj al-Saah), known by his fighting name, <b>George al-Aqraʿ</b>. He fought, the town remembers, mostly alone and on his own decision. '
+        + _p('One of the rebels was our own: <b>George Saah</b> (Jūrj al-Saah), son of Jaber Yaʿcoub Saah, known by his fighting name, <b>George al-Aqraʿ</b>. He fought, the town remembers, mostly alone and on his own decision. '
              'Farīd al-Ṭawāsha, born in 1921, remembered him on the hills above ʿAin Miṣbāḥ firing an old Turkish rifle at the Odeh Hotel. '
              'That night at al-Maskūbiyya he and his comrades escaped thanks to Fr Yūsuf Ḥarb. Some days later he was taken at Jifnā with a group of fighters, tried, and sentenced to death. '
              'Before the hanging he asked for a priest, to make his confession and take communion, and a priest of the Latin Patriarchate, Fr <b>Ibrāhīm ʿAyyād</b>, came to him at the Maskūbiyya prison in Jerusalem. '
@@ -299,10 +299,10 @@ def apply(g):
               'p. 277, under Fr Yūsuf Ḥarb; p. 95 and its note naming Fr ʿAyyād, from the lawyer ʿĪsā Qandaḥ (interview, 2 August 2003). '
               'Qandaḥ also names George with Yaʿqūb Ḥishma, ʿAṭallah Khashshān, Ilyās Samʿān and others among the Ramallah men who went with the rebels from 1936 (p. 95, note). '
               '<b>Inference, labelled.</b> Nayrūz writes the execution beside the year 1936. British military courts began hanging rebels only in November 1937, with Shaykh Farḥān al-Saʿdī, '
-              'so we print the fight’s year and not the execution’s. The Maskūbiyya in town and the prison in Jerusalem share a name: both were Russian ground (Cadora, <i>Remembering Ramallah</i>, 2023, editors’ note).')))
+              'so we print the fight’s year and not the execution’s. The AFRP family tree records his father as Jaber Yaʿcoub Saah and his death in 1938, which fits that timetable; he left two sons, Fareed and Fuad (AFRP family tree, record AWD1019; identification confirmed by David Saah, 17 November 2026). The Maskūbiyya in town and the prison in Jerusalem share a name: both were Russian ground (Cadora, <i>Remembering Ramallah</i>, 2023, editors’ note).')))
         + _p('<b>The town in the national movement.</b> A survey of 1935 counted a hundred leading figures of Palestinian politics. Twenty-three were Christians, and two of them were from Ramallah, one Orthodox and one Protestant, from a town of at most five thousand people. '
              'Among the women, <b>Nelly Ziyāda</b> of Ramallah was a prominent member of the Syrian Social Nationalist Party{}.'.format(c(NIR + ', p. 62.'))))
-    add_body('New families arrive', _p('The Saah family also gave the revolt a <i>shahīd</i>: George Saah, “George al-Aqraʿ”, whose story is told in “The revolt reaches the town”.'))
+    add_body('New families arrive', _p('The Saah family also gave the revolt a <i>shahīd</i>: George Saah, “George al-Aqraʿ”, son of Jaber Yaʿcoub Saah and father of Fareed and Fuad, whose story is told in “The revolt reaches the town”.'))
 
     add_body('Snow, then the earth shakes', _p(
         'It was not the first great snow. In <b>1895</b>, Nayrūz writes, snow more than a metre deep caught a party of Russian pilgrims on the road near Ramallah, and thirty of them died. '
