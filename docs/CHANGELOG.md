@@ -1,6 +1,16 @@
 # Changelog
 
 
+## v100 — 17 November 2026: the Dibbīn family, and Cadora as a Saah
+
+David: "Double check the dibbine question based on data and literature", then "Cadora is a Saah not a newcomer", then "Go".
+
+- **Dibbīn is east of the Jordan, in sight of Jerash.** Shāhīn (1982), Cadora (1954), Nayrūz ("al-Dubaynī"), Robinson (1841) and Peake (1935) agree on this. No source on the shelf puts the family in Lebanon.
+- **The date.** Shāhīn's Arabic text (p. 17) gives **1860**, and his English text "around 1855–60". Cadora gives 1880. The book printed only Cadora's year. Both are now printed. Shāhīn's year fits the sons: Elias was at the Friends' clinic in 1891 and was mayor from 1908, and his brother Yūsuf's daughter Saʿda married in 1906. Shāhīn's details are added too: Nazareth before Ramallah, Ḥanneh Yaʿqūb Slīm of the Sakrān family, the ʿAwwād clan, and Ḥanneh as the town's midwife.
+- **Cadora is a Saah.** The paragraph heading "Cadora's dates for the newcomers" read as if the Cadoras were a newcomer family. It is now "The newcomers, as Joseph Cadora of the Saah clan dates them", and the text says the Qaddūras are a Saah family.
+- **Map, "Where the newcomers came from":** ʿAudeh al-Dibbini reads "1860 (Shāhīn) · 1880 (Cadora)". The caption now says four families have two dates.
+- Not in this repo: the film narration (v7, line 184, "Dibbine in Lebanon") and two family tree points, listed in Claud_Migration `book_gaps/dibbin_question.md`.
+
 ## v99 — 17 November 2026: two figures from the history movie
 
 David: "There were several images and graphs and photos … added to the movie, can you use any of these in the book?" Each of the movie's 60 frames (Drive, Family Tree / Video / History – The Roots of Ramallah) was checked against the book. Most of them came from the book in the first place: the photographs are this repo's `img/` plates, and the villages chart, the 31-generation void, the town tripling, the Maʾrib road and the Khalaf photograph are already here. Two pictures were new, and both are redrawn in the book's own styles (`src/build_figs8.py`):

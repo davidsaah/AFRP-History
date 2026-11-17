@@ -54,7 +54,7 @@ NEWCOMERS = [
     (32.92, 35.07, 'Acre', 'the Hishmeh', 'about 1775, by Acre and Safad', 'ʿAwwād', -10, 4, 'end'),
     (32.22, 35.24, 'Rafīdiyā', 'the Nazzāl', 'about 1805 (Shāhīn) · 1855 (Cadora)', 'Sharaka', -10, 4, 'end'),
     (31.74, 34.97, 'Dayr Ibān', 'the ʿAraj, Zaghrūt and Shahla', 'about 1810 (Shāhīn) · 1850 (Cadora)', 'Sharaka', -10, 4, 'end'),
-    (32.24, 35.82, 'Dibbīn', 'ʿAudeh al-Dibbini', '1880, by way of al-Reina (Cadora)', 'ʿAwwād (Odeh)', 10, 4, 'start'),
+    (32.24, 35.82, 'Dibbīn', 'ʿAudeh al-Dibbini', '1860 (Shāhīn) · 1880 (Cadora)', 'ʿAwwād (Odeh)', 10, 4, 'start'),
 ]
 REINA = (32.72, 35.32)
 
