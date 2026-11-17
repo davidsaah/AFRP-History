@@ -4382,6 +4382,13 @@ PLACE.update({
  'p189_1.jpg': 'Occupation, and the mayor in Houston',
 })
 _LATE97 = ['p329_4.jpg', 'p328_1.jpg', 'p222_1.jpg', 'p189_1.jpg']   # in date order
+# v100: the Justinian mosaic from the film (rights confirmed by David, 17 Nov 2026).
+LOCAL_PHOTOS.setdefault(4, []).append(
+ ('period/justinian_ravenna.jpg', 'The emperor Justinian with his court, in the mosaic of San Vitale at Ravenna. This is the emperor who gave al-Ḥārith ibn Jabala “the dignity of king”.',
+  'Basilica of San Vitale, Ravenna. ' + RIGHTS['pd']))
+PIC_DATES['period/justinian_ravenna.jpg'] = (547, 'Made about 547')
+KIND['period/justinian_ravenna.jpg'] = 'Mosaic'
+PLACE['period/justinian_ravenna.jpg'] = 'Al-Ḥārith ibn Jabala, named in Greek'
 _check_pictures()
 
 def _plate(key, src, cap, srcline, kind):
