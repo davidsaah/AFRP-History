@@ -165,7 +165,14 @@ def apply(g):
             c('<i>al-Madīna News</i> (Amman), 6 October 2009: <span class="ar" dir="rtl">التمثيل العشائري: آل خلف، آل بدران، آل حرب (حدّادين فلسطين) / رام الله</span>, a series on the clans represented in Jordan’s governments, which gives the dates and traces each family through Shāhīn (1982) to the sons of Rāshid. ' + D('2009_AlMadina_Haddadin_of_Palestine_Ramallah.html') + '.')),
         plate('p045_3.jpg', 44, 'Ḥannā Khalaf of Ramallah addressing the Parliament of Jordan, 1961.')
         + plate('p337_2.jpg', 336, 'The Jordanian army band marches round al-Manāra and its five lion heads, probably in the 1960s.')
-        + _p('<b>What we still don’t know.</b> What Ramallah did in the Suez war of 1956, and in the protests after the raid on al-Samūʿ in November 1966.'))
+        + _p('<b>The border raids.</b> The armistice line ran a few kilometres west of the town, and across it the Israeli army raided the villages of the district. '
+             'On the night of <b>14–15 October 1953</b> it attacked <b>Qibya</b>, a village of what is now the Ramallah governorate, and killed sixty-nine people, most of them in their houses as they were blown up. '
+             'Jordan laid the attack before the Security Council two days later{}. '
+             'Three years on, on <b>10 October 1956</b>, a raid on Qalqīliya came days before Israel invaded Sinai with Britain and France on 29 October, the war the Arabs call the Tripartite Aggression{}. '
+             'Ramallah itself was not attacked. For the town the lasting blow came after, in the crackdown of 1957 that sent Dr Daoud Mikhail to prison.'.format(
+            c('United Nations Security Council, S/3113, letter from Jordan, 16 October 1953.'),
+            c('United Nations Security Council, S/3670 (1956), on the Qalqīliya raid; Institute for Palestine Studies, Palquest, “The 1956 War.”')))
+        + _p('<b>What we still don’t know.</b> What Ramallah did in the days of the Suez war of 1956, and in the protests after the raid on al-Samūʿ in November 1966.'))
     insert_after('Where the refugees lived', [jordan])
 
     # =======================================================================
@@ -246,8 +253,7 @@ def apply(g):
         plate('p343_3.jpg', 342, 'The Khalil Sakakini Cultural Centre, founded in 1996 in a house of 1927 once owned by Khalīl Ṣalāḥ, mayor from 1947 to 1951.')
         + _rec(['9 July 2004: the International Court of Justice on the Wall.',
                 '22 September 2024: the Al Jazeera office in Ramallah raided and closed for 45 days (Anadolu Agency).',
-                '2023: 26 settlements and about 150,000 settlers in Ramallah and al-Bīra governorate (PLO Negotiations Affairs Department).'])
-        + _p('<b>What we still don’t know.</b> The town’s own record of the first intifada, its dead, its prisoners and its popular committees, has not been gathered.'))
+                '2023: 26 settlements and about 150,000 settlers in Ramallah and al-Bīra governorate (PLO Negotiations Affairs Department).']))
 
     add_body('Ramallah becomes a city, clan by clan', _p(
         '<b>The Ottoman governors of the town.</b> Nayrūz, after Yūsuf Qaddūra, lists them: Aḥmad Murād of Jerusalem, the first, 1902–1905; '
@@ -336,6 +342,74 @@ def apply(g):
 
     add_body('The city, counted', _p('By 2004 Ramallah had six congregational mosques, among them al-ʿUmarī in the old town and the mosques of ʿAin Miṣbāḥ and ʿAin Munjid{}.'.format(c(NIR + ', p. 301.'))))
     insert_after('The city, counted', [june, int1, int2, wall])
+
+    # ---- v95, wars and the occupation spread through the chapters (David, 17 Nov 2026: "Spread through").
+    # Sources and the full list: /mnt/project-files/history/conflicts_1936_present/LIST.md
+    HRW12 = 'Human Rights Watch, <i>“Forget About Him, He’s Not Here”: Israel’s Control of Palestinian Residency in the West Bank and Gaza</i> (5 February 2012)'
+    ARIJ15 = 'Applied Research Institute–Jerusalem (ARIJ), <i>Ramallah Governorate Profile</i> (2015)'
+    OCHA = 'United Nations OCHA'
+    FTB = 'Mogannam and Saah, <i>Ramallah Family Tree Book</i>, v117 (AFRP, 2026)'
+
+    add_body('The war, the locusts', _p(
+        '<b>Shot for refusing.</b> “In 1914, three persons from Ramallah were executed in Jerusalem by the Turks. They were accused of treason for refusing to join the war.” '
+        'One of them, the family record says, was <b>Ḥannā Jiryis al-Nāṭūr</b>, eighteen years old. The other two are not named{}.'.format(
+            c(FTB + ', p. 651, record JIR3010. We have found no Ottoman or newspaper record of the executions.'))))
+
+    add_body('The revolt reaches the town', _p(
+        '<b>In the courts.</b> The town also fought for its rebels in the courtroom. <b>Mogannam E. Mogannam</b>, head of the Arab lawyers of Palestine and husband of Matiel Mogannam, '
+        '“was credited for arguing multiple cases of Palestinian rebel fighters and getting them saved from the death sentence by the British after 1936 uprising”{}.'.format(
+            c(FTB + ', p. 144, record SHAR782.'))))
+
+    add_body('The town guards itself', _p(
+        'One of the dead of Nabī Yaʿqūb may be ours by name. The family tree records that <b>Ayyūb Rizq Yaʿqūb Mīkhāʾīl</b> of Ramallah “was killed in Naby Ya’coub … in the war … between Arabs and Jews in 1947.” '
+        'Cadora dates the shooting of the district’s young men there to 18 April 1948. We print both dates{}.'.format(
+            c(FTB + ', p. 91, record AWD469; ' + CAD + ', pp. 58–59.'))))
+
+    add_body('Occupation, and the mayor in Houston', _p(
+        '<b>1972–1973.</b> On <b>28 March 1972</b> the towns of the West Bank voted for their councils for the first time under occupation, and Ramallah chose Karīm Khalaf. '
+        'In October 1973 Egypt and Syria went to war, and with the war’s end the West Bank stopped waiting for the Arab armies. Its leaders, the mayors of Ramallah and al-Bīra among them, formed the <b>Palestinian National Front</b> that year. '
+        'In <b>December 1973</b> the army arrested eight of them and drove them across the river to Jordan, al-Bīra’s mayor <b>ʿAbd al-Jawwād Ṣāliḥ</b> among them{}. '
+        'Birzeit College was closed by military order for the first time that autumn, after a student march, and less than a year later its president was deported{}.'.format(
+            c('<i>New York Times</i>, 10 December 1973, on the deportations.'),
+            c(BZU + '.')))
+        + _p('<b>March 1982.</b> The occupation then removed the mayors. On <b>18 March 1982</b> it dissolved al-Bīra’s council and dismissed its mayor, <b>Ibrāhīm al-Ṭawīl</b>. '
+             'Two days later, on 20 March, <b>Ibrāhīm ʿAlī Darwīsh</b>, seventeen, was shot dead in al-Bīra’s square. On <b>25 March</b> Karīm Khalaf was dismissed. '
+             'The two towns answered with a general strike, the army closed them, and Birzeit had already been shut in February. For four years Israeli officers ran Ramallah’s town hall{}.'.format(
+            c('United Nations Security Council, S/14923 (1982); ' + FARHAN + ', p. 102; ' + NIR + ', p. 387, for the officers, 1982–1986.'))))
+
+    add_body('The first intifada, and the Authority', _p(
+        '<b>The curfews.</b> When the Gulf War began on <b>17 January 1991</b> the whole West Bank was put under curfew day and night, the longest since 1967. Work in Israel stopped, and so did the money sent home from the Gulf{}. '
+        'From <b>1 December 1991</b> Ramallah and al-Bīra were under full curfew of their own; it was eased to a night curfew on 15 December and lifted by court order by 11 February 1992{}.'.format(
+            c('Human Rights Watch, 27 January 1991, and <i>World Report 1992</i>.'),
+            c(IPS + ', December 1991; Human Rights Watch, <i>World Report 1993</i>.')))
+        + _p('<b>September 1996.</b> When the tunnel under the Old City of Jerusalem was opened, the protests began in Ramallah. Between 25 and 27 September seven Palestinians were killed in Ramallah and hundreds wounded, '
+             'Palestinian police and the army fired on each other, and the town was made a closed military zone: “the worst fighting since the peace process began”{}.'.format(
+            c(IPS + ', 25–27 September 1996; Palestinian Centre for Human Rights, <i>The Clashes of September 1996</i>.'))))
+
+    add_body('The Wall, a capital, and our own people', _p(
+        '<b>A capital without a state.</b> After June 2007, when the Authority lost Gaza to Hamas, it governed from Ramallah alone, and the town’s place as the seat of government was fixed{}. '
+        'Its streets became the place where the West Bank’s anger gathered. On <b>24 July 2014</b>, during the war on Gaza, about ten thousand people marched from al-Amʿarī camp to Qalandiyā; two were killed and dozens hurt{}. '
+        'In October 2015 the weekly clashes were at the <b>DCO checkpoint</b> by Beit El, at al-Bīra’s northern edge, and in one week, 20–26 October, 188 people of the governorate were injured{}.'.format(
+            c(TARAKI + '.'),
+            c('PBS NewsHour, 24 July 2014.'),
+            c(OCHA + ', <i>Protection of Civilians</i> weekly report, 20–26 October 2015.')))
+        + _p('<b>The land.</b> Under the Oslo map of 1995, about <b>64 per cent</b> of the governorate, 549,906 of its 855,587 dunums, is Area C, under full Israeli control. '
+             'Most of the settlements around the town were set down in a few years: Ofra in 1975, Beit El in 1977, Psagot in 1981, Kokhav Yaʿacov in 1984{}.'.format(
+            c(ARIJ15 + ', p. 48, and its table of settlements.')))
+        + _p('<b>The roads.</b> The town’s gates are the checkpoints: Qalandiyā to the south, the DCO by Beit El to the north, and the gates at ʿAyn Yabrūd and ʿAṭāra that cut it off from the villages beyond. '
+             'In December 2025 the United Nations counted <b>925</b> checkpoints, gates and roadblocks in the West Bank, more than 120 of the gates put up that year{}.'.format(
+            c(OCHA + ', <i>Movement and Access in the West Bank</i>, April 2026.')))
+        + _p('<b>Water.</b> In 2010 the people of the governorate had on average 108 litres of water a day each, and some of its villages less than 28; the settlers around them used over 400{}.'.format(
+            c(ARIJ15 + ', pp. 44–46.')))
+        + _p('<b>The right to come home.</b> This is where the occupation reaches our families abroad. The census of September 1967 counted only those who were there; everyone away lost the right to live in the town. '
+             'Between 1967 and 1994 about <b>130,000</b> West Bank Palestinians were struck off the register after long stays abroad, and in 2000 Israel stopped deciding requests to reunite families altogether{}. '
+             'For decades a Palestinian-American with a West Bank identity card could come home only over the Allenby bridge. '
+             'Only in 2023, as the price of joining the United States visa-waiver programme, did Israel agree to let all American citizens in through its airport, “regardless of national origin”{}.'.format(
+            c(HRW12 + '.'),
+            c('United States Department of Homeland Security, 27 September 2023, designating Israel for the Visa Waiver Program after Israel’s commitment of 19 July 2023.')))
+        + _p('The settlers’ violence reached our own. <b>Tawfīq ʿAbd al-Jabbār</b>, seventeen, of Gretna, Louisiana, was shot on 19 January 2024 on the road by al-Mazraʿa al-Sharqiyya, his family’s village, and died in the Ramallah hospital{}.'.format(
+            c('Al Jazeera, 21 January 2024.')))
+        + _p('<b>What we still don’t know.</b> The town’s own record of the first intifada, its dead, its prisoners and its popular committees, has not been gathered.'))
     g['_check_eras']()
 
 
