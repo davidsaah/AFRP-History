@@ -1,6 +1,12 @@
 # Changelog
 
 
+## v91 — 16 November 2026: the last two lot-review items
+
+- **Bibliography:** Section XXXI G gains the 12 November evidence review, `Haddadin_Literature_Evidence_Review.pdf`. The count in the masthead now reads 525: 523, plus the v90 clan-roster entry, plus this one.
+- **docs/SHELF_COVERAGE.md:** the Nayrūz 2004 row now names the two scans on the shelf.
+- The print HTML editions were not rebuilt in this pass (no Playwright on the PC that did it). The companion's bibliography will pick up this entry at the next print build.
+
 ## v83 — 14 November 2026: Ramallah from 1914 to today, in the chapters we have
 
 David: "Let's make the more recent history more enriched … the wars … the intifadas, the occupation … up to today … the way you would see it recorded in a Palestinian history museum." He chose option A, "Enrich chapters".
