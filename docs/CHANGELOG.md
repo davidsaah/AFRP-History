@@ -1,6 +1,16 @@
 # Changelog
 
 
+## v99 — 17 November 2026: two figures from the history movie
+
+David: "There were several images and graphs and photos … added to the movie, can you use any of these in the book?" Each of the movie's 60 frames (Drive, Family Tree / Video / History – The Roots of Ramallah) was checked against the book. Most of them came from the book in the first place: the photographs are this repo's `img/` plates, and the villages chart, the 31-generation void, the town tripling, the Maʾrib road and the Khalaf photograph are already here. Two pictures were new, and both are redrawn in the book's own styles (`src/build_figs8.py`):
+
+- **Figure 7.6 · Chart, *One hill, in thirds and in fifths*** (in *The people of Ramallah speak*): the court's division of 1 April 1561, one third to the Muslims already on the hill and two thirds to the Christian newcomers, set above the tradition's fifths among Rāshid's five sons. It is a v80 phone-first plate.
+- **Figure 8.4 · Map, *The Saah builders: to Acre, to Safad, and home*** (in *New families arrive*): Cadora's story on terrain. All three moves are remembered (ochre), and the walls of Acre are standing evidence. The terrain cache is `data/terrain/acre_safad.json` (76 KB). `phone_maps` gives it a phone plate, and `check_redraw` passes.
+- Both titles are added to `FIG_KINDS` and to `KEEP_NEW` in `tools/restore_svg.py`.
+- Every word on the two plates is in the book's own text already. No dates or findings change.
+- The print HTML editions were not rebuilt (no Playwright on this PC). Run `python3 tools/build_print.py` to pick the two figures up.
+
 ## v91 — 16 November 2026: the last two lot-review items
 
 - **Bibliography:** Section XXXI G gains the 12 November evidence review, `Haddadin_Literature_Evidence_Review.pdf`. The count in the masthead now reads 525: 523, plus the v90 clan-roster entry, plus this one.
