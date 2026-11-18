@@ -627,7 +627,7 @@ def fig_roman():
                'Atlas map of the Roman and Byzantine district around Ramallah, with terrain')
     M = Sheet(*fit_box(34.88, 35.62, 31.62, 32.18, 772, 400), 44, 84, 772, 400)
     M.base(s, '10m', terrain={'contour': 200, 'wadi_km2': 12}, key='roman'); M.graticule(s, 0.25, 0.25); M.close(s)
-    M.sea(s, 31.66, 35.50, 'DEAD SEA', 12, -80)
+    M.sea(s, 31.70, 35.49, 'DEAD SEA', 12, -80)
     route(s, M, [(31.70, 35.22), (31.78, 35.225), (31.91, 35.222), (31.96, 35.222),
                  (32.10, 35.24), (32.22, 35.26)], col='#A88452', w=4.4, dash='none')
     rx, ry = M.P(32.12, 35.247)
@@ -684,7 +684,7 @@ def fig_district():
         x, y = mark(s, M, la, lo, k)
         label(s, x, y, nm, dx, dy, an, 13, MS.INK if k != 'ctx' else MS.BODY, '700' if k != 'ctx' else '400')
     x, y = mark(s, M, 31.9038, 35.2034, 'ram0')
-    label(s, x, y, 'RAMALLAH', -12, -8, 'end', 13.5, MS.RAMALLAH)
+    label(s, x, y, 'RAMALLAH', 0, -20, 'middle', 13.5, MS.RAMALLAH)
     M.scalebar(s); M.locator(s)
     MS.legend(s, M.y + M.h + 30, [('doc', 'excavated'), ('mon', 'standing church or inscription'),
                                   ('sq', 'throne village, a shaykh’s seat', ), ('ctx', 'village, for orientation'),
@@ -703,7 +703,7 @@ def fig_oldest():
                'Atlas map of the earliest excavated sites around Ramallah, with terrain')
     M = Sheet(*fit_box(34.94, 35.52, 31.70, 32.08, 772, 400), 44, 84, 772, 400)
     M.base(s, '10m', terrain={'contour': 200, 'wadi_km2': 10}, key='oldest'); M.graticule(s, 0.2, 0.2); M.close(s)
-    M.sea(s, 31.76, 35.50, 'DEAD SEA', 12, -80)
+    M.sea(s, 31.735, 35.48, 'DEAD SEA', 12, -80)
     KIND = {'pal': ('era0', 'Palaeolithic and Natufian'), 'neo': ('era1', 'Neolithic'),
             'chal': ('era2', 'Chalcolithic'), 'eb': ('era3', 'Bronze Age')}
     SITES = [(31.9819, 35.0436, 'SHUQBA CAVE', 'pal', 19.3, 10, -6, 'start'),
