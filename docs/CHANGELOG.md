@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v104 — 18 November 2026: the War list sources on the shelf
+
+David: "There were some new literature added to the literature folder … make sure that it is added to the shelf."
+
+- **159 files** the War list work added to the Literature folder on 17 November are now in the bibliography (`assets/AFRP_Ramallah_Bibliography_v6.html`, and the same file on the Drive). There are **40 new entries** in a new section, **XXXI I, "The wars and the occupation: sources gathered 17 November 2026"**, grouped by who made them:
+  - A: the UN and the courts;
+  - B: Palestinian human-rights organisations, including the PCHR weekly reports of 2001–2004 as one entry;
+  - C: Israeli and international organisations, including the B'Tselem fatality and demolition data;
+  - D: OCHA and the World Bank;
+  - E: scholarship;
+  - F: press.
+- The second OCR copy of Haddadin's *Dawlat al-Ghasasina* joins that book's entry.
+- The bibliography's count is now 565 entries. Every file on the shelf is named in it.
+- Penny Johnson's two JPS articles are left to PR 55, which enters them.
+- The pass is in Claud_Migration `literature_reorg/shelf_pass_4.py`. It never renames or deletes a source file. The `_Text` copies made by the War list work were already in place.
+
 ## v101 — 17 November 2026: the Dibbīn family, and Cadora as a Saah
 
 David: "Double check the dibbine question based on data and literature", then "Cadora is a Saah not a newcomer", then "Go".
