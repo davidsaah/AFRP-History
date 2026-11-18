@@ -105,7 +105,12 @@ CONTEXT_BOXES = [
      'The town’s own memory of these years, and its pride in rebuilding the Manāra, come from here.'),
     ('The first intifada, and the Authority', None, 'The First Intifada, 1987–1993',
      'In December 1987 Palestinians in the West Bank and Gaza rose up together. It was mostly an unarmed uprising: strikes, boycotts of Israeli goods, refusing to pay taxes, stone-throwing, and neighbourhood committees that ran daily life. Israel answered with curfews, mass arrests, school closures and a “break their bones” policy. More than 1,000 Palestinians were killed.',
-     'Ramallah was one of the uprising’s centres. Schools were shut and Birzeit was closed for four years, so classes met in secret.',
+     'Ramallah was one of the uprising’s centres. On 10 January 1988 the army closed Birzeit with a phone call, without even a written order, '
+     'and on 2 February it shut all 800 schools in the West Bank “until further notice.” Teaching at home was not allowed either. '
+     'In October 1988 six families on one Ramallah street agreed to teach their children together. That same afternoon an army officer '
+     'and soldiers came to the street, and the classes never began. The same week, soldiers told the Friends Boys School to stop sending '
+     'homework home (Johnson, <i>Journal of Palestine Studies</i>, 1988 and 1989). In 1989–90 the Friends School met about 60 days instead of 165. '
+     'Ramallah people in America raised more than $300,000 for families at home.',
      'The uprising put Palestinians back on the world’s map and led to the Oslo talks. Many of our readers’ parents lived through it as teenagers.'),
     ('The first intifada, and the Authority', 'The curfews.', 'The Gulf War, 1990–1991',
      'Iraq invaded Kuwait; a US-led coalition drove it out. The PLO’s stance cost Palestinians dearly: between 300,000 and 400,000 Palestinians were forced out of Kuwait.',

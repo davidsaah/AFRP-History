@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v102 — 18 November 2026: the school closures of the First Intifada
+
+David: "Please add them." The "What was happening" box for the First Intifada (chapter 12) now tells the closures on the ground in Ramallah: Birzeit shut by a phone call on 10 January 1988; all 800 West Bank schools shut on 2 February 1988; home teaching banned, so six families on one Ramallah street were stopped the afternoon they began in October 1988; the Friends Boys School told to stop sending homework; the Friends School meeting about 60 days in 1989–90; and Ramallah people in America raising more than $300,000. Sources: Penny Johnson in the *Journal of Palestine Studies* 17:3 (1988) and 18:2 (1989), both now in the bibliography (section XXXI D, 527 entries), and Nīrūz p. 315 for the $300,000.
+
 ## v101 — 17 November 2026: the Dibbīn family, and Cadora as a Saah
 
 David: "Double check the dibbine question based on data and literature", then "Cadora is a Saah not a newcomer", then "Go".
