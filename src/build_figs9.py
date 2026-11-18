@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""v104: three charts for the wars chapters (David, 18 Nov 2026: "Fold it in").
+"""v105: three charts for the wars chapters (David, 18 Nov 2026: "Fold it in").
 
 Drawn in the v80 phone-first style (400 units wide, nothing under 14 units; see
 src/build_figs6.py). The numbers come from:

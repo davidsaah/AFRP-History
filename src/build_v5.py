@@ -4694,7 +4694,7 @@ _add_to_entry('Occupation, and the mayor in Houston', fig(F97.fig_june1967(), 'J
  'In six days of June 1967 the Israeli army took the West Bank, with East Jerusalem, and the Gaza Strip. Ramallah was taken on 6 June, and has been under occupation since.',
  'ARIJ for 6 June 1967, as in this entry; the 1949 armistice lines, simplified.'))
 
-# v104: three charts for the wars (src/build_figs9.py; David, 18 Nov 2026: "Fold it in")
+# v105: three charts for the wars (src/build_figs9.py; David, 18 Nov 2026: "Fold it in")
 import build_figs9 as F9
 _add_to_entry('The second intifada and the siege', fig(F9.fig_killed(), 'The dead of the district, year by year',
  'People of Ramallah and al-Bīra district killed by Israeli forces or settlers each year since 2000. The deciding count for the intifada years is the Palestinian one, printed under the bars.',

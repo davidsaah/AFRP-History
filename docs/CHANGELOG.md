@@ -17,22 +17,7 @@ David: "When you're done do a full editorial review and make all the necessary c
 - **Kept:** the six correction boxes David kept in v77.
 - **Checks:** all editions rebuilt; qa_final shows no overflow at 1280, 900 or 420 px, no broken anchors and no page errors.
 
-## v105 — 18 November 2026: the War list sources on the shelf
-
-David: "There were some new literature added to the literature folder … make sure that it is added to the shelf."
-
-- **147 more files** the War list work added to the Literature folder on 17 November are now in the bibliography (`assets/AFRP_Ramallah_Bibliography_v6.html`, and the same file on the Drive). There are **32 new entries** in a new section, **XXXI I, "The wars and the occupation: sources gathered 17 November 2026"**, grouped by who made them:
-  - A: the UN and the courts;
-  - B: Palestinian human-rights organisations, including the PCHR weekly reports of 2001–2004 as one entry;
-  - C: Israeli and international organisations, including the B'Tselem fatality and demolition data;
-  - D: OCHA and the World Bank;
-  - E: scholarship;
-  - F: press.
-- The second OCR copy of Haddadin's *Dawlat al-Ghasasina* joins that book's entry.
-- The bibliography's count is now 574 entries. Every file on the shelf is named in it.
-- Penny Johnson's two JPS articles came in with v102, and 12 of the other new files with v104. This pass skips any file already named.
-- The pass is in Claud_Migration `literature_reorg/shelf_pass_4.py`. It never renames or deletes a source file. The `_Text` copies made by the War list work were already in place.
-## v104 · 18 November 2026 · the war list folded in, Steadfast, three charts
+## v105 · 18 November 2026 · the war list folded in, Steadfast, three charts
 
 David, 18 Nov 2026: "Fold it in", then "everything is non-commercial" and "ok to use" (PMDA and credited Israeli archive photos, for the next round).
 
@@ -41,7 +26,23 @@ David, 18 Nov 2026: "Fold it in", then "everything is non-commercial" and "ok to
 - **Chapter 12.** The $300,000 and the Sons of Ramallah society (Nayrūz p. 315); Luʾay of Dayr Ghassāna (Barghouti p. 75, dating labelled as inference); WAFA's 17 dead of the governorate in September 1996; PCBS's 182 dead, 49 children, 2000–09; the hospital-yard burials of April 2002; 21 deaths in custody (WAFA); demolitions (B'Tselem, support only).
 - **Three charts** (src/build_figs9.py): the dead of the district by year, demolitions by year, and the share of the family tree born abroad by decade.
 - **Steadfast** (src/steadfast.py): the close of chapter 12 for younger readers, from the Steadfast doc: the four answers by era, the memorial (names to 1967, counts after), and the youth-group page. Budrus's "eight months" and the Qaddūra-camp line are left out for want of a source.
-- **Bibliography:** the 15 new war sources from the 17 November shelf review; 527 → 542 entries.
+
+
+## v104 — 18 November 2026: the War list sources on the shelf
+
+David: "There were some new literature added to the literature folder … make sure that it is added to the shelf."
+
+- **159 files** the War list work added to the Literature folder on 17 November are now in the bibliography (`assets/AFRP_Ramallah_Bibliography_v6.html`, and the same file on the Drive). There are **40 new entries** in a new section, **XXXI I, "The wars and the occupation: sources gathered 17 November 2026"**, grouped by who made them:
+  - A: the UN and the courts;
+  - B: Palestinian human-rights organisations, including the PCHR weekly reports of 2001–2004 as one entry;
+  - C: Israeli and international organisations, including the B'Tselem fatality and demolition data;
+  - D: OCHA and the World Bank;
+  - E: scholarship;
+  - F: press.
+- The second OCR copy of Haddadin's *Dawlat al-Ghasasina* joins that book's entry.
+- The bibliography's count is now 567 entries. Every file on the shelf is named in it.
+- Penny Johnson's two JPS articles came in with v102.
+- The pass is in Claud_Migration `literature_reorg/shelf_pass_4.py`. It never renames or deletes a source file. The `_Text` copies made by the War list work were already in place.
 
 
 ## v103 — 18 November 2026: photographs, charts and maps for the wars

@@ -661,7 +661,7 @@ def apply(g):
             WARS_AROUND_US,
             'The wars felt only from a distance are listed too, so that none is left out. The sources are in the entries of chapters 10 to 12.'))
 
-    # ---- v104, the war list folded in (David, 18 Nov 2026: "Fold it in").
+    # ---- v105, the war list folded in (David, 18 Nov 2026: "Fold it in").
     # Sources: /mnt/project-files/history/conflicts_1936_present/v2_2026-11-17/ (YOUTH_EXTRAS.md, CASUALTY_LISTS.md,
     # INTIFADAS_in_Ramallah.md, NAMES_VS_FAMILY_TREE.md) and the B'Tselem exports of 17 Nov 2026 (support only).
     FT26 = 'AFRP family tree, export of 17 November 2026, the notes on each record'
@@ -765,7 +765,7 @@ CSS = """
 
 
 def finish(html):
-    """The panels' style; v104: Steadfast and the memorial close chapter 12."""
+    """The panels' style; v105: Steadfast and the memorial close chapter 12."""
     import steadfast
     mark = '<div class="erahead" id="ch13">'
     assert html.count(mark) == 1, 'chapter 12 end'
