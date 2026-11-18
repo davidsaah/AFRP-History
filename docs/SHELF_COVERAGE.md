@@ -6,6 +6,8 @@ Which works on the Literature shelf (`D:\GDrive_gmail\My Drive\AFRP_saah\Family 
 
 **222 distinct works** on the shelf (230 files, plus the Nayrūz 2004 print volume): 156 cited, 51 possibly cited, 15 not cited. The book's front matter (src/build_v5.py, "the family library of 88 titles") undercounts the shelf.
 
+**Added 18 November 2026 (v104):** the 159 files of the War list work (bibliography section XXXI I) are on the shelf. They are not yet scored in this table, which was built on 14 November.
+
 ## Not (clearly) cited, with Ramallah-area or modern-Palestine content
 
 Ordered by how many pages mention the subjects. Each line: what the work is, then where the subjects appear.
