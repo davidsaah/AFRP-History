@@ -1,6 +1,12 @@
 # Changelog
 
 
+## v112 — Ṣabra's witnesses, his brothers, and "founded" (18 Nov 2026)
+David said yes to all three held rulings.
+- Ṣabra as Rāshid's brother: one Karak tradition written down three times (ʿAdnān 1953, Abū Rayya 1980, the Karak wheel 2024), adopted by Shāhīn (1982); not four independent witnesses. Mogannam's p. 18 argument is Shāhīn's.
+- Ṣabra's brothers: both versions printed; ʿAdnān alone adds two unnamed brothers at Bayt Jālā and al-Salṭ.
+- "The hill Ramallah would be founded on fifteen centuries later" is now "the hill on which Ramallah now stands" (text and figure).
+
 ## v111 — 18 November 2026: two fixes to the desktop page
 
 - **The bibliography at the back** was squeezed to 44 px wide on screens 1240 px and wider. Its articles sit inside nested `.wrap` boxes, and the desktop margin for notes (`padding-right:340px`) was taken off at every level. The page ran to 1.65 million pixels instead of about 555,000. The margin now applies to the outer column only (`src/desktop.py`).
