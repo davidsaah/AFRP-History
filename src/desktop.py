@@ -29,7 +29,7 @@ CSS = r"""
   body .wrap{max-width:1010px;padding-right:340px!important;box-sizing:border-box}
   body .wrap .wrap{max-width:none;padding-right:0!important;margin-right:0!important}
   body .masthead .wrap,body header .wrap{padding-right:0!important;max-width:760px}
-  body .ebody figure{margin-right:-240px!important}
+  body .ebody figure{margin-right:-240px!important;clear:right}
   body .sn{float:right;clear:right;width:280px;margin:4px -340px 12px 22px;padding-left:12px;border-left:2px solid #E2D6BE;
            font-size:.78rem;line-height:1.45;color:#5A554C;font-style:normal;font-weight:400;text-indent:0;max-width:none!important}
   body .sn b.snn{color:#007A3D;font-weight:700;margin-right:4px}

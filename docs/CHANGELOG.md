@@ -1,6 +1,12 @@
 # Changelog
 
 
+## v114 — maps on the desktop page (18 Nov 2026)
+David: "the maps in the book need improvement".
+- On wide screens a margin note could run over the top of the next map (figures 3.3, 4.4, 11.5). Figures now start below any margin note beside them.
+- Captions said "the ochre circle/ring is the site of Ramallah", but the maps draw a red ring. Now "the red ring".
+
+
 ## v112 — Ṣabra's witnesses, his brothers, and "founded" (18 Nov 2026)
 David said yes to all three held rulings.
 - Ṣabra as Rāshid's brother: one Karak tradition written down three times (ʿAdnān 1953, Abū Rayya 1980, the Karak wheel 2024), adopted by Shāhīn (1982); not four independent witnesses. Mogannam's p. 18 argument is Shāhīn's.
