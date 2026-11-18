@@ -1,6 +1,13 @@
 # Changelog
 
 
+## v108 — desktop reading layout (18 Nov 2026)
+David: "the desktop view is hard to read, the mobile version is great". Screens 1000 px and wider only (src/desktop.py); phone and print untouched.
+- The phone's calm page reused on the desktop; one reading column of about 75 letters, larger and darker text.
+- From 1240 px: footnotes beside their paragraph in the right margin (sidenotes); figures a little wider than the text.
+- From 1600 px: a chapter list at the left edge that marks the chapter being read.
+
+
 ## v107 · 18 November 2026 · the review's last items
 
 The second read of the editorial review (18 Nov 2026), after v106.
