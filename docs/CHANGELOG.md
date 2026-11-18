@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v106 — 18 November 2026: one voice, all the way through
+
+David: "When you're done do a full editorial review and make all the necessary corrections and additions to ensure that we have a consistent voice all the way through."
+
+- **`docs/STYLE.md`** is new. It gathers on one page the rules the book already follows: v64 "One voice", v78 "Smooth everything", the place forms and the numbers.
+- **About 204 changes** across every chapter, the closing and the bibliography (`docs/EDITORIAL_v106.md` lists each one, before and after). They fall into six kinds:
+  - **Self-reference:** the book no longer talks about its own editions or research history ("as printed in earlier editions", "until now we had", "now that we hold it").
+  - **Voice:** it speaks as "we" throughout, and every chapter closes with the same readers' invitation.
+  - **Places:** they are spelled as on the maps: al-Bīra, Bayt Jālā, Baytūniyā, Ṭaybeh, Lydda and Ramle.
+  - **Jargon:** terms are explained at first use (janissary, dragoman, mejīdī, qāʾimmaqām, Y-DNA).
+  - **Clarity:** long or repeated sentences are made plain.
+  - **Tone:** a few judgements are calmed or attributed.
+- **Not changed:** no facts, numbers, dates, quotations or citations.
+- **Kept:** the six correction boxes David kept in v77.
+- **Checks:** all editions rebuilt; qa_final shows no overflow at 1280, 900 or 420 px, no broken anchors and no page errors.
+
 ## v105 — 18 November 2026: the War list sources on the shelf
 
 David: "There were some new literature added to the literature folder … make sure that it is added to the shelf."

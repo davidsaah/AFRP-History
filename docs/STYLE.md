@@ -17,7 +17,7 @@ One voice from the first page to the last. It gathers the rules the book already
 - Each paragraph leads with its point. Bold lead-ins ("**The curfews.**") are used for paragraph headings inside long entries, and end with a full stop.
 
 ## 3. Names and places
-- **Places** are spelled as the book's maps spell them, in its transliteration: al-Bīra, Bayt Jālā, Baytūniyā, Qalandiyā, al-Jalazūn, al-Amʿarī, al-Manāra, Jifnā, Karak, Maʿīn, Ghassān, the Ḥaddādīn. Ramallah, Jerusalem, Nablus, Hebron, Jaffa, Acre, Lydda, Gaza and Amman keep their usual English forms.
+- **Places** are spelled as the book's maps spell them, in its transliteration: al-Bīra, Bayt Jālā, Baytūniyā, Qalandiyā, al-Jalazūn, al-Amʿarī, al-Manāra, Jifnā, Karak, Maʿīn, Ghassān, the Ḥaddādīn. Ramallah, Jerusalem, Nablus, Hebron, Jaffa, Acre, Lydda, Ramle, Gaza, Amman and Madaba keep their usual English forms. Ṭaybeh is the village the Gospel calls Ephraim (not al-Ṭayyiba).
 - **Institutions keep their own English names**: Birzeit University (and Birzeit, the town), the Ramallah Friends School, the Muqāṭaʿa. Settlements are named as they are generally known in English: Beit El, Psagot, Ofra.
 - **People**: Naseeb Shaheen (author, 1992 and 2005) and ʿAzīz Shāhīn (author, 1982) are two people, and their two spellings are kept apart. Joseph (Yūsuf) Cadora, of the Saah clan.
 - **Quotations, titles of works, citations and file names are never respelled.**

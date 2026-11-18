@@ -14,12 +14,12 @@ ERAS = [
     _era('1914–1918: hunger, typhus and the front line',
          ('Losing', 'The Ottoman army drafted our young men. Locusts and requisitions brought famine, and the typhus of 1916 killed up to three in ten people in the town. For nine months the front ran just north of Ramallah. The family tree names more than a dozen of the men who died, among them Butrous Ibrahim Saah, who was drafted and never came home.'),
          ('Caring', 'Dr Philip Maʿlūf died of typhus on 13 February 1916, caught while treating the sick. ʿAzeez and Selma Shaheen said a fig grove kept them alive. In 1918 the Catholic school became a hospital.'),
-         ('Resisting', 'In 1914 Ḥannā Jiryis al-Nāṭūr, eighteen, and two other Ramallah men were executed by the Turks for refusing to join the war. Others hid in the wadis rather than serve.')),
+         ('Resisting', 'In 1914 Ḥannā Jiryis al-Nāṭūr, eighteen, and two other Ramallah men were executed by the Ottoman authorities for refusing to join the war. Others hid in the wadis rather than serve.')),
     _era('1936–1939: the great revolt',
          ('Resisting', 'Ramallah joined the six-month general strike and then the revolt. George Jaber Saah was hanged by the British in the Jerusalem prison on 16 November 1939. Mogannam Mogannam, head of the Arab lawyers, argued the cases of rebel fighters and saved several from the gallows. In 1938 the young men built stone barricades across the streets against the British armoured cars.'),
          ('Losing', 'British planes bombed the hills in 1938. Two women and three men were killed by bombs on their way home from the vineyards.')),
     _era('1948: the Nakba comes to Ramallah',
-         ('Caring', 'In July 1948 the people of al-Lidd and al-Ramla were driven out and walked here in the summer heat. About 25,000 refugees reached Ramallah, and the town’s bakers worked day and night; the four Abū Shahla sisters baked bread for them every day. The Friends Boys School became a hospital staffed by volunteer doctors, and the Girls School housed about 200 people. Nāmeh Cadora’s Infant Welfare Society cared for families from Lydd, Ramla and Jaffa. The Friends Meeting House became a school, and tent schools went up in the new camps of al-Amʿarī, al-Jalazūn and Qalandiyā. By 1953 two in three people in Ramallah were refugees.'),
+         ('Caring', 'In July 1948 the people of Lydda and Ramle were driven out and walked here in the summer heat. About 25,000 refugees reached Ramallah, and the town’s bakers worked day and night; the four Abū Shahla sisters baked bread for them every day. The Friends Boys School became a hospital staffed by volunteer doctors, and the Girls School housed about 200 people. Nameh Cadora’s Infant Welfare Society cared for families from Lydda, Ramle and Jaffa. The Friends Meeting House became a school, and tent schools went up in the new camps of al-Amʿarī, al-Jalazūn and Qalandiyā. By 1953 two in three people in Ramallah were refugees.'),
          ('Resisting', 'The town’s own Armed Youth Organisation defended Ramallah, paid for by a tax the people laid on themselves.'),
          ('Losing', 'Ḥannā Jiryis ʿUmrān was killed at Muṣrāra in Jerusalem. Ayyūb Rizq Mīkhāʾīl was killed at Nabī Yaʿqūb on 18 April 1948.')),
     _era('1967: the Naksa and the occupation',
@@ -37,7 +37,7 @@ ERAS = [
     _era('2002 to today: the Wall',
          ('Resisting', 'Around Ramallah the Wall runs about 89 km and cuts through 19 villages. In 2004 the International Court of Justice ruled it illegal. From 2005 the people of Bilʿīn marched every Friday to their land, joined by visitors from abroad. In 2007 Israel’s own Supreme Court ordered the route moved, and in 2011 two kilometres came down, returning about 1,200 dunums. Bāsim Abū Raḥma was killed in 2009 and his sister Jawāhir in 2010. Birzeit’s Right to Education campaign protested the checkpoint on the student road.'),
          ('Losing', 'Since 2006, Israel has demolished 482 homes and other buildings in the district for lack of a permit it almost never grants. More than a thousand people lost their homes, over half of them children.')),
-    '<div class="sfera"><h4>Since 2023</h4><p>Settler attacks on Turmus ʿAyyā, al-Mughayyir, Kafr Mālik and al-Ṭayyiba rose sharply. In 2025 Ramallah governorate had more attacks than any other, and 88 buildings were demolished, the most of any year. Villagers stayed on their land and replanted their olive trees.</p></div>',
+    '<div class="sfera"><h4>Since 2023</h4><p>Settler attacks on Turmus ʿAyyā, al-Mughayyir, Kafr Mālik and Ṭaybeh rose sharply. In 2025 Ramallah governorate had more attacks than any other, and 88 buildings were demolished, the most of any year. Villagers stayed on their land and replanted their olive trees.</p></div>',
     '<div class="sfera"><h4>What it adds up to</h4><p>The rulers changed every few decades: Ottoman, British, Jordanian, Israeli. What did not change was the answer. A school kept going somewhere, someone fed the stranger, someone refused, and someone wrote down the names. That is the inheritance this book hands on.</p></div>',
 ]
 
@@ -71,7 +71,7 @@ QUESTIONS = [
 ]
 
 TODO = [
-    ('Interview an elder.', 'Ask where they were in 1967, in 1988 or in 2002, and what they did. Record it, with their permission, and send it to the AFRP.'),
+    ('Interview an elder.', 'Ask where they were in 1967, in 1988 or in 2002, and what they did. Record it, with their permission, and send it to the Federation, the AFRP.'),
     ('Find your name on the tree.', 'Look for a relative who was born abroad, and work out which war made the family leave.'),
     ('Make a memorial card.', 'Choose one name from the memorial and find out one thing about that person’s life, not only their death.'),
     ('Plant or pick olives.', 'Join a harvest trip in the district, or send support for one.'),
