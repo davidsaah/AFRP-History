@@ -94,8 +94,8 @@ def recolour_svg(svg):
 CAPTION_WORDS = [
     ('only the Franks, in the thin purple band,', 'only the Franks, in the thin dark band,'),
     ('The gold line is 1562', 'The ochre line is 1562'),
-    ('The gold ring is the site of Ramallah', 'The ochre ring is the site of Ramallah'),
-    ('The gold circle is the site of Ramallah', 'The ochre circle is the site of Ramallah'),
+    ('The gold ring is the site of Ramallah', 'The red ring is the site of Ramallah'),
+    ('The gold circle is the site of Ramallah', 'The red ring is the site of Ramallah'),
     ('the dashed violet rings are medieval pilgrim tradition', 'the dashed dark rings are medieval pilgrim tradition'),
     ('The book grades the two of them violet and dashed', 'The book grades the two of them dark and dashed'),
     # v60 moved the first naming to 1186; the restored atlas plate still said 1279.
