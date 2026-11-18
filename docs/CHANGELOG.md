@@ -1,6 +1,12 @@
 # Changelog
 
 
+## v111 — 18 November 2026: two fixes to the desktop page
+
+- **The bibliography at the back** was squeezed to 44 px wide on screens 1240 px and wider. Its articles sit inside nested `.wrap` boxes, and the desktop margin for notes (`padding-right:340px`) was taken off at every level. The page ran to 1.65 million pixels instead of about 555,000. The margin now applies to the outer column only (`src/desktop.py`).
+- **Margin notes** for a paragraph with more than one note appeared in reverse order (480, 479, 478…). Each is now placed after the last one, so all 50 such paragraphs read in order.
+- QA: no overflow at 1280, 900 or 420 px, no broken anchors, no page errors.
+
 ## v110 — the 26 questions, answered from the shelf (18 Nov 2026)
 David: "use all the literature to answer the question when you can resolve things give it a potential range". Rulings in history/editorial/QUESTIONS_FOR_DAVID_2026-11-18.md.
 - Manāra: decreed 1982, taken down 1983, rebuilt 1999 to July 2000 (Shibli; Shaheen 2005). Town hall: Moshe Biton 1982 to 28 Sep 1986, then the appointed council (Nayrūz).
