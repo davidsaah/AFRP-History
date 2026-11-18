@@ -1,6 +1,16 @@
 # Changelog
 
 
+## v107 · 18 November 2026 · the review's last items
+
+The second read of the editorial review (18 Nov 2026), after v106.
+
+- Entry date labels in BC and AD, like the text (16 entries); ranges unspaced.
+- "after c. 1300" becomes "from about 1300"; "d." and "fl. c." spelled out in prose.
+- Bayt Jālā in a caption; Dr Saʿdallāh al-Qassīs as in the mayors' table; Ramle and Lydda in the camps table; "Jumping ahead" gone.
+- Steadfast: the memorial line now leads with the Palestinian count (PCBS, 49 children, 2000–2009), with B'Tselem's 104 as support; B'Tselem labelled on the demolition lines; the 1948 question no longer says "doubled".
+
+
 ## v106 — 18 November 2026: one voice, all the way through
 
 David: "When you're done do a full editorial review and make all the necessary corrections and additions to ensure that we have a consistent voice all the way through."

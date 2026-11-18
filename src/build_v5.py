@@ -692,7 +692,7 @@ comes from, not the other way round.</p>"""),
 
 sect('What the ground says', 'The other account of how this started — and it begins in this governorate')
 
-ent('about 13,000 – 9,600 BC', 'attested', False, 'The Natufians and the cave at Shuqba',
+ent('about 13,000–9600 BC', 'attested', False, 'The Natufians and the cave at Shuqba',
  f"""Scripture tells the beginning one way, and the ground tells it another. The first people in this land to build regularly in stone and to hold a camp through the year are called Natufians. They take that name because their way of life was first identified, in 1928, in a cave called Shuqba, on the north bank of <b>Wadi an-Naṭūf, in the Ramallah and al-Bīra governorate</b>, some eighteen kilometres west-north-west of Ramallah{c('Shuqba Cave, north bank of Wādī an-Naṭūf, Ramallah and al-Bīra Governorate; 31.9819° N, 35.0436° E — some 17.7 km west-north-west of Ramallah. The figure of 28 km often attached to the cave is its distance from Jerusalem, not from Ramallah.')}. (A wadi is a valley that runs with water only after rain.) The oldest named thing in our whole story is local.""",
  f"""
 {fig(ATLAS.fig_oldest(),'The oldest ground within a morning’s walk of Ramallah',
@@ -781,7 +781,7 @@ ent('the whole of it', 'attested', False, 'What this land is made of',
 
 CH(4)
 sect('And in our own line', 'A dam in Joktan’s country, and a road that ends at Gaza')
-ent('8th–7th c. BCE', 'attested', 'shared', 'The great dam of Maʾrib is built',
+ent('8th–7th c. BC', 'attested', 'shared', 'The great dam of Maʾrib is built',
  f"""The great sluice works of the Sabaean dam, the stone gates that let its water out into the fields, are dated by inscription and excavation to about the eighth and seventh centuries BC{c('The Maʾrib sluice structures, Sabaean period, c. 8th–7th c. BCE, with earlier earthworks beneath; ʿAdnān al-Ḥaddādīn, <i>A Brief History of the Haddadeen</i> (MS, Ramallah City Hall, 8 August 1953), as printed in Shāhīn (1982), ch. 1.')}. Our family’s own account, ʿAdnān al-Ḥaddādīn’s manuscript of 1953 as Shāhīn prints it, remembers the dam “built as early as the 7th century B.C.” That memory lands on the right phase, with a caution we come to in a moment.""",
  f"""
 <p>It is worth pausing on what the dam actually was, because <b>the whole first half of our family’s
@@ -817,7 +817,7 @@ dam, and late by two thousand years about the site.</p>[[C11]]"""),
 CH(2)
 
 sect('What the ground says', 'The first people of this land, and the layers they left')
-ent('about 3500 – 2400 BC', 'attested', False, 'The first villages of this district',
+ent('about 3500–2400 BC', 'attested', False, 'The first villages of this district',
  f"""These are not general claims about “the region”. They are <b>named, excavated and dated sites within a few kilometres of our town</b>. Tell en-Naṣba, on the edge of al-Bīra and about two and a half kilometres from the centre of Ramallah, was a village of about 3500–3300 BC, in the Late Chalcolithic (the Copper Age) and Early Bronze I{c('Tell en-Naṣba, identified with biblical Mizpah, on the edge of al-Bīra. Excavated in five seasons, 1926–1935, by William Frederic Badè for the Pacific School of Religion. The Late Chalcolithic / Early Bronze I village is Stratum 5, c. 3500–3300 BC, after which the site was long abandoned.')}. et-Tell, five kilometres east, was an Early Bronze town lived in from 3200 to 2400 BC{c('et-Tell, generally identified with biblical Ai, 5.3 km east of Ramallah. Excavated by John Garstang (1928), Judith Marquet-Krause (1933–35), Joseph Callaway (1964–70) and Hani Nur el-Din (2005–07). Occupation runs from Early Bronze I through Early Bronze III, c. 3200–2400 BC.')}. ʿAin Samiya, fifteen and a half kilometres north-east, holds a cemetery of shaft tombs from the Intermediate Bronze Age, the time between the Early and Middle Bronze Ages, 2300–2000 BC. The famous ʿAin Samiya goblet came from it{c('ʿAin Samiya and the neighbouring Dhahr Mirzbaneh, east of Kafr Malik. <b>The distance is now checked:</b> the spring and valley of ʿAin Samiya lie at about 31.988° N, 35.333° E (Palestine grid 181/155), some 15.5 km in a straight line north-east of al-Manāra square in Ramallah (31.904° N, 35.203° E). The site: Intermediate Bronze Age (Early Bronze IV) shaft-tomb cemeteries, c. 2300–2000 BC. Paul Lapp excavated Dhahr Mirzbaneh in 1963; Zvi Yeivin excavated ʿAin Samiya in 1970–71. The ʿAin Samiya goblet is an Intermediate Bronze piece, not a Chalcolithic one.')}.""",
  """
 <p>Two mistakes are common in local writing, and we put them right here. ʿAin Samiya is often
@@ -828,7 +828,7 @@ et-Tell has no Chalcolithic phase at all: its earliest settlement is Early Bronz
 replaced, we are not arguing from a general theory about the Levant. <b>We are speaking of ground you
 can walk to from Ramallah in an afternoon</b>, ground that has been dug, dated and published.</p>"""),
 
-ent('about 1500 BCE', 'attested', False, 'The Canaanite population of these highlands',
+ent('about 1500 BC', 'attested', False, 'The Canaanite population of these highlands',
  f"""Everything that comes later is added to this people. <b>Lebanese today draw more than ninety per cent of their ancestry from the Bronze Age Canaanite population.</b> People of the southern Levant today, our town among them by inference, carry a large Bronze Age share of the same kind, alongside later mixing{c('Haber et al., “Continuity and Admixture in the Last Five Millennia of Levantine History,” <i>AJHG</i> 101:2 (2017), 274–82 — the >90% figure is measured for <b>present-day Lebanese</b> against Bronze Age Sidon, and it does not stand for “Levantine ancestry” in general. For the southern Levant: Agranat-Tamir et al., <i>Cell</i> 181:5 (2020), 1146–57.')}.""",
  f"""
 {fig(F.fig_confluence(),'How a people is made',
@@ -886,7 +886,7 @@ expansion, the separation wall cutting farmers off from their own plots, the tow
 hillsides, and the plain fact that fewer people now farm{c('Ghadban (2015), 36 and 42: “approximately 87% of the individual walls are partially destroyed,” under pressure from land confiscation, settlement expansion, the separation wall, the declining economic weight of agriculture and “rapid and largely sprawl urban expansion.” <b>The 87 per cent is measured on the walls, not on the towers; the 167 towers are those still standing.</b>')}. A wall that is repaired every year
 survives four thousand years. A wall that nobody walks to falls down in twenty.</p>"""),
 
-ent('about 1350 BCE', 'documents', False, 'The Amarna letters and who worked the fields',
+ent('about 1350 BC', 'documents', False, 'The Amarna letters and who worked the fields',
  f'''About 1350 BC the rulers of Canaan’s towns wrote letters to the pharaoh in Egypt. The clay tablets were found at Amarna, in Egypt, and are called the Amarna letters. Jerusalem, Shechem, Gezer and Lachish wrote in Akkadian, the written language of the courts of the time{c('The Tell el-Amarna correspondence, fourteenth century BCE: some 350 letters and administrative texts from the Egyptian capital at Akhetaten, found in 1887. The standard edition is William L. Moran, <i>The Amarna Letters</i> (Baltimore: Johns Hopkins, 1992); see also Anson F. Rainey, <i>The El-Amarna Correspondence</i>, 2 vols (Leiden: Brill, 2015).')}. These were the city-states of our landscape, and they were Canaanite. Even our town’s name keeps the sound of that age: rām (<span class="ar">رام</span>) is a Semitic root meaning <i>height</i>, Canaanite-era vocabulary still doing its job{c('al-Dabbāgh, <span class="ar">بلادنا فلسطين</span>, viii/2, on <span class="ar">رام</span>; the same root as Hebrew <i>rām</i> and Aramaic <i>rāmā</i>.')}. The letters are usually read as diplomacy: kings, tribute, the <i>ʿapiru</i> (people on the margins), who is loyal and who is not. <b>Read them the way an employer reads a file, and they are about labour</b>: who goes up the hill, and who ploughs.''',
  f"""
 <p>The clearest sentence in the whole archive on that question is on a small tablet in the Louvre,
@@ -923,7 +923,7 @@ were. If you know of work that answers any of these, we would like to hear from 
 CH(3)
 
 sect('What the ground says', 'Who else was on this coast and this plateau — and what became of every one of them')
-ent('about 1200 → 1000 BCE', 'attested', False,
+ent('about 1200 → 1000 BC', 'attested', False,
     'The highlands fill up',
  f'''Around 1200 BC the Late Bronze order of city-states came apart, and the whole region reorganised itself. In the two centuries that followed, the central hill country went from roughly <b>twenty-five settlements to roughly two hundred and fifty</b>, and from a scatter of people to something near forty-five thousand. The new villages were small, unwalled and farming, founded on hilltops nobody had bothered with before{c('The figures are from the archaeological surveys of the central hill country, summarised in Israel Finkelstein, <i>The Archaeology of the Israelite Settlement</i> (Jerusalem: Israel Exploration Society, 1988), and revisited in Finkelstein &amp; Neil Asher Silberman, <i>The Bible Unearthed</i> (New York: Free Press, 2001). For the population estimate and the ethnogenesis models, Ann E. Killebrew, <i>Biblical Peoples and Ethnicity</i> (Atlanta: SBL, 2005). <b>These are survey counts, not excavation counts</b> — the great majority of the 250 sites have been walked and sherded, not dug.')}. Nothing like it happened on the coast, in the Jordan valley, or anywhere a migration would have had to come from.''',
  f"""
@@ -980,7 +980,7 @@ hills and went on saying the words</b>, not in a library, not by a church, not b
 the people of this ridge were never replaced, the map of the Bible is part of the evidence. A replaced
 people forgets the names.</p>"""),
 
-ent('about 1175–840 BCE', 'attested', False, 'The neighbours, near and across the Jordan',
+ent('about 1175–840 BC', 'attested', False, 'The neighbours, near and across the Jordan',
  'While the highland villages went on terracing the same slopes, the coast and the plateau filled up with peoples whose names are still in the language. The Philistines lived at Gaza, Ashkelon and Ashdod, the Phoenicians at Tyre and Sidon, and the Arameans inland at Damascus. Across the river were Moab, Ammon and Edom. <b>Every one of them was in time absorbed into the people of this region, and not one of them replaced it.</b>',
  f"""
 <p>One of these neighbours matters directly to our family. The plateau our tradition names as its
@@ -1007,7 +1007,7 @@ everybody who comes</b>, and it is what happened to our family too, three thousa
 CH(4)
 
 sect('What the ground says', 'Assyria, and the road that already joined the two ends of this story')
-ent('745–681 BCE', 'documents', False, 'Assyria writes the land down',
+ent('745–681 BC', 'documents', False, 'Assyria writes the land down',
  f"""From <b>Tiglath-pileser III (745–727)</b> onward, the Assyrian empire recorded this country in cuneiform, the wedge-shaped writing of Mesopotamia. It left tribute lists, provincial reorganisations and deportations, and Sennacherib’s siege of Lachish carved in relief for the walls of Nineveh{c('The Assyrian royal inscriptions of Tiglath-pileser III, Sargon II and Sennacherib; the Lachish reliefs from Sennacherib’s palace at Nineveh, now in the British Museum. Standard editions in the <i>Royal Inscriptions of the Neo-Assyrian Period</i> series.')}. What matters here is not who paid whom. From the eighth century BC onward, outside powers documented this landscape continuously, and in none of their documents is it ever empty.""",
  f"""
 <p>At the other end of our family’s story, <b>the incense road was already running</b> in these
@@ -1029,7 +1029,7 @@ better part of a thousand years.</p>"""),
 CH(5)
 
 sect('What the ground says', 'Five empires in five centuries, and a village that does not move')
-ent('539–63 BCE', 'documents', False, 'Six sovereigns over one ridge',
+ent('539–63 BC', 'documents', False, 'Six sovereigns over one ridge',
  'Cyrus took Babylon in 539, and the edict of return is usually dated 538. Alexander came in 332. Then came the Ptolemies, the Seleucids and the Hasmoneans, a Judaean royal house, and Pompey in 63 BC. <b>Five changes of sovereign in five centuries, and no change of population.</b> The district around Jifnā, the Roman Gophna, began in the Hellenistic age of the Greek kings. Rome would inherit it, and Pliny would write it down. Rome did not invent this landscape; it took delivery of it.',
  f"""
 <p>The period left ordinary paperwork, which is the best kind of evidence there is. The Zenon papyri
@@ -1041,13 +1041,13 @@ business{c('The Zenon archive (P. Cair. Zen.), 261–229 BCE; Zenon’s Palestin
 E[-1] = E[-1][:7] + (E[-1][7] + fig(F5.fig_sovereigns(), 'Six sovereigns, one people',
  'Five changes of sovereign in five centuries, and every one of them happened above the villages rather than to them. The bands are the rulers; the green line underneath is everyone else.',
  'Reign dates as conventionally given; the Zenon archive (P. Cair. Zen.) for 259 BC.'),)
-ent('5th–2nd c. BCE', 'attested', False, 'The Samaritans and Mount Gerizim',
+ent('5th–2nd c. BC', 'attested', False, 'The Samaritans and Mount Gerizim',
  f"""Magen dates the sanctuary on Gerizim, from its remains, to the <b>mid-fifth century BC</b>, and that date is disputed. When the Samaritans finally parted from Judaism is disputed too. The decisive break is usually placed at the Hasmonean destruction of their temple there, about 110 BC{c('Y. Magen (Israeli author; cited for context), <i>Mount Gerizim Excavations</i> I–II (Israel Antiquities Authority, 2004, 2008), for the mid-fifth-century sanctuary — excavated and published by the Staff Officer of Archaeology under the Civil Administration, on a mountain in occupied territory, and cited here for its stratigraphy and not for its frame (see the bibliography, §XXX). The Persian-period date is disputed; Gary Knoppers, <i>Jews and Samaritans: The Origins and History of Their Early Relations</i> (Oxford, 2013), ch. 1, for the range of dates proposed — from Ezra to 70 CE; Josephus, <i>Antiquitates</i> XIII.255–56, for John Hyrcanus and the destruction of the Gerizim temple. No source supports a flat “c. 400 BCE”.')}. What follows is not disputed. The Samaritans are still on that mountain. From a population in the hundreds of thousands in the Byzantine era, they fell to about 150 people by 1900, and they have grown again to some 900 today{c('On Samaritan demographic history: the Byzantine-era revolts of 484, 529 and 555 and the collapse that followed; census counts of 163 (1922) and 182 (1931); c. 900 today at Holon and Kiryat Luza.')}. Here continuity can be seen, not just argued. And the Gospel sets a conversation in sight of that same mountain: <i>“our fathers worshipped in this mountain, and ye say that in Jerusalem is the place where men ought to worship”</i>{c('John 4:20, the Samaritan woman at the well near Sychar; the well itself is at Bālāṭa outside Nablus, at the foot of Gerizim, and the mountain in the verse is the one this entry is about. <b>The dispute the verse records is the one the archaeology dates.</b>')}.""",
  ),
 
 CH(6)
 sect('What the ground says', 'Rome paves the ridge, ranks the district, and writes its villages down')
-ent('63 BCE → 77 CE', 'documents', False, 'Rome writes the district down',
+ent('63 BC → AD 77', 'documents', False, 'Rome writes the district down',
  f"""Pompey took Judaea from the Hasmoneans in 63 BC, and a century and a half later the empire had the place on paper. Pliny lists Gophna, which is Jifnā, about seven kilometres due north of our ridge, among the ten toparchies, or districts, of Judaea. Josephus calls it <b>“the second of those cities”</b> after Jerusalem itself{c('Pliny, <i>Naturalis Historia</i> V.70; Josephus, <i>Bellum Judaicum</i> III.54–55; also IV.551 (Vespasian takes the toparchy, 68 CE), V.50 and VI.115.')}.""",
  f"""
 {fig(ATLAS.fig_roman(),'The district when Rome wrote it down',
@@ -1066,7 +1066,7 @@ ground itself was worked and prayed on for some seven hundred years, from the Ro
 onward{c('Salah al-Houdalieh (al-Quds University), excavations at Khirbet et-Tireh from 2013 — two contemporaneous churches, a monastery and an oil press, two kilometres west of the present town centre; the settlement covers some thirty thousand square metres. Hamdan Taha at ʿAbūd. See the bibliography, §XVIII and §XXIX. The excavation does not show an unbroken occupation, and the press was not abandoned after the earthquake of 749. Al-Houdalieh’s publication of it says: <b>“we believe that the press facility itself was maintained in continuous use from the Byzantine through the late Ottoman periods.”</b> Salah Hussein al-Houdalieh, “The Oil Press Complex of Khirbat al-Tira,” <i>Jerusalem Quarterly</i> 62 (2015), 84–96.')}. Only the name Ramallah is missing from every text. The neighbours are Roman, the
 ground is Byzantine, and the name will come with the Crusader records, in 1186.</p>"""),
 
-ent('about 30 CE', 'documents', False, '“A city called Ephraim”',
+ent('about AD 30', 'documents', False, '“A city called Ephraim”',
  f"""John 11:54: “A city called Ephraim, and there continued with his disciples.” The city is generally identified with <b>Ṭaybeh, eleven kilometres from Ramallah</b>{c('John 11:54: <span class="gk">εἰς Ἐφραὶμ λεγομένην πόλιν</span>. The identification with eṭ-Ṭaybeh is standard from Robinson (1841) and the <i>Survey of Western Palestine</i>, resting on Eusebius and the villagers’ retained memory of the older name; Albright preferred ʿAyn Sāmiya.')}.""",
  f"""
 <blockquote><span class="gk">Εφρων ἡ Εφραια ἔνθα ἦλθεν ὁ Κ(ύριο)ς</span><br>
@@ -1081,7 +1081,7 @@ has{c('The see of Jerusalem elevated to patriarchal rank at the Council of Chalc
 <p><b>Our family’s faith did not arrive with us in 1562.</b> It was already here, and it is one of the
 things that never left.</p>"""),
 
-ent('about 27–30 CE', 'scripture', False, 'The roads Jesus used',
+ent('about AD 27–30', 'scripture', False, 'The roads Jesus used',
  f'''The Gospels are not set <i>near</i> our district. <b>They are set in it.</b> Put every place they name at its real position, and the whole of it fits inside a day’s walk of the hill Ramallah would be founded on fifteen centuries later. Jerusalem is fourteen kilometres away, Bethany fifteen, Jericho twenty-three, and Ephraim eleven{c('Distances are great-circle measurements from the centre of present-day Ramallah (31.8996° N, 35.2042° E) to the accepted site of each place. Every distance printed on a plate in this book is now computed from that point and the site’s own plotted coordinates, so a label cannot drift away from the dot it belongs to. <b>Eṭ-Ṭaybeh measures 10.7 km, printed as eleven.</b>')}.''',
  f"""
 {fig(F4.fig_jesus_road(), 'The roads he used, and the ridge they run along',
@@ -1118,7 +1118,7 @@ hundred years the people living beside this ridge have believed the Gospel happe
 door.</b> That belief is itself a dated, documented, physical fact, with a church and foundations. We
 mark the two places violet and dashed on the map, and leave the reader to weigh them.</p>"""),
 
-ent('about 30 CE', 'documents', False, 'Life on the ridge in AD 30',
+ent('about AD 30', 'documents', False, 'Life on the ridge in AD 30',
  f'''A tax district, a highway and a harvest. <b>The people on these hills in the year of the Gospels were villagers of the Gophna toparchy</b>, one of the ten districts of Judaea, with its capital at Jifnā, about seven kilometres from the future town{c('Pliny, <i>Naturalis Historia</i> V.70, listing Gophna among the ten toparchies of Judaea; Josephus, <i>BJ</i> III.54–55, where Gophna heads the list after Jerusalem. The toparchy is Hellenistic in origin and was inherited, not invented, by Rome.')}. They grew olives and vines on terraces their grandparents had built, pressed oil, and paid it to Rome.''',
  f"""
 <p><b>We cannot name one person who stood on Ramallah’s own hill in AD 30.</b> There is no Ramallah
@@ -1139,7 +1139,7 @@ followed{c('Josephus, <i>Antiquitates</i> XX.118–136; <i>BJ</i> II.232–246. 
 traffic. <b>Whoever was farming this ridge in the first century was living on the main road</b>,
 watching the whole country walk past their terraces three times a year.</p>"""),
 
-ent('69 → 70 CE', 'documents', False, 'Rome returns, AD 69–70',
+ent('AD 69 → 70', 'documents', False, 'Rome returns, AD 69–70',
  f'''When Rome came back to settle the revolt, it came up this road, and Josephus names the stops. Vespasian <i>“went up to the mountainous country, and took those two toparchies that were called the Gophnitick and Acrabattene”</i>. Then Josephus goes on: <b><i>“after which he took Bethel and Ephraim, two small cities; and when he had put garrisons into them, he rode as far as Jerusalem.”</i></b>{c('Josephus, <i>BJ</i> IV.550–551 (Whiston IV.9.9), the campaign of AD 69. Bethel is Beitin, 4.4 km from Ramallah; Ephraim is eṭ-Ṭaybeh, 11 km in a straight line from al-Manāra square. The same march has Cerealis sent against upper Idumaea, where he stormed and burned Hebron.')} Acrabattene was the district around ʿAqraba, south-east of Nablus.''',
  f"""
 <p>Read those two names together. Bethel is the town of Jacob’s ladder, and Ephraim is the town John
@@ -1510,7 +1510,7 @@ writing in Arabic still knows where the Ghassān live, and one of the two places
 southern Transjordanian plateau.</p>
 <p>That single sentence <b>carries the record of our people three centuries further</b>. The gap in
 our line is still 931 years, with no fathers named. The gap in the record of our people is much
-shorter: about two centuries, after c. 1300. It puts the people our family claims on the exact
+shorter: about two centuries, from about 1300. It puts the people our family claims on the exact
 ground where our own migration story starts.</p>
 <p>It is not a chain of fathers. It is something more modest and more useful: evidence that the
 population the tradition names was still there, still named, and still in the right place, long
@@ -1618,7 +1618,7 @@ anything else.</p>
 named with his father’s name. He buys goods on credit from a Muslim dealer, and the terms are written
 into a document good enough to survive six hundred and fifty years.</p>
 <p>Whatever village he walked in from, that is what an ordinary Christian life looked like in the
-gap in the record of our people, the two centuries after c. 1300 that we cannot yet cross. <b>It is exactly the kind of paper our own
+gap in the record of our people, the two centuries from about 1300 that we cannot yet cross. <b>It is exactly the kind of paper our own
 ancestors would have left, if anybody had kept theirs.</b></p>
 <p>We also searched the rest of the archive. McGill University has put the 1978 microfilm of the
 entire collection online: four rolls, some nine hundred documents, free to anyone{c('McGill University Library, <i>Islamic documents from al-Ḥaram al-Sharīf in Jerusalem</i>, four microfilm rolls digitised and open on archive.org, items <code>McGillLibrary-isl_al-haram-as-sarif_CD2019J47L571984_roll1-20453</code> through <code>roll4-20456</code>. The catalogue that makes them usable is Donald P. Little, <i>A Catalogue of the Islamic Documents from al-Ḥaram aš-Šarīf in Jerusalem</i>, Beiruter Texte und Studien 29 (Beirut, 1984), ISBN 3-515-03699-7 — print only.')}. <b>The machine-read text of it is of no use.</b></p>
@@ -1730,12 +1730,12 @@ last three places carry a name.</p>
 our family knows of its own line, and neither of them is anything to be ashamed of.</i></p>
 {fig(R.fig_arith(),'Forty-five is the wrong number',
  'Before looking for the missing generations it is worth checking the count that is usually quoted. Forty-five generations across 931 years implies a male-line generation of about twenty-one years, shorter than any population on record sustains. Thirty-one generations at thirty years each fits. <b>Correcting the arithmetic does not close the void — it measures it.</b> <i>The thirty-year figure is an assumption and not a measurement; the entry on the clock says so at length.</i>',
- 'Generational-interval range after the standard genealogical-demography literature; the span from al-Ḥārith (d. 569) to Rāshid (fl. c. 1500), 931 years.')}
+ 'Generational-interval range after the standard genealogical-demography literature; the span from al-Ḥārith (died 569) to Rāshid (who lived about 1500), 931 years.')}
 {FIX('A fixed count of generations between al-Ḥārith and Rāshid.',
  '<b>A range: about 27 to 37 generations</b>, most probably around 31 — and the line recounted at sixty-six, not thirty-six.',
  'Arithmetic, not a source: al-Ḥārith (d. 569) to Rāshid (fl. c. 1500) is 931 years; at <b>an assumed</b> 25–35 years a generation, that is 27–37, of which the chart draws two. No source is needed for a division, and none is claimed — <b>but the interval is not a fact, and the entry that follows says where it comes from and why no better one exists.</b>')}
 {fig(F.fig_void_solved(),'The void, measured — and shortened',
- 'The gap in our line runs 931 years, from al-Ḥārith (d. 569) to Rāshid (fl. c. 1500), with no fathers named, and needs about thirty-one generations to cross. The gap in the record of our people is far shorter, about two centuries after c. 1300 — Ghassān is entered as a living people, at al-Balqāʾ, the Yarmūk and Ḥimṣ, on the authority of a Mamluk officer who died about 1300 — and dated records fall inside the blank: ʿAbūd’s rebuilt church in 1058, a man of Jifnā signing a Frankish charter in 1182 and a Christian buying cotton on credit at Jerusalem in 1374, the pilgrim Thietmar hosted in Shawbak’s suburb on the journey of 1217–18, a Christian majority at Shawbak in 1321. What no source supplies is a chain of fathers. So the chart should print the number, not a blank.',
+ 'The gap in our line runs 931 years, from al-Ḥārith (died 569) to Rāshid (who lived about 1500), with no fathers named, and needs about thirty-one generations to cross. The gap in the record of our people is far shorter, about two centuries after c. 1300 — Ghassān is entered as a living people, at al-Balqāʾ, the Yarmūk and Ḥimṣ, on the authority of a Mamluk officer who died about 1300 — and dated records fall inside the blank: ʿAbūd’s rebuilt church in 1058, a man of Jifnā signing a Frankish charter in 1182 and a Christian buying cotton on credit at Jerusalem in 1374, the pilgrim Thietmar hosted in Shawbak’s suburb on the journey of 1217–18, a Christian majority at Shawbak in 1321. What no source supplies is a chain of fathers. So the chart should print the number, not a blank.',
  'Procopius; Shahîd, BASIC I.1 (1995), 534 and 562–64; Kennedy (2010), p. 198, citing al-Yaʿqūbī; the ʿAbūd, Jifnā, Thietmar and Shawbak records.')}
 <p>The silence in our family’s line is not a silence in our family’s world. The next two chapters
 walk through these centuries one dated record at a time. A people is still named in 684 and still located in 890.
@@ -1750,7 +1750,7 @@ chain of fathers. The chart is the document that admits it.</i></p>"""),
 ent('about 1300 → about 1418', 'documents', False,
     'Ghassān is still there in 1400',
  f'''In chapter 5 we saw al-Yaʿqūbī place the Ghassān at Gharandal in 890. They can be followed much
-later than that. <b>The gap in the record of our people is not six hundred years long. It is about two centuries, after c. 1300.</b> Al-Qalqashandī
+later than that. <b>The gap in the record of our people is not six hundred years long. It is about two centuries, from about 1300.</b> Al-Qalqashandī
 finished <i>Qalāʾid al-jumān</i>, <i>Necklaces of Pearls, on the Tribes of the Arabs of the Present Age</i>,
 in the first years of the fifteenth century. Ghassān is in it, not as a memory but as a people with
 addresses: al-Balqāʾ, the Yarmūk, and Ḥimṣ{c('Al-Qalqashandī, <span class="ar">قلائد الجمان في التعريف بقبائل عرب الزمان</span>, ed. Ibrāhīm al-Ibyārī, 2nd ed. (Cairo/Beirut, 1402/1982), <b>p. 97</b>, closing the entry <span class="ar">البطن الثاني من الأزد: غسان</span> at pp. 94–97: <span class="ar">قال في مسالك الأبصار: وبالبلقاء طائفة من غسان. وباليرموك منهم الجمّ الغفير، وبحمص منهم جماعة</span>. The same notice stands in his <span class="ar">نهاية الأرب في معرفة أنساب العرب</span>, ed. Ibyārī, no. 1421, p. 388, where it is credited not to al-ʿUmarī but to <span class="ar">الحمداني</span> — <b>the two attributions together are the transmission chain, visible in one author’s two books.</b>')}.
@@ -2816,7 +2816,7 @@ al-Bīra family, not a Ramallah clan; in America they have their own society, or
 descent from their own town, as the Federation is organised around descent from ours. <i>They are
 not part of this genealogy.</i> <b>They are part of this history</b> — which is a different claim,
 and the truer one.</p></div></div>
-<p>Jumping ahead a century, one Rafeedie we can name from the record is Wissām Rafeedie, journalist, of al-Bīra. He was
+<p>A century later, one Rafeedie we can name from the record is Wissām Rafeedie, journalist, of al-Bīra. He was
 arrested at his home on 11 August 1994 and held under administrative detention orders, renewed for
 twenty-one months, until the United Nations Working Group on Arbitrary Detention declared the
 detention <b>arbitrary</b> in 1996{c('UN Working Group on Arbitrary Detention, <i>Rafeedie v. Israel</i>, Opinion No. 17/1996, 23 May 1996 — residence given as “El Bireh, West Bank”; arrested 11 August 1994; the Working Group found the detention arbitrary, citing the absence of effective appeal and its duration.')}.</p>
@@ -3037,7 +3037,7 @@ ent('1949 → 1957', 'documents', False,
  f"""
 {NUMTABLE('The camps of this district', ['camp','where','set up','on whose land','who is in it','2017'],
  [['<b>Qaddūra</b>','inside Ramallah city, 0.5 km east of the centre','1948','<b>private land</b> — so UNRWA never recognised it as a camp','Dayr Ṭarīf, al-Lidd, Lifta, al-Ramla, Jaffa, Qālūniya, ʿImwās','924'],
-  ['<b>al-Amʿarī</b>','al-Bīra, 1.4 km east of Ramallah centre','1949','leased by UNRWA from the Jordanian government','al-Ramla, al-Lidd, Jaffa, Haifa','4,725'],
+  ['<b>al-Amʿarī</b>','al-Bīra, 1.4 km east of Ramallah centre','1949','leased by UNRWA from the Jordanian government','Ramle, Lydda, Jaffa, Haifa','4,725'],
   ['<b>al-Jalazūn</b>','5.3 km north of Ramallah','1949, named for a spring','rented from a private owner in Jifnā, by most accounts; no lease document is public','thirty-six villages (the encyclopedia of the Institute for Palestine Studies counts forty-six) of Lydda, Ramle, Haifa and west of Hebron; chiefly Bayt Nabāla and al-Lidd','8,201'],
   ['<b>Qalandiyā</b>','the southern entrance to Ramallah; Jerusalem governorate','1949','leased by UNRWA from the Jordanian government','the Jerusalem-corridor villages — ʿAllār, Lifta, ʿArtūf, Khirbat al-Lawz, ʿIshwaʿ, Ṣarʿa','8,336'],
   ['<b>Dayr ʿAmmār</b>','12 km north-west','1949 (UNRWA)','land of non-refugee villagers of Dayr ʿAmmār and Jammāla','Bayt Nabāla, Dayr Ṭarīf, Ṭīrat Dandan, al-Sāqiya','—']],
@@ -3314,7 +3314,7 @@ Society; the society’s own papers, in the Palestinian Museum Digital Archive, 
 for the town’s old women{c('Shāhīn (1982), “Societies”: the Nahda (1925), the Infant Welfare Society (1927, Mrs Nameh Joseph Cadora), the Women’s Union (1939), the Girl Guides (1942), and the Handicraft Cooperative (1954, Miriam Yaʿcoub Zaʿroor — in Shāhīn’s words the first cooperative society in Palestine, which we have not been able to confirm; fifty women, all skilled embroiderers). The Palestinian Museum Digital Archive describes the Women’s Union as “founded in Ramallah during the early 1930s to care for the elderly,” with papers that include “sessions held in 1939.”')}.</p>
 <p>Khaleel Abu Rayya opened the National College in 1947 and kept it running until 1971, the last
 fourteen years partly paralysed by a stroke. Then he took charge of the Ramallah Public Library he had
-founded. Dr Saʿadallah Kassees was both doctor and mayor. His niece, Laila Kassees, became <b>the first
+founded. Dr Saʿdallāh al-Qassīs was both doctor and mayor. His niece, Laila Kassees, became <b>the first
 woman of Ramallah to qualify as a doctor</b>, and practises in Memphis. And Joseph Jiryes Cadora,
 pharmacist and mayor, wrote the town’s first history (its story comes in the next chapter){c('Shāhīn (1982), the education and notable-individuals chapters; Cadora’s mayoralty and his 1954 book, on which see “Our first history, written in New York”.')}.</p>
 <p>Most of these people were born into, or married into, the eight clans of our town. That is what a
@@ -4279,7 +4279,7 @@ _SH80 = [
  (10, 'p243_1.jpg', 242, 'Two women inside a Ramallah house, 1906, in the town’s costume: the headdress with its two rows of coins, the saffa and the shakka. The bedding is stacked in the wall niche behind them.', (1906, None)),
  (10, 'p250_2.jpg', 249, 'Musa Rabah (left) and Yaʿcoub Hanania in the United States army, in the First World War.', (1918, None)),
  (10, 'p246_1.jpg', 245, 'The Roman Catholic church and school of Ramallah on a postcard of 1918. The school seems to have served as a hospital after the British came that year.', (1918, None)),
- (10, 'p277_1.jpg', 276, 'Musa Khaleel, mayor of Ramallah (right), with Iskandar Badr, the first mayor of Beit Jala, 17 October 1935.', (1935, None)),
+ (10, 'p277_1.jpg', 276, 'Musa Khaleel, mayor of Ramallah (right), with Iskandar Badr, the first mayor of Bayt Jālā, 17 October 1935.', (1935, None)),
  (10, 'p173_1.jpg', 172, 'Girls of the Girls’ Training Home about 1910, with Timothy Hussey and his wife at the centre. Katie Gabriel, the boarding school’s first principal, stands at the far left of the back row.', (1910, None)),
  (10, 'p179_1.jpg', 178, '“The Totah Family”: Khalil Totah stands on the right, with Mother Azeezie, Helanie, Naameh and her children, and Martha Totah. Shaheen dates it about 1920, with a question mark.', (1920, None)),
  (10, 'p315_1.jpg', 314, 'The graduating class of the Friends Boys School, 1946, with Dr Khalil Totah, the principal, at the centre. Most were boarders from Haifa, Jaffa, Gaza and Tiberias; from Ramallah, Fuad Saʿah, Ghanayem Kandah, George Katouʿah and Andrew Faramand.', (1946, None)),

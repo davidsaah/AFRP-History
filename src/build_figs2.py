@@ -446,7 +446,7 @@ def fig_void_solved():
 
     dy = band_y + band_h + 26
     s.append(f'<rect x="{px(1300):.1f}" y="{dy}" width="{px(1500)-px(1300):.1f}" height="24" fill="{GREEN}" opacity=".13" stroke="{GREEN}"/>')
-    s.append(txt(px(1500), dy + 38, 'THE GAP IN THE RECORD OF OUR PEOPLE — about two centuries, after c. 1300', 9.8, DARK, 'end', '700'))
+    s.append(txt(px(1500), dy + 38, 'THE GAP IN THE RECORD OF OUR PEOPLE — about two centuries, from about 1300', 9.8, DARK, 'end', '700'))
     s.append(f'<path d="M{px(569):.1f} {dy+12:.0f} L{px(1296):.1f} {dy+12:.0f}" stroke="{GREEN}" stroke-width="2.4"/>')
     s.append(txt((px(569)+px(1300))/2, dy + 6, 'a Ghassān population is still named here', 8.6, DARK, 'middle', '700'))
 
