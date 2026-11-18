@@ -13,6 +13,27 @@ David, 18 Nov 2026: "Fold it in", then "everything is non-commercial" and "ok to
 - **Bibliography:** the 15 new war sources from the 17 November shelf review; 527 → 542 entries.
 
 
+## v103 — 18 November 2026: photographs, charts and maps for the wars
+
+David: "look at the War list Thread … make a plan and give me options … I would also like to get a chart photos and figures to help". Then: "everything is non-commercial", and photographs from Israeli archives are "ok to use". This is Phase 1 of the plan (Claud_Migration `book_gaps/wars_visuals_plan.md`). The text of chapters 10–12 is unchanged.
+
+- **17 photographs** (`img/conflicts/`, listed with source and rights in `img/conflicts/SOURCES.md`). Each is set among the paragraphs of its entry:
+  - WWI: two Australian War Memorial views of Ramallah, 1917 and 1918.
+  - The revolt: two Matson photographs, 1936 and 1938.
+  - 1948: Lydda in July, and Bayt Nabālā.
+  - The refugees: al-Jalazūn in the early 1950s.
+  - June 1967: two by Boris Carmi in Ramallah, and the Allenby Bridge.
+  - The first intifada: a women's march, and al-Amʿarī after curfew.
+  - 2002: the Muqāṭaʿa, twice.
+  - The Wall: Qalandiyā 2004, Bilʿīn 2010, and al-Mughayyir 2024.
+- **Four figures** (`src/build_figs10.py`):
+  - **Chart, "A century of wars around Ramallah, 1911–2025".** The chapter-12 table drawn as one timeline. The table's rows now live in `modern.WARS_AROUND_US`, so the chart and the table cannot drift apart.
+  - **Chart, "The settlements around Ramallah, by the year each was set down".** From ARIJ's table 34 (2015 profile), with the settler totals and the 2025 outposts the text gives.
+  - **Map, "The front, March to September 1918".**
+  - **Map, "The armistice line and the raids, 1949–1967".** The West Bank outline is after Natural Earth.
+  - Both maps have phone plates.
+- **Map style:** a new mark for a line drawn by an army or a treaty (`LINE_ARMY`), added to `docs/MAP_STYLE.md` and `map_style.py` first, as the guide asks.
+- Terrain caches: `front1918.json` (173 KB, 200 m contours) and `raids4967.json` (55 KB).
 ## v102 — 18 November 2026: the school closures of the First Intifada
 
 David: "Please add them." The "What was happening" box for the First Intifada (chapter 12) now tells the closures on the ground in Ramallah: Birzeit shut by a phone call on 10 January 1988; all 800 West Bank schools shut on 2 February 1988; home teaching banned, so six families on one Ramallah street were stopped the afternoon they began in October 1988; the Friends Boys School told to stop sending homework; the Friends School meeting about 60 days in 1989–90; and Ramallah people in America raising more than $300,000. Sources: Penny Johnson in the *Journal of Palestine Studies* 17:3 (1988) and 18:2 (1989), both now in the bibliography (section XXXI D, 527 entries), and Nīrūz p. 315 for the $300,000.

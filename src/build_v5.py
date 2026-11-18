@@ -4708,6 +4708,65 @@ _add_to_entry('The Wall, a capital, and our own people', fig(F9.fig_abroad(), 'B
  'The share of people in the family tree born outside Palestine and Jordan, by the decade they were born. It shows when the families left, not how many live abroad today.',
  'AFRP family tree, export of 17 November 2026: the 1,689 people with both a birth year and a birthplace.'),
  after='<p><b>The right to come home.</b>')
+# ---------------------------------------------------------------------------
+# v103: photographs, charts and maps for the wars and the occupation
+# (David, 18 Nov 2026: "a chart photos and figures to help"; "everything is
+# non-commercial"; photographs from Israeli archives "ok to use").
+# The photographs are in img/conflicts/, chosen from the sourced set on the AFRP
+# Drive (Family Tree / Literature / Images_conflicts, INDEX.csv).
+import build_figs10 as F10
+_AWM = 'Australian War Memorial, {n}. Copyright expired; ' + RIGHTS['pd']
+_MAT = 'American Colony Photo Department. Library of Congress, Prints &amp; Photographs Division, Matson Collection, LC-DIG-matpc-{n}. ' + RIGHTS['loc']
+_PMDA = ('Photograph: {who}. The Palestinian Museum Digital Archive, the {coll} Collection, object {n}. '
+         '© The Palestinian Museum Digital Archive; reproduced for non-commercial use.')
+_CARMI = ('Photograph: Boris Carmi. Meitar Collection, National Library of Israel, the Pritzker Family National Photography Collection, '
+          'digital ID {n}. CC BY 4.0.')
+WAR_PLATES = {
+ 'The war, the locusts': [
+  ('awm_b03110_ramallah_1917.jpg', 'Ramallah seen across the valley by an Australian soldier, about 1917. Through 1918 the front of the war ran a few kilometres north of the town.', _AWM.format(n='B03110')),
+  ('awm_h00687_ramallah_1918.jpg', 'The British army’s 74th Casualty Clearing Station at Ramallah, seen from the Nablus Road, August 1918.', _AWM.format(n='H00687'))],
+ 'The revolt reaches the town': [
+  ('matpc_18056_search_1936.jpg', 'Troops in a general search for arms during the disturbances of 1936. The place is not named; in July 1936 such searches reached the villages of the district.', _MAT.format(n='18056')),
+  ('matpc_18889_road_tower_1938.jpg', '1938: concrete blocks and a concrete road tower on the Nablus Road, the road north out of Jerusalem towards Ramallah.', _MAT.format(n='18889'))],
+ 'The catastrophe of 1948': [
+  ('lydda_expulsion_1948.jpg', 'July 1948: the people of Lydda driven out of their town. Thousands of them walked east to Ramallah.', 'Palmach Archive photograph, via Wikimedia Commons. ' + RIGHTS['pd']),
+  ('pmda_183843_bayt_nabala_1948.jpg', 'Refugees under the olive trees at Bayt Nabālā, 1948. People of Bayt Nabālā were among the first to come up the hill that spring.', _PMDA.format(who='unknown', coll='Walid az-Zain', n='183843'))],
+ 'Where the refugees lived': [
+  ('jalazone_van_de_poll.jpg', 'al-Jalazūn camp, north of the town, with its tents on the hillside, early 1950s.', 'Photograph: Willem van de Poll (ANEFO). Nationaal Archief, the Netherlands. CC BY 4.0.')],
+ 'Occupation, and the mayor in Houston': [
+  ('carmi_ramallah_square_1967.jpg', 'Ramallah, June 1967: Israeli soldiers in the centre of the town, by the Rabah Hotel.', _CARMI.format(n='997009325680105171')),
+  ('carmi_ramallah_cart_1967.jpg', 'Ramallah, June 1967: a family moves its belongings on a cart.', _CARMI.format(n='997009325679105171')),
+  ('unrwa_allenby_1967.jpg', 'June 1967: refugees cross the bombed Allenby Bridge to the east bank of the Jordan.', 'UNRWA Photo and Film Archive, via Wikimedia Commons. ' + RIGHTS['pd'])],
+ 'The first intifada, and the Authority': [
+  ('pmda_75606_women_1987.jpg', 'A women’s demonstration in the first intifada, 1987. The place is not recorded.', _PMDA.format(who='unknown', coll='Nahla Qourah', n='75606')),
+  ('pmda_14060_amari_1988.jpg', 'al-Amʿarī camp, Ramallah, 1988: the first day back at the UNRWA school after a week-long curfew.', _PMDA.format(who='Joss Dray', coll='Joss Dray', n='14060'))],
+ 'The second intifada and the siege': [
+  ('pmda_89484_muqataa_2002.jpg', 'A tank at the Muqāṭaʿa, Ramallah, 4 April 2002.', _PMDA.format(who='Yousef al-Qutob (WAFA)', coll='Yousef al-Qutob', n='89484')),
+  ('pmda_193722_muqataa_ruins_2002.jpg', 'The Muqāṭaʿa after the invasion, 15 July 2002.', _PMDA.format(who='Emile Ashrawi', coll='Emile Ashrawi', n='193722'))],
+ 'The Wall, a capital, and our own people': [
+  ('pmda_36962_qalandiya_2004.jpg', 'The Qalandiyā checkpoint, on the road south out of Ramallah, 2004.', _PMDA.format(who='Joss Dray', coll='Joss Dray', n='36962')),
+  ('pmda_90055_bilin_2010.jpg', 'Bilʿīn, 24 December 2010: the weekly march against the Wall, on Christmas Eve, with marchers dressed as Father Christmas.', _PMDA.format(who='Yousef al-Qutob (WAFA)', coll='Yousef al-Qutob', n='90055')),
+  ('mughayyir_arson_2024.jpg', 'al-Mughayyir, in the Ramallah district, April 2024: a house burned in a settler attack.', 'Photograph by residents of al-Mughayyir, via Wikimedia Commons. CC0.')],
+}
+for _prefix, _items in WAR_PLATES.items():
+    _i = _entry_index(_prefix)
+    _ps = [_plate('conflicts/' + fn, '../img/conflicts/' + fn, cap, src, 'Photograph') for fn, cap, src in _items]
+    E[_i] = E[_i][:7] + (_spread(E[_i][7], _ps),) + E[_i][8:]
+
+_add_to_entry('The war, the locusts', fig(F10.fig_front1918(), 'The front, March to September 1918',
+ 'For nine months the war stood still a few kilometres north of the town. From March 1918 the line ran from Kafr Mālik by Tell ʿĀṣūr to Nabī Ṣāliḥ, and the British held Ramallah behind it.',
+ 'Cyril Falls, <i>Military Operations: Egypt and Palestine</i>, vol. 2 (1930), for the line; Cadora and Nayrūz for the town, as in this entry.'))
+_add_to_entry('Under the Jordanian crown', fig(F10.fig_raids(), 'The armistice line and the raids, 1949–1967',
+ 'Between the wars of 1948 and 1967 the armistice line ran a short drive west of the town. The raids across it are told in this entry.',
+ 'UN Security Council S/3113 (1953) and S/3670 (1956); <i>Journal of Palestine Studies</i> (2007); the line after Natural Earth.'))
+_add_to_entry('The Wall, a capital, and our own people', fig(F10.fig_settlements(), 'The settlements around Ramallah, by the year each was set down',
+ 'Most of the settlements of the governorate were set down in fifteen years, from Ofra in 1975 to Talmon in 1989. Their people numbered about 150,000 by 2023, and fourteen new outposts went up in 2025 alone.',
+ 'ARIJ, <i>Ramallah Governorate Profile</i> (2015), table 34, “Israeli settlements in Ramallah Governorate”; PLO Negotiations Affairs Department (2023) for about 150,000; ARIJ/POICA for 2025, as in this entry.'),
+ after='<p><b>The roads.</b>')
+_add_to_entry('The Wall, a capital, and our own people', fig(F10.fig_wars_century(), 'A century of wars around Ramallah, 1911–2025',
+ 'The table that follows, drawn as one picture. Dark bars are the wars that reached the town; pale bars, the wars felt from a distance.',
+ 'The table “The wars around us, 1911–2025” below, and the entries of chapters 10 to 12.'),
+ after='<div class="ntwrap"><div class="nthead">THE WARS AROUND US')
 
 CONTENTS = ('<a class="tocbtn" href="#toc" aria-label="Jump to the list of chapters">Chapters</a>'
             '<div class="contents" id="toc"><h4>Contents</h4><ol>' + ''.join(
@@ -5005,13 +5064,13 @@ FIG_KINDS = [  # by the start of the title
  ('Map', ('Where the newcomers came from', 'Five lights in the silence', 'June 1967: the occupation')),
  ('Map', ('The oldest ground', 'The ridge in the Iron Age', 'The roads he used', 'The district when Rome',
           '“They scattered', 'The road, and the ground', 'The hills around Ramallah', 'The road the family',
-          'Where Ramallah went', 'The town, as Shāhīn', 'Where the road stopped', 'The Saah builders')),
+          'Where Ramallah went', 'The town, as Shāhīn', 'Where the road stopped', 'The Saah builders', 'The front, March to September 1918', 'The armistice line and the raids')),
  ('Timeline', ('Six sovereigns', 'The dam, and a date', 'Who ruled, and who stayed', 'Five datings',
                'Six denominations', 'The Ḥaddādīn and the Ḥalasa', 'The dark half-decade')),
  ('Table', ('The chain, link by link', 'Every biblical place', 'The same people, nine years', 'John Mogannam')),
  ('Chart', ('The dead of the district', 'Homes torn down', 'Born abroad: each war', 'A line to Adam', 'The highlands fill up', 'Forty-five is the wrong', 'The households, counted',
             'The ladder of a day', 'Every number anyone', 'The family’s account', 'Karak’s Christians',
-            'The emigration', 'The population, one honest', 'The camps, with', 'What the land gave', 'One hill, in thirds')),
+            'The emigration', 'The population, one honest', 'The camps, with', 'What the land gave', 'One hill, in thirds', 'The settlements around Ramallah', 'A century of wars')),
 ]
 def fig_kind(title):
     plain = re.sub(r'<[^>]+>', '', title)
