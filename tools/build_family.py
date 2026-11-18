@@ -324,6 +324,15 @@ def build(h):
                 if which == 'story':
                     story = story[:w] + story[bp.block_end(story, w):]
                 break
+        # v107: the "What we have found" box closes the chapter too, before the open questions
+        for which in ('evidence', 'story'):
+            seg = evidence if which == 'evidence' else story
+            f = seg.find('<div class="found">')
+            if f >= 0:
+                close = seg[f:bp.block_end(seg, f)] + close
+                if which == 'story':
+                    story = story[:f] + story[bp.block_end(story, f):]
+                break
         photos_s, story = pull_photos(story, leave_srcpages=True)
         photos_e, _ = pull_photos(evidence, keep_srcpages=True)
         story = strip_story(story)
