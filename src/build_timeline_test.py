@@ -31,7 +31,7 @@ ROWS = [
   'A precise economic datum from a century the project had almost nothing for — and <b>the detail that the teaching was in Arabic <i>and Greek</i></b> speaks directly to the Rūm Orthodox character of the town. Cross-check against <i>Analekta</i> II.'),
  (1807, 'Fr Mitry Elias Kassees builds the first Greek Orthodox church, near the present bus station.', 'confirmed',
   'The presentation says the 1852 church replaced “an earlier building of the early nineteenth century.” <b>Shāhīn names that earlier building, its builder and its site.</b> The vague sentence in the deck can now be replaced with a fact.'),
- (1820, 'Several men of the ʿAzzouz family killed in a feud within the Sharaka clan.', 'refined',
+ (1820, 'Several men of the ʿAzzouz family killed in a feud within the Shakara clan.', 'refined',
   '<b>The fuller account says Shakara, not Sharaka.</b> Shāhīn (1982), pp. 33–34, following Kaddoura (1954), p. 59, says the quarrel was among the Shakara themselves (<span class="ar">آل الشقرة انفسهم</span>), the one clan that held with the Yaman, and that ten-odd men were killed (<span class="ar">بضعة عشر رجلا</span>). Shaheen (1992, 2005) prints Sharaka. The town scattered to eight villages and was home again within the year. No documentary trace has been found; feud detail of this kind rarely reaches the registers, so it stays family memory, with both spellings named.'),
  (1834, 'Ibrāhīm Pasha of Egypt occupies Ramallah without resistance.', 'confirmed',
   'Agrees with the documented 1834 revolt against Ibrāhīm Pasha and the defeat of the district’s shaykhs. <b>“Without resistance” is the new element</b> and is consistent with Ramallah not being a throne village.'),

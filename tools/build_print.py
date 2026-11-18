@@ -200,6 +200,11 @@ img{filter:none!important;mix-blend-mode:normal!important}
 .scholars li{margin:0 0 .07in;break-inside:avoid}
 .scholars .sw{font-weight:600}
 .wwsdk{break-inside:avoid}
+.found{background:none!important;border:0!important;border-left:.5pt solid #007A3D!important;
+  margin:.28in 0 .28in .22in!important;padding:.02in 0 .02in .16in!important;font-size:9.4pt;line-height:1.38;text-align:left}
+.found h4{font:500 9.5pt/1.2 SERIF!important;font-variant:small-caps;text-transform:lowercase;letter-spacing:.16em;color:#007A3D!important;margin:0 0 .08in!important}
+.found p{break-inside:avoid}
+.found .src{display:block;font-size:8.4pt;font-style:italic;color:#5C574D}
 
 /* quotations: large italic, set off with white space */
 blockquote{background:none!important;border:0!important;margin:.22in .3in .22in .3in!important;padding:0!important;

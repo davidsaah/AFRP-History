@@ -228,7 +228,7 @@ def apply(g):
         locplate('03041v.jpg', '2019696336',
             'A house in Nablus left a shell by the earthquake of 11 July 1927. We have found no photograph of the damage in Ramallah.',
             'American Colony Photo Department, 1927.')
-        + _p('<b>What we still don’t know.</b> We have found nothing written about Ramallah in the troubles of August 1929.'))
+        + _p('<b>What we still don’t know.</b> Beyond one shoemaker’s story, we have found nothing written about what Ramallah saw in the troubles of August 1929.'))
     add_body('The counting years', locplate('16769v.jpg', '2019707547',
         'The opening of the Palestine Broadcasting Service at its transmitter in Ramallah, 30 March 1936. '
         'The High Commissioner gives the inaugural address; the mast stands behind the crowd.',
@@ -531,7 +531,7 @@ def apply(g):
             c('United States Department of Homeland Security, 27 September 2023, designating Israel for the Visa Waiver Program after Israel’s commitment of 19 July 2023.')))
         + _p('The settlers’ violence reached our own. <b>Tawfīq ʿAbd al-Jabbār</b>, seventeen, of Gretna, Louisiana, was shot on 19 January 2024 on the road by al-Mazraʿa al-Sharqiyya, his family’s village, and died in the Ramallah hospital{}.'.format(
             c('Al Jazeera, 21 January 2024.')))
-        + _p('<b>What we still don’t know.</b> The town’s own record of the first intifada, its dead, its prisoners and its popular committees, has not been gathered.'))
+        + _p('<b>What we still don’t know.</b> The town’s own record of the first intifada has not been gathered: the names of its dead, the count for the town itself apart from the district, and its prisoners. If you know of a list of the town’s martyrs or prisoners from those years, we would like to hear from you.'))
 
     # ---- v96, the wars plan (David, 17 Nov 2026: "Go, as recommended").
     # Plan: /mnt/project-files/history/conflicts_1936_present/v2_2026-11-17/PLAN_and_RED_TEAM.md, steps 3, 4 and 6.

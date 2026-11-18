@@ -175,6 +175,9 @@ body,.eraband h2,.ebody h3,blockquote,figure,figcaption{font-family:"EB Garamond
     border-radius:0!important;padding:16px 0!important;margin:26px 0 0!important}
   .scholars,.wwsdk{background:none!important;border:0!important;border-top:1px solid #9A6324!important;border-radius:0!important;
     padding:18px 0 4px!important;margin:40px 0 30px!important}
+  .found{background:none!important;border:0!important;border-top:1px solid #007A3D!important;border-radius:0!important;
+    padding:18px 0 4px!important;margin:40px 0 30px!important}
+  .found h4{font:500 .95rem/1.2 "EB Garamond",Georgia,serif!important;font-variant:small-caps;text-transform:lowercase;letter-spacing:.12em}
   .scholars h4,.wwsdk h4,.howto h4{font:500 .95rem/1.2 "EB Garamond",Georgia,serif!important;font-variant:small-caps;text-transform:lowercase;letter-spacing:.12em}
   blockquote{background:none!important;border:0!important;border-left:1px solid #9A6324!important;border-radius:0!important;
     padding:2px 0 2px 18px!important;margin:24px 0!important;font-style:italic;font-size:1.06rem}
@@ -307,6 +310,9 @@ def reader(h):
         # 1. fold the evidence half (evidence sect up to "What we still don't know")
         ev = ch.find('<div class="sect"><span class="sl">The evidence')
         ww = ch.find('<div class="wwsdk">')
+        fd = ch.find('<div class="found">')   # v107: "What we have found" stays open too
+        if 0 <= fd and (ww < 0 or fd < ww):
+            ww = fd
         if ev > 0:
             stop = ww if ww > ev else len(ch)
             body = ch[ev:stop]
