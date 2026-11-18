@@ -1109,8 +1109,8 @@ def fig_jesus_road():
     MS = A.MS
     W = 860
     s = A._plate(W, 0, 'THE ROADS HE USED — and the ridge they run along',
-                 'The Gospel places, at their real coordinates, against the hill Ramallah would be founded on '
-                 'fifteen centuries later. Distances are measured from the centre of the present town.',
+                 'The Gospel places, at their real coordinates, against the hill on which Ramallah now stands. '
+                 'Distances are measured from the centre of the present town.',
                  'Map of the places named in the Gospels in relation to the site of Ramallah, over the terrain')
     TOP, HGT = 104, 430
     ROAD = '#A88452'

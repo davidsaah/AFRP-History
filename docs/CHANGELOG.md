@@ -1,6 +1,13 @@
 # Changelog
 
 
+## v111 — Ṣabra's witnesses, his brothers, and "founded" (18 Nov 2026)
+David said yes to all three held rulings.
+- Ṣabra as Rāshid's brother: one Karak tradition written down three times (ʿAdnān 1953, Abū Rayya 1980, the Karak wheel 2024), adopted by Shāhīn (1982); not four independent witnesses. Mogannam's p. 18 argument is Shāhīn's.
+- Ṣabra's brothers: both versions printed; ʿAdnān alone adds two unnamed brothers at Bayt Jālā and al-Salṭ.
+- "The hill Ramallah would be founded on fifteen centuries later" is now "the hill on which Ramallah now stands" (text and figure).
+
+
 ## v110 — the 26 questions, answered from the shelf (18 Nov 2026)
 David: "use all the literature to answer the question when you can resolve things give it a potential range". Rulings in history/editorial/QUESTIONS_FOR_DAVID_2026-11-18.md.
 - Manāra: decreed 1982, taken down 1983, rebuilt 1999 to July 2000 (Shibli; Shaheen 2005). Town hall: Moshe Biton 1982 to 28 Sep 1986, then the appointed council (Nayrūz).
