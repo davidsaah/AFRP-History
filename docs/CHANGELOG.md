@@ -1,6 +1,75 @@
 # Changelog
 
 
+## v106 — 18 November 2026: one voice, all the way through
+
+David: "When you're done do a full editorial review and make all the necessary corrections and additions to ensure that we have a consistent voice all the way through."
+
+- **`docs/STYLE.md`** is new. It gathers on one page the rules the book already follows: v64 "One voice", v78 "Smooth everything", the place forms and the numbers.
+- **About 204 changes** across every chapter, the closing and the bibliography (`docs/EDITORIAL_v106.md` lists each one, before and after). They fall into six kinds:
+  - **Self-reference:** the book no longer talks about its own editions or research history ("as printed in earlier editions", "until now we had", "now that we hold it").
+  - **Voice:** it speaks as "we" throughout, and every chapter closes with the same readers' invitation.
+  - **Places:** they are spelled as on the maps: al-Bīra, Bayt Jālā, Baytūniyā, Ṭaybeh, Lydda and Ramle.
+  - **Jargon:** terms are explained at first use (janissary, dragoman, mejīdī, qāʾimmaqām, Y-DNA).
+  - **Clarity:** long or repeated sentences are made plain.
+  - **Tone:** a few judgements are calmed or attributed.
+- **Not changed:** no facts, numbers, dates, quotations or citations.
+- **Kept:** the six correction boxes David kept in v77.
+- **Checks:** all editions rebuilt; qa_final shows no overflow at 1280, 900 or 420 px, no broken anchors and no page errors.
+
+## v105 · 18 November 2026 · the war list folded in, Steadfast, three charts
+
+David, 18 Nov 2026: "Fold it in", then "everything is non-commercial" and "ok to use" (PMDA and credited Israeli archive photos, for the next round).
+
+- **Chapter 10.** The First World War dead named in the family tree's notes; the barricades of 1 October 1938 (Qandaḥ, in Nayrūz p. 96). Photos: Dr Jameel Izhaq, the Shaheens' fig grove, four elders of 1916, George Saah, Dr Daoud Mikhail in 1936, the Matson air battle of 1 October 1938, the Trans-Jordan Frontier Force, Edward Salamy in US uniform, the High Commissioner with ʿIsa ʿAkel.
+- **Chapter 11.** Ayyūb Mīkhāʾīl's date settled as 18 April 1948 (David). Photos: refugee children fed in 1949, the National Security Force at Suez, the Scouts in the National Guard, Ṭalʿat Ḥarb in al-Qashla prison.
+- **Chapter 12.** The $300,000 and the Sons of Ramallah society (Nayrūz p. 315); Luʾay of Dayr Ghassāna (Barghouti p. 75, dating labelled as inference); WAFA's 17 dead of the governorate in September 1996; PCBS's 182 dead, 49 children, 2000–09; the hospital-yard burials of April 2002; 21 deaths in custody (WAFA); demolitions (B'Tselem, support only).
+- **Three charts** (src/build_figs9.py): the dead of the district by year, demolitions by year, and the share of the family tree born abroad by decade.
+- **Steadfast** (src/steadfast.py): the close of chapter 12 for younger readers, from the Steadfast doc: the four answers by era, the memorial (names to 1967, counts after), and the youth-group page. Budrus's "eight months" and the Qaddūra-camp line are left out for want of a source.
+
+
+## v104 — 18 November 2026: the War list sources on the shelf
+
+David: "There were some new literature added to the literature folder … make sure that it is added to the shelf."
+
+- **159 files** the War list work added to the Literature folder on 17 November are now in the bibliography (`assets/AFRP_Ramallah_Bibliography_v6.html`, and the same file on the Drive). There are **40 new entries** in a new section, **XXXI I, "The wars and the occupation: sources gathered 17 November 2026"**, grouped by who made them:
+  - A: the UN and the courts;
+  - B: Palestinian human-rights organisations, including the PCHR weekly reports of 2001–2004 as one entry;
+  - C: Israeli and international organisations, including the B'Tselem fatality and demolition data;
+  - D: OCHA and the World Bank;
+  - E: scholarship;
+  - F: press.
+- The second OCR copy of Haddadin's *Dawlat al-Ghasasina* joins that book's entry.
+- The bibliography's count is now 567 entries. Every file on the shelf is named in it.
+- Penny Johnson's two JPS articles came in with v102.
+- The pass is in Claud_Migration `literature_reorg/shelf_pass_4.py`. It never renames or deletes a source file. The `_Text` copies made by the War list work were already in place.
+
+
+## v103 — 18 November 2026: photographs, charts and maps for the wars
+
+David: "look at the War list Thread … make a plan and give me options … I would also like to get a chart photos and figures to help". Then: "everything is non-commercial", and photographs from Israeli archives are "ok to use". This is Phase 1 of the plan (Claud_Migration `book_gaps/wars_visuals_plan.md`). The text of chapters 10–12 is unchanged.
+
+- **17 photographs** (`img/conflicts/`, listed with source and rights in `img/conflicts/SOURCES.md`). Each is set among the paragraphs of its entry:
+  - WWI: two Australian War Memorial views of Ramallah, 1917 and 1918.
+  - The revolt: two Matson photographs, 1936 and 1938.
+  - 1948: Lydda in July, and Bayt Nabālā.
+  - The refugees: al-Jalazūn in the early 1950s.
+  - June 1967: two by Boris Carmi in Ramallah, and the Allenby Bridge.
+  - The first intifada: a women's march, and al-Amʿarī after curfew.
+  - 2002: the Muqāṭaʿa, twice.
+  - The Wall: Qalandiyā 2004, Bilʿīn 2010, and al-Mughayyir 2024.
+- **Four figures** (`src/build_figs10.py`):
+  - **Chart, "A century of wars around Ramallah, 1911–2025".** The chapter-12 table drawn as one timeline. The table's rows now live in `modern.WARS_AROUND_US`, so the chart and the table cannot drift apart.
+  - **Chart, "The settlements around Ramallah, by the year each was set down".** From ARIJ's table 34 (2015 profile), with the settler totals and the 2025 outposts the text gives.
+  - **Map, "The front, March to September 1918".**
+  - **Map, "The armistice line and the raids, 1949–1967".** The West Bank outline is after Natural Earth.
+  - Both maps have phone plates.
+- **Map style:** a new mark for a line drawn by an army or a treaty (`LINE_ARMY`), added to `docs/MAP_STYLE.md` and `map_style.py` first, as the guide asks.
+- Terrain caches: `front1918.json` (173 KB, 200 m contours) and `raids4967.json` (55 KB).
+## v102 — 18 November 2026: the school closures of the First Intifada
+
+David: "Please add them." The "What was happening" box for the First Intifada (chapter 12) now tells the closures on the ground in Ramallah: Birzeit shut by a phone call on 10 January 1988; all 800 West Bank schools shut on 2 February 1988; home teaching banned, so six families on one Ramallah street were stopped the afternoon they began in October 1988; the Friends Boys School told to stop sending homework; the Friends School meeting about 60 days in 1989–90; and Ramallah people in America raising more than $300,000. Sources: Penny Johnson in the *Journal of Palestine Studies* 17:3 (1988) and 18:2 (1989), both now in the bibliography (section XXXI D, 527 entries), and Nīrūz p. 315 for the $300,000.
+
 ## v101 — 17 November 2026: the Dibbīn family, and Cadora as a Saah
 
 David: "Double check the dibbine question based on data and literature", then "Cadora is a Saah not a newcomer", then "Go".

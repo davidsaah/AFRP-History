@@ -24,6 +24,8 @@ Routes:
 - a dotted line is approximate;
 - a broad tan band is a road on the ground.
 
+A **front line or an armistice line**, drawn by an army or a treaty, is an ink line (`LINE_ARMY`, 2.2 units). It is dashed where its course is approximate, and the legend says so. It is never green or ochre, because it is not a move of people (v103).
+
 A map whose subject is a category rather than evidence (archaeological period, for example) uses the **thematic ramp** `ERA` (violet to lilac). It never uses green or ochre, so the evidence colours keep their meaning.
 
 ## 2. Type
