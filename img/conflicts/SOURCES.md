@@ -1,4 +1,4 @@
-# img/conflicts: sources (v102)
+# img/conflicts: sources (v103)
 
 Chosen from the sourced set on the AFRP Drive, Family Tree / Literature / Images_conflicts (`INDEX.csv`, with one `.record.txt` per photograph). Resized to at most 1,600 px for the book. David, 18 Nov 2026: the book is non-commercial, and photographs from Israeli archives may be used with full credit.
 

@@ -4695,7 +4695,7 @@ _add_to_entry('Occupation, and the mayor in Houston', fig(F97.fig_june1967(), 'J
  'ARIJ for 6 June 1967, as in this entry; the 1949 armistice lines, simplified.'))
 
 # ---------------------------------------------------------------------------
-# v102: photographs, charts and maps for the wars and the occupation
+# v103: photographs, charts and maps for the wars and the occupation
 # (David, 18 Nov 2026: "a chart photos and figures to help"; "everything is
 # non-commercial"; photographs from Israeli archives "ok to use").
 # The photographs are in img/conflicts/, chosen from the sourced set on the AFRP

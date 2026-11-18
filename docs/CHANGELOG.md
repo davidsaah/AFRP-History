@@ -1,7 +1,7 @@
 # Changelog
 
 
-## v102 — 18 November 2026: photographs, charts and maps for the wars
+## v103 — 18 November 2026: photographs, charts and maps for the wars
 
 David: "look at the War list Thread … make a plan and give me options … I would also like to get a chart photos and figures to help". Then: "everything is non-commercial", and photographs from Israeli archives are "ok to use". This is Phase 1 of the plan (Claud_Migration `book_gaps/wars_visuals_plan.md`). The text of chapters 10–12 is unchanged.
 

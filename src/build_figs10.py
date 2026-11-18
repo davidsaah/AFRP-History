@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""v102: charts and maps for the wars and the occupation (chapters 10 to 12).
+"""v103: charts and maps for the wars and the occupation (chapters 10 to 12).
 
 David, 18 Nov 2026, on the wars plan: "I would also like to get a chart photos
 and figures to help". Phase 1 of book_gaps/wars_visuals_plan.md (Claud_Migration).
