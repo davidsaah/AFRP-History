@@ -12,7 +12,7 @@ def _era(head, *paras):
 
 ERAS = [
     _era('1914–1918: hunger, typhus and the front line',
-         ('Losing', 'The Ottoman army drafted our young men. Locusts and requisitions brought famine, and the typhus of 1916 killed up to three in ten people in the town. For nine months the front ran just north of Ramallah. The family tree names more than a dozen of the men who died, among them Butrous Ibrahim Saah, who was drafted and never came home.'),
+         ('Losing', 'The Ottoman army drafted our young men. Locusts and requisitions brought famine, and the typhus of 1916 killed, by Shaheen’s count, about three in ten people in the town. For nine months the front ran just north of Ramallah. The family tree names more than a dozen of the men who died, among them Butrous Ibrahim Saah, who was drafted and never came home.'),
          ('Caring', 'Dr Philip Maʿlūf died of typhus on 13 February 1916, caught while treating the sick. ʿAzeez and Selma Shaheen said a fig grove kept them alive. In 1918 the Catholic school became a hospital.'),
          ('Resisting', 'In 1914 Ḥannā Jiryis al-Nāṭūr, eighteen, and two other Ramallah men were executed by the Ottoman authorities for refusing to join the war. Others hid in the wadis rather than serve.')),
     _era('1936–1939: the great revolt',
@@ -25,7 +25,7 @@ ERAS = [
     _era('1967: the Naksa and the occupation',
          ('Losing', 'Ramallah fell on 6 June 1967. Dina Kharūfeh, fifteen, and her sister Lucy, twelve, were killed when an air raid hit the Evangelical Home school. They are buried in Ramallah. Anyone who was abroad that September lost the right to live here, and many of our own relatives were among them.'),
          ('Caring', 'Ramallah took in the people of ʿImwās, Yālū and Bayt Nūbā, three villages Israel destroyed, and many of them still live here. The Arab Women’s Union fed up to 200 refugee children.'),
-         ('Resisting', 'In 1976 the town elected a nationalist council under Karīm Khalaf. In 1980 a settler car bomb cost him his leg, and town staff, volunteers and the Ramallah First Scouts guarded his hospital room in shifts for more than three months. When Israel dismissed the elected mayors in March 1982, the town boycotted the officer-run town hall. In 1983 Israel made the town take down the Manāra, because demonstrations gathered there. The town later rebuilt it.')),
+         ('Resisting', 'In 1976 the town elected a nationalist council under Karīm Khalaf. In 1980 a settler car bomb cost him his leg, and town staff, volunteers and the Ramallah First Scouts guarded his hospital room in shifts for more than three months. When Israel dismissed the elected mayors in March 1982, the town boycotted the officer-run town hall. In 1983 Israel made the town take down the Manāra, because demonstrations gathered there. The town rebuilt it in 1999 and 2000.')),
     _era('1987–1993: the first intifada',
          ('Learning', 'On 10 January 1988 the army closed Birzeit University with a phone call. On 2 February it shut all 800 schools in the West Bank “until further notice.” So teachers taught in secret: Birzeit held classes in the al-Ḥamrā Hotel, the old Bateh house. The Friends School met only about 60 days in 1989–90 instead of 165, sold land to keep paying its teachers, and helped found a network to make home-teaching materials. When six families on one Ramallah street tried to teach their children together, soldiers came that same afternoon and the classes never began. Carrying a textbook could get you arrested.'),
          ('Caring', 'Merchants fed al-Amʿarī camp under curfew. The Abū Rayyā centre treated the injured. Ramallah people in America raised more than $300,000 for families at home, and from it grew the Sons of Ramallah society.'),
@@ -36,8 +36,8 @@ ERAS = [
          ('Caring', 'Doctors and ambulance crews kept working under fire, and not every patient could be reached. ʿUmar Ḥamāyil of Kafr Mālik bled to death because ambulances could not get to him. Widād Ṣafwān was shot while walking to the hospital.')),
     _era('2002 to today: the Wall',
          ('Resisting', 'Around Ramallah the Wall runs about 89 km and cuts through 19 villages. In 2004 the International Court of Justice ruled it illegal. From 2005 the people of Bilʿīn marched every Friday to their land, joined by visitors from abroad. In 2007 Israel’s own Supreme Court ordered the route moved, and in 2011 two kilometres came down, returning about 1,200 dunums. Bāsim Abū Raḥma was killed in 2009 and his sister Jawāhir in 2010. Birzeit’s Right to Education campaign protested the checkpoint on the student road.'),
-         ('Losing', 'Since 2006, Israel has demolished 482 homes and other buildings in the district for lack of a permit it almost never grants. More than a thousand people lost their homes, over half of them children.')),
-    '<div class="sfera"><h4>Since 2023</h4><p>Settler attacks on Turmus ʿAyyā, al-Mughayyir, Kafr Mālik and Ṭaybeh rose sharply. In 2025 Ramallah governorate had more attacks than any other, and 88 buildings were demolished, the most of any year. Villagers stayed on their land and replanted their olive trees.</p></div>',
+         ('Losing', 'Since 2006, Israel has demolished 482 homes and other buildings in the district for lack of a permit it almost never grants (B’Tselem’s count, used here as support). More than a thousand people lost their homes, over half of them children.')),
+    '<div class="sfera"><h4>Since 2023</h4><p>Settler attacks on Turmus ʿAyyā, al-Mughayyir, Kafr Mālik and Ṭaybeh rose sharply. In 2025 Ramallah governorate had more attacks than any other, and 88 buildings were demolished, the most of any year (B’Tselem). Villagers stayed on their land and replanted their olive trees.</p></div>',
     '<div class="sfera"><h4>What it adds up to</h4><p>The rulers changed every few decades: Ottoman, British, Jordanian, Israeli. What did not change was the answer. A school kept going somewhere, someone fed the stranger, someone refused, and someone wrote down the names. That is the inheritance this book hands on.</p></div>',
 ]
 
@@ -64,7 +64,7 @@ COUNTS = [
 
 QUESTIONS = [
     'In 1988 teaching children at home could get a family in trouble. Why would an army be afraid of a classroom?',
-    'In 1948 Ramallah doubled in size in a few days. What would your town need if that happened tomorrow?',
+    'In 1948 thousands of refugees reached Ramallah in a few days. What would your town need if that happened tomorrow?',
     'Which of the four answers (learning, caring, resisting, remembering) do you see in your own family’s story?',
     'Bilʿīn marched every week for years. What makes a protest last?',
     'Why does it matter to count the homes as well as the people?',
@@ -94,7 +94,7 @@ def html():
         '<p class="mnote">Named here up to 1967. After that the dead are too many, and too recent, to name in a family book; they are counted below, each count as its source gives it.</p>'
         '<ul class="mlist">' + mem + '</ul>'
         '<table class="mcount"><thead><tr><th>Since 1967</th><th>Killed or lost</th><th>Source</th></tr></thead><tbody>' + tab + '</tbody></table>'
-        '<p class="mfoot">Since 2000, 104 children from Ramallah and al-Bīra district have been killed. Since 2006, 482 homes and buildings have been demolished, leaving more than a thousand people without a home.</p>'
+        '<p class="mfoot">From 2000 to 2009, the Palestinian statistics bureau counts 49 children of Ramallah and al-Bīra district killed; B’Tselem, an Israeli rights group, counts 104 from 2000 to 2026. Since 2006, 482 homes and buildings have been demolished, leaving more than a thousand people without a home.</p>'
         '</div>'
         '<div class="sfyouth"><h4>For youth groups</h4>'
         '<p><b>Questions to talk about</b></p><ol>' + ''.join('<li>%s</li>' % q for q in QUESTIONS) + '</ol>'

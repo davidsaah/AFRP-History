@@ -69,7 +69,7 @@ CONTEXT_BOXES = [
      'The registers are why we can trace our families back 460 years.'),
     ('The war, the locusts', None, 'The First World War, 1914–1918',
      'The Ottomans joined Germany’s side. Britain invaded Palestine from Egypt. In 1917 Britain promised a “national home for the Jewish people” in Palestine, the Balfour Declaration, without asking the people who lived there.',
-     'Men were drafted or hid in the wadis. Locusts and requisitions brought famine, and with typhus about 30 per cent of the town died. For nine months the front line ran just north of Ramallah.',
+     'Men were drafted or hid in the wadis. Locusts and requisitions brought famine, and typhus followed: by Shaheen’s count about 30 per cent of the town died. For nine months the front line ran just north of Ramallah.',
      'Emigration to the Americas, already under way, became the town’s lifeline, and Balfour’s promise shaped the next century.'),
     ('Snow, then the earth shakes', None, 'British rule, 1917–1948',
      'Britain governed Palestine under a League of Nations mandate that wrote the Balfour promise into law. Jewish immigration from Europe grew fast, and land bought from absentee owners often meant Palestinian farmers were evicted. Palestinians protested in 1920, 1921 and 1929.',
@@ -276,14 +276,14 @@ def apply(g):
         + plate('p184_1.jpg', 183, '“Refugee home in camp near Ramallah. This family has a very neat tent and have made stair-steps from the ‘street’ from flat stones.” 1950.'))
 
     jordan = ent(11, '1949–1966', 'Under the Jordanian crown',
-        'From 1950 Ramallah was a town of the Hashemite Kingdom, and from 1954 its people were Jordanian citizens and Palestinians at once. '
-        'On 30 September 1948 ʿUmar Maṭar al-Maʿānī was named the town’s military governor. At the Jericho Conference of 1 December 1948 the lawyer <b>ʿAzīz Shiḥāda</b> spoke for Ramallah, and on 2 January 1949 King ʿAbdallāh came to Ramallah and stayed several days{}. '
+        'From 1950 Ramallah was a town of the Hashemite Kingdom, and from the end of 1949 its people were Jordanian citizens and Palestinians at once, as the Nationality Law of 1954 confirmed. '
+        'On 30 September 1948 ʿUmar Maṭar al-Maʿānī was named the town’s military governor. At the Jericho Conference of 1 December 1948 the lawyer <b>ʿAzīz Shiḥāda</b> spoke for Ramallah, on 26 December a second conference, in Ramallah, approved its decisions, and on 2 January 1949 King ʿAbdallāh came back to Ramallah and stayed several days{}. '
         'The kingdom gave them a parliament and watched them. On 11 May 1951 the leaders of the Labour Party in Ramallah were arrested, accused of communism, and jailed in Amman{}. '
         'Dr <b>Daoud Mikhail</b> was jailed in 1957 for the National Socialist Party; years later his daughter, Dr Hanan Mikhail ʿAshrawi, reminded King Hussein of it{}. '
         'In 1952, Cadora writes, “life became unbearable,” and the town’s families left for America{}. '
         'Ramallah’s sons also sat in the king’s cabinets. Dr <b>Jalīl Badrān</b>, born in Ramallah in 1913, was minister of commerce and of reconstruction in the government of 15 December 1955, which fell five days later in the protests against the Baghdad Pact. '
         '<b>Jalīl Ḥarb</b> was minister of the national economy from 28 June 1961, and <b>Ḥannā Khalaf</b> was three times minister of justice, in 1962 and 1963{}.'.format(
-            c(NIR + ', pp. 69–70.'), c(CAD + ', p. 62.'), c(SH + ', p. 54.'), c(CAD + ', p. 63.'),
+            c(NIR + ', pp. 69–70; ' + CAD + ', p. 61, for 26 December 1948.'), c(CAD + ', p. 62.'), c(SH + ', p. 54.'), c(CAD + ', p. 63.'),
             c('<i>al-Madīna News</i> (Amman), 6 October 2009: <span class="ar" dir="rtl">التمثيل العشائري: آل خلف، آل بدران، آل حرب (حدّادين فلسطين) / رام الله</span>, a series on the clans represented in Jordan’s governments, which gives the dates and traces each family through Shāhīn (1982) to the sons of Rāshid. ' + D('2009_AlMadina_Haddadin_of_Palestine_Ramallah.html') + '.')),
         plate('p045_3.jpg', 44, 'Ḥannā Khalaf of Ramallah addressing the Parliament of Jordan, 1961.')
         + plate('p337_2.jpg', 336, 'The Jordanian army band marches round al-Manāra and its five lion heads, probably in the 1960s.')
@@ -380,7 +380,7 @@ def apply(g):
     add_body('Ramallah becomes a city, clan by clan', _p(
         '<b>The Ottoman governors of the town.</b> Nayrūz, after Yūsuf Qaddūra, lists them: Aḥmad Murād of Jerusalem, the first, 1902–1905; '
         'Jamīl al-ʿUmarī of Aleppo, 1905–1911; a Turkish officer whose name we cannot read clearly in our copy, 1911–1912; ʿAlī Riḍā, also a Turk, 1912–1916; '
-        'and al-ʿUmarī again, 1916–1917, the last. Elias ʿAudeh, he adds, was chosen as first mayor because he belonged to no Ramallah clan: '
+        'and al-ʿUmarī again, 1916–1917, the last. Elias ʿAudeh, he adds, was chosen as first mayor because he was not born into any of Ramallah’s clans (his family, newcomers from Dibbīn, had attached themselves to the ʿAwwād): '
         'every clan had its own candidate, and a man raised in the town but born outside it settled the quarrel{}.'.format(
             c(NIR + ', p. 388, notes 4 and 8, after Qaddūra, <i>Tārīkh madīnat Rām Allāh</i>, p. 43, and Khalīl Abū Rayya, <i>Rām Allāh qadīman wa-ḥadīthan</i>, p. 135. '
               'Nayrūz gives 1 April 1908 for the founding of the municipality and notes Abū Rayya’s 1 April 1910.')))
@@ -616,7 +616,7 @@ def apply(g):
 
     add_body('The first intifada, and the Authority', _p(
         '<b>The town hall and the Manāra.</b> After Karīm Khalaf was removed in 1982, an Israeli officer ran the town hall with an armed bodyguard and soldiers at the door. '
-        'Under him the <b>Manāra</b>, the column with its five lions’ heads, was taken down, officially for the traffic. The town saw it as an attack on its identity, since the square was where its demonstrations began. The Federation’s magazine <i>Hathihe Ramallah</i> answered in 1983: “Al-Manara Will Be Rebuilt.” It was, in 1999{}. '
+        'Under him the <b>Manāra</b>, the column with its five lions’ heads, was taken down, officially for the traffic. The town saw it as an attack on its identity, since the square was where its demonstrations began. The Federation’s magazine <i>Hathihe Ramallah</i> answered in 1983: “Al-Manara Will Be Rebuilt.” It was: the work began in 1999, and the new monument, with four marble lions, was finished in July 2000{}. '
         'From 28 September 1986 an appointed Palestinian council under Khalīl Mūsā Khalīl ran the town until 1996{}.'.format(
             c(SH + ', pp. 224–225.'), c(NIR + ', p. 381.')))
         + _p('<b>Closed.</b> Military orders closed Birzeit University fifteen times. In the long closures every school was shut, and a pupil carrying a textbook could be taken for questioning{}. '
@@ -676,7 +676,7 @@ def apply(g):
         'The notes also mark as dying in the war years Mikhail Saleh Ayoub El-Safadi, Nicola and Elias Ayoub Danfoura, Yousef Hanna Mousa Ahwal, '
         'the brothers Bajis, Aziz and Mousa Khalil, and the infant Nicola Badran. Two sons of Ramallah who had emigrated, <b>Jameel Abdallah Mikhail</b> and <b>Najeeb Farhat</b>, died in the uniform of the United States army{}.'.format(
             c(FT26 + '. The tree records a death in these years for each; the cause is given only where we print it.')))
-        + plate('p092_2.jpg', 91, 'Dr Jameel Izhaq, photographed in 1938. His whole family died in the typhus of 1916, the year about three in ten of the people of Ramallah died.')
+        + plate('p092_2.jpg', 91, 'Dr Jameel Izhaq, photographed in 1938. His whole family died in the typhus of 1916, the year in which, by Shaheen’s count, about three in ten of the people of Ramallah died.')
         + plate('p341_2.jpg', 340, 'ʿAzeez and Selma Shaheen at their fig grove, 5 August 1984. In the hunger of the First World War, they said, the figs kept them alive.')
         + plate('p247_1.jpg', 246, 'Four elders of Ramallah about 1916, photographed by Khalīl Raʿad: Farhat el-Muhawi, Yousef el-Katsha, Hanna el-Muhawi and Shaheen ʿAudi Muhawieh.'))
 

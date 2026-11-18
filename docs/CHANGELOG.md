@@ -1,6 +1,33 @@
 # Changelog
 
 
+## v110 — the 26 questions, answered from the shelf (18 Nov 2026)
+David: "use all the literature to answer the question when you can resolve things give it a potential range". Rulings in history/editorial/QUESTIONS_FOR_DAVID_2026-11-18.md.
+- Manāra: decreed 1982, taken down 1983, rebuilt 1999 to July 2000 (Shibli; Shaheen 2005). Town hall: Moshe Biton 1982 to 28 Sep 1986, then the appointed council (Nayrūz).
+- Jordanian citizenship from 20 Dec 1949, confirmed 1954. The king at the Ramallah conference of 26 Dec 1948 and again from 2 Jan 1949. Ramallah Foundation founded 1943, incorporated 1944.
+- Shāhīn 1982 is 807 + 77 pp. (894 page images). ʿAudeh: newcomers attached to the ʿAwwād. Cadora was mayor 1943–47; the 1946 councillor is almost certainly him (inference).
+- Musa Khaleel was mayor 1927–32. The typhus 30% is Shaheen's count. Maʿlouf alone until Dr Crouper (1900). Some seventy years of parish school before Gobat. 1834: three Palestinian accounts. 1706: two documents, July and August.
+- Chapter 3 is link four. The dam's date moves; Ghassān's departure stays before about 250.
+- Dissard to Cadora is half a century. The Ḥaddādīn rest at Maʿīn (Shāhīn's Arabic). Plateau Christian life "much reduced and possibly interrupted". The 1374 village is a queried reading. The 1553–54 register names the Kasābra, not the Ḥaddādīn.
+- Held for David: Ṣabra's witnesses, Ṣabra's brothers, the "founded fifteen centuries later" wording.
+
+
+## v109 — desktop reading layout (18 Nov 2026)
+David: "the desktop view is hard to read, the mobile version is great". Screens 1000 px and wider only (src/desktop.py); phone and print untouched.
+- The phone's calm page reused on the desktop; one reading column of about 75 letters, larger and darker text.
+- From 1240 px: footnotes beside their paragraph in the right margin (sidenotes); figures a little wider than the text.
+- From 1600 px: a chapter list at the left edge that marks the chapter being read.
+
+
+## v108 · 18 November 2026 · the review's last items
+
+The second read of the editorial review (18 Nov 2026), after v106.
+
+- Entry date labels in BC and AD, like the text (16 entries); ranges unspaced.
+- "after c. 1300" becomes "from about 1300"; "d." and "fl. c." spelled out in prose.
+- Bayt Jālā in a caption; Dr Saʿdallāh al-Qassīs as in the mayors' table; Ramle and Lydda in the camps table; "Jumping ahead" gone.
+- Steadfast: the memorial line now leads with the Palestinian count (PCBS, 49 children, 2000–2009), with B'Tselem's 104 as support; B'Tselem labelled on the demolition lines; the 1948 question no longer says "doubled".
+
 ## v107 — 18 November 2026: the open questions answered from the literature
 
 David: "Use all the literature to answer the questions; when you can't fully resolve things give a potential range."

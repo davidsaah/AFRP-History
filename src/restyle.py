@@ -131,4 +131,7 @@ if __name__ == '__main__':
     # v86: pictures that read on a phone (close-ups, typed text, tap to enlarge)
     from phone_images import apply as phone_images
     h = phone_images(h)
+    # v108: the desktop reading layout, last of all
+    from desktop import apply as desktop
+    h = desktop(h)
     open(p, 'w', encoding='utf-8', newline='\n').write(h)
