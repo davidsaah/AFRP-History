@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""v104: "Steadfast", the closing pages of chapter 12 for younger readers, with the memorial and the youth-group page.
+"""v105: "Steadfast", the closing pages of chapter 12 for younger readers, with the memorial and the youth-group page.
 
 Text: the Steadfast doc (claude.ai/artifact/1ixp4qPE4BLaBs9fUERtcY, 18 Nov 2026), checked against the book.
 Two lines of the doc are left out because no source was found: Budrus's "eight months" and the claim
@@ -106,7 +106,7 @@ def html():
 
 
 CSS = """
-/* v104: Steadfast, the memorial and the youth-group page (src/steadfast.py) */
+/* v105: Steadfast, the memorial and the youth-group page (src/steadfast.py) */
 .steadfast{margin:28px 0 20px;padding:14px 16px 8px;border-top:3px solid #9A6324;background:#FBF8F2}
 .steadfast .sfk{font-variant:small-caps;text-transform:lowercase;letter-spacing:.14em;color:#9A6324;font-size:.82rem;margin:0 0 2px}
 .steadfast h3{margin:0 0 8px}

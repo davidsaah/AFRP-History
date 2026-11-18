@@ -1,7 +1,7 @@
 # Changelog
 
 
-## v104 · 18 November 2026 · the war list folded in, Steadfast, three charts
+## v105 · 18 November 2026 · the war list folded in, Steadfast, three charts
 
 David, 18 Nov 2026: "Fold it in", then "everything is non-commercial" and "ok to use" (PMDA and credited Israeli archive photos, for the next round).
 
@@ -10,7 +10,6 @@ David, 18 Nov 2026: "Fold it in", then "everything is non-commercial" and "ok to
 - **Chapter 12.** The $300,000 and the Sons of Ramallah society (Nayrūz p. 315); Luʾay of Dayr Ghassāna (Barghouti p. 75, dating labelled as inference); WAFA's 17 dead of the governorate in September 1996; PCBS's 182 dead, 49 children, 2000–09; the hospital-yard burials of April 2002; 21 deaths in custody (WAFA); demolitions (B'Tselem, support only).
 - **Three charts** (src/build_figs9.py): the dead of the district by year, demolitions by year, and the share of the family tree born abroad by decade.
 - **Steadfast** (src/steadfast.py): the close of chapter 12 for younger readers, from the Steadfast doc: the four answers by era, the memorial (names to 1967, counts after), and the youth-group page. Budrus's "eight months" and the Qaddūra-camp line are left out for want of a source.
-- **Bibliography:** the 15 new war sources from the 17 November shelf review; 527 → 542 entries.
 
 
 ## v102 — 18 November 2026: the school closures of the First Intifada
