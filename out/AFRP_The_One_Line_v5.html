@@ -7175,6 +7175,7 @@ bibliography), the Ottoman registers, and the family’s own two key texts.</p>
 }
 @media screen and (min-width:1240px){
   body .wrap{max-width:1010px;padding-right:340px!important;box-sizing:border-box}
+  body .wrap .wrap{max-width:none;padding-right:0!important;margin-right:0!important}
   body .masthead .wrap,body header .wrap{padding-right:0!important;max-width:760px}
   body .ebody figure{margin-right:-240px!important}
   body .sn{float:right;clear:right;width:280px;margin:4px -340px 12px 22px;padding-left:12px;border-left:2px solid #E2D6BE;
@@ -7209,7 +7210,8 @@ bibliography), the Ottoman registers, and the family’s own two key texts.</p>
       var s=document.createElement('span'); s.className='sn';
       var t=li.cloneNode(true); t.querySelectorAll('.backto').forEach(function(x){x.remove()});
       s.innerHTML='<b class="snn">'+a.textContent+'</b>'+t.innerHTML;
-      host.insertBefore(s,host.firstChild);
+      // keep a paragraph's notes in reading order: each goes after the last one placed
+      var last=host._snLast; host.insertBefore(s,last?last.nextSibling:host.firstChild); host._snLast=s;
     });
   }
   sidenotes(); wide.addEventListener&&wide.addEventListener('change',sidenotes);
