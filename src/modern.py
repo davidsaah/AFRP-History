@@ -658,6 +658,73 @@ def apply(g):
              ['2023–2025', 'Gaza, Lebanon, Iran', 'Raids, settler attacks, closures; Iron Wall in the north']],
             'The wars felt only from a distance are listed so that the book answers for all of them. The sources are in the entries of chapters 10 to 12.'))
 
+    # ---- v104, the war list folded in (David, 18 Nov 2026: "Fold it in").
+    # Sources: /mnt/project-files/history/conflicts_1936_present/v2_2026-11-17/ (YOUTH_EXTRAS.md, CASUALTY_LISTS.md,
+    # INTIFADAS_in_Ramallah.md, NAMES_VS_FAMILY_TREE.md) and the B'Tselem exports of 17 Nov 2026 (support only).
+    FT26 = 'AFRP family tree, export of 17 November 2026, the notes on each record'
+    WAFA = 'WAFA, Palestinian News and Information Agency, the register of martyrs'
+    PCBS = ('Palestinian Central Bureau of Statistics, <i>Killed in the al-Aqsa Intifada by district, 29 September 2000 – 31 December 2009</i>: '
+            'Ramallah and al-Bīra, 182 killed (163 men, 19 women), 49 of them under eighteen')
+    BARG = 'Mourid Barghouti, <i>I Saw Ramallah</i>, trans. Ahdaf Soueif (Cairo: American University in Cairo Press, 2000)'
+
+    add_before_unknown('The war, the locusts', _p(
+        '<b>The men who did not come home.</b> The family tree’s own notes name the dead of these years one by one. '
+        '<b>Butrous Ibrahim Elias Saah</b> was drafted and never returned. <b>Ibrahim Daoud El-Karawat</b> died in the Turkish army, and <b>Anton Hanna Omran</b> was killed. '
+        'The notes also mark as dying in the war years Mikhail Saleh Ayoub El-Safadi, Nicola and Elias Ayoub Danfoura, Yousef Hanna Mousa Ahwal, '
+        'the brothers Bajis, Aziz and Mousa Khalil, and the infant Nicola Badran. Two sons of Ramallah who had emigrated, <b>Jameel Abdallah Mikhail</b> and <b>Najeeb Farhat</b>, died in the uniform of the United States army{}.'.format(
+            c(FT26 + '. The tree records a death in these years for each; the cause is given only where we print it.')))
+        + plate('p092_2.jpg', 91, 'Dr Jameel Izhaq, photographed in 1938. His whole family died in the typhus of 1916, the year about three in ten of the people of Ramallah died.')
+        + plate('p341_2.jpg', 340, 'ʿAzeez and Selma Shaheen at their fig grove, 5 August 1984. In the hunger of the First World War, they said, the figs kept them alive.')
+        + plate('p247_1.jpg', 246, 'Four elders of Ramallah about 1916, photographed by Khalīl Raʿad: Farhat el-Muhawi, Yousef el-Katsha, Hanna el-Muhawi and Shaheen ʿAudi Muhawieh.'))
+
+    add_before_unknown('The revolt reaches the town', _p(
+        '<b>The barricades.</b> On 1 October 1938, the lawyer ʿĪsā Qandaḥ remembered, the young men of the town built barricades of stone across the streets to stop the British armoured cars, '
+        'while British aircraft fought the rebels in the hills around{}.'.format(c(NIR + ', p. 96, from ʿĪsā Qandaḥ (interview, 2 August 2003).')))
+        + _plate('matpc_18762.jpg', '../img/loc/matpc_18762.jpg', '“Airplane engagement over Ramallah with Arab rebels,” 1 October 1938. The dots in the sky are British aircraft.',
+                 'Matson Photo Service, 1938. Library of Congress, Prints &amp; Photographs Division, Matson collection, matpc-18762. ' + RIGHTS['loc'], 'Photograph')
+        + plate('p262_3.jpg', 261, 'George Saah, “George al-Aqraʿ”, hanged by the British in the Jerusalem prison on 16 November 1939.')
+        + plate('p060_1.jpg', 59, 'Dr Daoud Mikhail in the dress of the countryside, which townsmen put on in the revolt of 1936 so that the rebels could not be told apart.'))
+
+    add_body('The Second World War',
+        plate('p283_1.jpg', 282, 'The Trans-Jordan Frontier Force in the 1930s. Ramallah men served in it, Elias Nasrallah Oudeh among them.')
+        + plate('p093_2.jpg', 92, 'Edward Salamy of Ramallah in the uniform of the United States army in the Second World War, in Panama.'))
+
+    add_body('Where the refugees lived',
+        plate('p186_1.jpg', 185, 'Refugee children being fed. The photograph, from the Friends’ archives, is stamped 9 April 1949 and was probably taken near Ramallah.'))
+
+    add_before_unknown('Under the Jordanian crown',
+        plate('p100_1.jpg', 99, 'The National Security Force drilling in Ramallah at the time of the Suez war, 1956.')
+        + plate('p192_1.jpg', 191, 'Ramallah Scouts serving in the National Guard, 1956.')
+        + plate('p125_1.jpg', 124, 'Prisoners in al-Qashla prison, Jerusalem, 1957. Second from the right is Ṭalʿat Ḥarb of Ramallah, who was jailed for thirteen years in all for calling for democracy and for Glubb’s dismissal.'))
+
+    add_body('The counting years',
+        plate('p275_1.jpg', 274, 'The High Commissioner and his staff about 1931, with the Ramallah attorney ʿIsa ʿAkel and Naseef Harb.'))
+
+    replace_in('The town guards itself', 'to 18 April 1948. We print both dates',
+               'to <b>18 April 1948</b>, and that is the date we print')
+
+    add_before_unknown('The first intifada, and the Authority', _p(
+        '<b>Help from America.</b> Ramallah people in the United States raised more than $300,000 in the first intifada. It went home in instalments, through known men of the town, to families in need, '
+        'and from it grew the <b>Sons of Ramallah</b> society{}. '
+        'At the entrance to Dayr Ghassāna a monument stands for <b>Luʾay</b> of Dār Dāwūd, shot there{}.'.format(
+            c(NIR + ', p. 315.'),
+            c(BARG + ', p. 75. Barghouti gives no date. <b>Inference, labelled:</b> we place him in the first intifada.')))
+        + _p('<b>Seventeen from the district.</b> The seven killed in the town in September 1996 were part of a larger loss. WAFA names <b>17</b> people of Ramallah governorate killed between 25 and 27 September, '
+             'and a United Nations report agrees. The youngest was <b>Rāʾid Ibrāhīm Sharāka</b>, fourteen, of al-Jalazūn camp{}.'.format(
+            c(WAFA + ', Ramallah governorate, September 1996; United Nations, A/52/131.'))))
+
+    add_before_unknown('The second intifada and the siege', _p(
+        '<b>The count.</b> In the intifada’s first nine years, from 29 September 2000 to the end of 2009, <b>182</b> people of Ramallah and al-Bīra district were killed. <b>Forty-nine</b> of them were children{}. '
+        'In April 2002 the hospital morgue filled. When the curfew was lifted for two hours, hundreds of people came out and buried the dead together in the hospital yard{}. '
+        'Since 1971, <b>21</b> people of the district have died in Israeli prisons and detention{}.'.format(
+            c(PCBS + '.'), c(NIR + ', p. 74.'), c(WAFA + ', deaths in custody, 1971–2025.'))))
+
+    add_before_unknown('The Wall, a capital, and our own people', _p(
+        '<b>The homes.</b> Building in Area C needs an Israeli permit, and permits are almost never given. Since 2006 the army has demolished <b>482</b> buildings in the governorate “for lack of a permit,” '
+        '<b>191</b> of them homes, leaving <b>1,064</b> people homeless, <b>573</b> of them children. The worst year was 2025, with 88. '
+        'The Bedouin of al-Muʿarrajāt lost 34 buildings, and 190 of their people their homes{}.'.format(
+            c('B’Tselem, demolitions database, exported 17 November 2026. B’Tselem is an Israeli rights group, so these figures are support only; we have found no Palestinian count by village and year.'))))
+
     # ---- v98, the context boxes (David, 17 Nov 2026: "This is great").
     # Text: /mnt/project-files/history/conflicts_1936_present/v2_2026-11-17/CONTEXT_BOXES.md, numbers rechecked against the book.
     # Each box sits at the head of its conflict: the entry's opening, or the paragraph that begins with `at`.
@@ -695,5 +762,9 @@ CSS = """
 
 
 def finish(html):
-    """The panels' style."""
-    return html.replace('</style>', CSS + '</style>', 1)
+    """The panels' style; v104: Steadfast and the memorial close chapter 12."""
+    import steadfast
+    mark = '<div class="erahead" id="ch13">'
+    assert html.count(mark) == 1, 'chapter 12 end'
+    html = html.replace(mark, steadfast.html() + mark)
+    return html.replace('</style>', CSS + steadfast.CSS + '</style>', 1)

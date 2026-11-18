@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v104 · 18 November 2026 · the war list folded in, Steadfast, three charts
+
+David, 18 Nov 2026: "Fold it in", then "everything is non-commercial" and "ok to use" (PMDA and credited Israeli archive photos, for the next round).
+
+- **Chapter 10.** The First World War dead named in the family tree's notes; the barricades of 1 October 1938 (Qandaḥ, in Nayrūz p. 96). Photos: Dr Jameel Izhaq, the Shaheens' fig grove, four elders of 1916, George Saah, Dr Daoud Mikhail in 1936, the Matson air battle of 1 October 1938, the Trans-Jordan Frontier Force, Edward Salamy in US uniform, the High Commissioner with ʿIsa ʿAkel.
+- **Chapter 11.** Ayyūb Mīkhāʾīl's date settled as 18 April 1948 (David). Photos: refugee children fed in 1949, the National Security Force at Suez, the Scouts in the National Guard, Ṭalʿat Ḥarb in al-Qashla prison.
+- **Chapter 12.** The $300,000 and the Sons of Ramallah society (Nayrūz p. 315); Luʾay of Dayr Ghassāna (Barghouti p. 75, dating labelled as inference); WAFA's 17 dead of the governorate in September 1996; PCBS's 182 dead, 49 children, 2000–09; the hospital-yard burials of April 2002; 21 deaths in custody (WAFA); demolitions (B'Tselem, support only).
+- **Three charts** (src/build_figs9.py): the dead of the district by year, demolitions by year, and the share of the family tree born abroad by decade.
+- **Steadfast** (src/steadfast.py): the close of chapter 12 for younger readers, from the Steadfast doc: the four answers by era, the memorial (names to 1967, counts after), and the youth-group page. Budrus's "eight months" and the Qaddūra-camp line are left out for want of a source.
+- **Bibliography:** the 15 new war sources from the 17 November shelf review; 527 → 542 entries.
+
+
 ## v102 — 18 November 2026: the school closures of the First Intifada
 
 David: "Please add them." The "What was happening" box for the First Intifada (chapter 12) now tells the closures on the ground in Ramallah: Birzeit shut by a phone call on 10 January 1988; all 800 West Bank schools shut on 2 February 1988; home teaching banned, so six families on one Ramallah street were stopped the afternoon they began in October 1988; the Friends Boys School told to stop sending homework; the Friends School meeting about 60 days in 1989–90; and Ramallah people in America raising more than $300,000. Sources: Penny Johnson in the *Journal of Palestine Studies* 17:3 (1988) and 18:2 (1989), both now in the bibliography (section XXXI D, 527 entries), and Nīrūz p. 315 for the $300,000.

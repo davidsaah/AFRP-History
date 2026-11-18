@@ -4694,6 +4694,21 @@ _add_to_entry('Occupation, and the mayor in Houston', fig(F97.fig_june1967(), 'J
  'In six days of June 1967 the Israeli army took the West Bank, with East Jerusalem, and the Gaza Strip. Ramallah was taken on 6 June, and has been under occupation since.',
  'ARIJ for 6 June 1967, as in this entry; the 1949 armistice lines, simplified.'))
 
+# v104: three charts for the wars (src/build_figs9.py; David, 18 Nov 2026: "Fold it in")
+import build_figs9 as F9
+_add_to_entry('The second intifada and the siege', fig(F9.fig_killed(), 'The dead of the district, year by year',
+ 'People of Ramallah and al-Bīra district killed by Israeli forces or settlers each year since 2000. The deciding count for the intifada years is the Palestinian one, printed under the bars.',
+ 'Palestinian Central Bureau of Statistics, killed in the al-Aqsa Intifada by district, 2000–2009; B’Tselem fatalities database, exported 17 November 2026 (an Israeli rights group: support only).'),
+ after='<p><b>The count.</b>')
+_add_to_entry('The Wall, a capital, and our own people', fig(F9.fig_demolitions(), 'Homes torn down for lack of a permit',
+ 'Buildings demolished in Ramallah governorate each year since 2006 because Israel, which controls building in Area C, refused or never answered a permit.',
+ 'B’Tselem demolitions database, exported 17 November 2026 (an Israeli rights group: support only); no Palestinian count by village and year has been found.'),
+ after='<p><b>The homes.</b>')
+_add_to_entry('The Wall, a capital, and our own people', fig(F9.fig_abroad(), 'Born abroad: each war sent a wave',
+ 'The share of people in the family tree born outside Palestine and Jordan, by the decade they were born. It shows when the families left, not how many live abroad today.',
+ 'AFRP family tree, export of 17 November 2026: the 1,689 people with both a birth year and a birthplace.'),
+ after='<p><b>The right to come home.</b>')
+
 CONTENTS = ('<a class="tocbtn" href="#toc" aria-label="Jump to the list of chapters">Chapters</a>'
             '<div class="contents" id="toc"><h4>Contents</h4><ol>' + ''.join(
     f'<li><a href="#ch{n}"><span class="cnum">{k.replace("ERA ","").strip().title()}</span>'
@@ -4994,7 +5009,7 @@ FIG_KINDS = [  # by the start of the title
  ('Timeline', ('Six sovereigns', 'The dam, and a date', 'Who ruled, and who stayed', 'Five datings',
                'Six denominations', 'The Ḥaddādīn and the Ḥalasa', 'The dark half-decade')),
  ('Table', ('The chain, link by link', 'Every biblical place', 'The same people, nine years', 'John Mogannam')),
- ('Chart', ('A line to Adam', 'The highlands fill up', 'Forty-five is the wrong', 'The households, counted',
+ ('Chart', ('The dead of the district', 'Homes torn down', 'Born abroad: each war', 'A line to Adam', 'The highlands fill up', 'Forty-five is the wrong', 'The households, counted',
             'The ladder of a day', 'Every number anyone', 'The family’s account', 'Karak’s Christians',
             'The emigration', 'The population, one honest', 'The camps, with', 'What the land gave', 'One hill, in thirds')),
 ]
