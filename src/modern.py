@@ -142,6 +142,31 @@ CONTEXT_BOXES = [
 ]
 
 
+# The wars around the town, 1911–2025: the table at the end of chapter 12, and the chart drawn from it (src/build_figs10.py).
+WARS_AROUND_US = [['1911–1913', 'Italy’s war on Libya; the Balkan wars', 'Felt from a distance'],
+    ['1914–1918', 'The First World War', 'Garrison, conscription, hunger, typhus; the front north of the town'],
+    ['1920–1921, 1929', 'The riots', 'Felt from a distance'],
+    ['1936–1939', 'The great revolt', 'Village searches; the attack on the town, October 1938; George Saah'],
+    ['1939–1945', 'The Second World War', 'Rations; men in British, American and Transjordan uniform'],
+    ['1947–1949', 'The Nakba', 'The town guard; the refugees and the camps'],
+    ['1953', 'Qibya', 'A village of the district destroyed'],
+    ['1956', 'Suez', 'The National Security Force drilled in the town'],
+    ['1966', 'al-Samūʿ', 'Protests put down at al-Jalazūn'],
+    ['1967', 'The June war', 'Ramallah taken on 6 June; the occupation begins'],
+    ['1968', 'Karameh', 'Ibrāhīm al-Ṭawāsheh shot; emigration'],
+    ['1970', 'Black September', 'Felt from a distance'],
+    ['1973', 'October', 'The National Front; the mayors deported'],
+    ['1978, 1982', 'Lebanon', 'The mayors removed, 1982; emigration'],
+    ['1987–1993', 'The first intifada', 'Curfews; Birzeit closed four years'],
+    ['1990–1991', 'The Gulf War', 'Round-the-clock curfew; families home from Kuwait'],
+    ['1996', 'The tunnel', 'Seven killed in Ramallah'],
+    ['2000–2005', 'The second intifada', 'The town invaded; the Muqāṭaʿa besieged'],
+    ['2003', 'Iraq', 'Felt from a distance'],
+    ['2006–2007', 'Lebanon; the split', 'Ramallah left as the seat of government'],
+    ['2008–2022', 'The Gaza wars', 'Protests; the Qalandiyā march of 2014'],
+    ['2023–2025', 'Gaza, Lebanon, Iran', 'Raids, settler attacks, closures; Iron Wall in the north']]
+
+
 def apply(g):
     """Add the modern history to chapters 10 to 12. g is build_v5's globals()."""
     E, c, _plate, RIGHTS, D = g['E'], g['c'], g['_plate'], g['RIGHTS'], g['D']
@@ -629,28 +654,7 @@ def apply(g):
             c(POICA + '.')))
         + NUMTABLE('THE WARS AROUND US, 1911–2025 — what reached Ramallah',
             ['When', 'War', 'What reached the town'],
-            [['1911–1913', 'Italy’s war on Libya; the Balkan wars', 'Felt from a distance'],
-             ['1914–1918', 'The First World War', 'Garrison, conscription, hunger, typhus; the front north of the town'],
-             ['1920–1921, 1929', 'The riots', 'Felt from a distance'],
-             ['1936–1939', 'The great revolt', 'Village searches; the attack on the town, October 1938; George Saah'],
-             ['1939–1945', 'The Second World War', 'Rations; men in British, American and Transjordan uniform'],
-             ['1947–1949', 'The Nakba', 'The town guard; the refugees and the camps'],
-             ['1953', 'Qibya', 'A village of the district destroyed'],
-             ['1956', 'Suez', 'The National Security Force drilled in the town'],
-             ['1966', 'al-Samūʿ', 'Protests put down at al-Jalazūn'],
-             ['1967', 'The June war', 'Ramallah taken on 6 June; the occupation begins'],
-             ['1968', 'Karameh', 'Ibrāhīm al-Ṭawāsheh shot; emigration'],
-             ['1970', 'Black September', 'Felt from a distance'],
-             ['1973', 'October', 'The National Front; the mayors deported'],
-             ['1978, 1982', 'Lebanon', 'The mayors removed, 1982; emigration'],
-             ['1987–1993', 'The first intifada', 'Curfews; Birzeit closed four years'],
-             ['1990–1991', 'The Gulf War', 'Round-the-clock curfew; families home from Kuwait'],
-             ['1996', 'The tunnel', 'Seven killed in Ramallah'],
-             ['2000–2005', 'The second intifada', 'The town invaded; the Muqāṭaʿa besieged'],
-             ['2003', 'Iraq', 'Felt from a distance'],
-             ['2006–2007', 'Lebanon; the split', 'Ramallah left as the seat of government'],
-             ['2008–2022', 'The Gaza wars', 'Protests; the Qalandiyā march of 2014'],
-             ['2023–2025', 'Gaza, Lebanon, Iran', 'Raids, settler attacks, closures; Iron Wall in the north']],
+            WARS_AROUND_US,
             'The wars felt only from a distance are listed so that the book answers for all of them. The sources are in the entries of chapters 10 to 12.'))
 
     # ---- v98, the context boxes (David, 17 Nov 2026: "This is great").

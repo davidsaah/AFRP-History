@@ -41,6 +41,10 @@ CONTEXT = '#8F8A80'      # context, named for orientation only
 MONUMENT = '#3D3A35'     # monument or standing evidence (open diamond)
 RAMALLAH = '#B3261E'     # the one place on every map
 # thematic ramp for maps whose subject is a category, not evidence (periods)
+# v102: a line drawn by an army or a treaty (a front line, an armistice line):
+# ink, 2.2 units, dashed 9 3 where its course is approximate. Never green or ochre.
+LINE_ARMY = '#3D3A35'
+
 ERA = ['#2E2A4A', '#5A4E8C', '#8676B8', '#B0A3D6']
 # water: one blue family
 SEA = '#D5E5EC'
