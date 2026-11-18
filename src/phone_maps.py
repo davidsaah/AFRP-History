@@ -658,6 +658,21 @@ CSS = ('<style id="%s">.figwrap svg.phonemap{display:none}'
        '</style>' % MARK)
 
 
+def _own_ids(svg, tag):
+    """Give the phone plate its own ids. It copies pieces of the full map, clip
+    paths included, and sits before it on the page. With the ids shared, the
+    browser resolves url(#clip) to the first copy, which is inside the hidden
+    phone plate on a desktop, and a clip path in an undisplayed subtree clips
+    nothing: the road and the Dead Sea ran out past the map's frame."""
+    ids = set(re.findall(r'\bid="([^"]+)"', svg))
+    if not ids:
+        return svg
+    pat = '|'.join(re.escape(i) for i in sorted(ids, key=len, reverse=True))
+    svg = re.sub(r'\bid="(%s)"' % pat, lambda m: 'id="%s_%s"' % (m.group(1), tag), svg)
+    svg = re.sub(r'url\(#(%s)\)' % pat, lambda m: 'url(#%s_%s)' % (m.group(1), tag), svg)
+    return re.sub(r'href="#(%s)"' % pat, lambda m: 'href="#%s_%s"' % (m.group(1), tag), svg)
+
+
 def apply(h, report=True):
     if MARK in h:
         return h
@@ -670,6 +685,7 @@ def apply(h, report=True):
         ph = phone_map(full, _html.unescape(title), 'pm%d' % n[0])
         if not ph:
             return m.group(0)
+        ph = _own_ids(ph, 'pm%d' % n[0])
         full = re.sub(r'<svg\b', '<svg class="fullmap"', full, count=1)
         return m.group(1) + ph + full
     h = FIG.sub(sub, h)
