@@ -152,6 +152,23 @@ GZ = [(34.22, 31.32), (34.27, 31.22), (34.37, 31.29), (34.49, 31.50), (34.57, 31
 OCC = MS.ERA[1]
 
 
+def _armistice():
+    """The West Bank and the Gaza Strip as Natural Earth draws them (public
+    domain), the same line the armistice map uses, so the two plates agree. The
+    hand-simplified WB and GZ above were too coarse: the Gaza Strip came out as
+    a wedge, and the West Bank lost the Latrun salient and the Jerusalem line."""
+    import cartopy.io.shapereader as shp
+    import shapefile
+    r = shapefile.Reader(shp.natural_earth(resolution='10m', category='cultural', name='admin_0_map_units'))
+    f = [x[0] for x in r.fields[1:]]
+    out = {}
+    for sr in r.iterShapeRecords():
+        nm = dict(zip(f, sr.record)).get('NAME')
+        if nm in ('West Bank', 'Gaza'):
+            out[nm] = list(sr.shape.points)
+    return out.get('West Bank', WB), out.get('Gaza', GZ)
+
+
 def fig_june1967():
     W = 860
     s = _plate(W, 0, 'JUNE 1967: THE WEST BANK, EAST JERUSALEM AND GAZA OCCUPIED',
@@ -163,7 +180,7 @@ def fig_june1967():
     M.sea(s, 32.00, 34.45, 'MEDITERRANEAN', 12, -72)
     M.sea(s, 31.50, 35.48, 'DEAD SEA', 11, -78)
     s.append(f'<g clip-path="url(#{M._cid})">')
-    for poly in (WB, GZ):
+    for poly in _armistice():
         d = 'M' + ' L'.join('%.1f %.1f' % M.P(la, lo) for lo, la in poly) + 'Z'
         s.append(f'<path d="{d}" fill="{OCC}" fill-opacity=".20" stroke="{OCC}" stroke-width="2" stroke-linejoin="round"/>')
     s.append('</g>')
@@ -188,11 +205,11 @@ def fig_june1967():
     ], 33)
     yl = M.y + M.h + 30
     s.append(f'<rect x="{40+8-7}" y="{yl-6}" width="14" height="12" fill="{OCC}" fill-opacity=".20" stroke="{OCC}" stroke-width="1.6"/>')
-    s.append(MS.text(40 + 8 + 14, yl + 4, 'occupied in June 1967 (armistice lines of 1949, simplified)', MS.T_FURN, MS.BODY))
+    s.append(MS.text(40 + 8 + 14, yl + 4, 'occupied in June 1967 (inside the armistice lines of 1949)', MS.T_FURN, MS.BODY))
     MS.legend(s, yl + 20, [('era1', 'East Jerusalem'), ('ctx', 'named for orientation'), ('ram', 'Ramallah')])
     H = foot(s, W, yl + 40,
              'Ramallah has been under occupation since 6 June 1967. Many of the town’s people were abroad that June, and could not come home.',
-             'ARIJ for 6 June 1967; the town’s own record for the Odeh Hotel and al-Manāra; the September 1967 census, as in chapter 12. The lines are the 1949 armistice lines, simplified, and are not a survey. '
+             'ARIJ for 6 June 1967; the town’s own record for the Odeh Hotel and al-Manāra; the September 1967 census, as in chapter 12. The 1949 armistice lines after Natural Earth (public domain), generalised for this scale, and not a survey. '
              'Coastlines after Natural Earth; Lambert conformal conic. ' + TERRAIN_SRC)
     return plate_end(s, H)
 
