@@ -47,7 +47,7 @@ NAMES = [
     ('1916', 'Dr Philip Maʿlūf, 13 February, of the typhus he caught treating the sick'),
     ('1939', 'George Jaber Saah, “George al-Aqraʿ”, hanged in Jerusalem on 16 November'),
     ('1939–1946', 'ʿĪsā Mūsā Khalīl Mūsā and Henry Abū Ḥadīd, in the Second World War · Khalīl Bishāra Mogannam, at the King David Hotel, 1946'),
-    ('1948', 'Ayyūb Rizq Mīkhāʾīl, at Nabī Yaʿqūb, 18 April · Ḥannā Jiryis ʿUmrān, at Muṣrāra · Jamīl Jamīl Zanāyid Jr.'),
+    ('1948', 'Ayyūb Rizq Mīkhāʾīl, probably at Nabī Yaʿqūb, 18 April (the tree says 1947) · Ḥannā Jiryis ʿUmrān, at Muṣrāra · Jamīl Jamīl Zanāyid Jr.'),
     ('1955', 'Rajā Abū ʿAmāsha'),
     ('1967', 'Dina Kharūfeh, fifteen, and her sister Lucy, twelve · Abū al-Ḥabāyib'),
 ]

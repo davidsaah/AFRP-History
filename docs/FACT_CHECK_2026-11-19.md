@@ -79,25 +79,25 @@ Per David's standing instruction, small source differences (rounding, spellings,
 7. **Download run of 16 August:** 43 + 5 + 2 = 50, but the total says 49.
 8. **The 1936 al-Maskūbiyya episode** ("winter of 1936", hanged November 1939) may need Nayrūz's own wording.
 
-## The film against the book
-The final narration (v7) and the war additions for v8 have about 230 claims. About 214 are in the book.
+## The film against the book (re-checked in the Literature folder)
+David: "The movie facts were pulled from the literature folder, double check there." So I looked up every film-versus-book point in the shelf's text copies.
 
-**Worth adding to the book:**
-- **Chapter 2:** one sentence on method. Robinson and Smith found the biblical sites by asking villagers the names of their own places. The source is already in the bibliography.
+**The film's sources were right, and the book now has it:**
+- **Justinian's grant of kingship:** "most probably in 529" (Shahîd, *Byzantium and the Arabs in the Sixth Century* I.1). Added to chapter 4.
+- **Ghassān as a water:** Ibn Durayd says so too, "neither a father nor a mother" (al-Hamdānī p. 141; the word "spring" is Ḥaddādīn's, after *Kitāb al-ʿAyn*). Added beside Ibn al-Kalbī.
+- **Qaḥṭān to al-Azd:** Yaʿrub, then Yashjub, then Sabaʾ, and six generations to al-Azd (Ḥaddādīn 2024, p. 9). Added in chapter 2.
+- **Robinson's method:** he started from the names villagers used (Robinson 1841, III, p. 179). Added to chapter 2 as a new paragraph with its own note.
+- **B'Tselem's 72:** exactly 72 people whose place of residence is Ramallah city were killed from September 2000 to July 2026. 70 were killed by security forces and 2 by Israeli civilians, from the database file on the shelf. Added to the district deaths figure.
+- **Ṣabra's brothers:** Shāhīn's English says three and his Arabic says four. The book now says both.
+- **"King Guy":** Shaheen (1992, 2005) and Ḥammūdeh all call Guy king, and the charter reads *rex*. The date "mclxxxvi, indiction V" may be March 1187 in modern reckoning, when he was king. So the caption no longer says "not yet king", and the book's other wording stays neutral ("Guy de Lusignan", "a Crusader lord's road"). Note 135 still sets out Strehlke's objection.
 
-**Check the source first:**
-- **Justinian's grant of kingship to al-Ḥārith:** the film says 529. Procopius gives no exact year; scholars say about 529–531.
-- **B'Tselem's 72 people of Ramallah itself killed since 2000:** the v8 notes themselves say to re-run the count.
+**The book is right and the film should change, on the sources:**
+- **Shot 29:** fifty girls "within four years", in four day schools (Shaheen 2005), not "within months".
+- **Shot 2:** Dissard printed the story in 1905. What is true is "nobody in Ramallah had yet written our history" (Shāhīn 1982).
+- **Shot 38b:** Abū Rayya's words are from his 1980 book. The 8 August 1953 notebook is ʿAdnān al-Ḥaddādīn's.
+- **Shot 39:** both Rāshid and Ṣabra crossed, and Ṣabra went home after six years.
+- **Shot 9a:** "found by matching the Bible to the names villagers still used" is closer to Robinson.
+- **Shot 36:** the 25,000 is Cadora (1954), p. 60, not Shaheen 2005.
+- **v8 shot 42b:** the 60 tanks and 2,500 soldiers are Nayrūz (2004), p. 73. The UN report's 60 tanks are at Jenin.
 
-**Left out:**
-- **The Yaʿrub-to-Azd rungs of John's chart:** the book treats the chart as a guide, not as evidence.
-- **The family-tree figures in the closing:** they will change.
-
-**The film disagrees with the book, and the book looks right:**
-- **Shot 29:** the girls' school had twenty pupils and fifty only by 1873, across four schools. It's not "fifty within months".
-- **Shot 2:** "Nobody had written his story down" is wrong. Dissard wrote it down in 1905, and the film's own shot 19 says so.
-- **Shot 12:** the caption gives Ibn Durayd for "Ghassān, a spring". The water reading is Ibn al-Kalbī's and al-Hamdānī's.
-- **Shot 38b:** the caption cites the 1953 town register for Abū Rayya's words. They're from his 1980 book, as the film's own shot 39 says.
-- **Shot 16:** "a Crusader king" should be "Guy de Lusignan", who was crowned only later in 1186.
-- **Shot 39:** "Two brothers" should be "two of the brothers". Ṣabra had three.
-- **Nabī Yaʿqūb:** David's decision 8 on Ayyūb Mīkhāʾīl still stands. The book now hedges in both places.
+**Still open:** Ayyūb Mīkhāʾīl at Nabī Yaʿqūb. The tree says 1947, and Cadora gives 18 April 1948 but names no one. The book hedges in every place now.
