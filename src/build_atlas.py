@@ -695,6 +695,14 @@ def fig_district():
     return plate_end(s, H)
 
 
+def _km_from_centre(lat, lon, lat0=31.8996, lon0=35.2042):
+    """Great-circle km from the centre of Ramallah used throughout the book."""
+    p1, p2 = math.radians(lat0), math.radians(lat)
+    a = (math.sin((p2 - p1) / 2) ** 2 +
+         math.cos(p1) * math.cos(p2) * math.sin(math.radians(lon - lon0) / 2) ** 2)
+    return 2 * 6371.0 * math.asin(math.sqrt(a))
+
+
 # ═══════════════════════ 4 · the oldest ground ════════════════════════
 def fig_oldest():
     W = 860
@@ -710,7 +718,7 @@ def fig_oldest():
              (31.8711, 35.4442, 'TELL es-SULTAN, Jericho', 'neo', 23.0, 0, 20, 'middle'),
              (31.8869, 35.2164, 'TELL en-NAṢBA', 'chal', 2.5, 10, 14, 'start'),
              (31.9169, 35.2569, 'et-TELL (Ai)', 'eb', 5.3, 10, -6, 'start'),
-             (31.9700, 35.3200, 'ʿAIN SAMIYA', 'eb', 13.8, 10, 4, 'start'),
+             (31.9880, 35.3330, 'ʿAIN SAMIYA', 'eb', 15.5, 10, 4, 'start'),
              (31.7933, 35.1533, 'MOTZA', 'neo', 12.5, 10, 4, 'start'),
              (31.8058, 35.1044, 'ABU GHOSH', 'neo', 13.9, -10, 4, 'end')]
     rx, ry = M.P(31.9038, 35.2034)
@@ -721,7 +729,9 @@ def fig_oldest():
     for la, lo, nm, k, km, dx, dy, an in SITES:
         x, y = mark(s, M, la, lo, KIND[k][0], 6.2)
         label(s, x, y, nm, dx, dy, an, 13)
-        label(s, x, y, f'{km} km', dx, dy + 13, an, 11.5, MS.NOTE, '400')
+        # fact check, 19 Nov 2026: computed from the dot, as the book's note on
+        # distances says every plate label is; the typed values had drifted
+        label(s, x, y, '%.1f km' % _km_from_centre(la, lo), dx, dy + 13, an, 11.5, MS.NOTE, '400')
     x, y = mark(s, M, 31.9038, 35.2034, 'ram')
     label(s, x, y, 'RAMALLAH', -13, 4, 'end', 13.5, MS.RAMALLAH)
     M.scalebar(s); M.locator(s)
@@ -928,11 +938,11 @@ def fig_karak():
                                      'households the register calls',
                                      'the Kasābra. They are not yet',
                                      'at Ramallah.'], MS.DOC),
-        ('3', 'BAYT JĀLĀ → RAMALLAH', ['1562: the 36 Kasābra families',
-                                       'come up the ridge road, with',
-                                       '27 further Christian families',
-                                       'and 8 unmarried men — some',
-                                       '63 Christian households,',
+        ('3', 'BAYT JĀLĀ → RAMALLAH', ['1562: 19 of the 36 Kasābra',
+                                       'households come up the ridge',
+                                       'road, with 44 further Christian',
+                                       'households and 8 unmarried',
+                                       'men — 63 Christian households,',
                                        'joining the 10 Muslim families',
                                        'already on the hill.'], MS.DOC)]:
         s.append(f'<circle cx="{bx+22}" cy="{yy-4}" r="9" fill="#FFFAF0" stroke="{col}" stroke-width="2"/>')

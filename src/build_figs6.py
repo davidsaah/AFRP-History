@@ -127,7 +127,7 @@ MISSION_EVENTS = [
     ('1889', 3, 'The Girls Training Home: fifteen boarders'),
     ('1890–91', 4, 'Two German girls’ schools; 82 girls by 1903'),
     ('1893', 3, 'Eight Friends day schools'),
-    ('1895', 2, 'Our Lady of the Annunciation, under Fr Yaʿqūb Mogannam'),
+    ('1895', 2, 'Our Lady of the Annunciation, under Fr Saba Mogannam'),
     ('1925', 3, 'The name Friends Girls School'),
 ]
 

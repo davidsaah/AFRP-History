@@ -228,7 +228,7 @@ def fig_raids():
     s.append(f'<rect x="{bx}" y="92" width="{bw}" height="{M.h}" fill="#FFFFFF" stroke="{A.RULE}" rx="4"/>')
     yy = 118
     for head, body in [('QIBYA, 1953', 'A village of what is now the Ramallah governorate. On the night of 14–15 October the army blew up its houses with people inside: sixty-nine killed.'),
-                       ('QALQĪLIYA, 1956', 'A raid on 10 October, days before Israel invaded Sinai with Britain and France.'),
+                       ('QALQĪLIYA, 1956', 'A raid on 10 October, days before Israel invaded Sinai, in concert with Britain and France.'),
                        ('AL-SAMŪʿ, 1966', 'A raid near Hebron in November. The camps rose; at al-Jalazūn, north of the town, the Jordanian army put the protest down.')]:
         s.append(A.txt(bx + 14, yy, head, 11.5, MS.DOC_DEEP, 'start', '700', 'normal', '.6'))
         for i, ln in enumerate(A.wrap(body, 34)):

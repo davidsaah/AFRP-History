@@ -85,7 +85,7 @@ CONTEXT_BOXES = [
      'The war ended with Britain exhausted and the world sympathetic to the Jewish survivors of the Holocaust, which shaped what happened to Palestine next.'),
     ('The town guards itself', None, 'Partition and the Nakba, 1947–1949',
      'In November 1947 the UN voted to divide Palestine, giving more than half the land to a Jewish state when Jews were about a third of the population. War followed. About 750,000 Palestinians, more than half the Arab population, were driven out or fled and were never allowed back. More than 400 villages were emptied and most were destroyed. Palestinians call it the <b>Nakba</b>, the catastrophe.',
-     'In July 1948 the people of Lydda and Ramle were forced out and walked to Ramallah in the summer heat. The town’s population tripled, and the camps of al-Amʿarī, al-Jalazūn and Qalandiyā began.',
+     'In July 1948 the people of Lydda and Ramle were forced out and walked to Ramallah in the summer heat. The town’s population tripled, and in 1949 the camps of al-Amʿarī, al-Jalazūn and Qalandiyā were set up.',
      'The refugees and their descendants, now millions, still hold the right of return. The Nakba is the event every later one refers back to.'),
     ('Under the Jordanian crown', None, 'Jordanian rule, 1948–1967',
      'Jordan took the West Bank in 1948 and annexed it in 1950. Palestinians became Jordanian citizens but political parties were suppressed. Israeli raids across the armistice line punished whole villages, at Qibya in 1953 and al-Samūʿ in 1966.',
@@ -290,7 +290,7 @@ def apply(g):
         + _p('<b>The border raids.</b> The armistice line ran a few kilometres west of the town, and across it the Israeli army raided the villages of the district. '
              'On the night of <b>14–15 October 1953</b> it attacked <b>Qibya</b>, a village of what is now the Ramallah governorate, and killed sixty-nine people, most of them in their houses as they were blown up. '
              'Jordan laid the attack before the Security Council two days later{}. '
-             'Three years on, on <b>10 October 1956</b>, a raid on Qalqīliya came days before Israel invaded Sinai with Britain and France on 29 October, the war the Arabs call the Tripartite Aggression{}. '
+             'Three years on, on <b>10 October 1956</b>, a raid on Qalqīliya came days before Israel invaded Sinai on 29 October, in concert with Britain and France, the war the Arabs call the Tripartite Aggression{}. '
              'Ramallah itself was not attacked. For the town the lasting blow came after, in the crackdown of 1957 that sent Dr Daoud Mikhail to prison.'.format(
             c('United Nations Security Council, S/3113, letter from Jordan, 16 October 1953.'),
             c('United Nations Security Council, S/3670 (1956), on the Qalqīliya raid; Institute for Palestine Studies, Palquest, “The 1956 War.”')))
@@ -327,7 +327,7 @@ def apply(g):
     int1 = ent(12, '1987–2000', 'The first intifada, and the Authority',
         'In December 1987 the uprising began, and Ramallah was one of its centres{}. In the long sieges, Lisa Taraki writes, '
         '“the towns’ prosperous merchants … paid their political dues by supplying the camp [al-Amʿarī] with food and provisions{}.” '
-        'Birzeit University was closed by military order from <b>8 January 1988</b> to <b>29 April 1992</b>, and its teachers held classes underground in Ramallah{}. '
+        'Birzeit University was closed by military order from <b>10 January 1988</b> to <b>29 April 1992</b>, and its teachers held classes underground in Ramallah{}. '
         'After Oslo the army withdrew, and on <b>27 December 1995</b> the Palestinian Authority took control of Ramallah and al-Bīra{}. '
         'Ramallah took over the work of a Jerusalem that was being closed off. Its own people called the new city “a ‘five-star prison’”{}. '
         'The Khalil Sakakini Cultural Centre opened in 1996, and in May 1999 a Palestinian team performed the first heart catheterisation at the Ramallah government hospital{}.'.format(
@@ -338,7 +338,7 @@ def apply(g):
             c(SH + ', p. 342, and p. 120, with <i>al-Ayyām</i> (Ramallah), 24 May 1999: '
               '<span class="ar" dir="rtl">اجراء أول عملية قسطرة للقلب في مستشفى رام الله الحكومي</span>, led by Dr Niḍāl Ḥarb.')),
         plate('p121_1.jpg', 120, '<i>al-Ayyām</i>, 24 May 1999: “The first heart catheterisation in the Ramallah government hospital.”', 'Newspaper')
-        + _rec(['8 January 1988 – 29 April 1992: Birzeit University closed by military order (Birzeit University).',
+        + _rec(['10 January 1988 – 29 April 1992: Birzeit University closed by military order (Birzeit University).',
                 '27 December 1995: the Palestinian Authority takes control of the town (IPS).']))
 
     int2 = ent(12, '2000–2005', 'The second intifada and the siege',
@@ -643,7 +643,7 @@ def apply(g):
     add_before_unknown('The Wall, a capital, and our own people',
         _p('<b>The villages that marched.</b> West of the town the Wall and the settlement plans beside it took land from Bilʿīn, Niʿlīn and Dayr Qaddīs{}. '
            'From February 2005 <b>Bilʿīn</b> marched every Friday. <b>Bāsim Abū Raḥma</b> was killed by a tear-gas canister on 17 April 2009, and his sister <b>Jawāhir</b> died after breathing tear gas at the march on 31 December 2010{}. '
-           'At <b>Nabī Ṣāliḥ</b> the marches began in 2009, over land and springs taken by the settlement of Ḥallamish, and <b>Muṣṭafā al-Tamīmī</b>, twenty-eight, died on 9 December 2011 after a canister hit him in the face{}.'.format(
+           'At <b>Nabī Ṣāliḥ</b> the marches began in 2009, over land and springs taken by the settlement of Ḥallamish, and <b>Muṣṭafā al-Tamīmī</b>, twenty-eight, was hit in the face by a canister on 9 December 2011 and died the next day{}.'.format(
             c(ARIJ15 + ', PDF p. 60.'), c('Al Jazeera, 7 January 2011.'), c('Al Jazeera, 11 December 2011.')))
         + _p('<b>Turmus ʿAyyā, 2023.</b> Turmus ʿAyyā, known for its many American citizens, was burned on <b>21 June 2023</b>. About four hundred settlers came; thirty homes and more than sixty cars were set alight, twelve people were wounded by live fire, and <b>ʿUmar Qaṭīn</b>, twenty-seven, an electrician, was shot dead. '
              'A Chicago man’s brother lost his house, and a family from Ohio lost four cars{}.'.format(

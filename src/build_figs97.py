@@ -128,7 +128,7 @@ def fig_lights():
 
     bx, bw = 464, 356
     _box(s, bx, 92, bw, 560)
-    items = sorted([(yr, nm, what) for _la, _lo, nm, yr, what, *_r in LIGHTS] + [('1186', 'Ramallah', 'the name is first written, in a charter of King Guy')],
+    items = sorted([(yr, nm, what) for _la, _lo, nm, yr, what, *_r in LIGHTS] + [('1186', 'Ramallah', 'the name is first written, in a charter of Guy de Lusignan')],
                    key=lambda r: int(re.sub(r'\D', '', r[0])))
     _entries(s, bx, 118, bw, [(f'{yr} · {nm.upper()}', what[0].upper() + what[1:] + '.', MS.DOC) for yr, nm, what in items], 50)
     yl = M.y + M.h + 30
