@@ -239,7 +239,7 @@ def apply(g):
         'The war reached Ramallah through its young men. <b>Elias Nasrallah Oudeh</b> served as a wireless operator in the Trans-Jordan Frontier Force, '
         'the British-commanded frontier cavalry, from 1938 to 1943, and his discharge certificate survives{}. '
         '<b>Shukri Elias ʿAjlouny</b> was a telegraph operator at the airport of Lydda in 1940{}, and <b>Edward Salamy</b> of Ramallah served in the United States army{}. '
-        'At home the district was run by Palestinian officers of the Mandate: Mitri Farraj until 1941, then, from 1943, the historian ʿĀrif al-ʿĀrif{}. '
+        'At home the district was run by Palestinian officers of the Mandate: Mitri Farraj until 1941 (Nayrūz has 1940), then, from 1943, the historian ʿĀrif al-ʿĀrif{}. '
         'Nayrūz’s list of the subdistrict’s qāʾimmaqāms, its district governors, also names Jamīl al-Tājī, Naʿīm ʿAbd al-Hādī and Naẓīf al-Khayrī{}.'.format(
             c(SH + ', p. 282: the certificate of discharge, serial no. 3904, “W/T operator,” enlisted 4 October 1938, discharged 27 December 1943.'),
             c(SH + ', p. 275.'), c(SH + ', p. 92.'), c(CAD + ', p. 55.'), c(NIR + ', p. 60.')),
@@ -524,7 +524,7 @@ def apply(g):
         + _p('<b>Water.</b> In 2010 the people of the governorate had on average 108 litres of water a day each, and some of its villages less than 28; the settlers around them used over 400{}.'.format(
             c(ARIJ15 + ', pp. 44–46.')))
         + _p('<b>The right to come home.</b> This is where the occupation reaches our families abroad. It began with the census of September 1967: everyone away that day lost the right to live in the town. '
-             'Between 1967 and 1994 about <b>130,000</b> West Bank Palestinians were struck off the register after long stays abroad, and in 2000 Israel stopped deciding requests to reunite families altogether{}. '
+             'Between 1967 and 1994 about <b>140,000</b> West Bank Palestinians were struck off the register after long stays abroad, and in 2000 Israel stopped deciding requests to reunite families altogether{}. '
              'For decades a Palestinian-American with a West Bank identity card could come home only over the Allenby bridge. '
              'Only in 2023, as the price of joining the United States visa-waiver programme, did Israel agree to let all American citizens in through its airport, “regardless of national origin”{}.'.format(
             c(HRW12 + '.'),

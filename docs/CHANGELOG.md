@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v115 — fact check, second pass (20 Nov 2026)
+
+Builds on the fact-check pull request. About 45 more corrections, each checked against the source on disk:
+- Maʾrib dam: the first breach is 455 (not 449–450) in the chapter, the reconstruction and Fig 2.4 (620–680 m long, 15–20 m high, abandoned 570 or 575).
+- Tell en-Naṣba layers: the family arrives at the third layer from the top.
+- Fig 0.1: link six is five generations; link four is nine. The closing aims the doubter at link three.
+- Distances: Tell en-Naṣba two kilometres, Ṭaybeh eleven; 42,122 is a PCBS projection; Fig 2.2 "settled by our families 1561–62".
+- Ghassān in South Arabian inscriptions (not "twice"); Karak's loss of forty households dated 1538–1596; Oppenheim fits the Karak register of 1596.
+- Spans: forty-seven years, about ninety years apart, seventeen years 1905–1922, J-Z640 three thousand years.
+- Gobat 1846–50; Katie Gabriel forty-one years; the mill and Farraj dates with the second source's year beside them; Yūsuf ʿAudeh named as Shāhīn's man too.
+- 1953 and 1967 counts credited correctly; the timeline puts the British entry on 29 December 1917, as chapter ten does.
+- HRW about 140,000 revocations; the 2011 Tamimi date; Sinai 1956 with Britain and France two days later; Ofra fourteen years; Fig 12.2 runs 1596–2021.
+
 ## v114 — maps on the desktop page (18 Nov 2026)
 David: "the maps in the book need improvement".
 - On wide screens a margin note could run over the top of the next map (figures 3.3, 4.4, 11.5). Figures now start below any margin note beside them.

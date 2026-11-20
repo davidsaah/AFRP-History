@@ -74,7 +74,7 @@ ROWS = [
   'The 1915 locust plague across Palestine and Syria is very well attested. Shāhīn localises it.'),
  (1916, '<b>Typhus plague. About 30 per cent of Ramallah’s population perish.</b>', 'corrected',
   '<b>This changes the population chart.</b> The chart runs 2,061 (1896) → 3,104 (1922) as a smooth rise. A 30 per cent mortality event in 1916 means the true curve <b>falls steeply and then recovers</b>, and that the 1922 figure represents a recovering, not a continuously growing, town. <b>The chart should carry this and does not.</b>'),
- (1917, 'December: the British Army occupies Ramallah — the exact day is not recorded.', 'refined',
+ (1917, '29 December: the British Army occupies Ramallah.', 'refined',
   'Consistent with the fall of Jerusalem on 9 December 1917. Shāhīn gives no day; Allenby’s despatch gives the morning of 29 December 1917.'),
  (1927, 'A strong earthquake; two Ramallah inhabitants killed; heavy property damage.', 'confirmed',
   'The July 1927 Jericho earthquake is well attested regionally. Shāhīn gives the local casualty figure.'),

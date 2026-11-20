@@ -361,7 +361,7 @@ def fig_dam():
     s.append(txt(px(300), y - 34, 'the tradition', 10.5, RUST, 'middle', '700'))
     s.append(txt(px(300), y - 20, '“about 300 AD”', 10, RUST, 'middle', '400', 'italic'))
     # recorded breaches
-    for a, b, lab in [(449, 450, '449–450'), (543, 548, '543–548')]:
+    for a, b, lab in [(455, 456, '455'), (543, 548, '543–548')]:
         xa, xb = px(a), px(b)
         s.append(f'<rect x="{xa-3:.1f}" y="{y-11}" width="{max(xb-xa,6)+6:.1f}" height="22" fill="{GREEN}" rx="4"/>')
         s.append(txt((xa + xb) / 2, y + 40, lab, 10.5, GREEN, 'middle', '700'))
@@ -580,9 +580,9 @@ def fig_pop():
     v0, v1 = 300, 60000
     def px(y): return x0 + (x1 - x0) * (y - t0) / (t1 - t0)
     def py(v): return yb - (yb - yt) * (math.log10(v) - math.log10(v0)) / (math.log10(v1) - math.log10(v0))
-    s = [f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Every recorded population figure for Ramallah, 1596 to 2024, on a log scale">']
+    s = [f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Every recorded population figure for Ramallah, 1596 to 2021, on a log scale">']
     s.append(f'<rect width="{W}" height="{H}" fill="{SURF}"/>')
-    s.append(txt(40, 34, 'EVERY NUMBER ANYONE HAS EVER RECORDED, 1596–2024', 11, GOLD, 'start', '700', 'normal', '1.4'))
+    s.append(txt(40, 34, 'EVERY NUMBER ANYONE HAS EVER RECORDED, 1596–2021', 11, GOLD, 'start', '700', 'normal', '1.4'))
     s.append(txt(40, 52, 'A logarithmic scale, because the town multiplied by more than a hundred.', 10.5, GREY, 'start', '400', 'italic'))
     # era bands
     for a, b, lab in [(1917, 1948, 'British Mandate'), (1967, 1994, 'occupation before the Authority')]:
@@ -973,7 +973,7 @@ comes from the Arabic tradition — the same tradition that says Ghassān is a s
 
 <p>The family tradition dates the departure to the bursting of the Maʾrib dam, about 300 AD. The dam
 is real, its breaches are dated, and the dates do not match: <strong>the recorded breaches are
-449–450 and 543–548, with final collapse later in the sixth century.</strong> Abraha’s great
+455 and 543–548, with final collapse later in the sixth century.</strong> Abraha’s great
 inscription of 548 CE — CIH 541 — records the repair and names the tribes and embassies present, and
 it is free to read{c('Norbert Nebes, “A New ʾAbraha Inscription from the Great Dam of Mārib,” <em>Proceedings of the Seminar for Arabian Studies</em> 34 (2004), 221–230. In the drive as <code>2004_Nebes_New_Abraha_Inscription_Marib_Dam.pdf</code>.')}{c('CIH 541 and the Sabaic corpus generally are searchable free at DASI — Digital Archive for the Study of pre-Islamic Arabian Inscriptions, Università di Pisa / CNR, dasi.cnr.it.')}. This is a correction, not a demolition: the migration tradition
 survives; the century attached to it moves.</p>
@@ -1532,7 +1532,7 @@ could not be retrieved automatically, that is said too.</p>
 <footer>
 <p><strong>Corrections established by this project and carried into this text:</strong> Ghassān is a
 spring, not an ancestor; Qaḥṭān to Jafna is sixteen generations, not fifteen; the “45 generations” of
-the void implies an impossible generational interval; the Maʾrib breaches are 449–450 and 543–548,
+the void implies an impossible generational interval; the Maʾrib breaches are 455 and 543–548,
 not c. 300; <em>Rām Allāh</em> is a named place in 1279; the founding is 1562; Yāqūt saw the
 Palestinian al-Bīra himself; Mujīr al-Dīn has five occurrences of <span class="ar">البيرة</span>, not
 six; the Barghūthī shaykhdom postdates the sixteenth-century registers; Banī Ḥārith is not attested

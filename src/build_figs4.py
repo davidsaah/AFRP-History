@@ -118,7 +118,7 @@ def fig_peopling():
 def fig_layers():
     # (label, dates, who/what, colour, height weight, note)
     L = [
-      ('TODAY', '1994 →', 'A Palestinian city and the seat of an authority. 42,122 people in 2021.', '#0E5C33', 1.0, ''),
+      ('TODAY', '1994 →', 'A Palestinian city and the seat of an authority. 42,122 people projected for 2021.', '#0E5C33', 1.0, ''),
       ('MANDATE, JORDAN, OCCUPATION', '1917–1994', 'The town is tripled by nine thousand refugees in 1948.', '#12703E', 1.0, ''),
       ('OTTOMAN', '1517–1917', 'The Ḥaddādīn arrive c. 1562 and are named in the register of 1596. <b>This is the layer our own family enters.</b>', GREEN, 1.5, 'us'),
       ('MAMLUK', '1250–1517', 'A sultan’s endowment of 1279 includes Rām Allāh (the deed is lost; a court record of 1565 cites it).', '#2E8B57', 1.0, ''),
@@ -129,7 +129,7 @@ def fig_layers():
       ('HELLENISTIC &amp; PERSIAN', '539–63 BC', 'Four empires; the same villages. The Samaritans separate and are still here.', '#93C0A4', 1.0, ''),
       ('IRON AGE', '1200–539 BC', 'Philistines on the coast, Moab and Edom across the river, Aramaeans inland — every one absorbed.', '#A9CDB8', 1.15, ''),
       ('BRONZE AGE', '3300–1200 BC', 'et-Tell and ʿAin Samiya. Canaanite city-states write to Egypt in Akkadian. <b>Present-day Lebanese draw more than ninety per cent of their ancestry from this layer.</b>', '#C3D9CB', 1.5, 'base'),
-      ('CHALCOLITHIC', '4500–3300 BC', 'A village at Tell en-Naṣba, three kilometres from Ramallah’s centre.', '#D2E2D7', 0.9, ''),
+      ('CHALCOLITHIC', '4500–3300 BC', 'A village at Tell en-Naṣba, two kilometres from Ramallah’s centre.', '#D2E2D7', 0.9, ''),
       ('NEOLITHIC', '9600–4500 BC', 'Jericho: permanent settlement, a stone tower, a wall. Motza and Abu Ghosh are day-walks away.', '#DFEAE2', 1.15, ''),
       ('NATUFIAN', '13,000–9600 BC', 'Shuqba cave, in this governorate: the first people here to build in stone and stay. The culture is named after their wadi.', '#E8EFE9', 1.25, 'nat'),
       ('PALAEOLITHIC', 'before 13,000 BC', 'A Neanderthal child’s tooth in the same cave — the southernmost Neanderthal yet identified.', '#EFF2ED', 0.9, ''),
@@ -167,7 +167,7 @@ def fig_layers():
     s.append(f'<line x1="{x0}" y1="{y:.1f}" x2="{W-40}" y2="{y:.1f}" stroke="{RULE}"/>')
     for i, ln in enumerate([
       'Fifteen thousand years of human presence in this district, and not one layer in which the people of this land were replaced by another people.',
-      'The family arrives four layers from the top, into a district lived in — site by site, not always the same site — for more than eleven thousand years.',
+      'The family arrives three layers from the top, into a district lived in — site by site, not always the same site — for more than eleven thousand years.',
       'Layer thicknesses are drawn for legibility, not to scale in time. Every date is calibrated and sourced in the entries around this figure.']):
         s.append(txt(40, y + 24 + i * 16, ln, 10.2, BODY, 'start', '700' if i < 2 else '400',
                      'normal' if i < 2 else 'italic'))
@@ -918,7 +918,7 @@ def fig_iron_ridge():
     MS.sym_ramallah(s, x, y, True)
     s.append(MS.text(x, y + 26, 'RAMALLAH', 13.5, MS.RAMALLAH, 'middle', '700', 'normal', '1', halo=True))
     s.append(MS.text(x, y + 40, 'no Iron Age settlement', 11.5, MS.RAMALLAH, 'middle', '400', 'italic', halo=True))
-    s.append(MS.text(x, y + 53, 'founded AD 1562', 11.5, MS.RAMALLAH, 'middle', '400', 'italic', halo=True))
+    s.append(MS.text(x, y + 53, 'settled by our families 1561–62', 11.5, MS.RAMALLAH, 'middle', '400', 'italic', halo=True))
     s.append(MS.text(M.x + M.w / 2, M.y + M.h + 16, '↓ the road continues to Jerusalem, 13.8 km',
                      11.5, MS.NOTE, 'middle', '400', 'italic'))
     M.scalebar(s, km=5)
