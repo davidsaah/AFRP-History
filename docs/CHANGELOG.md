@@ -13,6 +13,7 @@ Builds on the fact-check pull request. About 45 more corrections, each checked a
 - Gobat 1846–50; Katie Gabriel forty-one years; the mill and Farraj dates with the second source's year beside them; Yūsuf ʿAudeh named as Shāhīn's man too.
 - 1953 and 1967 counts credited correctly; the timeline puts the British entry on 29 December 1917, as chapter ten does.
 - HRW about 140,000 revocations; the 2011 Tamimi date; Sinai 1956 with Britain and France two days later; Ofra fourteen years; Fig 12.2 runs 1596–2021.
+- From the movie, checked against the Literature folder: the et-Tīreh church dig (Houdalieh 2016); the 1124 raid on Magna Mahumeria (Pringle); why Mamluk Ramallah emptied (Ḥammūdeh); the 5,500 driven from ʿImwās, Yālū and Bayt Nūbā (UN-Habitat, Nīrūz); ʿAdlī of Dayr Ghassāna (Barghouti) and the three leaderships arrested (Nīrūz); nine houses in ten raided and twenty-five in the morgue in 2002 (Nīrūz); Area A at 18 per cent; the 2025 olive harvest and al-Mughayyir (OCHA 335). Karīm Khalaf first elected 1972 in the young readers' pages.
 
 ## v114 — maps on the desktop page (18 Nov 2026)
 David: "the maps in the book need improvement".
