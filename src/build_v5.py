@@ -801,7 +801,7 @@ begun about 256 BC, are still running today{c('UNESCO World Heritage List no. 10
 terms: <i>“There was for Sabaʾ, in their dwelling-place, a sign: two gardens, on the right hand and
 on the left”</i>{c('Qurʾān 34 (Sūrat Sabaʾ):15. The chapter takes its name from the kingdom.')}.</p>
 <p>So the pieces fit together. Genesis puts Joktan’s sons in this country. Arab tradition knows
-Joktan as Qaḥṭān, father of the southern Arabs, and counts the Azd among his descendants. The Qurʾān describes its
+Joktan as Qaḥṭān, father of the southern Arabs, and counts the Azd among his descendants: Qaḥṭān’s son is Yaʿrub, Yaʿrub’s grandson is Sabaʾ, and six generations below Sabaʾ comes al-Azd (al-Azd son of al-Ghawth son of Nabt son of Mālik son of Zayd son of Kahlān son of Sabaʾ son of Yashjub son of Yaʿrub son of Qaḥṭān, as Ḥaddādīn, <i>Dawlat al-Ghasāsina</i> (2024), p. 9, gives it). The Qurʾān describes its
 gardens. <b>Our family’s 1953 manuscript dates the dam’s monumental phase to the seventh century
 BC</b>, and the inscriptions put the dam’s first works in that period.</p>
 <p>Three cautions belong here. Genesis says nothing at all about a dam: it is a witness to the
@@ -969,6 +969,7 @@ James Pritchard dug between 1956 and 1959. He found <b>more than sixty jar handl
 <span class="he">גבען</span>, Gibeon</b>, in Hebrew script of the eighth and seventh
 centuries BC{c('James B. Pritchard, <i>Hebrew Inscriptions and Stamps from Gibeon</i> (Philadelphia: University Museum, 1959), and <i>Gibeon: Where the Sun Stood Still</i> (Princeton, 1962). The handles carry the formula <i>gbʿn gdr</i> followed by a personal name. It has been called as strong a site identification as anyone is ever likely to find in biblical archaeology — at the time, only the fourth ancient Palestinian place-name confirmed at its own site by excavated inscriptions.')}. The village had been called al-Jib for as long as anyone could remember, and the
 jars in the ground agreed with the villagers.</p>
+<p>That is how most of these places were found. Edward Robinson and Eli Smith, who identified many of them in 1838, started from the names the villagers still used, which Smith wrote down “as he heard them from the mouths of the natives on the spot”; a surviving name “led us naturally to inquire”, Robinson writes, and only then did they ask “whether there was any ancient city so situated”{c('Edward Robinson and Eli Smith, <i>Biblical Researches in Palestine</i> (Boston, 1841), vol. III, p. 179, and the note on the Arabic lists in the same volume.')}.</p>
 <p>One of the nine places works the other way round, and we include it just as gladly. et-Tell, five
 kilometres east, is biblical Ai, and the Hebrew <i>ha-ʿAi</i> means <b>“the ruin”</b>. The
 excavation found exactly that: an Early Bronze town destroyed about 2400 BC, then empty for more than
@@ -1188,7 +1189,7 @@ describing something that existed.</p>
 <p>The old scholars did not agree about the name itself. The classical authorities all say Ghassān
 is a water rather than a man. Then they give <b>four locations for it that cannot all be true</b>:
 between Rimaʿ and Zabīd in the Yemeni Tihāma, the coastal plain (Ibn al-Kalbī, the oldest and
-best-supported); at the Maʾrib dam itself (Ibn Hishām); at al-Mushallal near al-Juḥfa, on the
+best-supported; Ibn Durayd agrees the name is a water, “neither a father nor a mother”); at the Maʾrib dam itself (Ibn Hishām); at al-Mushallal near al-Juḥfa, on the
 Mecca–Medina road; and one report that it is not a place at all but an animal that fell into a
 water{c('Yāqūt al-Ḥamawī, <i>Muʿjam al-buldān</i>, s.v. <span class="ar">غسان</span>, who assembles the variants: Ibn al-Kalbī via Ibn Ḥabīb and Naṣr al-Iskandarī for Rimaʿ/Zabīd; Ibn Hishām (d. 218/833) for the dam at Maʾrib; an anonymous <i>wa-yuqāl</i> for al-Mushallal near al-Juḥfa; and a <i>wa-qīla</i> that the water was named after an animal that fell into it. The three geographical variants are hundreds of kilometres apart and mutually exclusive.')}.
 The Yemeni geographer <b>al-Hamdānī</b> (d. 945), describing Wādī Rimaʿ in his own country, puts “the place
@@ -1349,7 +1350,7 @@ ent('473', 'attested', False, 'Amorkesos signs a treaty with Byzantium',
  'In 473 or 474 Amorkesos, an Arab chief on the southern frontier, makes a well-dated federate arrangement with Byzantium: a pact under which an Arab group served the empire as its allies. It covers the Byzantine province called Palaestina Tertia. It is <b>not the earliest, because Queen Mavia’s treaty with Valens is a century older</b>{}. The system our family’s ancestors are said to have led is already running.'.format(c('The Amorkesos episode is known from a fragment of Malchus preserved by Photius (fr. 1, ed. Blockley); Shahîd, <i>Byzantium and the Arabs in the Fifth Century</i> (Dumbarton Oaks, 1989), 61–113, reconstructs it as a formal <i>foedus</i>, which others dispute. <b>Mavia’s treaty with Valens, c. 377–378, is nearly a century earlier and is attested by four independent church historians — Rufinus, Socrates, Sozomen and Theodoret. Amorkesos is not the earliest.</b>'))),
 
 ent('528–569', 'attested', 'shared', 'Al-Ḥārith ibn Jabala, named in Greek',
- 'Al-Ḥārith ibn Jabala stands at generation 34 of our family’s chart, and he is named in Greek by a writer of his own time. Justinian sets him over “as many clans as possible” of the Saracens of Arabia, as the Romans called the Arabs. He gives him <b>“the dignity of king, a thing which among the Romans had never before been done.”</b> Procopius, a contemporary who disliked him, writes it down{}.'.format(c('Procopius, <i>Wars</i> I.17.45–48, Loeb ed. Dewing (1914), i.158–59: <span class="gk">βασιλέως ἀξίωμα</span>, “the dignity of king.” <b>Procopius does not use the honorific <i>patrikios</i> in this passage, and what he does say is stronger.</b> '+D('0550_Procopius_History_of_the_Wars_I-II_Loeb.pdf')+', 610 pp. The modern treatment: Shahîd, <i>Byzantium and the Arabs in the Sixth Century</i> I.1 (1995); the field now prefers “Jafnid dynasty” to “Ghassanid kingdom” — Fisher (2011, 2018), Genequand &amp; Robin (2015).')),
+ 'Al-Ḥārith ibn Jabala stands at generation 34 of our family’s chart, and he is named in Greek by a writer of his own time. Justinian sets him over “as many clans as possible” of the Saracens of Arabia, as the Romans called the Arabs. He gives him <b>“the dignity of king, a thing which among the Romans had never before been done.”</b> Shahîd puts the grant most probably in 529. Procopius, a contemporary who disliked him, writes it down{}.'.format(c('Procopius, <i>Wars</i> I.17.45–48, Loeb ed. Dewing (1914), i.158–59: <span class="gk">βασιλέως ἀξίωμα</span>, “the dignity of king.” <b>Procopius does not use the honorific <i>patrikios</i> in this passage, and what he does say is stronger.</b> '+D('0550_Procopius_History_of_the_Wars_I-II_Loeb.pdf')+', 610 pp. The modern treatment: Shahîd, <i>Byzantium and the Arabs in the Sixth Century</i> I.1 (1995); the field now prefers “Jafnid dynasty” to “Ghassanid kingdom” — Fisher (2011, 2018), Genequand &amp; Robin (2015).')),
  f"""
 <p>This is where our family’s line walks out of literature and into history. <b>No sixth-century Greek, Syriac
 or Latin source ever uses the word “Ghassanid.”</b> They name individuals, and the
@@ -2088,7 +2089,7 @@ his forge.</p>
 ent('1953 · as remembered', 'oral', False, 'What the family remembers',
  f"""<b>In 1953 the town sent two teachers across the Jordan to ask the Ḥaddādīn where Ramallah came from.</b> Mayor Dr Jalīl Badrān sent Khalīl Abū Rayya and ʿAbdallah Mogannam. They came back with ʿAdnān al-Ḥaddādīn’s written account, which is still on file at Ramallah city hall{c('Naseeb Shaheen, <i>A Pictorial History of Ramallah, Part II</i> (Birzeit University Press, 2005), ch. 1, p. 10. Shaheen says the ʿAdnān and Cadora accounts in his chapters 2–3 are taken from ʿAzeez Shāhīn’s book of the family trees (1982).')}. Everything here is our family’s own memory, and we give it as memory.""",
  f"""
-<p><b>Ṣabra had three brothers.</b> In ʿAdnān’s account the brothers come down from Karak together.
+<p><b>Ṣabra had three brothers</b> (Shāhīn’s English; his Arabic says four). In ʿAdnān’s account the brothers come down from Karak together.
 They stop six months at Ḥalḥūl, then settle in the Bayt Jālā and Bethlehem country. Rāshid stays in
 Ramallah. A second brother stays in Bayt Jālā. The third goes to al-Salṭ, “where his offspring, the
 Haddadeen, remain until this day.”</p>
@@ -3896,7 +3897,7 @@ PHOTO_BASE = 'https://tile.loc.gov/storage-services/service/pnp/'
 # Ramallah, Part II (Birzeit University Press, 2005). David Saah: AFRP holds
 # the rights to the book and to all the photographs in it. Files are web copies in img/shaheen/, named by PDF page.
 SHAHEEN = {
- 9: [('p030_1.jpg', 29, 'The charter of 7 March 1186, in the printed Latin that Shaheen reproduces. Guy de Lusignan, not yet king, pledges a <i>casellum</i>, a small farm estate, to the Hospital of St Mary of the Germans. It lies near the royal road <i>qua vaditur Ramelie</i>, “by which one goes to Ramallah”. This is the first time the name is written down.')],
+ 9: [('p030_1.jpg', 29, 'The charter of 7 March 1186, in the printed Latin that Shaheen reproduces. Guy de Lusignan pledges a <i>casellum</i>, a small farm estate, to the Hospital of St Mary of the Germans. It lies near the royal road <i>qua vaditur Ramelie</i>, “by which one goes to Ramallah”. This is the first time the name is written down.')],
  11: [('p024_1.jpg', 23, 'The census of Bayt Jālā of 1553–54 (register 289), with the thirty-six families living there for the time being. Nine years later, in the census of 1562, they were no longer at Bayt Jālā. They had moved to Ramallah.')],
  12: [('p012_1.jpg', 11, 'Shaheen’s map of the places tied to the settlement of Ramallah, from al-Karak and al-Shawbak up to Bayt Jālā and Ramallah.'),
       ('p038_1.jpg', 37, 'A map of Palestine of 1639, with Ramallah on it as “Rammula”.'),
@@ -4705,7 +4706,7 @@ _add_to_entry('Occupation, and the mayor in Houston', fig(F97.fig_june1967(), 'J
 # v105: three charts for the wars (src/build_figs9.py; David, 18 Nov 2026: "Fold it in")
 import build_figs9 as F9
 _add_to_entry('The second intifada and the siege', fig(F9.fig_killed(), 'The dead of the district, year by year',
- 'People of Ramallah and al-Bīra district killed by Israeli forces or settlers each year since 2000. The deciding count for the intifada years is the Palestinian one, printed under the bars.',
+ 'People of Ramallah and al-Bīra district killed by Israeli forces or settlers each year since 2000. The deciding count for the intifada years is the Palestinian one, printed under the bars. For the city alone, B’Tselem’s database lists 72 residents of Ramallah killed from September 2000 to July 2026, 70 by Israeli security forces and 2 by Israeli civilians.',
  'Palestinian Central Bureau of Statistics, killed in the al-Aqsa Intifada by district, 2000–2009; B’Tselem fatalities database, exported 17 November 2026 (an Israeli rights group: support only).'),
  after='<p><b>The count.</b>')
 _add_to_entry('The Wall, a capital, and our own people', fig(F9.fig_demolitions(), 'Homes torn down for lack of a permit',
