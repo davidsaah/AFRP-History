@@ -96,7 +96,7 @@ ANSWERS = {
   ('Were there Christian Ghassanids at Karak or Shawbak?', 'resolved',
    'Irfan Shahîd places the Ghassanid king in Moab around the year 600, in a land running from Rabba, beside '
    'Karak, to the southern end of the Dead Sea, and al-Yaʿqūbī in the ninth century still found Ghassān at '
-   'Gharandal, south of Shawbak. But no writer we have read names a single Christian Ghassanid living at '
+   'Gharandal, south of Karak. But no writer we have read names a single Christian Ghassanid living at '
    'Karak or Shawbak in the centuries after.',
    'Shahîd, <i>BASIC</i> II.1 (2002), pp. 61–62, 247–48, 346–47; Zahran (2006), pp. 149–50.'),
  ],
@@ -205,7 +205,7 @@ ANSWERS = {
    'We can name one son of the town who died for the revolt: George al-Saah, “George al-Aqraʿ”, of the '
    'ʿAwwād, taken at Jifnā with a group of fighters and hanged by the British, and mourned for days in the '
    'Kharja square. Of those killed in the fighting of 1 October 1938 we have counts, not names: two women '
-   'and three men in the vineyards, and from thirty to eighty fighters, as the witnesses tell it. After the '
+   'and three men in the vineyards, and from more than twenty to about eighty fighters, as the witnesses tell it. After the '
    'searches the British left food stores ruined and some houses burned.',
    'Nayrūz (2004), pp. 95–96, 113, 260–61; McDowell (1939), pp. 28, 45–47; Cadora (1954), p. 57.'),
   ('Who brought the election case of 1946?', 'resolved',
@@ -254,7 +254,7 @@ ANSWERS = {
    'government recognised it as a non-profit in August 1963.',
    'Shaheen (2005), pp. 354–55; Shāhīn (1982), English, chronology; ProPublica, EIN 38-6096448 (web).'),
   ('When did Ramallah’s Muslims become the majority?', 'range',
-   'In Jordan’s census of 1961 Ramallah was still 56 Christians in every hundred, and by 1997 it was 32. No '
+   'In the count of 1967 Ramallah was still 59.4 Christians in every hundred of known religion, and by 1997 it was 32. No '
    'count in between asked anyone’s religion, but after 1967 the Christian number could only fall while the '
    'town grew around it. Muslims most likely became the majority in the 1970s, and certainly before the '
    'mid-1980s.',
@@ -262,7 +262,7 @@ ANSWERS = {
  ],
  13: [
   ('What is Shāhīn’s figure of 13,500?', 'resolved',
-   'It is Jordan’s count of the town in 1953: 4,500 natives and 9,000 refugees and others, 13,500 in all. It '
+   'It is a local count of the town in 1953 (Jordan held no census that year): 4,500 natives and 9,000 refugees and others, 13,500 in all. It '
    'is not from the Ottoman census book, which Shāhīn cites only for names and births.',
    'Shāhīn (1982), English, p. 27; Arabic, p. 22.'),
  ],
