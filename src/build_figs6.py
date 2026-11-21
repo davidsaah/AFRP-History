@@ -115,7 +115,7 @@ MISSION_LANES = [('Orthodox', ERA[0]), ('Protestant and Anglican', ERA[1]), ('Ca
 MISSION_EVENTS = [
     ('1776–77', 0, 'The Orthodox Patriarchate’s first primary school, by the Ottoman count of 1903'),
     ('1805–06', 0, 'A second Orthodox school'),
-    ('about 1848–50', 1, 'Bishop Gobat’s Protestant school'),
+    ('about 1846–50', 1, 'Bishop Gobat’s Protestant school'),
     ('1850', 0, 'The present Orthodox church: the datestone on its portal'),
     ('1857–58', 2, 'The Latin mission comes under Pierre Cotta, and opens its school'),
     ('1863', 1, 'A catechist settles in the town; families ask to be Protestant'),

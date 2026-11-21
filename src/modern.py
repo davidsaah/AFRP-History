@@ -239,7 +239,7 @@ def apply(g):
         'The war reached Ramallah through its young men. <b>Elias Nasrallah Oudeh</b> served as a wireless operator in the Trans-Jordan Frontier Force, '
         'the British-commanded frontier cavalry, from 1938 to 1943, and his discharge certificate survives{}. '
         '<b>Shukri Elias ʿAjlouny</b> was a telegraph operator at the airport of Lydda in 1940{}, and <b>Edward Salamy</b> of Ramallah served in the United States army{}. '
-        'At home the district was run by Palestinian officers of the Mandate: Mitri Farraj until 1941, then, from 1943, the historian ʿĀrif al-ʿĀrif{}. '
+        'At home the district was run by Palestinian officers of the Mandate: Mitri Farraj until 1941 (Nayrūz has 1940), then, from 1943, the historian ʿĀrif al-ʿĀrif{}. '
         'Nayrūz’s list of the subdistrict’s qāʾimmaqāms, its district governors, also names Jamīl al-Tājī, Naʿīm ʿAbd al-Hādī and Naẓīf al-Khayrī{}.'.format(
             c(SH + ', p. 282: the certificate of discharge, serial no. 3904, “W/T operator,” enlisted 4 October 1938, discharged 27 December 1943.'),
             c(SH + ', p. 275.'), c(SH + ', p. 92.'), c(CAD + ', p. 55.'), c(NIR + ', p. 60.')),
@@ -515,7 +515,7 @@ def apply(g):
             c(TARAKI + '.'),
             c('PBS NewsHour, 24 July 2014.'),
             c(OCHA + ', <i>Protection of Civilians</i> weekly report, 20–26 October 2015.')))
-        + _p('<b>The land.</b> Under the Oslo map of 1995, about <b>64 per cent</b> of the governorate, 549,906 of its 855,587 dunums, is Area C, under full Israeli control. '
+        + _p('<b>The land.</b> Under the Oslo map of 1995, about <b>64 per cent</b> of the governorate, 549,906 of its 855,587 dunums, is Area C, under full Israeli control; Area A, under the Authority, had grown to only about 18 per cent of the West Bank by 1999. '
              'Most of the settlements around the town were set down in a few years: Ofra in 1975, Beit El in 1977, Psagot in 1981, Kokhav Yaʿacov in 1984{}.'.format(
             c(ARIJ15 + ', p. 48, and its table of settlements.')))
         + _p('<b>The roads.</b> The town’s gates are the checkpoints: Qalandiyā to the south, the DCO by Beit El to the north, and the gates at ʿAyn Yabrūd and ʿAṭāra that cut it off from the villages beyond. '
@@ -524,7 +524,7 @@ def apply(g):
         + _p('<b>Water.</b> In 2010 the people of the governorate had on average 108 litres of water a day each, and some of its villages less than 28; the settlers around them used over 400{}.'.format(
             c(ARIJ15 + ', pp. 44–46.')))
         + _p('<b>The right to come home.</b> This is where the occupation reaches our families abroad. It began with the census of September 1967: everyone away that day lost the right to live in the town. '
-             'Between 1967 and 1994 about <b>130,000</b> West Bank Palestinians were struck off the register after long stays abroad, and in 2000 Israel stopped deciding requests to reunite families altogether{}. '
+             'Between 1967 and 1994 about <b>140,000</b> West Bank Palestinians were struck off the register after long stays abroad, and in 2000 Israel stopped deciding requests to reunite families altogether{}. '
              'For decades a Palestinian-American with a West Bank identity card could come home only over the Allenby bridge. '
              'Only in 2023, as the price of joining the United States visa-waiver programme, did Israel agree to let all American citizens in through its airport, “regardless of national origin”{}.'.format(
             c(HRW12 + '.'),
@@ -560,6 +560,26 @@ def apply(g):
         k = 6 if old in E[i][6] else 7
         assert E[i][k].count(old) == 1, (prefix, old)
         E[i] = E[i][:k] + (E[i][k].replace(old, new),) + E[i][k + 1:]
+
+    BARGH = 'Mourid Barghouti, <i>I Saw Ramallah</i>, trans. Ahdaf Soueif (Cairo: American University in Cairo Press, 2000)'
+    # v115: movie facts checked against the Literature folder (David, 20 Nov 2026)
+    add_body('Occupation, and the mayor in Houston', _p(
+        'Some 5,500 people were driven out of the three villages, and Nayrūz writes that they were sent toward Ramallah{}.'.format(
+            c('UN-Habitat, <i>Spatial Planning in Area C of the Israeli-Occupied West Bank</i> (2015), p. 37: “Beit Nuba was one of three villages from which some 5,500 Palestinians were expelled”; ' + NIR + ', p. 201: '
+              '<span class="ar" dir="rtl">قامت عصابات الاحتلال بتهجير هذه القرى الثلاث نحو مدينة رام الله</span>.'))))
+    add_body('The first intifada, and the Authority', _p(
+        '<b>ʿAdlī and the leaderships.</b> Three teams of the uprising’s Unified National Leadership were arrested one after another in Ramallah{}. '
+        'At Dayr Ghassāna a schoolboy, ʿAdlī, ran to close the school gates when soldiers attacked a demonstration there, and was shot in the chest and the head. He was his mother’s only son{}.'.format(
+            c(NIR + ', p. 27, n. 30: <span class="ar" dir="rtl">تم اعتقال ثلاث طواقم للقيادة الوطنية الموحدة للانتفاضة في رام الله</span>.'),
+            c(BARGH + ', p. 74: “’Adli rushed to close the school gates, his arms wide open. One shot in the chest. One in the head.”'))))
+    add_body('The second intifada and the siege', _p(
+        'Nayrūz writes that more than nine houses in ten in the town were broken into, and that the hospital morgue filled until it held twenty-five bodies, who were buried in the hospital yard{}.'.format(
+            c(NIR + ', p. 74: <span class="ar" dir="rtl">فاكثر من 90% من بيوت المدينة تم اقتحامها</span>; the morgue <span class="ar" dir="rtl">وصلت إلى خمسة وعشرين جثة</span>. '
+              'The figure of twenty-three in the car park is MERIP’s (2002); the two counts may be of different days.'))))
+    add_body('The Wall, a capital, and our own people', _p(
+        '<b>The olive harvest of 2025.</b> In the first twenty-seven days of October the United Nations counted <b>126</b> settler attacks on the harvest, four in ten of them in Ramallah governorate. '
+        'Al-Mughayyir alone had suffered 43 attacks that year, and is ringed by seven outposts. Between April and June at least four new outposts went up among Sinjil, Silwād, Kafr Mālik and al-Mazraʿa al-Sharqiyya, and their farmers were kept from their own olive groves{}.'.format(
+            c('United Nations OCHA, <i>Humanitarian Situation Update #335, West Bank</i> (October 2025).'))))
 
     # CHAPTER 10 ---------------------------------------------------------
     add_body('The war, the locusts', _p(

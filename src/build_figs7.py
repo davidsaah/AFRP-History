@@ -702,7 +702,7 @@ def fig_damdate():
     tr = sorted(o.where(x0=170, x1=190, y0=55, y1=80), key=lambda i: i['y'])
     numbered_rows(c, [
         (dot(MEM), tr[0]['text'], tr[1]['text']),
-        (lambda x, y: chip(x - 4, y - 8, 8, 16, DOC), o.find('449–450')['text'], ''),
+        (lambda x, y: chip(x - 4, y - 8, 8, 16, DOC), o.find('455')['text'], ''),
         (lambda x, y: chip(x - 4, y - 8, 8, 16, DOC), o.find('543–548')['text'], o.find('CIH 541')['text']),
         (lambda x, y: f'<circle cx="{x}" cy="{y}" r="6" fill="{DOC}" opacity=".5"/>', o.find('final collapse')['text'], ''),
     ])
@@ -1110,7 +1110,7 @@ def fig_darkyears():
 
 # ═════════════════════════════════════════════ 12.2 · every number, on a log scale
 def fig_lognumbers():
-    o = Old('Every number anyone has ever recorded, 1596–2024')
+    o = Old('Every number anyone has ever recorded, 1596–2021')
     c = Canvas()
     head_and_lede(c, o, 60)
     ox0, ox1, oy0, oy1 = 92.0, 800.0, 88.0, 320.0
@@ -1183,7 +1183,7 @@ def fig_lognumbers():
     c.rule()
     for it in sorted(o.where(y0=390), key=lambda i: i['y']):
         c.para(it['text'], T_NOTE, NOTE if it['size'] < 10.4 else BODY, 'italic' if it['size'] < 10.4 else 'normal', gap=6)
-    return c.svg('Ramallah’s recorded population from 1596 to 2024 on a logarithmic scale')
+    return c.svg('Ramallah’s recorded population from 1596 to 2021 on a logarithmic scale')
 
 
 # ═════════════════════════════════════════════ C.1 · John Mogannam's chart

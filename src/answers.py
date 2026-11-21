@@ -83,7 +83,7 @@ ANSWERS = {
    'No paper describes the road, but the papers mark where it ran. Christians from Karak were on the land at '
    'Kusbār, by Ḥalḥūl, after 1539. Their families were registered at Bayt Jālā by 1553–54 and stood in a '
    'Jerusalem court as people of Ramallah on 1 April 1561. So our people left the plateau between about 1539 '
-   'and 1553, most likely in the 1540s. In the same years Karak lost about forty Christian households, close '
+   'and 1553, most likely in the 1540s. Between about 1538 and 1596 Karak lost about forty Christian households, close '
    'to the thirty-six counted at Bayt Jālā; that the two are the same families is our inference.',
    'Ḥammūdeh (2014), pp. 44–48 and nn. 57–62; Abū al-Shaʿr, <i>Tārīkh Sharq al-Urdun</i>, p. 80, via Ḥammūdeh.'),
   ('Which village is on Niʿma ibn Bishāra’s contract?', 'range',
@@ -258,7 +258,7 @@ ANSWERS = {
    'count in between asked anyone’s religion, but after 1967 the Christian number could only fall while the '
    'town grew around it. Muslims most likely became the majority in the 1970s, and certainly before the '
    'mid-1980s.',
-   'Nīrūz (2004), pp. 179–83; Jordan, <i>Census 1961</i>, table 2.11; Taraki, <i>JPS</i> 37:4 (2008), n. 21.'),
+   'Nīrūz (2004), pp. 179–83; Israeli CBS, <i>Census of Population 1967</i>, vol. 1, p. XII (Israeli state source); Taraki, <i>JPS</i> 37:4 (2008), n. 21.'),
  ],
  13: [
   ('What is Shāhīn’s figure of 13,500?', 'resolved',

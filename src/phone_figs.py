@@ -33,7 +33,7 @@ REDRAW = {
     'The Karak wheel, redrawn — what it says about Rāshid': F7.fig_wheel,
     'The ladder of a day’s work, about 1900–1903': F7.fig_wages,
     'The dark half-decade, 1914–1918': F7.fig_darkyears,
-    'Every number anyone has ever recorded, 1596–2024': F7.fig_lognumbers,
+    'Every number anyone has ever recorded, 1596–2021': F7.fig_lognumbers,
     'John Mogannam’s chart of thirty-six named generations': F7.fig_mogannam,
     'The family’s account of itself, tested': F7.fig_tested,
 }

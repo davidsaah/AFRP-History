@@ -39,8 +39,8 @@ def fig_dam_eng():
     s.append(f'<rect x="316" y="218" width="18" height="112" rx="4" fill="{RUST}"/>')
     s.append(txt(346, 250, 'THE DAM', 10.5, RUST, 'start', '700', 'normal', '1.1'))
     s.append(txt(346, 265, 'an earthen wall, faced with stone —', 9, BODY))
-    s.append(txt(346, 277, 'about 580 metres end to end, raised', 9, BODY))
-    s.append(txt(346, 289, 'over the centuries from ~4 to ~14 m', 9, BODY))
+    s.append(txt(346, 277, 'some 620 to 680 metres long, raised', 9, BODY))
+    s.append(txt(346, 289, 'over the centuries to some 15–20 m', 9, BODY))
     # sluice towers
     for y, lab in [(206, 'the northern sluice'), (336, 'the southern sluice')]:
         s.append(f'<rect x="312" y="{y}" width="26" height="14" fill="{DARK}"/>')
@@ -68,7 +68,7 @@ def fig_dam_eng():
         (40, '8TH–7TH c. BCE', ['Sabaean earthworks; the', 'mukarribs’ inscriptions']),
         (240, '6TH c. BCE', ['the great masonry', 'sluice towers built']),
         (420, '~1,300 YEARS', ['of continuous operation —', 'the longest-serving machine', 'in the ancient world']),
-        (640, '455 → c. 575 CE', ['the dated breaches begin;', 'final collapse near 575–580']),
+        (640, '455 → c. 575 CE', ['the dated breaches begin;', 'abandonment put at 570 or 575']),
     ]:
         s.append(txt(x, y0 + 4, head, 9.4, GOLD, 'start', '700', 'normal', '1.2'))
         for j, ln in enumerate(lines):
@@ -444,7 +444,7 @@ CHAIN9 = [
   'join',
   'It is already known to be weak as philology: Yoqṭān → Qaḥṭān is not a regular correspondence. It is defended as a tradition every Qaḥṭānī Arab alive stands on, and as nothing more.'),
  ('LINK FOUR', 'Ibn al-Kalbī, Ibn Ḥazm', 'Qaḥṭān to al-Azd',
-  'ten generations · the South Arabian kingdoms · the dam is built 8th–7th c. BC',
+  'nine generations · the South Arabian kingdoms · the dam is built 8th–7th c. BC',
   'al-Hamdānī for the country; Sabaic inscriptions for the place, not the persons.',
   'classical',
   'An inscription naming any one of these men. None exists. Sabaʾ is epigraphically rich and genealogically silent — the place is proven, the persons are tradition.'),
@@ -454,7 +454,7 @@ CHAIN9 = [
   'classical',
   'Proof that Ghassān is a personal name after all. Three classical authorities call it a spring, and they disagree with one another about everything else.'),
  ('LINK SIX', 'Procopius', 'The Jafnid phylarchs — Jabala, al-Ḥārith',
-  'two generations · 528–569 AD · 41 years, dated to the year',
+  'five generations, Jafna to al-Ḥārith · the last two dated, 528–569 AD · 41 years',
   'a Greek historian writing in al-Ḥārith’s lifetime; the Nitl mosaics; CIH 541.',
   'attested',
   'The hardest link in the chain. Breaking it would take a demonstration that the Arethas of the Greek sources is a different man.'),
