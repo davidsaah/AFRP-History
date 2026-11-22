@@ -412,7 +412,7 @@ def apply(g):
 
     # ---- v87, second batch from Nayrūz (David, 16 Nov 2026: "3 its George Saah our relative")
     add_body('The revolt reaches the town', _p(
-        '<b>1936: the fight at al-Maskūbiyya, and George Saah.</b> The revolt had already come into the town once. In the winter of 1936 rebels came over the hills and held '
+        '<b>The fight at al-Maskūbiyya, and George Saah.</b> The revolt had already come into the town once. In a winter of the revolt (Nayrūz writes 1936; the capture “some days later” and the hanging in November 1939 point rather to the winter of 1938–39) rebels came over the hills and held '
         'al-Maskūbiyya, the Russian ground by the Orthodox church in the old town, and fought the British troops there through the day. The British sent to Jerusalem for more men, '
         'then marched the people of Ramallah to the Odeh Hotel, their headquarters, in heavy rain and cold, and kept them there until dark, with every house left open for the search{}. '
         'Ṭalʿat Ḥarb remembered a bullet coming through his family’s front door while they hid inside{}. At sunset the rebels were gone and no one had been caught. '
@@ -427,7 +427,7 @@ def apply(g):
               'p. 277, under Fr Yūsuf Ḥarb; p. 95 and its note naming Fr ʿAyyād, from the lawyer ʿĪsā Qandaḥ (interview, 2 August 2003). '
               'Qandaḥ also names George with Yaʿqūb Ḥishma, ʿAṭallah Khashshān, Ilyās Samʿān and others among the Ramallah men who went with the rebels from 1936 (p. 95, note). '
               '<b>Inference, labelled.</b> Nayrūz writes the execution beside the year 1936. British military courts began hanging rebels only in November 1937, with Shaykh Farḥān al-Saʿdī, '
-              'so we print the fight’s year and not the execution’s. The AFRP family tree records his father as Jaber Yaʿcoub Saah and his death in 1938; he left two sons, Fareed and Fuad (AFRP family tree, record AWD1019; identification confirmed by David Saah, 17 November 2026). The Maskūbiyya in town and the prison in Jerusalem share a name: both were Russian ground (Cadora, <i>Remembering Ramallah</i>, 2023, editors’ note).'), c('WAFA, Palestinian News and Information Agency, <i>Shuhadāʾ aʿdamathum sulṭāt al-intidāb al-barīṭānī fī Filasṭīn</i> (2021): “George Jaber al-Ṣāʿ, Jifnā, 1908, 16/11/1939, Jerusalem prison, execution by hanging.” The register gives Jifnā, where he was taken, as his place, and 1908 as his birth year. Other dates differ: Shaheen (2005), p. 261, beside his photograph, says he was hanged “ca. 1937” at about forty, and the family tree has 1938. We print the register’s date, the only one given to the day.')))
+              'and McDowell’s diary of November–December 1938 and the West Yorkshire Regiment’s reports (Hughes 2015) record a search of the town and rebel fire on the Ramallah billets that winter; George Jaber al-Ṣāʿ was hanged in the Jerusalem prison on 16 November 1939. The AFRP family tree records his father as Jaber Yaʿcoub Saah and his death in 1938; he left two sons, Fareed and Fuad (AFRP family tree, record AWD1019; identification confirmed by David Saah, 17 November 2026). The Maskūbiyya in town and the prison in Jerusalem share a name: both were Russian ground (Cadora, <i>Remembering Ramallah</i>, 2023, editors’ note).'), c('WAFA, Palestinian News and Information Agency, <i>Shuhadāʾ aʿdamathum sulṭāt al-intidāb al-barīṭānī fī Filasṭīn</i> (2021): “George Jaber al-Ṣāʿ, Jifnā, 1908, 16/11/1939, Jerusalem prison, execution by hanging.” The register gives Jifnā, where he was taken, as his place, and 1908 as his birth year. Other dates differ: Shaheen (2005), p. 261, beside his photograph, says he was hanged “ca. 1937” at about forty, and the family tree has 1938. We print the register’s date, the only one given to the day.')))
         + _p('<b>The town in the national movement.</b> A survey of 1935 counted a hundred leading figures of Palestinian politics. Twenty-three were Christians, and two of them were from Ramallah, one Orthodox and one Protestant, from a town of at most five thousand people. '
              'Among the women, <b>Nelly Ziyāda</b> of Ramallah was a prominent member of the Syrian Social Nationalist Party{}.'.format(c(NIR + ', p. 62.'))))
     add_body('New families arrive', _p('The Saah family also gave the revolt a <i>shahīd</i>: George Saah, “George al-Aqraʿ”, son of Jaber Yaʿcoub Saah and father of Fareed and Fuad, whose story is told in “The revolt reaches the town”.'))
@@ -723,8 +723,7 @@ def apply(g):
     add_body('The counting years',
         plate('p275_1.jpg', 274, 'The High Commissioner and his staff about 1931, with the Ramallah attorney ʿIsa ʿAkel and Naseef Harb.'))
 
-    replace_in('The town guards itself', 'to 18 April 1948. We print both dates',
-               'to <b>18 April 1948</b>, and that is the date we print')
+    # 22 Nov 2026: the date stays open (tree 1947; Cadora 18 April 1948; Christina Jones about 13-14 April 1948), so both dates are printed
 
     add_before_unknown('The first intifada, and the Authority', _p(
         '<b>Help from America.</b> Ramallah people in the United States raised more than $300,000 in the first intifada. It went home in instalments, through known men of the town, to families in need, '
