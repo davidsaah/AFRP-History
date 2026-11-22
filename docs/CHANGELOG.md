@@ -1,6 +1,13 @@
 # Changelog
 
 
+## v116 — open facts answered from sources (22 Nov 2026)
+
+David: "for the missing facts look up reliable sources and put them in the literature folder". Source notes are in Literature/_Sources_2026-11-22.
+- Corrected: residency revocations 1967–1994 are 130,000 for the West Bank (HRW 2012, p. 6; the 140,000 is the army's own all-areas figure). Kuwait: 350,000–400,000 before the war, 50,000–80,000 left (Middle East Watch 1991). Psagot wholly on al-Bīra land, Beit El on Dūrā al-Qarʿ, al-Bīra and Baytīn (ARIJ).
+- Added: Gophna sold into slavery about 43 BC (Josephus, Ant. XIV.275, 321); ṣumūd and Raja Shehadeh's "third way" (IPS); the broadcasting tower and building destroyed, December 2001 and January 2002 (CPJ, PCHR), and the 1936 transmitter (Stanton); the general strike of 18 May 2021; the 2025 northern camps operation (UNRWA, OCHA) and the June closure (WAFA, OCHA); the lands of Modiʿin Illit (ARIJ/POICA).
+- Answered: the 1967 twin-town figures (without and with the camps); ruling 19 now in the text (one Karak tradition, not two witnesses); Karak's Christian share; diaspora ranking by Shāhīn and Shaheen; no register names al-Ḥaddādīn (Fig 0.1, Fig 1.3); al-Maʿlūf and Dr Philip Maʿlouf spelt one way; Steadfast "Most facts"; bibliography's 5,080 is the 1945 population.
+
 ## v115 — fact check, second pass (20 Nov 2026)
 
 Builds on the fact-check pull request. About 45 more corrections, each checked against the source on disk:

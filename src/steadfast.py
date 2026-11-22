@@ -13,7 +13,7 @@ def _era(head, *paras):
 ERAS = [
     _era('1914–1918: hunger, typhus and the front line',
          ('Losing', 'The Ottoman army drafted our young men. Locusts and requisitions brought famine, and the typhus of 1916 killed, by Shaheen’s count, about three in ten people in the town. For nine months the front ran just north of Ramallah. The family tree names up to a dozen of the men who died, among them Butrous Ibrahim Saah, who was drafted and never came home.'),
-         ('Caring', 'Dr Philip Maʿlūf died of typhus on 13 February 1916, caught while treating the sick. ʿAzeez and Selma Shaheen said a fig grove kept them alive. In 1918 the Catholic school became a hospital.'),
+         ('Caring', 'Dr Philip Maʿlouf died of typhus on 13 February 1916, caught while treating the sick. ʿAzeez and Selma Shaheen said a fig grove kept them alive. In 1918 the Catholic school became a hospital.'),
          ('Resisting', 'In 1914 Ḥannā Jiryis al-Nāṭūr, eighteen, and two other Ramallah men were executed by the Ottoman authorities for refusing to join the war. Others hid in the wadis rather than serve.')),
     _era('1936–1939: the great revolt',
          ('Resisting', 'Ramallah joined the six-month general strike and then the revolt. George Jaber Saah was hanged by the British in the Jerusalem prison on 16 November 1939. Mogannam Mogannam, head of the Arab lawyers, argued the cases of rebel fighters and saved several from the gallows. In 1938 the young men built stone barricades across the streets against the British armoured cars.'),
@@ -44,7 +44,7 @@ ERAS = [
 NAMES = [
     ('1914', 'Ḥannā Jiryis al-Nāṭūr, eighteen, executed for refusing to fight, and two men of the town whose names are lost'),
     ('1914–1918', 'Butrous Ibrahim Elias Saah · Ibrahim Daoud El-Karawat · Anton Hanna Omran · Mikhail Saleh Ayoub El-Safadi · Nicola and Elias Ayoub Danfoura · Yousef Hanna Mousa Ahwal · Bajis, Aziz and Mousa Khalil · Khalīl and Niqūlā Ḥishmeh · Khalīl Manṣūr · the infant Nicola Badran · in American uniform, Jameel Abdallah Mikhail and Najeeb Farhat'),
-    ('1916', 'Dr Philip Maʿlūf, 13 February, of the typhus he caught treating the sick'),
+    ('1916', 'Dr Philip Maʿlouf, 13 February, of the typhus he caught treating the sick'),
     ('1939', 'George Jaber Saah, “George al-Aqraʿ”, hanged in Jerusalem on 16 November'),
     ('1939–1946', 'ʿĪsā Mūsā Khalīl Mūsā and Henry Abū Ḥadīd, in the Second World War · Khalīl Bishāra Mogannam, at the King David Hotel, 1946'),
     ('1948', 'Ayyūb Rizq Mīkhāʾīl, probably at Nabī Yaʿqūb, 18 April (the tree says 1947) · Ḥannā Jiryis ʿUmrān, at Muṣrāra · Jamīl Jamīl Zanāyid Jr.'),
@@ -101,7 +101,7 @@ def html():
         '<p><b>Things to do</b></p><ul>' + ''.join('<li><b>%s</b> %s</li>' % d for d in TODO) + '</ul>'
         '<p><b>Help fill the gaps.</b> The tree has three men marked only “killed,” with no cause or year: Shawki Mikhail Akel (1977), Suleiman Khaleel Awwad and El-Abid Salah, who was killed on Holy Saturday. If your family knows their story, tell us.</p>'
         '</div>'
-        '<p class="sfsrc">Every fact in these pages is told, with its source, in the entries of chapters 10 to 12. The names come from the family tree’s notes, Cadora, Nayrūz and Shaheen; the counts from Al-Haq, WAFA, the Palestinian Central Bureau of Statistics and the United Nations. B’Tselem, an Israeli rights group, is used only to fill and check them, and is marked where it is used.</p>'
+        '<p class="sfsrc">Most facts in these pages are told, with their sources, in the entries of chapters 10 to 12; the rest come from the sources named here. The names come from the family tree’s notes, Cadora, Nayrūz and Shaheen; the counts from Al-Haq, WAFA, the Palestinian Central Bureau of Statistics and the United Nations. B’Tselem, an Israeli rights group, is used only to fill and check them, and is marked where it is used.</p>'
         '</section>')
 
 

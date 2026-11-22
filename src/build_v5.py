@@ -303,7 +303,7 @@ ADD70 = {
  'The Federation': [lambda: _P(
   "The Federation says of itself that it “represents more than 50,000 people.” That is its own figure, not a count.")],
  'The city, counted to the present': [lambda: _P(
-  "<b>The twin towns in 1967.</b> The same count has a row for Ramallah and al-Bīra together: 21,808 people, 34.2 per cent Christian and 65.6 per cent Muslim, with 45 in every hundred from land that had become Israel. So the two towns together were already two-thirds Muslim while Ramallah alone was still mostly Christian, <b>59.4 Christians in every hundred</b> of known religion. This too is the occupying power’s count{n}.",
+  "<b>The twin towns in 1967.</b> The same count has a row for Ramallah and al-Bīra together without the refugee camps: 21,808 people, 34.2 per cent Christian and 65.6 per cent Muslim, with 45 in every hundred from land that had become Israel. Counting the camps, the census introduction gives 25,171 people and 29.6 Christians in every hundred; the Christians are the same in both, and the difference is the camps. So the two towns together were already two-thirds Muslim while Ramallah alone was still mostly Christian, <b>59.4 Christians in every hundred</b> of known religion. This too is the occupying power’s count{n}.",
   "The census of 1967, vol. 1, Table 1, in the copy published by the Levy Economics Institute; for Ramallah alone, the introduction, p. XII (Christians per 100 inhabitants of known religion). Israeli state source, cited for its count."),
   lambda: _P(
   "<b>The mayors under occupation.</b> A United Nations committee recorded in 1970 that Mayor Nadīm Zarū “was arrested on 1 October 1969, detained in prison for six days, and then expelled from the area.” Karīm Khalaf won the elections of 1972 and 1976. He lost a leg to a car bomb on 2 June 1980, and the occupation authorities removed him from office in 1982. Born in Ramallah in 1937, he was a leader of the National Guidance Committee, which directed the struggle on the PLO’s behalf; after his removal the authorities exiled him to Jericho under house arrest, and he died in March 1985. The square that bears his name stands on Tokyo Street, near the Ramallah Cultural Palace, its flame for “a figure who always troubled the occupation.” From 1982 to September 1986 an Israeli officer, Moshe Biton, ran the town hall; from 28 September 1986 an appointed Palestinian council under Khalīl Mūsā Khalīl ran it. The municipality’s own list of its heads dates his term 1976–1985, so its two pages do not agree{n}.",
@@ -1049,7 +1049,7 @@ ent('5th–2nd c. BC', 'attested', False, 'The Samaritans and Mount Gerizim',
 CH(6)
 sect('What the ground says', 'Rome paves the ridge, ranks the district, and writes its villages down')
 ent('63 BC → AD 77', 'documents', False, 'Rome writes the district down',
- f"""Pompey took Judaea from the Hasmoneans in 63 BC, and a century and a half later the empire had the place on paper. Pliny lists Gophna, which is Jifnā, about seven kilometres due north of our ridge, among the ten toparchies, or districts, of Judaea. Josephus calls it <b>“the second of those cities”</b> after Jerusalem itself{c('Pliny, <i>Naturalis Historia</i> V.70; Josephus, <i>Bellum Judaicum</i> III.54–55; also IV.551 (Vespasian takes the toparchy, AD 69), V.50 and VI.115.')}.""",
+ f"""Pompey took Judaea from the Hasmoneans in 63 BC, and a century and a half later the empire had the place on paper. Pliny lists Gophna, which is Jifnā, about seven kilometres due north of our ridge, among the ten toparchies, or districts, of Judaea. Josephus calls it <b>“the second of those cities”</b> after Jerusalem itself{c('Pliny, <i>Naturalis Historia</i> V.70; Josephus, <i>Bellum Judaicum</i> III.54–55; also IV.551 (Vespasian takes the toparchy, AD 69), V.50 and VI.115.')}. About 43 BC the Roman general Cassius, short of the tribute he demanded, <b>sold the people of Gophna into slavery</b>, with those of Emmaus, Lydda and Thamna; Mark Antony later ordered them freed{c('Josephus, <i>Antiquities</i> XIV.275 (Whiston XIV.11.2): “Cassius reduced four cities into a state of slavery, the two most potent of which were Gophna and Emmaus; and, besides these, Lydia and Thamna”; Antony’s order, XIV.321: “let them be released.”')}.""",
  f"""
 {fig(ATLAS.fig_roman(),'The district when Rome wrote it down',
  'Ramallah’s neighbours in the Roman and Byzantine record, with the imperial road that runs the length of this ridge. Every green dot is named in a surviving text. The gold circle is the site of Ramallah — named in none of them, and in none at all until 1186.',
@@ -2209,7 +2209,7 @@ A Mamluk official, three hundred years before the Ottoman clerk, saw the same pi
   ['1896–1902', 'Musil, clan by clan', 'about 1,140 families; <i>en-Naṣāra</i> 200 within one faction', '~18%, <i>and probably an undercount</i>'],
   ['about 1905', 'Jaussen, on the spot', 'eight Christian tribes · 200 households; the Ḥaddādīn under Khalīl bin Ibrāhīm', 'not given'],
   ['1961', 'the Jordanian census', '7,422 persons · 1,622 Orthodox', '22%']],
- '<b>Nothing after 1596 confirms a Christian majority.</b> The nearest is Irby and Mangles at parity. <i>What the series does show is a large, stable and strikingly secure Christian community</i> — a fifth to two-fifths of the town for two hundred years, armed on the same terms as its Muslim neighbours, which both Burckhardt and Irby stress independently and with some surprise. <b>So we print the 1596 majority, but we do not read it as continuity with the community the travellers met.</b>')}
+ '<b>Nothing after 1596 confirms a Christian majority.</b> The nearest is Irby and Mangles at parity. <i>What the series does show is a large, stable and strikingly secure Christian community</i> — between a fifth and two-fifths of the town in every count from 1806 to 1961 but two (Irby and Mangles at parity, Musil at about 18 per cent, probably an undercount), armed on the same terms as its Muslim neighbours, which both Burckhardt and Irby stress independently and with some surprise. <b>So we print the 1596 majority, but we do not read it as continuity with the community the travellers met.</b>')}
 <p><b>One sentence of Burckhardt’s runs the family’s road backwards.</b> Of the Karak Christians he
 writes that they are “for the greater part, descendants of refugees from Jerusalem, Bethlehem, and
 Beit Djade,” that is, Bayt
@@ -2853,7 +2853,7 @@ Brazil: 100 French gold francs, “and it created quite a sensation.”</p>
 <b>Their children did not.</b> That one fact tells much of the story of our town’s people ever
 since.</p>
 {fig(ATLAS.fig_diaspora(),'Where Ramallah went, 1901 onward',
- 'The cities our people went to, weighted by the family’s own record: Detroit above all, then Jacksonville, New York and San Francisco. Nobody has ever made a full count of this diaspora, our community abroad.',
+ 'The cities our people went to, weighted by the family’s own record: Detroit above all, then Jacksonville, New York and San Francisco. Shāhīn (1982) and Shaheen (2005), counting people rather than family records, put San Francisco first, then Detroit and Jacksonville. Nobody has ever made a full count of this diaspora, our community abroad.',
  'Shāhīn (1982) for the start date and the named firsts; the Federation’s conventions for the cities.')}"""),
 
 ent('1901–1904', 'documents', False, 'Elihu Grant writes the town down',
@@ -3265,9 +3265,11 @@ document.</i></p>
 <p>This matters for how we weigh witnesses. The 2026 family presentation reproduces plate 84 of that
 same book. <i>So the presentation and Haddadin 2024 are one stream of evidence, not two separate
 witnesses.</i> That is why the evidence badges on the family ladder change at 1500.</p>
-<p>Where we do count two witnesses for Rāshid, they are <b>Haddadin 2024 on the Karak side, and Shāhīn
-1982 with the co-authors’ chart on the Ramallah side</b>. These two really are independent of each
-other.</p>
+<p>We do not have two independent witnesses for Rāshid. <b>The Karak tradition was written down by
+ʿAdnān al-Ḥaddādīn (1953), Abū Rayya (1980) and the Karak wheel (2024); Shāhīn (1982) prints ʿAdnān’s
+account and adopts it, and the co-authors’ chart follows Shāhīn.</b> It is one tradition written down
+several times. The independent witness is the registers, which reach his grandchildren in 1561–62 and
+never name him.</p>
 <p><b>What we still don’t know.</b> No Ottoman register names Rāshid, Ṣabra or Ṣaqr. We follow Ṣaqr as
 Rāshid’s father, but only a Karak or Ramallah document giving both names together would settle
 whether ʿĪsā was another name for him or his father. Only the register pages themselves can show whether
@@ -3342,14 +3344,14 @@ exactly. <i>Nobody arranged that.</i> But the strongest argument for our chart i
 It is what it refuses to claim.</p>
 <div class="fix"><div class="fixhead">The families we compare ourselves with</div>
 <div style="font-size:.95rem;line-height:1.6;color:#46423B">
-<p style="max-width:none"><b>Issa Maalouf</b>, a Lebanese Orthodox historian, wrote his family’s
+<p style="max-width:none"><b>ʿĪsā Iskandar al-Maʿlūf</b>, a Lebanese Orthodox historian, wrote his family’s
 history with <i>no</i> Ghassanid claim in it. Around <b>1906</b> he added, in his own hand, the
 sentence “the correct view is that they are Ghassanids”; by <b>1908</b> he had published a specific
 chain of named ancestors running back to a Ghassanid king. Ottoman documents of <b>1524, 1525 and
 1533</b> record the same family with no such lineage{c('On the Maʿlūf genealogical claim and its documentary refutation from Vatican Syriac MS 333 (1524) and the Ottoman <i>tapu taḥrīr</i> registers of 1525 and 1533. The critical study is available online; this project has not read the printed version and flags the author attribution as unconfirmed.')}. <b>The pedigree was invented, in
 writing, inside two years, for the politics of its moment.</b> Several other Levantine Christian
 families made claims of the same shape in the same period.</p>
-<p style="max-width:none"><b>And unlike Maalouf’s, our family’s claim was first written down by
+<p style="max-width:none"><b>And unlike al-Maʿlūf’s, our family’s claim was first written down by
 somebody with no stake in it.</b> When Frederick Peake recorded the Karak Ḥaddādīn’s Ghassanid
 descent in 1934, he wrote down the claim <i>and his own doubt about it in the same breath</i>. A
 tradition kept by a sceptic is better evidence than one asserted by a descendant.</p>
@@ -3380,7 +3382,7 @@ had a gap — they all had the same gap — but what each of them did with it.</
 <p style="max-width:none">Our family has that gap and does not fill it. Ours runs from
 <b>569 to about 1500</b>: thirty generations with no name of any kind, and we print them as a
 void, thirty blank slots on every ladder in it. <i>The difference between a history and a pedigree is
-what you do with the blank.</i> John Mogannam’s chart prints generation 35 as a void where Maalouf
+what you do with the blank.</i> John Mogannam’s chart prints generation 35 as a void where al-Maʿlūf
 filled the gap with names, and al-Khūrī printed <i>zaʿm</i>. <b>Two of those three are honest documents, and
 ours is one of them.</b></p></div></div>"""),
 
@@ -4562,7 +4564,7 @@ _add_to_entry('When the Ḥaddādīn name enters the record', fig(F6.fig_halasa(
  'Two Karak clans joined by a marriage, told from both sides. Green marks what an outside witness saw or wrote down; ochre, what the clan history remembers. The two clans moved to Maʿīn together, quarrelled, parted, and were still marrying into each other in the 1990s.',
  'Oppenheim (1947) and Jaussen (1908) as Chatelard (2000) gives them; Connell (2022); Burckhardt (1822); al-Ziriklī; Peake (1934, 1935); the Ḥaddādīn clan history of 1991 as Chatelard cites it; Shaheen (2005), ch. 2.'))
 _add_to_entry('Karak was a Christian town', fig(F6.fig_karak(), 'Karak’s Christians, counted and named',
- 'The Christian share of Karak from the Ottoman register of 1596 to the Jordanian census of 1961, and the eight Christian clans of the town with the origins each gave Alois Musil. Only the register of 1596 shows a majority; every later count but one (Irby and Mangles, at parity) shows a fifth to two-fifths.',
+ 'The Christian share of Karak from the Ottoman register of 1596 to the Jordanian census of 1961, and the eight Christian clans of the town with the origins each gave Alois Musil. Only the register of 1596 shows a majority; every later count lies between 18 per cent and a half, and all but two between a fifth and two-fifths.',
  'The 1596 mufaṣṣal (Hütteroth and Abdulfattah 1977, p. 171); Seetzen (1854); Burckhardt (1822); Irby and Mangles (1823); Tristram (1873); Hill (1896); Musil, <i>Arabia Petraea</i> III (1908), p. 99 and the clan table; Jaussen (1908); the Jordanian census of 1961.'))
 _add_to_entry('Where the refugees lived', fig(F6.fig_camps(), 'The camps, with their people',
  'How many people live in each camp today. The camps are counted as localities by the Palestinian census bureau; the UNRWA rolls are far larger because they follow every family wherever it now lives.',

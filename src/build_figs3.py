@@ -467,7 +467,7 @@ CHAIN9 = [
   'generation 66 · fl. c. 1500 · the first ancestor a document reaches',
   'the registers of 1525–1596; Shāhīn (1982) for the two accounts of his road.',
   'documents',
-  'A register naming a different founder for Ramallah. The defter of 1596 names al-Ḥaddādīn on the hill, and nothing found so far contradicts him.'),
+  'A register naming a different founder for Ramallah. No register names Rāshid or al-Ḥaddādīn; the Christian households of 1562, copied in 1596, carry names Shāhīn gives to Rāshid’s sons and grandsons, and nothing found so far contradicts him.'),
  ('LINK NINE', 'defters to censuses', 'Rāshid to this morning',
   'about 18 generations · generations 66 to 84 · c. 1500 → 2026 · 526 years',
   'the defters, the parish books, eleven censuses, the 1944 ration cards, living memory.',
