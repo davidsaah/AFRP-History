@@ -113,7 +113,7 @@ CONTEXT_BOXES = [
      'Ramallah people in America raised more than $300,000 for families at home.',
      'The uprising put Palestinians back on the world’s map and led to the Oslo talks. Many of our readers’ parents lived through it as teenagers.'),
     ('The first intifada, and the Authority', 'The curfews.', 'The Gulf War, 1990–1991',
-     'Iraq invaded Kuwait; a US-led coalition drove it out. The PLO’s stance cost Palestinians dearly: between 300,000 and 400,000 Palestinians were forced out of Kuwait.',
+     'Iraq invaded Kuwait; a US-led coalition drove it out. The PLO’s stance cost Palestinians dearly: of the 350,000 to 400,000 Palestinians in Kuwait before the war, only 50,000 to 80,000 were left by the end of 1991 (Middle East Watch, <i>Nowhere to Go</i>, 1991).',
      'The West Bank was under round-the-clock curfew for weeks. Families who had worked in Kuwait for decades came back to Ramallah with nothing.',
      'It ended the Gulf as the safe second home many Ramallah families had relied on.'),
     ('The first intifada, and the Authority', '27 December 1995.', 'Oslo and the Palestinian Authority, 1993–2000',
@@ -358,7 +358,7 @@ def apply(g):
     wall = ent(12, '2002–2025', 'The Wall, a capital, and our own people',
         'The Wall cut Ramallah off from Jerusalem, and the road south now ends at the checkpoint of <b>Qalandiyā</b>. '
         'The International Court of Justice found the Wall contrary to international law on 9 July 2004. '
-        'Around the town stand <b>26 settlements</b> with nearly <b>150,000 settlers</b>; Beit El and Psagot are built on the land of al-Bīra, some of it owned by Palestinian-Americans{}. '
+        'Around the town stand <b>26 settlements</b> with nearly <b>150,000 settlers</b>; Psagot is built wholly on the land of al-Bīra, and Beit El on land of Dūrā al-Qarʿ, al-Bīra and Baytīn, some of it owned by Palestinian-Americans{}. '
         'The town became a capital without a state. In 2005 it elected <b>Janet Mikhail</b>, its first woman mayor{}. '
         'Its women went to law for what was theirs: in a study of 2010–13, women who claimed their inheritance in court outnumbered the men who did, in the courts of Ramallah, Hebron and Nablus{}. '
         'It buried <b>Maḥmūd Darwīsh</b> on 13 August 2008, in a grave that “faces the outskirts of Jerusalem”{}. '
@@ -366,7 +366,7 @@ def apply(g):
         '<b>Sayfollah Musallet</b>, twenty, of Tampa, was beaten to death by settlers at Sinjil on 11 July 2025{}. '
         'In 2025 the United Nations counted 1,680 settler attacks in the West Bank, “an average of five incidents per day”{}.'.format(
             c('PLO Negotiations Affairs Department, “Israeli Settlements in the Ramallah &amp; Al-Bireh Governorate,” 26 March 2023; '
-              'International Court of Justice, advisory opinion of 9 July 2004.'),
+              'International Court of Justice, advisory opinion of 9 July 2004; ARIJ, <i>Al Bireh City Profile</i> (2012): “Pesagot settlement was built wholly on Al Bireh city territories,” and Beit El “semi built on the city’s northern territories”; ARIJ, <i>Dura al-Qar’ Village Profile</i> (2012): “The major part of the settlement was established on the village lands”; POICA (2012) for Baytīn.'),
             c(CENT + '.'),
             c('Women’s Centre for Legal Aid and Counselling (WCLAC), <i>Palestinian Women and Inheritance</i> (Ramallah, 2014), ISBN 978-9950-354-00-5, p. 10 of the held copy; the survey ran from early 2010 to late 2013. ' + D('2014_WCLAC_Palestinian_Women_and_Inheritance_Study.pdf') + '.'),
             c('Al Jazeera, 13 August 2008.'), c('Al Jazeera, 16 August 2024.'),
@@ -524,7 +524,7 @@ def apply(g):
         + _p('<b>Water.</b> In 2010 the people of the governorate had on average 108 litres of water a day each, and some of its villages less than 28; the settlers around them used over 400{}.'.format(
             c(ARIJ15 + ', pp. 44–46.')))
         + _p('<b>The right to come home.</b> This is where the occupation reaches our families abroad. It began with the census of September 1967: everyone away that day lost the right to live in the town. '
-             'Between 1967 and 1994 about <b>140,000</b> West Bank Palestinians were struck off the register after long stays abroad, and in 2000 Israel stopped deciding requests to reunite families altogether{}. '
+             'Between 1967 and 1994 about <b>130,000</b> West Bank Palestinians were struck off the register after long stays abroad, and in 2000 Israel stopped deciding requests to reunite families altogether{}. '
              'For decades a Palestinian-American with a West Bank identity card could come home only over the Allenby bridge. '
              'Only in 2023, as the price of joining the United States visa-waiver programme, did Israel agree to let all American citizens in through its airport, “regardless of national origin”{}.'.format(
             c(HRW12 + '.'),
@@ -580,6 +580,25 @@ def apply(g):
         '<b>The olive harvest of 2025.</b> In the first twenty-seven days of October the United Nations counted <b>126</b> settler attacks on the harvest, four in ten of them in Ramallah governorate. '
         'Al-Mughayyir alone had suffered 43 attacks that year, and is ringed by seven outposts. Between April and June at least four new outposts went up among Sinjil, Silwād, Kafr Mālik and al-Mazraʿa al-Sharqiyya, and their farmers were kept from their own olive groves{}.'.format(
             c('United Nations OCHA, <i>Humanitarian Situation Update #335, West Bank</i> (October 2025).'))))
+
+    # v116: facts sourced 22 Nov 2026 (David: "for the missing facts look up reliable sources")
+    add_body('Occupation, and the mayor in Houston', _p(
+        '<b>Ṣumūd.</b> Palestinians have a word for staying: <i>ṣumūd</i>, steadfastness. In 1982 Raja Shehadeh, a Ramallah lawyer, described it as a third way between violent resistance and passive acceptance{}. Its common sign is the olive tree{}.'.format(
+            c('Institute for Palestine Studies, <i>Palestinian Journeys</i>, “Sumud”: “Shehadeh described sumud as a state of mind, a ‘third way’ between violent resistance and passive acceptance.” Raja Shehadeh, <i>The Third Way: A Journal of Life in the West Bank</i> (London: Quartet, 1982).'),
+            c('Rijke and van Teeffelen, “To Exist Is to Resist,” <i>Jerusalem Quarterly</i> 59 (2014): the olive tree is “a widely used metaphorical expression of sumud.”'))))
+    add_body('The second intifada and the siege', _p(
+        'The voice of the town went first. On 13 December 2001 Israeli missiles hit the main transmitter of the Palestinian Broadcasting Corporation in Ramallah and soldiers toppled its 90-foot tower, and on 19 January 2002 they blew up its five-storey building{}. The Palestine Broadcasting Service had begun broadcasting from a transmitter at Ramallah on 30 March 1936{}.'.format(
+            c('Committee to Protect Journalists, 13 December 2001 and January 2002; Palestinian Centre for Human Rights, <i>Israeli Attacks Against Journalists</i>, January–March 2002: “They destroyed the five-story building of the Palestinian Broadcasting Corporation (PBC).”'),
+            c('Andrea L. Stanton, <i>This Is Jerusalem Calling</i> (University of Texas Press, 2013), introduction: “On the penultimate day of March 1936, the Palestine Broadcasting Service (PBS) began radio broadcasts from a new transmitter in Ramallah.”'))))
+    add_body('The Wall, a capital, and our own people', _p(
+        'On <b>18 May 2021</b> Palestinians in Gaza, the West Bank and inside Israel went on a general strike together{}. '
+        'In January 2025 the army began its operation in the northern camps, which UNRWA called the longest in the West Bank since the second intifada; Jenin camp was left empty, and by December nearly 32,000 people from the camps of Jenin, Ṭūlkarm and Nūr Shams were still displaced{}. '
+        'When Israel attacked Iran on 13 June 2025 it put the whole West Bank under closure, shut the main checkpoints and closed the Allenby Bridge{}. '
+        'Modiʿin Illit, begun in 1991, was built on land of Bilʿīn, Niʿlīn, Dayr Qiddīs, al-Midya and Kharbathā al-Miṣbāḥ, and by 2011 held some 52,000 settlers{}.'.format(
+            c('Al Jazeera, 18 May 2021: “Shops were shuttered across cities in Gaza, the occupied West Bank and in villages and towns inside Israel.”'),
+            c('UNRWA, press release, 10 February 2025; United Nations OCHA, <i>Humanitarian Situation Update #346, West Bank</i>, 4 December 2025.'),
+            c('WAFA, 13 June 2025: “Israel imposed a full closure on the West Bank”; United Nations OCHA, <i>Humanitarian Situation Update #298</i>, 18 June 2025: “Main checkpoints on major road arteries were completely shut.”'),
+            c('ARIJ/POICA, 5 May 2008: “established on lands originally owned by Palestinians from Ni’lin, Deir Qiddies, Al Midya, Bil’in”; ' + ARIJ15 + ', table 34.'))))
 
     # CHAPTER 10 ---------------------------------------------------------
     add_body('The war, the locusts', _p(

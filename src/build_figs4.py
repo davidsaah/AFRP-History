@@ -120,7 +120,7 @@ def fig_layers():
     L = [
       ('TODAY', '1994 →', 'A Palestinian city and the seat of an authority. 42,122 people projected for 2021.', '#0E5C33', 1.0, ''),
       ('MANDATE, JORDAN, OCCUPATION', '1917–1994', 'The town is tripled by nine thousand refugees in 1948.', '#12703E', 1.0, ''),
-      ('OTTOMAN', '1517–1917', 'The Ḥaddādīn arrive c. 1562 and are named in the register of 1596. <b>This is the layer our own family enters.</b>', GREEN, 1.5, 'us'),
+      ('OTTOMAN', '1517–1917', 'The Ḥaddādīn arrive c. 1562; the register of 1562, copied in 1596, lists seventy-one Christian taxpayers. <b>This is the layer our own family enters.</b>', GREEN, 1.5, 'us'),
       ('MAMLUK', '1250–1517', 'A sultan’s endowment of 1279 includes Rām Allāh (the deed is lost; a court record of 1565 cites it).', '#2E8B57', 1.0, ''),
       ('CRUSADER &amp; AYYUBID', '1099–1250', 'Franks settle al-Bīra as Magna Mahumeria and leave again — the one arrival that did not stay.', PLUM, 0.85, ''),
       ('EARLY ISLAMIC', '638–1099', 'The rulers change; the villages do not. A church is rebuilt at ʿAbūd in 1058.', '#3E9464', 1.0, ''),
