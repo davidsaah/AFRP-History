@@ -1137,10 +1137,10 @@ already a surveyed place.</p>
 
 <blockquote><span class="ar">وقد أحضر حمزة جلبي كتاب الوقف المؤرخ سنة ٦٧٨ هـ وقف السلطان منصور قلاوون…</span><br>
 “…and Ḥamza Chelebi produced the waqf deed dated the year 678, the endowment of Sultan al-Manṣūr
-Qalāwūn… and it appeared that the boundaries of Rām Allāh are: on the south Dayr Fazṭā, on the east
-the travelled road, its limit the Silsila al-Rummāniyya, running north to Burj Salmiyya, which is
+Qalāwūn… and it appeared that the boundaries of Rām Allāh are: on the south Dayr Fazṭām, on the east
+the travelled road, its limit al-Silsila al-Rūmāniyya, the “Roman” chain, running north to Burj Salmiya, which is
 the northern boundary of Rām Allāh.”
-<span class="cite">Jerusalem sharīʿa register 48, p. 54 · 23 Dhū al-Qaʿda 972 / 22 June 1565{c('IRCICA, <em>Sijillāt maḥkamat al-Quds al-sharʿiyya</em>, register 48, ed. Ibrāhīm Rabāyʿah, series no. 31, open access. In the drive as <code>1565_Jerusalem_Sijill_48_IRCICA.pdf</code>, 315 pp. <strong>Not yet verified to print standard:</strong> the IRCICA PDFs use a scrambled custom font encoding that had to be reconstructed. The digits 678 and 971 are literal in the raw bytes and <em>waqf al-Khalīl</em> and <em>al-Sulṭān Manṣūr Qalāwūn</em> decode unambiguously, but p. 54 must be checked against the page images.')}.
+<span class="cite">Jerusalem sharīʿa register 48, p. 54 · 23 Dhū al-Qaʿda 972 / 22 June 1565{c('IRCICA, <em>Sijillāt maḥkamat al-Quds al-sharʿiyya</em>, register 48, ed. Ibrāhīm Rabāyʿah, series no. 31, open access. In the drive as <code>1565_Jerusalem_Sijill_48_IRCICA.pdf</code>, 315 pp. Read from the printed page (p. 54 of the edition, which calendars register p. 88, ḥujja 1), 22 November 2026. The edition is a calendar of summaries, not a facsimile; the folio itself has not been seen.')}.
 Al-Dabbāgh, working from Arabic sources with no access to the register, records the same endowment
 independently{c('Muṣṭafá Murād al-Dabbāgh, <em>بلادنا فلسطين</em>, al-juzʾ al-thāmin, al-qism al-thānī: <em>fī diyār Bayt al-Maqdis</em> (Beirut: Dār al-Ṭalīʿah, 1965–), on the Qalāwūn endowment and on <span class="ar">رام</span> as a Semitic root meaning height. In the drive as <code>1965_Dabbagh_Biladuna_Filastin_v8_pt2.pdf</code>.')}.</span></blockquote>
 
