@@ -21,7 +21,7 @@ ERAS = [
     _era('1948: the Nakba comes to Ramallah',
          ('Caring', 'In July 1948 the people of Lydda and Ramle were driven out and walked here in the summer heat. As many as 25,000 refugees, Cadora remembered, reached Ramallah, and the town’s bakers worked day and night; the four Abū Shahla sisters baked bread for them every day. The Friends Boys School became a hospital staffed by volunteer doctors, and the Girls School housed about 200 people. Nameh Cadora’s Infant Welfare Society cared for families from Lydda, Ramle and Jaffa. The Friends Meeting House became a school, and tent schools went up in the new camps of al-Amʿarī, al-Jalazūn and Qalandiyā. By 1953 two in three people in Ramallah were refugees.'),
          ('Resisting', 'The town’s own Armed Youth Organisation defended Ramallah, paid for by a tax the people laid on themselves.'),
-         ('Losing', 'Ḥannā Jiryis ʿUmrān was killed at Muṣrāra in Jerusalem. Ayyūb Rizq Mīkhāʾīl was probably among those killed at Nabī Yaʿqūb on 18 April 1948.')),
+         ('Losing', 'Ḥannā Jiryis ʿUmrān was killed at Muṣrāra in Jerusalem. Ayyūb Rizq Mīkhāʾīl was killed at Nabī Yaʿqūb, where passers-by on the Ramallah road were shot several times in 1947–48 (the tree says 1947; Cadora records deaths there on 18 April 1948, Christina Jones on about 13 and 14 April).')),
     _era('1967: the Naksa and the occupation',
          ('Losing', 'Ramallah fell on 6 June 1967. Dina Kharūfeh, fifteen, and her sister Lucy, twelve, were killed when an air raid hit the Evangelical Home school. They are buried in Ramallah. Anyone who was abroad that September lost the right to live here, and many of our own relatives were among them.'),
          ('Caring', 'Ramallah took in the people of ʿImwās, Yālū and Bayt Nūbā, three villages Israel destroyed, and many of them still live here. The Arab Women’s Union fed up to 200 refugee children.'),
@@ -47,7 +47,7 @@ NAMES = [
     ('1916', 'Dr Philip Maʿlūf, 13 February, of the typhus he caught treating the sick'),
     ('1939', 'George Jaber Saah, “George al-Aqraʿ”, hanged in Jerusalem on 16 November'),
     ('1939–1946', 'ʿĪsā Mūsā Khalīl Mūsā and Henry Abū Ḥadīd, in the Second World War · Khalīl Bishāra Mogannam, at the King David Hotel, 1946'),
-    ('1948', 'Ayyūb Rizq Mīkhāʾīl, probably at Nabī Yaʿqūb, 18 April (the tree says 1947) · Ḥannā Jiryis ʿUmrān, at Muṣrāra · Jamīl Jamīl Zanāyid Jr.'),
+    ('1948', 'Ayyūb Rizq Mīkhāʾīl, at Nabī Yaʿqūb, 1947 or April 1948 · Ḥannā Jiryis ʿUmrān, at Muṣrāra · Jamīl Jamīl Zanāyid Jr.'),
     ('1955', 'Rajā Abū ʿAmāsha'),
     ('1967', 'Dina Kharūfeh, fifteen, and her sister Lucy, twelve · Abū al-Ḥabāyib'),
 ]
