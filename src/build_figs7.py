@@ -699,8 +699,10 @@ def fig_damdate():
     c.y = top + 24
     st.ticks(c, o.where(y0=110, y1=120), rows=2)
     c.y += 6
-    tr = sorted(o.where(x0=170, x1=190, y0=55, y1=80), key=lambda i: i['y'])
+    tr = sorted(o.where(x0=425, x1=435, y0=55, y1=80), key=lambda i: i['y'])
+    gh = sorted(o.where(x0=80, x1=88, y0=55, y1=80), key=lambda i: i['y'])
     numbered_rows(c, [
+        (lambda x, y: f'<circle cx="{x}" cy="{y}" r="6" fill="#8F8A80"/>', gh[0]['text'], gh[1]['text']),
         (dot(MEM), tr[0]['text'], tr[1]['text']),
         (lambda x, y: chip(x - 4, y - 8, 8, 16, DOC), o.find('455')['text'], ''),
         (lambda x, y: chip(x - 4, y - 8, 8, 16, DOC), o.find('543–548')['text'], o.find('CIH 541')['text']),
