@@ -348,7 +348,7 @@ def fig_dam():
     x0, x1 = 90, 800
     t0, t1 = 250, 650
     def px(y): return x0 + (x1 - x0) * (y - t0) / (t1 - t0)
-    s = [f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="The tradition dates the departure to about 300 AD; the dam breaches are fifth and sixth century">']
+    s = [f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="The tradition dates the departure to the middle of the fifth century, which fits the breach of 455; Ghassān was already in the north by about 250">']
     s.append(f'<rect width="{W}" height="{H}" fill="{SURF}"/>')
     s.append(txt(40, 30, 'THE DAM, AND A DATE THAT HAS TO MOVE', 11, GOLD, 'start', '700', 'normal', '1.4'))
     y = 96
@@ -359,7 +359,7 @@ def fig_dam():
     # tradition
     s.append(f'<circle cx="{px(300):.1f}" cy="{y}" r="7" fill="{RUST}" stroke="#FFFFFF" stroke-width="2"/>')
     s.append(txt(px(300), y - 34, 'the tradition', 10.5, RUST, 'middle', '700'))
-    s.append(txt(px(300), y - 20, '“about 300 AD”', 10, RUST, 'middle', '400', 'italic'))
+    s.append(txt(px(430), y - 20, '“the middle of the fifth century”', 10, RUST, 'end', '400', 'italic'))
     # recorded breaches
     for a, b, lab in [(455, 456, '455'), (543, 548, '543–548')]:
         xa, xb = px(a), px(b)
@@ -806,7 +806,7 @@ FIGS['mapreg'] = fig(fig_map_region(), 5, 'The road, and the ground it passes',
     'The remembered route from Maʾrib to the ridge, with the Ghassanid sites that have standing physical evidence marked separately.',
     'Hammoudeh, JQ 59 (2014), 43, 45 and 52 n. 57; Peake, Karak clan register; the Ghassanid inscriptions.')
 FIGS['dam'] = fig(fig_dam(), 6, 'The dam, and a date that has to move',
-    'The family dates the departure to the bursting of the Maʾrib dam, about 300 AD. The dam is real and its breaches are dated — and they are two centuries later.',
+    'The family dates the departure to the bursting of the Maʾrib dam in the middle of the fifth century. The dam is real, and its first dated breach, 455, fits; but Ghassān was in the north by about 250.',
     'Nebes, PSAS 34 (2004), 221–230; CIH 541 in the DASI corpus.')
 FIGS['mapdis'] = fig(fig_map_district(), 7, 'The hills around Ramallah',
     'What has been excavated, what was written down, and who ruled — within a few kilometres of the town.',
@@ -971,8 +971,8 @@ comes from the Arabic tradition — the same tradition that says Ghassān is a s
 {FIGS['mapreg']}
 <h3 class="sub">The dam, and a date that has to move</h3>
 
-<p>The family tradition dates the departure to the bursting of the Maʾrib dam, about 300 AD. The dam
-is real, its breaches are dated, and the dates do not match: <strong>the recorded breaches are
+<p>The family tradition, in ʿAdnān al-Ḥaddādīn’s account of 1953, dates the departure to the bursting of the Maʾrib dam in the middle of the fifth century. The dam
+is real, its breaches are dated, and the first one fits: <strong>the recorded breaches are
 455 and 543–548, with final collapse later in the sixth century.</strong> Abraha’s great
 inscription of 548 CE — CIH 541 — records the repair and names the tribes and embassies present, and
 it is free to read{c('Norbert Nebes, “A New ʾAbraha Inscription from the Great Dam of Mārib,” <em>Proceedings of the Seminar for Arabian Studies</em> 34 (2004), 221–230. In the drive as <code>2004_Nebes_New_Abraha_Inscription_Marib_Dam.pdf</code>.')}{c('CIH 541 and the Sabaic corpus generally are searchable free at DASI — Digital Archive for the Study of pre-Islamic Arabian Inscriptions, Università di Pisa / CNR, dasi.cnr.it.')}. This is a correction, not a demolition: the migration tradition
@@ -1389,7 +1389,7 @@ waqf deed of 1279. <strong>The founding and everything after</strong> is documen
 
 <p>Eight claims were tested against the record, and most survive. Descent from the Ghassanid kings is
 <strong>open</strong> — no evidence either way across nine hundred years, and the claim belongs to a
-recognised genre. The departure “about 300 AD” is <strong>corrected</strong>. The road through the
+recognised genre. The departure “in the middle of the fifth century” is <strong>corrected</strong> to before 250. The road through the
 Ḥijāz, Udhruḥ, Shawbak and Karak is <strong>consistent</strong>, and its last legs are
 <strong>confirmed</strong> station by station in the registers. The founder and the date are
 <strong>refined</strong>: 1562, with the movers a generation or two below Rāshid. The Patriarchate’s

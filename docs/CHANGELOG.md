@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v117 — the tradition's date for leaving Yemen (23 Nov 2026)
+
+David: "3 sounds good". The family tradition's date for leaving Yemen is now ʿAdnān al-Ḥaddādīn's, as Shāhīn prints it: "the middle of the fifth century", not the presentation's "about 300 AD". The tradition's dam date fits the breach of 455; the departure still stands before 250, by the inscriptions. Figure 4.2 now shows both the tradition and Ghassān in the north by about 250. Rāshid stays at generation 66 (David: "2 YES"); 1186 stays the first mention (David: "1: keep the date").
+
 ## v116 — open facts answered from sources (22 Nov 2026)
 
 David: "for the missing facts look up reliable sources and put them in the literature folder". Source notes are in Literature/_Sources_2026-11-22.
