@@ -1285,6 +1285,16 @@ all.</p>"""),
 
 CH(7)
 sect('And in our own line', 'The water fails, the dynasty is already north, and a Greek historian writes one of them down')
+ent('c. 470 → 502', 'attested', False, 'When did we become Christian?',
+ '<b>No record names the day our own family became Christian, so the answer comes in two parts, and the second is inference.</b> '
+ 'First, the land: the people of these hills became Christian in the fourth and fifth centuries, mostly by conversion, as the entry above shows. '
+ 'Second, the people our family tradition descends from: the Arabs of Ghassān were Christian by about 500. Irfan Shahîd writes that the Ghassanids, to whom the chief Amorkesos “almost certainly belonged”, had “embraced Christianity” by the time he made his pact with Byzantium in the 470s{}; that by the reign of Anastasius “the Ghassanids were already Christian”{}; and that a new wave of Ghassanids, who struck their treaty with the empire in 502, “adopted a Monophysite form of Christianity,” the emperor’s own faith{}. '
+ '<b>So when the clerks count seventy-one Christian taxpayers on our hill in 1562, our families had been Christian, on either path, for about a thousand years.</b> '
+ 'That we descend from the Ghassanids is the family’s tradition, not a proven line, and this book keeps it labelled that way.'.format(
+  c('Irfan Shahîd, <i>Byzantium and the Arabs in the Fifth Century</i> (Washington, DC: Dumbarton Oaks, 1989), p. 74: “The Ghassanids to whom he almost certainly belonged had embraced Christianity.” '+D('1989_Shahid_Byzantium_and_the_Arabs_5th_Century.pdf')+'.'),
+  c('Shahîd (1989), p. 127, n. 31: “The Ghassanids were already Christian and it is quite unlikely that they would have attacked monasteries.”'),
+  c('Shahîd (1989), p. 527: “It was only with the arrival of a new wave of Ghassanids toward the end of the century, around 500 … that the Ghassanids adopted a Monophysite form of Christianity, most probably because the emperor during whose reign they penetrated the limes and struck the foedus was a Monophysite”; p. 120: “The foedus between Byzantium and the Ghassanids was struck in 502.” Monophysite, today called Miaphysite, is the faith of the Syriac Orthodox church.'))),
+
 ent('455 → about 575', 'documents', 'shared', 'The dam breaks',
  'Our family’s tradition, in ʿAdnān al-Ḥaddādīn’s account of 1953 as Shāhīn prints it, says we left Yemen “in the middle of the fifth century,” when the great dam at Maʾrib burst. <b>The dam’s failures are dated, and the first of them fits.</b> A breach was repaired under Sharaḥbiʾīl Yaʿfur in 455. There was a further breach in 542/543. The great breach of 547 was repaired in 548, and the last recorded restoration came in 557/558{}.'.format(c('Norbert Nebes, “A New ʾAbraha Inscription from the Great Dam of Mārib,” <i>Proceedings of the Seminar for Arabian Studies</i> 34 (2004), 221–30, esp. 223–24. CIH 540, Sharaḥbiʾīl Yaʿfur’s rupture-and-repair text, is dated Himyarite year 565 = <b>AD 455</b> on the 110 BC epoch Nebes uses; the figure of 449–450 sometimes given reflects the older 115 BC epoch and <b>contradicts the very study cited beside it</b>. CIH 541 records the breach of 657 HE (547) repaired in 658 HE (548). '+D('2004_Nebes_New_Abraha_Inscription_Marib_Dam.pdf')+'.')),
  f"""
@@ -4070,7 +4080,7 @@ _ORDER = {
      ['The Bible as a map', 'Assyria writes']),
  3: (['Six sovereigns', 'The Samaritans', 'The roads Jesus used', 'Life on the ridge in AD 30', 'Rome returns'],
      ['Rome writes', '“A city called Ephraim']),
- 4: (['The hills become Christian', 'The dam breaks', 'Amorkesos', 'Al-Ḥārith ibn Jabala', 'The scattering', 'Yarmūk'],
+ 4: (['The hills become Christian', 'When did we become Christian', 'The dam breaks', 'Amorkesos', 'Al-Ḥārith ibn Jabala', 'The scattering', 'Yarmūk'],
      ['Ghassān named in stone', 'A traveller lists', 'The name in the water', 'The dam cannot', 'Were the Ghassanids',
       'The silence starts later', 'What they left']),
  5: (['The towns do not die', 'Marj Rāhiṭ', 'al-Yaʿqūbī', 'A village church'],

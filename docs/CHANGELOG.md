@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v118 — when did we become Christian? (24 Nov 2026)
+
+David: "When were we converted to Christianity? Spell this out more clearly in the book and cite it." A new entry in chapter 4, after "The hills become Christian", gives the answer in two parts: the people of these hills became Christian in the fourth and fifth centuries, mostly by conversion; the Ghassān of the family tradition were Christian by about 500 (Shahîd 1989, pp. 74, 120, 127 n. 31, 527: Amorkesos's Ghassanids "had embraced Christianity"; the new wave of 502 "adopted a Monophysite form of Christianity"). No record names the family's own conversion, and the Ghassanid descent stays labelled as tradition.
+
 ## v117 — the tradition's date for leaving Yemen (23 Nov 2026)
 
 David: "3 sounds good". The family tradition's date for leaving Yemen is now ʿAdnān al-Ḥaddādīn's, as Shāhīn prints it: "the middle of the fifth century", not the presentation's "about 300 AD". The tradition's dam date fits the breach of 455; the departure still stands before 250, by the inscriptions. Figure 4.2 now shows both the tradition and Ghassān in the north by about 250. Rāshid stays at generation 66 (David: "2 YES"); 1186 stays the first mention (David: "1: keep the date").
