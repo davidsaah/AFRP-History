@@ -1319,7 +1319,7 @@ Mikhdham and Rasūb, in the shrine of the goddess Manāt between Mecca and Medin
 (Melkite) and Syriac churches{c('Masalha (2018), p. 136.')}. Irfan Shahîd, the great historian of the Arabs of Byzantium,
 says where they are now: the Ghassanids who stayed in Bilād al-Shām “had remained Christian,” and
 survive “in the Ḥawrān region of Syria, in Lebanon, and in Jordan until the present day. Many of the
-Christian families of this region trace their descent to” them{c('Irfan Shahîd, “Ghassān <i>Post</i> Ghassān,” in C. E. Bosworth et al. (eds), <i>The Islamic World from Classical to Modern Times</i> (Princeton: Darwin Press, 1989), 323–36, p. 333; his source for the families is ʿĪsā Iskandar al-Maʿlūf, <i>Dawānī al-quṭūf fī tārīkh Banī al-Maʿlūf</i> (Baʿabda, 1908), n. 36. On p. 329 he gives their descent from al-Azd “who had originally come from South Arabia.” '+D('1989_Shahid_Ghassan_post_Ghassan_OCR.pdf').')}. The Christians of Karak belong to that world, and from Karak, by
+Christian families of this region trace their descent to” them{c('Irfan Shahîd, “Ghassān <i>Post</i> Ghassān,” in C. E. Bosworth et al. (eds), <i>The Islamic World from Classical to Modern Times</i> (Princeton: Darwin Press, 1989), 323–36, p. 333; his source for the families is ʿĪsā Iskandar al-Maʿlūf, <i>Dawānī al-quṭūf fī tārīkh Banī al-Maʿlūf</i> (Baʿabda, 1908), n. 36. On p. 329 he gives their descent from al-Azd “who had originally come from South Arabia.” '+D('1989_Shahid_Ghassan_post_Ghassan_OCR.pdf')+'.')}. The Christians of Karak belong to that world, and from Karak, by
 our tradition, Rāshid’s people came to this ridge, where the clerks of 1562 count them as
 Christians.</p>
 <p><b>From Syriac to Greek Orthodox.</b> Ghassān was Miaphysite, the faith of today’s Syriac
