@@ -1316,14 +1316,19 @@ church, and Theodore, bishop of the Ghassanid camp for at least thirty years{c('
 did not vanish at once: Ibn al-Kalbī records that a Ghassanid king al-Ḥārith hung two swords,
 Mikhdham and Rasūb, in the shrine of the goddess Manāt between Mecca and Medina{c('Hishām ibn al-Kalbī, <i>Kitāb al-Aṣnām</i> (The Book of Idols), tr. N. A. Faris (Princeton, 1952), on Manāh: “two swords which had been presented to her by al-Ḥārith ibn Abī Shamir al-Ghassānī, the king of Ghassān.” The Arabic text is in the drive as '+D('0819_Ibn_al-Kalbi_Kitab_al-Asnam_ed_Zaki_1914.pdf')+' (ed. Aḥmad Zakī Pasha, Cairo, 1914); a note with the English quotes is in Literature/_Sources_2026-11-22. Zahran, <i>Ghassan Resurrected</i> (2006), pp. 33–34, tells it of al-Ḥārith ibn Jabala; Shahîd (2002) reads the dedication differently.')}.</p>
 <p><b>How it reaches us.</b> After 636 most Ghassanids “remained Christian” and joined the Orthodox
-(Melkite) and Syriac churches{c('Masalha (2018), p. 136.')}. The Christians of Karak belong to that world, and from Karak, by
+(Melkite) and Syriac churches{c('Masalha (2018), p. 136.')}. Irfan Shahîd, the great historian of the Arabs of Byzantium,
+says where they are now: the Ghassanids who stayed in Bilād al-Shām “had remained Christian,” and
+survive “in the Ḥawrān region of Syria, in Lebanon, and in Jordan until the present day. Many of the
+Christian families of this region trace their descent to” them{c('Irfan Shahîd, “Ghassān <i>Post</i> Ghassān,” in C. E. Bosworth et al. (eds), <i>The Islamic World from Classical to Modern Times</i> (Princeton: Darwin Press, 1989), 323–36, p. 333; his source for the families is ʿĪsā Iskandar al-Maʿlūf, <i>Dawānī al-quṭūf fī tārīkh Banī al-Maʿlūf</i> (Baʿabda, 1908), n. 36. On p. 329 he gives their descent from al-Azd “who had originally come from South Arabia.” '+D('1989_Shahid_Ghassan_post_Ghassan.pdf')+' (page photos).')}. The Christians of Karak belong to that world, and from Karak, by
 our tradition, Rāshid’s people came to this ridge, where the clerks of 1562 count them as
 Christians.</p>
 <p><b>From Syriac to Greek Orthodox.</b> Ghassān was Miaphysite, the faith of today’s Syriac
-Orthodox church, yet Ramallah has been Greek Orthodox as far back as our records go. Two things
+Orthodox church, yet Ramallah has been Greek Orthodox as far back as our records go. Three things
 point to how that changed. Yasmine Zahran, the Ramallah-born archaeologist, following the Lebanese
 historian Edmond Rabbath, writes that “most Arabs of Syria reverted back to the Chalcedonian
 (Orthodox) creeds abandoning their Monophysite belief, around the time of the Arab conquest”{c('Yasmine Zahran, <i>Ghassan Resurrected</i> (London: Stacey International, 2006), p. 144, citing Edmond Rabbath (1980), p. 153, n. 76; on the Ghassanids who went to Anatolia and “became Chalcedonians (Orthodox),” p. 146. Zahran writes part of her book in the voice of the Ghassanid kings; these passages are her own historical summary. '+D('2006_Zahran_Ghassan_Resurrected.pdf')+'.')}.
+Shahîd saw the same turn among the Ghassanids who went to Byzantium: “staunch Monophysites” before
+Islam, “some two centuries later they appear as Orthodox Christians”{c('Irfan Shahîd, “Ghassān <i>Post</i> Ghassān,” in C. E. Bosworth et al. (eds), <i>The Islamic World from Classical to Modern Times</i> (Princeton: Darwin Press, 1989), 323–36, p. 327.')}.
 And Karak, where our tradition places us next, was an old bishopric “since the Byzantine period”
 under the Greek Orthodox patriarch of Jerusalem; in the nineteenth century the Ḥaddādīn of Karak,
 all but one branch, were still Greek Orthodox{c('Bassam al-Btoush, “Christian Elite in Al-Karak and their Political Roles between 1893 and 1946 AD,” <i>Dirasat: Human and Social Sciences</i> 51:6 (2024), p. 264 (Arabic text): Karak “كانت كرسياً أسقفياً قديماً منذ العصر البيزنطي” and its see belonged to the patriarch of Jerusalem; the Ḥaddādīn “ما عدا فرع واحد” belong to the Greek Orthodox. '+D('2024_AlBtoush_Christian_Elite_of_Karak_Dirasat51.pdf')+'.')}.

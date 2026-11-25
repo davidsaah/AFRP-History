@@ -1,6 +1,11 @@
 # Changelog
 
 
+## v120 — Shahîd, “Ghassān post Ghassān” (25 Nov 2026)
+
+Chapter 4, “When did we become Christian?”: adds Irfan Shahîd's 1989 chapter (from David's page photos). p. 333: the Ghassanids who stayed in Bilād al-Shām remained Christian, and many Christian families of the Ḥawrān, Lebanon and Jordan trace their descent to them. p. 327: Ghassanids who were Monophysite before Islam appear as Orthodox two centuries later.
+
+
 ## v119 — what we were before, and how the faith reached us (24 Nov 2026)
 
 - Chapter 4, "When did we become Christian?" gains four paragraphs: the faiths before (ʿAlmaqah in Yemen, Ḥimyar's turn to Judaism, the Arab idols, Aelia's Jupiter), how Christianity reached the Arabs (Theophilus, Ḥayyān of Najrān, Zokomos, the martyrs of Najrān), Ghassān's own church (St Sergius, Theodora's bishops, the swords at Manāt) and how the line became Greek Orthodox (Zahran after Rabbath; al-Btoush on Karak's see under Jerusalem). Sources: Robin 2002, Shahîd 1984/1989/2002, Masalha 2018, Zahran 2006, al-Btoush 2024, Ibn al-Kalbī (source note).
