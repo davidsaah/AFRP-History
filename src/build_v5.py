@@ -2298,6 +2298,13 @@ runs <i>“from Ǧaʿfar to ḫ. el-Ḥaddâde”</i> and the next <i>“from �
 volume Musil spells the name el-Ḥaddâde, with a final vowel. The site
 lies south of Khirbet Abū Ḥammūr, on the wadi that drains the el-Feǧǧ hollow. <b>From there, he notes,
 the fortress of Karak is in sight</b>{c('Musil, <i>Arabia Petraea</i> I (<i>Moab</i>), itinerary stages at pp. 366 and 369, with the topography in the body of the volume. <b>One caution, and it is real:</b> volume III writes <i>el-Ḥaddâd</i> and volume I writes <i>el-Ḥaddâde</i>. The identification is highly probable and one vowel short of certain, and this project could not corroborate it in any modern gazetteer. An older witness does: Seetzen, in 1806, was given a list of the ruined places of the land of Karak, and <i>Haddâde</i> is among them, beside Robba (Rabba) and Ḥmeimât. '+D('1854_Seetzen_Reisen_durch_Syrien_Bd1.pdf')+', p. 416.')}.</p>
+<p><b>How Karak’s Christians shared their land.</b> Musil also wrote down how the fields were divided.
+Every tract of conquered land was split three ways, one part to each of the town’s groups, and the
+Christians’ share was halved again. <b>The Christians numbered 180 families, and “of these, 80 belong
+to the Ḥalasa and Ḥaddādīn”</b>; with ten other families they made one half. A man held a pebble and a
+twig behind his back, one for the western half and one for the eastern, and the spokesman of the first
+ninety chose a hand{c('Musil, <i>Arabia Petraea</i> III (1908), pp. 87–88: „Die Naṣâra bilden 180 Familien. Von diesen gehören 80 den Ḥalasa und Ḥaddâdîn, mit ihnen geben 10 andere Familien — also 90 — die Hälfte.“ Printed page = PDF page − 18.')}. So the Ḥaddādīn and the Ḥalasa, joined by
+the marriage Musil records, farmed as a single bloc.</p>
 <p><i>So the Ḥaddādīn of Karak told Musil they came from a ruin on their own plateau, within sight of
 their own castle.</i></p>
 <p>Now look at the whole table, because the pattern is what matters.</p>
