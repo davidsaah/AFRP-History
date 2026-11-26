@@ -271,7 +271,7 @@ Named so they are visible rather than papered over.
 
 - **Shahîd, *Byzantium and the Arabs in the Sixth Century* (BASIC)**: now held (all four parts, open access)
   and read for v75. The v57 claim about his source base was checked and is false; the book says so.
-  His 1989 article "Ghassān post Ghassān" (pp. 323–36) is still not held.
+  His 1989 article "Ghassān post Ghassān" (pp. 323–36) is now held, from page photos (Literature/1989_Shahid_Ghassan_post_Ghassan_OCR.pdf, 25 Nov 2026).
 - **Musil, *Arabia Petraea* III** — read online, no local copy filed.
 - **Hütteroth & Abdulfattah p. 171** — the Karak figures are confirmed by an independent
   arithmetic route but nobody on this project has seen the page.
