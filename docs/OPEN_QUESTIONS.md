@@ -255,7 +255,8 @@ substantial but **partial**.
   whether the Rafīdiyā origin is there.* The book now prints the claim as
   Ḥammūdeh's assertion, not as a documented finding. **Checked 13 Nov 2026: not
   there.** Vol. 8 pt. 2 p. 258 is the al-Bīra entry and never names Rafīdiyā. Best
-  lead remains Cadora p. 36 (Nazzāl "from Rafidia", 1855).
+  lead remains Cadora p. 36 (Nazzāl "from Rafidia", 1855). **26 Nov 2026 (v123):** a second, independent
+  witness: Abdel Jawad, *JQ* 36, p. 29, n. 48 (oral, 1995), "probably" from Rafidia after a blood feud.
 - **Bethlehem's Muslim quarter, 1 June 1834 — withdrawn pending a page.** The
   claim circulates sourced to Rood 2004, p. 130. Her *article* says something
   else for that date. Needs Rood 2004, pp. 129–130, read directly.
