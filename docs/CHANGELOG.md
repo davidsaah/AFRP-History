@@ -5,6 +5,8 @@
 
 Seetzen (1854) vol. I p. 411 read: on 24 March 1806 Greek Christians from Karak camped at Ḥumaymāt "call themselves Ḥaddādīn"; the earliest eyewitness record of the name, and not "Bedouin" as Chatelard has it. P. 416 lists the ruin Haddâde in the land of Karak, corroborating Musil's ḫ. el-Ḥaddâde. Musil III now cited from the shelf copy. Al-Ṭīra DOI added; stale gap notes cleared.
 
+Also (v122b): Ḥumaymāt placed just inside Karak's farmland by Musil III p. 88 (the northern boundary "from Khirbet Fuḥāra to Shīḥān"), so the 1806 tents stood by the town's own fields.
+
 
 ## v121 — the original texts (26 Nov 2026)
 
