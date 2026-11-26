@@ -110,13 +110,13 @@ print or has a published edition; the book cites the edition.
 ### Travellers and surveys
 
 `1787_Volney_Travels_Syria_Egypt_v2.pdf` · `1821_Buckingham_Travels_EXCERPT_Acre_pp73-78.pdf` ·
-`1841_Robinson_Biblical_Researches_v2.pdf` · `1854_Seetzen_Reisen_durch_Syrien_Bd2.pdf` ·
+`1841_Robinson_Biblical_Researches_v2.pdf` · `1854_Seetzen_Reisen_durch_Syrien_Bd1.pdf` · `1854_Seetzen_Reisen_durch_Syrien_Bd2.pdf` ·
 `1875_Guerin_Description_de_la_Palestine_Samarie_II.pdf` · `1876_Sauvaire_Histoire_de_Jerusalem_et_Hebron.pdf` ·
 `1883_Conder_Kitchener_Survey_of_Western_Palestine_v3.pdf` · `1889_Jones_Eli_and_Sybil_Jones.pdf` ·
 `1907_Grant_The_Peasantry_of_Palestine.pdf` · `1875_Hertslet_Map_of_Europe_EXCERPT_1839_1856_edicts.pdf`
 
-> **Not on the shelf and wanted:** Musil, *Arabia Petraea* III (1908), pp. 84–85 and 99 —
-> the Karak lineage testimony. Read via archive.org for v57; a local copy should be filed.
+> **Now on the shelf (26 Nov 2026):** `1908_Musil_Arabia_Petraea_III_Ethnologischer_Reisebericht.pdf`
+> (pp. 84–85 and 99, the Karak lineage testimony; printed page = PDF page − 18).
 
 ### Manuscripts, colophons, and the Christian East
 
@@ -277,7 +277,6 @@ Named so they are visible rather than papered over.
   and read for v75. The v57 claim about his source base was checked and is false; the book says so.
   His 1989 article "Ghassān post Ghassān" (pp. 323–36) is now held (from David's page photos, 25 Nov 2026):
   `1989_Shahid_Ghassan_post_Ghassan_OCR.pdf`.
-- **Musil, *Arabia Petraea* III** — read online, no local copy filed.
 - **Hütteroth & Abdulfattah p. 171** — the Karak figures are confirmed by an independent
   arithmetic route but nobody on this project has seen the page.
 - **Eight `palestine-studies.org` PDFs** — the host blocks automated fetching; they need a browser.
@@ -288,8 +287,8 @@ Named so they are visible rather than papered over.
   bibliography): Kh. Ḥaddādīn, M. Ḥaddādīn and ʿO. Ḥaddādīn, *ʿAshāʾir al-Ḥaddādīn ḥattā ʿām 1991*
   (Amman: privately printed, 1991), at least 854 pp. It is the only lead to names above Rāshid bin Ṣaqr,
   and Zahran's Mamluk claims (pp. 25–26) come from it. Not to be confused with ʿAbbās Ḥaddādīn's later book.
-- **Seetzen, *Reisen* (1854), vol. 1, p. 411**: the Ḥaddādīn tents at Ḥumaymāt, c. 1806, known only through
-  Chatelard; check the page.
+- ~~Seetzen vol. 1, p. 411~~: checked 26 Nov 2026 (vol. 1 now on the shelf); Greek Christians from Karak "call
+  themselves Ḥaddādīn", 24 March 1806.
 
 ---
 
