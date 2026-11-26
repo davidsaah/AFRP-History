@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v124 — Ramallah's ministers, checked (26 Nov 2026)
+
+"Under the Jordanian crown": the ministers passage now adds Simʿān Dāwūd (twelve governments, 1955–69) and Nadīm al-Zarw (named in April 1970 and stood down the same day; transport 1972–74), and notes the dispute over which Jalīl Badrān was minister in December 1955. Every post and date was checked against the Prime Ministry of Jordan's ministers database (pm.gov.jo). The al-Madīna print page of 16 March 2009 has been added to the shelf.
+
 ## v123 — the Jerusalem Quarterly and JPS findings (26 Nov 2026)
 
 David: "yes" (write the new findings in). From the JQ and JPS articles shelved on 26 Nov:
