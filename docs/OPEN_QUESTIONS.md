@@ -267,9 +267,8 @@ substantial but **partial**.
   probably one arrangement — but **no source produces the instrument, its date or
   its parties.** Adel Yahya, *A Story of a Camp: al-Jalazone* (PACE, 2006), is the
   one Palestinian monograph and may settle it in print.
-- **Khirbat al-Tira's churches** are published separately — *Journal of Eastern
-  Mediterranean Archaeology and Heritage Studies* 2:3 (2014), 188–208. The book
-  cites the churches from the wrong paper.
+- ~~**Khirbat al-Tira's churches**~~: checked 26 Nov 2026. The book already cites
+  *JEMAHS* 2:3 (2014), 188–208, and *Archaeological Discovery* 4 (2016), 48–67.
 
 ## 4. Carried forward, unchanged
 
