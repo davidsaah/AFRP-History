@@ -1,6 +1,11 @@
 # Changelog
 
 
+## v121 — the original texts (26 Nov 2026)
+
+Chapter 4 faith entry: cites Philostorgius (Walford 1855; Bidez 1913) and Sozomen (NPNF; Migne PG 67) directly; Robin 2021 on the 380–384 break and on Theophilus's mission (p. 186); the gods of al-Azd from the Book of Idols (Faris 1952), labelled inference for Ghassān; Faris file named in the swords note; al-Maʿlūf caution on Shahîd p. 333; the two Shahîd 1989 works told apart. LITERATURE.md: Shahîd's 1989 article now held.
+
+
 ## v120 — Shahîd, “Ghassān post Ghassān” (25 Nov 2026)
 
 Chapter 4, “When did we become Christian?”: adds Irfan Shahîd's 1989 chapter (from David's page photos). p. 333: the Ghassanids who stayed in Bilād al-Shām remained Christian, and many Christian families of the Ḥawrān, Lebanon and Jordan trace their descent to them. p. 327: Ghassanids who were Monophysite before Islam appear as Orthodox two centuries later.
