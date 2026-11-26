@@ -1,6 +1,16 @@
 # Changelog
 
 
+## v121 — chapter 4 cites the original texts (26 Nov 2026)
+
+David: "add it to the shelf and citations". The sources that chapter 4 ("When did we become Christian?") quoted second-hand are now on the shelf, and the notes cite them directly.
+- Theophilus in Ḥimyar: Philostorgius III.4 (Walford 1855, pp. 444–45; Greek, Bidez 1913) instead of Philostorgius as read by Shahîd. The text now says the king built the churches, as Philostorgius has it. Robin 2021, p. 186: the embassy, early 340s, did not convert the king.
+- Zokomos: Sozomen VI.38 (NPNF II.2, p. 375; Greek–Latin, Migne PG 67) instead of Sozomen as read by Shahîd; Shahîd (1989), p. 3, kept as "see also".
+- Ḥimyar's turn to Judaism: Robin 2021, p. 167 ("between 380 and 384 CE") added to Robin 2002.
+- The swords at Manāt: the Faris translation on the shelf (retypeset copy, p. 22) replaces the separate source note.
+- Still second-hand: Rabbath (1980), through Zahran (2006), p. 144.
+- docs/LITERATURE.md: the new shelf files listed; Shahîd's "Ghassān post Ghassān" no longer "not held".
+
 ## v120 — Shahîd, “Ghassān post Ghassān” (25 Nov 2026)
 
 Chapter 4, “When did we become Christian?”: adds Irfan Shahîd's 1989 chapter (from David's page photos). p. 333: the Ghassanids who stayed in Bilād al-Shām remained Christian, and many Christian families of the Ḥawrān, Lebanon and Jordan trace their descent to them. p. 327: Ghassanids who were Monophysite before Islam appear as Orthodox two centuries later.
