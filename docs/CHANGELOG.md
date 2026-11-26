@@ -5,6 +5,7 @@
 
 David: "yes" (write the new findings in). From the JQ and JPS articles shelved on 26 Nov:
 - The Rafeedie family: a second, independent witness to the Rafīdiyā origin. Abdel Jawad (JQ 36, p. 29, n. 48; oral, interview with Zahwa al-Rafidi, 1995) says the family came after a blood feud and settled in al-Bīra "after they had been rejected by Christian Ramallah". Printed with his "probably".
+- The al-Rafidi story (David: "put in the rafidi story"): Ibrahim Hanna al-Rafidi, al-Bīra's scribe (a 1901 land sale in his hand), who ran the town after the British deported its two leaders, respected by its Muslims, died without heirs (JQ 36, pp. 28–29).
 - 1948: Munayyer's "Fall of Lydda" now read and cited directly (JPS 27:4, p. 82): Ramallah stoned and cursed the Arab Legion. Mildred White and Donn Hutchison (JQ 80, pp. 92–93): refugee families in the Friends Meeting House and tents on the Girls School grounds.
 - Emigration: Katrina Saʿāde's story from the Saʿāde–Farḥāt letters (Bawalsa, JQ 47, pp. 11, 18); the Dayr Dibwān figures, farming 78% → 12% and abroad 6% → 61%, 1950s–1981 (Escribano and El-Joubeh, JPS 11:1, pp. 151–52).
 
