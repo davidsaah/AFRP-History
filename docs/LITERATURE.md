@@ -48,6 +48,10 @@ print or has a published edition; the book cites the edition.
 |---|---|
 | `0550_Procopius_History_of_the_Wars_I-II_Loeb.pdf` | the contemporary Greek for al-Ḥārith b. Jabala |
 | `0819_Ibn_al-Kalbi_Jamharat_al-nasab.pdf` | the foundational Arabic genealogy |
+| `0819_Ibn_al-Kalbi_Kitab_al-Asnam_ed_Zaki_1914.pdf` · `1952_Faris_Ibn_al-Kalbi_The_Book_of_Idols.pdf` | the Book of Idols, Arabic (Zakī, 1914) and English (Faris, retypeset, with his Preface); the swords at Manāt |
+| `0425_Philostorgius_Church_History_Walford_1855.pdf` · `0425_Philostorgius_Kirchengeschichte_ed_Bidez_1913.pdf` | Theophilus in Ḥimyar (III.4–6), English and Greek |
+| `0445_Sozomen_Ecclesiastical_History_NPNF.pdf` · `0445_Sozomen_Historia_Ecclesiastica_Migne_PG67.pdf` | Mavia and Zokomos (VI.38), English and Greek–Latin |
+| `1989_Shahid_Ghassan_post_Ghassan_OCR.pdf` | the Ghassanids after 636: Anatolia, Nicephorus I, the Rasūlids; the Christian families (p. 333, after al-Maʿlūf) |
 | `0945_Hamdani_Sifat_Jazirat_al-Arab.pdf` | *diyār Ghassān* as territory |
 | `0956_Masudi_Muruj_al-Dhahab_v1–v4.pdf` | four volumes |
 | `0961_Hamza_al-Isfahani_Tarikh_sini_muluk_al-ard.pdf` | |
@@ -65,7 +69,7 @@ print or has a published edition; the book cites the edition.
 
 ### South Arabia and the pre-Islamic north
 
-`2000_Potts_Barrington_Atlas_Map_4` · `2002_Arbach_CIS_IV` · `2002_Robin_Saba_and_the_Sabaeans` ·
+`2000_Potts_Barrington_Atlas_Map_4` · `2002_Arbach_CIS_IV` · `2002_Robin_Saba_and_the_Sabaeans` · `2021_Robin_Judaism_of_the_Ancient_Kingdom_of_Himyar_OBP` ·
 `2004_Nebes_New_Abraha_Inscription_Marib_Dam` · `2006_Arbach_Crassard` · `2009_Charloux_Robin_Arbach` ·
 `2011_Arbach_Temple_de_Nakrah` · `2012_Arbach_Dieux_anthropomorphiques` · `2012_Arbach_Robin_dhu-Samawi` ·
 `2013_Arbach_Date_d_apparition_du_royaume_de_Main` · `2013_Gajda_Arbach` · `2013_Premieres_mentions_de_dhu-Raydan` ·
@@ -271,7 +275,8 @@ Named so they are visible rather than papered over.
 
 - **Shahîd, *Byzantium and the Arabs in the Sixth Century* (BASIC)**: now held (all four parts, open access)
   and read for v75. The v57 claim about his source base was checked and is false; the book says so.
-  His 1989 article "Ghassān post Ghassān" (pp. 323–36) is now held, from page photos (Literature/1989_Shahid_Ghassan_post_Ghassan_OCR.pdf, 25 Nov 2026).
+  His 1989 article "Ghassān post Ghassān" (pp. 323–36) is now held (from David's page photos, 25 Nov 2026):
+  `1989_Shahid_Ghassan_post_Ghassan_OCR.pdf`.
 - **Musil, *Arabia Petraea* III** — read online, no local copy filed.
 - **Hütteroth & Abdulfattah p. 171** — the Karak figures are confirmed by an independent
   arithmetic route but nobody on this project has seen the page.
