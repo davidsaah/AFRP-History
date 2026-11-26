@@ -2765,6 +2765,12 @@ around the upper floor served in place of barbed wire{c('Shāhīn (1982), ch. 4,
 kilograms of dried figs, 1.2 million of grapes. Shāhīn, writing in 1982, adds a line that marks his
 own generation: <i>“Eighty percent of the land is now uncultivated. The generations that worked the
 land have passed away and, alas, the land too is passing away.”</i></p>
+<p>The trees outlived that lament. Ramallah’s district is now the only one in the West Bank that
+rivals the north in the volume of oil it presses, and the press owners north of the town still name
+the villages whose oil is best: Bīr Zayt, Abū Qash, Surdā, al-Mazraʿa al-Qibliyya, Kūbar, Burham and
+ʿAṭāra among them. When modern presses came in the 1990s, one owner remembered, the old people
+tasted the new oil and told him it was burned, and that he “should sell it to the soap factories in
+Nablus”{c('Omar Qassis, “Olive Oil and the Tastes of Palestine,” <i>Jerusalem Quarterly</i> 98 (2024), 12–32, pp. 16, 21 and 25, from fieldwork among the presses of the Ramallah and Bīr Zayt area. For the older trade, Ramallah merchants selling oil to the soap makers of Jaffa, see Taraki, <i>Jerusalem Quarterly</i> 83. '+D('2024_Qassis_Olive_Oil_and_the_Tastes_of_Palestine_JQ98.pdf')+'.')}.</p>
 <p><b>A wedding took a week.</b> Three steps came first: the <i>tulbeh</i> (the formal asking), the
 engagement, and the buying of the <i>kissweh</i>, the bride’s clothes, in Jerusalem and Bethlehem.
 Then came Monday to Sunday of dancing: the men’s <i>mel‘ab</i> in two facing rows around a fire,
@@ -2986,7 +2992,18 @@ the parish priests and the people spoke Arabic. The Patriarch and the Brotherhoo
 Sepulchre, which governed them, were Greek. The laity are the ordinary members of the church, as
 against its clergy. <b>When the Ottoman constitution was restored in 1908, the Arab Orthodox laity
 began a long and bitter fight for a share in running their own church</b>{c('Bertram &amp; Luke (1921), §§11–14: the laity and parochial clergy “almost exclusively Arabic-speaking”; “the bitter and prolonged struggle with the local Arabic-speaking laity which arose on the declaration of the Turkish Constitution in 1908.” The commissioners were British officials of the Mandate government; their report is used here for its figures and its record of the dispute, not for its judgements.')}.</p>
-<p>Ramallah, with the largest Orthodox parish outside Jerusalem, was in that fight from the start.</p>"""),
+<p>Ramallah, with the largest Orthodox parish outside Jerusalem, was in that fight from the start.</p>
+<p>What the laity wanted had been asked for since the last quarter of the nineteenth century: a
+council in each church province, a <i>Mixed Council</i> of clergy and laymen to run the community’s
+affairs, a lay voice in the money and in the election of the patriarch and the bishops, and the right
+of Arab Orthodox men to enter the monasteries. On 13 December 1908 the Synod suspended Patriarch
+Damianos, who had met the lay representatives. Across Palestine the Orthodox rose: six people were
+killed, and churches and monasteries were occupied. Damianos took back his see in late February 1909,
+and the laity had helped to put him there. <b>But they could not change the balance of power</b>: the
+Greek clergy kept the church{c('Konstantinos Papastathis and Ruth Kark, “Orthodox Communal Politics in Palestine after the Young Turk Revolution (1908–1910),” <i>Jerusalem Quarterly</i> 56–57 (2014), 118–39: the lay demands, p. 121; the Synod of 13 December 1908, p. 126; “the assassination of six individuals, while several churches and monasteries throughout Palestine were occupied by the local Orthodox,” p. 128; Damianos back “in late February 1909,” p. 130; “While the laity to some degree determined the reinstatement of Damianos to his see, it was unable to change the balance of power in its favor,” p. 118. The article does not name Ramallah. '+D('2014_Papastathis_Kark_Orthodox_Communal_Politics_1908-1910_JQ56-57.pdf')+'.')}. A century on,
+a student of the Patriarchate noticed what the long quarrel had left behind: “how little interaction
+the laity” in Ramallah or Nazareth “has with the Greek Brotherhood,” compared with the Orthodox
+families of Jerusalem’s Old City{c('Clayton Goodgame, “Custodians of Descent: The House, the Church, and the Family Waqf in the Orthodox Patriarchate of Jerusalem,” <i>Jerusalem Quarterly</i> 89 (2022), 32–50, p. 41. The Haddad family in his article are 1948 refugees from Haifa, not the Ḥaddādīn of this book. '+D('2022_Goodgame_Custodians_of_Descent_Orthodox_Family_Waqf_JQ89.pdf')+'.')}.</p>"""),
 
 ent('12 June 1905', 'oral', False, 'The last big fight',
  'On 12 June 1905 a wedding procession went through the narrow streets, and a quarrel broke out over clan songs. It became a <b>three-hour stone-throwing battle</b> between the Hadadeh and the Hamayel, fought from the rooftops, with the women refilling the trays of stones. Nobody was killed{}. The whole town was jailed together in Jerusalem, and released together when the church pleaded for it. The 1905 census counts 3,214 people in the eight clans, and every one of them seems to have been on a roof.'.format(c('Shāhīn (1982), “Ramallah’s Last Big Fight,” 12 June 1905; the 1905 clan census total of 3,214 from the population chapter.'))),

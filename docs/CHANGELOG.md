@@ -8,6 +8,8 @@ David: "yes" (write the new findings in). From the JQ and JPS articles shelved o
 - The al-Rafidi story (David: "put in the rafidi story"): Ibrahim Hanna al-Rafidi, al-Bīra's scribe (a 1901 land sale in his hand), who ran the town after the British deported its two leaders, respected by its Muslims, died without heirs (JQ 36, pp. 28–29).
 - 1948: Munayyer's "Fall of Lydda" now read and cited directly (JPS 27:4, p. 82): Ramallah stoned and cursed the Arab Legion. Mildred White and Donn Hutchison (JQ 80, pp. 92–93): refugee families in the Friends Meeting House and tents on the Girls School grounds.
 - Emigration: Katrina Saʿāde's story from the Saʿāde–Farḥāt letters (Bawalsa, JQ 47, pp. 11, 18); the Dayr Dibwān figures, farming 78% → 12% and abroad 6% → 61%, 1950s–1981 (Escribano and El-Joubeh, JPS 11:1, pp. 151–52).
+- The Orthodox struggle, 1908–09 (David: "yes"): the lay demands, the Synod's suspension of Damianos on 13 December 1908, the rising (six killed, churches occupied) and his return in February 1909; the laity "unable to change the balance of power" (Papastathis and Kark, JQ 56–57). Goodgame (JQ 89, p. 41): Ramallah's laity has little contact with the Greek Brotherhood today.
+- Olive oil: Ramallah's district second only to the north in oil; the villages named for good oil; old people sending new-press oil "to the soap factories in Nablus" (Qassis, JQ 98, pp. 16, 21, 25).
 
 ## v122 — Seetzen's page, Musil filed (26 Nov 2026)
 
