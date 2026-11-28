@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v125 — the Bateh family (28 Nov 2026)
+
+David chose "All seven" (add the Bateh material). From Naseeb Shaheen, *A Pictorial History of Ramallah II* (2005), pp. 100–105, *Hāthihi Rām Allāh* (July 1972, p. 4; June–July 1973, p. 9) and the family tree:
+- Chapter 10, the 1927 earthquake: ʿAbdallah ʿĪsā Bateh's house in Dār Ibrāhīm, left unfit to live in; the family rebuilt on Radio Street.
+- "The people our town produced": the Ramallah Trading Company (bought from Ibrāhīm Sālem and Yūsuf Dirbās in April 1916; 85 Washington Street; supplier to the peddlers; still trading, its hundredth year marked in 2016) and the "Uncle Easa" funeral quote of 1973.
+- "The diaspora builds a hospital": the magazine's 1919 "original Ramallah Foundation" of ʿĪsā Bateh and ʿAzīz Shāhīn, printed beside the Foundation's own 1943 (both dates kept); the Hamra Hotel's century, home 1932, hotel 1942, Birzeit classrooms in the first intifada, women's dormitory.
+- "The city, counted to the present": the family that left entirely; about nine in ten Bateh weddings with a recorded place were in Ramallah; Yaʿqūb Ḥanna Bateh, the last in the town, died about 1965.
+- Four Shaheen plates: the family about 1925 (p. 102), father and son 1931–32 (p. 103), the wedding of 23 June 1946 (p. 105), a reception at the Hamra about 1955 (p. 300).
+
+v125 also takes in the Shaheen family (David chose "All six"), from Naseeb Shaheen 1992 pp. 140–41 and 2005, Shāhīn's preface, *Hāthihi Rām Allāh* 1959–2012 and the carpet trade press:
+- "The first four sail for America": ʿAzīz Shāhīn's 1911 journey (London, refused at Liverpool for trachoma, Rotterdam, Veracruz, robbed at the border, $40 from Chicago).
+- "The people our town produced": Wabash Avenue 1916 (Cadora: 1913), Katherine Rug Mills in Dalton (1942 or 1944–46), World Carpets 1954, Mohawk 1998.
+- "The diaspora builds a hospital": ʿAzīz as the man on the site from 1958, and "Two families, one cause" (bedspreads in the First World War, 1968 relief and Knoxville honours, the 1939 Salamy–Bateh marriage).
+- June 1967: the Federation's relief through ʿAzīz, about $24,000 in 1967–68.
+- "The city, counted to the present": the girls' school, the 1966–2017 trust, the Birzeit and Friends Schools buildings.
+- "Shāhīn closes the record": how the 1982 book was made, and his death on 10 January 1996 aged 101 (103/104 elsewhere).
+
 ## v124 — Ramallah's ministers, checked (26 Nov 2026)
 
 "Under the Jordanian crown": the ministers passage now adds Simʿān Dāwūd (twelve governments, 1955–69) and Nadīm al-Zarw (named in April 1970 and stood down the same day; transport 1972–74), and notes the dispute over which Jalīl Badrān was minister in December 1955. Every post and date was checked against the Prime Ministry of Jordan's ministers database (pm.gov.jo). The al-Madīna print page of 16 March 2009 has been added to the shelf.
