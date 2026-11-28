@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v125.1 — the hospital lease (28 Nov 2026)
+
+The 1961 lease of the Ramallah hospital to the government was negotiated by Samʿān Dāwūd, not ʿAzīz Shāhīn (*Hāthihi Rām Allāh*, January 1962, p. 32).
+
 ## v125 — the Bateh family (28 Nov 2026)
 
 David chose "All seven" (add the Bateh material). From Naseeb Shaheen, *A Pictorial History of Ramallah II* (2005), pp. 100–105, *Hāthihi Rām Allāh* (July 1972, p. 4; June–July 1973, p. 9) and the family tree:
