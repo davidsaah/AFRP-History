@@ -1,6 +1,16 @@
 # Changelog
 
 
+## v125 — the Bateh and Shaheen families (28 Nov 2026)
+
+David: "merge" (write the Bateh and Shaheen findings in). From the research of 26–28 Nov (the Shaheen books, Cadora, the Family Tree, every *Hathihe Ramallah* issue that names the families, and their obituaries):
+- "The first four sail for America": ʿAzīz Shāhīn's 1911 crossing, turned back at Liverpool for trachoma and round by Veracruz and the Mexican border; the Bateh weddings (126 of 142 with a recorded place were in Ramallah); Yaʿqūb Bateh, the last Bateh in Ramallah, and his help with Shāhīn's book.
+- "The people our town produced": the Ramallah Trading Company (April 1916) and the Shaheen firms from Chicago to Katherine Rug Mills and World Carpets in Dalton; "Uncle Easa".
+- "The diaspora builds a hospital": who built it (Shāhīn, 1958–63), and the 1919 Ramallah Foundation of the 1972 magazine set against the Foundation's own 1943.
+- "The city, counted to the present": one family's account (1967 relief, the girls' school, the Charitable Trust, the Birzeit buildings).
+- "Shāhīn closes the record": how the record was made (the 1951 tax receipt, the letters, the women added in 1958), one family with three surnames, and "the two oldest men in Ramallah".
+- "Snow, then the earth shakes": the Bateh house ruined in 1927. "Steadfast": the Hamra house from 1932 to today.
+
 ## v124 — Ramallah's ministers, checked (26 Nov 2026)
 
 "Under the Jordanian crown": the ministers passage now adds Simʿān Dāwūd (twelve governments, 1955–69) and Nadīm al-Zarw (named in April 1970 and stood down the same day; transport 1972–74), and notes the dispute over which Jalīl Badrān was minister in December 1955. Every post and date was checked against the Prime Ministry of Jordan's ministers database (pm.gov.jo). The al-Madīna print page of 16 March 2009 has been added to the shelf.

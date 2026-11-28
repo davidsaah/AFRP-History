@@ -472,6 +472,20 @@ for _k, _v in {
 }.items():
     ADD72.setdefault(_k, []).extend(_v)
 
+# v125 (28 Nov 2026): the Bateh and Shaheen research. Same mechanism as ADD72.
+for _k, _v in {
+ 'The people our town produced': [lambda: _P(
+  "<b>Two of those firms, from the inside.</b> The Bateh firm was the <b>Ramallah Trading Company</b>. ʿĪsā and Jamīl Bateh founded it in April 1916 by buying out two Ramallah men, Ibrāhīm Sālim and Yūsuf Dirbās, who wanted to go home. It imported linens, bedspreads, tapestries and carpets and supplied the town’s own door-to-door peddlers, first from 85 Washington Street by the Battery and later from West 32nd Street, where its advertisement filled the back cover of the Federation’s magazine in the early 1970s. In 2005 Jamīl’s grandsons still ran it, in Brooklyn{n}.",
+  "Naseeb Shaheen, <i>A Pictorial History of Ramallah, Part II</i> (2005), p. 101; <i>Hathihe Ramallah</i>, July 1972, p. 4, reprinting the AUB Newsletter’s profile of ʿĪsā Bateh, which gives April 1916; the back-cover advertisements of <i>Hathihe Ramallah</i>, 1970–75."),
+  lambda: _P(
+  "ʿAzīz Shāhīn was one of its customers. After five years of selling door to door in Chicago he bought his uncle ʿĪsā Salamy’s wholesale business on South Wabash Avenue in 1916, and from 1930 traded as A. Shaheen and Brothers. In the Second World War, short of imported goods, he and his brothers Saʿīd and ʿAwaḍ bought a chenille plant in <b>Dalton, Georgia</b>. As Katherine Rug Mills it was one of the first mills to make tufted carpet, and in 1954 ʿAzīz’s son Shaheen left it to found World Carpets, later one of the largest carpet makers in America. In one lifetime the peddlers had become manufacturers{n}.",
+  "Shāhīn (1982), English text, p. 5; Naseeb Shaheen (2005), p. 250, for the Wabash Avenue store; <i>Hathihe Ramallah</i>, September 1960, p. 28, for A. Shaheen and Brothers and the Dalton plant, and July 1972, p. 4, for the Bateh connection; the obituary of Said Shaheen (Love Funeral Home, Dalton, 2008); <i>New Georgia Encyclopedia</i>, “World Carpets.” The sources date the Dalton purchase anywhere from 1942 (Cadora) to 1946."),
+  lambda: _P(
+  "When ʿĪsā Bateh died in 1973 the Federation’s president called him “Uncle Easa,” the founder of the company “whose helping hand had touched the hundreds of our people when they set their feet in these strange shores”{n}.",
+  "<i>Hathihe Ramallah</i>, June–July 1973, p. 9.")],
+}.items():
+    ADD72.setdefault(_k, []).extend(_v)
+
 # v75 the new literature (13 Nov 2026): al-Maʿlūf 1907, Jaussen 1908, Chatelard 2000, Connell 2022, Tristram 1873,
 # Shahîd's BASIC, Zahran 2006, van der Leest 2008, Analekta III, al-Dabbāgh, Sharab, Peake. Same mechanism as ADD72.
 ADD75 = {
@@ -2939,6 +2953,21 @@ live with his parents in Ramallah, on his promise that she could go back if she 
 did not get along with her in-laws. In February 1934 she sailed for California with one child, leaving
 two with their grandparents, and her father-in-law wrote to his son that she had gone to the courts
 claiming the children were “hungry, roaming in the streets of Ramallah”{c('Nadim Bawalsa, “Trouble with the In-Laws: Family Letters Between Palestine and the Americas (1925–1939),” <i>Jerusalem Quarterly</i> 47 (2011), pp. 11 and 18, from the Saʿāde and Farḥāt family letters. '+D('2011_Bawalsa_Trouble_with_the_In-Laws_Family_Letters_JQ47.pdf')+'.')}.</p>
+<p><b>What the trachoma rule meant.</b> ʿAzīz Shāhīn left in 1911, aged seventeen, with eight or ten
+Ramallah men. They sailed from Jaffa by Port Said to Portsmouth and reached London on 25 June 1911, in the
+week of George V’s coronation, when a night’s lodging cost each of them a pound. At Liverpool he and most
+of the group were refused the medical certificate: their eyes had trachoma. After six to eight weeks a
+Lebanese agent sent them by Rotterdam to Veracruz, and they rode nearly a thousand miles by train to
+Chihuahua. At the border their guide robbed them and threatened to kill them; the next day they crossed
+anyway. From Fort Worth he wired his uncles in Chicago, who sent him forty dollars, and he began, like most
+of our men, by selling dry goods from door to door{c('Naseeb Shaheen, <i>A Pictorial History of Ramallah</i> (1992), p. 141, his father’s own account; <i>Hathihe Ramallah</i> 8:8 (September 1960), p. 28, for the door-to-door trade and the debt to his uncle. A 2026 obituary of his son Shouky has him landing at Brooklyn in 1913; we follow the family’s own account. '+D('1992_Shaheen_A_Pictorial_History_of_Ramallah.pdf')+'.')}.</p>
+<p><b>They stayed, but they came home to marry.</b> In one family we can count it. Of the 142 weddings of
+the Bateh family whose place our family tree records, <b>126 were in Ramallah</b>. Only in the 1970s did
+weddings in America catch up with weddings at home{c('The Ramallah Family Tree, trees 143–146 (the Bateh family), counting the marriages with a recorded place. Recent decades are thinner, because the tree records what families reported.')}.</p>
+<p>And some families left altogether. Yaʿqūb Ḥannā Bateh died about 1965, aged ninety-one, and Naseeb
+Shaheen could write that “there are no members of the Bateh family living in Ramallah at the present time.”
+Yaʿqūb had given ʿAzīz Shāhīn much of what his book records of the Salāmeh, El-Wawi and Bateh
+families{c('Naseeb Shaheen, <i>A Pictorial History of Ramallah, Part II</i> (2005), pp. 100 and 103; the Ramallah Family Tree, tree 145, the note on Yaʿqūb Ḥannā Bateh.')}.</p>
 <p>In time leaving became the villages’ living as well as the town’s. In Dayr Dibwān, fifteen
 kilometres east of Ramallah, the share of people who lived from farming fell from <b>78 per cent in
 the 1950s to 38 per cent in 1967 and 12 per cent in 1981</b>, while the share living abroad rose from
@@ -3194,6 +3223,17 @@ E[-1] = E[-1][:7] + (fig(F5.fig_camps(), 'Where the road stopped',
 ent('1944–1963', 'documents', True, 'The diaspora builds a hospital',
  'In 1944 the Ramallah Foundation, Inc., set up in New York the year before, was incorporated there. A three-man delegation of Peter George Shihadeh, Yousef Abdallah Bateh and ʿAzīz Shāhīn himself toured every Ramallah community in the United States in 1944–45 and collected over <b>$90,000</b>{}. The Summer Resorts Company was founded in 1945, capitalised at £P50,000, in Palestine pounds, since there was no dinar in Palestine until 1950. Shāhīn has most of its stockholders in the diaspora; the municipality’s centennial book names Jalīl Ḥarb among its founders and says most of the shareholders were of the town itself. In 1951 it brought the water from ʿAin Fara. The same centennial book recalls the hotels that made the town’s name from the 1930s, Qaṣr al-Ḥamrāʾ, the ʿAwda and the Ḥarb, and the summer visitors who came before 1967 from Lebanon and the Gulf. On <b>20 May 1963 the Ramallah New Hospital opened</b>, with fifty beds on 26 dunams, the local measure of land. Its assets were vested in the New York Foundation. The money came back along the road the people had left on.'.format(c('Shāhīn (1982), “Societies”: the Foundation of 1944 (founded 1943 and incorporated in New York in 1944, by the Foundation’s own account), the delegation and the $90,000; the Hospital Society of c. 1945 and the 26 dunams; the hospital’s completion in 1961–63, third floor 1966–68, out-patient clinic 1977. Ramallah Municipality, <i>Ramallah: One Hundred Years</i>, the centennial book (2008), pp. 6 (the company, 1945) and 12 (the hotels).')),
  f"""
+<p><b>Who built it.</b> ʿAzīz Shāhīn, back from America, took charge. The Foundation gave him its power of
+attorney. He registered its Jordanian branch on 26 August 1959, put the land in its name and supervised the
+building. In 1961, with Samʿān Dāwūd leading the talks, the Foundation leased the finished hospital to the
+government for 3,000 dinars a year. The
+Federation’s magazine called him “the originator of the Hospital,” and the New York Foundation later wrote
+that God had sent “a saint who came to the rescue in the person of Aziz Shaheen”{c('<i>Hathihe Ramallah</i>, September–October 1959, pp. 27 and 33; January 1962, pp. 32–33; May–June 1975, p. 30. Shāhīn (1982), English text, p. 5.')}.</p>
+<p><b>An older beginning?</b> The Foundation dates itself to 1943. But in July 1972 the Federation’s own
+magazine wrote that ʿĪsā Bateh and ʿAzīz Shāhīn had formed the original Ramallah Foundation in 1919,
+and that its first work was to raise money for a hospital in Ramallah. No paper of a 1919 body has been
+found. If it existed, the hospital was a quarter of a century in the making before the tour of
+1944{c('<i>Hathihe Ramallah</i>, July 1972, p. 4, reprinting the AUB Newsletter’s profile of ʿĪsā Bateh; against the Foundation’s own account (founded 1943, incorporated in New York in 1944) and <i>Hathihe Ramallah</i>, July–August 2024, p. 9.')}.</p>
 <p><b>What we still don’t know.</b> No source we have found produces the lease for the land of
 al-Jalazūn camp itself, with its date, its term and its rent. If you know where the deed is kept, we would like to hear from you.</p>"""),
 
@@ -3212,6 +3252,14 @@ ent('1961–2024', 'documents', False, 'The city, counted to the present',
   c('The census series: Jordan 1961 (14,759); the census conducted by the Israeli Central Bureau of Statistics in the occupied territories in 1967 (12,134); PCBS 1997, 2007 and 2017; and the PCBS projection series, <i>Projected Mid-Year Population for Ramallah &amp; al-Bireh Governorate by Locality 2017–2021</i>, locality code 301810, which gives Ramallah <b>42,122 for 2021</b> — the 2022–26 table is attested by title but PCBS has taken it offline, so this book prints 2021 and no later projection. <b>On religion: the 1967 census is the only count of Christians and Muslims for Ramallah alone between 1945 and 1997.</b> Jordan’s census of 18 November 1961 counts Christians only for the two towns together: Table 2.11, row “Ramallah &amp; Bira,” has 8,745 Christians among 29,269 people, 29.9 per cent (printed p. 116). It gives Ramallah 14,759 people and al-Bīra 14,510 (Table 1.7, p. 15), with no split by religion for either alone. The 1967 census recorded <b>6,966 Christians of 12,134 — 57 per cent</b> of everyone counted; its own Table D prints 59.4 Christians per hundred inhabitants of known religion — and 5,203 people, 43 per cent of the town, originating from what had become Israel. <i>It is an Israeli state source, produced by the occupying power in the first months of the occupation, and this book says so on the page rather than passing the number through a tertiary work.</i> Its tables are now published in full and independently by the Levy Economics Institute of Bard College, so a reader can check them. By the first Palestinian census in 1997 Christians were <b>32 per cent</b> (PCBS, <i>Final Results: Ramallah City</i>, City Reports Series 005, 2000). <b>Between 1967 and 1997 there was no census of any kind, and no municipal, church or scholarly source publishes a religious breakdown for the town in that interval. The crossing from a Christian to a Muslim majority cannot at present be dated more closely than to those thirty years.</b>'),
   c('Shāhīn (1982), the emigration chapter: 1,500 by 1946, 4,000+ by 1960, 10,000+ by 1975 with fewer than 2,000 remaining, and the 85% figure.')),
  f"""
+<p><b>One family’s account.</b> ʿAzīz Shāhīn lived out his life in Ramallah, from his return in 1958
+until he died there on 10 January 1996, aged 101. After the war of 1967 the Federation’s relief went through
+his hands, about $24,000 of it in 1967–68, and in October 1967 he wrote, “There will be starvation unless you
+help us.” The town named a girls’ school after him, with 408 pupils by 1973. His charitable trust, formed in
+1966 and holding most of his estate, paid each year to nineteen schools, charities and homes for the blind and
+the aged until it was wound up in 2017, on his rule that the money go to buildings, not salaries. His family
+gave Birzeit University a clinic in his name (1998), a graduate studies building (2001), a humanities building
+(2007) and a theatre (2015){c('<i>Hathihe Ramallah</i>: October 1967, p. 30; July–August 1968, p. 28; March–April 1973, p. 27; January–February 1996, p. 24; May–June 1998, p. 15; May–June 2002, p. 4; September–October 2007, p. 5; November–December 2022, p. 15. Naseeb Shaheen (2005), p. 158. Birzeit University, the opening of the Naseeb Shaheen Theatre, 16 December 2015.')}.</p>
 {fig(F3.fig_two_pop(),'Two populations, one town',
  'Ramallah natives at home against Ramallah natives in the United States, on Shāhīn’s own figures. By 1975 he counts more than ten thousand Ramallah people in America: a diaspora that had grown to rival, and by some readings to overtake, the native population still at home. By his own 1975 figures, more than four in five Ramallah people lived in America; he put it at over 85 per cent, counting the town’s families, not the town’s residents. What is not in doubt is the direction of the money: the hospital, the water supply and the schools at home were paid for from the far side of the ocean.',
  'Shāhīn (1982): the home censuses of 1905–1953 and his diaspora counts — 1,500 by 1946, 2,580 in 1953, 4,000+ by 1960, 10,000+ by 1975.')}
@@ -3222,6 +3270,18 @@ ent('1961–2024', 'documents', False, 'The city, counted to the present',
 ent('1982', 'documents', False, 'Shāhīn closes the record',
  'ʿAzīz Shāhīn was born in 1894. He survived typhoid in 1906, boarded at the Friends Boys School in 1907–10 and was a fund-raiser in 1944–45. In 1982 he published <span class="ar">كشف النقاب</span>, <i>Kashf al-niqāb</i>, “Lifting the veil”: 807 pages of Arabic and 77 of English, the book we measure everything else here against{}. His history ends: <i>“The foregoing history of Ramallah brings us down to the end of 1978. Every effort has been made to make it as complete and as accurate as possible.”</i> Where we could check him against other records, he held up.'.format(c('Shāhīn (1982); the autobiographical details from his own chapters. The full test of his chronology against the external record: 36 checkable claims — 12 confirmed, 15 new, 5 refined, 3 corrected, 1 in conflict.')),
  f"""
+<p><b>How the record was made.</b> It began in 1951 with his mother’s tin can of old papers, and a
+Turkish tax receipt made out to his grandfather, ʿAudi ibn Mansoor Shaheen. “Most of the Bedouin can name
+quite a few of their ancestors,” he wrote, “while we in the villages and towns can name only three or four of
+our forefathers.” He questioned the old men and women, read the census of 1904–06 in city hall and the
+marriage registers of every church, and from 1958 added the women he had at first left out. He wrote hundreds
+of letters to Ramallah families across America. His 111 trees hold about 25,000 names, and the Ramallah
+Family Tree on which this book draws began as his. His own family shows how the clans’ surnames were made:
+ʿAudi Muhawieh’s sons Mansoor, Nasrallah and Shaheen each passed his own name to his children, so the
+Mansours, the Muhawiehs and the Shaheens are one family. His son Naseeb wrote the English text and went on
+to gather the town’s photographs into two picture histories, in 1992 and 2005. In the summer of 1995
+ʿAzīz, a hundred years old, and Mūsā Nāṣer ʿAkkal were photographed together as “the two oldest men in
+Ramallah”{c('Shāhīn (1982), Preface, pp. 11–13, and “About the Author”, p. 5; <i>Hathihe Ramallah</i>, November–December 1982, p. 7, and January–February 2008; the Ramallah Family Tree, tree 47, the note on Azeez Shaheen; Naseeb Shaheen (1992), p. 176, for the three surnames, and (2005), p. 268.')}.</p>
 <p><b>What we still don’t know.</b> We have not yet found the Michigan record of the Federation’s
 incorporation, which would give the day in 1959 it was filed. We cannot name the year the town’s
 Muslims became the majority, because no count between 1967 and 1997 asked anyone’s religion. If your family’s papers can answer either question, we would like to hear from you.</p>"""),
