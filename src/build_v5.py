@@ -472,6 +472,28 @@ for _k, _v in {
 }.items():
     ADD72.setdefault(_k, []).extend(_v)
 
+# v125 the Bateh family (27 Nov 2026): David chose "All seven" on the Bateh card.
+_SH05 = "Naseeb Shaheen, <i>A Pictorial History of Ramallah, Part II</i> (Birzeit University Press, 2005)"
+_HAT = "<i>Hāthihi Rām Allāh</i>, the Federation’s magazine"
+for _k, _v in {
+ 'The people our town produced': [lambda: _P(
+  "<b>The Ramallah Trading Company.</b> The biggest of those firms began in a sale. In 1916 ʿĪsā ʿAbdallah Bateh and his brother Jamīl bought the business of Ibrāhīm Sālem and Yūsuf Dirbās, two Ramallah men who wanted to go home, and called it the Ramallah Trading Company. The Federation’s magazine dates the founding to April 1916. It stood at 85 Washington Street by the Battery in lower Manhattan, a ferry ride from the Batehs’ homes in Brooklyn, and later moved to Fifth Avenue and to West 32nd Street. Its customers were the door-to-door peddlers of Ramallah and elsewhere, who bought tapestries, bedspreads and tablecloths from it and carried them from house to house. The brothers Yūsuf and Ziyāda joined in 1918 and 1927. In 2005 the company was still trading in Brooklyn under ʿAbdallah’s great-grandsons. In 2016 the trade press marked its hundredth year, and it is still in business on Fifth Avenue. It is the longest-lived Ramallah firm in America that we can document{n}.",
+  _SH05 + ", pp. 100–101; " + _HAT + ", July 1972, p. 4, for April 1916; <i>Home Textiles Today</i>, 17 March 2016, for the hundredth year; <i>Commercial Observer</i>, 5 March 2021, and the company’s own website (2024), for 320 Fifth Avenue."),
+  lambda: _P(
+  "<b>“Uncle Easa”.</b> When ʿĪsā Bateh died in 1973, the Federation’s president called him the man “whose helping hand had touched the hundreds of our people when they set their feet in these strange shores”{n}.",
+  _HAT + ", June–July 1973, p. 9.")],
+ 'The diaspora builds a hospital': [lambda: _P(
+  "<b>An older start, by the Federation’s own magazine.</b> The Foundation dates itself to 1943. But in 1972 the Federation’s magazine wrote that ʿĪsā Bateh and ʿAzīz Shāhīn had formed “the original Ramallah Foundation” in <b>1919</b>, and that its first project was a fund for a hospital in Ramallah. If that is right, the hospital that opened in 1963 was an idea forty-four years old. The two accounts may describe two bodies with one name. We print both and cannot yet say which is meant{n}.",
+  _HAT + ", July 1972, p. 4; for 1943, the Foundation’s own account as cited above."),
+  lambda: _P(
+  "<b>One house, a whole century.</b> The Hamra Hotel, which we take to be the Qaṣr al-Ḥamrāʾ of the centennial book, was a family home first. ʿAbdallah ʿĪsā Bateh built it on Radio Street, near the Manāra, after the earthquake of 1927, and finished it in 1932: three floors on 36 dunams, for four sons and three daughters. He died in 1935, and most of his sons were in America. In 1942 the house was leased to the Summer Resorts company and became a hotel, Shaheen says, where many of the town’s banquets were held. Later it was sublet to Birzeit University. In the first intifada, when the army closed the university’s campus, it was one of the places where classes went on. When Shaheen wrote, it was a dormitory for Birzeit’s women students{n}.",
+  _SH05 + ", p. 100. Shaheen gives 1942 for the lease; the company’s founding is given as 1945 above, from Shāhīn (1982).")],
+ 'The city, counted to the present': [lambda: _P(
+  "<b>One family, all the way out.</b> The Bateh family shows the numbers above in one line. ʿAbdallah’s sons left one by one: ʿĪsā in 1910, Jamīl in 1912, Yūsuf in 1918. For a generation they came home to marry. Of the Bateh weddings whose place our family tree records, about nine in ten were held in Ramallah, among them Ziyāda Bateh’s to Leila Sālem on 23 June 1946. Then the line thinned. Yaʿqūb Ḥanna Bateh, the last of the family in the town, died about 1965, aged 91, and one of the last to leave came to America about 1967. When Shaheen wrote, no Bateh lived in Ramallah{n}.",
+  _SH05 + ", pp. 100, 103 and 105. The wedding places are from the Ramallah Family Tree (the database kept by John Mogannam), counted in November 2026; the count covers only weddings with a recorded place.")],
+}.items():
+    ADD72.setdefault(_k, []).extend(_v)
+
 # v75 the new literature (13 Nov 2026): al-Maʿlūf 1907, Jaussen 1908, Chatelard 2000, Connell 2022, Tristram 1873,
 # Shahîd's BASIC, Zahran 2006, van der Leest 2008, Analekta III, al-Dabbāgh, Sharab, Peake. Same mechanism as ADD72.
 ADD75 = {
@@ -4416,6 +4438,10 @@ _SH80 = [
  (11, 'p357_1.jpg', 356, 'The evening haflah at the first Ramallah convention, Detroit, September 1959.', (1959, None)),
  (12, 'p343_1.jpg', 342, 'Mughtarabeen Plaza, the Emigrants’ Square, about 1987, known as Clock Plaza for the clock on its column.', (1987, None)),
  (12, 'p343_2.jpg', 342, 'Ramallah from al-Masyoon, looking east, 1997. Photograph by Basem Ahwal.', (1997, None)),
+ (10, 'p103_1.jpg', 102, 'The family of ʿAbdallah ʿĪsā Bateh, about 1925. ʿAbdallah and his wife Nijmeh are seated; she holds their granddaughter Jamīleh. Standing at the right are their children Farīdeh, Ziyāda and Jalīleh; at the left, Hilāneh, wife of their son Jamīl.', (1925, None)),
+ (10, 'p104_1.jpg', 103, 'ʿAbdallah ʿĪsā Bateh with his son ʿĪsā, the moving force of the Ramallah Trading Company, 1931–32, shortly before the father’s death. Below them, ʿĪsā in 1934 (right) and Yaʿqūb Ḥanna Bateh in 1950 (left), the last of the family in Ramallah.', (1932, None)),
+ (10, 'p106_2.jpg', 105, 'The wedding of Ziyāda ʿAbdallah Bateh and Leila Ibrāhīm Sālem, Ramallah, 23 June 1946. The woman farthest left, in the Ramallah dress, is Julia Mūsā Rafīdī.', (1946, None)),
+ (11, 'p301_1.jpg', 300, 'A reception at the Hamra Hotel, about 1955: the house ʿAbdallah Bateh finished in 1932.', (1955, None)),
 ]
 for _n, _fn, _pg, _cap, _d in _SH80:
     SHAHEEN.setdefault(_n, []).append((_fn, _pg, _cap))
@@ -4462,11 +4488,13 @@ PLACE = {
  'p111_1.jpg': 'The Patriarchate counts its flock',
  'p106_1.jpg': 'The counting years', 'p268_1.jpg': 'The counting years', 'p266_3.jpg': 'The counting years',
  'p227_1.jpg': 'The counting years',
+ 'p103_1.jpg': 'The counting years', 'p104_1.jpg': 'The counting years',
+ 'p106_2.jpg': 'The counting years',
  # chapter 11
  'p184_2.jpg': 'The catastrophe of 1948',
  'p185_1.jpg': 'Where the refugees lived', 'p183_1.jpg': 'Where the refugees lived',
  'p183_2.jpg': 'Where the refugees lived', 'p184_3.jpg': 'Where the refugees lived',
- 'p228_1.jpg': 'The diaspora builds a hospital', 'p160_2.jpg': 'The diaspora builds a hospital',
+ 'p301_1.jpg': 'The diaspora builds a hospital', 'p228_1.jpg': 'The diaspora builds a hospital', 'p160_2.jpg': 'The diaspora builds a hospital',
  'p357_1.jpg': 'The Federation', 'p161_3.jpg': 'The Federation',
  # chapter 12
  'p162_2.jpg': 'The city, counted to the present', 'p343_1.jpg': 'The city, counted to the present',

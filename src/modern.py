@@ -221,10 +221,13 @@ def apply(g):
         'On <b>9 February 1920</b> snow fell on Ramallah for seventy-two hours, up to a metre and a quarter deep. '
         'It broke the olive trees and closed the Jerusalem road for a week{}. '
         'On <b>11 July 1927</b> the great earthquake struck Palestine. In Ramallah <b>two people were killed</b> and many houses were broken, above all in the old town. '
-        'The Latin Patriarchate paid for those who had lost their houses{}.'.format(
+        'The Latin Patriarchate paid for those who had lost their houses{}. '
+        'One of the broken houses has a name. ʿAbdallah ʿĪsā Bateh’s home in Dār Ibrāhīm, near today’s Scout headquarters, was left unfit to live in. '
+        'His family rented elsewhere for five years while he built again on Radio Street, near the Manāra{}.'.format(
             c(CAD + ', p. 55.'),
             c(SHAHIN + ', English section, chronology, p. 75: “Only two inhabitants of Ramallah killed, but property damage heavy”; '
-              + SH + ', p. 34; ' + CAD + ', p. 56, for the old town and the Patriarchate.')),
+              + SH + ', p. 34; ' + CAD + ', p. 56, for the old town and the Patriarchate.'),
+            c(SH + ', p. 100.')),
         locplate('03041v.jpg', '2019696336',
             'A house in Nablus left a shell by the earthquake of 11 July 1927. We have found no photograph of the damage in Ramallah.',
             'American Colony Photo Department, 1927.')
